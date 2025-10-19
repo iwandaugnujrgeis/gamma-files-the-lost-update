@@ -1,0 +1,40 @@
+{
+  "type": "sweety_garden:heather_patchs",
+  "config": {
+    "tries": 24,
+    "y_spread": 2,
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              {
+                "data": {
+                  "Name": "upgrade_aquatic:pink_searocket"
+                },
+                "weight": 2
+              },
+              {
+                "data": {
+                  "Name": "minecraft:grass"
+                },
+                "weight": 1
+              }
+            ]
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:air"
+          }
+        }
+      ]
+    }
+  }
+}

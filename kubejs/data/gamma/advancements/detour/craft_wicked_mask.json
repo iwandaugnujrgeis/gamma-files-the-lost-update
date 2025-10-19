@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "species:wicked_mask"
+    },
+    "title": "Unnatural Selection",
+    "description": "Craft a Mask of Trickery and steal Wither's identity!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "gamma:detour/liars",
+  "criteria": {
+    "craft_mask": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "species:wicked_mask"
+            ]
+          }
+        ]
+      }
+    },
+    "wicked_mask_wither": {
+      "trigger": "species:wicked_mask_wither"
+    }
+  },
+    "requirements": [
+    [
+      "wicked_mask_wither"
+    ],
+    [
+      "craft_mask"
+    ]
+  ]
+}

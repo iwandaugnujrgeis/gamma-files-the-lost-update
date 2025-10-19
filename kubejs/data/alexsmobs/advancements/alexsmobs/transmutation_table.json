@@ -1,0 +1,38 @@
+{
+  "display": {
+    "hidden": false,
+    "icon": {
+        "item": "alexsmobs:transmutation_table"
+    },
+    "title": "Mixinception",
+    "description": "Craft a Transmutation Table and Transmute 1000 items!",
+    "frame": "challenge"
+  },
+  "parent": "alexsmobs:alexsmobs/farseer",
+  "criteria": {
+    "get_transmutation_table": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+            [
+                "alexsmobs:transmutation_table"
+            ]
+          }
+        ]
+      }
+    },
+    "transmute_1000_items": {
+      "trigger": "alexsmobs:transmute_1000_items"
+    }
+  },
+  "requirements": [
+    [
+      "get_transmutation_table"
+    ],
+    [
+        "transmute_1000_items"
+    ]
+  ]
+}

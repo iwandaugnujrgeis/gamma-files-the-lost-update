@@ -1,0 +1,33 @@
+{
+  "parent": "gamma:nether/craft_bismuth_ingot",
+  "criteria": {
+    "get_wool": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "etcetera:iridescent_wool"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Craft Iridescent Wool!",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "etcetera:iridescent_wool"
+    },
+    "show_toast": true,
+    "title": "Sheared the Rainbow!"
+  },
+  "requirements": [
+    [
+      "get_wool"
+    ]
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#sweety_garden:has_feature/wood_anemone_patchs",
+  "features": "sweety_garden:wood_anemone_patchs",
+  "step": "vegetal_decoration"
+}

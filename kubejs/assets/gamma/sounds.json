@@ -1,0 +1,45 @@
+{
+  "music.skylands": {
+    "sounds": [
+      {
+        "name": "music.creative",
+        "type": "event",
+        "weight": 3
+      },
+      {
+        "name": "music/game/end/credits",
+        "stream": true,
+        "weight": 1
+      },
+      {
+        "name": "gamma:music/chris1",
+        "stream": true,
+        "weight": 2
+      }
+    ]
+  },
+  "music_disc.dog": {
+    "sounds": [
+      {
+        "name": "records/dog",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.eleven": {
+    "sounds": [
+      {
+        "name": "records/eleven",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.droopy2": {
+    "sounds": [
+      {
+        "name": "records/droopy2",
+        "stream": true
+      }
+    ]
+  }
+}

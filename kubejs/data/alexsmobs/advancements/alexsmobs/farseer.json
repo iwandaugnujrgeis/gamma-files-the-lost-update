@@ -1,0 +1,33 @@
+{
+  "parent": "alexsmobs:alexsmobs/dimensional_carver",
+  "criteria": {
+    "killed_farseer": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "alexsmobs:farseer"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "hidden": false,
+    "frame": "challenge",
+    "icon": {
+      "item": "alexsmobs:farseer_arm"
+    },
+    "title": "The Watcher of Worlds",
+    "description": "Defeat a Farseer at the World Border!"
+  },
+  "requirements": [
+    [
+      "killed_farseer"
+    ]
+  ]
+}

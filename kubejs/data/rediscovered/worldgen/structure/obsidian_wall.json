@@ -1,0 +1,18 @@
+{
+  "type": "rediscovered:obsidian_wall",
+  "biomes": "#rediscovered:has_obsidian_wall",
+  "spawn_overrides": {
+    "monster": {
+      "bounding_box": "full",
+      "spawns": [
+        {
+          "type": "alexsmobs:farseer",
+          "maxCount": 1,
+          "minCount": 1,
+          "weight": 50
+        }
+      ]
+    }
+  },
+  "step": "surface_structures"
+}

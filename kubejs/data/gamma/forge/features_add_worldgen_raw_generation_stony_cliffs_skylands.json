@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#rediscovered:is_skylands",
+  "features": [
+    "wythers:terrain/placed_random_patch/stone_cliffs"
+  ],
+  "step": "raw_generation"
+}

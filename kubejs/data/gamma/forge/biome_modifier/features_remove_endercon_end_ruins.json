@@ -1,0 +1,8 @@
+{
+  "type": "forge:remove_features",
+  "biomes": "#minecraft:is_end",
+  "features": [
+    "endercon:end_ruins"
+  ],
+  "step": "vegetation_decoration"
+}
