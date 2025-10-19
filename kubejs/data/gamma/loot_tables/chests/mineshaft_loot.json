@@ -296,7 +296,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:torch",
+          "name": "hardcore_torches:lit_torch",
           "weight": 15
         }
       ],
