@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "gamma:tu19_castle",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 64413242,
+    "spacing": 7,
+    "separation": 6,
+    "type": "minecraft:random_spread"
+  }
+}
