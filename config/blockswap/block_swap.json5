@@ -69,9 +69,6 @@
 		"minecraft:purple_glazed_terracotta": "minecraft:dirt",
 		"minecraft:red_glazed_terracotta": "minecraft:dirt",
 		"minecraft:white_glazed_terracotta": "minecraft:dirt",
-		"minecraft:yellow_glazed_terracotta": "minecraft:dirt",
-
-		//Dust:
-		"spelunkery:dust": "supplementaries:ash"
+		"minecraft:yellow_glazed_terracotta": "minecraft:dirt"
 	}
 }

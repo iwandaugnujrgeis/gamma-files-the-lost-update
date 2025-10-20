@@ -7,18 +7,5 @@
     "spacing": 12,
     "structure": "rediscovered:indev_house"
   },
-  "structures": [
-    {
-      "structure": "rediscovered:indev_house_cherry",
-      "weight": 1
-    },
-    {
-      "structure": "rediscovered:indev_house_default",
-      "weight": 1
-    },
-    {
-      "structure": "rediscovered:indev_house_mossy",
-      "weight": 1
-    }
-  ]
+  "structures": []
 }
