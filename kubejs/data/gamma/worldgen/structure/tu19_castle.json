@@ -1,7 +1,7 @@
 {
   "type": "minecraft:jigsaw",
   "start_pool": "gamma:tu19_castle/start_pool",
-  "size": 1,
+  "size": 7,
   "max_distance_from_center": 80,
   "biomes": "#rediscovered:is_skylands",
   "step": "surface_structures",

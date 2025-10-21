@@ -351,6 +351,17 @@
         "y": "NONE"
       },
       "sync": "supplementaries:slimed_overlay"
+    },
+    "windswept:carved_pinecone": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "windswept:carved_pinecone"
     }
   }
 }
