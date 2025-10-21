@@ -5,6 +5,7 @@ const removedInOutputs =
         'minecraft:piglin_spawn_egg',
         'minecraft:piglin_brute_spawn_egg',
         'minecraft:zombified_piglin_spawn_egg',
+        'spelunkery:dust_bunny_spawn_egg',
 
     //3.18:
         'variantsandventures:thicket_spawn_egg',

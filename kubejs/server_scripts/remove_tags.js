@@ -4,6 +4,7 @@ ServerEvents.tags('item', event => {
     event.removeAllTagsFrom('minecraft:piglin_spawn_egg')
     event.removeAllTagsFrom('minecraft:piglin_brute_spawn_egg')
     event.removeAllTagsFrom('minecraft:zombified_piglin_spawn_egg')
+    event.removeAllTagsFrom('spelunkery:dust_bunny_spawn_egg')
 
 //3.18:
     event.removeAllTagsFrom('variantsandventures:thicket_spawn_egg')
