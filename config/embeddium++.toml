@@ -144,7 +144,7 @@
 			endFogBright = 0.6
 			#Configure min moon brightness level with darkness
 			#Range: 0.0 ~ 1.0
-			newMoonBright = 0.25
+			newMoonBright = 0.45
 			#Toggle Darkness on End dimension
 			enableOnEnd = true
 			#Toggle Darkness default mode for modded dimensions
@@ -160,10 +160,10 @@
 			dimensionWhitelist = []
 			#Configure max moon brightness level with darkness
 			#Range: 0.0 ~ 1.0
-			fullMoonBright = 0.6
+			fullMoonBright = 0.8
 			#Configure fog brightness on nether when darkness is enabled
 			#Range: 0.0 ~ 1.0
-			netherFogBright = 0.0
+			netherFogBright = 0.2
 			#Toggle Darkness on Nether dimension
 			enableOnNether = true
 			#Toggle darkness when dimension has no SkyLight
