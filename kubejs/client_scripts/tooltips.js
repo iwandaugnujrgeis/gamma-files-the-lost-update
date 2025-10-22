@@ -1,5 +1,11 @@
 //Remove Tooltips:
 ItemEvents.tooltip(tooltip => {
+  tooltip.addAdvanced('minecraft:painting', (item, advanced, text) => {
+    text.remove(1)
+    text.remove(1)
+    text.remove(1)
+  })
+
   tooltip.addAdvanced('farmersdelight:milk_bottle', (item, advanced, text) => {
     text.remove(1)
   })
