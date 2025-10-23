@@ -76,11 +76,6 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "earthmobsmod:carved_melon"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
           "name": "ecologics:cooked_prickly_pear"
         },
         {
@@ -167,11 +162,6 @@
           "type": "minecraft:item",
           "weight": 1,
           "name": "minecraft:ender_pearl"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:experience_bottle"
         },
         {
           "type": "minecraft:item",

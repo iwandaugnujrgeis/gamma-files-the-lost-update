@@ -31,9 +31,9 @@
     {
       "name": "minecraft:blaze_spawn_egg" 
     },
-    {
-      "name": "earthmobsmod:bouldering_zombie_spawn_egg" 
-    },
+    //{
+      //"name": "earthmobsmod:bouldering_zombie_spawn_egg"
+    //},
     {
       "name": "alexsmobs:spawn_egg_bald_eagle" 
     },
@@ -152,9 +152,6 @@
       "name": "minecraft:frog_spawn_egg" 
     },
     {
-      "name": "earthmobsmod:furnace_golem_spawn_egg" 
-    },
-    {
       "name": "alexsmobs:spawn_egg_gazelle" 
     },
     {
@@ -206,9 +203,6 @@
       "name": "minecraft:iron_golem_spawn_egg" 
     },
     {
-      "name": "earthmobsmod:jolly_llama_spawn_egg" 
-    },
-    {
       "name": "alexsmobs:spawn_egg_jerboa" 
     },
     {
@@ -234,9 +228,6 @@
     },
     {
       "name": "alexsmobs:spawn_egg_mantis_shrimp" 
-    },
-    {
-      "name": "earthmobsmod:melon_golem_spawn_egg" 
     },
     {
       "name": "alexsmobs:spawn_egg_mimic_octopus" 

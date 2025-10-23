@@ -163,7 +163,7 @@
 			fullMoonBright = 0.8
 			#Configure fog brightness on nether when darkness is enabled
 			#Range: 0.0 ~ 1.0
-			netherFogBright = 0.2
+			netherFogBright = 0.0
 			#Toggle Darkness on Nether dimension
 			enableOnNether = true
 			#Toggle darkness when dimension has no SkyLight

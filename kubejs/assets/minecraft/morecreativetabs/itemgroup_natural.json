@@ -727,9 +727,9 @@
     {
       "name": "minecraft:melon"
     },
-    {
-      "name": "earthmobsmod:carved_melon"
-    },
+    //{
+      //"name": "earthmobsmod:carved_melon"
+    //},
     {
       "name": "minecraft:pumpkin"
     },
