@@ -42,7 +42,7 @@ StartupEvents.registry('item', event => {
             .displayName('Waffle')
             .name(itemstack => 'Waffle')
             .food(food => {
-                  food.hunger(6).saturation(0.5)
+                  food.hunger(5).saturation(0.5)
             })
 
       event.create('banana_bread')

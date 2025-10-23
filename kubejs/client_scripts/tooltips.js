@@ -1,10 +1,10 @@
 //Remove Tooltips:
 ItemEvents.tooltip(tooltip => {
-  tooltip.addAdvanced('minecraft:painting', (item, advanced, text) => {
-    text.remove(1)
-    text.remove(1)
-    text.remove(1)
-  })
+  //tooltip.addAdvanced('minecraft:painting', (item, advanced, text) => {
+    //text.remove(1)
+    //text.remove(1)
+    //text.remove(1)
+  //})
 
   tooltip.addAdvanced('farmersdelight:milk_bottle', (item, advanced, text) => {
     text.remove(1)
@@ -174,7 +174,6 @@ ItemEvents.tooltip(tooltip => {
 //Banana Power II:
     tooltip.addAdvanced('kubejs:banana_bread', (item, advanced, text) => {
         text.add(1, [Text.of('§9Poison Resistance (0:15)')])
-        text.add(2, [Text.of('§9Regeneration (0:10)')])
     })
 
 //Honey:
@@ -273,14 +272,6 @@ ItemEvents.tooltip(tooltip => {
   ]
   tooltip.addAdvanced(levitation, (item, advanced, text) => {
       text.add(1, [Text.of('§9Levitation (0:10)')])
-  })
-
-//Bakery Boost:
-  const bakeryBoost = [
-    'kubejs:waffle'
-  ]
-  tooltip.addAdvanced(bakeryBoost, (item, advanced, text) => {
-      text.add(1, [Text.of('§9Regeneration (0:05)')])
   })
 
 //Gold Tools:

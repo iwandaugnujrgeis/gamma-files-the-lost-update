@@ -181,12 +181,6 @@ ItemEvents.modification(event => {
     })
 
     //Bakery
-        event.modify('kubejs:waffle', item => {
-            item.foodProperties = food => {food
-                .effect('regeneration', 100, 0, 100)
-            }
-        })
-
         candyRush1('farmersdelight:sweet_berry_cookie')
         restore0_5('hauntedharvest:popcorn') //Bring It Back!
         restore1('farmersdelight:sweet_berry_cookie')
@@ -212,7 +206,6 @@ ItemEvents.modification(event => {
 
         event.modify('kubejs:banana_bread', item => {
             item.foodProperties = food => {food
-                .effect('regeneration', 200, 0, 100)
                 .effect('alexsmobs:poison_resistance', 300, 0, 100)
             }
         })
