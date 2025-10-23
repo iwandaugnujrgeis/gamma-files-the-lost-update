@@ -392,7 +392,7 @@ craftingTable.addShaped("pulley", <item:supplementaries:pulley_block>, [
     [<item:minecraft:iron_ingot>, <tag:items:minecraft:logs>, <item:minecraft:iron_ingot>],
     [<tag:items:minecraft:wooden_slabs>, <tag:items:minecraft:wooden_slabs>, <tag:items:minecraft:wooden_slabs>]]);
 
-craftingTable.addShaped("waffle", <item:kubejs:waffle>, [
+craftingTable.addShaped("waffle", <item:kubejs:waffle> * 2, [
     [<item:kubejs:dough>, <item:kubejs:butter>], 
     [<item:kubejs:butter>, <item:kubejs:dough>]]);
 
