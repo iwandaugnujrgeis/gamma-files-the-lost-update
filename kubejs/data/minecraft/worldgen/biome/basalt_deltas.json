@@ -9,7 +9,7 @@
       "tick_chance": 0.0111
     },
     "ambient_sound": "minecraft:ambient.basalt_deltas.loop",
-    "fog_color": 6840176,
+    "fog_color": 0,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
@@ -28,7 +28,7 @@
       },
       "probability": 0.118093334
     },
-    "sky_color": 7254527,
+    "sky_color": 0,
     "water_color": 4159204,
     "water_fog_color": 329011
   },
