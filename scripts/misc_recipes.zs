@@ -1500,3 +1500,9 @@ craftingTable.addShaped("fire_charge", <item:minecraft:fire_charge> * 3, [
     [<item:minecraft:air>, <tag:items:minecraft:coals>, <item:minecraft:air>],
     [<tag:items:minecraft:coals>, <item:alexsmobs:lava_bottle>, <tag:items:minecraft:coals>],
     [<item:minecraft:air>, <tag:items:minecraft:coals>, <item:minecraft:air>]]);
+
+craftingTable.remove(<item:upgrade_aquatic:music_disc_atlantis>);
+craftingTable.addShaped("music_disc_atlantis", <item:upgrade_aquatic:music_disc_atlantis>, [
+    [<item:minecraft:air>, <item:upgrade_aquatic:disc_fragment_atlantis>, <item:minecraft:air>], 
+    [<item:upgrade_aquatic:disc_fragment_atlantis>, <item:minecraft:quartz>, <item:upgrade_aquatic:disc_fragment_atlantis>],
+    [<item:minecraft:air>, <item:upgrade_aquatic:disc_fragment_atlantis>, <item:minecraft:air>]]);
