@@ -94,7 +94,6 @@ ItemEvents.modification(event => {
     restore0_5('minecraft:sweet_berries')
 
     restore1('farmersdelight:pumpkin_slice')
-    restore1('farmersdelight:rice')
     restore1('minecraft:apple')
     restore1('minecraft:beetroot')
     restore1('minecraft:carrot')
@@ -135,11 +134,8 @@ ItemEvents.modification(event => {
 
     const mushrooms = [
         'galosphere:bowl_lichen',
-        'goodending:birch_mushroom',
         'minecraft:brown_mushroom',
-        'minecraft:crimson_fungus',
         'minecraft:red_mushroom',
-        'minecraft:warped_fungus',
         'quark:glow_shroom',
         'spelunkery:button_mushroom',
         'spelunkery:crimini',
@@ -182,7 +178,6 @@ ItemEvents.modification(event => {
 
     //Bakery
         candyRush1('farmersdelight:sweet_berry_cookie')
-        restore0_5('hauntedharvest:popcorn') //Bring It Back!
         restore1('farmersdelight:sweet_berry_cookie')
         restore1('minecraft:cookie') 
         restore2('minecraft:bread')
@@ -223,14 +218,12 @@ ItemEvents.modification(event => {
         event.modify('kubejs:honeyed_apple', item => {
             item.foodProperties = food => {food
                 .hunger(4).saturation(0.5)
-                //.effect('instant_health', 1, 0, 100) //Moved to Miscellaneous Script!
             }
         })
 
         event.modify('minecraft:honey_bottle', item => {
             item.foodProperties = food => {food
                 .hunger(4).saturation(0.5)
-                //.effect('instant_health', 1, 0, 100)
             }
         })
 
