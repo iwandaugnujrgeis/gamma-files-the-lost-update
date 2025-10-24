@@ -8,6 +8,7 @@
 
 	"swapper": 
 	{
+		"rediscovered:ruby_block": "minecraft:waxed_copper_block",
 		"minecraft:deepslate_iron_ore": "minecraft:deepslate",
 		'minecraft:blast_furnace': "minecraft:furnace",
 		'minecraft:campfire': "minecraft:air",
