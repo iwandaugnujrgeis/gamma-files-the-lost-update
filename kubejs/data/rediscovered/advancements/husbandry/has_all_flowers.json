@@ -1,64 +1,7 @@
 {
-  "parent": "rediscovered:skylands/root",
   "criteria": {
-    "cyan_rose": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "rediscovered:cyan_rose"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-    "paeonia": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "rediscovered:paeonia"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-    "rose": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "rediscovered:rose"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
+    "never": {
+      "trigger": "minecraft:impossible"
     }
-  },
-  "display": {
-    "announce_to_chat": true,
-    "description": "Obtain All the Forgotten Flowers...",
-    "frame": "task",
-    "hidden": false,
-    "icon": {
-      "item": "rediscovered:cyan_rose"
-    },
-    "show_toast": true,
-    "title": "It’s a Blue Rose Case..."
-  },
-  "requirements": [
-    [
-      "rose"
-    ],
-    [
-      "paeonia"
-    ],
-    [
-      "cyan_rose"
-    ]
-  ],
-  "sends_telemetry_event": true
+  }
 }
