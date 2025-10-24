@@ -238,11 +238,6 @@
             }
           ],
           "name": "supplementaries:flute"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "spelunkery:bunny_ears",
-          "weight": 1
         }
       ], 
       "rolls": {
