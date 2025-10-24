@@ -31,6 +31,11 @@ ItemEvents.modification(event => {
 	stackTo1('minecraft:suspicious_stew')
 	stackTo1('quark:tiny_potato')
 	stackTo1('upgrade_aquatic:mulberry_pie')
+	stackTo1('minecraft:compass')
+	stackTo1('minecraft:recovery_compass')
+	stackTo1('supplementaries:altimeter')
+	stackTo1('galosphere:barometer')
+	stackTo1('minecraft:clock')
 
 //Golden Food:
 	stackTo1('etcetera:golden_eggple')
