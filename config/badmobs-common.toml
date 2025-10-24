@@ -1766,13 +1766,13 @@
 	#Spawning options for alexsmobs:laviathan
 	[alexsmobs.laviathan]
 		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = false
+		allowNormalSpawning = true
 		#Should spawners be able to spawn the entity?
-		allowSpawners = false
+		allowSpawners = true
 		#Should spawn eggs be able to spawn the entity?
-		allowSpawnEggs = false
+		allowSpawnEggs = true
 		#Should the entity spawn via mob conversion? i.e. villager -> zombie
-		allowConversions = false
+		allowConversions = true
 
 	#Spawning options for alexsmobs:cosmaw
 	[alexsmobs.cosmaw]
