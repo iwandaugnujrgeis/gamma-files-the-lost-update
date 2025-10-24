@@ -81,15 +81,6 @@ StartupEvents.registry('item', event => {
                   food.hunger(2).saturation(0.5)
             })
 
-      event.create('rice_ball')
-            .texture('gamma:item/rice_ball')
-            .maxStackSize(8)
-            .displayName('Rice Ball')
-            .name(itemstack => 'Rice Ball')
-            .food(food => {
-                  food.hunger(6).saturation(0.5)
-            })
-
       event.create('salt')
             .texture('gamma:item/salt')
             .maxStackSize(16)
@@ -134,14 +125,6 @@ StartupEvents.registry('item', event => {
                   food.hunger(2).saturation(0.5)
             })
 
-      event.create('rice')
-            .texture('gamma:item/rice')
-            .maxStackSize(8).displayName('Rice')
-            .name(itemstack => 'Rice')
-            .food(food => {
-                  food.hunger(3).saturation(0.5)
-            })
-
       event.create('halite_crystal')
             .texture('gamma:item/halite_crystal')
             .maxStackSize(16)
@@ -158,8 +141,8 @@ StartupEvents.registry('item', event => {
       event.create('ancient_rod')
             .texture('gamma:item/ancient_rod')
             .maxStackSize(64)
-            .displayName('Ancient Rod')
-            .name(itemstack => 'Ancient Rod')
+            .displayName('Netherite Rod')
+            .name(itemstack => 'Netherite Rod')
 
       event.create('sharp_tooth')
             .texture('gamma:item/sharp_tooth')

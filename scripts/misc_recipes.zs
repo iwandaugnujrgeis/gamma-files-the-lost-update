@@ -420,8 +420,6 @@ craftingTable.addShaped("cake", <item:minecraft:cake>, [
     [<item:kubejs:butter>, <item:minecraft:sweet_berries>, <item:kubejs:butter>], 
     [<item:kubejs:dough>, <item:minecraft:sugar>, <item:kubejs:dough>]]);
 
-craftingTable.addShapeless("rice_balls", <item:kubejs:rice_ball> * 2, [<item:minecraft:dried_kelp>, <item:minecraft:sweet_berries>, <item:kubejs:rice>]);
-
 craftingTable.addShapeless("vegan_milk", <item:minecraft:milk_bucket>, [<item:minecraft:water_bucket>, <item:ecologics:walnut>, <item:ecologics:walnut>, <item:ecologics:walnut>, <item:ecologics:walnut>]);
 
 craftingTable.remove(<item:minecraft:golden_carrot>);
