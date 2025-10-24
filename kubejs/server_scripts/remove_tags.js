@@ -5,6 +5,11 @@ ServerEvents.tags('item', event => {
     event.removeAllTagsFrom('minecraft:piglin_brute_spawn_egg')
     event.removeAllTagsFrom('minecraft:zombified_piglin_spawn_egg')
     event.removeAllTagsFrom('spelunkery:dust_bunny_spawn_egg')
+    event.removeAllTagsFrom('supplementaries:cage')
+    event.removeAllTagsFrom('ecologics:walnut_sapling')
+    event.removeAllTagsFrom('ecologics:walnut_leaves')
+    event.removeAllTagsFrom('phantasm:pream_leaves')
+    event.removeAllTagsFrom('rediscovered:ruby_block')
 
 //3.18:
     event.removeAllTagsFrom('variantsandventures:thicket_spawn_egg')
@@ -262,7 +267,6 @@ ServerEvents.tags('item', event => {
     event.removeAllTagsFrom('alexsmobs:spawn_egg_frilled_shark')
     event.removeAllTagsFrom('alexsmobs:spawn_egg_giant_squid')
     event.removeAllTagsFrom('alexsmobs:spawn_egg_hammerhead_shark')
-    event.removeAllTagsFrom('alexsmobs:spawn_egg_laviathan')
     event.removeAllTagsFrom('alexsmobs:spawn_egg_leafcutter_ant')
     event.removeAllTagsFrom('alexsmobs:spawn_egg_lobster')
     event.removeAllTagsFrom('alexsmobs:spawn_egg_mimicube')
@@ -278,8 +282,6 @@ ServerEvents.tags('item', event => {
     event.removeAllTagsFrom('alexsmobs:spiked_scute')
     event.removeAllTagsFrom('alexsmobs:spiked_turtle_shell')
     event.removeAllTagsFrom('alexsmobs:squid_grapple')
-    event.removeAllTagsFrom('alexsmobs:straddle_helmet')
-    event.removeAllTagsFrom('alexsmobs:straddle_saddle')
     event.removeAllTagsFrom('alexsmobs:tarantula_hawk_elytra')
     event.removeAllTagsFrom('alexsmobs:tarantula_hawk_wing')
     event.removeAllTagsFrom('alexsmobs:tarantula_hawk_wing_fragment')

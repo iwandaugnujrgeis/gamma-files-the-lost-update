@@ -6,6 +6,11 @@ const removedInOutputs =
         'minecraft:piglin_brute_spawn_egg',
         'minecraft:zombified_piglin_spawn_egg',
         'spelunkery:dust_bunny_spawn_egg',
+        'supplementaries:cage',
+        'ecologics:walnut_sapling',
+        'ecologics:walnut_leaves',
+        'phantasm:pream_leaves',
+        'rediscovered:ruby_block',
 
     //3.18:
         'variantsandventures:thicket_spawn_egg',
@@ -263,7 +268,6 @@ const removedInOutputs =
         'alexsmobs:spawn_egg_frilled_shark',
         'alexsmobs:spawn_egg_giant_squid',
         'alexsmobs:spawn_egg_hammerhead_shark',
-        'alexsmobs:spawn_egg_laviathan',
         'alexsmobs:spawn_egg_leafcutter_ant',
         'alexsmobs:spawn_egg_lobster',
         'alexsmobs:spawn_egg_mimicube',
@@ -279,8 +283,6 @@ const removedInOutputs =
         'alexsmobs:spiked_scute',
         'alexsmobs:spiked_turtle_shell',
         'alexsmobs:squid_grapple',
-        'alexsmobs:straddle_helmet',
-        'alexsmobs:straddle_saddle',
         'alexsmobs:tarantula_hawk_elytra',
         'alexsmobs:tarantula_hawk_wing',
         'alexsmobs:tarantula_hawk_wing_fragment',
