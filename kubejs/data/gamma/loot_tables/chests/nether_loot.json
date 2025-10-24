@@ -2,17 +2,116 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "bonus_rolls": 0.0,
+      "bonus_rolls": 0.0, 
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:saddle",
-          "weight": 20
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.1,
+                "max": 0.8
+              }
+            }
+          ],
+          "name": "minecraft:iron_sword",
+          "weight": 15
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:golden_apple",
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.1,
+                "max": 0.8
+              }
+            }
+          ],
+          "name": "rediscovered:plate_helmet",
           "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.1,
+                "max": 0.8
+              }
+            }
+          ],
+          "name": "rediscovered:plate_chestplate",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.1,
+                "max": 0.8
+              }
+            }
+          ],
+          "name": "rediscovered:plate_leggings",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.1,
+                "max": 0.8
+              }
+            }
+          ],
+          "name": "rediscovered:plate_boots",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.1,
+                "max": 0.8
+              }
+            }
+          ],
+          "name": "kubejs:bismuth_pickaxe",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:golden_potato",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "rediscovered:quiver",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "galosphere:silver_bomb",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "rediscovered:dragon_armor",
+          "weight": 5
         },
         {
           "type": "minecraft:item",
@@ -21,105 +120,43 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 6.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:firework_rocket",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:music_disc_otherside",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "quark:music_disc_clock"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "quark:music_disc_fire"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "quark:diamond_heart"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "quark:backpack"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:music_disc_wait"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 2,
-          "name": "minecraft:totem_of_undying"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "quark:abacus"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:music_disc_11",
+          "name": "kubejs:music_disc_droopy2",
           "weight": 1
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:music_disc_stal",
+          "name": "minecraft:music_disc_pigstep",
           "weight": 1
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:music_disc_mellohi",
+          "name": "minecraft:music_disc_relic",
           "weight": 1
         },
         {
           "type": "minecraft:item",
-          "name": "etcetera:trader_hood",
+          "name": "quark:music_disc_fire",
           "weight": 1
         },
         {
           "type": "minecraft:item",
-          "name": "quark:music_disc_crickets",
+          "name": "quark:music_disc_clock",
           "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:name_tag",
-          "weight": 20
         }
-      ],
+      ], 
       "rolls": {
         "type": "minecraft:uniform",
         "max": 3.0,
-        "min": 1.0
+        "min": 2.0
       }
     },
     {
-      "bonus_rolls": 0.0,
+      "bonus_rolls": 0.0, 
       "entries": [
         {
           "type": "minecraft:item",
           "functions": [
             {
-              "add": false,
               "count": {
                 "type": "minecraft:uniform",
                 "max": 4.0,
@@ -128,14 +165,13 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:iron_ingot",
+          "name": "etcetera:bismuth_ingot",
           "weight": 10
         },
         {
           "type": "minecraft:item",
           "functions": [
             {
-              "add": false,
               "count": {
                 "type": "minecraft:uniform",
                 "max": 4.0,
@@ -144,77 +180,103 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:beetroot",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:gold_ingot",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:bread",
-          "weight": 20
-        },
-        {
-          "type": "minecraft:item",
-          "name": "kubejs:waffle",
-          "weight": 6
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:wheat",
-          "weight": 20
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 6.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:diamond",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:bucket",
+          "name": "minecraft:nether_brick",
           "weight": 10
         },
         {
           "type": "minecraft:item",
           "functions": [
             {
-              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "kubejs:soul_dust",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:glowstone_dust",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:fire_charge",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "rediscovered:ruby",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:raw_gold",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:carrot",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
               "count": {
                 "type": "minecraft:uniform",
                 "max": 4.0,
@@ -224,13 +286,12 @@
             }
           ],
           "name": "minecraft:redstone",
-          "weight": 15
+          "weight": 5
         },
         {
           "type": "minecraft:item",
           "functions": [
             {
-              "add": false,
               "count": {
                 "type": "minecraft:uniform",
                 "max": 4.0,
@@ -239,218 +300,13 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "rediscovered:gear",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:coal",
-          "weight": 15
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:glowstone_dust",
+          "name": "galosphere:silver_nugget",
           "weight": 5
         },
         {
           "type": "minecraft:item",
           "functions": [
             {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "supplementaries:pancake",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "galosphere:lichen_cordyceps",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_damage",
-              "damage": {
-                "min": 0.15,
-                "max": 0.95
-              }
-            }
-          ],
-          "name": "minecraft:iron_sword"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_damage",
-              "damage": {
-                "min": 0.15,
-                "max": 0.95
-              }
-            }
-          ],
-          "name": "minecraft:chainmail_boots"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_damage",
-              "damage": {
-                "min": 0.15,
-                "max": 0.95
-              }
-            }
-          ],
-          "name": "minecraft:chainmail_chestplate"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_damage",
-              "damage": {
-                "min": 0.15,
-                "max": 0.95
-              }
-            }
-          ],
-          "name": "minecraft:chainmail_leggings"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_damage",
-              "damage": {
-                "min": 0.15,
-                "max": 0.95
-              }
-            }
-          ],
-          "name": "minecraft:chainmail_helmet"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_damage",
-              "damage": {
-                "min": 0.15,
-                "max": 0.95
-              }
-            }
-          ],
-          "name": "rediscovered:plate_boots"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_damage",
-              "damage": {
-                "min": 0.15,
-                "max": 0.95
-              }
-            }
-          ],
-          "name": "rediscovered:plate_chestplate"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_damage",
-              "damage": {
-                "min": 0.15,
-                "max": 0.95
-              }
-            }
-          ],
-          "name": "supplementaries:flute"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_damage",
-              "damage": {
-                "min": 0.15,
-                "max": 0.95
-              }
-            }
-          ],
-          "name": "galosphere:sterling_chestplate"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_damage",
-              "damage": {
-                "min": 0.15,
-                "max": 0.95
-              }
-            }
-          ],
-          "name": "rediscovered:plate_leggings"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
               "count": {
                 "type": "minecraft:uniform",
                 "max": 4.0,
@@ -459,46 +315,13 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:melon_seeds",
-          "weight": 8
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "kubejs:golden_potato",
+          "name": "minecraft:nether_wart",
           "weight": 5
         },
         {
           "type": "minecraft:item",
           "functions": [
             {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 6.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "galosphere:golden_lichen_cordyceps",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
               "count": {
                 "type": "minecraft:uniform",
                 "max": 4.0,
@@ -507,14 +330,13 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:pumpkin_seeds",
-          "weight": 10
+          "name": "minecraft:pitcher_pod",
+          "weight": 5
         },
         {
           "type": "minecraft:item",
           "functions": [
             {
-              "add": false,
               "count": {
                 "type": "minecraft:uniform",
                 "max": 4.0,
@@ -523,19 +345,140 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:beetroot_seeds",
-          "weight": 10
+          "name": "minecraft:torchflower_seeds",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:blaze_powder",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "alexsmobs:straddlite",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:wither_rose",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:ender_pearl",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "alexsmobs:soul_heart",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "alexsmobs:dropbear_claw",
+          "weight": 2
         }
-      ],
+      ], 
       "rolls": {
         "type": "minecraft:uniform",
         "max": 4.0,
-        "min": 1.0
+        "min": 2.0
       }
     },
     {
-      "bonus_rolls": 0.0,
+      "bonus_rolls": 0.0, 
       "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 17.0,
+                "min": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:arrow"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 8.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "supplementaries:ash",
+          "weight": 10
+        },
         {
           "type": "minecraft:item",
           "functions": [
@@ -565,7 +508,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:gunpowder",
+          "name": "minecraft:iron_nugget",
           "weight": 10
         },
         {
@@ -582,7 +525,7 @@
             }
           ],
           "name": "minecraft:rotten_flesh",
-          "weight": 7
+          "weight": 5
         },
         {
           "type": "minecraft:item",
@@ -597,8 +540,8 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:string",
-          "weight": 8
+          "name": "minecraft:magma_cream",
+          "weight": 10
         },
         {
           "type": "minecraft:item",
@@ -613,43 +556,11 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:paper",
-          "weight": 4
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "rediscovered:purple_arrow",
-          "weight": 3
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "rediscovered:ruby",
-          "weight": 2
+          "name": "minecraft:gold_nugget",
+          "weight": 10
         }
       ],
-      "rolls": 3.0
+      "rolls": 2.0
     }
   ]
 }
