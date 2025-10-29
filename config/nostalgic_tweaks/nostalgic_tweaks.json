@@ -50,7 +50,7 @@
     "stopSongBinding": -1,
     "nextSongBinding": -1,
     "oldCaveSounds": false,
-    "oldCaveAmbience": false,
+    "oldCaveAmbience": true,
     "disableNetherAmbience": false,
     "disableWaterAmbience": false,
     "oldBed": false,

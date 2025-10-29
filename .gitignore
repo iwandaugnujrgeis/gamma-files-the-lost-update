@@ -18,3 +18,4 @@ config/sound_physics_remastered/occlusion.properties
 config/sound_physics_remastered/reflectivity.properties
 usercache.json
 minecraftinstance.json
+options.txt
