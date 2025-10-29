@@ -1,0 +1,788 @@
+{
+  "tab_enabled": true,
+  "tab_name": "gamma_natural",
+  "replace": true,
+  "tab_stack": 
+  {
+    "name":"minecraft:grass_block"
+  },
+  "tab_items": [
+    {
+      "name": "minecraft:grass_block"
+    },
+    {
+      "name": "minecraft:podzol"
+    },
+    {
+      "name": "minecraft:mycelium"
+    },
+    {
+      "name": "minecraft:dirt"
+    },
+    {
+      "name": "minecraft:coarse_dirt"
+    },
+    {
+      "name": "minecraft:rooted_dirt"
+    },
+    {
+      "name": "minecraft:farmland"
+    },
+    {
+      "name": "farmersdelight:organic_compost"
+    },
+    {
+      "name": "farmersdelight:rich_soil"
+    },
+    {
+      "name": "farmersdelight:rich_soil_farmland"
+    },
+    {
+      "name": "spelunkery:tangle_roots_block"
+    },
+    {
+      "name": "minecraft:mangrove_roots"
+    },
+    {
+      "name": "minecraft:mud"
+    },
+    {
+      "name": "minecraft:clay"
+    },
+    {
+      "name": "minecraft:gravel"
+    },
+    {
+      "name": "supplementaries:raked_gravel"
+    },
+    {
+      "name": "minecraft:sand"
+    },
+    {
+      "name": "minecraft:red_sand"
+    },
+    {
+      "name": "quark:gravisand"
+    },
+    {
+      "name": "kubejs:rock_salt"
+    },
+    {
+      "name": "minecraft:ice"
+    },
+    {
+      "name": "ecologics:thin_ice"
+    },
+    {
+      "name": "minecraft:packed_ice"
+    },
+    {
+      "name": "minecraft:blue_ice"
+    },
+    {
+      "name": "minecraft:snow_block"
+    },
+    {
+      "name": "minecraft:snow"
+    },
+    {
+      "name": "minecraft:snowball"
+    },
+    {
+      "name": "galosphere:lichen_moss"
+    },
+    {
+      "name": "minecraft:moss_block"
+    },
+    {
+      "name": "minecraft:moss_carpet"
+    },
+    {
+      "name": "minecraft:calcite"
+    },
+    {
+      "name": "minecraft:dripstone_block"
+    },
+    {
+      "name": "minecraft:pointed_dripstone"
+    },
+    {
+      "name": "minecraft:magma_block"
+    },
+    {
+      "name": "minecraft:obsidian"
+    },
+    {
+      "name": "quark:obsidian_pressure_plate"
+    },
+    {
+      "name": "minecraft:crying_obsidian"
+    },
+    {
+      "name": "rediscovered:ancient_crying_obsidian"
+    },
+    {
+      "name": "rediscovered:glowing_obsidian"
+    },
+    {
+      "name": "minecraft:soul_sand"
+    },
+    {
+      "name": "minecraft:soul_soil"
+    },
+    {
+      "name": "minecraft:bone_block"
+    },
+    {
+      "name": "upgrade_aquatic:embedded_ammonite"
+    },
+    {
+      "name": "minecraft:coal_ore"
+    },
+    {
+      "name": "minecraft:copper_ore"
+    },
+    {
+      "name": "minecraft:iron_ore"
+    },
+    {
+      "name": "minecraft:gold_ore"
+    },
+    {
+      "name": "minecraft:redstone_ore"
+    },
+    {
+      "name": "minecraft:lapis_ore"
+    },
+    {
+      "name": "rediscovered:ruby_ore"
+    },
+    {
+      "name": "galosphere:silver_ore"
+    },
+    {
+      "name": "minecraft:diamond_ore"
+    },
+    {
+      "name": "minecraft:nether_gold_ore"
+    },
+    {
+      "name": "minecraft:nether_quartz_ore"
+    },
+    {
+      "name": "etcetera:nether_bismuth_ore"
+    },
+    {
+      "name": "minecraft:ancient_debris"
+    },
+    {
+      "name": "minecraft:oak_sapling"
+    },
+    {
+      "name": "upgrade_aquatic:river_sapling"
+    },
+    {
+      "name": "minecraft:spruce_sapling"
+    },
+    {
+      "name": "newworld:fir_sapling"
+    },
+    {
+      "name": "minecraft:birch_sapling"
+    },
+    {
+      "name": "minecraft:jungle_sapling"
+    },
+    {
+      "name": "minecraft:acacia_sapling"
+    },
+    {
+      "name": "minecraft:dark_oak_sapling"
+    },
+    {
+      "name": "minecraft:mangrove_propagule"
+    },
+    {
+      "name": "minecraft:cherry_sapling"
+    },
+    {
+      "name": "rediscovered:ancient_cherry_sapling"
+    },
+    {
+      "name": "quark:blue_blossom_sapling"
+    },
+    {
+      "name": "quark:lavender_blossom_sapling"
+    },
+    {
+      "name": "quark:orange_blossom_sapling"
+    },
+    {
+      "name": "quark:yellow_blossom_sapling"
+    },
+    {
+      "name": "quark:red_blossom_sapling"
+    },
+    {
+      "name": "minecraft:azalea"
+    },
+    {
+      "name": "minecraft:flowering_azalea"
+    },
+    {
+      "name": "minecraft:raw_copper_block"
+    },
+    {
+      "name": "minecraft:raw_iron_block"
+    },
+    {
+      "name": "spelunkery:raw_magnetite_block"
+    },
+    {
+      "name": "minecraft:raw_gold_block"
+    },
+    {
+      "name": "galosphere:raw_silver_block"
+    },
+    {
+      "name": "etcetera:raw_bismuth_block"
+    },
+    {
+      "name": "minecraft:glowstone"
+    },
+    {
+      "name": "minecraft:amethyst_block"
+    },
+    {
+      "name": "minecraft:budding_amethyst"
+    },
+    {
+      "name": "minecraft:small_amethyst_bud"
+    },
+    {
+      "name": "minecraft:medium_amethyst_bud"
+    },
+    {
+      "name": "minecraft:large_amethyst_bud"
+    },
+    {
+      "name": "minecraft:amethyst_cluster"
+    },
+    {
+      "name": "minecraft:oak_leaves"
+    },
+    {
+      "name": "upgrade_aquatic:river_leaves"
+    },
+    {
+      "name": "minecraft:spruce_leaves"
+    },
+    {
+      "name": "newworld:fir_leaves"
+    },
+    {
+      "name": "minecraft:birch_leaves"
+    },
+    {
+      "name": "minecraft:jungle_leaves"
+    },
+    {
+      "name": "minecraft:acacia_leaves"
+    },
+    {
+      "name": "minecraft:dark_oak_leaves"
+    },
+    {
+      "name": "minecraft:mangrove_leaves"
+    },
+    {
+      "name": "minecraft:cherry_leaves"
+    },
+    {
+      "name": "rediscovered:ancient_cherry_leaves"
+    },
+    {
+      "name": "minecraft:azalea_leaves"
+    },
+    {
+      "name": "minecraft:flowering_azalea_leaves"
+    },
+    {
+      "name": "quark:blue_blossom_leaves"
+    },
+    {
+      "name": "quark:lavender_blossom_leaves"
+    },
+    {
+      "name": "quark:orange_blossom_leaves"
+    },
+    {
+      "name": "quark:yellow_blossom_leaves"
+    },
+    {
+      "name": "quark:red_blossom_leaves"
+    },
+    //{
+      //"name": "phantasm:pream_leaves"
+    //},
+    {
+      "name": "minecraft:mushroom_stem"
+    },
+    {
+      "name": "spelunkery:cave_mushroom_stem"
+    },
+    {
+      "name": "quark:glow_shroom_stem"
+    },
+    {
+      "name": "spelunkery:white_inkcap_mushroom_block"
+    },
+    {
+      "name": "minecraft:brown_mushroom_block"
+    },
+    {
+      "name": "minecraft:red_mushroom_block"
+    },
+    {
+      "name": "quark:glow_shroom_block"
+    },
+    {
+      "name": "spelunkery:mushgloom_block"
+    },
+    {
+      "name": "spelunkery:milly_bubcap_block"
+    },
+    {
+      "name": "spelunkery:phosphor_fungus_block"
+    },
+    {
+      "name": "spelunkery:inkcap_mushroom_block"
+    },
+    {
+      "name": "spelunkery:portabella_block"
+    },
+    {
+      "name": "minecraft:shroomlight"
+    },
+    {
+      "name": "spelunkery:phosphor_shroomlight"
+    },
+    {
+      "name": "minecraft:brown_mushroom"
+    },
+    {
+      "name": "minecraft:red_mushroom"
+    },
+    {
+      "name": "spelunkery:mushgloom"
+    },
+    {
+      "name": "spelunkery:milly_bubcap"
+    },
+    {
+      "name": "spelunkery:phosphor_fungus"
+    },
+    {
+      "name": "spelunkery:inkcap_mushroom"
+    },
+    {
+      "name": "spelunkery:white_inkcap_mushroom"
+    },
+    {
+      "name": "spelunkery:portabella"
+    },
+    {
+      "name": "spelunkery:grilled_portabella"
+    },
+    {
+      "name": "spelunkery:button_mushroom"
+    },
+    {
+      "name": "spelunkery:crimini"
+    },
+    {
+      "name": "galosphere:bowl_lichen"
+    },
+    {
+      "name": "quark:glow_shroom"
+    },
+    {
+      "name": "minecraft:grass"
+    },
+    {
+      "name": "minecraft:tall_grass"
+    },
+    {
+      "name": "minecraft:fern"
+    },
+    {
+      "name": "minecraft:large_fern"
+    },
+    {
+      "name": "spelunkery:sporophyte"
+    },
+    {
+      "name": "spelunkery:tall_sporophyte"
+    },
+    {
+      "name": "minecraft:cactus"
+    },
+    {
+      "name": "minecraft:sugar_cane"
+    },
+    {
+      "name": "minecraft:vine"
+    },
+    {
+      "name": "minecraft:small_dripleaf"
+    },
+    {
+      "name": "minecraft:big_dripleaf"
+    },
+    {
+      "name": "minecraft:spore_blossom"
+    },
+    {
+      "name": "minecraft:bamboo"
+    },
+    {
+      "name": "spelunkery:tangle_roots"
+    },
+    {
+      "name": "minecraft:dead_bush"
+    },
+    {
+      "name": "minecraft:hanging_roots"
+    },
+    {
+      "name": "minecraft:crimson_roots"
+    },
+    {
+      "name": "minecraft:cobweb"
+    },
+    {
+      "name": "minecraft:glow_lichen"
+    },
+    {
+      "name": "galosphere:lichen_roots"
+    },
+    {
+      "name": "galosphere:lichen_shelf"
+    },
+    {
+      "name": "galosphere:glow_ink_clumps"
+    },
+    {
+      "name": "quark:glow_shroom_ring"
+    },
+    {
+      "name": "quark:glow_lichen_growth"
+    },
+    {
+      "name": "minecraft:dandelion"
+    },
+    {
+      "name": "minecraft:poppy"
+    },
+    {
+      "name": "minecraft:blue_orchid"
+    },
+    {
+      "name": "minecraft:allium"
+    },
+    {
+      "name": "minecraft:azure_bluet"
+    },
+    {
+      "name": "minecraft:red_tulip"
+    },
+    {
+      "name": "minecraft:orange_tulip"
+    },
+    {
+      "name": "minecraft:white_tulip"
+    },
+    {
+      "name": "minecraft:pink_tulip"
+    },
+    {
+      "name": "minecraft:oxeye_daisy"
+    },
+    {
+      "name": "minecraft:sunflower"
+    },
+    {
+      "name": "minecraft:cornflower"
+    },
+    {
+      "name": "minecraft:lily_of_the_valley"
+    },
+    {
+      "name": "upgrade_aquatic:white_searocket"
+    },
+    {
+      "name": "upgrade_aquatic:pink_searocket"
+    },
+    {
+      "name": "habitat:edelweiss"
+    },
+    {
+      "name": "sweety_garden:baileya"
+    },
+    {
+      "name": "sweety_garden:cyan_poppy"
+    },
+    {
+      "name": "sweety_garden:hepatica"
+    },
+    {
+      "name": "sweety_garden:passion_flower"
+    },
+    {
+      "name": "sweety_garden:pontederia"
+    },
+    {
+      "name": "sweety_garden:purple_shamrock"
+    },
+    {
+      "name": "sweety_garden:wood_anemone"
+    },
+    {
+      "name": "sweety_garden:wood_sorrel"
+    },
+    {
+      "name": "ecologics:azalea_flower"
+    },
+    {
+      "name": "habitat:blowball"
+    },
+    {
+      "name": "minecraft:pink_petals"
+    },
+    {
+      "name": "minecraft:lilac"
+    },
+    {
+      "name": "minecraft:rose_bush"
+    },
+    {
+      "name": "minecraft:peony"
+    },
+    {
+      "name": "minecraft:torchflower"
+    },
+    {
+      "name": "minecraft:pitcher_plant"
+    },
+    {
+      "name": "minecraft:wither_rose"
+    },
+    {
+      "name": "rediscovered:rose"
+    },
+    {
+      "name": "rediscovered:paeonia"
+    },
+    {
+      "name": "rediscovered:cyan_rose"
+    },
+    {
+      "name": "phantasm:starflower"
+    },
+    {
+      "name": "etcetera:bouquet"
+    },
+    {
+      "name": "minecraft:frogspawn"
+    },
+    {
+      "name": "alexsmobs:triops_eggs"
+    },
+    {
+      "name": "minecraft:turtle_egg"
+    },
+    {
+      "name": "friendsandfoes:crab_egg"
+    },
+    {
+      "name": "alexsmobs:caiman_egg"
+    },
+    {
+      "name": "alexsmobs:platypus_egg"
+    },
+    {
+      "name": "alexsmobs:terrapin_egg"
+    },
+    {
+      "name": "alexsmobs:crocodile_egg"
+    },
+    {
+      "name": "alexsmobs:emu_egg"
+    },
+    {
+      "name": "savage_and_ravage:creeper_spores"
+    },
+    {
+      "name": "minecraft:wheat_seeds"
+    },
+    {
+      "name": "minecraft:pumpkin_seeds"
+    },
+    {
+      "name": "minecraft:melon_seeds"
+    },
+    {
+      "name": "minecraft:cocoa_beans"
+    },
+    {
+      "name": "minecraft:beetroot_seeds"
+    },
+    {
+      "name": "minecraft:torchflower_seeds"
+    },
+    {
+      "name": "minecraft:pitcher_pod"
+    },
+    {
+      "name": "minecraft:nether_wart"
+    },
+    {
+      "name": "minecraft:lily_pad"
+    },
+    {
+      "name": "minecraft:seagrass"
+    },
+    {
+      "name": "minecraft:sea_pickle"
+    },
+    {
+      "name": "minecraft:kelp"
+    },
+    {
+      "name": "upgrade_aquatic:kelp_block"
+    },
+    {
+      "name": "minecraft:dried_kelp_block"
+    },
+    {
+      "name": "minecraft:tube_coral_block"
+    },
+    {
+      "name": "minecraft:brain_coral_block"
+    },
+    {
+      "name": "minecraft:bubble_coral_block"
+    },
+    {
+      "name": "minecraft:fire_coral_block"
+    },
+    {
+      "name": "minecraft:horn_coral_block"
+    },
+    {
+      "name": "upgrade_aquatic:acan_coral_block"
+    },
+    {
+      "name": "upgrade_aquatic:finger_coral_block"
+    },
+    {
+      "name": "upgrade_aquatic:star_coral_block"
+    },
+    {
+      "name": "upgrade_aquatic:moss_coral_block"
+    },
+    {
+      "name": "upgrade_aquatic:petal_coral_block"
+    },
+    {
+      "name": "upgrade_aquatic:branch_coral_block"
+    },
+    {
+      "name": "upgrade_aquatic:rock_coral_block"
+    },
+    {
+      "name": "upgrade_aquatic:pillow_coral_block"
+    },
+    {
+      "name": "upgrade_aquatic:silk_coral_block"
+    },
+    {
+      "name": "upgrade_aquatic:chrome_coral_block"
+    },
+    {
+      "name": "upgrade_aquatic:prismarine_coral_block"
+    },
+    {
+      "name": "minecraft:sponge"
+    },
+    {
+      "name": "minecraft:wet_sponge"
+    },
+    {
+      "name": "minecraft:melon"
+    },
+    //{
+      //"name": "earthmobsmod:carved_melon"
+    //},
+    {
+      "name": "minecraft:pumpkin"
+    },
+    {
+      "name": "minecraft:carved_pumpkin"
+    },
+    {
+      "name": "minecraft:jack_o_lantern"
+    },
+    {
+      "name": "phantasm:pome"
+    },
+    {
+      "name": "minecraft:hay_block"
+    },
+    {
+      "name": "minecraft:bee_nest"
+    },
+    {
+      "name": "minecraft:honeycomb_block"
+    },
+    {
+      "name": "minecraft:slime_block"
+    },
+    {
+      "name": "minecraft:honey_block"
+    },
+    {
+      "name": "upgrade_aquatic:mulberry_jam_block"
+    },
+    {
+      "name": "minecraft:ochre_froglight"
+    },
+    {
+      "name": "minecraft:verdant_froglight"
+    },
+    {
+      "name": "minecraft:pearlescent_froglight"
+    },
+    {
+      "name": "supplementaries:bubble_block"
+    },
+    {
+      "name": "minecraft:sculk"
+    },
+    {
+      "name": "minecraft:sculk_vein"
+    },
+    {
+      "name": "minecraft:sculk_catalyst"
+    },
+    {
+      "name": "minecraft:sculk_shrieker"
+    },
+    {
+      "name": "alexsmobs:sculk_boomer"
+    },
+    {
+      "name": "minecraft:sculk_sensor"
+    }
+  ]
+}
