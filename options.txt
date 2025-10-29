@@ -53,7 +53,7 @@ chatLineSpacing:0.0
 textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 hideServerAddress:false
-advancedItemTooltips:true
+advancedItemTooltips:false
 pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0
@@ -116,7 +116,7 @@ key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
 key_ping-wheel.key.ping-location:key.keyboard.v
-soundCategory_master:0.15820053807947024
+soundCategory_master:0.0
 soundCategory_music:0.40850572183098594
 soundCategory_record:1.0
 soundCategory_weather:0.8047645246478874

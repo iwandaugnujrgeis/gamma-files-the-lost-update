@@ -98,11 +98,11 @@
 
 [projectiles]
 	#Makes snowballs render in 3D
-	snowball_3d = true
+	snowball_3d = false
 	#Makes slimeballs render in 3D (supplementaries only)
 	slimeball_3d = true
 	#Makes ghast & blazes fireballs render in 3D
-	fireball_3d = true
+	fireball_3d = false
 	#Makes ghast & blazes fireballs leave a trail of particles when moving
 	ghast_fireball_trail = true
 	#Makes dragon fireballs leave a trail of particles when moving

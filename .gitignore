@@ -12,3 +12,9 @@ saves/
 screenshots/
 shaderpacks/
 !kubejs/data/
+config/packetfixer.properties
+config/fabric/indigo-renderer.properties
+config/sound_physics_remastered/occlusion.properties
+config/sound_physics_remastered/reflectivity.properties
+usercache.json
+minecraftinstance.json
