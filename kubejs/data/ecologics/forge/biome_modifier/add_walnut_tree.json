@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minecraft:plains",
+  "features": "minecraft:trees_plains", //I'm actually un-removing Meadows' Tress!
+  "step": "vegetal_decoration"
+}

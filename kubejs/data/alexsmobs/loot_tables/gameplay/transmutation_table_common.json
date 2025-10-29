@@ -1,0 +1,406 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:dirt"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:cobblestone"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:sand"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:red_sand"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:stick"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:snowball"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:clay_ball"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:granite"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:diorite"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:andesite"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:cobbled_deepslate"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:netherrack"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:target"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "supplementaries:spring_launcher"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "supplementaries:turn_table"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "quark:gold_button"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "quark:iron_button"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "easel_does_it:easel"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "supplementaries:blackboard"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "rediscovered:spikes"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "etcetera:prickly_can"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "quark:obsidian_pressure_plate"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "upgrade_aquatic:river_chest"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:slime_block"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:honey_block"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:ochre_froglight"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "etcetera:raw_bismuth_block"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:raw_gold_block"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:raw_copper_block"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:raw_iron_block"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "kubejs:gloomy_tiles"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:glow_item_frame"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "supplementaries:hat_stand"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "supplementaries:statue"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "etcetera:terracotta_vase"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "etcetera:dice"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "etcetera:raw_bismuth"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "etcetera:bismuth_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "galosphere:raw_silver"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "rediscovered:purple_arrow"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "quark:gravisand"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "phantasm:pome"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "spelunkery:raw_magnetite_block"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "sweety_garden:cyan_poppy"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "spelunkery:glowstick"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "rediscovered:ruby"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "galosphere:silver_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "etcetera:cotton_flower"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "supplementaries:flint_block"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "supplementaries:rope"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "supplementaries:sugar_cube"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "supplementaries:feather_block"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "galosphere:raw_silver_block"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:verdant_froglight"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:pearlescent_froglight"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "rediscovered:ancient_crying_obsidian"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:cactus"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:sponge"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "rediscovered:bright_green_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "rediscovered:spring_green_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "rediscovered:sky_blue_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "rediscovered:slate_blue_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "rediscovered:lavender_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "rediscovered:rose_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "kubejs:halite_block"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "galosphere:silver_block"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "etcetera:bismuth_block"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:iron_block"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "supplementaries:soap_block"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:coal_block"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:nether_bricks"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:red_nether_bricks"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "rediscovered:brittle_mud_bricks"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "newworld:loam_tiles"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "quark:permafrost"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "quark:sturdy_stone"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:cherry_log"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "upgrade_aquatic:river_log"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:smooth_stone"
+        }
+      ]
+    }
+  ]
+}
+
+

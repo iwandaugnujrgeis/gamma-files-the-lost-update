@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "minecraft:cookie",
+      "required": false
+    }
+    {
+      "id": "farmersdelight:sweet_berry_cookie"
+    },
+    {
+      "id": "farmersdelight:honey_cookie"
+    }
+  ]
+}

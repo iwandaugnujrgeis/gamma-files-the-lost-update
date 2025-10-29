@@ -1,0 +1,34 @@
+{
+  "parent": "gamma:detour/kill_a_mob",
+  "criteria": {
+    "get_cotton": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "etcetera:cotton_flower"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Obtain Cotton from slaying Zombies",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "etcetera:cotton_flower"
+    },
+    "show_toast": true,
+    "title": "Zomblooms"
+  },
+  "requirements": [
+    [
+      "get_cotton"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,30 @@
+{
+  "parent": "rediscovered:skylands/root",
+  "criteria": {
+    "give_gift": {
+      "conditions": {},
+      "trigger": "rediscovered:give_rana_item"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "rediscovered:advancements.skylands.give_rana_gift.description"
+    },
+    "frame": "task",
+    "hidden": true,
+    "icon": {
+      "item": "rediscovered:cyan_rose"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "rediscovered:advancements.skylands.give_rana_gift.title"
+    }
+  },
+  "requirements": [
+    [
+      "give_gift"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

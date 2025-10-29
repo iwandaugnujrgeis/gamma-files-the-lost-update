@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "rediscovered:cold_skylands"
+  ],
+  "features": [
+    "wythers:terrain/placed_random_patch/salt_lakes"
+  ],
+  "step": "raw_generation"
+}

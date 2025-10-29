@@ -1,0 +1,74 @@
+{
+  "parent": "galosphere:adventure/silver_ingot",
+  "criteria": {
+    "sterling_boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "galosphere:sterling_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "sterling_chestplate": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "galosphere:sterling_chestplate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "sterling_helmet": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "galosphere:sterling_helmet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "sterling_leggings": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "galosphere:sterling_leggings"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Craft a Piece of Sterling Armor! Silver Threads, Speedy Steps!",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "galosphere:sterling_chestplate",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": "Zoom Zoom in the Gloom"
+  },
+  "requirements": [
+    [
+      "sterling_helmet",
+      "sterling_chestplate",
+      "sterling_leggings",
+      "sterling_boots"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
