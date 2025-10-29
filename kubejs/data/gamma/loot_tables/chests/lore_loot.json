@@ -122,11 +122,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "alexsmobs:fedora",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
           "name": "quark:abacus",
           "weight": 5
         },

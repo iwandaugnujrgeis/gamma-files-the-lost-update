@@ -191,8 +191,6 @@ craftingTable.addShaped("etcetera_prickly_can", <item:etcetera:prickly_can>, [
     [<item:minecraft:cactus>, <item:minecraft:air>, <item:minecraft:cactus>], 
     [<item:minecraft:cactus>, <item:minecraft:cactus>, <item:minecraft:cactus>]]);
 
-craftingTable.addShapeless("fedora", <item:alexsmobs:fedora>, [<item:etcetera:black_hat>, <item:minecraft:dirt>]);
-
 craftingTable.addShapeless("honeyed_apple", <item:kubejs:honeyed_apple> * 2, [<item:minecraft:apple>, <item:minecraft:apple>, <item:minecraft:honey_bottle>]);
 
 craftingTable.remove(<item:minecraft:mushroom_stew>);
