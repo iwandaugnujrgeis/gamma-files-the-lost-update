@@ -24,3 +24,9 @@ crash-reports/
 config/sound_physics_remastered/reflectivity.properties
 config/sound_physics_remastered/occlusion.properties
 config/fabric/indigo-renderer.properties
+.DS_Store
+manifest.json 
+minecraftinstance.json 
+modlist.html 
+rhino.local.properties  
+usernamecache.json
