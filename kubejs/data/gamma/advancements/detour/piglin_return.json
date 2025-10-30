@@ -51,40 +51,6 @@
         ]
       },
       "trigger": "minecraft:player_hurt_entity"
-    },
-    "nether_piglin_return": {
-      "conditions": {
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "type": "minecraft:piglin",
-              "location": {
-                "structure": "nova_structures:ruin_town"
-              }
-            }
-          }
-        ]
-      },
-      "trigger": "minecraft:player_hurt_entity"
-    },
-    "nether_piglin_brute_return": {
-      "conditions": {
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "type": "minecraft:piglin_brute",
-              "location": {
-                "structure": "nova_structures:ruin_town"
-              }
-            }
-          }
-        ]
-      },
-      "trigger": "minecraft:player_hurt_entity"
     }
   },
   "display": {
@@ -102,9 +68,7 @@
     [
       "skylands_piglin_return",
       "skylands_melee_piglin_return",
-      "skylands_ranged_piglin_return",
-      "nether_piglin_return",
-      "nether_piglin_brute_return"
+      "skylands_ranged_piglin_return"
     ]
   ],
   "sends_telemetry_event": true
