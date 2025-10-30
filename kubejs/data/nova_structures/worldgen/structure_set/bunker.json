@@ -1,18 +1,16 @@
 {
-	"structures": [
-		{
-			"structure": "nova_structures:bunker",
-			"weight": 1
-		}
-	],
-	"placement": {
-		"exclusion_zone": {
-      "other_set": "minecraft:villages",
-      "chunk_count": 10
-    },
-		"spacing": 50,
-		"separation": 10,
-		"salt": 679854,
-		"type": "minecraft:random_spread"
-	}
+  "placement": {
+    "type": "minecraft:random_spread",
+    "frequency": 0.004,
+    "frequency_reduction_method": "legacy_type_3",
+    "salt": 679854,
+    "separation": 0,
+    "spacing": 1
+  },
+  "structures": [
+    {
+      "structure": "nova_structures:bunker",
+      "weight": 1
+    }
+  ]
 }
