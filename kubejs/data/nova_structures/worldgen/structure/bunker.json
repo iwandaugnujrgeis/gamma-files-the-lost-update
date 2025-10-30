@@ -5,7 +5,7 @@
 	"start_height": {
 	  "type": "minecraft:uniform",
 	  "min_inclusive": {
-	    "absolute": -50
+	    "absolute": -35
 	  },
 	  "max_inclusive": {
 	    "absolute": 50
