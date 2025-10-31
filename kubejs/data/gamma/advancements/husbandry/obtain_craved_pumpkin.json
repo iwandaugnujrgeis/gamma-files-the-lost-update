@@ -4,7 +4,7 @@
       "item": "minecraft:carved_pumpkin"
     },
     "title": "Emotionally Complex Vegetable",
-    "description": "Carve a Pumpkin! Shear the Top to Get Creative..!",
+    "description": "Carve a Pumpkin!",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true
