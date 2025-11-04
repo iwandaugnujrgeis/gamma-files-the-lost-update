@@ -806,42 +806,6 @@
       "name": "rediscovered:brittle_mud_bricks"
     },
     {
-      "name": "newworld:loam"
-    },
-    {
-      "name": "newworld:loam_stairs"
-    },
-    {
-      "name": "newworld:loam_slab"
-    },
-    {
-      "name": "newworld:loam_wall"
-    },
-    {
-      "name": "newworld:loam_tiles"
-    },
-    {
-      "name": "newworld:loam_tile_stairs"
-    },
-    {
-      "name": "newworld:loam_tile_slab"
-    },
-    {
-      "name": "newworld:loam_tile_wall"
-    },
-    {
-      "name": "supplementaries:daub"
-    },
-    {
-      "name": "supplementaries:daub_frame"
-    },
-    {
-      "name": "supplementaries:daub_brace"
-    },
-    {
-      "name": "supplementaries:daub_cross_brace"
-    },
-    {
       "name": "quark:stick_block"
     },
     {

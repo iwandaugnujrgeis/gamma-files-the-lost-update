@@ -185,9 +185,6 @@
       "name": "minecraft:spruce_sapling"
     },
     {
-      "name": "newworld:fir_sapling"
-    },
-    {
       "name": "minecraft:birch_sapling"
     },
     {
@@ -276,9 +273,6 @@
     },
     {
       "name": "minecraft:spruce_leaves"
-    },
-    {
-      "name": "newworld:fir_leaves"
     },
     {
       "name": "minecraft:birch_leaves"

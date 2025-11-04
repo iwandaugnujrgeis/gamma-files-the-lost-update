@@ -911,11 +911,6 @@ craftingTable.addShaped("checker_block", <item:supplementaries:checker_block> * 
     [<item:minecraft:quartz_block>, <item:minecraft:blackstone>], 
     [<item:minecraft:blackstone>, <item:minecraft:quartz_block>]]);
 
-craftingTable.remove(<item:supplementaries:daub>);
-craftingTable.addShaped("daub", <item:supplementaries:daub>, [
-    [<item:minecraft:wheat>, <item:minecraft:clay_ball>], 
-    [<item:minecraft:clay_ball>, <item:minecraft:wheat>]]);
-
 craftingTable.addShapeless("banana_bread", <item:kubejs:banana_bread> * 2, [<item:kubejs:butter>, <item:alexsmobs:banana>, <item:minecraft:sugar>, <item:kubejs:dough>]);
 
 craftingTable.addShaped("creeper_spores", <item:savage_and_ravage:creeper_spores> * 4, [
