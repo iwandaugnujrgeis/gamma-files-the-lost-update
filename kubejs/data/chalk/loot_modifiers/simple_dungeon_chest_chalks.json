@@ -3,7 +3,7 @@
   "conditions": [
     {
       "condition": "forge:loot_table_id",
-      "loot_table_id": "minecraft:chests/simple_dungeon"
+      "loot_table_id": "minecraft:empty_loot_table_that_doesnt_exist"
     }
   ],
   "lootTable": "chalk:chests/simple_dungeon_chalk_loot"

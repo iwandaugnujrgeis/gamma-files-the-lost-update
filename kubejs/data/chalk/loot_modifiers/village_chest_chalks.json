@@ -6,19 +6,19 @@
       "terms": [
         {
           "condition": "forge:loot_table_id",
-          "loot_table_id": "minecraft:chests/village/village_cartographer"
+          "loot_table_id": "minecraft:empty_loot_table_that_doesnt_exist"
         },
         {
           "condition": "forge:loot_table_id",
-          "loot_table_id": "minecraft:chests/village/village_mason"
+          "loot_table_id": "minecraft:empty_loot_table_that_doesnt_exist"
         },
         {
           "condition": "forge:loot_table_id",
-          "loot_table_id": "minecraft:chests/village/village_plains_house"
+          "loot_table_id": "minecraft:empty_loot_table_that_doesnt_exist"
         },
         {
           "condition": "forge:loot_table_id",
-          "loot_table_id": "minecraft:chests/village/village_savanna_house"
+          "loot_table_id": "minecraft:empty_loot_table_that_doesnt_exist"
         }
       ]
     }
