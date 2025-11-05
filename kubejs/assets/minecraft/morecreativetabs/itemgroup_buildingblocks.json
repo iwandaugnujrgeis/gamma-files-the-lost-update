@@ -47,10 +47,10 @@
       "name": "minecraft:oak_button"
     },
     {
-      "name": "woodworks:oak_chest"
+      "name": "minecraft:chest"
     },
     {
-      "name": "woodworks:trapped_oak_chest"
+      "name": "minecraft:trapped_chest"
     },
     {
       "name": "minecraft:spruce_log"
@@ -917,25 +917,7 @@
       "name": "minecraft:dark_prismarine_slab"
     },
     {
-      "name": "upgrade_aquatic:luminous_prismarine"
-    },
-    {
-      "name": "upgrade_aquatic:luminous_prismarine_stairs"
-    },
-    {
-      "name": "upgrade_aquatic:luminous_prismarine_slab"
-    },
-    {
       "name": "upgrade_aquatic:prismarine_rod_bundle"
-    },
-    {
-      "name": "upgrade_aquatic:scute_shingles"
-    },
-    {
-      "name": "upgrade_aquatic:scute_shingle_stairs"
-    },
-    {
-      "name": "upgrade_aquatic:scute_shingle_slab"
     },
     {
       "name": "minecraft:netherrack"
@@ -961,18 +943,18 @@
     {
       "name": "minecraft:chiseled_nether_bricks"
     },
-    {
-      "name": "minecraft:red_nether_bricks"
-    },
-    {
-      "name": "minecraft:red_nether_brick_stairs"
-    },
-    {
-      "name": "minecraft:red_nether_brick_slab"
-    },
-    {
-      "name": "minecraft:red_nether_brick_wall"
-    },
+    //{
+      //"name": "minecraft:red_nether_bricks"
+    //},
+    //{
+      //"name": "minecraft:red_nether_brick_stairs"
+    //},
+    //{
+      //"name": "minecraft:red_nether_brick_slab"
+    //},
+    //{
+      //"name": "minecraft:red_nether_brick_wall"
+    //},
     {
       "name": "kubejs:gloomy_tiles"
     },

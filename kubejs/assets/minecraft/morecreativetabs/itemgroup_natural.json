@@ -100,12 +100,12 @@
     {
       "name": "minecraft:calcite"
     },
-    {
-      "name": "minecraft:dripstone_block"
-    },
-    {
-      "name": "minecraft:pointed_dripstone"
-    },
+    //{
+      //"name": "minecraft:dripstone_block"
+    //},
+    //{
+      //"name": "minecraft:pointed_dripstone"
+    //},
     {
       "name": "minecraft:magma_block"
     },
