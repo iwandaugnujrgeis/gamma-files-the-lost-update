@@ -232,6 +232,9 @@
     {
       "name": "alexsmobs:spawn_egg_mantis_shrimp" 
     },
+    //{
+      //"name": "caverns_and_chasms:mime_spawn_egg"
+    //},
     {
       "name": "alexsmobs:spawn_egg_mimic_octopus" 
     },

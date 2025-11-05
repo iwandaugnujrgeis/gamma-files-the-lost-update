@@ -467,12 +467,6 @@
       "name": "minecraft:scaffolding"
     },
     {
-      "name": "quark:azalea_chest"
-    },
-    {
-      "name": "quark:azalea_trapped_chest"
-    },
-    {
       "name": "minecraft:stripped_bamboo_block"
     },
     {
@@ -631,6 +625,18 @@
     {
       "name": "minecraft:andesite_wall"
     },
+    //{
+      //"name": "minecraft:calcite"
+    //},
+    //{
+      //"name": "caverns_and_chasms:calcite_stairs"
+    //},
+    //{
+      //"name": "caverns_and_chasms:calcite_slab"
+    //},
+    //{
+      //"name": "caverns_and_chasms:calcite_wall"
+    //},
     {
       "name": "quark:limestone"
     },
@@ -1144,6 +1150,9 @@
     {
       "name": "galosphere:silver_lattice"
     },
+    //{
+      //"name": "caverns_and_chasms:medium_weighted_pressure_plate"
+    //},
     {
       "name": "minecraft:gold_block"
     },

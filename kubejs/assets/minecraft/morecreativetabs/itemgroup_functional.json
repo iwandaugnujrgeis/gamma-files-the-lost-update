@@ -106,6 +106,9 @@
     {
       "name": "minecraft:bell"
     },
+    //{
+      //"name": "caverns_and_chasms:floodlight"
+    //},
     {
       "name": "kubejs:lava_lamp"
     },
@@ -124,6 +127,9 @@
     {
       "name": "minecraft:cauldron"
     },
+    //{
+      //"name": "caverns_and_chasms:brazier"
+    //},
     {
       "name": "minecraft:respawn_anchor"
     },

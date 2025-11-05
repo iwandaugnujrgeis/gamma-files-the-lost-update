@@ -99,6 +99,8 @@
 //rediscovered:long_golden_aura
 //rediscovered:strong_golden_aura
 //rediscovered:crimson_veil
+//caverns_and_chasms:rewind'
+//caverns_and_chasms:long_rewind'
 
 MoreJSEvents.registerPotionBrewing(event => {
     const removedPotions = [
@@ -149,6 +151,8 @@ MoreJSEvents.registerPotionBrewing(event => {
         'upgrade_aquatic:restfulness_strong',
         'upgrade_aquatic:insomnia',
         'upgrade_aquatic:insomnia_strong'
+        //'caverns_and_chasms:rewind',
+        //'caverns_and_chasms:long_rewind'
     ]
 
     removedPotions.forEach(potionId => {

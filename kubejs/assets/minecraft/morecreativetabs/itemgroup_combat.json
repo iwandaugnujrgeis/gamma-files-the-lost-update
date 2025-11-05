@@ -28,6 +28,9 @@
     {
       "name": "minecraft:trident"
     },
+    //{
+      //"name": "caverns_and_chasms:kunai"
+    //},
     {
       "name": "mace_backport:mace"
     },
@@ -55,6 +58,9 @@
     {
       "name": "savage_and_ravage:mischief_arrow"
     },
+    //{
+      //"name": "caverns_and_chasms:large_arrow"
+    //},
     {
       "name": "minecraft:leather_helmet"
     },
@@ -178,6 +184,9 @@
     {
       "name": "minecraft:diamond_horse_armor"
     },
+    //{
+      //"name": "caverns_and_chasms:netherite_horse_armor"
+    //},
     {
       "name": "rediscovered:dragon_armor"
     },
