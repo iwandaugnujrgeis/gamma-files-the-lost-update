@@ -622,7 +622,7 @@
 		"Display Baked Enchantments In Tooltip" = false
 		"Italic Tooltip" = false
 		#Enchantments other than Gold's Fortune/Looting to bake into items. Format is "item+enchant@level", such as "minecraft:stick+sharpness@10".
-		"Baked Enchantments" = ["minecraft:trident+minecraft:channeling@1", "alexsmobs:straddleboard+alexsmobs:lavawax@1", "alexsmobs:straddleboard+alexsmobs:straddle_jump@1", "minecraft:leather_boots+passablefoliage:leaf_walker@1", "minecraft:netherite_sword+minecraft:knockback@1", "supplementaries:bubble_blower+supplementaries:stasis@1", "kubejs:bismuth_pickaxe+minecraft:silk_touch@1"]
+		"Baked Enchantments" = ["minecraft:trident+minecraft:channeling@1", "alexsmobs:straddleboard+alexsmobs:lavawax@1", "alexsmobs:straddleboard+alexsmobs:straddle_jump@1", "minecraft:netherite_sword+minecraft:knockback@1", "supplementaries:bubble_blower+supplementaries:stasis@1", "kubejs:bismuth_pickaxe+minecraft:silk_touch@1"]
 
 	[tweaks.grab_chickens]
 		"Needs No Helmet" = true
@@ -769,7 +769,7 @@
 	"Ancient Wood" = false
 	"Azalea Wood" = false
 	"Big Stone Clusters" = false
-	"Blossom Trees" = true
+	"Blossom Trees" = false
 	"Chorus Vegetation" = false
 	Corundum = false
 	"Fairy Rings" = true

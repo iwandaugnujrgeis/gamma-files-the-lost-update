@@ -31,7 +31,7 @@
   },
   "display": {
     "announce_to_chat": true,
-    "description": "Walk on Powder Snow without Sinking! Also works on Leaves!",
+    "description": "Walk on Powder Snow without Sinking!",
     "frame": "task",
     "hidden": false,
     "icon": {
