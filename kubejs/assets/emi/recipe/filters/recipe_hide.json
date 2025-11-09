@@ -281,3 +281,9 @@
     }
   ]
 }
+
+//This is a file used to hide recipes which cannot be hidden using the remove_stacks.js file.
+//Sometimes, these are things that are added via some core modding workarounds, like the "lore-display"
+//thing from Supplementaries. You can't really tag a specific object to be hidden using remove_stacks.js,
+//but you can hide it here. I've also used this file to hide the potion recipes for Alex's Mobs, as
+//I couldn't get it to work using the startup_script potion removal.
