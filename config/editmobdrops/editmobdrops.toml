@@ -9,5 +9,5 @@ mobGroups = []
 #Mobs to clear existing drops from
 mobsToClear = []
 #Single mob items, in the form EntityModid:EntityName:modid:itemName:[nbtfile]:minStackSize:maxStackSize:chance
-singleMobItems = ["spelunkery:dust_bunny:spelunkery:dust_bun::1:2:60", "ecologics:penguin:minecraft:feather::1:2:60"]
+singleMobItems = ["spelunkery:dust_bunny:spelunkery:dust_bun::1:2:60", "ecologics:penguin:minecraft:feather::1:2:60", "minecraft:giant:minecraft:feather::1:2:60"]
 
