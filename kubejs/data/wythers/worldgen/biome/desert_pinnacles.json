@@ -78,7 +78,9 @@
 		[
 			"minecraft:glow_lichen",
 			"wythers:other/desert_pinnacles",
-			"wythers:vegetation/placed_random_patch/sparse_desert_grass",
+			"minecraft:patch_tall_grass",
+			"wythers:vegetation/trees_dry_savanna",
+			"minecraft:patch_grass_savanna",
 			"minecraft:brown_mushroom_normal",
 			"minecraft:red_mushroom_normal"
 		],
