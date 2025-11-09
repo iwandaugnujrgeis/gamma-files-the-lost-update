@@ -142,18 +142,18 @@
     {
       "name": "alexsmobs:spawn_egg_froststalker" 
     },
-    {
-      "name": "quark:foxhound_spawn_egg" 
-    },
+    //{
+      //"name": "quark:foxhound_spawn_egg" 
+    //},
     {
       "name": "minecraft:fox_spawn_egg" 
     },
     {
       "name": "minecraft:frog_spawn_egg" 
     },
-    {
-      "name": "alexsmobs:spawn_egg_gazelle" 
-    },
+    //{
+      //"name": "alexsmobs:spawn_egg_gazelle" 
+    //},
     {
       "name": "alexsmobs:spawn_egg_gelada_monkey" 
     },
@@ -205,9 +205,9 @@
     {
       "name": "alexsmobs:spawn_egg_jerboa" 
     },
-    {
-      "name": "alexsmobs:spawn_egg_kangaroo" 
-    },
+    //{
+      //"name": "alexsmobs:spawn_egg_kangaroo" 
+    //},
     {
       "name": "kiwiboi:kiwi_spawn_egg" 
     },
@@ -229,15 +229,15 @@
     {
       "name": "alexsmobs:spawn_egg_maned_wolf" 
     },
-    {
-      "name": "alexsmobs:spawn_egg_mantis_shrimp" 
-    },
+    //{
+      //"name": "alexsmobs:spawn_egg_mantis_shrimp" 
+    //},
     //{
       //"name": "caverns_and_chasms:mime_spawn_egg"
     //},
-    {
-      "name": "alexsmobs:spawn_egg_mimic_octopus" 
-    },
+    //{
+      //"name": "alexsmobs:spawn_egg_mimic_octopus" 
+    //},
     {
       "name": "alexsmobs:spawn_egg_moose" 
     },
@@ -333,9 +333,6 @@
     },
     {
       "name": "minecraft:sheep_spawn_egg" 
-    },
-    {
-      "name": "minecraft:shulker_spawn_egg" 
     },
     {
       "name": "alexsmobs:spawn_egg_shoebill" 
