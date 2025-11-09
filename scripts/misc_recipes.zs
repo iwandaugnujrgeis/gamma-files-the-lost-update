@@ -196,7 +196,11 @@ craftingTable.addShapeless("honeyed_apple", <item:kubejs:honeyed_apple> * 2, [<i
 craftingTable.remove(<item:minecraft:mushroom_stew>);
 
 craftingTable.remove(<item:minecraft:chest>);
-craftingTable.addShapeless("classic_chest", <item:minecraft:chest>, [<item:woodworks:oak_chest>, <item:minecraft:orange_dye>]);
+craftingTable.remove(<item:woodworks:oak_chest>);
+craftingTable.addShaped("chest", <item:minecraft:chest>, [
+    [<item:minecraft:oak_planks>, <item:minecraft:oak_planks>, <item:minecraft:oak_planks>], 
+    [<item:minecraft:oak_planks>, <item:minecraft:air>, <item:minecraft:oak_planks>], 
+    [<item:minecraft:oak_planks>, <item:minecraft:oak_planks>, <item:minecraft:oak_planks>]]);
 
 craftingTable.remove(<item:spelunkery:rock_salt_block>);
 
@@ -838,11 +842,11 @@ craftingTable.addShaped("turtle_raft", <item:etcetera:turtle_raft>, [
     [<item:minecraft:scute>, <item:minecraft:wooden_shovel>, <item:minecraft:scute>],
     [<item:minecraft:scute>, <item:minecraft:scute>, <item:minecraft:scute>]]);
 
-craftingTable.remove(<item:minecraft:red_nether_bricks>);
-craftingTable.addShaped("blazing_bricks", <item:minecraft:red_nether_bricks> * 8, [
-    [<tag:items:gamma:blazified_tiles>, <tag:items:gamma:blazified_tiles>, <tag:items:gamma:blazified_tiles>], 
-    [<tag:items:gamma:blazified_tiles>, <item:minecraft:blaze_powder>, <tag:items:gamma:blazified_tiles>],
-    [<tag:items:gamma:blazified_tiles>, <tag:items:gamma:blazified_tiles>, <tag:items:gamma:blazified_tiles>]]);
+//craftingTable.remove(<item:minecraft:red_nether_bricks>);
+//craftingTable.addShaped("blazing_bricks", <item:minecraft:red_nether_bricks> * 8, [
+    //[<tag:items:gamma:blazified_tiles>, <tag:items:gamma:blazified_tiles>, <tag:items:gamma:blazified_tiles>], 
+    //[<tag:items:gamma:blazified_tiles>, <item:minecraft:blaze_powder>, <tag:items:gamma:blazified_tiles>],
+    //[<tag:items:gamma:blazified_tiles>, <tag:items:gamma:blazified_tiles>, <tag:items:gamma:blazified_tiles>]]);
 
 craftingTable.addShaped("sombrero", <item:alexsmobs:sombrero>, [
     [<item:minecraft:air>, <item:minecraft:wheat>, <item:minecraft:air>], 
@@ -950,10 +954,6 @@ craftingTable.addShaped("scute_chestplate", <item:alexsmobs:crocodile_chestplate
     //[<item:minecraft:air>, <item:minecraft:leather>, <item:minecraft:air>], 
     //[<item:minecraft:leather>, <item:minecraft:chainmail_boots>, <item:minecraft:leather>],
     //[<item:minecraft:air>, <item:minecraft:leather>, <item:minecraft:air>]]);
-
-craftingTable.addShaped("loam_tiles", <item:newworld:loam_tiles> * 4, [
-    [<item:newworld:loam>, <item:newworld:loam>], 
-    [<item:newworld:loam>, <item:newworld:loam>]]);
 
 craftingTable.addShapeless("tangle_roots_mangrove", <item:spelunkery:tangle_roots> * 3, [<item:minecraft:mangrove_roots>]);
 
@@ -1489,3 +1489,6 @@ craftingTable.addShaped("music_disc_atlantis", <item:upgrade_aquatic:music_disc_
     [<item:minecraft:air>, <item:upgrade_aquatic:disc_fragment_atlantis>, <item:minecraft:air>], 
     [<item:upgrade_aquatic:disc_fragment_atlantis>, <item:minecraft:quartz>, <item:upgrade_aquatic:disc_fragment_atlantis>],
     [<item:minecraft:air>, <item:upgrade_aquatic:disc_fragment_atlantis>, <item:minecraft:air>]]);
+
+craftingTable.remove(<item:etcetera:tidal_helmet>);
+craftingTable.addShapeless("tidal_helmet", <item:etcetera:tidal_helmet>, [<item:minecraft:turtle_helmet>, <item:minecraft:heart_of_the_sea>]);
