@@ -6,7 +6,7 @@
   "biomes": "#rediscovered:is_skylands",
   "step": "raw_generation",
   "start_height": {
-    "absolute": 120
+    "absolute": 128
   },
   "use_expansion_hack": false,
   "spawn_overrides": {
