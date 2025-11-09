@@ -206,21 +206,6 @@
       "name": "rediscovered:ancient_cherry_sapling"
     },
     {
-      "name": "quark:blue_blossom_sapling"
-    },
-    {
-      "name": "quark:lavender_blossom_sapling"
-    },
-    {
-      "name": "quark:orange_blossom_sapling"
-    },
-    {
-      "name": "quark:yellow_blossom_sapling"
-    },
-    {
-      "name": "quark:red_blossom_sapling"
-    },
-    {
       "name": "minecraft:azalea"
     },
     {
@@ -301,24 +286,6 @@
     {
       "name": "minecraft:flowering_azalea_leaves"
     },
-    {
-      "name": "quark:blue_blossom_leaves"
-    },
-    {
-      "name": "quark:lavender_blossom_leaves"
-    },
-    {
-      "name": "quark:orange_blossom_leaves"
-    },
-    {
-      "name": "quark:yellow_blossom_leaves"
-    },
-    {
-      "name": "quark:red_blossom_leaves"
-    },
-    //{
-      //"name": "phantasm:pream_leaves"
-    //},
     {
       "name": "minecraft:mushroom_stem"
     },
