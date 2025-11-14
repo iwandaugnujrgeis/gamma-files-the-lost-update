@@ -8,6 +8,8 @@
 
 	"swapper": 
 	{
+		"minecraft:chiseled_polished_blackstone": "minecraft:blackstone",
+
 		"rediscovered:ruby_block": "minecraft:waxed_copper_block",
 		"minecraft:deepslate_iron_ore": "minecraft:deepslate",
 		'minecraft:blast_furnace': "minecraft:furnace",
@@ -47,7 +49,7 @@
 		"minecraft:deepslate_brick_slab": "minecraft:deepslate_tile_slab",
 		"minecraft:deepslate_brick_stairs": "minecraft:deepslate_tile_stairs",
 		"minecraft:deepslate_brick_wall": "minecraft:deepslate_tile_wall",
-		"minecraft:cracked_deepslate_bricks": "minecraft:cobbled_deepslate",
+		"minecraft:cracked_deepslate_bricks": "minecraft:deepslate",
 		"minecraft:deepslate_bricks": "minecraft:deepslate_tiles",
 
 		"minecraft:muddy_mangrove_roots": "minecraft:mud", //Remove via Configured Features?
