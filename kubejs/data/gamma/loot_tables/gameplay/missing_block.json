@@ -7,6 +7,26 @@
         {
           "type": "minecraft:item",
           "weight": 1,
+          "name": "rediscovered:steve_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "rediscovered:rana_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:disc_fragment_5"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "alexsmobs:bear_dust"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
           "name": "minecraft:totem_of_undying"
         },
         {
@@ -67,11 +87,6 @@
           "type": "minecraft:item",
           "weight": 1,
           "name": "alexsmobs:straddlite"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "kubejs:chocolate_glazed_berries"
         },
         {
           "type": "minecraft:item",
@@ -146,17 +161,21 @@
         {
           "type": "minecraft:item",
           "weight": 1,
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.15,
+                "max": 0.95
+              }
+            }
+          ],
           "name": "minecraft:diamond_pickaxe"
         },
         {
           "type": "minecraft:item",
           "weight": 1,
           "name": "minecraft:echo_shard"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:ender_eye"
         },
         {
           "type": "minecraft:item",
@@ -171,11 +190,29 @@
         {
           "type": "minecraft:item",
           "weight": 1,
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.15,
+                "max": 0.95
+              }
+            }
+          ],
           "name": "minecraft:golden_shovel"
         },
         {
           "type": "minecraft:item",
           "weight": 1,
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.15,
+                "max": 0.95
+              }
+            }
+          ],
           "name": "minecraft:iron_axe"
         },
         {
@@ -301,11 +338,6 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "supplementaries:jar"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
           "name": "supplementaries:key"
         },
         {
@@ -316,6 +348,15 @@
         {
           "type": "minecraft:item",
           "weight": 1,
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.15,
+                "max": 0.95
+              }
+            }
+          ],
           "name": "supplementaries:slingshot"
         },
         {
@@ -486,6 +527,15 @@
         {
           "type": "minecraft:item",
           "weight": 1,
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.15,
+                "max": 0.95
+              }
+            }
+          ],
           "name": "minecraft:flint_and_steel"
         },
         {
@@ -647,11 +697,6 @@
           "type": "minecraft:item",
           "weight": 1,
           "name": "upgrade_aquatic:river_stairs"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "woodworks:spruce_boards"
         },
         {
           "type": "minecraft:item",
