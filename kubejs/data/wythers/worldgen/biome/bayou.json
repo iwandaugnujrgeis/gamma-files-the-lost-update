@@ -77,6 +77,36 @@
 				"weight": 50,
 				"minCount": 2,
 				"maxCount": 5
+			},
+			{
+				"type": "alexsmobs:crocodile",
+				"weight": 5,
+				"minCount": 1,
+				"maxCount": 1
+			},
+			{
+				"type": "alexsmobs:caiman",
+				"weight": 8,
+				"minCount": 1,
+				"maxCount": 1
+			},
+			{
+				"type": "alexsmobs:raccoon",
+				"weight": 10,
+				"minCount": 1,
+				"maxCount": 1
+			},
+			{
+				"type": "alexsmobs:shoebill",
+				"weight": 10,
+				"minCount": 1,
+				"maxCount": 1
+			},
+			{
+				"type": "alexsmobs:catfish",
+				"weight": 50,
+				"minCount": 1,
+				"maxCount": 1
 			}
 		],
 		"ambient": [
