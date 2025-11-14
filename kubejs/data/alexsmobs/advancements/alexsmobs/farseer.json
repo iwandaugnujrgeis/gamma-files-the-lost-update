@@ -1,5 +1,5 @@
 {
-  "parent": "alexsmobs:alexsmobs/dimensional_carver",
+  "parent": "gamma:detour/kill_a_mob",
   "criteria": {
     "killed_farseer": {
       "trigger": "minecraft:player_killed_entity",
