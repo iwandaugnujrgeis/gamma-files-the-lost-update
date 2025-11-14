@@ -71,22 +71,7 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "spelunkery:dust"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
           "name": "spelunkery:tangle_roots"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "name": "hauntedharvest:paper_bag"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "name": "kubejs:ancient_rod"
         },
         {
           "type": "minecraft:item",
@@ -107,11 +92,6 @@
           "type": "minecraft:item",
           "weight": 5,
           "name": "supplementaries:pulley_block"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "name": "supplementaries:jar"
         },
         {
           "type": "minecraft:item",
@@ -147,11 +127,6 @@
           "type": "minecraft:item",
           "weight": 5,
           "name": "galosphere:spectre_flare"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "name": "minecraft:smoker"
         },
         {
           "type": "minecraft:item",

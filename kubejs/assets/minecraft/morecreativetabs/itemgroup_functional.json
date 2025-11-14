@@ -133,9 +133,9 @@
     {
       "name": "minecraft:respawn_anchor"
     },
-    {
-      "name": "alexsmobs:transmutation_table"
-    },
+    //{
+      //"name": "alexsmobs:transmutation_table"
+    //},
     {
       "name": "minecraft:composter"
     },

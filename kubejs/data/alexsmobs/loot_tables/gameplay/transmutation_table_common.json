@@ -56,11 +56,6 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "minecraft:cobbled_deepslate"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
           "name": "minecraft:netherrack"
         },
         {
@@ -132,11 +127,6 @@
           "type": "minecraft:item",
           "weight": 5,
           "name": "minecraft:ochre_froglight"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "name": "etcetera:raw_bismuth_block"
         },
         {
           "type": "minecraft:item",
@@ -326,17 +316,7 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "kubejs:halite_block"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
           "name": "galosphere:silver_block"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "name": "etcetera:bismuth_block"
         },
         {
           "type": "minecraft:item",
@@ -361,17 +341,7 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "minecraft:red_nether_bricks"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
           "name": "rediscovered:brittle_mud_bricks"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "name": "newworld:loam_tiles"
         },
         {
           "type": "minecraft:item",

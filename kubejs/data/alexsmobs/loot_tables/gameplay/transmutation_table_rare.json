@@ -111,11 +111,6 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "alexsmobs:spawn_egg_flutter"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
           "name": "minecraft:zombie_spawn_egg"
         },
         {
@@ -147,11 +142,6 @@
           "type": "minecraft:item",
           "weight": 5,
           "name": "minecraft:panda_spawn_egg"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "name": "earthmobsmod:melon_golem_spawn_egg"
         },
         {
           "type": "minecraft:item",

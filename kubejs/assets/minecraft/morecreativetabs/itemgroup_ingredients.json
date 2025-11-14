@@ -55,9 +55,9 @@
     {
       "name": "alexsmobs:straddlite"
     },
-    {
-      "name": "phantasm:crystal_shard"
-    },
+    //{
+      //"name": "phantasm:crystal_shard"
+    //},
     {
       "name": "kubejs:halite_crystal"
     },
@@ -247,9 +247,9 @@
     {
       "name": "minecraft:nether_star"
     },
-    {
-      "name": "alexsmobs:mimicream"
-    },
+    //{
+      //"name": "alexsmobs:mimicream"
+    //},
     {
       "name": "alexsmobs:farseer_arm"
     },

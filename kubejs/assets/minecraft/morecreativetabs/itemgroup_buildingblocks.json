@@ -1021,9 +1021,9 @@
     {
       "name": "minecraft:blackstone_wall"
     },
-    {
-      "name": "minecraft:chiseled_polished_blackstone"
-    },
+    //{
+      //"name": "minecraft:chiseled_polished_blackstone"
+    //},
     {
       "name": "minecraft:polished_blackstone_bricks"
     },
@@ -1126,9 +1126,9 @@
     {
       "name": "minecraft:chain"
     },
-    {
-      "name": "galosphere:silver_block"
-    },
+    //{
+      //"name": "galosphere:silver_block"
+    //},
     {
       "name": "galosphere:silver_lattice"
     },
@@ -1141,9 +1141,9 @@
     {
       "name": "supplementaries:gold_door"
     },
-    {
-      "name": "supplementaries:gold_trapdoor"
-    },
+    //{
+      //"name": "supplementaries:gold_trapdoor"
+    //},
     {
       "name": "minecraft:light_weighted_pressure_plate"
     },
@@ -1153,15 +1153,15 @@
     //{
       //"name": "rediscovered:ruby_block"
     //},
-    {
-      "name": "kubejs:bismuth_block"
-    },
-    {
-      "name": "etcetera:bismuth_bars"
-    },
-    {
-      "name": "alexsmobs:straddlite_block"
-    },
+    //{
+      //"name": "kubejs:bismuth_block"
+    //},
+    //{
+      //"name": "etcetera:bismuth_bars"
+    //},
+    //{
+      //"name": "alexsmobs:straddlite_block"
+    //},
     {
       "name": "minecraft:redstone_block"
     },
