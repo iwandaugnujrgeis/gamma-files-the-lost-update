@@ -2,32 +2,40 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "bonus_rolls": 0,
+      "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:stick",
-          "quality": 1,
-          "conditions": [
+          "type": "minecraft:alternatives",
+          "children": [
             {
-              "condition": "minecraft:random_chance",
-              "chance": 0.1
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "supplementaries:ash",
-          "quality": 1,
-          "conditions": [
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": [
+                      "kubejs:bismuth_pickaxe"
+                    ]
+                  }
+                }
+              ],
+              "name": "hardcore_torches:burnt_torch"
+            },
             {
-              "condition": "minecraft:random_chance",
-              "chance": 0.2
+              "type": "minecraft:item",
+              "name": "minecraft:stick",
+              "quality": 1,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.1
+                }
+              ]
             }
           ]
         }
       ],
-      "rolls": 1
+      "rolls": 1.0
     }
   ],
   "random_sequence": "hardcore_torches:burnt_wall_torch"
