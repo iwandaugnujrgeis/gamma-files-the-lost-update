@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = drippy_loading_overlay
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1761598749710
+  last_edited_time = 1762813026361
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:590e5573-a1af-4d8a-ab2c-235036bf27c6-1761598738368] = [groups:][instances:]
+  [loading_requirement_container_meta:addc5611-4b29-4985-9c17-57e3f91d4e45-1762812949932] = [groups:][instances:]
 }
 
 menu_background {
@@ -140,7 +140,7 @@ element {
 
 element {
   interactable = true
-  source = Minecraft 1.20.1%n%Gamma Files 3.19
+  source = Minecraft 1.20.1%n%Gamma Files 4.0
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -181,8 +181,8 @@ element {
   fade_out_speed = 1.0
   base_opacity = 1.0
   auto_sizing = false
-  auto_sizing_base_screen_width = 2884
-  auto_sizing_base_screen_height = 1694
+  auto_sizing_base_screen_width = 2880
+  auto_sizing_base_screen_height = 1695
   sticky_anchor = false
   anchor_point = bottom-left
   x = -44
@@ -363,10 +363,10 @@ vanilla_button {
   auto_sizing_base_screen_height = 0
   sticky_anchor = false
   anchor_point = vanilla
-  x = 85
-  y = 91
-  width = 242
-  height = 60
+  x = 119
+  y = 127
+  width = 338
+  height = 84
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
