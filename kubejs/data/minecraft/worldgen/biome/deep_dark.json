@@ -88,13 +88,25 @@
     ]
   ],
   "has_precipitation": true,
-  "spawn_costs": {},
+  "spawn_costs": {
+    "alexsmobs:skreecher": {
+      "charge": 0.7,
+      "energy_budget": 0.15
+    }
+  },
   "spawners": {
     "ambient": [],
     "axolotls": [],
     "creature": [],
     "misc": [],
-    "monster": [],
+    "monster": [
+      {
+        "type": "alexsmobs:skreecher",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 5
+      }
+    ],
     "underground_water_creature": [],
     "water_ambient": [],
     "water_creature": []
