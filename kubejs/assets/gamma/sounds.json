@@ -18,6 +18,14 @@
         "stream": true
       },
       {
+        "name": "gamma:music/nether/nether5",
+        "stream": true
+      },
+      {
+        "name": "gamma:music/nether/nether6",
+        "stream": true
+      },
+      {
         "name": "music/game/nether/nether_wastes/rubedo",
         "stream": true,
         "volume": 0.5

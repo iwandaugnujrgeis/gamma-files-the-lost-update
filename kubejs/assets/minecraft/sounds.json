@@ -325,6 +325,18 @@
         "stream": true,
         "volume": 1.0,
         "weight": 10
+      },
+      {
+        "name": "gamma:music/excuse",
+        "stream": true,
+        "volume": 1.0,
+        "weight": 10
+      },
+      {
+        "name": "gamma:music/beginning",
+        "stream": true,
+        "volume": 1.0,
+        "weight": 10
       }
     ]
   },
@@ -445,7 +457,14 @@
     "sounds": [
       {
         "name": "music.game",
-        "type": "event"
+        "type": "event",
+        "weight": 6
+      },
+      {
+        "name": "music/game/ancestry",
+        "stream": true,
+        "volume": 1.0,
+        "weight": 10
       }
     ]
   },
