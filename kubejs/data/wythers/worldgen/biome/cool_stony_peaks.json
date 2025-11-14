@@ -80,7 +80,11 @@
 			"minecraft:spring_lava"
 		],
 		[
-			"minecraft:glow_lichen"
+			"minecraft:glow_lichen",
+			"wythers:vegetation/placed_random_patch/grass_marsh",
+			"minecraft:patch_grass_savanna",
+			"minecraft:brown_mushroom_normal",
+			"minecraft:red_mushroom_normal"
 		],
 		[
 			"minecraft:freeze_top_layer"
