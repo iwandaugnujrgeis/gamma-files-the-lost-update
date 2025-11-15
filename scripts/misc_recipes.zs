@@ -523,10 +523,10 @@ craftingTable.addShaped("drum", <item:etcetera:drum>, [
     [<item:minecraft:string>, <item:minecraft:paper>, <item:minecraft:string>],
     [<item:minecraft:air>, <item:minecraft:note_block>, <item:minecraft:air>]]);
 
-craftingTable.addShaped("emu_leggings", <item:alexsmobs:emu_leggings>, [
-    [<item:minecraft:air>, <item:alexsmobs:emu_feather>, <item:minecraft:air>], 
-    [<item:alexsmobs:emu_feather>, <item:minecraft:leather_leggings>, <item:alexsmobs:emu_feather>],
-    [<item:minecraft:air>, <item:alexsmobs:emu_feather>, <item:minecraft:air>]]);
+//craftingTable.addShaped("emu_leggings", <item:alexsmobs:emu_leggings>, [
+    //[<item:minecraft:air>, <item:alexsmobs:emu_feather>, <item:minecraft:air>], 
+    //[<item:alexsmobs:emu_feather>, <item:minecraft:leather_leggings>, <item:alexsmobs:emu_feather>],
+    //[<item:minecraft:air>, <item:alexsmobs:emu_feather>, <item:minecraft:air>]]);
 
 craftingTable.addShaped("novelty_hat", <item:alexsmobs:novelty_hat>, [
     [<item:minecraft:air>, <item:minecraft:gold_nugget>, <item:minecraft:air>], 
@@ -1037,10 +1037,10 @@ craftingTable.addShaped("compression_blast_miner", <item:spelunkery:compression_
     [<item:minecraft:redstone>, <item:minecraft:nether_star>, <item:minecraft:redstone>],
     [<item:minecraft:obsidian>, <item:minecraft:redstone>, <item:minecraft:obsidian>]]);
 
-craftingTable.addShaped("mysterious_stone", <item:kubejs:mysterious_stone> * 64, [
-    [<item:minecraft:bedrock>, <item:minecraft:bedrock>, <item:minecraft:bedrock>],
-    [<item:minecraft:bedrock>, <item:alexsmobs:farseer_arm>, <item:minecraft:bedrock>],
-    [<item:minecraft:bedrock>, <item:minecraft:bedrock>, <item:minecraft:bedrock>]]);
+craftingTable.addShaped("mysterious_stone", <item:kubejs:mysterious_stone> * 16, [
+    [<item:minecraft:amethyst_block>, <item:minecraft:amethyst_block>, <item:minecraft:amethyst_block>],
+    [<item:minecraft:amethyst_block>, <item:alexsmobs:farseer_arm>, <item:minecraft:amethyst_block>],
+    [<item:minecraft:amethyst_block>, <item:minecraft:amethyst_block>, <item:minecraft:amethyst_block>]]);
 
 craftingTable.addShapeless("scroll_clean_map", <item:minecraft:map>, [<item:supplementaries:cartographers_quill>, <item:supplementaries:soap>]);
 
@@ -1492,3 +1492,13 @@ craftingTable.addShaped("music_disc_atlantis", <item:upgrade_aquatic:music_disc_
 
 craftingTable.remove(<item:etcetera:tidal_helmet>);
 craftingTable.addShapeless("tidal_helmet", <item:etcetera:tidal_helmet>, [<item:minecraft:turtle_helmet>, <item:minecraft:heart_of_the_sea>]);
+
+craftingTable.remove(<item:minecraft:tinted_glass>);
+furnace.addRecipe("tinted_glass", <item:minecraft:tinted_glass>, <item:minecraft:gravel>, 0.35, 200);
+
+furnace.addRecipe("brittle_packed_mud", <item:rediscovered:brittle_packed_mud>, <item:minecraft:packed_mud>, 0.35, 200);
+furnace.addRecipe("brittle_mud_bricks", <item:rediscovered:brittle_mud_bricks>, <item:minecraft:mud_bricks>, 0.35, 200);
+
+//stoneCutter.addRecipe("smooth_stone_slab_from_stone_slab", <item:minecraft:smooth_stone_slab>, <item:minecraft:stone_slab>);
+//stoneCutter.addRecipe("stone_brick_stairs_from_stone_stairs", <item:minecraft:stone_brick_stairs>, <item:minecraft:stone_stairs>);
+//stoneCutter.addRecipe("stone_brick_slab_from_stone_slab", <item:minecraft:stone_brick_slab>, <item:minecraft:stone_slab>);

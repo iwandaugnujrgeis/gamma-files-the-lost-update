@@ -22,7 +22,7 @@ toggleSprint:false
 darkMojangStudiosBackground:false
 hideLightningFlashes:false
 mouseSensitivity:0.5
-fov:0.125
+fov:0.0
 screenEffectScale:1.0
 fovEffectScale:1.0
 darknessEffectScale:1.0
@@ -34,7 +34,7 @@ gamma:0.15
 renderDistance:8
 simulationDistance:8
 entityDistanceScaling:2.0
-guiScale:5
+guiScale:0
 particles:1
 maxFps:260
 graphicsMode:1
@@ -61,7 +61,7 @@ chatHeightFocused:1.0
 chatDelay:0.0
 chatHeightUnfocused:0.4375
 chatScale:1.0
-chatWidth:0.4299185739436618
+chatWidth:0.5735538011052428
 notificationDisplayTime:1.0
 mipmapLevels:4
 useNativeTransport:true
@@ -116,8 +116,8 @@ key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
 key_ping-wheel.key.ping-location:key.keyboard.v
-soundCategory_master:0.0
-soundCategory_music:0.40850572183098594
+soundCategory_master:1.0
+soundCategory_music:0.8055347711267606
 soundCategory_record:1.0
 soundCategory_weather:0.8047645246478874
 soundCategory_block:0.707394366197183

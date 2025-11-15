@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#spelunkery:has_salt_noise",
+  "features": [
+    "spelunkery:spring_water_spring",
+    "spelunkery:spring_water_pool"
+  ],
+  "step": "raw_generation"
+}

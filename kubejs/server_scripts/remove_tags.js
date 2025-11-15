@@ -96,6 +96,16 @@ ServerEvents.tags('item', event => {
     event.removeAllTagsFrom('supplementaries:trapped_present_purple')
     event.removeAllTagsFrom('supplementaries:trapped_present_magenta')
     event.removeAllTagsFrom('supplementaries:trapped_present_pink')
+    event.removeAllTagsFrom('alexsmobs:stink_ray')
+    event.removeAllTagsFrom('alexsmobs:stink_bottle')
+    event.removeAllTagsFrom('alexsmobs:emu_leggings')
+    event.removeAllTagsFrom('alexsmobs:roadrunner_boots')
+    event.removeAllTagsFrom('alexsmobs:froststalker_helmet')
+    event.removeAllTagsFrom('alexsmobs:falconry_glove')
+    event.removeAllTagsFrom('alexsmobs:falconry_hood')
+    event.removeAllTagsFrom('alexsmobs:roadrunner_feather')
+    event.removeAllTagsFrom('alexsmobs:emu_feather')
+    event.removeAllTagsFrom('alexsmobs:spawn_egg_skunk')
 
 //3.19 Features on Hold (Caverns & Chasms):
     //event.removeAllTagsFrom('caverns_and_chasms:abnormals_banner_pattern')

@@ -97,6 +97,16 @@ const removedInOutputs =
         'supplementaries:trapped_present_purple',
         'supplementaries:trapped_present_magenta',
         'supplementaries:trapped_present_pink',
+        'alexsmobs:stink_ray',
+        'alexsmobs:stink_bottle',
+        'alexsmobs:emu_leggings',
+        'alexsmobs:roadrunner_boots',
+        'alexsmobs:froststalker_helmet',
+        'alexsmobs:falconry_glove',
+        'alexsmobs:falconry_hood',
+        'alexsmobs:roadrunner_feather',
+        'alexsmobs:emu_feather',
+        'alexsmobs:spawn_egg_skunk',
 
     //3.19 Features on Hold (Caverns & Chasms):
         //'caverns_and_chasms:abnormals_banner_pattern',
