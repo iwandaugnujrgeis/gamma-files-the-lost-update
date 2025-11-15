@@ -118,12 +118,12 @@
     {
       "name": "minecraft:feather"
     },
-    {
-      "name": "alexsmobs:roadrunner_feather"
-    },
-    {
-      "name": "alexsmobs:emu_feather"
-    },
+    //{
+      //"name": "alexsmobs:roadrunner_feather"
+    //},
+    //{
+      //"name": "alexsmobs:emu_feather"
+    //},
     {
       "name": "minecraft:slime_ball"
     },

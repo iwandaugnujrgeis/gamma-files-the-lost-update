@@ -34,9 +34,9 @@
     {
       "name": "mace_backport:mace"
     },
-    {
-      "name": "alexsmobs:stink_ray"
-    },
+    //{
+      //"name": "alexsmobs:stink_ray"
+    //},
     {
       "name": "minecraft:bow"
     },
@@ -193,15 +193,15 @@
     //{
       //"name": "alexsmobs:pigshoes"
     //},
-    {
-      "name": "alexsmobs:falconry_hood"
-    },
-    {
-      "name": "alexsmobs:falconry_glove"
-    },
-    {
-      "name": "alexsmobs:froststalker_helmet"
-    },
+    //{
+      //"name": "alexsmobs:falconry_hood"
+    //},
+    //{
+      //"name": "alexsmobs:falconry_glove"
+    //},
+    //{
+      //"name": "alexsmobs:froststalker_helmet"
+    //},
     {
       "name": "savage_and_ravage:mask_of_dishonesty"
     },
@@ -235,12 +235,12 @@
     {
       "name": "alexsmobs:unsettling_kimono"
     },
-    {
-      "name": "alexsmobs:emu_leggings"
-    },
-    {
-      "name": "alexsmobs:roadrunner_boots"
-    },
+    //{
+      //"name": "alexsmobs:emu_leggings"
+    //},
+    //{
+      //"name": "alexsmobs:roadrunner_boots"
+    //},
     {
       "name": "alexsmobs:flying_fish_boots"
     }

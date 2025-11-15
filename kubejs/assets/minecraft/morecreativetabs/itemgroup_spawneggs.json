@@ -355,9 +355,9 @@
     {
       "name": "alexsmobs:spawn_egg_skreecher" 
     },
-    {
-      "name": "alexsmobs:spawn_egg_skunk" 
-    },
+    //{
+      //"name": "alexsmobs:spawn_egg_skunk" 
+    //},
     {
       "name": "alexsmobs:spawn_egg_snow_leopard" 
     },

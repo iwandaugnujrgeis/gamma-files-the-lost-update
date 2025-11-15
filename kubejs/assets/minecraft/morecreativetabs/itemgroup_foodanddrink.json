@@ -271,9 +271,9 @@
     {
       "name": "alexsmobs:lava_bottle"
     },
-    {
-      "name": "alexsmobs:stink_bottle"
-    },
+    //{
+      //"name": "alexsmobs:stink_bottle"
+    //},
     {
       "name": "quark:bottled_cloud"
     },
