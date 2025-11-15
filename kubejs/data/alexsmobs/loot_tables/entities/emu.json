@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "item",
-          "name": "alexsmobs:emu_feather",
+          "name": "minecraft:feather",
           "weight": 1,
           "functions": [
             {

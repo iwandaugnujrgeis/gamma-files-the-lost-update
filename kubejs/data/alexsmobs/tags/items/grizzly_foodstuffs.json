@@ -1,0 +1,8 @@
+{
+  "__comment": "Will follow with these items in your hand and heals 4 HP when given",
+  "replace": false,
+  "values": [
+    "#minecraft:fishes",
+    "minecraft:honeycomb"
+  ]
+}

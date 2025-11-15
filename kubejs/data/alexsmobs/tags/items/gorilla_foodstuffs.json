@@ -1,0 +1,8 @@
+{
+  "__comment": "Heals when given",
+  "replace": false,
+  "values": [
+    "alexsmobs:banana",
+    "kubejs:banana_bread"
+  ]
+}
