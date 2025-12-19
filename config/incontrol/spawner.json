@@ -1,0 +1,17 @@
+[
+  {
+    "mob": "rediscovered:zombie_pigman",
+    "persecond": 0.5,
+    "attempts": 2,
+    "amount": {
+      "minimum": 2,
+      "maximum": 5
+    },
+    "conditions": {
+      "dimension": "minecraft:the_nether",
+      "mindist": 25,
+      "maxdist": 100,
+      "maxthis": 100
+    }
+  }
+]
