@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "#forge:is_dry/overworld",
+  "spawners": 
+    {
+      "type": "alexsmobs:jerboa",
+      "maxCount": 3,
+      "minCount": 1,
+      "weight": 8
+    }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "sweety_garden:blocks/drimia",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "sweety_garden:drimia",
+          "conditions": [
+            {
+              "block": "sweety_garden:drimia",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

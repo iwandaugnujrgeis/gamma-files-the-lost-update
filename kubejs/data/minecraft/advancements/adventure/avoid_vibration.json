@@ -1,0 +1,26 @@
+{
+  "parent": "gamma:detour/root",
+  "criteria": {
+    "avoid_vibration": {
+      "conditions": {},
+      "trigger": "minecraft:avoid_vibration"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Sneak Past the Sculk Sensor or a Warden!",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:sculk_sensor"
+    },
+    "show_toast": true,
+    "title": "Мыш (Кродеться)"
+  },
+  "requirements": [
+    [
+      "avoid_vibration"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

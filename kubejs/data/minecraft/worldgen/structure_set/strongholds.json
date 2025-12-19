@@ -1,0 +1,11 @@
+{
+  "placement": {
+    "type": "minecraft:concentric_rings",
+    "count": 128,
+    "distance": 32,
+    "preferred_biomes": "#rediscovered:is_skylands",
+    "salt": 0,
+    "spread": 3
+  },
+  "structures": []
+}

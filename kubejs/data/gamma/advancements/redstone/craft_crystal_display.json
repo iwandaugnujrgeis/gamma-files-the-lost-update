@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "supplementaries:crystal_display"
+    },
+    "title": "Geode-Resolution",
+    "description": "Craft a Display!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "gamma:redstone/obtain_amethyst_shard",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "supplementaries:crystal_display"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

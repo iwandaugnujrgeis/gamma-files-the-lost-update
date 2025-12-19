@@ -1,0 +1,75 @@
+{
+  "parent": "gamma:detour/root",
+  "criteria": {
+    "skylands_piglin_return": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "rediscovered:pigman",
+              "location": {
+                "structure": "nova_structures:ruin_town"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_hurt_entity"
+    },
+    "skylands_melee_piglin_return": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "rediscovered:melee_pigman",
+              "location": {
+                "structure": "nova_structures:ruin_town"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_hurt_entity"
+    },
+    "skylands_ranged_piglin_return": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "rediscovered:ranged_pigman",
+              "location": {
+                "structure": "nova_structures:ruin_town"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_hurt_entity"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Bring a Piglin to a Lost Town and Punch them!?",
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "rediscovered:brittle_packed_mud"
+    },
+    "show_toast": true,
+    "title": "Revisiting the Past?"
+  },
+  "requirements": [
+    [
+      "skylands_piglin_return",
+      "skylands_melee_piglin_return",
+      "skylands_ranged_piglin_return"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

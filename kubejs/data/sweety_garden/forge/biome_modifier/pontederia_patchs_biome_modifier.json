@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#sweety_garden:has_feature/pontederia_patchs",
+  "features": "sweety_garden:pontederia_patchs",
+  "step": "vegetal_decoration"
+}

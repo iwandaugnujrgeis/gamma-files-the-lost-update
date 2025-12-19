@@ -1,0 +1,19 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "minecraft:savanna_plateau",
+    "wythers:dry_tropical_grassland",
+    "wythers:wooded_savanna",
+    "wythers:dry_savanna",
+    "wythers:savanna_badlands",
+    "wythers:savanna_badlands",
+    "wythers:tropical_forest",
+    "wythers:wooded_savanna"
+  ],
+  "spawners": {
+    "type": "minecraft:wolf",
+    "weight": 8,
+    "minCount": 4,
+    "maxCount": 8
+  }
+}

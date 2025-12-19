@@ -1,0 +1,6 @@
+{
+  "type": "forge:remove_features",
+  "biomes": "#forge:is_cold",
+  "features": "gamma:ore_rock_salt",
+  "step": "underground_ores"
+}

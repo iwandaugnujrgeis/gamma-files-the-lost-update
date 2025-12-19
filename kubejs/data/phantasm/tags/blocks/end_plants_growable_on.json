@@ -1,0 +1,7 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:blackstone",
+    "minecraft:end_stone"
+  ]
+}

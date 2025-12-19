@@ -1,0 +1,33 @@
+{
+  "parent": "gamma:detour/kill_a_mob",
+  "criteria": {
+    "craft_bear_poop": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "alexsmobs:bear_dust"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Craft... Bear Dust!",
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "item": "alexsmobs:bear_dust"
+    },
+    "show_toast": true,
+    "title": "xX_B34R_BL4Z3R_Xx™"
+  },
+  "requirements": [
+    [
+      "craft_bear_poop"
+    ]
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "phantasm:subwoofer_block"
+    },
+    "title": "Subwoofer Lullaby",
+    "description": "Craft a... Well, Subwoofer Block! Use it to Blow (Everything) Away!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "gamma:redstone/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "phantasm:subwoofer_block"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

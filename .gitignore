@@ -1,4 +1,4 @@
-data/
+/data/
 datapacks/
 defaultconfigs/
 downloads/
@@ -17,3 +17,4 @@ modlist.html
 rhino.local.properties
 usercache.json
 usernamecache.json
+!kubejs/data/
