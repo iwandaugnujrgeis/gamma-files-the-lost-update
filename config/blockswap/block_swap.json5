@@ -8,6 +8,7 @@
 
 	"swapper": 
 	{
+		"minecraft:cobbled_deepslate": "minecraft:deepslate",
 		"minecraft:chiseled_polished_blackstone": "minecraft:blackstone",
 
 		"rediscovered:ruby_block": "minecraft:waxed_copper_block",
