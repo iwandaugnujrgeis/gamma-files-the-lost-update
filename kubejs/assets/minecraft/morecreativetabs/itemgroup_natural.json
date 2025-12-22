@@ -41,9 +41,6 @@
       "name": "spelunkery:tangle_roots_block"
     },
     {
-      "name": "minecraft:mangrove_roots"
-    },
-    {
       "name": "minecraft:mud"
     },
     {
@@ -100,12 +97,6 @@
     {
       "name": "minecraft:calcite"
     },
-    //{
-      //"name": "minecraft:dripstone_block"
-    //},
-    //{
-      //"name": "minecraft:pointed_dripstone"
-    //},
     {
       "name": "minecraft:magma_block"
     },
@@ -179,9 +170,6 @@
       "name": "minecraft:oak_sapling"
     },
     {
-      "name": "upgrade_aquatic:river_sapling"
-    },
-    {
       "name": "minecraft:spruce_sapling"
     },
     {
@@ -206,12 +194,6 @@
       "name": "rediscovered:ancient_cherry_sapling"
     },
     {
-      "name": "minecraft:azalea"
-    },
-    {
-      "name": "minecraft:flowering_azalea"
-    },
-    {
       "name": "minecraft:raw_copper_block"
     },
     {
@@ -226,9 +208,6 @@
     {
       "name": "galosphere:raw_silver_block"
     },
-    //{
-      //"name": "etcetera:raw_bismuth_block"
-    //},
     {
       "name": "minecraft:glowstone"
     },
@@ -254,9 +233,6 @@
       "name": "minecraft:oak_leaves"
     },
     {
-      "name": "upgrade_aquatic:river_leaves"
-    },
-    {
       "name": "minecraft:spruce_leaves"
     },
     {
@@ -279,12 +255,6 @@
     },
     {
       "name": "rediscovered:ancient_cherry_leaves"
-    },
-    {
-      "name": "minecraft:azalea_leaves"
-    },
-    {
-      "name": "minecraft:flowering_azalea_leaves"
     },
     {
       "name": "minecraft:mushroom_stem"
@@ -509,9 +479,6 @@
       "name": "sweety_garden:wood_sorrel"
     },
     {
-      "name": "ecologics:azalea_flower"
-    },
-    {
       "name": "habitat:blowball"
     },
     {
@@ -673,9 +640,6 @@
     {
       "name": "minecraft:melon"
     },
-    //{
-      //"name": "earthmobsmod:carved_melon"
-    //},
     {
       "name": "minecraft:pumpkin"
     },

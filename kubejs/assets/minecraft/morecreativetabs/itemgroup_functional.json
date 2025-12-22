@@ -29,6 +29,12 @@
       "name": "minecraft:chiseled_bookshelf"
     },
     {
+      "name": "minecraft:chest"
+    },
+    {
+      "name": "minecraft:trapped_chest"
+    },
+    {
       "name": "minecraft:ender_chest"
     },
     {
@@ -100,9 +106,6 @@
     {
       "name": "minecraft:bell"
     },
-    //{
-      //"name": "caverns_and_chasms:floodlight"
-    //},
     {
       "name": "kubejs:lava_lamp"
     },
@@ -121,15 +124,9 @@
     {
       "name": "minecraft:cauldron"
     },
-    //{
-      //"name": "caverns_and_chasms:brazier"
-    //},
     {
       "name": "minecraft:respawn_anchor"
     },
-    //{
-      //"name": "alexsmobs:transmutation_table"
-    //},
     {
       "name": "minecraft:composter"
     },

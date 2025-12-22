@@ -118,12 +118,6 @@
     {
       "name": "minecraft:feather"
     },
-    //{
-      //"name": "alexsmobs:roadrunner_feather"
-    //},
-    //{
-      //"name": "alexsmobs:emu_feather"
-    //},
     {
       "name": "minecraft:slime_ball"
     },
@@ -250,9 +244,6 @@
     {
       "name": "minecraft:nether_star"
     },
-    //{
-      //"name": "alexsmobs:mimicream"
-    //},
     {
       "name": "alexsmobs:farseer_arm"
     },

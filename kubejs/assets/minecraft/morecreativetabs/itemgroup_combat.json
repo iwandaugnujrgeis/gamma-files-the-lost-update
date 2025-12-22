@@ -25,15 +25,9 @@
     {
       "name": "minecraft:trident"
     },
-    //{
-      //"name": "caverns_and_chasms:kunai"
-    //},
     {
       "name": "mace_backport:mace"
     },
-    //{
-      //"name": "alexsmobs:stink_ray"
-    //},
     {
       "name": "minecraft:bow"
     },
@@ -52,9 +46,6 @@
     {
       "name": "rediscovered:purple_arrow"
     },
-    //{
-      //"name": "caverns_and_chasms:large_arrow"
-    //},
     {
       "name": "minecraft:leather_helmet"
     },
@@ -154,18 +145,6 @@
     {
       "name": "rediscovered:dragon_armor"
     },
-    //{
-      //"name": "alexsmobs:pigshoes"
-    //},
-    //{
-      //"name": "alexsmobs:falconry_hood"
-    //},
-    //{
-      //"name": "alexsmobs:falconry_glove"
-    //},
-    //{
-      //"name": "alexsmobs:froststalker_helmet"
-    //},
     {
       "name": "savage_and_ravage:mask_of_dishonesty"
     },
@@ -199,12 +178,6 @@
     {
       "name": "alexsmobs:unsettling_kimono"
     },
-    //{
-      //"name": "alexsmobs:emu_leggings"
-    //},
-    //{
-      //"name": "alexsmobs:roadrunner_boots"
-    //},
     {
       "name": "alexsmobs:flying_fish_boots"
     }

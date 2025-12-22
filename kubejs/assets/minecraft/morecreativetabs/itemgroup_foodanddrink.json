@@ -31,9 +31,6 @@
     {
       "name": "minecraft:sweet_berries"
     },
-    //{
-      //"name": "kubejs:chocolate_glazed_berries"
-    //},
     {
       "name": "minecraft:glow_berries"
     },
@@ -268,9 +265,6 @@
     {
       "name": "alexsmobs:lava_bottle"
     },
-    //{
-      //"name": "alexsmobs:stink_bottle"
-    //},
     {
       "name": "quark:bottled_cloud"
     },

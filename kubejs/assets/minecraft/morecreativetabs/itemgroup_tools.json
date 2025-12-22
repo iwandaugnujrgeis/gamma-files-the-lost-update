@@ -97,81 +97,6 @@
     {
       "name": "minecraft:milk_bucket"
     },
-    //{
-      //"name": "minecraft:axolotl_bucket"
-    //},
-    //{
-      //"name": "minecraft:cod_bucket"
-    //},
-    //{
-      //"name": "alexsmobs:cosmic_cod_bucket"
-    //},
-    //{
-      //"name": "species:deepfish_bucket"
-    //},
-    //{
-      //"name": "alexsmobs:devils_hole_pupfish_bucket"
-    //},
-    //{
-      //"name": "rediscovered:fish_bucket"
-    //},
-    //{
-      //"name": "alexsmobs:flying_fish_bucket"
-    //},
-    //{
-      //"name": "upgrade_aquatic:glow_squid_bucket"
-    //},
-    //{
-      //"name": "alexsmobs:lobster_bucket"
-    //},
-    //{
-      //"name": "alexsmobs:mimic_octopus_bucket"
-    //},
-    //{
-      //"name": "alexsmobs:large_catfish_bucket"
-    //},
-    //{
-      //"name": "alexsmobs:medium_catfish_bucket"
-    //},
-    //{
-      //"name": "alexsmobs:small_catfish_bucket"
-    //},
-    //{
-      //"name": "alexsmobs:mudskipper_bucket"
-    //},
-    //{
-      //"name": "upgrade_aquatic:nautilus_bucket"
-    //},
-    //{
-      //"name": "upgrade_aquatic:pike_bucket"
-    //},
-    //{
-      //"name": "alexsmobs:platypus_bucket"
-    //},
-    //{
-      //"name": "minecraft:salmon_bucket"
-    //},
-    //{
-      //"name": "upgrade_aquatic:squid_bucket"
-    //},
-    //{
-      //"name": "alexsmobs:stradpole_bucket"
-    //},
-    //{
-      //"name": "minecraft:tadpole_bucket"
-    //},
-    //{
-      //"name": "alexsmobs:terrapin_bucket"
-    //},
-    //{
-      //"name": "alexsmobs:triops_bucket"
-    //},
-    //{
-      //"name": "minecraft:tropical_fish_bucket"
-    //},
-    //{
-      //"name": "alexsmobs:potted_flutter"
-    //},
     {
       "name": "minecraft:fishing_rod"
     },
@@ -275,9 +200,6 @@
       "name": "quark:backpack"
     },
     {
-      "name": "hauntedharvest:paper_bag"
-    },
-    {
       "name": "minecraft:firework_rocket"
     },
     {
@@ -299,7 +221,7 @@
       "name": "rediscovered:ruby_eye"
     },
     {
-      "name": "galosphere:silver_bomb"
+      "name": "supplementaries:bomb"
     },
     {
       "name": "minecraft:book"

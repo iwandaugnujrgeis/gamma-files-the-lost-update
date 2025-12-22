@@ -47,12 +47,6 @@
       "name": "minecraft:oak_button"
     },
     {
-      "name": "minecraft:chest"
-    },
-    {
-      "name": "minecraft:trapped_chest"
-    },
-    {
       "name": "minecraft:spruce_log"
     },
     {
@@ -90,12 +84,6 @@
     },
     {
       "name": "minecraft:spruce_button"
-    },
-    {
-      "name": "woodworks:spruce_chest"
-    },
-    {
-      "name": "woodworks:trapped_spruce_chest"
     },
     {
       "name": "minecraft:birch_log"
@@ -137,12 +125,6 @@
       "name": "minecraft:birch_button"
     },
     {
-      "name": "woodworks:birch_chest"
-    },
-    {
-      "name": "woodworks:trapped_birch_chest"
-    },
-    {
       "name": "minecraft:jungle_log"
     },
     {
@@ -180,12 +162,6 @@
     },
     {
       "name": "minecraft:jungle_button"
-    },
-    {
-      "name": "woodworks:jungle_chest"
-    },
-    {
-      "name": "woodworks:trapped_jungle_chest"
     },
     {
       "name": "minecraft:acacia_log"
@@ -227,12 +203,6 @@
       "name": "minecraft:acacia_button"
     },
     {
-      "name": "woodworks:acacia_chest"
-    },
-    {
-      "name": "woodworks:trapped_acacia_chest"
-    },
-    {
       "name": "minecraft:dark_oak_log"
     },
     {
@@ -270,12 +240,6 @@
     },
     {
       "name": "minecraft:dark_oak_button"
-    },
-    {
-      "name": "woodworks:dark_oak_chest"
-    },
-    {
-      "name": "woodworks:trapped_dark_oak_chest"
     },
     {
       "name": "minecraft:mangrove_log"
@@ -317,12 +281,6 @@
       "name": "minecraft:mangrove_button"
     },
     {
-      "name": "woodworks:mangrove_chest"
-    },
-    {
-      "name": "woodworks:trapped_mangrove_chest"
-    },
-    {
       "name": "minecraft:cherry_log"
     },
     {
@@ -360,12 +318,6 @@
     },
     {
       "name": "minecraft:cherry_button"
-    },
-    {
-      "name": "woodworks:cherry_chest"
-    },
-    {
-      "name": "woodworks:trapped_cherry_chest"
     },
     {
       "name": "upgrade_aquatic:driftwood_log"
@@ -407,12 +359,6 @@
       "name": "upgrade_aquatic:driftwood_button"
     },
     {
-      "name": "upgrade_aquatic:driftwood_chest"
-    },
-    {
-      "name": "upgrade_aquatic:trapped_driftwood_chest"
-    },
-    {
       "name": "upgrade_aquatic:river_log"
     },
     {
@@ -450,12 +396,6 @@
     },
     {
       "name": "upgrade_aquatic:river_button"
-    },
-    {
-      "name": "upgrade_aquatic:river_chest"
-    },
-    {
-      "name": "upgrade_aquatic:trapped_river_chest"
     },
     {
       "name": "minecraft:bamboo_block"
@@ -504,12 +444,6 @@
     },
     {
       "name": "minecraft:bamboo_button"
-    },
-    {
-      "name": "woodworks:bamboo_closet"
-    },
-    {
-      "name": "woodworks:trapped_bamboo_closet"
     },
     {
       "name": "minecraft:stone"
@@ -625,18 +559,6 @@
     {
       "name": "minecraft:andesite_wall"
     },
-    //{
-      //"name": "minecraft:calcite"
-    //},
-    //{
-      //"name": "caverns_and_chasms:calcite_stairs"
-    //},
-    //{
-      //"name": "caverns_and_chasms:calcite_slab"
-    //},
-    //{
-      //"name": "caverns_and_chasms:calcite_wall"
-    //},
     {
       "name": "quark:limestone"
     },
@@ -859,9 +781,6 @@
     {
       "name": "minecraft:sea_lantern"
     },
-    //{
-      //"name": "etcetera:iridescent_lantern"
-    //},
     {
       "name": "minecraft:prismarine"
     },
@@ -919,18 +838,6 @@
     {
       "name": "minecraft:chiseled_nether_bricks"
     },
-    //{
-      //"name": "minecraft:red_nether_bricks"
-    //},
-    //{
-      //"name": "minecraft:red_nether_brick_stairs"
-    //},
-    //{
-      //"name": "minecraft:red_nether_brick_slab"
-    //},
-    //{
-      //"name": "minecraft:red_nether_brick_wall"
-    //},
     {
       "name": "kubejs:gloomy_tiles"
     },
@@ -997,9 +904,6 @@
     {
       "name": "minecraft:blackstone_wall"
     },
-    //{
-      //"name": "minecraft:chiseled_polished_blackstone"
-    //},
     {
       "name": "minecraft:polished_blackstone_bricks"
     },
@@ -1102,42 +1006,21 @@
     {
       "name": "minecraft:chain"
     },
-    //{
-      //"name": "galosphere:silver_block"
-    //},
     {
       "name": "galosphere:silver_lattice"
     },
-    //{
-      //"name": "caverns_and_chasms:medium_weighted_pressure_plate"
-    //},
     {
       "name": "minecraft:gold_block"
     },
     {
       "name": "supplementaries:gold_door"
     },
-    //{
-      //"name": "supplementaries:gold_trapdoor"
-    //},
     {
       "name": "minecraft:light_weighted_pressure_plate"
     },
     {
       "name": "quark:gold_button"
     },
-    //{
-      //"name": "rediscovered:ruby_block"
-    //},
-    //{
-      //"name": "kubejs:bismuth_block"
-    //},
-    //{
-      //"name": "etcetera:bismuth_bars"
-    //},
-    //{
-      //"name": "alexsmobs:straddlite_block"
-    //},
     {
       "name": "minecraft:redstone_block"
     },

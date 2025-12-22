@@ -351,9 +351,6 @@
     {
       "name": "minecraft:glass"
     },
-    //{
-      //"name": "etcetera:iridescent_glass"
-    //},
     {
       "name": "minecraft:tinted_glass"
     },
@@ -408,9 +405,6 @@
     {
       "name": "minecraft:glass_pane"
     },
-    //{
-      //"name": "etcetera:iridescent_glass_pane"
-    //},
     {
       "name": "minecraft:white_stained_glass_pane"
     },
@@ -702,54 +696,6 @@
     {
       "name": "clayworks:pink_decorated_pot"
     },
-    //{
-      //"name": "minecraft:white_banner"
-    //},
-    //{
-      //"name": "minecraft:light_gray_banner"
-    //},
-    //{
-      //"name": "minecraft:gray_banner"
-    //},
-    //{
-      //"name": "minecraft:black_banner"
-    //},
-    //{
-      //"name": "minecraft:brown_banner"
-    //},
-    //{
-      //"name": "minecraft:red_banner"
-    //},
-    //{
-      //"name": "minecraft:orange_banner"
-    //},
-    //{
-      //"name": "minecraft:yellow_banner"
-    //},
-    //{
-      //"name": "minecraft:lime_banner"
-    //},
-    //{
-      //"name": "minecraft:green_banner"
-    //},
-    //{
-      //"name": "minecraft:cyan_banner"
-    //},
-    //{
-      //"name": "minecraft:light_blue_banner"
-    //},
-    //{
-      //"name": "minecraft:blue_banner"
-    //},
-    //{
-      //"name": "minecraft:purple_banner"
-    //},
-    //{
-      //"name": "minecraft:magenta_banner"
-    //},
-    //{
-      //"name": "minecraft:pink_banner"
-    //},
     {
       "name": "supplementaries:flag_white"
     },
