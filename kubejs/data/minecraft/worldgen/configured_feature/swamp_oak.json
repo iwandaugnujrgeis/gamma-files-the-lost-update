@@ -5,6 +5,10 @@
       {
         "type": "minecraft:leave_vine",
         "probability": 0.25
+      },
+      {
+        "type": "upgrade_aquatic:mulberry_vines",
+        "probability": 0.25
       }
     ],
     "dirt_provider": {
