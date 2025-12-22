@@ -1,6 +1,6 @@
 # Don't change this! Version used to track needed updates.
 version = 0
-biomeColorRain = true
+biomeColorRain = false
 
 [biomes]
 biomeParticlesRadius = 32
@@ -12,7 +12,7 @@ pollenBiomes = [
     "minecraft:flower_forest",
     "minecraft:sunflower_plains"
 ]
-pollenDensity = 4
+pollenDensity = 0
 sculkDustBiomes = [
     "minecraft:deep_dark"
 ]

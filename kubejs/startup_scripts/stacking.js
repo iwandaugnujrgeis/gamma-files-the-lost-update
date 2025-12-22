@@ -111,8 +111,6 @@ ItemEvents.modification(event => {
 	stackTo8('minecraft:salmon')
 	stackTo8('minecraft:sweet_berries')
 	stackTo8('minecraft:tropical_fish')
-	stackTo8('phantasm:oblifruit')
-	stackTo8('phantasm:pome_slice')
 	stackTo8('quark:ancient_fruit')
 	stackTo8('rediscovered:cooked_fish')
 	stackTo8('rediscovered:raw_fish')

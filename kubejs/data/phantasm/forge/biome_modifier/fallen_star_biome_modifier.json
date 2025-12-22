@@ -1,6 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": [],
-  "features": "phantasm:fallen_star",
-  "step": "local_modifications"
-}

@@ -229,7 +229,7 @@
     "enableWindowTitle": false,
     "matchVersionOverlay": false,
     "windowTitleText": "Minecraft %v",
-    "oldDebug": "ALPHA",
+    "oldDebug": "MODERN",
     "debugEntityId": false,
     "fpsChart": "DISABLED",
     "showDebugPieChart": false,
@@ -364,7 +364,7 @@
     "smoothLightTransition": true,
     "dynamicLightBrightness": false,
     "disableLightBrightness": true,
-    "oldLightColor": false,
+    "oldLightColor": true,
     "maxBlockLight": 15,
     "disabledParticles": {
       "list": [],

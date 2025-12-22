@@ -100,11 +100,6 @@ import stdlib.List;
 //Stop Falling Through Warped Warts!
 //<tag:blocks:passablefoliage:passables>.remove(<block:minecraft:warped_wart_block>);
 
-//Repair Materials:
-//<tag:items:gamma:netherite_repair_materials>.add(<item:minecraft:netherite_scrap>);
-//<tag:items:gamma:scute_repair_materials>.add(<item:minecraft:scute>);
-//<tag:items:gamma:dimensional_carver_repair_materials>.add(<item:phantasm:crystal_shard>);
-
 //Recipes:
 furnace.remove(<item:spelunkery:charcoal_lump>);
 
@@ -325,16 +320,6 @@ craftingTable.addShaped("pumpkin", <item:minecraft:pumpkin>, [
     [<item:farmersdelight:pumpkin_slice>, <item:farmersdelight:pumpkin_slice>, <item:farmersdelight:pumpkin_slice>], 
     [<item:farmersdelight:pumpkin_slice>, <item:farmersdelight:pumpkin_slice>, <item:farmersdelight:pumpkin_slice>]]);
 
-craftingTable.addShaped("pome", <item:phantasm:pome> * 8, [
-    [<item:minecraft:melon>, <item:minecraft:melon>, <item:minecraft:melon>],
-    [<item:minecraft:melon>, <item:minecraft:chorus_fruit>, <item:minecraft:melon>],
-    [<item:minecraft:melon>, <item:minecraft:melon>, <item:minecraft:melon>]]);
-
-craftingTable.addShaped("pome_from_slices", <item:phantasm:pome>, [
-    [<item:phantasm:pome_slice>, <item:phantasm:pome_slice>, <item:phantasm:pome_slice>], 
-    [<item:phantasm:pome_slice>, <item:phantasm:pome_slice>, <item:phantasm:pome_slice>], 
-    [<item:phantasm:pome_slice>, <item:phantasm:pome_slice>, <item:phantasm:pome_slice>]]);
-
 craftingTable.remove(<item:quark:backpack>);
 craftingTable.addShaped("backpack_quark", <item:quark:backpack>, [
     [<item:minecraft:leather>, <item:minecraft:leather>, <item:minecraft:leather>],
@@ -354,12 +339,6 @@ craftingTable.addShaped("basket", <item:farmersdelight:basket>, [
 craftingTable.addShapeless("canvas_sign", <item:farmersdelight:canvas_sign>, [<item:minecraft:oak_sign>, <item:minecraft:paper>]);
 craftingTable.addShapeless("canvas_sign_hanging", <item:farmersdelight:hanging_canvas_sign>, [<item:minecraft:oak_hanging_sign>, <item:minecraft:paper>]);
 
-craftingTable.remove(<item:phantasm:subwoofer_block>);
-craftingTable.addShaped("subwoofer", <item:phantasm:subwoofer_block>, [
-    [<item:minecraft:purpur_block>, <item:minecraft:purpur_block>, <item:minecraft:purpur_block>],
-    [<item:minecraft:purpur_block>, <item:minecraft:ender_pearl>, <item:minecraft:purpur_block>],
-    [<item:minecraft:purpur_block>, <item:minecraft:purpur_block>, <item:minecraft:purpur_block>]]);
-
 stoneCutter.remove(<item:clayworks:chiseled_bricks>);
 stoneCutter.remove(<item:minecraft:chiseled_stone_bricks>);
 stoneCutter.remove(<item:minecraft:chiseled_deepslate>);
@@ -376,10 +355,6 @@ craftingTable.addShaped("big_magnet", <item:quark:magnet>, [
     [<item:minecraft:iron_ingot>, <item:minecraft:cobblestone>, <item:minecraft:iron_ingot>]]);
 
 craftingTable.remove(<item:alexsmobs:dimensional_carver>);
-//craftingTable.addShaped("dimensional_carver", <item:alexsmobs:dimensional_carver>, [
-    //[<item:phantasm:crystal_shard>, <item:phantasm:crystal_shard>, <item:phantasm:crystal_shard>],
-    //[<item:minecraft:air>, <item:kubejs:ancient_rod>, <item:minecraft:air>],
-    //[<item:minecraft:air>, <item:kubejs:ancient_rod>, <item:minecraft:air>]]);
 
 craftingTable.remove(<item:mace_backport:mace>);
 
@@ -513,11 +488,6 @@ craftingTable.addShaped("gear", <item:rediscovered:gear> * 2, [
     [<item:minecraft:air>, <item:minecraft:iron_ingot>, <item:minecraft:air>], 
     [<item:minecraft:iron_ingot>, <item:minecraft:quartz>, <item:minecraft:iron_ingot>],
     [<item:minecraft:air>, <item:minecraft:iron_ingot>, <item:minecraft:air>]]);
-
-//craftingTable.addShaped("fallen_star", <item:phantasm:fallen_star>, [
-    //[<item:minecraft:air>, <item:phantasm:crystal_shard>, <item:minecraft:air>], 
-    //[<item:phantasm:crystal_shard>, <item:minecraft:glowstone>, <item:phantasm:crystal_shard>],
-    //[<item:minecraft:air>, <item:phantasm:crystal_shard>, <item:minecraft:air>]]);
 
 craftingTable.addShaped("drum", <item:etcetera:drum>, [
     [<item:minecraft:string>, <item:minecraft:paper>, <item:minecraft:string>],
@@ -783,8 +753,6 @@ craftingTable.addShaped("mini_dragon_pylon", <item:rediscovered:mini_dragon_pylo
     [<item:minecraft:glowstone_dust>, <item:minecraft:glass>, <item:minecraft:glowstone_dust>],
     [<item:minecraft:glass>, <item:rediscovered:ruby>, <item:minecraft:glass>],
     [<item:minecraft:glowstone_dust>, <item:minecraft:glass>, <item:minecraft:glowstone_dust>]]);
-
-craftingTable.remove(<item:phantasm:crystal_shard>);
 
 craftingTable.remove(<item:minecraft:magma_cream>);
 craftingTable.addShaped("magma_cream", <item:minecraft:magma_cream> * 8, [

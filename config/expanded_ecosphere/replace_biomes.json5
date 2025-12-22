@@ -6,7 +6,7 @@ This config is only for replacing biomes, the main Expanded Ecosphere config is 
 */
 {
 	// Enable biome replacing
-	"enableBiomes": true,
+	"enableBiomes": false,
 	/* Enter all Expanded Ecosphere biomes that should be replaced into this map.
 	   As the key put the biome you want to replace and as value the biome you want to replace it with.
 	   Here is an example:
@@ -19,10 +19,6 @@ This config is only for replacing biomes, the main Expanded Ecosphere config is 
 	   If a biome doesn't exist, the game will crash!
 	*/
 	"replace": {
-		"wythers:black_beach": "minecraft:beach",
-		"wythers:gravelly_river": "minecraft:beach",
-		"wythers:gravelly_beach": "minecraft:beach",
-		"wythers:tropical_beach": "minecraft:beach",
-		"wythers:lantern_river": "minecraft:beach"
+		"wythers:gravelly_beach": "minecraft:beach"
 	}
 }

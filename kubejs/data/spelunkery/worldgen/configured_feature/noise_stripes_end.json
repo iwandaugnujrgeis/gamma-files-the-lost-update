@@ -40,7 +40,7 @@
       }
     ],
     "use_second_target": true,
-    "second_target": "phantasm:raw_purpur",
+    "second_target": "minecraft:stone",
     "second_target_placer": [
       {
         "primary_stone_type": {

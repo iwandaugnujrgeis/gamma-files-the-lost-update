@@ -1,0 +1,74 @@
+{
+  "dimensions": {
+    "minecraft:overworld": {
+      "type": "alpha_gaia:overworld_dimension_type",
+      "generator": {
+        "type": "minecraft:noise",
+        "settings": "alpha_gaia:overworld_noise_settings",
+        "biome_source": {
+          "type": "minecraft:multi_noise",
+          "biomes": [
+            {
+              "biome": "alpha_gaia:plains",
+              "parameters": {
+                "temperature": 0,
+                "humidity": 0.5,
+                "continentalness": 0,
+                "erosion": 0,
+                "weirdness": 0,
+                "depth": 0,
+                "offset": 0
+              }
+            },
+            {
+              "biome": "alpha_gaia:forest",
+              "parameters": {
+                "temperature": 0,
+                "humidity": -0.5,
+                "continentalness": 0,
+                "erosion": 0,
+                "weirdness": 0,
+                "depth": 0,
+                "offset": 0.42
+              }
+            }
+          ]
+        }
+      }
+    },
+    "minecraft:the_nether": {
+      "type": "alpha_gaia:nether_dimension_type",
+      "generator": {
+        "type": "minecraft:noise",
+        "settings": "alpha_gaia:nether_noise_settings",
+        "biome_source": {
+          "type": "minecraft:multi_noise",
+          "biomes": [
+            {
+              "biome": "alpha_gaia:hell",
+              "parameters": {
+                "temperature": 0,
+                "humidity": 0,
+                "continentalness": 0,
+                "erosion": 0,
+                "weirdness": 0,
+                "depth": 0,
+                "offset": 0
+              }
+            }
+          ]
+        }
+      }
+    },
+    "minecraft:the_end": {
+      "type": "minecraft:the_end",
+      "generator": {
+        "type": "minecraft:noise",
+        "settings": "minecraft:end",
+        "biome_source": {
+          "type": "minecraft:the_end"
+        }
+      }
+    }
+  }
+}

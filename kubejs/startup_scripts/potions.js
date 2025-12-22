@@ -58,9 +58,6 @@
 //earthmobsmod:toughness
 //earthmobsmod:long_toughness
 //earthmobsmod:strong_toughness
-//phantasm:corrosion
-//phantasm:long_corrosion
-//phantasm:strong_corrosion
 //galosphere:astral
 //galosphere:long_astral
 //alexsmobs:knockback_resistance
@@ -131,9 +128,6 @@ MoreJSEvents.registerPotionBrewing(event => {
         'minecraft:strength',
         'minecraft:thick',
         'minecraft:water_breathing',
-        'phantasm:corrosion',
-        'phantasm:long_corrosion',
-        'phantasm:strong_corrosion',
         'quark:resilience',
         'quark:long_resilience',
         'quark:strong_resilience',

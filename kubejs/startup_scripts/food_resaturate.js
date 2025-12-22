@@ -101,7 +101,6 @@ ItemEvents.modification(event => {
     restore1('minecraft:enchanted_golden_apple')
     restore1('minecraft:golden_apple')
     restore1('minecraft:potato')
-    restore1('phantasm:pome_slice')
     restore1('quark:ancient_fruit')
     restore1('spelunkery:grilled_portabella')
 

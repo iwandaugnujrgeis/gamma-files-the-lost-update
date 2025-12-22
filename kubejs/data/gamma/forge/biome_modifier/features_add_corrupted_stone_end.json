@@ -1,6 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "#minecraft:is_end",
-  "features": "gamma:ore_corrupted_stone",
-  "step": "underground_ores"
-}

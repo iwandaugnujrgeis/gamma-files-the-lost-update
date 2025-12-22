@@ -1,6 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": [],
-  "features": "phantasm:obsidian_tower",
-  "step": "local_modifications"
-}

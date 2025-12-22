@@ -1319,7 +1319,7 @@
 
 				#Biome names this should spawn in. Must match both this and 'types' to spawn.
 				[world.permafrost.generation_settings.biomes.biomes]
-					Biomes = ["minecraft:frozen_peaks", "wythers:cold_plains", "wythers:cold_stony_shore", "minecraft:deep_frozen_ocean", "wythers:deep_snowy_taiga", "wythers:frigid_island", "wythers:frozen_island", "minecraft:frozen_ocean", "minecraft:frozen_river", "wythers:glacial_cliffs", "wythers:ice_cap", "minecraft:ice_spikes", "wythers:icy_crags", "wythers:icy_ocean", "wythers:icy_river", "wythers:icy_shore", "wythers:icy_volcano", "minecraft:jagged_peaks", "minecraft:old_growth_pine_taiga", "minecraft:snowy_beach", "wythers:snowy_bog", "wythers:snowy_canyon", "wythers:snowy_fen", "wythers:snowy_peaks", "minecraft:snowy_plains", "minecraft:snowy_slopes", "minecraft:snowy_taiga", "wythers:snowy_thermal_taiga", "wythers:snowy_tundra", "minecraft:taiga", "wythers:tundra"]
+					Biomes = ["minecraft:frozen_peaks"]
 					"Is Blacklist" = false
 
 	[world.spiral_spires]

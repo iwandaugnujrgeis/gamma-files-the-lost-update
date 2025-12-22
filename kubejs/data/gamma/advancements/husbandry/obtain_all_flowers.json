@@ -193,18 +193,6 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "starflower": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "phantasm:starflower"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "wood_sorrel": {
       "conditions": {
         "items": [
@@ -493,9 +481,6 @@
     ],
     [
       "azure_bluet"
-    ],
-    [
-      "starflower"
     ],
     [
       "wood_sorrel"
