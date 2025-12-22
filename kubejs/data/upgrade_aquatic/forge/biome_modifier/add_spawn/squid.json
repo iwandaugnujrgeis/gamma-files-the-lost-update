@@ -1,6 +1,6 @@
 {
   "type": "forge:add_spawns",
-  "biomes": "#upgrade_aquatic:has_spawn/squid",
+  "biomes": "gamma:null",
   "spawners": {
     "type": "minecraft:squid",
     "maxCount": 4,

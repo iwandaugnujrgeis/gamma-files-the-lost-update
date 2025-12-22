@@ -1,6 +1,6 @@
 {
   "type": "forge:add_spawns",
-  "biomes": "#upgrade_aquatic:has_spawn/pike",
+  "biomes": "gamma:null",
   "spawners": {
     "type": "upgrade_aquatic:pike",
     "maxCount": 3,

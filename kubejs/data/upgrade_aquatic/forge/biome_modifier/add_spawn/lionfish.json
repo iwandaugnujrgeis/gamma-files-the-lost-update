@@ -1,6 +1,6 @@
 {
   "type": "forge:add_spawns",
-  "biomes": "#upgrade_aquatic:has_spawn/lionfish",
+  "biomes": "gamma:null",
   "spawners": {
     "type": "upgrade_aquatic:lionfish",
     "maxCount": 1,

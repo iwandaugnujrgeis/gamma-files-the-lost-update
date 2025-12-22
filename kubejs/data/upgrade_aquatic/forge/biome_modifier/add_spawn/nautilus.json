@@ -1,6 +1,6 @@
 {
   "type": "forge:add_spawns",
-  "biomes": "#upgrade_aquatic:has_spawn/nautilus",
+  "biomes": "gamma:null",
   "spawners": {
     "type": "upgrade_aquatic:nautilus",
     "maxCount": 4,
