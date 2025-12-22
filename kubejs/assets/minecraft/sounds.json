@@ -1,4 +1,21 @@
 {
+  "item.flintandsteel.use": {
+    "replace": true,
+    "sounds": [
+      "random/ignite"
+    ],
+    "subtitle": "subtitles.item.flintandsteel.use"
+  },
+  "entity.player.splash": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "liquid/splash1classic",
+        "volume": 0.9
+      }
+    ],
+    "subtitle": "subtitles.entity.generic.splash"
+  },
   "block.grass.step": {
     "replace": true,
     "sounds": [
