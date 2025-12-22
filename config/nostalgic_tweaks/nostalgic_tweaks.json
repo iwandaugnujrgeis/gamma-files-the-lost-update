@@ -364,7 +364,7 @@
     "smoothLightTransition": true,
     "dynamicLightBrightness": false,
     "disableLightBrightness": true,
-    "oldLightColor": true,
+    "oldLightColor": false,
     "maxBlockLight": 15,
     "disabledParticles": {
       "list": [],

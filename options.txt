@@ -118,7 +118,7 @@ key_key.hotbar.9:key.keyboard.9
 key_Take Panorama Screenshot:key.keyboard.r
 key_ping-wheel.key.ping-location:key.keyboard.v
 soundCategory_master:1.0
-soundCategory_music:0.6284330985915494
+soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:0.8047645246478874
 soundCategory_block:0.707394366197183
