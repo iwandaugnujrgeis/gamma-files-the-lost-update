@@ -511,13 +511,13 @@
 	#Spawning options for minecraft:rabbit
 	[minecraft.rabbit]
 		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = true
+		allowNormalSpawning = false
 		#Should spawners be able to spawn the entity?
-		allowSpawners = true
+		allowSpawners = false
 		#Should spawn eggs be able to spawn the entity?
-		allowSpawnEggs = true
+		allowSpawnEggs = false
 		#Should the entity spawn via mob conversion? i.e. villager -> zombie
-		allowConversions = true
+		allowConversions = false
 
 	#Spawning options for minecraft:ravager
 	[minecraft.ravager]
@@ -1048,13 +1048,13 @@
 	#Spawning options for alexsmobs:sunbird
 	[alexsmobs.sunbird]
 		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = true
+		allowNormalSpawning = false
 		#Should spawners be able to spawn the entity?
-		allowSpawners = true
+		allowSpawners = false
 		#Should spawn eggs be able to spawn the entity?
-		allowSpawnEggs = true
+		allowSpawnEggs = false
 		#Should the entity spawn via mob conversion? i.e. villager -> zombie
-		allowConversions = true
+		allowConversions = false
 
 	#Spawning options for alexsmobs:gorilla
 	[alexsmobs.gorilla]

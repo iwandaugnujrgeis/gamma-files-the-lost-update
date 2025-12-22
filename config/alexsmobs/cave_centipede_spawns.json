@@ -8,17 +8,22 @@
       },
       {
         "type": "BIOME_TAG",
-        "negate": false,
+        "negate": true,
+        "value": "forge:no_default_monsters"
+      },
+      {
+        "type": "BIOME_TAG",
+        "negate": true,
         "value": "minecraft:is_ocean"
       },
       {
         "type": "BIOME_TAG",
-        "negate": false,
+        "negate": true,
         "value": "forge:is_mushroom"
       },
       {
         "type": "REGISTRY_NAME",
-        "negate": false,
+        "negate": true,
         "value": "minecraft:deep_dark"
       }
     ],

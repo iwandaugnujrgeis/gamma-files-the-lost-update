@@ -18,3 +18,7 @@ rhino.local.properties
 usercache.json
 usernamecache.json
 !kubejs/data/
+screeshots/
+emi.json
+cachedImages/
+crash-reports/
