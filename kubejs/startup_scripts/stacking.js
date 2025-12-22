@@ -15,14 +15,13 @@ ItemEvents.modification(event => {
 
 //Bottles:
 	stackTo1('alexsmobs:fish_oil')
-	stackTo1('alexsmobs:stink_bottle')
 	stackTo1('farmersdelight:milk_bottle')
 	stackTo1('minecraft:dragon_breath')
 	stackTo1('minecraft:honey_bottle')
 	stackTo1('quark:bottled_cloud')
 	stackTo1('snowyspirit:eggnog')
-	stackTo1('supplementaries:antique_ink')
 	stackTo1('upgrade_aquatic:mulberry_jam_bottle')
+	stackTo1('spelunkery:portal_fluid_bottle')
 
 //Other Ones:
 	stackTo1('minecraft:cake')
@@ -56,27 +55,17 @@ ItemEvents.modification(event => {
 //Other:
 	stackTo8('alexsmobs:banana')
 	stackTo8('alexsmobs:cooked_catfish')
-	stackTo8('alexsmobs:cosmic_cod')
 	stackTo8('alexsmobs:flying_fish')
 	stackTo8('alexsmobs:raw_catfish')
-	stackTo8('culturaldelights:rice_ball')
-	stackTo8('culturaldelights:tortilla')
 	stackTo8('ecologics:coconut_slice')
 	stackTo8('ecologics:cooked_prickly_pear')
 	stackTo8('ecologics:prickly_pear')
 	stackTo8('ecologics:walnut')
 	stackTo8('etcetera:eggple')
-
 	stackTo8('farmersdelight:fried_egg')
 	stackTo8('farmersdelight:honey_cookie')
 	stackTo8('farmersdelight:pumpkin_slice')
-	stackTo8('farmersdelight:rice')
-	stackTo8('farmersdelight:sweet_berry_cookie')
 	stackTo8('galosphere:lichen_cordyceps')
-	stackTo8('habitat:kabloom_pulp')
-	stackTo8('hauntedharvest:corn')
-	stackTo8('hauntedharvest:grim_apple')
-	stackTo8('hauntedharvest:rotten_apple')
 
 	stackTo8('kubejs:omelette')
 	stackTo8('kubejs:waffle')
@@ -94,7 +83,6 @@ ItemEvents.modification(event => {
 	stackTo8('minecraft:cooked_cod')
 	stackTo8('minecraft:cooked_mutton')
 	stackTo8('minecraft:cooked_porkchop')
-	stackTo8('minecraft:cooked_rabbit')
 	stackTo8('minecraft:cooked_salmon')
 	stackTo8('minecraft:glow_berries')
 	stackTo8('minecraft:melon')
@@ -104,9 +92,6 @@ ItemEvents.modification(event => {
 	stackTo8('minecraft:popped_chorus_fruit')
 	stackTo8('minecraft:porkchop')
 	stackTo8('minecraft:potato')
-	stackTo8('minecraft:pufferfish')
-	stackTo8('minecraft:rabbit')
-	stackTo8('minecraft:rabbit_foot')
 	stackTo8('minecraft:rotten_flesh')
 	stackTo8('minecraft:salmon')
 	stackTo8('minecraft:sweet_berries')
@@ -119,7 +104,6 @@ ItemEvents.modification(event => {
 	stackTo8('upgrade_aquatic:pike')
 
 	stackTo16('farmersdelight:honey_cookie')
-	stackTo16('farmersdelight:rice_panicle')
 	stackTo16('farmersdelight:sweet_berry_cookie')
 	stackTo16('kubejs:butter')
 	stackTo16('kubejs:marshmallow')
@@ -145,7 +129,6 @@ ItemEvents.modification(event => {
 	stackTo16('friendsandfoes:crab_egg')
 	stackTo16('minecraft:sniffer_egg')
 	stackTo16('minecraft:turtle_egg')
-	stackTo16('savage_and_ravage:creeper_spores')
 
 //Seeds:
 	stackTo16('minecraft:beetroot_seeds')
@@ -158,9 +141,7 @@ ItemEvents.modification(event => {
 //Mushrooms:
 	stackTo16('galosphere:bowl_lichen')
 	stackTo16('minecraft:brown_mushroom')
-	stackTo16('minecraft:crimson_fungus')
 	stackTo16('minecraft:red_mushroom')
-	stackTo16('minecraft:warped_fungus')
 	stackTo16('quark:glow_shroom')
 	stackTo16('spelunkery:button_mushroom')
 	stackTo16('spelunkery:crimini')
@@ -177,8 +158,4 @@ ItemEvents.modification(event => {
 	stackTo64('minecraft:snowball')
 	stackTo64('spelunkery:dust_bun')
 	stackTo64('galosphere:silver_bomb')
-	
-	stackTo1('minecraft:experience_bottle')
-	stackTo1('spelunkery:portal_fluid_bottle')
-	stackTo1('alexsmobs:ambergris')
 })
