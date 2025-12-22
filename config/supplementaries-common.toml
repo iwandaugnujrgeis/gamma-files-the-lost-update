@@ -465,10 +465,10 @@
 		enabled = true
 		#Bomb explosion radius (damage depends on this)
 		#Range: 0.1 ~ 10.0
-		explosion_radius = 2.0
+		explosion_radius = 1.5
 		#Do bombs break blocks like tnt?
 		#Allowed Values: ALL, WEAK, NONE
-		break_blocks = "WEAK"
+		break_blocks = "ALL"
 		#Put here any number other than 0 to have your bombs explode after a certain amount of ticks instead than on contact
 		#Range: 0 ~ 100000
 		bomb_fuse = 0
