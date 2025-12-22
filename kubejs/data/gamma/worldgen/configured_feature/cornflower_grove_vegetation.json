@@ -18,15 +18,15 @@
         }
       },
       {
-        "chance": 0.6666667,
+        "chance": 0.5,
         "feature": "minecraft:dark_oak_checked"
       },
       {
-        "chance": 0.2,
+        "chance": 0.4,
         "feature": "minecraft:birch_checked"
       },
       {
-        "chance": 0.1,
+        "chance": 0.3,
         "feature": "minecraft:fancy_oak_checked"
       }
     ]

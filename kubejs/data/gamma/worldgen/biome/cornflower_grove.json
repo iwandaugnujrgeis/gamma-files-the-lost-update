@@ -1,6 +1,6 @@
 {
-	"temperature": 0.7,
-	"downfall": 0.8,
+	"temperature": 0.5,
+	"downfall": 0.5,
 	"effects": {
 		"mood_sound": {
 			"sound": "minecraft:ambient.cave",
@@ -11,9 +11,9 @@
 		"sky_color": 7972607,
 		"fog_color": 12638463,
 		"water_color": 6388580,
-		"water_fog_color": 2302743,
-		"foliage_color": 9883965,
-		"grass_color": 8957251
+		"water_fog_color": 2302743
+		//"grass_color": 10938707,
+		//"foliage_color": 11664978
 	},
 	"carvers": {
 		"air": [
@@ -63,7 +63,7 @@
 			"minecraft:ore_lapis_buried",
 			"minecraft:ore_copper",
 			"minecraft:underwater_magma",
-			"gamma:gravel_shore",
+			"gamma:mud_shore",
 			"minecraft:disk_sand",
 			"minecraft:disk_clay",
 			"minecraft:disk_gravel"
