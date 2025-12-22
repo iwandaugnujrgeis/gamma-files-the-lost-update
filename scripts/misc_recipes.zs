@@ -1489,3 +1489,16 @@ craftingTable.addShaped("spawner", <item:minecraft:spawner>, [
     [<item:kubejs:cobalt>, <item:rediscovered:ruby>, <item:kubejs:cobalt>],
     [<item:kubejs:cobalt>, <item:kubejs:cobalt>, <item:kubejs:cobalt>]]);
 
+//4.3:
+
+craftingTable.remove(<item:minecraft:chest>);
+craftingTable.addShaped("chest", <item:minecraft:chest>, [
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>], 
+    [<tag:items:minecraft:planks>, <item:minecraft:air>, <tag:items:minecraft:planks>], 
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]]);
+
+craftingTable.remove(<item:supplementaries:bomb>);
+craftingTable.addShaped("silver_bomb", <item:supplementaries:bomb> * 3, [
+    [<item:minecraft:air>, <item:galosphere:silver_nugget>, <item:minecraft:air>], 
+    [<item:galosphere:silver_nugget>, <item:minecraft:gunpowder>, <item:galosphere:silver_nugget>], 
+    [<item:minecraft:air>, <item:galosphere:silver_nugget>, <item:minecraft:air>]]);
