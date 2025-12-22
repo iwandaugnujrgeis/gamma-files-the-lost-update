@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:flat_cache",
-  "argument": {
-    "type": "minecraft:noise",
-    "noise": "alpha_gaia:overworld/vegetation",
-    "xz_scale": 2.5,
-    "y_scale": 0
-  }
-}
