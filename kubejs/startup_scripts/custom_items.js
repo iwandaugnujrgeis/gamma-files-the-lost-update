@@ -188,6 +188,22 @@ StartupEvents.registry('item', event => {
             .displayName('Music Disc')
             .name(itemstack => 'Music Disc')
             .tag('music_discs')
+
+      event.create('music_disc_death', 'music_disc')
+            .song('gamma:music_disc.death', 41)
+            .texture('gamma:item/record/death')
+            .maxStackSize(1)
+            .displayName('Music Disc')
+            .name(itemstack => 'Music Disc')
+            .tag('music_discs')
+
+      event.create('music_disc_goodbye', 'music_disc')
+            .song('gamma:music_disc.goodbye', 134)
+            .texture('gamma:item/record/goodbye')
+            .maxStackSize(1)
+            .displayName('Music Disc')
+            .name(itemstack => 'Music Disc')
+            .tag('music_discs')
       }
 )
 

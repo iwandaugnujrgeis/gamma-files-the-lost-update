@@ -24,5 +24,7 @@
 //Music Discs:
   "item.kubejs.music_disc_dog.desc": "C418 - dog",
   "item.kubejs.music_disc_eleven.desc": "C418 - eleven",
-  "item.kubejs.music_disc_droopy2.desc": "C418 - ricochet"
+  "item.kubejs.music_disc_droopy2.desc": "C418 - ricochet",
+  "item.kubejs.music_disc_death.desc": "C418 - death",
+  "item.kubejs.music_disc_goodbye.desc": "Anne Laplantine - goodbye"
 }

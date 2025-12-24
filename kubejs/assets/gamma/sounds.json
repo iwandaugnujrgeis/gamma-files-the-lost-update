@@ -171,5 +171,21 @@
         "stream": true
       }
     ]
+  },
+  "music_disc.death": {
+    "sounds": [
+      {
+        "name": "records/death",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.goodbye": {
+    "sounds": [
+      {
+        "name": "records/goodbye",
+        "stream": true
+      }
+    ]
   }
 }
