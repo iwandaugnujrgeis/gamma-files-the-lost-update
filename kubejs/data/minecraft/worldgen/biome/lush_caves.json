@@ -45,8 +45,8 @@
       "minecraft:ore_gravel",
       "minecraft:ore_granite_upper",
       "minecraft:ore_granite_lower",
-      "minecraft:ore_diorite_upper",
-      "minecraft:ore_diorite_lower",
+      
+      
       "minecraft:ore_andesite_upper",
       "minecraft:ore_andesite_lower",
       "minecraft:ore_tuff",
@@ -83,7 +83,6 @@
       "minecraft:cave_vines",
       "minecraft:lush_caves_clay",
       "minecraft:lush_caves_vegetation",
-      "minecraft:spore_blossom",
       "minecraft:classic_vines_cave_feature"
     ],
     [
