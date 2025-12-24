@@ -1,8 +1,10 @@
 # Don't change this! Version used to track needed updates.
 version = 0
-chickenFeathers = true
-parrotFeathers = true
-snowGolemSnowflakes = true
+attackedChickenFeathers = true
+attackedParrotFeathers = true
+attackedSnowGolemSnowflakes = true
+attackedSheepFluff = true
+attackedSlimeSlime = true
 allayMagicDensity = 0.2
 vexMagicDensity = 0.2
 sheepShearFluff = true
@@ -12,7 +14,7 @@ commandBlockMinecartParticles = "ON"
 endCrystalParticles = true
 minecartSparksDisplayType = "OFF"
 minecartSparksDensity = 0.0
-slimeTrails = true
+slimeTrails = false
 magmaCubeTrails = true
 replaceSlimeSquishParticles = true
 replaceOozingEffectParticles = true
@@ -29,6 +31,9 @@ improvedMooshroomShearingEffects = true
 replaceBlazeSmoke = true
 animalFeedingParticles = true
 animalFeedingSoundVolume = 1.0
+underwaterEntityPoofBubbles = true
+improvedWetWolfShakeEffects = true
+improvedVillagerSweatingEffects = true
 
 [sleeping]
 playerSnoreChance = 1.0
@@ -51,6 +56,8 @@ drowningBubbleAlpha = 1.0
 forceDrowningBubblesToColumn = false
 potionRingsDisplayType = "DEFAULT"
 potionRingsParticleType = "BOTH"
+potionRingsScale = 1.0
+potionRingsAlpha = 1.0
 NPCsHavePotionRings = true
 
 [humanoids.frostyBreath]
@@ -83,10 +90,14 @@ mobRunning = true
 playerRunningRequiresSpeed = false
 
 [burning]
-smoke = "DEFAULT"
-flames = false
-sparks = false
-sounds = false
+smokeType = "DEFAULT"
+smokeDensity = 1.0
+flamesDensity = 1.0
+sparksDensity = 1.0
+soundVolume = 0.3
+entityBlocklist = [
+    "minecraft:lightning_bolt"
+]
 extinguishSteam = true
 
 [explosives]
@@ -95,3 +106,19 @@ tntFlamesDensity = 1
 tntSparks = true
 creeperSmoke = "UPDATED"
 creeperSparks = true
+
+[splashes]
+splashEffects = false
+splashRipples = false
+splashDroplets = false
+splashBubbles = false
+explosionsCauseSplashes = false
+splashOverlayTint = 0.0
+splashOverlayAlpha = 0.0
+splashVelocityThreshold = 0.0
+entityBlocklist = [  ]
+secondarySplash = false
+secondarySplashRipples = false
+secondarySplashVelocityThreshold = 0.3
+lavaSplashes = false
+lavaSplashRipples = false
