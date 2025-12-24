@@ -16,28 +16,6 @@
     ],
     "subtitle": "subtitles.entity.generic.splash"
   },
-  "block.grass.step": {
-    "replace": true,
-    "sounds": [
-      {
-        "name": "dig/grass1",
-        "volume": 0.5
-      },
-      {
-        "name": "dig/grass2",
-        "volume": 0.5
-      },
-      {
-        "name": "dig/grass3",
-        "volume": 0.5
-      },
-      {
-        "name": "dig/grass4",
-        "volume": 0.5
-      }
-    ],
-    "subtitle": "subtitles.block.generic.footsteps"
-  },
   "entity.cow.ambient": {
     "replace": true,
     "sounds": [
@@ -473,15 +451,9 @@
     "replace": true,
     "sounds": [
       {
-        "name": "music.game",
-        "type": "event",
-        "weight": 6
-      },
-      {
         "name": "music/game/ancestry",
         "stream": true,
-        "volume": 1.0,
-        "weight": 10
+        "volume": 1.0
       }
     ]
   },
