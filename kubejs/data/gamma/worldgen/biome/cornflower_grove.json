@@ -1,20 +1,18 @@
 {
-	"temperature": 0.5,
-	"downfall": 0.5,
-	"effects": {
-		"mood_sound": {
-			"sound": "minecraft:ambient.cave",
-			"tick_delay": 6000,
-			"block_search_extent": 8,
-			"offset": 2
-		},
-		"sky_color": 7972607,
-		"fog_color": 12638463,
-		"water_color": 6388580,
-		"water_fog_color": 2302743
-		//"grass_color": 10938707,
-		//"foliage_color": 11664978
-	},
+  "downfall": 0.4,
+  "temperature": 0.4,
+  "effects": {
+    "fog_color": 12638463,
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2.0,
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000
+    },
+    "sky_color": 6724607,
+    "water_color": 4159204,
+    "water_fog_color": 329011
+  },
 	"carvers": {
 		"air": [
 			"minecraft:cave",
@@ -42,8 +40,7 @@
 			"minecraft:ore_gravel",
 			"minecraft:ore_granite_upper",
 			"minecraft:ore_granite_lower",
-			"minecraft:ore_diorite_upper",
-			"minecraft:ore_diorite_lower",
+			
 			"minecraft:ore_andesite_upper",
 			"minecraft:ore_andesite_lower",
 			"minecraft:ore_tuff",
@@ -63,7 +60,6 @@
 			"minecraft:ore_lapis_buried",
 			"minecraft:ore_copper",
 			"minecraft:underwater_magma",
-			"gamma:mud_shore",
 			"minecraft:disk_sand",
 			"minecraft:disk_clay",
 			"minecraft:disk_gravel"

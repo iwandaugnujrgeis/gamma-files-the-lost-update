@@ -30,6 +30,9 @@ ServerEvents.tags('item', event => {
     event.removeAllTagsFrom('upgrade_aquatic:river_sapling')
     event.removeAllTagsFrom('minecraft:mangrove_roots')
     event.removeAllTagsFrom('galosphere:silver_bomb')
+    event.removeAllTagsFrom('minecraft:spore_blossom')
+    event.removeAllTagsFrom('kubejs:suspicious_block')
+    event.removeAllTagsFrom('kubejs:mysterious_cobblestone')
 
 //4.2:
     event.removeAllTagsFrom('minecraft:netherite_shovel')

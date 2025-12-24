@@ -16,9 +16,9 @@
       "tick_delay": 6000
     },
     "music": {
-      "max_delay": 24000,
-      "min_delay": 12000,
-      "replace_current_music": false,
+      "max_delay": 6000,
+      "min_delay": 2000,
+      "replace_current_music": true,
       "sound": "minecraft:music.overworld.deep_dark"
     },
     "sky_color": 7907327,
@@ -42,8 +42,8 @@
       "minecraft:ore_gravel",
       "minecraft:ore_granite_upper",
       "minecraft:ore_granite_lower",
-      "minecraft:ore_diorite_upper",
-      "minecraft:ore_diorite_lower",
+      
+      
       "minecraft:ore_andesite_upper",
       "minecraft:ore_andesite_lower",
       "minecraft:ore_tuff",

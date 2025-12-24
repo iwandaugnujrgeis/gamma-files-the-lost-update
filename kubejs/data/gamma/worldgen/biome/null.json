@@ -42,8 +42,6 @@
 			"minecraft:ore_gravel",
 			"minecraft:ore_granite_upper",
 			"minecraft:ore_granite_lower",
-			"minecraft:ore_diorite_upper",
-			"minecraft:ore_diorite_lower",
 			"minecraft:ore_andesite_upper",
 			"minecraft:ore_andesite_lower",
 			"minecraft:ore_tuff",
@@ -63,7 +61,6 @@
 			"minecraft:ore_lapis_buried",
 			"minecraft:ore_copper",
 			"minecraft:underwater_magma",
-			"gamma:mud_shore",
 			"minecraft:disk_sand",
 			"minecraft:disk_clay",
 			"minecraft:disk_gravel"

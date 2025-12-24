@@ -31,6 +31,9 @@ const removedInOutputs =
         'upgrade_aquatic:river_sapling',
         'minecraft:mangrove_roots',
         'galosphere:silver_bomb',
+        'minecraft:spore_blossom',
+        'kubejs:suspicious_block',
+        'kubejs:mysterious_cobblestone',
 
     //4.2: 
         'minecraft:netherite_shovel',

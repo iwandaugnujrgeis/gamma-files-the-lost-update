@@ -6,22 +6,17 @@
       "minecraft:canyon"
     ]
   },
-  "downfall": 0.6,
+  "downfall": 0.7,
+  "temperature": 0.6,
   "effects": {
+    "fog_color": 12638463,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000
     },
-    "music": {
-      "max_delay": 24000,
-      "min_delay": 12000,
-      "replace_current_music": false,
-      "sound": "minecraft:music.overworld.forest"
-    },
-    "fog_color": 12638463,
-    "sky_color": 7972607,
+    "sky_color": 7907327,
     "water_color": 4159204,
     "water_fog_color": 329011
   },
@@ -45,8 +40,8 @@
       "minecraft:ore_gravel",
       "minecraft:ore_granite_upper",
       "minecraft:ore_granite_lower",
-      "minecraft:ore_diorite_upper",
-      "minecraft:ore_diorite_lower",
+      
+      
       "minecraft:ore_andesite_upper",
       "minecraft:ore_andesite_lower",
       "minecraft:ore_tuff",
@@ -80,7 +75,7 @@
       "minecraft:forest_flowers",
       "minecraft:trees_birch",
       "minecraft:flower_default",
-      "minecraft:patch_grass_forest",
+      "minecraft:patch_grass_normal",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
@@ -189,6 +184,5 @@
     ],
     "water_ambient": [],
     "water_creature": []
-  },
-  "temperature": 0.6
+  }
 }

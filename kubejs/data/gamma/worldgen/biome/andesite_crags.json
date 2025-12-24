@@ -1,24 +1,18 @@
 {
-	"temperature": 1.2,
-	"downfall": 0.2,
-	"effects": {
-		"mood_sound": {
-			"sound": "minecraft:ambient.cave",
-			"tick_delay": 6000,
-			"block_search_extent": 8,
-			"offset": 2
-		},
-		"music": {
-			"sound": "minecraft:music.overworld.stony_peaks",
-			"min_delay": 12000,
-			"max_delay": 24000,
-			"replace_current_music": false
-		},
-		"sky_color": 7776511,
-		"fog_color": 12638463,
-		"water_color": 6388580,
-		"water_fog_color": 2302743
-	},
+  "downfall": 0.9,
+  "temperature": 0.6,
+  "effects": {
+    "fog_color": 12638463,
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2.0,
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000
+    },
+    "sky_color": 7907327,
+    "water_color": 4159204,
+    "water_fog_color": 329011
+  },
 	"carvers": {
 		"air": [
 			"minecraft:cave",
@@ -46,8 +40,6 @@
 			"minecraft:ore_gravel",
 			"minecraft:ore_granite_upper",
 			"minecraft:ore_granite_lower",
-			"minecraft:ore_diorite_upper",
-			"minecraft:ore_diorite_lower",
 			"minecraft:ore_andesite_upper",
 			"minecraft:ore_andesite_lower",
 			"minecraft:ore_tuff",

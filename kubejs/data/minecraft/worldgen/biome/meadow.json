@@ -6,8 +6,8 @@
       "minecraft:canyon"
     ]
   },
-  "temperature": 0.8,
-  "downfall": 0.95,
+  "downfall": 1.2,
+  "temperature": 0.6,
   "effects": {
     "fog_color": 12638463,
     "mood_sound": {
@@ -16,17 +16,9 @@
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000
     },
-    "music": {
-      "max_delay": 24000,
-      "min_delay": 12000,
-      "replace_current_music": false,
-      "sound": "minecraft:music.overworld.meadow"
-    },
-    "sky_color": 8103167,
-    "water_color": 937679,
-    "water_fog_color": 329011,
-    "grass_color": 10938707,
-    "foliage_color": 11664978
+    "sky_color": 7907327,
+    "water_color": 4159204,
+    "water_fog_color": 329011
   },
   "features": [
     [],
@@ -48,8 +40,8 @@
       "minecraft:ore_gravel",
       "minecraft:ore_granite_upper",
       "minecraft:ore_granite_lower",
-      "minecraft:ore_diorite_upper",
-      "minecraft:ore_diorite_lower",
+      
+      
       "minecraft:ore_andesite_upper",
       "minecraft:ore_andesite_lower",
       "minecraft:ore_tuff",
@@ -83,8 +75,7 @@
     ],
     [
       "minecraft:glow_lichen",
-      "minecraft:patch_tall_grass_2",
-      "minecraft:patch_grass_plain",
+      "minecraft:patch_grass_normal",
       "minecraft:flower_meadow",
       "minecraft:trees_meadow"
     ],
