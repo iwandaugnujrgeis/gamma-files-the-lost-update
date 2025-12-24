@@ -37,7 +37,7 @@
 [torch]
 	#How long a torch lasts when crafted. There are 20 ticks per second so 48000 ticks = 40 minutes.
 	#Range: > 1
-	defaultTorchFuel = 24000
+	defaultTorchFuel = 36000
 	#Torches will become unlit when broken.
 	torchesExtinguishWhenBroken = false
 	#Overrides torchesExtinguishWhenBroken. Torches will be fully expended when broken (burnt torch or stick).
