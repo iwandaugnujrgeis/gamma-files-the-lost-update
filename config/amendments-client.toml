@@ -100,7 +100,7 @@
 	#Makes snowballs render in 3D
 	snowball_3d = false
 	#Makes slimeballs render in 3D (supplementaries only)
-	slimeball_3d = true
+	slimeball_3d = false
 	#Makes ghast & blazes fireballs render in 3D
 	fireball_3d = false
 	#Makes ghast & blazes fireballs leave a trail of particles when moving
@@ -108,7 +108,7 @@
 	#Makes dragon fireballs leave a trail of particles when moving
 	dragon_fireball_trail = true
 	#Makes 3D charges tumble in the air when moving
-	charges_tumble = true
+	charges_tumble = false
 	#Makes 3D snowballs and slimeballs (supp compat) tumble in the air when moving
 	projectiles_tumble = false
 
