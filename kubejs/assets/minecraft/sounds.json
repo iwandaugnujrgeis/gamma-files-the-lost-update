@@ -1,4 +1,23 @@
 {
+  "ui.button.click": {
+    "sounds": [
+      {
+        "name": "random/click_stereo",
+        "pitch": 1.0,
+        "weight": 18
+      },
+      {
+        "name": "random/click_stereo",
+        "pitch": 0.95,
+        "weight": 5
+      },
+      {
+        "name": "random/click_stereo",
+        "pitch": 0.9,
+        "weight": 2
+      }
+    ]
+  },
   "item.flintandsteel.use": {
     "replace": true,
     "sounds": [
