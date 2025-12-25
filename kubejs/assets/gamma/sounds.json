@@ -1,4 +1,38 @@
 {
+  "music.menu": {
+    "sounds": [
+      {
+        "name": "gamma:music/menu/ams",
+        "volume": 1.0,
+        "stream": true
+      },
+      {
+        "name": "gamma:music/menu/anthem",
+        "volume": 1.0,
+        "stream": true
+      },
+      {
+        "name": "gamma:music/menu/kopfmusik",
+        "volume": 1.0,
+        "stream": true
+      },
+      {
+        "name": "gamma:music/menu/krank",
+        "volume": 1.0,
+        "stream": true
+      },
+      {
+        "name": "gamma:music/menu/ritalin",
+        "volume": 1.0,
+        "stream": true
+      },
+      {
+        "name": "gamma:music/menu/zweiton",
+        "volume": 1.0,
+        "stream": true
+      }
+    ]
+  },
   "music.nether": {
     "sounds": [
       {

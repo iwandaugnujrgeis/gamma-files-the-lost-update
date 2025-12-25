@@ -336,60 +336,12 @@
     ]
   },
   "music.menu": {
-    "sounds": [
+    "replace": true,
+    "sounds":
+    [
       {
-        "name": "music/game/a_familiar_room",
-        "stream": true,
-        "volume": 0.4,
-        "weight": 10
-      },
-      {
-        "name": "music/game/bromeliad",
-        "stream": true,
-        "volume": 0.4,
-        "weight": 10
-      },
-      {
-        "name": "music/game/crescent_dunes",
-        "stream": true,
-        "volume": 0.4,
-        "weight": 10
-      },
-      {
-        "name": "music/game/echo_in_the_wind",
-        "stream": true,
-        "volume": 0.4,
-        "weight": 10
-      },
-      {
-        "name": "music/menu/menu1",
-        "stream": true,
-        "volume": 1.0,
-        "weight": 10
-      },
-      {
-        "name": "music/menu/menu2",
-        "stream": true,
-        "volume": 1.0,
-        "weight": 10
-      },
-      {
-        "name": "music/menu/menu3",
-        "stream": true,
-        "volume": 1.0,
-        "weight": 10
-      },
-      {
-        "name": "music/menu/menu4",
-        "stream": true,
-        "volume": 1.0,
-        "weight": 10
-      },
-      {
-        "name": "gamma:music/chris1",
-        "stream": true,
-        "volume": 1.0,
-        "weight": 10
+        "name": "gamma:music.menu",
+        "type": "event"
       }
     ]
   },
