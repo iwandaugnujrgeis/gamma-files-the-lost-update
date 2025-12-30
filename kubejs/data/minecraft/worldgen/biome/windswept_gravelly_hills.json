@@ -17,7 +17,9 @@
     },
     "sky_color": 8233727,
     "water_color": 4159204,
-    "water_fog_color": 329011
+    "water_fog_color": 329011,
+    "grass_color": 8827995,
+    "foliage_color": 6398280
   },
   "features": [
     [],
@@ -63,7 +65,8 @@
       "minecraft:disk_sand",
       "minecraft:disk_clay",
       "minecraft:disk_gravel",
-      "minecraft:ore_emerald"
+      "minecraft:ore_emerald",
+      "gamma:lake_water_surface"
     ],
     [
       "minecraft:ore_infested"

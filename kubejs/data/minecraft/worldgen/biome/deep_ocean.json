@@ -6,7 +6,8 @@
       "minecraft:canyon"
     ]
   },
-  "downfall": 0.5,
+  "downfall": 0.7,
+  "temperature": 0.65,
   "effects": {
     "fog_color": 12638463,
     "mood_sound": {
@@ -15,9 +16,11 @@
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000
     },
-    "sky_color": 8103167,
+    "sky_color": 7907327,
     "water_color": 4159204,
-    "water_fog_color": 329011
+    "water_fog_color": 329011,
+    "grass_color": 8827995,
+    "foliage_color": 6398280
   },
   "features": [
     [],
@@ -75,7 +78,7 @@
       "minecraft:patch_grass_plain",
       "minecraft:trees_water",
       "minecraft:flower_default",
-      "minecraft:patch_grass_forest",
+      "minecraft:patch_grass_normal",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
@@ -219,6 +222,5 @@
         "weight": 1
       }
     ]
-  },
-  "temperature": 0.5
+  }
 }

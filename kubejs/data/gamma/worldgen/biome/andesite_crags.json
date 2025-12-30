@@ -1,18 +1,20 @@
 {
-  "downfall": 0.9,
-  "temperature": 0.6,
-  "effects": {
-    "fog_color": 12638463,
-    "mood_sound": {
-      "block_search_extent": 8,
-      "offset": 2.0,
-      "sound": "minecraft:ambient.cave",
-      "tick_delay": 6000
-    },
-    "sky_color": 7907327,
-    "water_color": 4159204,
-    "water_fog_color": 329011
-  },
+	"downfall": 0.7,
+	"temperature": 0.65,
+	"effects": {
+	  "fog_color": 12638463,
+	  "mood_sound": {
+	    "block_search_extent": 8,
+	    "offset": 2.0,
+	    "sound": "minecraft:ambient.cave",
+	    "tick_delay": 6000
+	  },
+	  "sky_color": 7907327,
+	  "water_color": 4159204,
+	  "water_fog_color": 329011,
+    "grass_color": 8827995,
+    "foliage_color": 6398280
+	},
 	"carvers": {
 		"air": [
 			"minecraft:cave",
@@ -62,7 +64,8 @@
 			"minecraft:disk_sand",
 			"minecraft:disk_clay",
 			"minecraft:disk_gravel",
-			"minecraft:ore_emerald"
+			"minecraft:ore_emerald",
+			"gamma:lake_water_surface"
 		],
 		[
 			"minecraft:ore_infested"

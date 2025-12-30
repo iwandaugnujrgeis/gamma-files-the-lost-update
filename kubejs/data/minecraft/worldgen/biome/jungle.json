@@ -6,7 +6,8 @@
       "minecraft:canyon"
     ]
   },
-  "downfall": 0.8,
+  "downfall": 0.7,
+  "temperature": 0.65,
   "effects": {
     "fog_color": 12638463,
     "mood_sound": {
@@ -15,15 +16,11 @@
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000
     },
-    "music": {
-      "max_delay": 24000,
-      "min_delay": 12000,
-      "replace_current_music": false,
-      "sound": "minecraft:music.overworld.jungle"
-    },
-    "sky_color": 7842047,
+    "sky_color": 7907327,
     "water_color": 4159204,
-    "water_fog_color": 329011
+    "water_fog_color": 329011,
+    "grass_color": 8827995,
+    "foliage_color": 6398280
   },
   "features": [
     [],
@@ -68,7 +65,8 @@
       "minecraft:underwater_magma",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
-      "minecraft:disk_gravel"
+      "minecraft:disk_gravel",
+      "gamma:lake_water_surface"
     ],
     [],
     [
@@ -85,11 +83,14 @@
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin",
+      "minecraft:lush_caves_vegetation",
+      "gamma:cascading_pools",
       "minecraft:vines",
       "minecraft:patch_melon"
     ],
     [
-      "minecraft:freeze_top_layer"
+      "minecraft:freeze_top_layer",
+      "sweety_garden:passion_flower_patchs"
     ]
   ],
   "has_precipitation": true,
@@ -203,6 +204,5 @@
     ],
     "water_ambient": [],
     "water_creature": []
-  },
-  "temperature": 0.9
+  }
 }

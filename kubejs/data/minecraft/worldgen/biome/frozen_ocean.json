@@ -6,7 +6,8 @@
       "minecraft:canyon"
     ]
   },
-  "downfall": 0.5,
+  "downfall": 0.7,
+  "temperature": 0.65,
   "effects": {
     "fog_color": 12638463,
     "mood_sound": {
@@ -15,9 +16,11 @@
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000
     },
-    "sky_color": 8364543,
-    "water_color": 3750089,
-    "water_fog_color": 329011
+    "sky_color": 7907327,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "grass_color": 8827995,
+    "foliage_color": 6398280
   },
   "features": [
     [],
@@ -189,6 +192,5 @@
       }
     ]
   },
-  "temperature": 0.0,
   "temperature_modifier": "frozen"
 }

@@ -23,7 +23,9 @@
     "fog_color": 12638463,
     "sky_color": 8103167,
     "water_color": 4159204,
-    "water_fog_color": 329011
+    "water_fog_color": 329011,
+    "grass_color": 8827995,
+    "foliage_color": 6398280
   },
   "features": [
     [],
@@ -88,6 +90,7 @@
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane_swamp",
       "minecraft:patch_pumpkin",
+      "gamma:cascading_pools",
       "minecraft:seagrass_swamp"
     ],
     [
