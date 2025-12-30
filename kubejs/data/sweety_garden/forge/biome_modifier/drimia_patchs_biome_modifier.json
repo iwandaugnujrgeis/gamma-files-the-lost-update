@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
-  "biomes": "#sweety_garden:has_feature/drimia_patchs",
+  "biomes": "gamma:null",
   "features": "sweety_garden:drimia_patchs",
   "step": "vegetal_decoration"
 }

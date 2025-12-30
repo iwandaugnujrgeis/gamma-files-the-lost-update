@@ -1,6 +1,8 @@
 {
   "type": "forge:add_features",
   "biomes": "gamma:null",
-  "features": "sweety_garden:wood_sorrel_patchs",
+  "features": [
+    "galosphere:allurite_ceiling_crystals"
+  ],
   "step": "vegetal_decoration"
 }

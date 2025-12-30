@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
-  "biomes": "#sweety_garden:has_feature/busy_lizzie_patchs",
+  "biomes": "gamma:null",
   "features": "sweety_garden:busy_lizzie_patchs",
   "step": "vegetal_decoration"
 }

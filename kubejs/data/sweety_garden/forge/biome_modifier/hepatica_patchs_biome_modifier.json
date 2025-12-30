@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
-  "biomes": "#sweety_garden:has_feature/hepatica_patchs",
+  "biomes": "gamma:null",
   "features": "sweety_garden:hepatica_patchs",
   "step": "vegetal_decoration"
 }
