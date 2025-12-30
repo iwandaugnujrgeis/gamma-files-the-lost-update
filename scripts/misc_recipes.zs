@@ -326,11 +326,6 @@ craftingTable.addShaped("backpack_quark", <item:quark:backpack>, [
     [<item:minecraft:string>, <item:minecraft:iron_ingot>, <item:minecraft:string>],
     [<item:minecraft:leather>, <item:minecraft:leather>, <item:minecraft:leather>]]);
 
-craftingTable.remove(<item:hardcore_torches:lit_torch>);
-craftingTable.addShaped("torch_is_cool", <item:hardcore_torches:lit_torch> * 4, [
-    [<tag:items:c:coal>], 
-    [<item:minecraft:stick>]]);
-
 craftingTable.addShaped("basket", <item:farmersdelight:basket>, [
     [<item:minecraft:bamboo>, <item:minecraft:air>, <item:minecraft:bamboo>],
     [<item:minecraft:bamboo>, <item:minecraft:air>, <item:minecraft:bamboo>],
@@ -1428,7 +1423,7 @@ craftingTable.addShapeless("garland", <item:snowyspirit:glow_lights_prismatic> *
 
 craftingTable.addShapeless("glow_paste_glow_ink_sac", <item:kubejs:glow_paste> * 3, [<item:minecraft:glow_ink_sac>]);
 
-furnace.addRecipe("glow_paste_smelt", <item:kubejs:glow_paste>, <item:quark:glow_shroom_block> | <item:spelunkery:phosphor_shroomlight> | <item:spelunkery:phosphor_fungus_block> | <item:spelunkery:mushgloom_block> | <item:quark:glow_shroom> | <item:spelunkery:phosphor_fungus> | <item:minecraft:glow_lichen> | <item:quark:glow_lichen_growth> | <item:spelunkery:mushgloom>, 0.35, 200);
+furnace.addRecipe("glow_paste_smelt", <item:kubejs:glow_paste>, <item:spelunkery:phosphor_shroomlight> | <item:spelunkery:phosphor_fungus_block> | <item:spelunkery:mushgloom_block> | <item:spelunkery:phosphor_fungus> | <item:minecraft:glow_lichen> | <item:spelunkery:mushgloom>, 0.35, 200);
 
 //4.2:
 craftingTable.remove(<item:minecraft:granite>);
@@ -1502,3 +1497,7 @@ craftingTable.addShaped("silver_bomb", <item:supplementaries:bomb> * 3, [
     [<item:minecraft:air>, <item:galosphere:silver_nugget>, <item:minecraft:air>], 
     [<item:galosphere:silver_nugget>, <item:minecraft:gunpowder>, <item:galosphere:silver_nugget>], 
     [<item:minecraft:air>, <item:galosphere:silver_nugget>, <item:minecraft:air>]]);
+
+craftingTable.addShaped("torch", <item:coraline_systems:torch> * 4, [
+    [<tag:items:c:coal>], 
+    [<item:minecraft:stick>]]);
