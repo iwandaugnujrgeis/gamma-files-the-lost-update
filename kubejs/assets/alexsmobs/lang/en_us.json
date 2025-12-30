@@ -1,4 +1,8 @@
 {
+  //4.3:
+  "alexsmobs.potion.sunbird_blessing": "Mango's Blessing",
+
+  //Other:
   "itemGroup.alexsmobs": "Alex's Mobs",
   "item.alexsmobs.spawn_egg_grizzly_bear": "Grizzly Bear Spawn Egg",
   "item.alexsmobs.spawn_egg_roadrunner": "Roadrunner Spawn Egg",
@@ -305,7 +309,6 @@
   "alexsmobs.potion.knockback_resistance": "Knockback Resistance",
   "alexsmobs.potion.lava_vision": "Lava Vision",
   "alexsmobs.potion.sunbird_curse": "Sunbird's Curse",
-  "alexsmobs.potion.sunbird_blessing": "Sunbird's Blessing",
   "alexsmobs.potion.oiled": "Oiled",
   "alexsmobs.potion.orcas_might": "Orca's Might",
   "alexsmobs.potion.speed_iii": "Speed III",
