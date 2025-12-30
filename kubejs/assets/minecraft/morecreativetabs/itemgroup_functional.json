@@ -227,10 +227,7 @@
       "name": "farmersdelight:hanging_canvas_sign"
     },
     {
-      "name": "hardcore_torches:lit_torch"
-    },
-    {
-      "name": "hardcore_torches:burnt_torch"
+      "name": "coraline_systems:torch"
     },
     {
       "name": "minecraft:redstone_torch"

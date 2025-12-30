@@ -170,6 +170,9 @@
       "name": "minecraft:oak_sapling"
     },
     {
+      "name": "upgrade_aquatic:river_sapling"
+    },
+    {
       "name": "minecraft:spruce_sapling"
     },
     {
@@ -233,6 +236,9 @@
       "name": "minecraft:oak_leaves"
     },
     {
+      "name": "upgrade_aquatic:river_leaves"
+    },
+    {
       "name": "minecraft:spruce_leaves"
     },
     {
@@ -263,9 +269,6 @@
       "name": "spelunkery:cave_mushroom_stem"
     },
     {
-      "name": "quark:glow_shroom_stem"
-    },
-    {
       "name": "spelunkery:white_inkcap_mushroom_block"
     },
     {
@@ -273,9 +276,6 @@
     },
     {
       "name": "minecraft:red_mushroom_block"
-    },
-    {
-      "name": "quark:glow_shroom_block"
     },
     {
       "name": "spelunkery:mushgloom_block"
@@ -332,12 +332,6 @@
       "name": "spelunkery:crimini"
     },
     {
-      "name": "galosphere:bowl_lichen"
-    },
-    {
-      "name": "quark:glow_shroom"
-    },
-    {
       "name": "minecraft:grass"
     },
     {
@@ -390,18 +384,6 @@
     },
     {
       "name": "minecraft:glow_lichen"
-    },
-    {
-      "name": "galosphere:lichen_roots"
-    },
-    {
-      "name": "galosphere:lichen_shelf"
-    },
-    {
-      "name": "quark:glow_shroom_ring"
-    },
-    {
-      "name": "quark:glow_lichen_growth"
     },
     {
       "name": "minecraft:dandelion"
