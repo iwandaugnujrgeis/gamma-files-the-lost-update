@@ -20,7 +20,7 @@
 	spawnerBreakSpeedMultiplier = 5
 	#Spawner Revenge Level: 0 = Off, Over 1 spawner takes revenge on player.
 	#Range: 0 ~ 11
-	spawnerRevengeLevel = 2
+	spawnerRevengeLevel = 0
 	#Explode percentage when Spawners Break
 	#Range: 0.0 ~ 100.0
 	spawnersExplodePercentage = 10.0
