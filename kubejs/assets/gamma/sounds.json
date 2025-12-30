@@ -3,32 +3,32 @@
     "sounds": [
       {
         "name": "gamma:music/menu/ams",
-        "volume": 1.0,
+        "volume": 0.8,
         "stream": true
       },
       {
         "name": "gamma:music/menu/anthem",
-        "volume": 1.0,
+        "volume": 0.8,
         "stream": true
       },
       {
         "name": "gamma:music/menu/kopfmusik",
-        "volume": 1.0,
+        "volume": 0.8,
         "stream": true
       },
       {
         "name": "gamma:music/menu/krank",
-        "volume": 1.0,
+        "volume": 0.8,
         "stream": true
       },
       {
         "name": "gamma:music/menu/ritalin",
-        "volume": 1.0,
+        "volume": 0.8,
         "stream": true
       },
       {
         "name": "gamma:music/menu/zweiton",
-        "volume": 1.0,
+        "volume": 1.1,
         "stream": true
       }
     ]
