@@ -248,3 +248,21 @@ ItemEvents.entityInteracted(event => {
 
   event.cancel()
 })
+
+BlockEvents.rightClicked(event => {
+  const { player, block, level } = event
+
+  // Server-side only
+  if (level.isClientSide()) return
+
+  // Dimension check
+  if (level.dimension != 'rediscovered:skylands') return
+
+  // Bed check via tag
+  if (!block.hasTag('minecraft:beds')) return
+
+  try {
+    grantAdvancement(player, 'gamma:skylands/dont_touch_beds')
+  } catch (e) {}
+})
+
