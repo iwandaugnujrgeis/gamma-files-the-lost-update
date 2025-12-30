@@ -1,4 +1,27 @@
 {
+  "block.grass.fall": {
+    "replace": true,
+    "sounds": [
+      "block/azalea/break1",
+      "block/azalea/break2",
+      "block/azalea/break3",
+      "block/azalea/break4",
+      "block/azalea/break5",
+      "block/azalea/break6"
+    ]
+  },
+  "block.grass.step": {
+    "replace": true,
+    "sounds": [
+      "block/azalea/step1",
+      "block/azalea/step2",
+      "block/azalea/step3",
+      "block/azalea/step4",
+      "block/azalea/step5",
+      "block/azalea/step6"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
   "ui.button.click": {
     "sounds": [
       {
@@ -350,6 +373,30 @@
         "name": "gamma:music/beginning",
         "stream": true,
         "volume": 1.0,
+        "weight": 10
+      },
+      {
+        "name": "gamma:music/menu/anthem",
+        "stream": true,
+        "volume": 0.8,
+        "weight": 10
+      },
+      {
+        "name": "gamma:music/menu/krank",
+        "stream": true,
+        "volume": 0.8,
+        "weight": 10
+      },
+      {
+        "name": "gamma:music/menu/ritalin",
+        "stream": true,
+        "volume": 0.8,
+        "weight": 10
+      },
+      {
+        "name": "gamma:music/menu/zweiton",
+        "stream": true,
+        "volume": 1.1,
         "weight": 10
       }
     ]
