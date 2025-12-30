@@ -1,0 +1,16 @@
+{
+	"multipart": [
+		{
+			"when": { "burn": "0|1|2|3|4|5|6|7|8|9|10" },
+			"apply": { "model": "minecraft:block/torch" }
+		},
+		{
+			"when": { "burn": "11|12|13|14" },
+			"apply": { "model": "coraline_systems:block/baked_torch" }
+		},
+		{
+			"when": { "burn": "15" },
+			"apply": { "model": "coraline_systems:block/burnt_torch" }
+		}
+	]
+}
