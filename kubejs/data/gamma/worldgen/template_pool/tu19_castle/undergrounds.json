@@ -1,0 +1,15 @@
+{
+	"name": "gamma:tu19_castle/undergrounds",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "gamma:tu19_castle/underground",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		}
+	]
+}

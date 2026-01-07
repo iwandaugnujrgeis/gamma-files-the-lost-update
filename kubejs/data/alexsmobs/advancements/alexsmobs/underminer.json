@@ -1,0 +1,21 @@
+{
+  "display": {
+    "hidden": false,
+    "icon": {
+      "item": "alexsmobs:ghostly_pickaxe"
+    },
+    "title": "Undermine The Undermining?",
+    "description": "Undermine a Block the Underminer is Undermining..."
+  },
+  "parent": "gamma:detour/root",
+  "criteria": {
+    "ex": {
+      "trigger": "alexsmobs:undermine_underminer"
+    }
+  },
+  "requirements": [
+    [
+      "ex"
+    ]
+  ]
+}

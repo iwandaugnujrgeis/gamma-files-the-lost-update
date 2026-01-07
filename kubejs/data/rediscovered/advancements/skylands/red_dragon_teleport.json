@@ -1,0 +1,29 @@
+{
+  "parent": "rediscovered:skylands/hatch_red_dragon",
+  "criteria": {
+    "teleport": {
+      "trigger": "rediscovered:dragon_teleport"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "rediscovered:advancements.skylands.red_dragon_teleport.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:grass_block"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "rediscovered:advancements.skylands.red_dragon_teleport.title"
+    }
+  },
+  "requirements": [
+    [
+      "teleport"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

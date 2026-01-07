@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:nether/root",
+  "criteria": {
+    "bastion": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "minecraft:bastion_remnant"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Find a Bastion...",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:polished_blackstone_bricks"
+    },
+    "show_toast": true,
+    "title": "Those Were The Days..."
+  },
+  "requirements": [
+    [
+      "bastion"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
