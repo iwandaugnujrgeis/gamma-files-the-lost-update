@@ -84,6 +84,3 @@ net.minecraft.client.gui.screens.inventory.FurnaceScreen {
 org.violetmoon.quark.addons.oddities.client.screen.BackpackInventoryScreen {
 }
 
-net.minecraft.client.gui.screens.worldselection.CreateWorldScreen {
-}
-

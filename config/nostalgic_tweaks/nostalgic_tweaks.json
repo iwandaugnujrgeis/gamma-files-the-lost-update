@@ -727,7 +727,7 @@
     "oldGhastCharging": false,
     "oldMobDeathTopple": false,
     "oldMobHeadBodyTurn": true,
-    "hideBoatRowing": false,
+    "hideBoatRowing": true,
     "oldClassicWalkBobbing": false,
     "oldClassicWalkArms": false,
     "oldBackwardWalking": false,
