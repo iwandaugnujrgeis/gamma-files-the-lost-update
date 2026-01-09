@@ -1,5 +1,5 @@
 KeyBindEvents.modify((event) => {
-  event.modifyCategory("ping-wheel.key.ping-location", "key.categories.multiplayer");
+  event.modifyCategory("key.pingwheel.ping_location", "key.categories.multiplayer");
 
   event.remove("key.saveToolbarActivator");
   event.remove("key.loadToolbarActivator");
@@ -38,8 +38,7 @@ KeyBindEvents.modify((event) => {
   event.remove("key.nostalgic_tweaks.toggle_weather");  
   event.remove("key.extend");
   event.remove("key.retract");
-  event.remove("ping-wheel.key.open-settings");
-  event.remove("ping-wheel.key.name-labels");
+  event.remove("key.pingwheel.open_settings");
   event.remove("quark.keybind.autorun");
   event.remove("quark.keybind.back");
   event.remove("quark.keybind.camera_mode");

@@ -22,9 +22,7 @@ ItemEvents.foodEaten(event => {
 })
 
 //Shear Bears:
-// Uses the Player Object to Silently Run the /advancement Command:
 function grantAdvancement(player, advancementId) {
-  // Try via event.server if Available:
   if (typeof server !== 'undefined') {
     server.runCommandSilent(`advancement grant ${player.name} only ${advancementId}`)
   } else if (player.getServer) {
@@ -42,10 +40,8 @@ function entitySnipSnip(event, entityType, toolId, outputId, dropMin, dropMax, m
   const bear   = event.target
   const item   = event.item
 
-  // Only Our Target:
   if (bear.type !== entityType || item.id !== toolId) return
 
-  // Track Uses:
   if (bear.persistentData?.sheared == null) bear.persistentData.sheared = 1
   else bear.persistentData.sheared++
 
@@ -76,57 +72,11 @@ ItemEvents.entityInteracted(event => {
     'alexsmobs:grizzly_bear',      // Entity
     'minecraft:shears',            // Tool
     'alexsmobs:bear_fur',          // Drop
-    1, 1,                          // Min/max
+    1, 3,                          // Min/max
     2,                             // Only First Snip Works
     'gamma:husbandry/bear_hair_snip' // Advancement ID!
   )
 })
-
-//Glowstone Torch Transformation:
-//BlockEvents.rightClicked('hardcore_torches:lit_torch', event => {
-  //const { player, item, hand, block } = event
-//
-  //if (hand !== 'MAIN_HAND') return
-  //if (!item || item.id !== 'minecraft:glowstone_dust') return
-//
-  //block.set('minecraft:torch')
-//
-  //if (!player.isCreative()) item.shrink(1)
-//
-  //player.level.playSound(
-    //null,
-    //block.pos.x, block.pos.y, block.pos.z,
-    //'chalk:item.glow_applied',
-    //'blocks',
-    //1.0,
-    //1.0
-  //)
-//
-  //event.cancel()
-//})
-//
-//BlockEvents.rightClicked('hardcore_torches:lit_wall_torch', event => {
-  //const { player, item, hand, block } = event
-//
-  //if (hand !== 'MAIN_HAND') return
-  //if (!item || item.id !== 'minecraft:glowstone_dust') return
-//
-  //var facing = block.properties.facing
-  //block.set('minecraft:wall_torch', { facing: facing })
-//
-  //if (!player.isCreative()) item.shrink(1)
-//
-  //player.level.playSound(
-    //null,
-    //block.pos.x, block.pos.y, block.pos.z,
-    //'chalk:item.glow_applied',
-    //'blocks',
-    //1.0,
-    //1.0
-  //)
-//
-  //event.cancel()
-//})
 
 //Score:
 BlockEvents.broken(event => {
@@ -249,16 +199,11 @@ ItemEvents.entityInteracted(event => {
   event.cancel()
 })
 
+//Bed Advancement Skylands:
 BlockEvents.rightClicked(event => {
   const { player, block, level } = event
-
-  // Server-side only
   if (level.isClientSide()) return
-
-  // Dimension check
   if (level.dimension != 'rediscovered:skylands') return
-
-  // Bed check via tag
   if (!block.hasTag('minecraft:beds')) return
 
   try {
