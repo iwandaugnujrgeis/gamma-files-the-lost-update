@@ -1,7 +1,7 @@
 {
   "general": {
     "engines": 0,
-    "volume": 0.5,
+    "volume": 0.4015151560306549,
     "useSoundMasterSource": false,
     "scanStepAmount": 100,
     "playSoundWithOffset": true
@@ -157,8 +157,8 @@
       "bird-warm": 1
     },
     "sky": {
-      "overall": 1,
-      "wind.light-wind": 1
+      "overall": 0.5960912108421326,
+      "wind.light-wind": 0.49837133288383484
     },
     "space": {
       "overall": 1
@@ -217,8 +217,8 @@
       }
     },
     "cave": 1,
-    "weather": 1,
-    "wind": 0.6970587968826294
+    "weather": 0.800000011920929,
+    "wind": 0.5029411911964417
   },
   "fade-volume": 0.005,
   "fade-pitch": 0.005,

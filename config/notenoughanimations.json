@@ -12,7 +12,7 @@
   "ladderAnimationArmSpeed": 2.0,
   "enableRotateToLadder": true,
   "enableEatDrinkAnimation": true,
-  "enableRowBoatAnimation": true,
+  "enableRowBoatAnimation": false,
   "enableHorseAnimation": true,
   "enableHorseLegAnimation": false,
   "dontHoldItemsInBed": false,
