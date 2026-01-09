@@ -1,7 +1,7 @@
 {
   "type": "rediscovered:skylands",
   "generator": {
-    "type": "moderner_beta:moderner_beta",
+    "type": "minecraft:noise",
     "biome_source": {
       "type": "minecraft:multi_noise",
       "biomes": [
@@ -55,8 +55,6 @@
         }
       ]
     },
-    "provider_settings": {
-      "moderner_beta:preset": "moderner_beta:skylands"
-    }
+    "settings": "minecraft:floating_islands"
   }
 }
