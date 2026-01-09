@@ -1,5 +1,16 @@
 //priority: 1
 ServerEvents.tags('item', event => {
+//4.4:
+    event.removeAllTagsFrom('alexsmobs:ghostly_pickaxe')
+    event.removeAllTagsFrom('alexsmobs:spawn_egg_terrapin')
+    event.removeAllTagsFrom('alexsmobs:terrapin_egg')
+    event.removeAllTagsFrom('alexsmobs:spawn_egg_flutter')
+    event.removeAllTagsFrom('alexsmobs:potted_flutter')
+    event.removeAllTagsFrom('alexsmobs:spawn_egg_caiman')
+    event.removeAllTagsFrom('alexsmobs:caiman_egg')
+    event.removeAllTagsFrom('alexsmobs:spawn_egg_bunfungus')
+    event.removeAllTagsFrom('alexsmobs:spawn_egg_endergrade')
+
 //4.3:
     event.removeAllTagsFrom('woodworks:spruce_chest')
     event.removeAllTagsFrom('woodworks:trapped_spruce_chest')

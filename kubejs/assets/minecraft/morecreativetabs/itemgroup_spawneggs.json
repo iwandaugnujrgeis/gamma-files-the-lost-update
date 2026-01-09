@@ -41,9 +41,6 @@
       "name": "alexsmobs:spawn_egg_blue_jay" 
     },
     {
-      "name": "alexsmobs:spawn_egg_bunfungus" 
-    },
-    {
       "name": "minecraft:camel_spawn_egg" 
     },
     {
@@ -57,9 +54,6 @@
     },
     {
       "name": "minecraft:cave_spider_spawn_egg" 
-    },
-    {
-      "name": "alexsmobs:spawn_egg_caiman" 
     },
     {
       "name": "alexsmobs:spawn_egg_catfish" 
@@ -122,16 +116,10 @@
       "name": "minecraft:endermite_spawn_egg" 
     },
     {
-      "name": "alexsmobs:spawn_egg_endergrade" 
-    },
-    {
       "name": "alexsmobs:spawn_egg_farseer" 
     },
     {
       "name": "rediscovered:fish_spawn_egg" 
-    },
-    {
-      "name": "alexsmobs:spawn_egg_flutter" 
     },
     {
       "name": "alexsmobs:spawn_egg_flying_fish" 
@@ -353,16 +341,10 @@
       "name": "alexsmobs:spawn_egg_sugar_glider" 
     },
     {
-      "name": "alexsmobs:spawn_egg_sunbird" 
-    },
-    {
       "name": "minecraft:tadpole_spawn_egg" 
     },
     {
       "name": "alexsmobs:spawn_egg_tasmanian_devil" 
-    },
-    {
-      "name": "alexsmobs:spawn_egg_terrapin" 
     },
     {
       "name": "variantsandventures:thicket_spawn_egg"
@@ -390,9 +372,6 @@
     },
     {
       "name": "alexsmobs:spawn_egg_tusklin" 
-    },
-    {
-      "name": "alexsmobs:spawn_egg_underminer" 
     },
     {
       "name": "minecraft:vex_spawn_egg" 
