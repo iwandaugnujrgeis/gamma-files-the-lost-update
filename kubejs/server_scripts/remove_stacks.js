@@ -1353,7 +1353,6 @@ const removedInOutputs =
         'minecraft:evoker_spawn_egg',
         'minecraft:explorer_pottery_sherd',
         'minecraft:eye_armor_trim_smithing_template',
-        'minecraft:firework_star',
         'minecraft:friend_pottery_sherd',
         'minecraft:glistering_melon_slice',
         'minecraft:gray_banner',

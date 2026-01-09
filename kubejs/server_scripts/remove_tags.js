@@ -1352,7 +1352,6 @@ ServerEvents.tags('item', event => {
     event.removeAllTagsFrom('minecraft:evoker_spawn_egg')
     event.removeAllTagsFrom('minecraft:explorer_pottery_sherd')
     event.removeAllTagsFrom('minecraft:eye_armor_trim_smithing_template')
-    event.removeAllTagsFrom('minecraft:firework_star')
     event.removeAllTagsFrom('minecraft:friend_pottery_sherd')
     event.removeAllTagsFrom('minecraft:glistering_melon_slice')
     event.removeAllTagsFrom('minecraft:gray_banner')

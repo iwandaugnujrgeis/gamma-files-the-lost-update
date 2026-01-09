@@ -1118,9 +1118,6 @@ craftingTable.addShaped("maglev_powered_rail", <item:moreminecarts:maglev_powere
     //[<item:rediscovered:glowing_obsidian>, <item:minecraft:diamond>, <item:rediscovered:glowing_obsidian>],
     //[<item:minecraft:copper_block>, <item:rediscovered:glowing_obsidian>, <item:minecraft:copper_block>]]);
 
-//3.3:
-craftingTable.remove(<item:minecraft:firework_rocket>);
-
 //3.4:
 craftingTable.addShaped("pipe", <item:quark:pipe> * 6, [
     [<item:minecraft:copper_ingot>, <item:minecraft:copper_ingot>, <item:minecraft:copper_ingot>],
