@@ -425,7 +425,7 @@
   "display": {
     "announce_to_chat": true,
     "description": "Obtain (Almost) All Flowers!",
-    "frame": "task",
+    "frame": "goal",
     "hidden": false,
     "icon": {
       "item": "habitat:edelweiss"

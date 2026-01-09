@@ -209,7 +209,7 @@
   "display": {
     "announce_to_chat": true,
     "description": "Obtain All Glosticks!",
-    "frame": "task",
+    "frame": "goal",
     "hidden": false,
     "icon": {
       "item": "spelunkery:glowstick"

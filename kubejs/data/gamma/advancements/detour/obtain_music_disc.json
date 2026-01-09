@@ -264,12 +264,36 @@
         ]
       },
       "trigger": "minecraft:inventory_changed"
+    },
+    "music_disc_death": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:music_disc_death"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "music_disc_goodbye": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:music_disc_goodbye"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
     }
   },
   "display": {
     "announce_to_chat": true,
     "description": "Collect All Music Discs!",
-    "frame": "task",
+    "frame": "goal",
     "hidden": false,
     "icon": {
       "item": "kubejs:music_disc_dog"
@@ -343,6 +367,12 @@
     ],
     [
       "music_disc_relic"
+    ],
+    [
+      "music_disc_goodbye"
+    ],
+    [
+      "music_disc_death"
     ]
   ],
   "sends_telemetry_event": true

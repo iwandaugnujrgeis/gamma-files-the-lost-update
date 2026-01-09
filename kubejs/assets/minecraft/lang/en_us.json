@@ -160,9 +160,13 @@
     "block.minecraft.weathered_cut_copper_slab": "Weathered Copper Tiles Slab",
     "block.minecraft.weathered_cut_copper_stairs": "Weathered Copper Tiles Stairs",
 
-    "chat.type.advancement.challenge": "%s has completed a Сhallenge! %s",
-    "chat.type.advancement.goal": "%s has reached a Goal! %s",
+    "chat.type.advancement.challenge": "%s has completed a Challenge! %s",
+    "chat.type.advancement.goal": "%s has catalogued a Collection! %s",
     "chat.type.advancement.task": "%s got an Advancement! %s",
+
+    "advancements.toast.challenge": "Challenge Complete!",
+    "advancements.toast.goal": "Collection Catalogued!",
+    "advancements.toast.task": "Advancement Get!",
 
     "item.minecraft.turtle_helmet": "Scute Shell",
     "subtitles.item.armor.equip_turtle": "Scute Shell thunks",
