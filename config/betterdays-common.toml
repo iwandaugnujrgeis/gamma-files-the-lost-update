@@ -5,13 +5,13 @@
 	#This is the RATIO of time passing relative to vanilla.
 	#Vanilla speed: 1.0
 	#Range: 0.0 ~ 24000.0
-	daySpeed = 0.4
+	daySpeed = 1.0
 	#The speed at which time passes during the night.
 	#Night is defined as any time between dayStart (see below) and nightStart (see below).
 	#This is the RATIO of time passing relative to vanilla.
 	#Vanilla speed: 1.0
 	#Range: 0.0 ~ 24000.0
-	nightSpeed = 1.4
+	nightSpeed = 1.0
 	#The time to start day. This is configurable within the time the sun appears and day starts.
 	#Default: 23500
 	#Range: 22300.0 ~ 24000.0
@@ -101,7 +101,7 @@
 	#The maximum speed at which time passes when all players are sleeping.
 	#A value of 110 is nearly equal to the time it takes to sleep in vanilla.
 	#Range: 0.0 ~ 24000.0
-	sleepSpeedMax = 14.0
+	sleepSpeedMax = 10.0
 	#The minimum speed at which time passes when only 1 player is sleeping in a full server.
 	#Range: 0.0 ~ 24000.0
 	sleepSpeedMin = 1.0
@@ -117,7 +117,7 @@
 	#Credit to Dino Dini for the function: https://dinodini.wordpress.com/2010/04/05/normalized-tunable-sigmoid-functions/
 	#Credit to SmoothSleep for the idea: https://www.spigotmc.org/resources/smoothsleep.32043/
 	#Range: 0.0 ~ 1.0
-	sleepSpeedCurve = 0.3
+	sleepSpeedCurve = 0.5
 	#Set to 'true' for the weather to clear when players wake up in the morning as it does in vanilla.
 	#Set to 'false' to force weather to pass naturally. Adds realism when accelerateWeather is enabled.
 	#Note: This setting is ignored if game rule doWeatherCycle is false.
