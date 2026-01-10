@@ -8,70 +8,56 @@
 
 	"swapper": 
 	{
-		"minecraft:cobbled_deepslate": "minecraft:deepslate",
-		"minecraft:chiseled_polished_blackstone": "minecraft:blackstone",
-
-		"rediscovered:ruby_block": "minecraft:waxed_copper_block",
+		//Up for removal: 
 		"minecraft:deepslate_iron_ore": "minecraft:deepslate",
 		'minecraft:blast_furnace': "minecraft:furnace",
 		'minecraft:campfire': "minecraft:air",
 		'minecraft:smoker': "minecraft:furnace",
-
 		"minecraft:anvil": "minecraft:air",
 		"minecraft:chipped_anvil": "minecraft:air",
 		"minecraft:damaged_anvil": "minecraft:air",
 
-		//Suspicios Blocks:
-		"minecraft:suspicious_gravel": "minecraft:gravel",
-		"minecraft:suspicious_sand": "minecraft:sand",
+		//Other:
+		"minecraft:chiseled_polished_blackstone": "minecraft:blackstone",
+		"rediscovered:ruby_block": "minecraft:waxed_copper_block",
 
-		//Lanterns:
-		"minecraft:lantern": "minecraft:air",
-		"minecraft:soul_lantern": "minecraft:air",
+			//Suspicios Blocks:
+			"minecraft:suspicious_gravel": "minecraft:gravel",
+			"minecraft:suspicious_sand": "minecraft:sand",
 
-		//Polished Blocks:
-		//Andesite:
-		"minecraft:polished_andesite": "minecraft:stone_bricks",
-		"minecraft:polished_andesite_slab": "minecraft:stone_brick_slab",
-		"minecraft:polished_andesite_stairs": "minecraft:stone_brick_stairs",
+			//Lanterns:
+			//"minecraft:lantern": "minecraft:air",
+			//"minecraft:soul_lantern": "minecraft:air",
 
-		//Granite:
-		"minecraft:polished_granite": "minecraft:bricks",
-		"minecraft:polished_granite_slab": "minecraft:brick_slab",
-		"minecraft:polished_granite_stairs": "minecraft:brick_stairs",
+			//Polished Blocks:
+			//Andesite:
+			"minecraft:polished_andesite": "minecraft:stone_bricks",
+			"minecraft:polished_andesite_slab": "minecraft:stone_brick_slab",
+			"minecraft:polished_andesite_stairs": "minecraft:stone_brick_stairs",
 
-		//Deepslate:
-		"minecraft:cracked_deepslate_tiles": "minecraft:deepslate_tiles",
-		"minecraft:polished_deepslate": "minecraft:deepslate_tiles",
-		"minecraft:polished_deepslate_slab": "minecraft:deepslate_tile_slab",
-		"minecraft:polished_deepslate_stairs": "minecraft:deepslate_tile_stairs",
-		"minecraft:polished_deepslate_wall": "minecraft:deepslate_tile_wall",
-		"minecraft:deepslate_brick_slab": "minecraft:deepslate_tile_slab",
-		"minecraft:deepslate_brick_stairs": "minecraft:deepslate_tile_stairs",
-		"minecraft:deepslate_brick_wall": "minecraft:deepslate_tile_wall",
-		"minecraft:cracked_deepslate_bricks": "minecraft:deepslate",
-		"minecraft:deepslate_bricks": "minecraft:deepslate_tiles",
+			//Granite:
+			"minecraft:polished_granite": "minecraft:bricks",
+			"minecraft:polished_granite_slab": "minecraft:brick_slab",
+			"minecraft:polished_granite_stairs": "minecraft:brick_stairs",
 
-		"minecraft:muddy_mangrove_roots": "minecraft:mud", //Remove via Configured Features?
-
-		//Glazed Terracotta:
-		"clayworks:glazed_terracotta": "minecraft:dirt",
-		"etcetera:iridescent_glazed_terracotta": "minecraft:dirt",
-		"minecraft:black_glazed_terracotta": "minecraft:dirt",
-		"minecraft:blue_glazed_terracotta": "minecraft:dirt",
-		"minecraft:brown_glazed_terracotta": "minecraft:dirt",
-		"minecraft:cyan_glazed_terracotta": "minecraft:dirt",
-		"minecraft:gray_glazed_terracotta": "minecraft:dirt",
-		"minecraft:green_glazed_terracotta": "minecraft:dirt",
-		"minecraft:light_blue_glazed_terracotta": "minecraft:dirt",
-		"minecraft:light_gray_glazed_terracotta": "minecraft:dirt",
-		"minecraft:lime_glazed_terracotta": "minecraft:dirt",
-		"minecraft:magenta_glazed_terracotta": "minecraft:dirt",
-		"minecraft:orange_glazed_terracotta": "minecraft:dirt",
-		"minecraft:pink_glazed_terracotta": "minecraft:dirt",
-		"minecraft:purple_glazed_terracotta": "minecraft:dirt",
-		"minecraft:red_glazed_terracotta": "minecraft:dirt",
-		"minecraft:white_glazed_terracotta": "minecraft:dirt",
-		"minecraft:yellow_glazed_terracotta": "minecraft:dirt"
+			//Glazed Terracotta:
+			"clayworks:glazed_terracotta": "minecraft:dirt",
+			"etcetera:iridescent_glazed_terracotta": "minecraft:dirt",
+			"minecraft:black_glazed_terracotta": "minecraft:dirt",
+			"minecraft:blue_glazed_terracotta": "minecraft:dirt",
+			"minecraft:brown_glazed_terracotta": "minecraft:dirt",
+			"minecraft:cyan_glazed_terracotta": "minecraft:dirt",
+			"minecraft:gray_glazed_terracotta": "minecraft:dirt",
+			"minecraft:green_glazed_terracotta": "minecraft:dirt",
+			"minecraft:light_blue_glazed_terracotta": "minecraft:dirt",
+			"minecraft:light_gray_glazed_terracotta": "minecraft:dirt",
+			"minecraft:lime_glazed_terracotta": "minecraft:dirt",
+			"minecraft:magenta_glazed_terracotta": "minecraft:dirt",
+			"minecraft:orange_glazed_terracotta": "minecraft:dirt",
+			"minecraft:pink_glazed_terracotta": "minecraft:dirt",
+			"minecraft:purple_glazed_terracotta": "minecraft:dirt",
+			"minecraft:red_glazed_terracotta": "minecraft:dirt",
+			"minecraft:white_glazed_terracotta": "minecraft:dirt",
+			"minecraft:yellow_glazed_terracotta": "minecraft:dirt"
 	}
 }
