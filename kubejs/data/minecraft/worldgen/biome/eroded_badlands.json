@@ -163,6 +163,12 @@
         "maxCount": 4,
         "minCount": 2,
         "weight": 8
+      },
+      {
+        "type": "upgrade_aquatic:nautilus",
+        "maxCount": 6,
+        "minCount": 3,
+        "weight": 6
       }
     ],
     "water_ambient": [],
