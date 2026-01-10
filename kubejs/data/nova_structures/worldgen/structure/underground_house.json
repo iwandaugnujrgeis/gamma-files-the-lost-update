@@ -1,6 +1,6 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "#nova_structures:collections/stronghold_related_ruins_biomes",
+  "biomes": "#minecraft:is_overworld",
   "step": "underground_structures",
   "spawn_overrides": {},
   "terrain_adaptation": "none",
