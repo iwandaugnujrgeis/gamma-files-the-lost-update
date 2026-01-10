@@ -188,6 +188,7 @@ StartupEvents.registry('item', event => {
             .displayName('Music Disc')
             .name(itemstack => 'Music Disc')
             .tag('music_discs')
+            .tag('creeper_drop_music_discs')
 
       event.create('music_disc_death', 'music_disc')
             .song('gamma:music_disc.death', 41)
@@ -196,6 +197,7 @@ StartupEvents.registry('item', event => {
             .displayName('Music Disc')
             .name(itemstack => 'Music Disc')
             .tag('music_discs')
+            .tag('creeper_drop_music_discs')
 
       event.create('music_disc_goodbye', 'music_disc')
             .song('gamma:music_disc.goodbye', 134)
@@ -204,6 +206,7 @@ StartupEvents.registry('item', event => {
             .displayName('Music Disc')
             .name(itemstack => 'Music Disc')
             .tag('music_discs')
+            .tag('creeper_drop_music_discs')
       }
 )
 
