@@ -1,42 +1,5 @@
 {
-	"structures": [
-		{
-			"structure": "nova_structures:remnant_bee_keeper",
-			"weight": 1
-		},
-		{
-			"structure": "nova_structures:remnant_bunny_base",
-			"weight": 1
-		},
-		{
-			"structure": "nova_structures:remnant_mud_brick_constructor",
-			"weight": 1
-		},
-		{
-			"structure": "nova_structures:remnant_ominous_shop",
-			"weight": 1
-		},
-		{
-			"structure": "nova_structures:remnant_ruin_farmer",
-			"weight": 1
-		},
-		{
-			"structure": "nova_structures:remnant_ruin_smith",
-			"weight": 1
-		},
-		{
-			"structure": "nova_structures:remnant_sawmill",
-			"weight": 1
-		},
-		{
-			"structure": "nova_structures:remnant_taiga_castle",
-			"weight": 1
-		},
-		{
-			"structure": "nova_structures:remnant_woodland_hud",
-			"weight": 1
-		}
-	],
+	"structures": [],
 	"placement": {
 		"exclusion_zone": {
       "other_set": "minecraft:villages",
