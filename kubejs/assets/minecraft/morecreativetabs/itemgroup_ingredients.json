@@ -4,7 +4,7 @@
   "replace": true,
   "tab_stack": 
   {
-    "name":"alexsmobs:straddlite"
+    "name":"kubejs:cobalt"
   },
   "tab_items": [
     {
@@ -54,9 +54,6 @@
     },
     {
       "name": "minecraft:netherite_scrap"
-    },
-    {
-      "name": "alexsmobs:straddlite"
     },
     {
       "name": "kubejs:halite_crystal"
