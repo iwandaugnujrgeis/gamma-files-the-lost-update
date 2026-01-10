@@ -1482,7 +1482,6 @@ craftingTable.addShaped("spawner", <item:minecraft:spawner>, [
     [<item:kubejs:cobalt>, <item:kubejs:cobalt>, <item:kubejs:cobalt>]]);
 
 //4.3:
-
 craftingTable.remove(<item:minecraft:chest>);
 craftingTable.addShaped("chest", <item:minecraft:chest>, [
     [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>], 
@@ -1498,3 +1497,21 @@ craftingTable.addShaped("silver_bomb", <item:supplementaries:bomb> * 3, [
 craftingTable.addShaped("torch", <item:coraline_systems:torch> * 4, [
     [<tag:items:c:coal>], 
     [<item:minecraft:stick>]]);
+
+//4.4:
+craftingTable.remove(<item:alexsmobs:straddleboard>);
+craftingTable.addShaped("straddleboard", <item:alexsmobs:straddleboard>, [
+    [<item:minecraft:air>, <item:minecraft:string>, <item:minecraft:netherite_scrap>], 
+    [<item:minecraft:string>, <item:minecraft:netherite_scrap>, <item:minecraft:string>], 
+    [<item:minecraft:netherite_scrap>, <item:minecraft:string>, <item:minecraft:air>]]);
+
+craftingTable.remove(<item:alexsmobs:straddle_helmet>);
+craftingTable.addShaped("straddle_helmet", <item:alexsmobs:straddle_helmet>, [
+    [<item:minecraft:air>, <item:minecraft:netherite_scrap>, <item:minecraft:air>], 
+    [<item:minecraft:netherite_scrap>, <item:minecraft:air>, <item:minecraft:netherite_scrap>], 
+    [<item:minecraft:string>, <item:minecraft:air>, <item:minecraft:string>]]);
+
+craftingTable.remove(<item:alexsmobs:straddle_saddle>);
+craftingTable.addShaped("straddle_saddle", <item:alexsmobs:straddle_saddle>, [
+    [<item:minecraft:saddle>, <item:minecraft:saddle>], 
+    [<item:minecraft:netherite_scrap>, <item:minecraft:netherite_scrap>]]);
