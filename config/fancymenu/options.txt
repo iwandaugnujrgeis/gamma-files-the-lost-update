@@ -27,7 +27,7 @@ S:custom_window_icon_16 = '/config/fancymenu/assets/gamma_icon_windows_16.png';
 B:show_custom_window_icon = 'true';
 S:custom_window_icon_macos = '/config/fancymenu/assets/gamma_icon_mac_os.icns';
 S:custom_window_icon_32 = '/config/fancymenu/assets/gamma_icon_windows_32.png';
-S:custom_window_title = 'Minecraft: Gamma Files 4.3';
+S:custom_window_title = 'Minecraft: Gamma Files 4.4';
 
 
 ##[multiplayer_screen]
