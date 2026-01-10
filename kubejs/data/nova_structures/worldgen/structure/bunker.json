@@ -1,7 +1,7 @@
 {
 	"type": "minecraft:jigsaw",
 	"start_pool": "nova_structures:bunker_enterance",
-	"biomes": "#nova_structures:collections/stronghold_related_ruins_biomes",
+	"biomes": "#minecraft:is_overworld",
 	"start_height": {
 	  "type": "minecraft:uniform",
 	  "min_inclusive": {
