@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:husbandry/tame_an_animal",
+  "criteria": {
+    "pat_potato": {
+      "trigger": "quark:pat_potato"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.quark.pat_potato.description"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "item": "quark:tiny_potato"
+    },
+    "show_toast": true,
+    "title": "Potato, Potato!"
+  },
+  "requirements": [
+    [
+      "pat_potato"
+    ]
+  ],
+  "conditions": [
+    {
+      "type": "quark:advancement_flag",
+      "flag": "tiny_potato"
+    }
+  ]
+
+}

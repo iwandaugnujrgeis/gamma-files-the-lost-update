@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "gamma:null",
+  "features": "ecologics:rooted_azalea_tree",
+  "step": "vegetal_decoration"
+}

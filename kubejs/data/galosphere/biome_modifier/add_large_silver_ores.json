@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "gamma:null",
+  "features": "galosphere:ore_silver_large",
+  "step": "underground_ores"
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "gamma:detour/root",
+  "criteria": {
+    "oxidize_copper": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:exposed_copper"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Oxidize a Copper Block with Timedust!",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:exposed_copper"
+    },
+    "show_toast": true,
+    "title": "Chemical Romance"
+  },
+  "requirements": [
+    [
+      "oxidize_copper"
+    ]
+  ]
+}

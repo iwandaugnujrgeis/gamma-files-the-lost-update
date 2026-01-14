@@ -1,0 +1,34 @@
+{
+    "display": {
+        "icon": {
+            "item": "alexsmobs:straddle_saddle"
+        },
+        "title": "Family Sedan",
+        "description": "Craft a Straddle Saddle and ride a Laviathan with a crew of 4!",
+        "frame": "task"
+    },
+    "parent": "minecraft:nether/root",
+    "criteria": {
+        "straddleboard": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["alexsmobs:straddle_saddle"]
+                    }
+                ]
+            }
+        },
+        "sedan": {
+          "trigger": "alexsmobs:laviathan_four_passengers"
+        }
+    },
+    "requirements": [
+      [
+        "straddleboard"
+      ],
+      [
+        "sedan"
+      ]
+    ]
+}

@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "quark:redstone_randomizer"
+    },
+    "title": "Wobblefrog Un-Exist... 34%!",
+    "description": "Craft a Randomizer! Randomize Away!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "gamma:redstone/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "quark:redstone_randomizer"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
