@@ -1,58 +1,68 @@
 {
+  "type": "minecraft:entity",
   "pools": [
     {
-      "name": "emu",
-      "rolls": 1,
+      "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "item",
-          "name": "minecraft:feather",
-          "weight": 1,
+          "type": "minecraft:item",
           "functions": [
             {
-              "function": "set_count",
+              "add": false,
               "count": {
-                "min": 0,
-                "max": 2
-              }
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
             },
             {
-              "function": "looting_enchant",
               "count": {
-                "min": 0,
-                "max": 1
-              }
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "function": "minecraft:looting_enchant"
             }
-          ]
+          ],
+          "name": "minecraft:feather"
         }
-      ]
+      ],
+      "rolls": 1.0
     },
     {
-      "name": "emu",
-      "rolls": 1,
+      "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "item",
-          "name": "minecraft:chicken",
-          "weight": 1,
+          "type": "minecraft:item",
           "functions": [
             {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              }
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_on_fire": true
+                    }
+                  }
+                }
+              ],
+              "function": "minecraft:furnace_smelt"
             },
             {
-              "function": "looting_enchant",
               "count": {
-                "min": 0,
-                "max": 1
-              }
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "function": "minecraft:looting_enchant"
             }
-          ]
+          ],
+          "name": "minecraft:chicken"
         }
-      ]
+      ],
+      "rolls": 1.0
     }
   ]
 }

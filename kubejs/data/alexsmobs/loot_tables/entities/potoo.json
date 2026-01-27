@@ -11,8 +11,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 0.0
+                "max": 3.0,
+                "min": 2.0
               },
               "function": "minecraft:set_count"
             },
@@ -26,27 +26,16 @@
             }
           ],
           "name": "minecraft:feather"
-        },
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
         {
           "type": "minecraft:item",
           "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            },
-            {
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 0.0
-              },
-              "function": "minecraft:looting_enchant"
-            },
             {
               "conditions": [
                 {
@@ -60,6 +49,14 @@
                 }
               ],
               "function": "minecraft:furnace_smelt"
+            },
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "function": "minecraft:looting_enchant"
             }
           ],
           "name": "minecraft:chicken"
@@ -82,7 +79,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "quark:diamond_heart"
+          "name": "alexsmobs:soul_heart"
         }
       ],
       "rolls": 1.0

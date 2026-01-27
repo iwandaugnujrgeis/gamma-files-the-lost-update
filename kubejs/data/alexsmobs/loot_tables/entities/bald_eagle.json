@@ -2,7 +2,6 @@
   "type": "minecraft:entity",
   "pools": [
     {
-      "name": "bald_eagle",
       "bonus_rolls": 0.0,
       "entries": [
         {
@@ -13,7 +12,7 @@
               "count": {
                 "type": "minecraft:uniform",
                 "max": 2.0,
-                "min": 0.0
+                "min": 1.0
               },
               "function": "minecraft:set_count"
             },
@@ -54,8 +53,8 @@
             {
               "count": {
                 "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 1.0
+                "max": 1.0,
+                "min": 0.0
               },
               "function": "minecraft:looting_enchant"
             }

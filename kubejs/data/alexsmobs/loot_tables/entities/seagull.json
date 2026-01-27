@@ -2,7 +2,6 @@
   "type": "minecraft:entity",
   "pools": [
     {
-      "name": "seagull",
       "bonus_rolls": 0.0,
       "entries": [
         {
