@@ -61,6 +61,10 @@
           "type": "minecraft:item",
           "name": "minecraft:music_disc_relic",
           "weight": 1
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 6
         }
       ],
       "rolls": {
@@ -168,17 +172,6 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "rediscovered:set_quiver_contents",
-              "loot_table": "gamma:chests/quiver_contents"
-            }
-          ],
-          "name": "rediscovered:quiver",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
           "name": "galosphere:silver_bomb",
           "weight": 5
         },
@@ -190,6 +183,17 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:enchanted_golden_apple",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "rediscovered:set_quiver_contents",
+              "loot_table": "gamma:chests/quiver_contents"
+            }
+          ],
+          "name": "rediscovered:quiver",
           "weight": 2
         },
         {
