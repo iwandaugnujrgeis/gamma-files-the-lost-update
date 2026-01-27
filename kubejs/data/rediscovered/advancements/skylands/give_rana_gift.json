@@ -1,0 +1,28 @@
+{
+  "parent": "alexsmobs:alexsmobs/farseer",
+  "criteria": {
+    "give_gift": {
+      "conditions": {},
+      "trigger": "rediscovered:give_rana_item"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "rediscovered:advancements.skylands.give_rana_gift.description"
+    },
+    "frame": "task",
+    "hidden": true,
+    "icon": {
+      "item": "rediscovered:cyan_rose"
+    },
+    "show_toast": true,
+    "title": "Color of Unsaid Things"
+  },
+  "requirements": [
+    [
+      "give_gift"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

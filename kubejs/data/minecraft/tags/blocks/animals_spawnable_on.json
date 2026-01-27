@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:moss_carpet",
+    "minecraft:podzol",
+    "minecraft:dirt",
+    "minecraft:coarse_dirt",
+    "minecraft:rooted_dirt",
+    "minecraft:gravel",
+    "minecraft:sand",
+    "minecraft:snow_block",
+    "minecraft:snow",
+    "minecraft:moss_block",
+    "minecraft:moss_carpet"
+  ]
+}

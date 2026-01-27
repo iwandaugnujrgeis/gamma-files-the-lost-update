@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "quark:iron_rod"
+    },
+    "title": "Bop It™",
+    "description": "Craft an Iron Rod! Automate Block-breaking!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "gamma:redstone/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "quark:iron_rod"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

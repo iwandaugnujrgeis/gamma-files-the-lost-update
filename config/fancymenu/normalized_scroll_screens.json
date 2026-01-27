@@ -1,0 +1,7 @@
+{
+  "com.terraformersmc.mod_menu.gui.ModsScreen": false,
+  "video_settings_screen": true,
+  "options_screen": false,
+  "skin_customization_screen": false,
+  "dev.arbor.extrasoundsnext.gui.CustomSoundOptionsScreen": true
+}

@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "spelunkery:raw_magnetite"
+    },
+    "title": "Attracted to Adventure!",
+    "description": "Obtain Raw Magnetite!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "gamma:redstone/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "spelunkery:raw_magnetite"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

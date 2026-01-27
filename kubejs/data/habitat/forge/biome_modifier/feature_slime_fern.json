@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "gamma:null",
+  "features": "habitat:patch_slime_fern",
+  "step": "underground_decoration"
+}
