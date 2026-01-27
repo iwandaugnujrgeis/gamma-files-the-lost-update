@@ -983,14 +983,24 @@ craftingTable.addShapeless("string_fur", <item:minecraft:string> * 3, [<item:ale
 
 //Copper Tools:
 craftingTable.addShaped("copper_axe", <item:kubejs:copper_axe>, [
-    [<item:minecraft:copper_ingot>, <item:minecraft:copper_ingot>, <item:minecraft:air>],
-    [<item:minecraft:copper_ingot>, <item:minecraft:stick>, <item:minecraft:air>],
-    [<item:minecraft:air>, <item:minecraft:stick>, <item:minecraft:air>]]);
+    [<item:minecraft:copper_ingot>, <item:minecraft:copper_ingot>],
+    [<item:minecraft:copper_ingot>, <item:minecraft:stick>],
+    [<item:minecraft:air>, <item:minecraft:stick>]]);
+
+craftingTable.addShaped("mirrored_copper_axe", <item:kubejs:copper_axe>, [
+    [<item:minecraft:copper_ingot>, <item:minecraft:copper_ingot>],
+    [<item:minecraft:stick>, <item:minecraft:copper_ingot>],
+    [<item:minecraft:stick>, <item:minecraft:air>]]);
 
 craftingTable.addShaped("copper_hoe", <item:kubejs:copper_hoe>, [
-    [<item:minecraft:copper_ingot>, <item:minecraft:copper_ingot>, <item:minecraft:air>],
-    [<item:minecraft:air>, <item:minecraft:stick>, <item:minecraft:air>],
-    [<item:minecraft:air>, <item:minecraft:stick>, <item:minecraft:air>]]);
+    [<item:minecraft:copper_ingot>, <item:minecraft:copper_ingot>],
+    [<item:minecraft:air>, <item:minecraft:stick>],
+    [<item:minecraft:air>, <item:minecraft:stick>]]);
+
+craftingTable.addShaped("mirrored_copper_hoe", <item:kubejs:copper_hoe>, [
+    [<item:minecraft:copper_ingot>, <item:minecraft:copper_ingot>],
+    [<item:minecraft:stick>, <item:minecraft:air>],
+    [<item:minecraft:stick>, <item:minecraft:air>]]);
 
 craftingTable.addShaped("copper_pickaxe", <item:kubejs:copper_pickaxe>, [
     [<item:minecraft:copper_ingot>, <item:minecraft:copper_ingot>, <item:minecraft:copper_ingot>],
@@ -1003,9 +1013,9 @@ craftingTable.addShaped("copper_shovel", <item:kubejs:copper_shovel>, [
     [<item:minecraft:air>, <item:minecraft:stick>, <item:minecraft:air>]]);
 
 craftingTable.addShaped("copper_sword", <item:kubejs:copper_sword>, [
-    [<item:minecraft:air>, <item:minecraft:copper_ingot>, <item:minecraft:air>],
-    [<item:minecraft:air>, <item:minecraft:copper_ingot>, <item:minecraft:air>],
-    [<item:minecraft:air>, <item:minecraft:stick>, <item:minecraft:air>]]);
+    [<item:minecraft:copper_ingot>],
+    [<item:minecraft:copper_ingot>],
+    [<item:minecraft:stick>]]);
 
 craftingTable.addShaped("elytra", <item:minecraft:elytra>, [
     [<item:minecraft:phantom_membrane>, <item:minecraft:phantom_membrane>, <item:minecraft:phantom_membrane>],
