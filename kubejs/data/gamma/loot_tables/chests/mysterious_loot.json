@@ -61,8 +61,8 @@
       ],
       "rolls": {
         "type": "minecraft:uniform",
-        "max": 2.0,
-        "min": 1.0
+        "max": 1.0,
+        "min": 0.0
       }
     },
     {
@@ -92,7 +92,7 @@
       "rolls": {
         "type": "minecraft:uniform",
         "max": 1.0,
-        "min": 1.0
+        "min": 0.0
       }
     },
     {
@@ -107,7 +107,7 @@
       "rolls": {
         "type": "minecraft:uniform",
         "max": 1.0,
-        "min": 1.0
+        "min": 0.0
       }
     },
     {
@@ -187,7 +187,7 @@
       "rolls": {
         "type": "minecraft:uniform",
         "max": 1.0,
-        "min": 1.0
+        "min": 0.0
       }
     },
     {
@@ -206,6 +206,10 @@
           ],
           "name": "minecraft:elytra",
           "weight": 1
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 10
         }
       ],
       "rolls": {
@@ -231,6 +235,10 @@
           ],
           "name": "minecraft:diamond",
           "weight": 1
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 7
         }
       ],
       "rolls": {
@@ -297,6 +305,10 @@
           ],
           "name": "minecraft:diamond_boots",
           "weight": 1
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 5
         }
       ],
       "rolls": {
