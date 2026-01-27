@@ -245,35 +245,35 @@
     "nostalgic_tweaks:air": {
       "displacement": {
         "x": 0,
-        "y": 0
+        "y": 2
       },
       "direction": {
         "x": "NONE",
-        "y": "NONE"
+        "y": "UP"
       },
-      "sync": "nostalgic_tweaks:air"
+      "sync": "minecraft:hotbar"
     },
     "nostalgic_tweaks:armor": {
       "displacement": {
         "x": 0,
-        "y": 0
+        "y": 2
       },
       "direction": {
         "x": "NONE",
-        "y": "NONE"
+        "y": "UP"
       },
-      "sync": "nostalgic_tweaks:armor"
+      "sync": "minecraft:hotbar"
     },
     "nostalgic_tweaks:stamina": {
       "displacement": {
         "x": 0,
-        "y": 0
+        "y": 2
       },
       "direction": {
         "x": "NONE",
-        "y": "NONE"
+        "y": "UP"
       },
-      "sync": "nostalgic_tweaks:stamina"
+      "sync": "minecraft:hotbar"
     },
     "rediscovered:quiver_overlay": {
       "displacement": {
@@ -318,6 +318,17 @@
         "y": "NONE"
       },
       "sync": "shouldersurfing:pre_crosshair"
+    },
+    "stamina:stamina_overlay": {
+      "displacement": {
+        "x": 0,
+        "y": 2
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "UP"
+      },
+      "sync": "stamina:stamina_overlay"
     },
     "structure_gel:building_tool_overlay": {
       "displacement": {

@@ -1594,3 +1594,10 @@ craftingTable.addShaped("dark_prismarine", <item:minecraft:dark_prismarine> * 8,
     [<item:minecraft:prismarine>, <item:minecraft:prismarine>, <item:minecraft:prismarine>]]);
 
 craftingTable.remove(<item:minecraft:prismarine>);
+
+//4.10:
+craftingTable.remove(<item:rediscovered:rotational_converter>);
+craftingTable.addShaped("rotational_converter", <item:rediscovered:rotational_converter>, [
+    [<item:minecraft:bricks>, <item:minecraft:bricks>, <item:minecraft:bricks>],
+    [<item:rediscovered:gear>, <item:minecraft:redstone>, <item:rediscovered:gear>],
+    [<item:minecraft:bricks>, <item:minecraft:bricks>, <item:minecraft:bricks>]]);
