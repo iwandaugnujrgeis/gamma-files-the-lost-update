@@ -25,7 +25,7 @@
               "function": "minecraft:looting_enchant"
             }
           ],
-          "name": "minecraft:slime_ball"
+          "name": "kubejs:sharp_tooth"
         }
       ],
       "rolls": 1.0
