@@ -1,0 +1,25 @@
+{
+  "parent": "rediscovered:skylands/root",
+  "display": {
+    "icon": {
+      "item": "galosphere:spectre_flare"
+    },
+    "title": "I Spy...",
+    "description": "Use a Spectre Flare!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "use_spectre_flare": {
+      "trigger": "galosphere:use_spectre_flare",
+      "conditions": {}
+    }
+  },
+  "requirements": [
+    [
+      "use_spectre_flare"
+    ]
+  ]
+}

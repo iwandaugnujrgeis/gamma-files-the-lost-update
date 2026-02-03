@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "quark:backpack"
+    },
+    "title": "Self-Contained",
+    "description": "Craft a Backpack!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:story/smelt_iron",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "quark:backpack"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "com.terraformersmc.mod_menu.gui.ModsScreen": false,
+  "video_settings_screen": true,
+  "fuzs.forgeconfigscreens.client.gui.screens.SelectConfigScreen": false,
+  "options_screen": false,
+  "generic_dirt_message_screen": false,
+  "skin_customization_screen": false,
+  "dev.arbor.extrasoundsnext.gui.CustomSoundOptionsScreen": true
+}

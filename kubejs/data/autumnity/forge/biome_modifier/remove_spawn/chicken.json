@@ -1,0 +1,5 @@
+{
+  "type": "forge:remove_spawns",
+  "biomes": "gamma:null",
+  "entity_types": "minecraft:chicken"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:remove_features",
+  "biomes": "#forge:is_hot/overworld",
+  "features": "farmersdelight:patch_wild_tomatoes",
+  "step": "vegetal_decoration"
+}

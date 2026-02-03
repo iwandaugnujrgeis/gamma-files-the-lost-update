@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "gamma:null",
+  "features": "upgrade_aquatic:patch_searocket",
+  "step": "vegetal_decoration"
+}

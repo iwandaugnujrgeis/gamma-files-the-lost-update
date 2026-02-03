@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "kubejs:mango"
+    },
+    "title": "Mango's Invitation",
+    "description": "Taste the Sky!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "gamma:detour/root",
+    "criteria": {
+    "stew": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "kubejs:mango"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "gamma:mango_travel"
+  }
+}

@@ -1,0 +1,8 @@
+type = user_variables
+
+variable {
+  name = create_world_screen:world_seed_field
+  value = ASS
+  reset_on_launch = false
+}
+

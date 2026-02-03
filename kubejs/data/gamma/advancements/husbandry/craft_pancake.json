@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "supplementaries:pancake"
+    },
+    "title": "Pan? Yes. Cake? Also Yes",
+    "description": "Craft Pancakes (Stay Away from my Jukebox...)!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "gamma:husbandry/craft_dough",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "supplementaries:pancake"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

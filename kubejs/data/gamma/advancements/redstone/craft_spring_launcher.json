@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "supplementaries:spring_launcher"
+    },
+    "title": "The Ground Betrayed Me!",
+    "description": "Craft a Spring Launcher!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "gamma:redstone/craft_piston",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "supplementaries:spring_launcher"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
