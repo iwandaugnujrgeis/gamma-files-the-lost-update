@@ -9,6 +9,16 @@
       ],
       "category": "ambient"
   },
+  "chimes.corals1": {
+      "replace": true,
+      "sounds": [
+          {
+              "name": "ambientsounds:chimes/corals1",
+              "stream": true
+          }
+      ],
+      "category": "ambient"
+  },
   "cave.cave-lush": {
       "replace": true,
       "sounds": [
