@@ -1,0 +1,708 @@
+{
+  "tab_enabled": true,
+  "tab_name": "gamma_foods",
+  "replace": true,
+  "tab_stack": 
+  {
+    "name":"kubejs:banana_bread"
+  },
+  "tab_items": [
+    {
+      "name": "minecraft:apple"
+    },
+    {
+      "name": "kubejs:honeyed_apple"
+    },
+    {
+      "name": "minecraft:golden_apple"
+    },
+    {
+      "name": "minecraft:enchanted_golden_apple"
+    },
+    {
+      "name": "quark:ancient_fruit"
+    },
+    {
+      "name": "minecraft:melon_slice"
+    },
+    {
+      "name": "kubejs:mango"
+    },
+    {
+      "name": "minecraft:sweet_berries"
+    },
+    {
+      "name": "minecraft:glow_berries"
+    },
+    {
+      "name": "upgrade_aquatic:mulberry"
+    },
+    {
+      "name": "galosphere:lichen_cordyceps"
+    },
+    {
+      "name": "galosphere:golden_lichen_cordyceps"
+    },
+    {
+      "name": "minecraft:chorus_fruit"
+    },
+    {
+      "name": "minecraft:popped_chorus_fruit"
+    },
+    {
+      "name": "minecraft:carrot"
+    },
+    {
+      "name": "minecraft:golden_carrot"
+    },
+    {
+      "name": "alexsmobs:banana"
+    },
+    {
+      "name": "ecologics:coconut_slice"
+    },
+    {
+      "name": "ecologics:coconut_husk"
+    },
+    {
+      "name": "minecraft:potato"
+    },
+    {
+      "name": "kubejs:golden_potato"
+    },
+    {
+      "name": "minecraft:baked_potato"
+    },
+    {
+      "name": "minecraft:poisonous_potato"
+    },
+    {
+      "name": "minecraft:beetroot"
+    },
+    {
+      "name": "spelunkery:eggplant"
+    },
+    {
+      "name": "farmersdelight:pumpkin_slice"
+    },
+    {
+      "name": "ecologics:walnut"
+    },
+    {
+      "name": "ecologics:prickly_pear"
+    },
+    {
+      "name": "ecologics:cooked_prickly_pear"
+    },
+    {
+      "name": "minecraft:egg"
+    },
+    {
+      "name": "etcetera:eggple"
+    },
+    {
+      "name": "etcetera:golden_eggple"
+    },
+    {
+      "name": "farmersdelight:fried_egg"
+    },
+    {
+      "name": "kubejs:omelette"
+    },
+    {
+      "name": "minecraft:beef"
+    },
+    {
+      "name": "minecraft:cooked_beef"
+    },
+    {
+      "name": "kubejs:glazed_steak"
+    },
+    {
+      "name": "minecraft:porkchop"
+    },
+    {
+      "name": "minecraft:cooked_porkchop"
+    },
+    {
+      "name": "minecraft:mutton"
+    },
+    {
+      "name": "minecraft:cooked_mutton"
+    },
+    {
+      "name": "minecraft:chicken"
+    },
+    {
+      "name": "minecraft:cooked_chicken"
+    },
+    {
+      "name": "minecraft:cod"
+    },
+    {
+      "name": "minecraft:cooked_cod"
+    },
+    {
+      "name": "rediscovered:raw_fish"
+    },
+    {
+      "name": "rediscovered:cooked_fish"
+    },
+    {
+      "name": "minecraft:salmon"
+    },
+    {
+      "name": "minecraft:cooked_salmon"
+    },
+    {
+      "name": "minecraft:tropical_fish"
+    },
+    {
+      "name": "alexsmobs:flying_fish"
+    },
+    {
+      "name": "alexsmobs:raw_catfish"
+    },
+    {
+      "name": "alexsmobs:cooked_catfish"
+    },
+    {
+      "name": "minecraft:dried_kelp"
+    },
+    {
+      "name": "minecraft:mushroom_stew"
+    },
+    {
+      "name": "minecraft:suspicious_stew"
+    },
+    {
+      "name": "farmersdelight:milk_bottle"
+    },
+    {
+      "name": "snowyspirit:eggnog"
+    },
+    {
+      "name": "minecraft:honey_bottle"
+    },
+    {
+      "name": "autumnity:sap_bottle"
+    },
+    {
+      "name": "autumnity:syrup_bottle"
+    },
+    {
+      "name": "upgrade_aquatic:mulberry_jam_bottle"
+    },
+    {
+      "name": "alexsmobs:fish_oil"
+    },
+    {
+      "name": "kubejs:wheat_flour"
+    },
+    {
+      "name": "kubejs:dough"
+    },
+    {
+      "name": "kubejs:butter"
+    },
+    {
+      "name": "minecraft:bread"
+    },
+    {
+      "name": "kubejs:banana_bread"
+    },
+    {
+      "name": "autumnity:pumpkin_bread"
+    },
+    {
+      "name": "minecraft:cake"
+    },
+    {
+      "name": "minecraft:pumpkin_pie"
+    },
+    {
+      "name": "supplementaries:pancake"
+    },
+    {
+      "name": "supplementaries:candy"
+    },
+    {
+      "name": "upgrade_aquatic:mulberry_pie"
+    },
+    {
+      "name": "kubejs:marshmallow"
+    },
+    {
+      "name": "kubejs:bar_of_chocolate"
+    },
+    {
+      "name": "minecraft:cookie"
+    },
+    {
+      "name": "farmersdelight:sweet_berry_cookie"
+    },
+    {
+      "name": "farmersdelight:honey_cookie"
+    },
+    {
+      "name": "kubejs:waffle"
+    },
+    {
+      "name": "kubejs:salt"
+    },
+    {
+      "name": "minecraft:rotten_flesh"
+    },
+    {
+      "name": "minecraft:spider_eye"
+    },
+    {
+      "name": "minecraft:bowl"
+    },
+    {
+      "name": "minecraft:glass_bottle"
+    },
+    {
+      "name": "amendments:dye_bottle"
+    },
+    {
+      "name": "alexsmobs:lava_bottle"
+    },
+    {
+      "name": "quark:bottled_cloud"
+    },
+    {
+      "name": "galosphere:bottle_of_spectre"
+    },
+    {
+      "name": "spelunkery:portal_fluid_bottle"
+    },
+    {
+      "name": "minecraft:dragon_breath"
+    },
+    {
+      "name": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:water\"}"
+    },
+    {
+      "name": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:awkward\"}"
+    },
+    {
+      "name": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:night_vision\"}"
+    },
+    {
+      "name": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:long_night_vision\"}"
+    },
+    {
+      "name": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:invisibility\"}"
+    },
+    {
+      "name": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:long_invisibility\"}"
+    },
+    {
+      "name": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:leaping\"}"
+    },
+    {
+      "name": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:long_leaping\"}"
+    },
+    {
+      "name": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:strong_leaping\"}"
+    },
+    {
+      "name": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:fire_resistance\"}"
+    },
+    {
+      "name": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:long_fire_resistance\"}"
+    },
+    {
+      "name": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:swiftness\"}"
+    },
+    {
+      "name": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:long_swiftness\"}"
+    },
+    {
+      "name": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:strong_swiftness\"}"
+    },
+    {
+      "name": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:slowness\"}"
+    },
+    {
+      "name": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:long_slowness\"}"
+    },
+    {
+      "name": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:strong_slowness\"}"
+    },
+    {
+      "name": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:turtle_master\"}"
+    },
+    {
+      "name": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:long_turtle_master\"}"
+    },
+    {
+      "name": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:strong_turtle_master\"}"
+    },
+    {
+      "name": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:water_breathing\"}"
+    },
+    {
+      "name": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:long_water_breathing\"}"
+    },
+    {
+      "name": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:healing\"}"
+    },
+    {
+      "name": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:strong_healing\"}"
+    },
+    {
+      "name": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:harming\"}"
+    },
+    {
+      "name": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:strong_harming\"}"
+    },
+    {
+      "name": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:poison\"}"
+    },
+    {
+      "name": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:long_poison\"}"
+    },
+    {
+      "name": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:strong_poison\"}"
+    },
+    {
+      "name": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:regeneration\"}"
+    },
+    {
+      "name": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:long_regeneration\"}"
+    },
+    {
+      "name": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:strong_regeneration\"}"
+    },
+    {
+      "name": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:strength\"}"
+    },
+    {
+      "name": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:long_strength\"}"
+    },
+    {
+      "name": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:strong_strength\"}"
+    },
+    {
+      "name": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:weakness\"}"
+    },
+    {
+      "name": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:long_weakness\"}"
+    },
+    {
+      "name": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:luck\"}"
+    },
+    {
+      "name": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:slow_falling\"}"
+    },
+    {
+      "name": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:long_slow_falling\"}"
+    },
+    {
+      "name": "minecraft:potion",
+      "nbt": "{Potion:\"galosphere:astral\"}"
+    },
+    {
+      "name": "minecraft:potion",
+      "nbt": "{Potion:\"galosphere:long_astral\"}"
+    },
+    {
+      "name": "minecraft:potion",
+      "nbt": "{Potion:\"alexsmobs:knockback_resistance\"}"
+    },
+    {
+      "name": "minecraft:potion",
+      "nbt": "{Potion:\"alexsmobs:long_knockback_resistance\"}"
+    },
+    {
+      "name": "minecraft:potion",
+      "nbt": "{Potion:\"alexsmobs:strong_knockback_resistance\"}"
+    },
+    {
+      "name": "minecraft:potion",
+      "nbt": "{Potion:\"alexsmobs:lava_vision\"}"
+    },
+    {
+      "name": "minecraft:potion",
+      "nbt": "{Potion:\"alexsmobs:long_lava_vision\"}"
+    },
+    {
+      "name": "minecraft:potion",
+      "nbt": "{Potion:\"alexsmobs:soulsteal\"}"
+    },
+    {
+      "name": "minecraft:potion",
+      "nbt": "{Potion:\"alexsmobs:long_soulsteal\"}"
+    },
+    {
+      "name": "minecraft:potion",
+      "nbt": "{Potion:\"alexsmobs:strong_soulsteal\"}"
+    },
+    {
+      "name": "minecraft:potion",
+      "nbt": "{Potion:\"alexsmobs:clinging\"}"
+    },
+    {
+      "name": "minecraft:potion",
+      "nbt": "{Potion:\"alexsmobs:long_clinging\"}"
+    },
+    {
+      "name": "minecraft:potion",
+      "nbt": "{Potion:\"rediscovered:crimson_veil\"}"
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "nbt": "{Potion:\"minecraft:water\"}"
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "nbt": "{Potion:\"minecraft:awkward\"}"
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "nbt": "{Potion:\"minecraft:night_vision\"}"
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "nbt": "{Potion:\"minecraft:long_night_vision\"}"
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "nbt": "{Potion:\"minecraft:invisibility\"}"
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "nbt": "{Potion:\"minecraft:long_invisibility\"}"
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "nbt": "{Potion:\"minecraft:leaping\"}"
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "nbt": "{Potion:\"minecraft:long_leaping\"}"
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "nbt": "{Potion:\"minecraft:strong_leaping\"}"
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "nbt": "{Potion:\"minecraft:fire_resistance\"}"
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "nbt": "{Potion:\"minecraft:long_fire_resistance\"}"
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "nbt": "{Potion:\"minecraft:swiftness\"}"
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "nbt": "{Potion:\"minecraft:long_swiftness\"}"
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "nbt": "{Potion:\"minecraft:strong_swiftness\"}"
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "nbt": "{Potion:\"minecraft:slowness\"}"
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "nbt": "{Potion:\"minecraft:long_slowness\"}"
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "nbt": "{Potion:\"minecraft:strong_slowness\"}"
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "nbt": "{Potion:\"minecraft:turtle_master\"}"
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "nbt": "{Potion:\"minecraft:long_turtle_master\"}"
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "nbt": "{Potion:\"minecraft:strong_turtle_master\"}"
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "nbt": "{Potion:\"minecraft:water_breathing\"}"
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "nbt": "{Potion:\"minecraft:long_water_breathing\"}"
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "nbt": "{Potion:\"minecraft:healing\"}"
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "nbt": "{Potion:\"minecraft:strong_healing\"}"
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "nbt": "{Potion:\"minecraft:harming\"}"
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "nbt": "{Potion:\"minecraft:strong_harming\"}"
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "nbt": "{Potion:\"minecraft:poison\"}"
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "nbt": "{Potion:\"minecraft:long_poison\"}"
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "nbt": "{Potion:\"minecraft:strong_poison\"}"
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "nbt": "{Potion:\"minecraft:regeneration\"}"
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "nbt": "{Potion:\"minecraft:long_regeneration\"}"
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "nbt": "{Potion:\"minecraft:strong_regeneration\"}"
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "nbt": "{Potion:\"minecraft:strength\"}"
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "nbt": "{Potion:\"minecraft:long_strength\"}"
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "nbt": "{Potion:\"minecraft:strong_strength\"}"
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "nbt": "{Potion:\"minecraft:weakness\"}"
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "nbt": "{Potion:\"minecraft:long_weakness\"}"
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "nbt": "{Potion:\"minecraft:luck\"}"
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "nbt": "{Potion:\"minecraft:slow_falling\"}"
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "nbt": "{Potion:\"minecraft:long_slow_falling\"}"
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "nbt": "{Potion:\"galosphere:astral\"}"
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "nbt": "{Potion:\"galosphere:long_astral\"}"
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "nbt": "{Potion:\"alexsmobs:knockback_resistance\"}"
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "nbt": "{Potion:\"alexsmobs:long_knockback_resistance\"}"
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "nbt": "{Potion:\"alexsmobs:strong_knockback_resistance\"}"
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "nbt": "{Potion:\"alexsmobs:lava_vision\"}"
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "nbt": "{Potion:\"alexsmobs:long_lava_vision\"}"
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "nbt": "{Potion:\"alexsmobs:soulsteal\"}"
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "nbt": "{Potion:\"alexsmobs:long_soulsteal\"}"
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "nbt": "{Potion:\"alexsmobs:strong_soulsteal\"}"
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "nbt": "{Potion:\"alexsmobs:clinging\"}"
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "nbt": "{Potion:\"alexsmobs:long_clinging\"}"
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "nbt": "{Potion:\"rediscovered:crimson_veil\"}"
+    }
+  ]
+}

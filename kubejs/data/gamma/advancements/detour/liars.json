@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "savage_and_ravage:mask_of_dishonesty"
+    },
+    "title": "You Liars!",
+    "description": "Obtain a Mask of Dishonesty by slaying Sheep!",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "gamma:detour/kill_a_mob",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "savage_and_ravage:mask_of_dishonesty"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

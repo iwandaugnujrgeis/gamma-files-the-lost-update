@@ -1,0 +1,33 @@
+{
+  "parent": "gamma:redstone/craft_comparator",
+  "criteria": {
+    "watcher_center": {
+      "trigger": "quark:watcher_center"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Look in the Center of an Ender Watcher!",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "quark:ender_watcher"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.quark.watcher_center.title"
+    }
+  },
+  "requirements": [
+    [
+      "watcher_center"
+    ]
+  ],
+  "conditions": [
+    {
+      "type": "quark:advancement_flag",
+      "flag": "ender_watcher"
+    }
+  ]
+
+}

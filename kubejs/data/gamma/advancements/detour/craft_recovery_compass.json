@@ -1,0 +1,33 @@
+{
+  "parent": "gamma:detour/obtain_soul_heart",
+  "criteria": {
+    "craft_compass": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:recovery_compass"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Craft a Recovery Compass!",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:recovery_compass"
+    },
+    "show_toast": true,
+    "title": "Ghost Positioning System"
+  },
+  "requirements": [
+    [
+      "craft_compass"
+    ]
+  ]
+}

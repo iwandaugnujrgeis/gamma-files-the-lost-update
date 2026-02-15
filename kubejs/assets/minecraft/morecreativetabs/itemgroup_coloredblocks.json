@@ -1,0 +1,857 @@
+{
+  "tab_enabled": true,
+  "tab_name": "gamma_color",
+  "replace": true,
+  "tab_stack": {
+    "name": "rediscovered:sky_blue_wool"
+  },
+  "tab_items": [
+    {
+      "name": "minecraft:white_wool"
+    },
+    {
+      "name": "minecraft:light_gray_wool"
+    },
+    {
+      "name": "minecraft:gray_wool"
+    },
+    {
+      "name": "minecraft:black_wool"
+    },
+    {
+      "name": "minecraft:brown_wool"
+    },
+    {
+      "name": "minecraft:red_wool"
+    },
+    {
+      "name": "minecraft:orange_wool"
+    },
+    {
+      "name": "minecraft:yellow_wool"
+    },
+    {
+      "name": "minecraft:lime_wool"
+    },
+    {
+      "name": "minecraft:green_wool"
+    },
+    {
+      "name": "minecraft:cyan_wool"
+    },
+    {
+      "name": "minecraft:light_blue_wool"
+    },
+    {
+      "name": "minecraft:blue_wool"
+    },
+    {
+      "name": "minecraft:purple_wool"
+    },
+    {
+      "name": "minecraft:magenta_wool"
+    },
+    {
+      "name": "minecraft:pink_wool"
+    },
+    {
+      "name": "rediscovered:bright_green_wool"
+    },
+    {
+      "name": "rediscovered:spring_green_wool"
+    },
+    {
+      "name": "rediscovered:sky_blue_wool"
+    },
+    {
+      "name": "rediscovered:slate_blue_wool"
+    },
+    {
+      "name": "rediscovered:lavender_wool"
+    },
+    {
+      "name": "rediscovered:rose_wool"
+    },
+    {
+      "name": "minecraft:white_carpet"
+    },
+    {
+      "name": "minecraft:light_gray_carpet"
+    },
+    {
+      "name": "minecraft:gray_carpet"
+    },
+    {
+      "name": "minecraft:black_carpet"
+    },
+    {
+      "name": "minecraft:brown_carpet"
+    },
+    {
+      "name": "minecraft:red_carpet"
+    },
+    {
+      "name": "minecraft:orange_carpet"
+    },
+    {
+      "name": "minecraft:yellow_carpet"
+    },
+    {
+      "name": "minecraft:lime_carpet"
+    },
+    {
+      "name": "minecraft:green_carpet"
+    },
+    {
+      "name": "minecraft:cyan_carpet"
+    },
+    {
+      "name": "minecraft:light_blue_carpet"
+    },
+    {
+      "name": "minecraft:blue_carpet"
+    },
+    {
+      "name": "minecraft:purple_carpet"
+    },
+    {
+      "name": "minecraft:magenta_carpet"
+    },
+    {
+      "name": "minecraft:pink_carpet"
+    },
+    {
+      "name": "rediscovered:bright_green_carpet"
+    },
+    {
+      "name": "rediscovered:spring_green_carpet"
+    },
+    {
+      "name": "rediscovered:sky_blue_carpet"
+    },
+    {
+      "name": "rediscovered:slate_blue_carpet"
+    },
+    {
+      "name": "rediscovered:lavender_carpet"
+    },
+    {
+      "name": "rediscovered:rose_carpet"
+    },
+    {
+      "name": "minecraft:terracotta"
+    },
+    {
+      "name": "minecraft:white_terracotta"
+    },
+    {
+      "name": "minecraft:light_gray_terracotta"
+    },
+    {
+      "name": "minecraft:gray_terracotta"
+    },
+    {
+      "name": "minecraft:black_terracotta"
+    },
+    {
+      "name": "minecraft:brown_terracotta"
+    },
+    {
+      "name": "minecraft:red_terracotta"
+    },
+    {
+      "name": "minecraft:orange_terracotta"
+    },
+    {
+      "name": "minecraft:yellow_terracotta"
+    },
+    {
+      "name": "minecraft:lime_terracotta"
+    },
+    {
+      "name": "minecraft:green_terracotta"
+    },
+    {
+      "name": "minecraft:cyan_terracotta"
+    },
+    {
+      "name": "minecraft:light_blue_terracotta"
+    },
+    {
+      "name": "minecraft:blue_terracotta"
+    },
+    {
+      "name": "minecraft:purple_terracotta"
+    },
+    {
+      "name": "minecraft:magenta_terracotta"
+    },
+    {
+      "name": "minecraft:pink_terracotta"
+    },
+    {
+      "name": "clayworks:terracotta_stairs"
+    },
+    {
+      "name": "clayworks:white_terracotta_stairs"
+    },
+    {
+      "name": "clayworks:light_gray_terracotta_stairs"
+    },
+    {
+      "name": "clayworks:gray_terracotta_stairs"
+    },
+    {
+      "name": "clayworks:black_terracotta_stairs"
+    },
+    {
+      "name": "clayworks:brown_terracotta_stairs"
+    },
+    {
+      "name": "clayworks:red_terracotta_stairs"
+    },
+    {
+      "name": "clayworks:orange_terracotta_stairs"
+    },
+    {
+      "name": "clayworks:yellow_terracotta_stairs"
+    },
+    {
+      "name": "clayworks:lime_terracotta_stairs"
+    },
+    {
+      "name": "clayworks:green_terracotta_stairs"
+    },
+    {
+      "name": "clayworks:cyan_terracotta_stairs"
+    },
+    {
+      "name": "clayworks:light_blue_terracotta_stairs"
+    },
+    {
+      "name": "clayworks:blue_terracotta_stairs"
+    },
+    {
+      "name": "clayworks:purple_terracotta_stairs"
+    },
+    {
+      "name": "clayworks:magenta_terracotta_stairs"
+    },
+    {
+      "name": "clayworks:pink_terracotta_stairs"
+    },
+    {
+      "name": "clayworks:terracotta_slab"
+    },
+    {
+      "name": "clayworks:white_terracotta_slab"
+    },
+    {
+      "name": "clayworks:light_gray_terracotta_slab"
+    },
+    {
+      "name": "clayworks:gray_terracotta_slab"
+    },
+    {
+      "name": "clayworks:black_terracotta_slab"
+    },
+    {
+      "name": "clayworks:brown_terracotta_slab"
+    },
+    {
+      "name": "clayworks:red_terracotta_slab"
+    },
+    {
+      "name": "clayworks:orange_terracotta_slab"
+    },
+    {
+      "name": "clayworks:yellow_terracotta_slab"
+    },
+    {
+      "name": "clayworks:lime_terracotta_slab"
+    },
+    {
+      "name": "clayworks:green_terracotta_slab"
+    },
+    {
+      "name": "clayworks:cyan_terracotta_slab"
+    },
+    {
+      "name": "clayworks:light_blue_terracotta_slab"
+    },
+    {
+      "name": "clayworks:blue_terracotta_slab"
+    },
+    {
+      "name": "clayworks:purple_terracotta_slab"
+    },
+    {
+      "name": "clayworks:magenta_terracotta_slab"
+    },
+    {
+      "name": "clayworks:pink_terracotta_slab"
+    },
+    {
+      "name": "clayworks:terracotta_wall"
+    },
+    {
+      "name": "clayworks:white_terracotta_wall"
+    },
+    {
+      "name": "clayworks:light_gray_terracotta_wall"
+    },
+    {
+      "name": "clayworks:gray_terracotta_wall"
+    },
+    {
+      "name": "clayworks:black_terracotta_wall"
+    },
+    {
+      "name": "clayworks:brown_terracotta_wall"
+    },
+    {
+      "name": "clayworks:red_terracotta_wall"
+    },
+    {
+      "name": "clayworks:orange_terracotta_wall"
+    },
+    {
+      "name": "clayworks:yellow_terracotta_wall"
+    },
+    {
+      "name": "clayworks:lime_terracotta_wall"
+    },
+    {
+      "name": "clayworks:green_terracotta_wall"
+    },
+    {
+      "name": "clayworks:cyan_terracotta_wall"
+    },
+    {
+      "name": "clayworks:light_blue_terracotta_wall"
+    },
+    {
+      "name": "clayworks:blue_terracotta_wall"
+    },
+    {
+      "name": "clayworks:purple_terracotta_wall"
+    },
+    {
+      "name": "clayworks:magenta_terracotta_wall"
+    },
+    {
+      "name": "clayworks:pink_terracotta_wall"
+    },
+    {
+      "name": "minecraft:glass"
+    },
+    {
+      "name": "minecraft:tinted_glass"
+    },
+    {
+      "name": "minecraft:white_stained_glass"
+    },
+    {
+      "name": "minecraft:light_gray_stained_glass"
+    },
+    {
+      "name": "minecraft:gray_stained_glass"
+    },
+    {
+      "name": "minecraft:black_stained_glass"
+    },
+    {
+      "name": "minecraft:brown_stained_glass"
+    },
+    {
+      "name": "minecraft:red_stained_glass"
+    },
+    {
+      "name": "minecraft:orange_stained_glass"
+    },
+    {
+      "name": "minecraft:yellow_stained_glass"
+    },
+    {
+      "name": "minecraft:lime_stained_glass"
+    },
+    {
+      "name": "minecraft:green_stained_glass"
+    },
+    {
+      "name": "minecraft:cyan_stained_glass"
+    },
+    {
+      "name": "minecraft:light_blue_stained_glass"
+    },
+    {
+      "name": "minecraft:blue_stained_glass"
+    },
+    {
+      "name": "minecraft:purple_stained_glass"
+    },
+    {
+      "name": "minecraft:magenta_stained_glass"
+    },
+    {
+      "name": "minecraft:pink_stained_glass"
+    },
+    {
+      "name": "minecraft:glass_pane"
+    },
+    {
+      "name": "minecraft:white_stained_glass_pane"
+    },
+    {
+      "name": "minecraft:light_gray_stained_glass_pane"
+    },
+    {
+      "name": "minecraft:black_stained_glass_pane"
+    },
+    {
+      "name": "minecraft:brown_stained_glass_pane"
+    },
+    {
+      "name": "minecraft:red_stained_glass_pane"
+    },
+    {
+      "name": "minecraft:orange_stained_glass_pane"
+    },
+    {
+      "name": "minecraft:yellow_stained_glass_pane"
+    },
+    {
+      "name": "minecraft:lime_stained_glass_pane"
+    },
+    {
+      "name": "minecraft:green_stained_glass_pane"
+    },
+    {
+      "name": "minecraft:cyan_stained_glass_pane"
+    },
+    {
+      "name": "minecraft:light_blue_stained_glass_pane"
+    },
+    {
+      "name": "minecraft:blue_stained_glass_pane"
+    },
+    {
+      "name": "minecraft:purple_stained_glass_pane"
+    },
+    {
+      "name": "minecraft:magenta_stained_glass_pane"
+    },
+    {
+      "name": "minecraft:pink_stained_glass_pane"
+    },
+    {
+      "name": "minecraft:white_bed"
+    },
+    {
+      "name": "minecraft:light_gray_bed"
+    },
+    {
+      "name": "minecraft:gray_bed"
+    },
+    {
+      "name": "minecraft:black_bed"
+    },
+    {
+      "name": "minecraft:brown_bed"
+    },
+    {
+      "name": "minecraft:red_bed"
+    },
+    {
+      "name": "minecraft:orange_bed"
+    },
+    {
+      "name": "minecraft:yellow_bed"
+    },
+    {
+      "name": "minecraft:lime_bed"
+    },
+    {
+      "name": "minecraft:green_bed"
+    },
+    {
+      "name": "minecraft:cyan_bed"
+    },
+    {
+      "name": "minecraft:light_blue_bed"
+    },
+    {
+      "name": "minecraft:blue_bed"
+    },
+    {
+      "name": "minecraft:purple_bed"
+    },
+    {
+      "name": "minecraft:magenta_bed"
+    },
+    {
+      "name": "minecraft:pink_bed"
+    },
+    {
+      "name": "upgrade_aquatic:bedroll"
+    },
+    {
+      "name": "upgrade_aquatic:white_bedroll"
+    },
+    {
+      "name": "upgrade_aquatic:light_gray_bedroll"
+    },
+    {
+      "name": "upgrade_aquatic:gray_bedroll"
+    },
+    {
+      "name": "upgrade_aquatic:black_bedroll"
+    },
+    {
+      "name": "upgrade_aquatic:brown_bedroll"
+    },
+    {
+      "name": "upgrade_aquatic:red_bedroll"
+    },
+    {
+      "name": "upgrade_aquatic:orange_bedroll"
+    },
+    {
+      "name": "upgrade_aquatic:yellow_bedroll"
+    },
+    {
+      "name": "upgrade_aquatic:lime_bedroll"
+    },
+    {
+      "name": "upgrade_aquatic:green_bedroll"
+    },
+    {
+      "name": "upgrade_aquatic:cyan_bedroll"
+    },
+    {
+      "name": "upgrade_aquatic:light_blue_bedroll"
+    },
+    {
+      "name": "upgrade_aquatic:blue_bedroll"
+    },
+    {
+      "name": "upgrade_aquatic:purple_bedroll"
+    },
+    {
+      "name": "upgrade_aquatic:magenta_bedroll"
+    },
+    {
+      "name": "upgrade_aquatic:pink_bedroll"
+    },
+    {
+      "name": "etcetera:white_sweater"
+    },
+    {
+      "name": "etcetera:light_gray_sweater"
+    },
+    {
+      "name": "etcetera:gray_sweater"
+    },
+    {
+      "name": "etcetera:black_sweater"
+    },
+    {
+      "name": "etcetera:brown_sweater"
+    },
+    {
+      "name": "etcetera:red_sweater"
+    },
+    {
+      "name": "etcetera:orange_sweater"
+    },
+    {
+      "name": "etcetera:yellow_sweater"
+    },
+    {
+      "name": "etcetera:lime_sweater"
+    },
+    {
+      "name": "etcetera:green_sweater"
+    },
+    {
+      "name": "etcetera:cyan_sweater"
+    },
+    {
+      "name": "etcetera:light_blue_sweater"
+    },
+    {
+      "name": "etcetera:blue_sweater"
+    },
+    {
+      "name": "etcetera:purple_sweater"
+    },
+    {
+      "name": "etcetera:magenta_sweater"
+    },
+    {
+      "name": "etcetera:pink_sweater"
+    },
+    {
+      "name": "etcetera:white_hat"
+    },
+    {
+      "name": "etcetera:light_gray_hat"
+    },
+    {
+      "name": "etcetera:gray_hat"
+    },
+    {
+      "name": "etcetera:black_hat"
+    },
+    {
+      "name": "etcetera:brown_hat"
+    },
+    {
+      "name": "etcetera:red_hat"
+    },
+    {
+      "name": "etcetera:orange_hat"
+    },
+    {
+      "name": "etcetera:yellow_hat"
+    },
+    {
+      "name": "etcetera:lime_hat"
+    },
+    {
+      "name": "etcetera:green_hat"
+    },
+    {
+      "name": "etcetera:cyan_hat"
+    },
+    {
+      "name": "etcetera:light_blue_hat"
+    },
+    {
+      "name": "etcetera:blue_hat"
+    },
+    {
+      "name": "etcetera:purple_hat"
+    },
+    {
+      "name": "etcetera:magenta_hat"
+    },
+    {
+      "name": "etcetera:pink_hat"
+    },
+    {
+      "name": "minecraft:candle"
+    },
+    {
+      "name": "minecraft:white_candle"
+    },
+    {
+      "name": "minecraft:light_gray_candle"
+    },
+    {
+      "name": "minecraft:gray_candle"
+    },
+    {
+      "name": "minecraft:black_candle"
+    },
+    {
+      "name": "minecraft:brown_candle"
+    },
+    {
+      "name": "minecraft:red_candle"
+    },
+    {
+      "name": "minecraft:orange_candle"
+    },
+    {
+      "name": "minecraft:yellow_candle"
+    },
+    {
+      "name": "minecraft:lime_candle"
+    },
+    {
+      "name": "minecraft:green_candle"
+    },
+    {
+      "name": "minecraft:cyan_candle"
+    },
+    {
+      "name": "minecraft:light_blue_candle"
+    },
+    {
+      "name": "minecraft:blue_candle"
+    },
+    {
+      "name": "minecraft:purple_candle"
+    },
+    {
+      "name": "minecraft:magenta_candle"
+    },
+    {
+      "name": "minecraft:pink_candle"
+    },
+    {
+      "name": "minecraft:decorated_pot"
+    },
+    {
+      "name": "clayworks:white_decorated_pot"
+    },
+    {
+      "name": "clayworks:light_gray_decorated_pot"
+    },
+    {
+      "name": "clayworks:gray_decorated_pot"
+    },
+    {
+      "name": "clayworks:black_decorated_pot"
+    },
+    {
+      "name": "clayworks:brown_decorated_pot"
+    },
+    {
+      "name": "clayworks:red_decorated_pot"
+    },
+    {
+      "name": "clayworks:orange_decorated_pot"
+    },
+    {
+      "name": "clayworks:yellow_decorated_pot"
+    },
+    {
+      "name": "clayworks:lime_decorated_pot"
+    },
+    {
+      "name": "clayworks:green_decorated_pot"
+    },
+    {
+      "name": "clayworks:cyan_decorated_pot"
+    },
+    {
+      "name": "clayworks:light_blue_decorated_pot"
+    },
+    {
+      "name": "clayworks:blue_decorated_pot"
+    },
+    {
+      "name": "clayworks:purple_decorated_pot"
+    },
+    {
+      "name": "clayworks:magenta_decorated_pot"
+    },
+    {
+      "name": "clayworks:pink_decorated_pot"
+    },
+    {
+      "name": "supplementaries:flag_white"
+    },
+    {
+      "name": "supplementaries:flag_light_gray"
+    },
+    {
+      "name": "supplementaries:flag_gray"
+    },
+    {
+      "name": "supplementaries:flag_black"
+    },
+    {
+      "name": "supplementaries:flag_brown"
+    },
+    {
+      "name": "supplementaries:flag_red"
+    },
+    {
+      "name": "supplementaries:flag_orange"
+    },
+    {
+      "name": "supplementaries:flag_yellow"
+    },
+    {
+      "name": "supplementaries:flag_lime"
+    },
+    {
+      "name": "supplementaries:flag_green"
+    },
+    {
+      "name": "supplementaries:flag_cyan"
+    },
+    {
+      "name": "supplementaries:flag_light_blue"
+    },
+    {
+      "name": "supplementaries:flag_blue"
+    },
+    {
+      "name": "supplementaries:flag_purple"
+    },
+    {
+      "name": "supplementaries:flag_magenta"
+    },
+    {
+      "name": "supplementaries:flag_pink"
+    },
+    {
+      "name": "supplementaries:bunting",
+      "nbt": "{Color:\"white\"}"
+    },
+    {
+      "name": "supplementaries:bunting",
+      "nbt": "{Color:\"light_gray\"}"
+    },
+    {
+      "name": "supplementaries:bunting",
+      "nbt": "{Color:\"gray\"}"
+    },
+    {
+      "name": "supplementaries:bunting",
+      "nbt": "{Color:\"black\"}"
+    },
+    {
+      "name": "supplementaries:bunting",
+      "nbt": "{Color:\"brown\"}"
+    },
+    {
+      "name": "supplementaries:bunting",
+      "nbt": "{Color:\"red\"}"
+    },
+    {
+      "name": "supplementaries:bunting",
+      "nbt": "{Color:\"orange\"}"
+    },
+    {
+      "name": "supplementaries:bunting",
+      "nbt": "{Color:\"yellow\"}"
+    },
+    {
+      "name": "supplementaries:bunting",
+      "nbt": "{Color:\"lime\"}"
+    },
+    {
+      "name": "supplementaries:bunting",
+      "nbt": "{Color:\"green\"}"
+    },
+    {
+      "name": "supplementaries:bunting",
+      "nbt": "{Color:\"cyan\"}"
+    },
+    {
+      "name": "supplementaries:bunting",
+      "nbt": "{Color:\"light_blue\"}"
+    },
+    {
+      "name": "supplementaries:bunting",
+      "nbt": "{Color:\"blue\"}"
+    },
+    {
+      "name": "supplementaries:bunting",
+      "nbt": "{Color:\"purple\"}"
+    },
+    {
+      "name": "supplementaries:bunting",
+      "nbt": "{Color:\"magenta\"}"
+    },
+    {
+      "name": "supplementaries:bunting",
+      "nbt": "{Color:\"pink\"}"
+    }
+  ]
+}

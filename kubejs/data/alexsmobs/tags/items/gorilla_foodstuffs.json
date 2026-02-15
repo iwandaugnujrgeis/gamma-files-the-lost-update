@@ -1,0 +1,7 @@
+{
+  "__comment": "Heals when given",
+  "replace": true,
+  "values": [
+    "supplementaries:flax"
+  ]
+}

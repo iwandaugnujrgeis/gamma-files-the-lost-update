@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "kubejs:waffle"
+    },
+    "title": "Oy With the Waffles Already!",
+    "description": "Craft a Waffle!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "gamma:husbandry/craft_dough",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:waffle"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
+
+

@@ -1,0 +1,21 @@
+{
+  "name": "corals",
+  "features":[
+    "corals"
+  ],
+  "sounds": [
+    {
+      "name": "corals",
+      "files": [
+        "ambientsounds:chimes.corals1"
+      ],
+      "volume": 1.0,
+      "pause": {
+        "min": 100,
+        "max": 4000
+      },
+      "day": 1.0,
+      "night": 0.8
+    }
+  ]
+}

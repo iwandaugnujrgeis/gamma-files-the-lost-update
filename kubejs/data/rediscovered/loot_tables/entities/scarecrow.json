@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "rediscovered:scarecrow"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:copy_name",
+          "source": "this"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "rediscovered:entities/scarecrow"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "gamma:null",
+  "features": [
+    "galosphere:allurite_ceiling_crystals"
+  ],
+  "step": "vegetal_decoration"
+}

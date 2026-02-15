@@ -1,0 +1,6 @@
+{
+  "input": "#minecraft:wooden_fences",
+  "output": {
+    "name": "spawn:rotten_fence"
+  }
+}

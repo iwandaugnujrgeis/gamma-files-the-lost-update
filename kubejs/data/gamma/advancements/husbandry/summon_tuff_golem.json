@@ -1,0 +1,36 @@
+{
+  "parent": "gamma:husbandry/obtain_craved_pumpkin",
+  "criteria": {
+    "summoned_golem": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "friendsandfoes:tuff_golem"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:summoned_entity"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Summon a Tuff Golem with Tuff, Wool and a Pumpkin!",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:tuff"
+    },
+    "show_toast": true,
+    "title": "It Holds, Therefore It Is"
+  },
+  "requirements": [
+    [
+      "summoned_golem"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,9 @@
+{
+  "type": "forge:remove_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "minecraft:dripstone_cluster",
+    "minecraft:pointed_dripstone"
+  ],
+  "step": "underground_decoration"
+}

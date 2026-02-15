@@ -1,0 +1,6 @@
+{
+  "input": "#minecraft:fence_gates",
+  "output": {
+    "name": "spawn:rotten_fence_gate"
+  }
+}

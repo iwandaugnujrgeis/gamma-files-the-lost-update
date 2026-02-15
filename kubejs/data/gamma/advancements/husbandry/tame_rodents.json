@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "ecologics:walnut"
+    },
+    "title": "Nut-Based Diplomacy",
+    "description": "Tame a Sugar Glider & a Hamster with a Walnut!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:husbandry/tame_an_animal",
+  "criteria": {
+    "tame_sugar_glider": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "type": "alexsmobs:sugar_glider"
+        }
+      }
+    },
+    "tame_hamster": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "type": "spawn:hamster"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "tame_sugar_glider"
+    ],
+    [
+      "tame_hamster"
+    ]
+  ]
+}

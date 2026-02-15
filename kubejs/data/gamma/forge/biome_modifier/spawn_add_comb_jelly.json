@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "minecraft:deep_ocean",
+  "spawners": [
+    {
+      "type": "alexsmobs:comb_jelly",
+      "maxCount": 3,
+      "minCount": 1,
+      "weight": 5
+    }
+  ]
+}

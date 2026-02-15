@@ -1,0 +1,9 @@
+{
+  "values": [
+    "minecraft:zombie",
+    "minecraft:husk",
+    "minecraft:skeleton",
+    "minecraft:stray",
+    "rediscovered:zombie_pigman"
+  ]
+}

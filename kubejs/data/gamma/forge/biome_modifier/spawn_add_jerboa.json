@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "minecraft:desert",
+  "spawners": [
+    {
+      "type": "alexsmobs:jerboa",
+      "maxCount": 5,
+      "minCount": 1,
+      "weight": 5
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "gamma:null",
+  "spawners": {
+    "type": "galosphere:spectre",
+    "maxCount": 8,
+    "minCount": 8,
+    "weight": 20
+  }
+}
