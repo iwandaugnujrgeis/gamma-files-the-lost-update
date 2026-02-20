@@ -1637,3 +1637,7 @@ craftingTable.addShaped("stone_pickaxe", <item:minecraft:stone_pickaxe>, [
 
 //craftingTable.remove(<item:sweety_garden:wood_anemone>);
 //craftingTable.addShapeless("wood_anemone_dye", <item:minecraft:pink_dye>, [<item:sweety_garden:wood_anemone>]);
+
+craftingTable.addShaped("prismarine", <item:minecraft:prismarine>, [
+    [<item:minecraft:prismarine_shard>, <item:minecraft:prismarine_shard>],
+    [<item:minecraft:prismarine_shard>, <item:minecraft:prismarine_shard>]]);
