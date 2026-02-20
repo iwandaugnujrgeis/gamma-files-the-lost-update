@@ -1,9 +1,18 @@
 {
+  "suspicious.soul_steal": {
+    "sounds": [
+      {
+        "name": "gamma:suspicious/soul_steal",
+        "volume": 1.0,
+        "stream": true
+      }
+    ]
+  },
   "suspicious.breath": {
     "sounds": [
       {
         "name": "gamma:suspicious/breath",
-        "volume": 0.6,
+        "volume": 0.8,
         "stream": true
       }
     ]
@@ -85,8 +94,7 @@
       },
       {
         "name": "gamma:music/nether/complicated",
-        "stream": true,
-        "volume": 0.6
+        "stream": true
       }
     ]
   },

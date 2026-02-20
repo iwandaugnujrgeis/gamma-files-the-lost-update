@@ -8,4 +8,5 @@ StartupEvents.registry('sound_event', (event) => {
 	event.create('gamma:music_disc.acid')
 	event.create('gamma:music.menu')
 	event.create('gamma:suspicious.breath')
+	event.create('gamma:suspicious.soul_steal')
 })

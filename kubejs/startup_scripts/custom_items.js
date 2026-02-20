@@ -252,24 +252,59 @@ StartupEvents.registry('item', event => {
   }
 )
 
-//Heart-Steal Effect:
-//Script Author: @KonSola5: https://discord.com/channels/303440391124942858/1472231416984113182
+//Working Script:
+////Heart-Steal Effect:
+////Script Author: @KonSola5: https://discord.com/channels/303440391124942858/1472231416984113182
+//const $LivingAttackEvent = Java.loadClass('net.minecraftforge.event.entity.living.LivingAttackEvent')
+//
+  //ForgeEvents.onEvent($LivingAttackEvent, event => {
+    //if (event.entity.level.isClientSide()) return
+    //const player = event.source.player
+    //if (player == null) return    
+    //if (!event.entity.isLiving()) return
+    ///** @type {Internal.LivingEntity} */
+    //const entity = /** @type {any} */ (event.entity)
+    //if (entity.isUndead()) return
+    //if (entity.type == 'minecraft:armor_stand') return
+    //if (player.mainHandItem.id != 'kubejs:cobalt_sword') return
+//
+    //player.heal(event.amount * 0.25)
+  //}
+//)
+
+// Heart-Steal Effect:
+// Script Author: @KonSola5 (Modified for 50% Chance & Sound)
 const $LivingAttackEvent = Java.loadClass('net.minecraftforge.event.entity.living.LivingAttackEvent')
 
-  ForgeEvents.onEvent($LivingAttackEvent, event => {
+ForgeEvents.onEvent($LivingAttackEvent, event => {
     if (event.entity.level.isClientSide()) return
+    
     const player = event.source.player
     if (player == null) return    
     if (!event.entity.isLiving()) return
+    
     /** @type {Internal.LivingEntity} */
-    const entity = /** @type {any} */ (event.entity)
+    const entity = event.entity
     if (entity.isUndead()) return
     if (entity.type == 'minecraft:armor_stand') return
     if (player.mainHandItem.id != 'kubejs:cobalt_sword') return
 
-    player.heal(event.amount * 0.25)
-  }
-)
+    if (Math.random() < 0.5) {
+
+        player.heal(event.amount * 0.25)
+
+        player.level.playSound(
+            null, 
+            entity.x, 
+            entity.y, 
+            entity.z, 
+            'gamma:suspicious.soul_steal', 
+            'neutral', 
+            0.6,
+            1.1
+        )
+    }
+})
 
 //Copper Tools:
 StartupEvents.registry('item', event => {
