@@ -25,11 +25,13 @@
   "features": [
     [],
     [
+      "gamma:jungle_pool",
       "minecraft:lake_lava_underground",
       "minecraft:lake_lava_surface"
     ],
     [
-      "minecraft:amethyst_geode"
+      "minecraft:amethyst_geode",
+      "gamma:forest_stone"
     ],
     [
       "minecraft:monster_room",
@@ -78,14 +80,17 @@
       "minecraft:glow_lichen",
       "minecraft:bamboo_light",
       "minecraft:trees_jungle",
-      "minecraft:flower_warm",
+      "minecraft:flower_forest_flowers",
+      "minecraft:flower_flower_forest",
       "minecraft:patch_grass_jungle",
+      "sweety_garden:hepatica_patchs",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin",
       "minecraft:vines",
-      "minecraft:patch_melon"
+      "minecraft:patch_melon_sparse",
+      "minecraft:patch_cactus_desert"
     ],
     [
       "minecraft:freeze_top_layer",
@@ -106,46 +111,46 @@
     "axolotls": [],
     "creature": [
       {
-        "type": "alexsmobs:tiger",
-        "maxCount": 3,
-        "minCount": 3,
-        "weight": 12
-      },
-      {
-        "type": "alexsmobs:capuchin_monkey",
-        "maxCount": 3,
-        "minCount": 1,
-        "weight": 4
-      },
-      {
-        "type": "alexsmobs:komodo_dragon",
-        "maxCount": 2,
-        "minCount": 1,
-        "weight": 5
-      },
-      {
         "type": "alexsmobs:gorilla",
         "maxCount": 4,
         "minCount": 4,
         "weight": 16
       },
       {
-        "type": "minecraft:parrot",
+        "type": "alexsmobs:capuchin_monkey",
         "maxCount": 3,
-        "minCount": 3,
+        "minCount": 1,
         "weight": 10
+      },
+      {
+        "type": "minecraft:ocelot",
+        "maxCount": 3,
+        "minCount": 1,
+        "weight": 10
+      },
+      {
+        "type": "alexsmobs:tiger",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 6
       },
       {
         "type": "alexsmobs:toucan",
         "maxCount": 2,
         "minCount": 1,
-        "weight": 8
+        "weight": 4
+      },
+      {
+        "type": "minecraft:parrot",
+        "maxCount": 3,
+        "minCount": 3,
+        "weight": 3
       },
       {
         "type": "minecraft:panda",
         "maxCount": 2,
         "minCount": 1,
-        "weight": 5
+        "weight": 2
       }
     ],
     "misc": [],
@@ -197,12 +202,6 @@
         "maxCount": 4,
         "minCount": 1,
         "weight": 10
-      },
-      {
-        "type": "minecraft:ocelot",
-        "maxCount": 3,
-        "minCount": 1,
-        "weight": 2
       }
     ],
     "underground_water_creature": [
