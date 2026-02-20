@@ -234,6 +234,8 @@ BlockEvents.broken(event => {
   )
 })
 
+//Thank you for @fearthera1n for suggesting this script! 
+//Inspired by DB3K!
 EntityEvents.checkSpawn(event => {
   if (event.type == 'SPAWNER') {
     event.level.playSound(
