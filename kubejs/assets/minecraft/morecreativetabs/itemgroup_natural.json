@@ -182,12 +182,6 @@
       "name": "minecraft:dark_oak_sapling"
     },
     {
-      "name": "minecraft:mangrove_propagule"
-    },
-    {
-      "name": "minecraft:cherry_sapling"
-    },
-    {
       "name": "rediscovered:ancient_cherry_sapling"
     },
     {
@@ -249,12 +243,6 @@
     },
     {
       "name": "minecraft:dark_oak_leaves"
-    },
-    {
-      "name": "minecraft:mangrove_leaves"
-    },
-    {
-      "name": "minecraft:cherry_leaves"
     },
     {
       "name": "rediscovered:ancient_cherry_leaves"
@@ -453,6 +441,9 @@
     },
     {
       "name": "minecraft:turtle_egg"
+    },
+    {
+      "name": "autumnity:turkey_egg"
     },
     {
       "name": "friendsandfoes:crab_egg"
