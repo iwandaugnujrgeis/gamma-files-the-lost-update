@@ -29,7 +29,8 @@
       "minecraft:lake_lava_surface"
     ],
     [
-      "minecraft:amethyst_geode"
+      "minecraft:amethyst_geode",
+      "gamma:forest_stone"
     ],
     [
       "minecraft:monster_room",
@@ -64,7 +65,6 @@
       "spelunkery:tangle_roots_ceiling",
       "spelunkery:mushgloom",
       "minecraft:underwater_magma",
-      "gamma:sand_shore",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
       "minecraft:disk_gravel",
@@ -77,9 +77,6 @@
     ],
     [
       "minecraft:glow_lichen",
-      "minecraft:forest_flowers",
-      "gamma:ocean_forest_vegetation",
-      "minecraft:flower_default",
       "sweety_garden:hepatica_patchs",
       "gamma:patch_grass_ferns",
       "minecraft:brown_mushroom_normal",
@@ -106,44 +103,7 @@
       }
     ],
     "axolotls": [],
-    "creature": [
-      {
-        "type": "friendsandfoes:crab",
-        "maxCount": 2,
-        "minCount": 1,
-        "weight": 6
-      },
-      {
-        "type": "minecraft:turtle",
-        "maxCount": 3,
-        "minCount": 3,
-        "weight": 10
-      },
-      {
-        "type": "alexsmobs:capuchin_monkey",
-        "maxCount": 3,
-        "minCount": 1,
-        "weight": 4
-      },
-      {
-        "type": "alexsmobs:komodo_dragon",
-        "maxCount": 2,
-        "minCount": 1,
-        "weight": 5
-      },
-      {
-        "type": "alexsmobs:seagull",
-        "maxCount": 3,
-        "minCount": 3,
-        "weight": 10
-      },
-      {
-        "type": "alexsmobs:toucan",
-        "maxCount": 2,
-        "minCount": 1,
-        "weight": 8
-      }
-    ],
+    "creature": [],
     "misc": [],
     "monster": [
       {
