@@ -1,9 +1,6 @@
 {
   "type": "forge:add_features",
-  "biomes": [
-    "minecraft:ocean",
-    "minecraft:desert"
-  ],
+  "biomes": "#minecraft:is_overworld",
   "features": "moyai:moyai_beach",
   "step": "vegetal_decoration"
 }

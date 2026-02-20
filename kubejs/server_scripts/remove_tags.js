@@ -1,5 +1,11 @@
 //priority: 1
 ServerEvents.tags('item', event => {
+//4.14:
+  event.removeAllTagsFrom('minecraft:cherry_sapling')
+  event.removeAllTagsFrom('minecraft:cherry_leaves')
+  event.removeAllTagsFrom('minecraft:mangrove_leaves')
+  event.removeAllTagsFrom('minecraft:mangrove_propagule')
+
 //4.13:
   //Features On Hold:
     event.removeAllTagsFrom('caverns_and_chasms:peeper_head')
@@ -443,13 +449,11 @@ ServerEvents.tags('item', event => {
   event.removeAllTagsFrom('autumnity:foul_soup')
   event.removeAllTagsFrom('autumnity:snail_shell_piece')
   event.removeAllTagsFrom('autumnity:snail_shell_chestplate')
-  event.removeAllTagsFrom('autumnity:turkey_egg')
   event.removeAllTagsFrom('autumnity:turkey_piece')
   event.removeAllTagsFrom('autumnity:cooked_turkey_piece')
   event.removeAllTagsFrom('autumnity:maple_leaf_banner_pattern')
   event.removeAllTagsFrom('autumnity:swirl_banner_pattern')
   event.removeAllTagsFrom('autumnity:snail_spawn_egg')
-  event.removeAllTagsFrom('autumnity:turkey_spawn_egg')
   event.removeAllTagsFrom('snowyspirit:autumnity/sled_maple')
   event.removeAllTagsFrom('supplementaries:autumnity/sign_post_maple')
 

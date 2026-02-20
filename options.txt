@@ -97,7 +97,7 @@ key_key.drop:key.keyboard.q
 key_key.inventory:key.keyboard.e
 key_key.chat:key.keyboard.t
 key_key.playerlist:key.keyboard.tab
-key_key.pickItem:key.mouse.middle
+key_key.pickItem:key.keyboard.backslash
 key_key.command:key.keyboard.slash
 key_key.socialInteractions:key.keyboard.p
 key_key.screenshot:key.keyboard.f2
@@ -118,8 +118,8 @@ key_key.hotbar.9:key.keyboard.9
 key_key.mount_jump:key.keyboard.f7
 key_gnetum.config.keyMapping:key.keyboard.end
 key_key.pingwheel.ping_location:key.keyboard.v
-soundCategory_master:0.0
-soundCategory_music:1.0
+soundCategory_master:0.10916593309859159
+soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:0.8047645246478874
 soundCategory_block:0.707394366197183

@@ -282,7 +282,7 @@
 
     "datapackFailure.safeMode.failed.description": "This §9World§r contains Wrong or §cCorrupted§r data...",
     "datapackFailure.safeMode.failed.title": "Failed to load §oWorld§r in Safe Mode...",
-    "datapackFailure.title": "§5Something§r is Messed Up!\nCheck the §nLog§r to see Errors..!",
+    "datapackFailure.title": "§oSomething§r is Messed Up!\nCheck the §nLog§r to see Errors..!",
     "chat.coordinates.tooltip": "Click to §oTeleport§r",
 
     "book.finalizeWarning": "",

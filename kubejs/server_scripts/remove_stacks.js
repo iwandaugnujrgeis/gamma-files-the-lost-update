@@ -2,6 +2,12 @@
 //You can find Instructions at the bottom of this file!
 const removedInOutputs = 
     [
+    //4.14:
+      'minecraft:cherry_sapling',
+      'minecraft:cherry_leaves',
+      'minecraft:mangrove_leaves',
+      'minecraft:mangrove_propagule',
+      
     //4.13:
       //Features On Hold:
         'caverns_and_chasms:peeper_head',
@@ -421,10 +427,8 @@ const removedInOutputs =
       'autumnity:swirl_banner_pattern',
       'autumnity:trapped_maple_chest',
       'autumnity:turkey',
-      'autumnity:turkey_egg',
       'autumnity:turkey_egg_crate',
       'autumnity:turkey_piece',
-      'autumnity:turkey_spawn_egg',
       'autumnity:yellow_maple_leaf_pile',
       'autumnity:yellow_maple_leaves',
       'autumnity:yellow_maple_sapling',
