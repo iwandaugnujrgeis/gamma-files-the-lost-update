@@ -4,7 +4,7 @@
     "default": "autumnity:maple_tree_checked",
     "features": [
       {
-        "chance": 0.025,
+        "chance": 0.015,
         "feature": {
           "feature": "minecraft:huge_brown_mushroom",
           "placement": []
