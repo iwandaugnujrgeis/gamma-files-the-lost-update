@@ -79,13 +79,13 @@
       "lowerLimit": 512.0
     },
     "moderner_beta:forced_biome_height": {
-      "depthOffset": 0.0,
-      "scaleWeight": 1.0,
-      "scaleOffset": 0.0,
-      "modifyOnlyPositiveDepth": false,
+      "depthOffset": 0.1,
+      "scaleWeight": 1.3,
+      "scaleOffset": 0.1,
+      "modifyOnlyPositiveDepth": true,
       "enabled": true,
       "heightOverrides": {
-        "minecraft:river": "-0.85;0.70"
+        "minecraft:river": "-1.05;0.15"
       },
       "depthWeight": 1.0
     },
@@ -654,11 +654,8 @@
           "id": "biome_pool_warm",
           "seed": 200,
           "biomes": [
-            "minecraft:desert",
-            "minecraft:desert",
-            "minecraft:desert",
-            "minecraft:savanna",
-            "minecraft:savanna",
+            "minecraft:jungle",
+            "minecraft:flower_forest",
             "minecraft:plains"
           ],
           "type": "moderner_beta:random_biome"
@@ -842,7 +839,7 @@
               "predicate": {
                 "terms": [
                   {
-                    "biome": "minecraft:desert",
+                    "biome": "minecraft:still_woods",
                     "condition": "moderner_beta:single_match"
                   },
                   {
@@ -894,7 +891,7 @@
                     "diagonal": false,
                     "neighborPredicate": {
                       "biomes": [
-                        "minecraft:desert",
+                        "minecraft:jungle",
                         "minecraft:grove",
                         "minecraft:snowy_plains"
                       ],
@@ -920,10 +917,6 @@
               "type": "biome",
               "value": "minecraft:badlands"
             },
-            "minecraft:bamboo_jungle": {
-              "type": "biome",
-              "value": "minecraft:bamboo_jungle*hills"
-            },
             "minecraft:birch_forest": {
               "type": "biome",
               "value": "gamma:still_woods*hills"
@@ -936,17 +929,9 @@
               "type": "biome",
               "value": "minecraft:plains"
             },
-            "minecraft:desert": {
-              "type": "biome",
-              "value": "minecraft:desert*hills"
-            },
             "minecraft:forest": {
               "type": "biome",
               "value": "minecraft:forest*hills"
-            },
-            "minecraft:jungle": {
-              "type": "biome",
-              "value": "minecraft:jungle*hills"
             },
             "minecraft:old_growth_pine_taiga": {
               "type": "biome",
@@ -959,10 +944,6 @@
             "minecraft:plains": {
               "type": "biome",
               "value": "minecraft:forest"
-            },
-            "minecraft:savanna": {
-              "type": "biome",
-              "value": "minecraft:savanna_plateau"
             },
             "minecraft:snowy_plains": {
               "type": "biome",
@@ -1118,9 +1099,9 @@
               "type": "biome",
               "value": "minecraft:dark_forest*hills"
             },
-            "minecraft:desert": {
+            "minecraft:jungle": {
               "type": "biome",
-              "value": "minecraft:desert*lakes"
+              "value": "minecraft:jungle*lakes"
             },
             "minecraft:forest": {
               "type": "biome",
@@ -1137,14 +1118,6 @@
             "minecraft:old_growth_pine_taiga*hills": {
               "type": "biome",
               "value": "minecraft:old_growth_spruce_taiga*hills"
-            },
-            "minecraft:savanna": {
-              "type": "biome",
-              "value": "minecraft:windswept_savanna"
-            },
-            "minecraft:savanna_plateau": {
-              "type": "biome",
-              "value": "minecraft:windswept_savanna*plateau"
             },
             "minecraft:snowy_plains": {
               "type": "biome",
@@ -1209,16 +1182,12 @@
                     "biomes": [
                       "~minecraft:old_growth_spurce_taiga",
                       "~minecraft:snowy_plains",
-                      "~minecraft:savanna_plateau",
                       "~minecraft:taiga",
                       "minecraft:eroded_badlands",
                       "gamma:still_woods",
                       "gamma:radiant_forest",
-                      "~minecraft:savanna",
-                      "~minecraft:bamboo_jungle",
                       "~minecraft:plains",
                       "~minecraft:ice_spikes",
-                      "~minecraft:cherry_grove",
                       "~minecraft:dark_forest",
                       "~minecraft:meadow",
                       "~minecraft:forest",
@@ -1232,13 +1201,11 @@
                       "~minecraft:old_growth_birch_forest",
                       "~minecraft:grove",
                       "gamma:snow_world",
-                      "~minecraft:desert",
                       "minecraft:badlands",
                       "minecraft:badlands*modified_plateau",
                       "minecraft:badlands*plateau",
                       "~minecraft:windswept_hills",
                       "~minecraft:old_growth_pine_taiga",
-                      "~minecraft:windswept_savanna",
                       "minecraft:wooded_badlands*modified",
                       "minecraft:wooded_badlands",
                       "~minecraft:windswept_gravelly_hills"
@@ -1256,7 +1223,6 @@
                       [
                         "~minecraft:forest",
                         "~minecraft:old_growth_birch_forest",
-                        "~minecraft:cherry_grove",
                         "~minecraft:dark_forest",
                         "~minecraft:birch_forest",
                         "~minecraft:flower_forest"
@@ -1275,12 +1241,7 @@
                         "~minecraft:ice_spikes"
                       ],
                       [
-                        "~minecraft:savanna_plateau",
-                        "~minecraft:savanna",
-                        "~minecraft:windswept_savanna"
-                      ],
-                      [
-                        "~minecraft:desert"
+                        "~minecraft:still_woods"
                       ],
                       [
                         "~minecraft:windswept_hills",
@@ -1289,7 +1250,6 @@
                         "~minecraft:windswept_gravelly_hills"
                       ],
                       [
-                        "~minecraft:bamboo_jungle",
                         "~minecraft:sparse_jungle",
                         "~minecraft:jungle"
                       ],
@@ -1375,9 +1335,9 @@
               "type": "biome",
               "value": "gamma:cornflower_grove*hills"
             },
-            "minecraft:desert": {
+            "minecraft:jungle": {
               "type": "biome",
-              "value": "minecraft:desert*lakes"
+              "value": "minecraft:jungle*lakes"
             },
             "minecraft:forest": {
               "type": "biome",
@@ -1394,14 +1354,6 @@
             "minecraft:old_growth_pine_taiga*hills": {
               "type": "biome",
               "value": "minecraft:old_growth_spruce_taiga*hills"
-            },
-            "minecraft:savanna": {
-              "type": "biome",
-              "value": "minecraft:windswept_savanna"
-            },
-            "minecraft:savanna_plateau": {
-              "type": "biome",
-              "value": "minecraft:windswept_savanna*plateau"
             },
             "minecraft:snowy_plains": {
               "type": "biome",
@@ -1536,7 +1488,6 @@
                 "terms": [
                   {
                     "biomes": [
-                      "~minecraft:bamboo_jungle",
                       "~minecraft:sparse_jungle",
                       "~minecraft:jungle"
                     ],
@@ -1548,7 +1499,6 @@
                     "neighborPredicate": {
                       "term": {
                         "biomes": [
-                          "~minecraft:bamboo_jungle",
                           "minecraft:forest",
                           "~minecraft:sparse_jungle",
                           "minecraft:deep_ocean",
@@ -1642,7 +1592,7 @@
                 ],
                 "condition": "moderner_beta:all_of"
               },
-              "result": "minecraft:desert",
+              "result": "gamma:andesite_crags",
               "type": "biome"
             },
             {
