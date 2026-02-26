@@ -282,18 +282,16 @@ EntityEvents.checkSpawn(event => {
   //}
 //})
 
+//Moonstone:
 BlockEvents.broken('kubejs:moonstone', event => {
   const { level, block, server, player } = event
 
-  if (player.creativeMode) return
+  if (player.isCreative()) return
   if (player.mainHandItem.id !== 'minecraft:diamond_pickaxe') return
 
   let timeInDay = level.dayTime() % 24000
   let moonPhase = level.moonPhase
   let isNight = timeInDay >= 12500 && timeInDay <= 23500 && !server.getOverworld().isDay()
-
-  event.cancel()
-  block.set('minecraft:air')
 
   if (moonPhase === 0 && isNight) {
     block.popItem('kubejs:dimensional_shard')
@@ -313,7 +311,9 @@ BlockEvents.broken('kubejs:moonstone', event => {
     try {
       grantAdvancement(player, 'gamma:story/mine_moonstone')
     } catch (e) {}
-  } else {
-    block.popItem('kubejs:moonstone')
   }
+  
+  else {
+      block.popItem('kubejs:moonstone')
+    }
 })
