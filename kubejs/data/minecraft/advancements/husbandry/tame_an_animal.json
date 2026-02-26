@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:husbandry/root",
+  "criteria": {
+    "tamed_animal": {
+      "conditions": {},
+      "trigger": "minecraft:tame_animal"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Tame a Mob!",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:apple"
+    },
+    "show_toast": true,
+    "title": "Unwilded"
+  },
+  "requirements": [
+    [
+      "tamed_animal"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

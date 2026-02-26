@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": [],
+  "features": "caverns_and_chasms:ore_silver_buried_with_gold",
+  "step": "underground_ores"
+}

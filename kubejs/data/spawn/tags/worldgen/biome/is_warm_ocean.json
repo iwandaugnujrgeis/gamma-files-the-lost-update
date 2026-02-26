@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:warm_ocean",
+    "spawn:deep_warm_ocean"
+  ]
+}

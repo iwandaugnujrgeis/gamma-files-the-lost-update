@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "kubejs:moonstone"
+    },
+    "title": "Moon Shaped Pool",
+    "description": "Mine Moonstone during Full Moon to...",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "gamma:story/craft_diamond_pickaxe",
+    "criteria": {
+      "lawn_insane": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

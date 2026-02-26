@@ -1,0 +1,31 @@
+{
+  "criteria": {
+    "enter_skylands": {
+      "conditions": {
+        "to": "rediscovered:skylands"
+      },
+      "trigger": "minecraft:changed_dimension"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "rediscovered:textures/gui/advancements/backgrounds/skylands.png",
+    "description": "A World far Above the Clouds...",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "rediscovered:ruby_eye",
+      "nbt": "{texture_index:0b}"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "rediscovered:advancements.skylands.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "enter_skylands"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

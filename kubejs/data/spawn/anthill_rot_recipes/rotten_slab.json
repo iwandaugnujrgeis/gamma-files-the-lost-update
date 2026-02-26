@@ -1,0 +1,6 @@
+{
+  "input": "#minecraft:wooden_slabs",
+  "output": {
+    "name": "spawn:rotten_slab"
+  }
+}

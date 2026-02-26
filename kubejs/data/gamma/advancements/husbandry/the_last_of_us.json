@@ -1,0 +1,31 @@
+{
+  "parent": "minecraft:husbandry/root",
+  "criteria": {
+    "cordyceps": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "galosphere:lichen_cordyceps"
+          ]
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Eat a Lichen Cordyceps!",
+    "frame": "task",
+    "hidden": true,
+    "icon": {
+      "item": "galosphere:lichen_cordyceps"
+    },
+    "show_toast": true,
+    "title": "The Fireflies Lied?"
+  },
+  "requirements": [
+    [
+      "cordyceps"
+    ]
+  ]
+}

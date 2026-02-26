@@ -1,0 +1,25 @@
+{
+  "parent": "gamma:detour/root",
+  "criteria": {
+    "discover_stickbug": {
+      "trigger": "spawn:discover_stickbug"
+    }
+  },
+  "display": {
+    "title": "F***",
+    "description": "Discover a Stick Bug!",
+    "icon": {
+      "item": "spawn:suspicious_stick"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "requirements": [
+    [
+      "discover_stickbug"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

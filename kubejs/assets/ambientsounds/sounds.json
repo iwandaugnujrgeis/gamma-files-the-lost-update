@@ -1,0 +1,82 @@
+{
+  "chimes.chimes1": {
+      "replace": true,
+      "sounds": [
+          {
+              "name": "ambientsounds:chimes/chimes1",
+              "stream": true
+          }
+      ],
+      "category": "ambient"
+  },
+  "chimes.corals1": {
+      "replace": true,
+      "sounds": [
+          {
+              "name": "ambientsounds:chimes/corals1",
+              "stream": true
+          }
+      ],
+      "category": "ambient"
+  },
+  "cave.cave-lush": {
+      "replace": true,
+      "sounds": [
+          {
+              "name": "ambientsounds:cave/cave-large1",
+              "stream": true
+          }
+      ],
+      "category": "ambient"
+  },
+  "cave.cave-water1": {
+      "replace": true,
+      "sounds": [
+          {
+              "name": "gamma:null",
+              "stream": true
+          }
+      ],
+      "category": "ambient"
+  },
+  "cave.cave-water2": {
+      "replace": true,
+      "sounds": [
+          {
+              "name": "gamma:null",
+              "stream": true
+          }
+      ],
+      "category": "ambient"
+  },
+  "cave.cave-water3": {
+      "replace": true,
+      "sounds": [
+          {
+              "name": "gamma:null",
+              "stream": true
+          }
+      ],
+      "category": "ambient"
+  },
+  "cave.cave-water4": {
+      "replace": true,
+      "sounds": [
+          {
+              "name": "gamma:null",
+              "stream": true
+          }
+      ],
+      "category": "ambient"
+  },
+  "cave.cave-water5": {
+      "replace": true,
+      "sounds": [
+          {
+              "name": "gamma:null",
+              "stream": true
+          }
+      ],
+      "category": "ambient"
+  }
+}

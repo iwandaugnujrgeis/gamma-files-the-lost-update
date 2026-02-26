@@ -1,0 +1,30 @@
+{
+//Paintings:
+  "painting.gamma.lion.title": "Lion and Sunflowers",
+  "painting.gamma.lion.author": "Kristoffer Zetterstrand",
+
+  "painting.gamma.apples.title": "Apples and Dried Flowers",
+  "painting.gamma.apples.author": "Kristoffer Zetterstrand",
+
+  "painting.gamma.dante.title": "Dante and the Three Beasts",
+  "painting.gamma.dante.author": "Kristoffer Zetterstrand",
+
+  "painting.gamma.forget_me_not.title": "Forget Me Not",
+  "painting.gamma.forget_me_not.author": "Kristoffer Zetterstrand",
+
+  "painting.gamma.geology.title": "Geology",
+  "painting.gamma.geology.author": "Kristoffer Zetterstrand",
+
+  "painting.gamma.hike.title": "Bonjour Mister Courbert",
+  "painting.gamma.hike.author": "Kristoffer Zetterstrand",
+
+  "painting.gamma.pergola.title": "The Pergola",
+  "painting.gamma.pergola.author": "Kristoffer Zetterstrand",
+
+//Music Discs:
+  "item.kubejs.music_disc_dog.desc": "C418 - dog",
+  "item.kubejs.music_disc_eleven.desc": "C418 - eleven",
+  "item.kubejs.music_disc_droopy2.desc": "C418 - ricochet",
+  "item.kubejs.music_disc_death.desc": "C418 - death",
+  "item.kubejs.music_disc_acid.desc": "C418 - acid"
+}

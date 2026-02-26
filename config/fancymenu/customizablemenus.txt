@@ -1,0 +1,89 @@
+type = customizablemenus
+
+net.minecraft.client.gui.screens.controls.ControlsScreen {
+}
+
+net.minecraft.client.gui.screens.inventory.InventoryScreen {
+}
+
+org.embeddedt.embeddium.gui.EmbeddiumVideoOptionsScreen {
+}
+
+net.minecraft.client.gui.screens.TitleScreen {
+}
+
+net.minecraft.client.gui.screens.PauseScreen {
+}
+
+net.minecraft.client.gui.screens.packs.PackSelectionScreen {
+}
+
+net.minecraft.client.gui.screens.SkinCustomizationScreen {
+}
+
+net.minecraft.client.gui.screens.ProgressScreen {
+}
+
+net.minecraft.client.gui.screens.ReceivingLevelScreen {
+}
+
+net.minecraft.client.gui.screens.LevelLoadingScreen {
+}
+
+net.minecraft.client.gui.screens.ConnectScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+net.minecraft.client.gui.screens.WinScreen {
+}
+
+net.minecraft.client.gui.screens.worldselection.SelectWorldScreen {
+}
+
+io.github.mortuusars.scholar.client.gui.screen.edit.SpreadBookEditScreen {
+}
+
+net.minecraft.client.gui.screens.inventory.BookEditScreen {
+}
+
+com.zetal.easynametags.NameTagScreen {
+}
+
+net.minecraft.client.gui.screens.DeathScreen {
+}
+
+net.minecraft.client.gui.screens.OptionsScreen {
+}
+
+dev.arbor.extrasoundsnext.gui.CustomSoundOptionsScreen {
+}
+
+net.minecraft.client.gui.screens.inventory.CraftingScreen {
+}
+
+net.minecraft.client.gui.screens.inventory.FurnaceScreen {
+}
+
+org.violetmoon.quark.addons.oddities.client.screen.BackpackInventoryScreen {
+}
+
+net.minecraft.client.gui.screens.VideoSettingsScreen {
+}
+
+fuzs.forgeconfigscreens.client.gui.screens.SelectConfigScreen {
+}
+
+net.minecraft.client.gui.screens.GenericDirtMessageScreen {
+}
+
+net.minecraftforge.client.gui.ModListScreen {
+}
+
+mod.bluestaggo.modernerbeta.client.gui.screen.ModernBetaWorldScreen {
+}
+
+net.minecraft.client.gui.screens.worldselection.CreateWorldScreen {
+}
+

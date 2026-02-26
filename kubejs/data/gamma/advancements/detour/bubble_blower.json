@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "supplementaries:bubble_blower"
+    },
+    "title": "Skyblock",
+    "description": "Obtain a Bubble Blower!",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "gamma:detour/root",
+  "criteria": {
+    "bubble_blower": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "supplementaries:bubble_blower"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "bubble_blower"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

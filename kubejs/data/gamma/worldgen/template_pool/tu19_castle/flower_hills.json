@@ -1,0 +1,15 @@
+{
+	"name": "gamma:tu19_castle/flower_hills",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "gamma:tu19_castle/flower_hill",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		}
+	]
+}

@@ -1,0 +1,269 @@
+{
+  "music.parallel.aerie": {
+    "sounds": [
+      {
+        "name": "gamma:music/parallel/aerie1",
+        "stream": true,
+        "volume": 0.4,
+        "weight": 1
+      },
+      {
+        "name": "music/game/swamp/aerie",
+        "stream": true,
+        "volume": 0.4,
+        "weight": 2
+      }
+    ]
+  },
+  "suspicious.soul_steal": {
+    "sounds": [
+      {
+        "name": "gamma:suspicious/soul_steal",
+        "volume": 1.0,
+        "stream": true
+      }
+    ]
+  },
+  "suspicious.breath": {
+    "sounds": [
+      {
+        "name": "gamma:suspicious/breath",
+        "volume": 0.8,
+        "stream": true
+      }
+    ]
+  },
+  "music.menu": {
+    "sounds": [
+      {
+        "name": "gamma:music/menu/ams",
+        "volume": 0.8,
+        "stream": true
+      },
+      {
+        "name": "gamma:music/menu/anthem",
+        "volume": 0.8,
+        "stream": true
+      },
+      {
+        "name": "gamma:music/menu/kopfmusik",
+        "volume": 0.8,
+        "stream": true
+      },
+      {
+        "name": "gamma:music/menu/krank",
+        "volume": 0.8,
+        "stream": true
+      },
+      {
+        "name": "gamma:music/menu/ritalin",
+        "volume": 0.8,
+        "stream": true
+      },
+      {
+        "name": "gamma:music/menu/zweiton",
+        "volume": 1.1,
+        "stream": true
+      }
+    ]
+  },
+  "music.nether": {
+    "sounds": [
+      {
+        "name": "music/game/nether/nether1",
+        "stream": true
+      },
+      {
+        "name": "music/game/nether/nether2",
+        "stream": true
+      },
+      {
+        "name": "music/game/nether/nether3",
+        "stream": true
+      },
+      {
+        "name": "music/game/nether/nether4",
+        "stream": true
+      },
+      {
+        "name": "gamma:music/nether/nether5",
+        "stream": true
+      },
+      {
+        "name": "gamma:music/nether/nether6",
+        "stream": true
+      },
+      {
+        "name": "music/game/nether/nether_wastes/rubedo",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "music/game/nether/soulsand_valley/so_below",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "music/game/nether/crimson_forest/chrysopoeia",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "gamma:music/nether/complicated",
+        "stream": true
+      }
+    ]
+  },
+  "music.skylands": {
+    "sounds": [
+      {
+        "name": "music/game/end/credits",
+        "stream": true,
+        "volume": 0.9,
+        "weight": 2
+      },
+      {
+        "name": "gamma:music/skylands/accident",
+        "stream": true,
+        "volume": 1.0,
+        "weight": 10
+      },
+      {
+        "name": "gamma:music/skylands/alone",
+        "stream": true,
+        "volume": 1.0,
+        "weight": 10
+      },
+      {
+        "name": "gamma:music/skylands/buildup_errors",
+        "stream": true,
+        "volume": 1.0,
+        "weight": 10
+      },
+      {
+        "name": "gamma:music/skylands/diskdance",
+        "stream": true,
+        "volume": 1.0,
+        "weight": 10
+      },
+      {
+        "name": "gamma:music/skylands/door",
+        "stream": true,
+        "volume": 1.0,
+        "weight": 10
+      },
+      {
+        "name": "gamma:music/skylands/equinoxe",
+        "stream": true,
+        "volume": 1.0,
+        "weight": 10
+      },
+      {
+        "name": "gamma:music/skylands/flake",
+        "stream": true,
+        "volume": 1.0,
+        "weight": 10
+      },
+      {
+        "name": "gamma:music/skylands/impostor",
+        "stream": true,
+        "volume": 1.0,
+        "weight": 10
+      },
+      {
+        "name": "gamma:music/skylands/intro",
+        "stream": true,
+        "volume": 1.0,
+        "weight": 10
+      },
+      {
+        "name": "gamma:music/skylands/ki",
+        "stream": true,
+        "volume": 1.0,
+        "weight": 10
+      },
+      {
+        "name": "gamma:music/skylands/kyoto",
+        "stream": true,
+        "volume": 1.0,
+        "weight": 10
+      },
+      {
+        "name": "gamma:music/skylands/love",
+        "stream": true,
+        "volume": 1.0,
+        "weight": 10
+      },
+      {
+        "name": "gamma:music/skylands/offering",
+        "stream": true,
+        "volume": 1.0,
+        "weight": 10
+      },
+      {
+        "name": "gamma:music/skylands/pr_department",
+        "stream": true,
+        "volume": 1.0,
+        "weight": 10
+      },
+      {
+        "name": "gamma:music/skylands/song",
+        "stream": true,
+        "volume": 1.0,
+        "weight": 6
+      },
+      {
+        "name": "gamma:music/skylands/swarms",
+        "stream": true,
+        "volume": 1.0,
+        "weight": 10
+      },
+      {
+        "name": "gamma:music/skylands/apology",
+        "stream": true,
+        "volume": 1.0,
+        "weight": 10
+      }
+    ]
+  },
+  "music_disc.dog": {
+    "sounds": [
+      {
+        "name": "records/dog",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.eleven": {
+    "sounds": [
+      {
+        "name": "records/eleven",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.droopy2": {
+    "sounds": [
+      {
+        "name": "records/droopy2",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.death": {
+    "sounds": [
+      {
+        "name": "records/death",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.acid": {
+    "sounds": [
+      {
+        "name": "records/acid",
+        "stream": true
+      }
+    ]
+  }
+}

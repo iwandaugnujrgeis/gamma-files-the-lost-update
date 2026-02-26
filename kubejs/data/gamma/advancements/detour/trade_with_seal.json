@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:husbandry/fishy_business",
+  "criteria": {
+    "get_disc": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "alexsmobs:music_disc_thime"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Obtain a Music Disc by trading with a Seal!",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "alexsmobs:music_disc_thime"
+    },
+    "show_toast": true,
+    "title": "Seal the Deal!"
+  },
+  "requirements": [
+    [
+      "get_disc"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

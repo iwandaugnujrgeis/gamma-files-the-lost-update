@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "supplementaries:bellows"
+    },
+    "title": "Leaf Blower?",
+    "description": "Craft Bellows! Not as Powerful as a Subwoofer!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "gamma:redstone/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "supplementaries:bellows"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "values": [
+    "minecraft:polar_bear",
+    "minecraft:panda",
+    "minecraft:skeleton_horse",
+    "minecraft:zombie_horse",
+    "minecraft:turtle",
+    "minecraft:tadpole",
+    "minecraft:wandering_trader",
+    "minecraft:villager",
+    "rediscovered:red_dragon_offspring",
+    "#rediscovered:pigman",
+    "#rediscovered:md3",
+    "#forge:bosses",
+    "#minecraft:raiders",
+    {
+      "id": "alexsmobs:grizzly_bear",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:cockroach",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:tiger",
+      "required": false
+    },
+    {
+      "id": "#irons_spellbooks:summons",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "criteria": {
+    "join_world": {
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player"
+          }
+        }
+      },
+      "trigger": "minecraft:tick"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "description": "The Heart and Story of the Game...",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:bookshelf"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.story.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "join_world"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

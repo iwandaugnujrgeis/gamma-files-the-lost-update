@@ -1,0 +1,34 @@
+{
+  "parent": "gamma:detour/obtain_cotton_flower",
+  "criteria": {
+    "get_pillow": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "supplementaries:feather_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Craft a Pillow Block",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "supplementaries:feather_block"
+    },
+    "show_toast": true,
+    "title": "The Foundation of Naps"
+  },
+  "requirements": [
+    [
+      "get_pillow"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

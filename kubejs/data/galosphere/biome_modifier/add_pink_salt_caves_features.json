@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "gamma:null",
+  "features": [
+    "galosphere:pink_salt_noise_ceiling_patch"
+  ],
+  "step": "vegetal_decoration"
+}

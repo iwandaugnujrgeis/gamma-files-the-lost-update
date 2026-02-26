@@ -1,0 +1,12 @@
+type = slideshow
+
+slideshow-meta {
+   name = gamerule_slideshow
+   width = 100
+   height = 100
+   x = 0
+   y = 0
+   duration = 10.0
+   fadespeed = 6.0
+   randomize = true
+}

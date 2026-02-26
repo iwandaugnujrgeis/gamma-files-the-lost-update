@@ -1,0 +1,478 @@
+{
+  "filters": [
+    {
+      "id": "emi:brewing/forge/alexsmobs/lava_bottle/alexsmobs/bone_serpent_tooth/minecraft/potion"
+    },
+    {
+      "id": "emi:brewing/forge/minecraft/potion/alexsmobs/gazelle_horn/minecraft/potion"
+    },
+    {
+      "id": "emi:brewing/forge/alexsmobs/poison_bottle/alexsmobs/centipede_leg/minecraft/potion"
+    },
+    {
+      "id": "emi:brewing/forge/alexsmobs/poison_bottle/alexsmobs/centipede_leg/minecraft/potion"
+    },
+    {
+      "id": "emi:brewing/forge/alexsmobs/komodo_spit_bottle/alexsmobs/centipede_leg/minecraft/potion"
+    },
+    {
+      "id": "emi:brewing/forge/minecraft/potion/alexsmobs/komodo_spit/minecraft/potion"
+    },
+    {
+      "id": "emi:brewing/forge/minecraft/potion/alexsmobs/cockroach_wing/minecraft/potion"
+    },
+    {
+      "id": "emi:brewing/forge/minecraft/potion/alexsmobs/rattlesnake_rattle/alexsmobs/poison_bottle"
+    },
+    {
+      "id": "alexsmobs:falconry_hood_alt"
+    },
+    {
+      "id": "alexsmobs:bison_fur_to_wool"
+    },
+    {
+      "id": "minecraft:suspicious_stew"
+    },
+    {
+      "id": "spelunkery:cobblestone_from_pebble"
+    },
+    {
+      "id": "minecraft:end_crystal"
+    },
+    {
+      "id": "supplementaries:safe_crafting"
+    },
+    {
+      "id": "supplementaries:soap_clean_minecraft_wool"
+    },
+    {
+      "id": "spelunkery:iron_ore_smelting"
+    },
+    {
+      "id": "spelunkery:iron_ore_blasting"
+    },
+    {
+      "id": "spelunkery:gold_ore_smelting"
+    },
+    {
+      "id": "spelunkery:gold_ore_blasting"
+    },
+    {
+      "id": "minecraft:copper_ingot_from_waxed_copper_block"
+    },
+    {
+      "id": "minecraft:copper_ingot_from_smelting_deepslate_copper_ore"
+    },
+    {
+      "id": "spelunkery:copper_ore_smelting"
+    },
+    {
+      "id": "minecraft:copper_ingot_from_blasting_deepslate_copper_ore"
+    },
+    {
+      "id": "spelunkery:copper_ore_blasting"
+    },
+    {
+      "id": "supplementaries:antique_book_create_display"
+    },
+    {
+      "id": "supplementaries:rope_arrow_add_display"
+    },
+    {
+      "id": "supplementaries:rope_arrow_create_display"
+    },
+    {
+      "id": "supplementaries:soap_clean_farmersdelight_canvas_sign"
+    },
+    {
+      "id": "supplementaries:soap_clean_farmersdelight_hanging_canvas_sign"
+    },
+    {
+      "id": "spelunkery:redstone_ore_smelting"
+    },
+    {
+      "id": "minecraft:redstone_from_smelting_deepslate_redstone_ore"
+    },
+    {
+      "id": "minecraft:redstone_from_blasting_deepslate_redstone_ore"
+    },
+    {
+      "id": "spelunkery:redstone_ore_blasting"
+    },
+    {
+      "id": "supplementaries:dispenser_minecart_quark"
+    },
+    {
+      "id": "minecraft:coal_from_smelting_deepslate_coal_ore"
+    },
+    {
+      "id": "spelunkery:coal_ore_smelting"
+    },
+    {
+      "id": "spelunkery:coal_ore_blasting"
+    },
+    {
+      "id": "minecraft:coal_from_blasting_deepslate_coal_ore"
+    },
+    {
+      "id": "spelunkery:emerald_ore_smelting"
+    },
+    {
+      "id": "spelunkery:emerald_ore_blasting"
+    },
+    {
+      "id": "minecraft:lapis_lazuli_from_smelting_deepslate_lapis_ore"
+    },
+    {
+      "id": "spelunkery:lapis_ore_smelting"
+    },
+    {
+      "id": "spelunkery:lapis_ore_blasting"
+    },
+    {
+      "id": "minecraft:lapis_lazuli_from_blasting_deepslate_lapis_ore"
+    },
+    {
+      "id": "spelunkery:diamond_ore_smelting"
+    },
+    {
+      "id": "spelunkery:diamond_ore_blasting"
+    },
+    {
+      "id": "minecraft:iron_ingot_from_smelting_deepslate_iron_ore"
+    },
+    {
+      "id": "minecraft:iron_ingot_from_blasting_deepslate_iron_ore"
+    },
+    {
+      "id": "galosphere:silver_ingot_from_blasting_deepslate_silver_ore"
+    },
+    {
+      "id": "galosphere:silver_ingot_from_smelting_deepslate_silver_ore"
+    },
+    {
+      "id": "supplementaries:slime_ball"
+    },
+    {
+      "id": "supplementaries:item_lore_display"
+    },
+    {
+      "id": "minecraft:diamond_from_blasting_deepslate_diamond_ore"
+    },
+    {
+      "id": "minecraft:diamond_from_smelting_deepslate_diamond_ore"
+    },
+    {
+      "id": "minecraft:gold_ingot_from_blasting_deepslate_gold_ore"
+    },
+    {
+      "id": "minecraft:gold_ingot_from_smelting_deepslate_gold_ore"
+    },
+    {
+      "id": "/allurement/reforming/"
+    },
+    {
+      "id": "/allurement/vengeance/"
+    },
+    {
+      "id": "/crafting/tipped_arrow/"
+    },
+    {
+      "id": "minecraft:shield_decoration"
+    },
+    {
+      "id": "/flag_from_banner_display/"
+    },
+    {
+      "id": "/brewing/minecraft/lingering_potion/"
+    },
+    {
+      "id": "/world/"
+    },
+    {
+      "id": "/dragon_breath/"
+    },
+    {
+      "id": "/emi/bucket_filling/"
+    },
+    {
+      "id": "supplementaries:ash_burn"
+    },
+    {
+      "id": "supplementaries:tilling/raked_gravel"
+    },
+    {
+      "id": "spelunkery:/rock_salt_boiling"
+    },
+    {
+      "id": "spelunkery:/diamond_grindstone_repair"
+    },
+    {
+      "id": "spelunkery:/salt_grinding"
+    },
+    {
+      "id": "spelunkery:/portal_fluid_anchor"
+    },
+    {
+      "id": "spelunkery:/cinnabar"
+    },
+    {
+      "id": "spelunkery:/lazurite"
+    },
+    {
+      "id": "spelunkery:/emerald"
+    },
+    {
+      "id": "spelunkery:/diamond"
+    },
+    {
+      "id": "spelunkery:/spring_water_passive"
+    },
+    {
+      "id": "spelunkery:/water_passive"
+    },
+    {
+      "id": "spelunkery:/water_sluice_clay"
+    },
+    {
+      "id": "spelunkery:/water_sluice_coarse_dirt"
+    },
+    {
+      "id": "spelunkery:/water_sluice_dirt"
+    },
+    {
+      "id": "spelunkery:/water_sluice_gravel"
+    },
+    {
+      "id": "spelunkery:/water_sluice_mud"
+    },
+    {
+      "id": "spelunkery:/water_sluice_red_sand"
+    },
+    {
+      "id": "spelunkery:/water_sluice_rooted_dirt"
+    },
+    {
+      "id": "spelunkery:/water_sluice_sand"
+    },
+    {
+      "id": "spelunkery:/water_sluice_soul_sand"
+    },
+    {
+      "id": "spelunkery:/lava_passive"
+    },
+    {
+      "id": "spelunkery:/portal_fluid_passive"
+    },
+    {
+      "id": "spelunkery:/anvil_repair"
+    },
+    {
+      "id": "spelunkery:/anvil_repair2"
+    },
+    {
+      "id": "supplementaries:suspicious_gravel_bricks"
+    },
+    {
+      "id": "supplementaries:remove_lore_display"
+    },
+    {
+      "id": "/crafting/shulker_box_dying/"
+    },
+    {
+      "id": "supplementaries:antique_map_create_display"
+    },
+    {
+      "id": "supplementaries:present_display"
+    },
+    {
+      "id": "supplementaries:present_white_display"
+    },
+    {
+      "id": "supplementaries:present_light_gray_display"
+    },
+    {
+      "id": "supplementaries:present_gray_display"
+    },
+    {
+      "id": "supplementaries:present_black_display"
+    },
+    {
+      "id": "supplementaries:present_brown_display"
+    },
+    {
+      "id": "supplementaries:present_red_display"
+    },
+    {
+      "id": "supplementaries:present_orange_display"
+    },
+    {
+      "id": "supplementaries:present_yellow_display"
+    },
+    {
+      "id": "supplementaries:present_lime_display"
+    },
+    {
+      "id": "supplementaries:present_green_display"
+    },
+    {
+      "id": "supplementaries:present_cyan_display"
+    },
+    {
+      "id": "supplementaries:present_light_blue_display"
+    },
+    {
+      "id": "supplementaries:present_blue_display"
+    },
+    {
+      "id": "supplementaries:present_purple_display"
+    },
+    {
+      "id": "supplementaries:present_magenta_display"
+    },
+    {
+      "id": "supplementaries:present_pink_display"
+    },
+    {
+      "id": "supplementaries:trapped_present_display"
+    },
+    {
+      "id": "supplementaries:trapped_present_white_display"
+    },
+    {
+      "id": "supplementaries:trapped_present_light_gray_display"
+    },
+    {
+      "id": "supplementaries:trapped_present_gray_display"
+    },
+    {
+      "id": "supplementaries:trapped_present_black_display"
+    },
+    {
+      "id": "supplementaries:trapped_present_brown_display"
+    },
+    {
+      "id": "supplementaries:trapped_present_red_display"
+    },
+    {
+      "id": "supplementaries:trapped_present_orange_display"
+    },
+    {
+      "id": "supplementaries:trapped_present_yellow_display"
+    },
+    {
+      "id": "supplementaries:trapped_present_lime_display"
+    },
+    {
+      "id": "supplementaries:trapped_present_green_display"
+    },
+    {
+      "id": "supplementaries:trapped_present_cyan_display"
+    },
+    {
+      "id": "supplementaries:trapped_present_light_blue_display"
+    },
+    {
+      "id": "supplementaries:trapped_present_blue_display"
+    },
+    {
+      "id": "supplementaries:trapped_present_purple_display"
+    },
+    {
+      "id": "supplementaries:trapped_present_magenta_display"
+    },
+    {
+      "id": "supplementaries:trapped_present_pink_display"
+    },
+    {
+      "id": "supplementaries:soap_clean_supplementaries_present"
+    },
+    {
+      "id": "supplementaries:soap_clean_supplementaries_trapped_present"
+    },
+    {
+      "id": "supplementaries:soap_clean_quark_shingles_slab"
+    },
+    {
+      "id": "supplementaries:soap_clean_clayworks_terracotta_brick_stairs"
+    },
+    {
+      "id": "supplementaries:soap_clean_moreminecarts_color_detector_rail"
+    },
+    {
+      "id": "supplementaries:soap_clean_quark_stool"
+    },
+    {
+      "id": "supplementaries:soap_clean_quark_shingles_vertical_slab"
+    },
+    {
+      "id": "supplementaries:soap_clean_supplementaries_present"
+    },
+    {
+      "id": "supplementaries:soap_clean_quark_shingles"
+    },
+    {
+      "id": "supplementaries:soap_clean_minecraft_banner"
+    },
+    {
+      "id": "supplementaries:soap_clean_quark_framed_glass_pane"
+    },
+    {
+      "id": "supplementaries:soap_clean_quark_framed_glass"
+    },
+    {
+      "id": "supplementaries:soap_clean_clayworks_terracotta_brick_wall"
+    },
+    {
+      "id": "supplementaries:soap_clean_quark_shingles_stairs"
+    },
+    {
+      "id": "supplementaries:soap_clean_minecraft_concrete_powder"
+    },
+    {
+      "id": "supplementaries:soap_clean_minecraft_concrete"
+    },
+    {
+      "id": "supplementaries:soap_clean_snowyspirit_gumdrop"
+    },
+    {
+      "id": "supplementaries:soap_clean_clayworks_terracotta_brick_slab"
+    },
+    {
+      "id": "supplementaries:soap_clean_supplementaries_candle_holder"
+    },
+    {
+      "id": "supplementaries:soap_clean_snowyspirit_glow_lights"
+    },
+    {
+      "id": "supplementaries:soap_clean_supplementaries_awning"
+    },
+    {
+      "id": "supplementaries:soap_clean_clayworks_terracotta_bricks"
+    },
+    {
+      "id": "supplementaries:soap_clean_minecraft_shulker_box"
+    },
+    {
+      "id": "minecraft:map_extending"
+    },
+    {
+      "id": "emi:/brewing/minecraft/splash_potion/autumnity/snail_goo/minecraft/awkward/autumnity/extension"
+    },
+    {
+      "id": "emi:/brewing/minecraft/potion/autumnity/snail_goo/minecraft/awkward/autumnity/extension"
+    },
+    {
+      "id": "easel_does_it:easel"
+    },
+    {
+      "id": "crafttweaker:pillow_block_mirrored"
+    }
+  ]
+}
+
+//This is a file used to hide recipes which cannot be hidden using the remove_stacks.js file.
+//Sometimes, these are things that are added via some core modding workarounds, like the "lore-display"
+//thing from Supplementaries. You can't really tag a specific object to be hidden using remove_stacks.js,
+//but you can hide it here. I've also used this file to hide the potion recipes for Alex's Mobs, as
+//I couldn't get it to work using the startup_script potion removal.

@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "alexsmobs:crocodile_chestplate"
+        },
+        "title": "Shell We Dance?",
+        "description": "Craft a Scute Chestplate!",
+        "frame": "task"
+
+    },
+    "parent": "gamma:husbandry/obtain_scute",
+    "criteria": {
+        "crocodile_chestplate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["alexsmobs:crocodile_chestplate"]
+                    }
+                ]
+            }
+        }
+    }
+}

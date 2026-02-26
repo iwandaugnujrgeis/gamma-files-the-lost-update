@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "gamma:null",
+  "spawners": [
+    {
+      "type": "spawn:clam",
+      "maxCount": 12,
+      "minCount": 4,
+      "weight": 150
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "forge:add_features",
+  "biomes": 
+  [
+    "rediscovered:cold_skylands",
+    "rediscovered:rainforest",
+    "rediscovered:skylands",
+    "rediscovered:wooded_skylands"
+  ],
+  "features": ["galosphere:ore_silver_large", "galosphere:ore_silver_small"],
+  "step": "underground_ores"
+}
+
+
+
+

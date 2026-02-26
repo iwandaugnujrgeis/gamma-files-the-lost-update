@@ -1,0 +1,41 @@
+{
+  "parent": "alexsmobs:alexsmobs/farseer",
+  "criteria": {
+    "give_gift": {
+      "conditions": {},
+      "trigger": "rediscovered:give_rana_item"
+    },
+    "obtain_rana_spawn_egg": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rediscovered:rana_spawn_egg"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Obtain Rana's Spawn Egg & gift her a Cyan Rose!",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "rediscovered:rana_spawn_egg"
+    },
+    "show_toast": true,
+    "title": "Color of Unsaid Things"
+  },
+  "requirements": [
+    [
+      "give_gift"
+    ],
+    [
+      "obtain_rana_spawn_egg"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

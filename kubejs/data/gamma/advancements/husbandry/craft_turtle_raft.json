@@ -1,0 +1,34 @@
+{
+  "parent": "gamma:husbandry/obtain_scute",
+  "criteria": {
+    "craft_turtle_raft": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "etcetera:turtle_raft"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Obtain a Turtle Raft! More Compact than Boats!",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "etcetera:turtle_raft"
+    },
+    "show_toast": true,
+    "title": "Raft Punk!"
+  },
+  "requirements": [
+    [
+      "craft_turtle_raft"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

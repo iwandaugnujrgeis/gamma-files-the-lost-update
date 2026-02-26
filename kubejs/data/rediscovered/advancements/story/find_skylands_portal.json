@@ -1,0 +1,27 @@
+{
+  "parent": "rediscovered:story/find_ruby",
+  "criteria": {
+    "find_portal": {
+      "trigger": "rediscovered:locate_portal"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Follow the Ruby Eye to the Trail Ruins to Discover a Portal...",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "rediscovered:ruby_eye"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "rediscovered:advancements.story.locate_skylands_portal.title"
+    }
+  },
+  "requirements": [
+    [
+      "find_portal"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "item": "alexsmobs:fish_oil"
+    },
+    "title": "Freedom Acquired",
+    "description": "Tame a Bald Eagle with Fish Oil!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:husbandry/fishy_business",
+  "criteria": {
+    "tame_flutter": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "type": "alexsmobs:bald_eagle"
+        }
+      }
+    }
+  }
+}

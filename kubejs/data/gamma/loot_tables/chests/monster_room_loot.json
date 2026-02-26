@@ -1,0 +1,95 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "gamma:chests/dungeon_loot"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0, 
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:music_disc_acid",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_cat",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:music_disc_dog",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_blocks",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_chirp",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_far",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_mall",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_mellohi",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_stal",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_strad",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_ward",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_wait",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_13",
+          "weight": 1
+        }
+      ], 
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 1.0,
+        "min": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "type": "spawn:anthill",
+  "config": {
+    "anthill_chance": 1
+  }
+}

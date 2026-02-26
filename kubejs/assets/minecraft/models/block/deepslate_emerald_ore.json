@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+      "particle": "gamma:block/missing_block",
+      "down": "gamma:block/missing_block2",
+      "up": "gamma:block/missing_block2",
+      "north": "gamma:block/missing_block",
+      "east": "gamma:block/missing_block2",
+      "south": "gamma:block/missing_block",
+      "west": "gamma:block/missing_block2"
+  }
+}

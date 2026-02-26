@@ -1,0 +1,515 @@
+{
+  "block.nether_reactor.activate": {
+    "sounds": [
+      "rediscovered:block/nether_reactor/activate"
+    ],
+    "subtitle": "subtitles.rediscovered.block.nether_reactor.activate"
+  },
+  "block.nether_reactor.deactivate": {
+    "sounds": [
+      "rediscovered:block/nether_reactor/deactivate"
+    ],
+    "subtitle": "subtitles.rediscovered.block.nether_reactor.deactivate"
+  },
+  "block.nether_reactor.idle": {
+    "sounds": [
+      {
+        "attenuation_distance": 5,
+        "name": "rediscovered:block/nether_reactor/idle"
+      }
+    ],
+    "subtitle": "subtitles.rediscovered.block.nether_reactor.idle"
+  },
+  "block.red_dragon_egg.fertilize": {
+    "sounds": [
+      "rediscovered:block/red_dragon_egg/fertilize"
+    ],
+    "subtitle": "subtitles.rediscovered.block.red_dragon_egg.fertilize"
+  },
+  "block.red_dragon_egg.hatch": {
+    "sounds": [
+      "rediscovered:block/red_dragon_egg/hatch"
+    ],
+    "subtitle": "subtitles.rediscovered.block.red_dragon_egg.hatch"
+  },
+  "block.red_dragon_egg.shake": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "block.stone.step"
+      }
+    ],
+    "subtitle": "subtitles.rediscovered.block.red_dragon_egg.shake"
+  },
+  "block.rotational_converter.click": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "block.lever.click"
+      }
+    ],
+    "subtitle": "subtitles.rediscovered.block.rotational_converter.click"
+  },
+  "block.table.add_item": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "entity.item_frame.add_item"
+      }
+    ],
+    "subtitle": "subtitles.rediscovered.block.table.add_item"
+  },
+  "block.table.remove_item": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "entity.item_frame.remove_item"
+      }
+    ],
+    "subtitle": "subtitles.rediscovered.block.table.remove_item"
+  },
+  "entity.beast_boy.death": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "rediscovered:entity.steve.hurt"
+      }
+    ],
+    "subtitle": "subtitles.rediscovered.entity.beast_boy.death"
+  },
+  "entity.beast_boy.hurt": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "rediscovered:entity.steve.hurt"
+      }
+    ],
+    "subtitle": "subtitles.rediscovered.entity.beast_boy.hurt"
+  },
+  "entity.black_steve.death": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "rediscovered:entity.steve.hurt"
+      }
+    ],
+    "subtitle": "subtitles.rediscovered.entity.black_steve.death"
+  },
+  "entity.black_steve.hurt": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "rediscovered:entity.steve.hurt"
+      }
+    ],
+    "subtitle": "subtitles.rediscovered.entity.black_steve.hurt"
+  },
+  "entity.dragon_pylon.death": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "entity.generic.explode"
+      }
+    ],
+    "subtitle": "subtitles.rediscovered.entity.dragon_pylon.death"
+  },
+  "entity.dragon_pylon.hurt": {
+    "sounds": [
+      "rediscovered:entity/dragon_pylon/hurt_1",
+      "rediscovered:entity/dragon_pylon/hurt_2",
+      "rediscovered:entity/dragon_pylon/hurt_3"
+    ],
+    "subtitle": "subtitles.rediscovered.entity.dragon_pylon.hurt"
+  },
+  "entity.dragon_pylon.shield_lost": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "block.respawn_anchor.deplete"
+      }
+    ],
+    "subtitle": "subtitles.rediscovered.entity.dragon_pylon.shield_lost"
+  },
+  "entity.fish.death": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "entity.cod.death"
+      }
+    ],
+    "subtitle": "subtitles.rediscovered.entity.fish.death"
+  },
+  "entity.fish.flop": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "entity.cod.flop"
+      }
+    ],
+    "subtitle": "subtitles.rediscovered.entity.fish.flop"
+  },
+  "entity.fish.hurt": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "entity.cod.hurt"
+      }
+    ],
+    "subtitle": "subtitles.rediscovered.entity.fish.hurt"
+  },
+  "entity.pigman.agree": {
+    "sounds": [
+      "rediscovered:entity/pigman/agree"
+    ],
+    "subtitle": "subtitles.rediscovered.entity.pigman.agree"
+  },
+  "entity.pigman.death": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "entity.pig.death"
+      }
+    ],
+    "subtitle": "subtitles.rediscovered.entity.pigman.death"
+  },
+  "entity.pigman.disagree": {
+    "sounds": [
+      "rediscovered:entity/pigman/disagree_1",
+      "rediscovered:entity/pigman/disagree_2"
+    ],
+    "subtitle": "subtitles.rediscovered.entity.pigman.disagree"
+  },
+  "entity.pigman.hurt": {
+    "sounds": [
+      "rediscovered:entity/pigman/hurt_1",
+      "rediscovered:entity/pigman/hurt_2"
+    ],
+    "subtitle": "subtitles.rediscovered.entity.pigman.hurt"
+  },
+  "entity.pigman.idle": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "entity.pig.ambient"
+      }
+    ],
+    "subtitle": "subtitles.rediscovered.entity.pigman.idle"
+  },
+  "entity.pigman.scared": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "rediscovered:entity.pigman.hurt"
+      }
+    ],
+    "subtitle": "subtitles.rediscovered.entity.pigman.scared"
+  },
+  "entity.pigman.work_bowyer": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "entity.villager.work_fletcher"
+      }
+    ],
+    "subtitle": "subtitles.rediscovered.entity.pigman.work_bowyer"
+  },
+  "entity.pigman.work_doctor": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "entity.villager.work_cleric"
+      }
+    ],
+    "subtitle": "subtitles.rediscovered.entity.pigman.work_doctor"
+  },
+  "entity.pigman.work_metalworker": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "entity.villager.work_toolsmith"
+      }
+    ],
+    "subtitle": "subtitles.rediscovered.entity.pigman.work_metalworker"
+  },
+  "entity.pigman.work_tailor": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "entity.villager.work_shepherd"
+      }
+    ],
+    "subtitle": "subtitles.rediscovered.entity.pigman.work_tailor"
+  },
+  "entity.pigman.work_technician": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "item.axe.scrape"
+      }
+    ],
+    "subtitle": "subtitles.rediscovered.entity.pigman.work_technician"
+  },
+  "entity.pigman.zombify": {
+    "sounds": [
+      "rediscovered:entity/pigman/zombify_1",
+      "rediscovered:entity/pigman/zombify_2"
+    ],
+    "subtitle": "subtitles.rediscovered.entity.pigman.zombify"
+  },
+  "entity.pylon_burst.destroyed": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "entity.shulker_bullet.hurt"
+      }
+    ],
+    "subtitle": "subtitles.rediscovered.entity.pylon_burst.destroyed"
+  },
+  "entity.pylon_burst.explode": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "entity.shulker_bullet.hit"
+      }
+    ],
+    "subtitle": "subtitles.rediscovered.entity.pylon_burst.explode"
+  },
+  "entity.rana.death": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "entity.generic.hurt"
+      }
+    ],
+    "subtitle": "subtitles.rediscovered.entity.rana.death"
+  },
+  "entity.rana.hurt": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "entity.generic.hurt"
+      }
+    ],
+    "subtitle": "subtitles.rediscovered.entity.rana.hurt"
+  },
+  "entity.red_dragon.bolt_ball_charge": {
+    "sounds": [
+      "rediscovered:entity/red_dragon/bolt_ball_charge"
+    ],
+    "subtitle": "subtitles.rediscovered.entity.red_dragon.bolt_ball_charge"
+  },
+  "entity.red_dragon.bolt_ball_shoot": {
+    "sounds": [
+      "rediscovered:entity/red_dragon/bolt_ball_shoot_1",
+      "rediscovered:entity/red_dragon/bolt_ball_shoot_2"
+    ],
+    "subtitle": "subtitles.rediscovered.entity.red_dragon.bolt_ball_shoot"
+  },
+  "entity.red_dragon.death": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "entity.ender_dragon.death"
+      }
+    ],
+    "subtitle": "subtitles.rediscovered.entity.red_dragon.death"
+  },
+  "entity.red_dragon.equip_armor": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "entity.horse.armor"
+      }
+    ],
+    "subtitle": "subtitles.rediscovered.entity.red_dragon.equip_armor"
+  },
+  "entity.red_dragon.equip_saddle": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "entity.horse.saddle"
+      }
+    ],
+    "subtitle": "subtitles.rediscovered.entity.red_dragon.equip_saddle"
+  },
+  "entity.red_dragon.flap": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "entity.ender_dragon.flap"
+      }
+    ],
+    "subtitle": "subtitles.rediscovered.entity.red_dragon.flap"
+  },
+  "entity.red_dragon.hurt": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "entity.ender_dragon.hurt"
+      }
+    ],
+    "subtitle": "subtitles.rediscovered.entity.red_dragon.hurt"
+  },
+  "entity.red_dragon.idle": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "entity.ender_dragon.ambient"
+      }
+    ],
+    "subtitle": "subtitles.rediscovered.entity.red_dragon.idle"
+  },
+  "entity.red_dragon.idle_calm": {
+    "sounds": [
+      "rediscovered:entity/red_dragon/idle_calm_1",
+      "rediscovered:entity/red_dragon/idle_calm_2"
+    ],
+    "subtitle": "subtitles.rediscovered.entity.red_dragon.idle_calm"
+  },
+  "entity.red_dragon.prepare_wind_blow": {
+    "sounds": [
+      "rediscovered:entity/red_dragon/prepare_wind_blow"
+    ],
+    "subtitle": "subtitles.rediscovered.entity.red_dragon.prepare_wind_blow"
+  },
+  "entity.red_dragon.shed_bursts": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "entity.shulker.shoot"
+      }
+    ],
+    "subtitle": "subtitles.rediscovered.entity.red_dragon.shed_bursts"
+  },
+  "entity.red_dragon.shield_down": {
+    "sounds": [
+      "rediscovered:entity/red_dragon/shield_down"
+    ],
+    "subtitle": "subtitles.rediscovered.entity.red_dragon.shield_down"
+  },
+  "entity.red_dragon.step": {
+    "sounds": [
+      "rediscovered:entity/red_dragon/step_1",
+      "rediscovered:entity/red_dragon/step_2",
+      "rediscovered:entity/red_dragon/step_3",
+      "rediscovered:entity/red_dragon/step_4"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "entity.red_dragon.wind": {
+    "sounds": [
+      "rediscovered:entity/red_dragon/wind_1",
+      "rediscovered:entity/red_dragon/wind_2",
+      "rediscovered:entity/red_dragon/wind_3",
+      "rediscovered:entity/red_dragon/wind_4"
+    ],
+    "subtitle": "subtitles.rediscovered.entity.red_dragon.wind"
+  },
+  "entity.steve.death": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "rediscovered:entity.steve.hurt"
+      }
+    ],
+    "subtitle": "subtitles.rediscovered.entity.steve.death"
+  },
+  "entity.steve.hurt": {
+    "sounds": [
+      "rediscovered:entity/steve/hurt"
+    ],
+    "subtitle": "subtitles.rediscovered.entity.steve.hurt"
+  },
+  "entity.zombie_pigman.angry": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "entity.zombified_piglin.angry"
+      }
+    ],
+    "subtitle": "subtitles.rediscovered.entity.zombie_pigman.angry"
+  },
+  "entity.zombie_pigman.cure": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "entity.zombie_villager.cure"
+      }
+    ],
+    "subtitle": "subtitles.rediscovered.entity.zombie_pigman.cure"
+  },
+  "entity.zombie_pigman.death": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "entity.zombified_piglin.death"
+      }
+    ],
+    "subtitle": "subtitles.rediscovered.entity.zombie_pigman.death"
+  },
+  "entity.zombie_pigman.finish_cure": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "entity.zombie_villager.converted"
+      }
+    ],
+    "subtitle": "subtitles.rediscovered.entity.zombie_pigman.finish_cure"
+  },
+  "entity.zombie_pigman.hurt": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "entity.zombified_piglin.hurt"
+      }
+    ],
+    "subtitle": "subtitles.rediscovered.entity.zombie_pigman.hurt"
+  },
+  "entity.zombie_pigman.idle": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "entity.zombified_piglin.ambient"
+      }
+    ],
+    "subtitle": "subtitles.rediscovered.entity.zombie_pigman.idle"
+  },
+  "entity.zombie_pigman.select_melee": {
+    "sounds": [
+      "rediscovered:entity/zombie_pigman/select_melee"
+    ],
+    "subtitle": "subtitles.rediscovered.entity.zombie_pigman.select_melee"
+  },
+  "entity.zombie_pigman.select_ranged": {
+    "sounds": [
+      "rediscovered:entity/zombie_pigman/select_ranged"
+    ],
+    "subtitle": "subtitles.rediscovered.entity.zombie_pigman.select_ranged"
+  },
+  "item.armor.equip_plate": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "item.armor.equip_netherite"
+      }
+    ],
+    "subtitle": "subtitles.rediscovered.item.armor.equip_plate"
+  },
+  "item.armor.equip_studded": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "item.armor.equip_chain"
+      }
+    ],
+    "subtitle": "subtitles.rediscovered.item.armor.equip_studded"
+  },
+  "records.magnetic_circuit": {
+    "sounds": [
+      {
+        "name": "rediscovered:records/calm4",
+        "stream": true
+      }
+    ]
+  }
+}

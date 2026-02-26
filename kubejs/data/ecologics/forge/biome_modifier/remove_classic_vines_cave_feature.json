@@ -1,0 +1,6 @@
+{
+  "type": "forge:remove_features",
+  "biomes": "gamma:null",
+  "features": "minecraft:classic_vines_cave_feature",
+  "step": "vegetal_decoration"
+}

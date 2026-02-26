@@ -1,0 +1,374 @@
+{
+  "tab_enabled": true,
+  "tab_name": "gamma_functional",
+  "replace": true,
+  "tab_stack": 
+  {
+    "name":"minecraft:crafting_table"
+  },
+  "tab_items": [
+    {
+      "name": "minecraft:crafting_table"
+    },
+    {
+      "name": "minecraft:furnace"
+    },
+    {
+      "name": "supplementaries:feather_block"
+    },
+    {
+      "name": "minecraft:stonecutter"
+    },
+    {
+      "name": "minecraft:lodestone"
+    },
+    {
+      "name": "minecraft:bookshelf"
+    },
+    {
+      "name": "minecraft:chiseled_bookshelf"
+    },
+    {
+      "name": "minecraft:chest"
+    },
+    {
+      "name": "minecraft:trapped_chest"
+    },
+    {
+      "name": "minecraft:ender_chest"
+    },
+    {
+      "name": "minecraft:barrel"
+    },
+    {
+      "name": "supplementaries:sack"
+    },
+    {
+      "name": "etcetera:prickly_can"
+    },
+    {
+      "name": "supplementaries:rope"
+    },
+    {
+      "name": "spelunkery:rope_ladder"
+    },
+    {
+      "name": "minecraft:ladder"
+    },
+    {
+      "name": "supplementaries:doormat"
+    },
+    {
+      "name": "minecraft:painting"
+    },
+    {
+      "name": "minecraft:item_frame"
+    },
+    {
+      "name": "minecraft:glow_item_frame"
+    },
+    {
+      "name": "snowyspirit:snow_globe"
+    },
+    {
+      "name": "minecraft:flower_pot"
+    },
+    {
+      "name": "spawn:potted_sweet_berries"
+    },
+    {
+      "name": "alexsmobs:potted_flutter"
+    },
+    {
+      "name": "etcetera:terracotta_vase"
+    },
+    {
+      "name": "minecraft:armor_stand"
+    },
+    {
+      "name": "supplementaries:hat_stand"
+    },
+    {
+      "name": "quark:iron_rod"
+    },
+    {
+      "name": "rediscovered:spikes"
+    },
+    {
+      "name": "minecraft:tnt"
+    },
+    {
+      "name": "rediscovered:scarecrow"
+    },
+    {
+      "name": "supplementaries:statue"
+    },
+    {
+      "name": "snowyspirit:glow_lights_prismatic"
+    },
+    {
+      "name": "snowyspirit:wreath"
+    },
+    {
+      "name": "minecraft:bell"
+    },
+    {
+      "name": "caverns_and_chasms:floodlight"
+    },
+    {
+      "name": "kubejs:lava_lamp"
+    },
+    {
+      "name": "minecraft:redstone_lamp"
+    },
+    {
+      "name": "supplementaries:redstone_illuminator"
+    },
+    {
+      "name": "rediscovered:obsidian_bulb"
+    },
+    {
+      "name": "minecraft:brewing_stand"
+    },
+    {
+      "name": "minecraft:cauldron"
+    },
+    {
+      "name": "caverns_and_chasms:brazier"
+    },
+    {
+      "name": "minecraft:respawn_anchor"
+    },
+    {
+      "name": "minecraft:composter"
+    },
+    {
+      "name": "minecraft:beehive"
+    },
+    {
+      "name": "minecraft:lectern"
+    },
+    {
+      "name": "minecraft:loom"
+    },
+    {
+      "name": "minecraft:cartography_table"
+    },
+    {
+      "name": "minecraft:fletching_table"
+    },
+    {
+      "name": "easel_does_it:easel"
+    },
+    {
+      "name": "supplementaries:notice_board"
+    },
+    {
+      "name": "supplementaries:blackboard"
+    },
+    {
+      "name": "minecraft:oak_sign"
+    },
+    {
+      "name": "minecraft:oak_hanging_sign"
+    },
+    {
+      "name": "minecraft:spruce_sign"
+    },
+    {
+      "name": "minecraft:spruce_hanging_sign"
+    },
+    {
+      "name": "minecraft:birch_sign"
+    },
+    {
+      "name": "minecraft:birch_hanging_sign"
+    },
+    {
+      "name": "minecraft:jungle_sign"
+    },
+    {
+      "name": "minecraft:jungle_hanging_sign"
+    },
+    {
+      "name": "minecraft:acacia_sign"
+    },
+    {
+      "name": "minecraft:acacia_hanging_sign"
+    },
+    {
+      "name": "minecraft:dark_oak_sign"
+    },
+    {
+      "name": "minecraft:dark_oak_hanging_sign"
+    },
+    {
+      "name": "minecraft:mangrove_sign"
+    },
+    {
+      "name": "minecraft:mangrove_hanging_sign"
+    },
+    {
+      "name": "minecraft:cherry_sign"
+    },
+    {
+      "name": "minecraft:cherry_hanging_sign"
+    },
+    {
+      "name": "upgrade_aquatic:driftwood_sign"
+    },
+    {
+      "name": "upgrade_aquatic:driftwood_hanging_sign"
+    },
+    {
+      "name": "upgrade_aquatic:river_sign"
+    },
+    {
+      "name": "upgrade_aquatic:river_hanging_sign"
+    },
+    {
+      "name": "minecraft:bamboo_sign"
+    },
+    {
+      "name": "minecraft:bamboo_hanging_sign"
+    },
+    {
+      "name": "farmersdelight:canvas_sign"
+    },
+    {
+      "name": "farmersdelight:hanging_canvas_sign"
+    },
+    {
+      "name": "coraline_systems:torch"
+    },
+    {
+      "name": "minecraft:redstone_torch"
+    },
+    {
+      "name": "minecraft:soul_torch"
+    },
+    {
+      "name": "spelunkery:glowstick"
+    },
+    {
+      "name": "spelunkery:white_glowstick"
+    },
+    {
+      "name": "spelunkery:light_gray_glowstick"
+    },
+    {
+      "name": "spelunkery:gray_glowstick"
+    },
+    {
+      "name": "spelunkery:black_glowstick"
+    },
+    {
+      "name": "spelunkery:brown_glowstick"
+    },
+    {
+      "name": "spelunkery:red_glowstick"
+    },
+    {
+      "name": "spelunkery:orange_glowstick"
+    },
+    {
+      "name": "spelunkery:yellow_glowstick"
+    },
+    {
+      "name": "spelunkery:lime_glowstick"
+    },
+    {
+      "name": "spelunkery:green_glowstick"
+    },
+    {
+      "name": "spelunkery:cyan_glowstick"
+    },
+    {
+      "name": "spelunkery:light_blue_glowstick"
+    },
+    {
+      "name": "spelunkery:blue_glowstick"
+    },
+    {
+      "name": "spelunkery:purple_glowstick"
+    },
+    {
+      "name": "spelunkery:magenta_glowstick"
+    },
+    {
+      "name": "spelunkery:pink_glowstick"
+    },
+    {
+      "name": "minecraft:player_head"
+    },
+    {
+      "name": "caverns_and_chasms:mime_head"
+    },
+    {
+      "name": "minecraft:zombie_head"
+    },
+    {
+      "name": "minecraft:creeper_head"
+    },
+    //{
+      //"name": "caverns_and_chasms:peeper_head"
+    //},
+    {
+      "name": "minecraft:skeleton_skull"
+    },
+    {
+      "name": "minecraft:wither_skeleton_skull"
+    },
+    {
+      "name": "supplementaries:enderman_head"
+    },
+    {
+      "name": "rediscovered:red_dragon_egg"
+    },
+    {
+      "name": "moyai:moyai"
+    },
+    {
+      "name": "minecraft:infested_stone"
+    },
+    {
+      "name": "minecraft:infested_cobblestone"
+    },
+    {
+      "name": "minecraft:infested_stone_bricks"
+    },
+    {
+      "name": "minecraft:infested_mossy_stone_bricks"
+    },
+    {
+      "name": "minecraft:infested_cracked_stone_bricks"
+    },
+    {
+      "name": "minecraft:infested_chiseled_stone_bricks"
+    },
+    {
+      "name": "minecraft:infested_deepslate"
+    },
+    {
+      "name": "minecraft:beacon"
+    },
+    {
+      "name": "rediscovered:nether_reactor_core"
+    },
+    {
+      "name": "rediscovered:mini_dragon_pylon"
+    },
+    {
+      "name": "rediscovered:dragon_altar"
+    },
+    {
+      "name": "minecraft:conduit"
+    },
+    {
+      "name": "upgrade_aquatic:elder_eye"
+    },
+    {
+      "name": "quark:tiny_potato"
+    }
+  ]
+}

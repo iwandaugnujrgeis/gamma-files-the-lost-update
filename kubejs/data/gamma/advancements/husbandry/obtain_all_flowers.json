@@ -1,0 +1,484 @@
+{
+  "parent": "minecraft:husbandry/root",
+  "criteria": {
+    "torchflower": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:torchflower"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "pink_searocket": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "upgrade_aquatic:pink_searocket"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "white_searocket": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "upgrade_aquatic:white_searocket"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "lily_of_the_valley": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lily_of_the_valley"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "cornflower": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cornflower"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "oxeye_daisy": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:oxeye_daisy"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "pink_tulip": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pink_tulip"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "white_tulip": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:white_tulip"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "orange_tulip": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:orange_tulip"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "poppy": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:poppy"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "rose": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rediscovered:rose"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "paeonia": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rediscovered:paeonia"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "cyan_rose": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rediscovered:cyan_rose"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "blue_orchid": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:blue_orchid"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "allium": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:allium"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "azure_bluet": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:azure_bluet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "wood_sorrel": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sweety_garden:wood_sorrel"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "dandelion": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dandelion"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "passion_flower": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sweety_garden:passion_flower"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "red_tulip": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:red_tulip"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "blowball": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "habitat:blowball"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "edelweiss": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "habitat:edelweiss"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "pitcher_plant": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pitcher_plant"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "peony": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:peony"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "rose_bush": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:rose_bush"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "lilac": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lilac"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "pink_petals": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pink_petals"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "wither_rose": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wither_rose"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "wood_anemone": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sweety_garden:wood_anemone"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "hepatica": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sweety_garden:hepatica"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "purple_shamrock": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sweety_garden:purple_shamrock"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Obtain (Almost) All Flowers!",
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "habitat:edelweiss"
+    },
+    "show_toast": true,
+    "title": "Florist Simulator"
+  },
+  "requirements": [
+    [
+      "torchflower"
+    ],
+    [
+      "pink_searocket"
+    ],
+    [
+      "white_searocket"
+    ],
+    [
+      "lily_of_the_valley"
+    ],
+    [
+      "cornflower"
+    ],
+    [
+      "oxeye_daisy"
+    ],
+    [
+      "pink_tulip"
+    ],
+    [
+      "white_tulip"
+    ],
+    [
+      "orange_tulip"
+    ],
+    [
+      "poppy"
+    ],
+    [
+      "rose"
+    ],
+    [
+      "paeonia"
+    ],
+    [
+      "cyan_rose"
+    ],
+    [
+      "blue_orchid"
+    ],
+    [
+      "allium"
+    ],
+    [
+      "azure_bluet"
+    ],
+    [
+      "wood_sorrel"
+    ],
+    [
+      "dandelion"
+    ],
+    [
+      "passion_flower"
+    ],
+    [
+      "red_tulip"
+    ],
+    [
+      "blowball"
+    ],
+    [
+      "edelweiss"
+    ],
+    [
+      "pitcher_plant"
+    ],
+    [
+      "peony"
+    ],
+    [
+      "rose_bush"
+    ],
+    [
+      "lilac"
+    ],
+    [
+      "pink_petals"
+    ],
+    [
+      "wither_rose"
+    ],
+    [
+      "wood_anemone"
+    ],
+    [
+      "hepatica"
+    ],
+    [
+      "purple_shamrock"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:story/form_obsidian",
+  "criteria": {
+    "entered_nether": {
+      "conditions": {
+        "to": "minecraft:the_nether"
+      },
+      "trigger": "minecraft:changed_dimension"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Enter the Nether Portal",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:flint_and_steel",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": "We Need to Go Deeper!"
+  },
+  "requirements": [
+    [
+      "entered_nether"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

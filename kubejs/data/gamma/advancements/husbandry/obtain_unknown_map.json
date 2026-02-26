@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "citadel:fancy_item",
+      "nbt": "{DisplayItem:\"supplementaries:cartographers_quill\", DisplayBob:1, DisplayZoom:0, DisplayScale:1, DisplaySpin:0, DisplayShake:0}"
+    },
+    "title": "Unmarked Route",
+    "description": "Obtain an Unknown Map while fishing!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:husbandry/fishy_business",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "supplementaries:cartographers_quill"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:husbandry/root",
+  "criteria": {
+    "snip_the_bear": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "alexsmobs:bear_fur"
+    },
+    "title": {
+      "text": "Bear Barber"
+    },
+    "description": "Snip a Bear's Hair!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  }
+}

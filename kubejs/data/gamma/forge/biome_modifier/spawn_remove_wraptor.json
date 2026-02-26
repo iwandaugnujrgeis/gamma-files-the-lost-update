@@ -1,0 +1,7 @@
+{
+  "type": "forge:remove_spawns",
+  "biomes": "minecraft:warped_forest",
+  "entity_types": [
+    "species:wraptor"
+  ]
+}

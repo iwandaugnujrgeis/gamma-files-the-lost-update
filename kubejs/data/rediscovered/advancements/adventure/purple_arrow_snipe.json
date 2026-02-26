@@ -1,0 +1,53 @@
+{
+  "parent": "gamma:detour/kill_a_mob",
+  "criteria": {
+    "snipe": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "distance": {
+                "horizontal": {
+                  "min": 100.0
+                }
+              }
+            }
+          }
+        ],
+        "killing_blow": {
+          "direct_entity": {
+            "type": "rediscovered:purple_arrow"
+          },
+          "tags": [
+            {
+              "expected": true,
+              "id": "minecraft:is_projectile"
+            }
+          ]
+        }
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Deliever a Final Blow\nfrom 100 Blocks' Distance!",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "rediscovered:purple_arrow"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "rediscovered:advancements.adventure.purple_arrow_snipe.title"
+    }
+  },
+  "requirements": [
+    [
+      "snipe"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

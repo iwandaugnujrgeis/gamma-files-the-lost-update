@@ -1,0 +1,20 @@
+{
+  "structures": [
+    {
+      "structure": "gamma:ruins",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 34211272,
+    "spacing": 32,
+    "separation": 7,
+    "type": "minecraft:random_spread",
+    "frequency": 0.5,
+    "spread_type": "triangular",
+    "exclusion_zone": {
+      "other_set": "#gamma:ruins_avoid",
+      "chunk_count": 12
+    }
+  }
+}

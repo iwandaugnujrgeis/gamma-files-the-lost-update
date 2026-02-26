@@ -1,0 +1,41 @@
+{
+  "modifiers": [
+    {
+      "type": "parent",
+      "config": "minecraft:adventure/trade"
+    },
+    {
+      "type": "criteria",
+      "conditions": [
+        {
+          "type": "savage_and_ravage:config",
+          "value": "no_bad_omen_on_death"
+        }
+      ],
+      "config": {
+        "criteria": {
+          "savage_and_ravage:voluntary_exile": {
+            "trigger": "savage_and_ravage:burn_ominous_banner"
+          }
+        }
+      }
+    },
+    {
+      "type": "display",
+      "conditions": [
+        {
+          "type": "savage_and_ravage:config",
+          "value": "no_bad_omen_on_death"
+        }
+      ],
+      "config": {
+        "description": {
+          "translate": "advancements.savage_and_ravage.adventure.voluntary_exile.description"
+        },
+        "mode": "modify"
+      }
+    }
+  ],
+  "priority": "normal",
+  "selector": "minecraft:adventure/voluntary_exile"
+}

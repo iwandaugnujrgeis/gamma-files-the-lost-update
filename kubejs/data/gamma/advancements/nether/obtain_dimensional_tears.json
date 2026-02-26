@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "spelunkery:portal_fluid_bottle"
+    },
+    "title": "100% Interplanar Sadness",
+    "description": "Obtain the Bottle o' Dimensional Tears using the Respawn Anchor!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:nether/charge_respawn_anchor",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "spelunkery:portal_fluid_bottle"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

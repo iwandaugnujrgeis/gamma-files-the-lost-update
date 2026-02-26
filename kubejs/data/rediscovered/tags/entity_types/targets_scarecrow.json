@@ -1,0 +1,17 @@
+{
+  "values": [
+    "minecraft:zombie",
+    "minecraft:zombie_villager",
+    "minecraft:drowned",
+    "minecraft:husk",
+    "minecraft:zoglin",
+    "minecraft:hoglin",
+    "minecraft:giant",
+    "minecraft:goat",
+    "minecraft:ravager",
+    {
+      "id": "alexsmobs:tusklin",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:story/iron_tools",
+  "display": {
+    "icon": {
+      "item": "galosphere:raw_silver"
+    },
+    "title": "The Silver Lining",
+    "description": "Mine Silver in the Skylands!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "mine_silver": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "galosphere:raw_silver"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "mine_silver"
+    ]
+  ]
+}

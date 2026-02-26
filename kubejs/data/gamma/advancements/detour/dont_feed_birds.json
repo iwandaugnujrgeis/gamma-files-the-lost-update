@@ -1,0 +1,19 @@
+{
+  "parent": "gamma:detour/craft_bear_dust",
+  "criteria": {
+      "why_did_you_feed_the_birds": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Feed a Chicken with... Bear Dust!",
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "item": "minecraft:feather"
+    },
+    "show_toast": true,
+    "title": "Cluckzilla"
+  }
+}

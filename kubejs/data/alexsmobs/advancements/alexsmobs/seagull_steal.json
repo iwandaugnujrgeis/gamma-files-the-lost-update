@@ -1,0 +1,21 @@
+{
+  "display": {
+    "hidden": false,
+    "icon": {
+      "item": "supplementaries:candy"
+    },
+    "title": "Mine All Mine!",
+    "description": "Have a Seagull steal Food from your Inventory"
+  },
+  "parent": "rediscovered:husbandry/craft_scarecrow",
+  "criteria": {
+    "ex": {
+      "trigger": "alexsmobs:seagull_steal"
+    }
+  },
+  "requirements": [
+    [
+      "ex"
+    ]
+  ]
+}

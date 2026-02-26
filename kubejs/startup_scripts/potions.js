@@ -1,0 +1,155 @@
+//All Potions:
+//minecraft:empty
+//minecraft:water
+//minecraft:mundane
+//minecraft:thick
+//minecraft:awkward
+//minecraft:night_vision
+//minecraft:long_night_vision
+//minecraft:invisibility
+//minecraft:long_invisibility
+//minecraft:leaping
+//minecraft:long_leaping
+//minecraft:strong_leaping
+//minecraft:fire_resistance
+//minecraft:long_fire_resistance
+//minecraft:swiftness
+//minecraft:long_swiftness
+//minecraft:strong_swiftness
+//minecraft:slowness
+//minecraft:long_slowness
+//minecraft:strong_slowness
+//minecraft:turtle_master
+//minecraft:long_turtle_master
+//minecraft:strong_turtle_master
+//minecraft:water_breathing
+//minecraft:long_water_breathing
+//minecraft:healing
+//minecraft:strong_healing
+//minecraft:harming
+//minecraft:strong_harming
+//minecraft:poison
+//minecraft:long_poison
+//minecraft:strong_poison
+//minecraft:regeneration
+//minecraft:long_regeneration
+//minecraft:strong_regeneration
+//minecraft:strength
+//minecraft:long_strength
+//minecraft:strong_strength
+//minecraft:weakness
+//minecraft:long_weakness
+//minecraft:luck
+//minecraft:slow_falling
+//minecraft:long_slow_falling
+//habitat:blast_endurance
+//habitat:long_blast_endurance
+//habitat:strong_blast_endurance
+//habitat:prickling
+//habitat:long_prickling
+//habitat:strong_prickling
+//ecologics:sliding
+//ecologics:long_sliding
+//earthmobsmod:hyper_spark
+//earthmobsmod:long_hyper_spark
+//earthmobsmod:undead_body
+//earthmobsmod:long_undead_body
+//earthmobsmod:zombified
+//earthmobsmod:toughness
+//earthmobsmod:long_toughness
+//earthmobsmod:strong_toughness
+//galosphere:astral
+//galosphere:long_astral
+//alexsmobs:knockback_resistance
+//alexsmobs:long_knockback_resistance
+//alexsmobs:strong_knockback_resistance
+//alexsmobs:lava_vision
+//alexsmobs:long_lava_vision
+//alexsmobs:speed_iii
+//alexsmobs:poison_resistance
+//alexsmobs:long_poison_resistance
+//alexsmobs:bug_pheromones
+//alexsmobs:long_bug_pheromones
+//alexsmobs:soulsteal
+//alexsmobs:long_soulsteal
+//alexsmobs:strong_soulsteal
+//alexsmobs:clinging
+//alexsmobs:long_clinging
+//species:bloodlust
+//upgrade_aquatic:insomnia
+//upgrade_aquatic:insomnia_strong
+//upgrade_aquatic:restfulness
+//upgrade_aquatic:restfulness_strong
+//upgrade_aquatic:repellence
+//upgrade_aquatic:repellence_strong
+//upgrade_aquatic:repellence_long
+//upgrade_aquatic:vibing
+//upgrade_aquatic:vibing_strong
+//upgrade_aquatic:vibing_long
+//friendsandfoes:reaching
+//friendsandfoes:long_reaching
+//friendsandfoes:strong_reaching
+//quark:resilience
+//quark:long_resilience
+//quark:strong_resilience
+//rediscovered:golden_aura
+//rediscovered:long_golden_aura
+//rediscovered:strong_golden_aura
+//rediscovered:crimson_veil
+//caverns_and_chasms:rewind'
+//caverns_and_chasms:long_rewind'
+
+MoreJSEvents.registerPotionBrewing(event => {
+    const removedPotions = [
+        'earthmobsmod:hyper_spark',
+        'earthmobsmod:long_hyper_spark',
+        'earthmobsmod:long_toughness',
+        'earthmobsmod:long_undead_body',
+        'earthmobsmod:strong_toughness',
+        'earthmobsmod:toughness',
+        'earthmobsmod:undead_body',
+        'earthmobsmod:zombified',
+        'ecologics:long_sliding',
+        'ecologics:sliding',
+        'friendsandfoes:long_reaching',
+        'friendsandfoes:reaching',
+        'friendsandfoes:strong_reaching',
+        'habitat:blast_endurance',
+        'habitat:long_blast_endurance',
+        'habitat:long_prickling',
+        'habitat:prickling',
+        'habitat:strong_blast_endurance',
+        'habitat:strong_prickling',
+        'minecraft:healing',
+        'minecraft:leaping',
+        'minecraft:mundane',
+        'minecraft:mundane',
+        'minecraft:night_vision',
+        'minecraft:strength',
+        'minecraft:thick',
+        'minecraft:water_breathing',
+        'quark:resilience',
+        'quark:long_resilience',
+        'quark:strong_resilience',
+        'rediscovered:golden_aura',
+        'rediscovered:long_golden_aura',
+        'rediscovered:strong_golden_aura',
+        'species:bloodlust',
+        'upgrade_aquatic:repellence',
+        'upgrade_aquatic:repellence_long',
+        'upgrade_aquatic:repellence_strong',
+        'upgrade_aquatic:vibing',
+        'upgrade_aquatic:vibing_long',
+        'upgrade_aquatic:vibing_strong',
+        'upgrade_aquatic:restfulness',
+        'upgrade_aquatic:restfulness_strong',
+        'upgrade_aquatic:insomnia',
+        'upgrade_aquatic:insomnia_strong'
+        //'caverns_and_chasms:rewind',
+        //'caverns_and_chasms:long_rewind'
+    ]
+
+    removedPotions.forEach(potionId => {
+        event.removeByPotion(null, null, potionId)
+    })
+})

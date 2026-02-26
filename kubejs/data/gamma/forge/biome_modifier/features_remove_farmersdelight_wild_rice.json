@@ -1,0 +1,6 @@
+{
+  "type": "forge:remove_features",
+  "biomes": "#forge:is_wet/overworld",
+  "features": "farmersdelight:patch_wild_rice",
+  "step": "vegetal_decoration"
+}

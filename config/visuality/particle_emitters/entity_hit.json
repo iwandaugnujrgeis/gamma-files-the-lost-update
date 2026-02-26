@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "min_amount": 1,
+  "max_amount": 6,
+  "entries": [
+    {
+      "entity": [
+        "minecraft:villager",
+        "minecraft:wandering_trader"
+      ],
+      "particle": {
+        "type": "visuality:emerald"
+      }
+    }
+  ]
+}

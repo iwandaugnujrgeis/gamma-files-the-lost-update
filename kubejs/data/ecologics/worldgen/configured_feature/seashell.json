@@ -1,0 +1,50 @@
+{
+  "type": "ecologics:coastal",
+  "config": {
+    "to_place": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:dead_bush",
+            "Properties": {
+              "facing": "east",
+              "waterlogged": "false"
+            }
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:dead_bush",
+            "Properties": {
+              "facing": "west",
+              "waterlogged": "false"
+            }
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:dead_bush",
+            "Properties": {
+              "facing": "north",
+              "waterlogged": "false"
+            }
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:dead_bush",
+            "Properties": {
+              "facing": "south",
+              "waterlogged": "false"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

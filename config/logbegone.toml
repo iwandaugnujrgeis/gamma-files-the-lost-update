@@ -1,0 +1,5 @@
+
+[logbegone]
+	regex = ["Disconnecting VANILLA connection attempt", "Channels ", "Unknown sound in allowed sound config", "Comparing", "appendNextTo", "front empty=false", "target is", "hit early", "adding target=1", "Matched! Adding successfully", "EmbButton:"]
+	phrases = ["Disconnecting VANILLA connection attempt", "Channels ", "Unknown sound in allowed sound config", "Comparing", "appendNextTo", "front empty=false", "target is", "hit early", "adding target=1", "Matched! Adding successfully", "EmbButton:"]
+

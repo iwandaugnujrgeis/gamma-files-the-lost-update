@@ -1,0 +1,44 @@
+{
+	// Generates all block states for all blocks in the registry.
+	"generate_all_known_states": false,
+	// Whether blocks are replaced in existing chunks.
+	"retro_gen": false,
+
+	"state_swapper": [],
+
+	"swapper": 
+	{
+		"minecraft:lantern": "minecraft:air", //Bastions!
+		"minecraft:deepslate_iron_ore": "minecraft:deepslate",
+		'minecraft:blast_furnace': "minecraft:furnace",
+		'minecraft:campfire': "minecraft:air",
+		'minecraft:smoker': "minecraft:furnace",
+		"minecraft:anvil": "minecraft:air",
+		"minecraft:chipped_anvil": "minecraft:air",
+		"minecraft:damaged_anvil": "minecraft:air",
+
+		//Other:
+		"minecraft:chiseled_polished_blackstone": "minecraft:blackstone",
+		"rediscovered:ruby_block": "minecraft:waxed_copper_block",
+
+			//Glazed Terracotta:
+			"clayworks:glazed_terracotta": "minecraft:dirt",
+			"etcetera:iridescent_glazed_terracotta": "minecraft:dirt",
+			"minecraft:black_glazed_terracotta": "minecraft:dirt",
+			"minecraft:blue_glazed_terracotta": "minecraft:dirt",
+			"minecraft:brown_glazed_terracotta": "minecraft:dirt",
+			"minecraft:cyan_glazed_terracotta": "minecraft:dirt",
+			"minecraft:gray_glazed_terracotta": "minecraft:dirt",
+			"minecraft:green_glazed_terracotta": "minecraft:dirt",
+			"minecraft:light_blue_glazed_terracotta": "minecraft:dirt",
+			"minecraft:light_gray_glazed_terracotta": "minecraft:dirt",
+			"minecraft:lime_glazed_terracotta": "minecraft:dirt",
+			"minecraft:magenta_glazed_terracotta": "minecraft:dirt",
+			"minecraft:orange_glazed_terracotta": "minecraft:dirt",
+			"minecraft:pink_glazed_terracotta": "minecraft:dirt",
+			"minecraft:purple_glazed_terracotta": "minecraft:dirt",
+			"minecraft:red_glazed_terracotta": "minecraft:dirt",
+			"minecraft:white_glazed_terracotta": "minecraft:dirt",
+			"minecraft:yellow_glazed_terracotta": "minecraft:dirt"
+	}
+}

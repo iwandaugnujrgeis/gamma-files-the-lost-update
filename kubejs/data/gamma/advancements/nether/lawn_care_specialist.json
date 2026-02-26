@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "kubejs:bismuth_pickaxe"
+    },
+    "title": "Lawn Care Specialist",
+    "description": "Mine a Grass Block using a Bismuth Pickaxe!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "gamma:nether/craft_bismuth_ingot",
+    "criteria": {
+      "lawn_insane": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

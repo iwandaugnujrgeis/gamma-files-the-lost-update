@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/template_torch",
+	"textures": {
+		"torch": "coraline_systems:block/baked_torch"
+	}
+}

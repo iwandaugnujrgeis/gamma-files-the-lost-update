@@ -1,0 +1,167 @@
+{
+  "tab_enabled": true,
+  "tab_name": "gamma_redstone",
+  "replace": true,
+  "tab_stack": 
+  {
+    "name":"minecraft:observer"
+  },
+  "tab_items": [
+    {
+      "name": "minecraft:redstone"
+    },
+    {
+      "name": "minecraft:lever"
+    },
+    {
+      "name": "supplementaries:crank"
+    },
+    {
+      "name": "minecraft:repeater"
+    },
+    {
+      "name": "minecraft:comparator"
+    },
+    {
+      "name": "quark:redstone_randomizer"
+    },
+    {
+      "name": "minecraft:dropper"
+    },
+    {
+      "name": "minecraft:dispenser"
+    },
+    {
+      "name": "supplementaries:relayer"
+    },
+    {
+      "name": "minecraft:observer"
+    },
+    {
+      "name": "quark:crafter"
+    },
+    {
+      "name": "minecraft:jukebox"
+    },
+    {
+      "name": "minecraft:note_block"
+    },
+    {
+      "name": "supplementaries:speaker_block"
+    },
+    {
+      "name": "etcetera:drum"
+    },
+    {
+      "name": "supplementaries:pulley_block"
+    },
+    {
+      "name": "supplementaries:clock_block"
+    },
+    {
+      "name": "supplementaries:turn_table"
+    },
+    {
+      "name": "minecraft:piston"
+    },
+    {
+      "name": "minecraft:sticky_piston"
+    },
+    {
+      "name": "supplementaries:spring_launcher"
+    },
+    {
+      "name": "rediscovered:rotational_converter"
+    },
+    {
+      "name": "rediscovered:gear"
+    },
+    {
+      "name": "supplementaries:bellows"
+    },
+    {
+      "name": "quark:magnet"
+    },
+    {
+      "name": "supplementaries:lock_block"
+    },
+    {
+      "name": "quark:ender_watcher"
+    },
+    {
+      "name": "spelunkery:compression_blast_miner"
+    },
+    {
+      "name": "supplementaries:crystal_display"
+    },
+    {
+      "name": "minecraft:calibrated_sculk_sensor"
+    },
+    {
+      "name": "minecraft:daylight_detector"
+    },
+    {
+      "name": "etcetera:dice"
+    },
+    {
+      "name": "minecraft:target"
+    },
+    {
+      "name": "minecraft:tripwire_hook"
+    },
+    {
+      "name": "supplementaries:wind_vane"
+    },
+    {
+      "name": "quark:chute"
+    },
+    {
+      "name": "minecraft:hopper"
+    },
+    {
+      "name": "quark:pipe"
+    },
+    {
+      "name": "spelunkery:wooden_rail"
+    },
+    {
+      "name": "minecraft:rail"
+    },
+    {
+      "name": "minecraft:powered_rail"
+    },
+    {
+      "name": "minecraft:detector_rail"
+    },
+    {
+      "name": "minecraft:activator_rail"
+    },
+    {
+      "name": "moreminecarts:maglev_rail"
+    },
+    {
+      "name": "moreminecarts:maglev_powered_rail"
+    },
+    {
+      "name": "minecraft:minecart"
+    },
+    {
+      "name": "minecraft:chest_minecart"
+    },
+    {
+      "name": "minecraft:furnace_minecart"
+    },
+    {
+      "name": "minecraft:tnt_minecart"
+    },
+    {
+      "name": "supplementaries:dispenser_minecart"
+    },
+    {
+      "name": "minecraft:hopper_minecart"
+    },
+    {
+      "name": "etched:jukebox_minecart"
+    }
+  ]
+}

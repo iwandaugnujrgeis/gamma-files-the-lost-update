@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "kubejs:wheat_flour"
+    },
+    "title": "Grind Time",
+    "description": "Craft Flour!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:husbandry/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:wheat_flour"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

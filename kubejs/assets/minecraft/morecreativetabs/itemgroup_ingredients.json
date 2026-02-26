@@ -1,0 +1,347 @@
+{
+  "tab_enabled": true,
+  "tab_name": "gamma_ingredients",
+  "replace": true,
+  "tab_stack": 
+  {
+    "name":"kubejs:cobalt"
+  },
+  "tab_items": [
+    {
+      "name": "minecraft:coal"
+    },
+    {
+      "name": "minecraft:charcoal"
+    },
+    {
+      "name": "minecraft:raw_copper"
+    },
+    {
+      "name": "minecraft:raw_iron"
+    },
+    {
+      "name": "spelunkery:raw_magnetite"
+    },
+    {
+      "name": "minecraft:raw_gold"
+    },
+    {
+      "name": "etcetera:raw_bismuth"
+    },
+    {
+      "name": "kubejs:cobalt"
+    },
+    {
+      "name": "galosphere:raw_silver"
+    },
+    {
+      "name": "rediscovered:ruby"
+    },
+    {
+      "name": "minecraft:amethyst_shard"
+    },
+    {
+      "name": "minecraft:emerald"
+    },
+    {
+      "name": "minecraft:lapis_lazuli"
+    },
+    {
+      "name": "minecraft:diamond"
+    },
+    {
+      "name": "kubejs:dimensional_shard"
+    },
+    {
+      "name": "minecraft:quartz"
+    },
+    {
+      "name": "minecraft:netherite_scrap"
+    },
+    {
+      "name": "kubejs:halite_crystal"
+    },
+    {
+      "name": "minecraft:copper_ingot"
+    },
+    {
+      "name": "minecraft:iron_ingot"
+    },
+    {
+      "name": "minecraft:gold_ingot"
+    },
+    {
+      "name": "etcetera:bismuth_ingot"
+    },
+    {
+      "name": "galosphere:silver_ingot"
+    },
+    {
+      "name": "spelunkery:copper_nugget"
+    },
+    {
+      "name": "minecraft:iron_nugget"
+    },
+    {
+      "name": "minecraft:gold_nugget"
+    },
+    {
+      "name": "galosphere:silver_nugget"
+    },
+    {
+      "name": "minecraft:stick"
+    },
+    {
+      "name": "minecraft:flint"
+    },
+    {
+      "name": "minecraft:fire_charge"
+    },
+    {
+      "name": "minecraft:firework_star"
+    },
+    {
+      "name": "minecraft:leather"
+    },
+    {
+      "name": "minecraft:wheat"
+    },
+    {
+      "name": "minecraft:honeycomb"
+    },
+    {
+      "name": "alexsmobs:banana_peel"
+    },
+    {
+      "name": "etcetera:cotton_flower"
+    },
+    {
+      "name": "minecraft:bone"
+    },
+    {
+      "name": "minecraft:string"
+    },
+    {
+      "name": "minecraft:feather"
+    },
+    {
+      "name": "spawn:mucus"
+    },
+    {
+      "name": "minecraft:slime_ball"
+    },
+    {
+      "name": "minecraft:scute"
+    },
+    {
+      "name": "kubejs:sharp_tooth"
+    },
+    {
+      "name": "alexsmobs:bear_fur"
+    },
+    {
+      "name": "alexsmobs:bison_fur"
+    },
+    {
+      "name": "spawn:snail_shell"
+    },
+    {
+      "name": "alexsmobs:moose_antler"
+    },
+    {
+      "name": "alexsmobs:mungal_spores"
+    },
+    {
+      "name": "minecraft:echo_shard"
+    },
+    {
+      "name": "minecraft:phantom_membrane"
+    },
+    {
+      "name": "galosphere:cured_membrane"
+    },
+    {
+      "name": "alexsmobs:bear_dust"
+    },
+    {
+      "name": "spawn:suspicious_stick"
+    },
+    {
+      "name": "minecraft:fermented_spider_eye"
+    },
+    {
+      "name": "minecraft:clay_ball"
+    },
+    {
+      "name": "supplementaries:ash"
+    },
+    {
+      "name": "minecraft:sugar"
+    },
+    {
+      "name": "minecraft:gunpowder"
+    },
+    {
+      "name": "supplementaries:soap"
+    },
+    {
+      "name": "spelunkery:dust_bun"
+    },
+    {
+      "name": "minecraft:bone_meal"
+    },
+    {
+      "name": "minecraft:paper"
+    },
+    {
+      "name": "minecraft:brick"
+    },
+    {
+      "name": "supplementaries:ash_brick"
+    },
+    {
+      "name": "minecraft:nether_brick"
+    },
+    {
+      "name": "minecraft:ink_sac"
+    },
+    {
+      "name": "minecraft:glow_ink_sac"
+    },
+    {
+      "name": "kubejs:glow_paste"
+    },
+    {
+      "name": "minecraft:nautilus_shell"
+    },
+    {
+      "name": "minecraft:prismarine_crystals"
+    },
+    {
+      "name": "minecraft:prismarine_shard"
+    },
+    {
+      "name": "upgrade_aquatic:prismarine_rod"
+    },
+    {
+      "name": "minecraft:heart_of_the_sea"
+    },
+    {
+      "name": "alexsmobs:soul_heart"
+    },
+    {
+      "name": "kubejs:soul_dust"
+    },
+    {
+      "name": "minecraft:glowstone_dust"
+    },
+    {
+      "name": "minecraft:ghast_tear"
+    },
+    {
+      "name": "minecraft:blaze_rod"
+    },
+    {
+      "name": "minecraft:blaze_powder"
+    },
+    {
+      "name": "minecraft:magma_cream"
+    },
+    {
+      "name": "alexsmobs:dropbear_claw"
+    },
+    {
+      "name": "minecraft:nether_star"
+    },
+    {
+      "name": "alexsmobs:farseer_arm"
+    },
+    {
+      "name": "minecraft:disc_fragment_5"
+    },
+    {
+      "name": "upgrade_aquatic:disc_fragment_atlantis"
+    },
+    {
+      "name": "minecraft:white_dye"
+    },
+    {
+      "name": "minecraft:light_gray_dye"
+    },
+    {
+      "name": "minecraft:gray_dye"
+    },
+    {
+      "name": "minecraft:black_dye"
+    },
+    {
+      "name": "minecraft:brown_dye"
+    },
+    {
+      "name": "minecraft:red_dye"
+    },
+    {
+      "name": "minecraft:orange_dye"
+    },
+    {
+      "name": "minecraft:yellow_dye"
+    },
+    {
+      "name": "minecraft:lime_dye"
+    },
+    {
+      "name": "minecraft:green_dye"
+    },
+    {
+      "name": "minecraft:cyan_dye"
+    },
+    {
+      "name": "minecraft:light_blue_dye"
+    },
+    {
+      "name": "minecraft:blue_dye"
+    },
+    {
+      "name": "minecraft:purple_dye"
+    },
+    {
+      "name": "minecraft:magenta_dye"
+    },
+    {
+      "name": "minecraft:pink_dye"
+    },
+    {
+      "name": "minecraft:flower_banner_pattern"
+    },
+    {
+      "name": "minecraft:creeper_banner_pattern"
+    },
+    {
+      "name": "minecraft:globe_banner_pattern"
+    },
+    {
+      "name": "minecraft:mojang_banner_pattern"
+    },
+    {
+      "name": "minecraft:piglin_banner_pattern"
+    },
+    {
+      "name": "minecraft:skull_banner_pattern"
+    },
+    {
+      "name": "alexsmobs:banner_pattern_australia_0"
+    },
+    {
+      "name": "alexsmobs:banner_pattern_australia_1"
+    },
+    {
+      "name": "alexsmobs:banner_pattern_bear"
+    },
+    {
+      "name": "alexsmobs:banner_pattern_brazil"
+    },
+    {
+      "name": "alexsmobs:banner_pattern_new_mexico"
+    }
+  ]
+}

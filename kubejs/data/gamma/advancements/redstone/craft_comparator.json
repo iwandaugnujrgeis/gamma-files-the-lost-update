@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:comparator"
+    },
+    "title": "On a Scale of 1 to 15...",
+    "description": "Craft a Comparator!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "gamma:redstone/obtain_quartz",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:comparator"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "consumed_item": {
+      "conditions": {},
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/block/brown_mushroom_block.png",
+    "description": "Welcome to the Rhythm of Nature...",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "alexsmobs:potted_flutter"
+    },
+    "show_toast": false,
+    "title": "Nature"
+  },
+  "requirements": [
+    [
+      "consumed_item"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

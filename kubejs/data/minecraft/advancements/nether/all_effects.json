@@ -1,0 +1,49 @@
+{
+  "parent": "minecraft:nether/brew_potion",
+  "criteria": {
+    "all_effects": {
+      "conditions": {
+        "effects": {
+          "minecraft:speed": {},
+          "minecraft:slowness": {},
+          "minecraft:strength": {},
+          "minecraft:jump_boost": {},
+          "minecraft:regeneration": {},
+          "minecraft:resistance": {},
+          "minecraft:fire_resistance": {},
+          "minecraft:water_breathing": {},
+          "minecraft:invisibility": {},
+          "minecraft:night_vision": {},
+          "minecraft:weakness": {},
+          "minecraft:poison": {},
+          "minecraft:luck": {},
+          "minecraft:slow_falling": {},
+          "galosphere:astral": {},
+          "alexsmobs:knockback_resistance": {},
+          "alexsmobs:lava_vision": {},
+          "alexsmobs:soulsteal": {},
+          "alexsmobs:clinging": {}
+        }
+      },
+      "trigger": "minecraft:effects_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Drink All the Potions...\nAt Once!",
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "citadel:fancy_item",
+      "nbt": "{DisplayItem:\"minecraft:glass_bottle\", DisplayBob:0, DisplayZoom:1, DisplayScale:1, DisplaySpin:0, DisplayShake:1}"
+    },
+    "show_toast": true,
+    "title": "Under the Influence..."
+  },
+  "requirements": [
+    [
+      "all_effects"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

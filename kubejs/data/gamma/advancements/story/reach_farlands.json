@@ -1,0 +1,33 @@
+{
+  "parent": "gamma:story/mine_moonstone",
+  "criteria": {
+    "in_farlands": {
+      "conditions": {
+        "dimension": "minecraft:overworld",
+        "max_x": 12550817,
+        "max_z": 12550817,
+        "min_x": -12550824,
+        "min_z": -12550824
+      },
+      "trigger": "rediscovered:in_farlands"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Reach the Far Lands",
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "citadel:fancy_item",
+      "nbt": "{DisplayItem:\"rediscovered:plate_boots\", DisplayBob:0, DisplayZoom:0, DisplayScale:1, DisplaySpin:0, DisplayShake:1}"
+    },
+    "show_toast": true,
+    "title": "In Far/Lands"
+  },
+  "requirements": [
+    [
+      "in_farlands"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

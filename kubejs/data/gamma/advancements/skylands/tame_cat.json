@@ -1,0 +1,49 @@
+{
+  "parent": "rediscovered:skylands/root",
+  "criteria": {
+    "find_ruin": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "gamma:ruins"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+    "tame_cat": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:cat"
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Find and Tame a Cat in a Lost Structure",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:cooked_salmon"
+    },
+    "show_toast": true,
+    "title": "Lost Friend"
+  },
+  "requirements": [
+    [
+      "find_ruin"
+    ],
+    [
+      "tame_cat"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

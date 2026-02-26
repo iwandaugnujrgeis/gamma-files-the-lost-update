@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:air",
+    "minecraft:water",
+    "#minecraft:sand",
+    "#minecraft:dirt",
+    "#minecraft:coral_blocks",
+    "#minecraft:corals",
+    "#minecraft:wall_corals",
+    "#spawn:deep_coral_blocks",
+    "#spawn:deep_corals",
+    "#spawn:deep_wall_corals",
+    "minecraft:gravel",
+    "spawn:red_algae",
+    "minecraft:sea_pickle",
+    "minecraft:seagrass",
+    "minecraft:tall_seagrass"
+  ]
+}

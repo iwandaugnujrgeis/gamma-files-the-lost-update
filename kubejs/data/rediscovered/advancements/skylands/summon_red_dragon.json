@@ -1,0 +1,40 @@
+{
+  "parent": "rediscovered:skylands/slay_red_dragon",
+  "criteria": {
+    "summon_dragon": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "rediscovered:red_dragon"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:summoned_entity"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "rediscovered:advancements.skylands.summon_red_dragon.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "rediscovered:mini_dragon_pylon"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "rediscovered:advancements.skylands.summon_red_dragon.title"
+    }
+  },
+  "requirements": [
+    [
+      "summon_dragon"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

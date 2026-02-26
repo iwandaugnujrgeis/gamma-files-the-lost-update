@@ -1,0 +1,32 @@
+{
+  "values": [
+    {
+      "id": "alexsmobs:seagull",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:crow",
+      "required": false
+    },
+    {
+      "id": "habitat:passerine",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:toucan",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:blue_jay",
+      "required": false
+    },
+    {
+      "id": "minecraft:enderman",
+      "required": false
+    },
+    {
+      "id": "minecraft:sheep",
+      "required": false
+    }
+  ]
+}

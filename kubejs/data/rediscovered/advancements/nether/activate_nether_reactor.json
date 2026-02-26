@@ -1,0 +1,40 @@
+{
+  "parent": "minecraft:nether/summon_wither",
+  "criteria": {
+    "activate_reactor": {
+      "trigger": "rediscovered:activate_nether_reactor"
+    },
+    "craft_reactor": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rediscovered:nether_reactor_core"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Craft and Activate a Nether Reactor!",
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "rediscovered:nether_reactor_core"
+    },
+    "show_toast": true,
+    "title": "Pocket Edition"
+  },
+  "requirements": [
+    [
+      "activate_reactor"
+    ],
+    [
+      "craft_reactor"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,10 @@
+{
+  "__comment": "Will follow with these items in your hand",
+  "replace": true,
+  "values": [
+    "#alexsmobs:platypus_breedables",
+    "#alexsmobs:platypus_chargeables",
+    "#alexsmobs:platypus_super_chargeables",
+    "#minecraft:fishes"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "rediscovered:story/find_skylands_portal",
+  "criteria": {
+    "enter_skylands": {
+      "conditions": {
+        "to": "rediscovered:skylands"
+      },
+      "trigger": "minecraft:changed_dimension"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "rediscovered:advancements.story.enter_skylands.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "rediscovered:glowing_obsidian"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "rediscovered:advancements.story.enter_skylands.title"
+    }
+  },
+  "requirements": [
+    [
+      "enter_skylands"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,11 @@
+{
+  "removed": [
+    "fluid:earthmobsmod:mud",
+    "fluid:minecraft:lava",
+    "fluid:minecraft:milk",
+    "fluid:minecraft:water",
+    "fluid:spelunkery:portal_fluid",
+    "fluid:spelunkery:spring_water",
+    "fluid:supplementaries:lumisene"
+  ]
+}

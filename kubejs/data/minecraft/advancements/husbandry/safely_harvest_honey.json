@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:husbandry/tame_an_animal",
+  "criteria": {
+    "never": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Safely Harvest a Honey Bottle with Poison Resistance!",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:honey_bottle"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.husbandry.safely_harvest_honey.title"
+    }
+  },
+  "requirements": [
+    [
+      "safely_harvest_honey"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

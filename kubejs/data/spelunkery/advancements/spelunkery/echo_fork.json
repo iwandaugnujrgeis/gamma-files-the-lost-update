@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "item": "spelunkery:echo_fork"
+    },
+    "title": "Wallhack in D# Minor",
+    "description": "Craft and Use an Echo Fork!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "gamma:detour/root",
+  "criteria": {
+    "use_echo_fork": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "spelunkery:echo_fork"
+          ]
+        }
+      }
+    },
+    "craft_echo_fork": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "spelunkery:echo_fork"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "use_echo_fork"
+    ],
+    [
+      "craft_echo_fork"
+    ]
+  ]
+}

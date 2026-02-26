@@ -1,0 +1,262 @@
+{
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "downfall": 0.7,
+  "temperature": 0.65,
+  "effects": {
+    "fog_color": 9553663,
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2.0,
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000
+    },
+    "sky_color": 9553663,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "grass_color": 8701040,
+    "foliage_color": 6398280
+  },
+  "features": [
+    [],
+    [
+      "gamma:jungle_pool",
+      "minecraft:lake_lava_underground",
+      "minecraft:lake_lava_surface"
+    ],
+    [
+      "minecraft:amethyst_geode",
+      "gamma:forest_stone"
+    ],
+    [
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
+    ],
+    [],
+    [],
+    [
+      "minecraft:ore_dirt",
+      "minecraft:ore_gravel",
+      "minecraft:ore_granite_upper",
+      "minecraft:ore_granite_lower",
+      "minecraft:ore_andesite_upper",
+      "minecraft:ore_andesite_lower",
+      "minecraft:ore_tuff",
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_copper",
+      "gamma:ore_chimes",
+      "spelunkery:tangle_roots_ceiling",
+      "spelunkery:mushgloom",
+      "minecraft:underwater_magma",
+      "minecraft:disk_sand",
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel",
+      "gamma:lake_water_surface"
+    ],
+    [],
+    [
+      "minecraft:spring_water",
+      "minecraft:spring_lava",
+      "gamma:block_patches/mossy_cobblestone",
+      "gamma:tree_stumps/tree_stump_jungle",
+      "gamma:fallen_trees/fallen_tree_jungle"
+    ],
+    [
+      "minecraft:glow_lichen",
+      "minecraft:bamboo_light",
+      "minecraft:trees_jungle",
+      "gamma:jungle_flowers",
+      "minecraft:patch_grass_jungle",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "minecraft:patch_sugar_cane",
+      "minecraft:patch_pumpkin",
+      "minecraft:vines",
+      "minecraft:patch_melon_sparse"
+    ],
+    [
+      "minecraft:freeze_top_layer",
+      "sweety_garden:passion_flower_patchs"
+    ]
+  ],
+  "has_precipitation": true,
+  "spawn_costs": {},
+  "spawners": {
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "maxCount": 8,
+        "minCount": 8,
+        "weight": 10
+      }
+    ],
+    "axolotls": [],
+    "creature": [
+      {
+        "type": "alexsmobs:gorilla",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 16
+      },
+      {
+        "type": "alexsmobs:capuchin_monkey",
+        "maxCount": 3,
+        "minCount": 1,
+        "weight": 10
+      },
+      {
+        "type": "minecraft:ocelot",
+        "maxCount": 3,
+        "minCount": 1,
+        "weight": 10
+      },
+      {
+        "type": "minecraft:turtle",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 6
+      },
+      {
+        "type": "alexsmobs:toucan",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 4
+      },
+      {
+        "type": "alexsmobs:tiger",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 3
+      },
+      {
+        "type": "minecraft:parrot",
+        "maxCount": 3,
+        "minCount": 3,
+        "weight": 3
+      },
+      {
+        "type": "minecraft:panda",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 2
+      }
+    ],
+    "misc": [],
+    "monster": [
+      {
+        "type": "alexsmobs:farseer",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 80
+      },
+      {
+        "type": "minecraft:spider",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 100
+      },
+      {
+        "type": "minecraft:zombie",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 95
+      },
+      {
+        "type": "minecraft:skeleton",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 100
+      },
+      {
+        "type": "minecraft:stray",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 70
+      },
+      {
+        "type": "minecraft:creeper",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 100
+      },
+      {
+        "type": "minecraft:slime",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 100
+      },
+      {
+        "type": "minecraft:enderman",
+        "maxCount": 4,
+        "minCount": 1,
+        "weight": 10
+      }
+    ],
+    "underground_water_creature": [
+      {
+        "type": "minecraft:glow_squid",
+        "maxCount": 6,
+        "minCount": 4,
+        "weight": 10
+      },
+      {
+        "type": "species:deepfish",
+        "maxCount": 4,
+        "minCount": 2,
+        "weight": 8
+      },
+      {
+        "type": "upgrade_aquatic:nautilus",
+        "maxCount": 6,
+        "minCount": 3,
+        "weight": 6
+      }
+    ],
+    "water_ambient": [
+      {
+        "type": "minecraft:tropical_fish",
+        "maxCount": 5,
+        "minCount": 1,
+        "weight": 5
+      },
+      {
+        "type": "alexsmobs:mudskipper",
+        "maxCount": 5,
+        "minCount": 1,
+        "weight": 5
+      },
+      {
+        "type": "alexsmobs:flying_fish",
+        "maxCount": 3,
+        "minCount": 1,
+        "weight": 2
+      }
+    ],
+    "water_creature": [
+      {
+        "type": "minecraft:squid",
+        "maxCount": 4,
+        "minCount": 1,
+        "weight": 2
+      }
+    ]
+  }
+}

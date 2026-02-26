@@ -1,0 +1,18 @@
+[
+  {
+    "mob": ["rediscovered:zombie_pigman"],
+    "dimension": "minecraft:the_nether",
+    "result": "default"
+  },
+  {
+    "dimension": "minecraft:the_nether",
+    "mob": "rediscovered:zombie_pigman",
+    "mincount": {
+      "amount": 50,
+      "hostile": true,
+      "perplayer": true
+    },
+    "result": "deny"
+  }
+]
+

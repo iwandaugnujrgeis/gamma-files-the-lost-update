@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:oak_log"
+    },
+    "title": "Getting Wood",
+    "description": "Punch a Tree to Obtain Wood!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:story/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:logs"
+          }
+        ]
+      }
+    }
+  }
+}

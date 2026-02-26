@@ -1,0 +1,18 @@
+{
+  "type": "rediscovered:skylands",
+  "generator": {
+    "type": "moderner_beta:moderner_beta",
+    "biome_source": {
+      "type": "moderner_beta:moderner_beta",
+      "cave_provider_settings": {
+        "moderner_beta:preset": "moderner_beta:default"
+      },
+      "provider_settings": {
+        "moderner_beta:preset": "moderner_beta:default"
+      }
+    },
+    "provider_settings": {
+      "moderner_beta:preset": "moderner_beta:skylands"
+    }
+  }
+}

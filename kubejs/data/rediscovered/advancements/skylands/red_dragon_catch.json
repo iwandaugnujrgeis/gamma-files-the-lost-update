@@ -1,0 +1,30 @@
+{
+  "parent": "rediscovered:skylands/hatch_red_dragon",
+  "criteria": {
+    "call_dragon": {
+      "trigger": "rediscovered:dragon_catch"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "rediscovered:advancements.skylands.red_dragon_catch.description"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "citadel:fancy_item",
+      "nbt": "{DisplayItem:\"rediscovered:ruby_flute\", DisplayBob:0, DisplayZoom:1, DisplayScale:1, DisplaySpin:0, DisplayShake:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "rediscovered:advancements.skylands.red_dragon_catch.title"
+    }
+  },
+  "requirements": [
+    [
+      "call_dragon"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "gamma:null",
+  "features": "ecologics:trees_walnut",
+  "step": "vegetal_decoration"
+}

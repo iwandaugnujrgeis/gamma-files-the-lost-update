@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "gamma:null",
+  "features": "sweety_garden:passion_flower_patchs",
+  "step": "top_layer_modification"
+}

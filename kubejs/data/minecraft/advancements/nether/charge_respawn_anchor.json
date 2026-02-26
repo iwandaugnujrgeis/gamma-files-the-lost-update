@@ -1,0 +1,65 @@
+{
+  "parent": "minecraft:nether/obtain_crying_obsidian",
+  "criteria": {
+    "charge_respawn_anchor": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:respawn_anchor"
+                ],
+                "state": {
+                  "charges": "4"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:glowstone"
+              ]
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:item_used_on_block"
+    },
+    "craft_respawn_anchor": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:respawn_anchor"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Craft and Charge a Respawn Anchor to the Brim, using Soul Hearts!",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:respawn_anchor"
+    },
+    "show_toast": true,
+    "title": "This Is Not a Bed"
+  },
+  "requirements": [
+    [
+      "charge_respawn_anchor"
+    ],
+    [
+      "craft_respawn_anchor"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

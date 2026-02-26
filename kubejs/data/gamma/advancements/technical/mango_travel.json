@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "citadel:fancy_item",
+      "nbt": "{DisplayItem:\"kubejs:mango\", DisplayBob:1, DisplayZoom:0, DisplayScale:1, DisplaySpin:0, DisplayShake:0}"
+    },
+    "title": "Mango's Invitation",
+    "description": "Taste the Sky!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "gamma:detour/root",
+    "criteria": {
+    "stew": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "kubejs:mango"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "gamma:mango_travel"
+  }
+}

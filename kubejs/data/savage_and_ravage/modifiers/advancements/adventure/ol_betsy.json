@@ -1,0 +1,10 @@
+{
+  "modifiers": [
+    {
+      "type": "parent",
+      "config": "minecraft:adventure/shoot_arrow"
+    }
+  ],
+  "priority": "normal",
+  "selector": "minecraft:adventure/ol_betsy"
+}
