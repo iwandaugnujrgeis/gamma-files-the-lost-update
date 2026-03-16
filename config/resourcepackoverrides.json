@@ -1,0 +1,81 @@
+{
+  "schema_version": 2,
+  "default_packs":
+  [
+    "file/Angel's_Weather_Normal.zip",
+    "file/Authentic Shadows_1.20.zip",
+    "file/Axolotl-Totem [1.20].zip",
+    "file/better-leather-armor_1.20-1.21.11.zip",
+    "file/Camelos_v1.0.zip",
+    "file/ClassicWheat.zip",
+    "file/Cozy Bees 3.0.zip",
+    "file/Kai Fixes Nether Bricks - 1.21.zip",
+    "file/Serified Font v1.1 f1-34.zip",
+    "file/Simple Lower Grass Sides v1.0.0.zip",
+    "file/Trapezoid Ingots 1.18.x.zip",
+    "file/New_Candle_Icons_(1.20).zip"
+  ],
+  "pack_overrides":
+  {
+    "file/Non-Programmer Art.zip":
+    {
+      "required": true,
+      "default_position": "TOP",
+      "fixed_position": true
+    },
+    "default": 
+    [
+    "file/Angel's_Weather_Normal.zip",
+    "file/Authentic Shadows_1.20.zip",
+    "file/Axolotl-Totem [1.20].zip",
+    "file/Banner Pattern Clarity v1.6.zip",
+    "file/better-leather-armor_1.20-1.21.11.zip",
+    "file/Camelos_v1.0.zip",
+    "file/ClassicWheat.zip",
+    "file/Cozy Bees 3.0.zip",
+    "file/Kai Fixes Nether Bricks - 1.21.zip",
+    "file/Serified Font v1.1 f1-34.zip",
+    "file/Simple Lower Grass Sides v1.0.0.zip",
+    "file/Trapezoid Ingots 1.18.x.zip",
+    "file/New_Candle_Icons_(1.20).zip"
+    ],
+    "$$default": 
+    {
+      "required": true,
+      "force_compatible": true
+    },
+    "builtin": 
+    [
+    "vanilla",
+    "mod_resources",
+    "Moonlight Mods Dynamic Assets"
+    ],
+    "$$builtin": 
+    {
+      "hidden": true,
+      "required": true,
+      "fixed_position": false
+    },
+    "unnecessary": 
+    [
+    "builtin/add_pack_finders_test",
+    "create:legacy_copper",
+    "fabric",
+    "file/Quark Programmer Art.zip",
+    "high_contrast",
+    "mod/subtle_effects:resourcepacks/biome_color_water_particles",
+    "programmer_art",
+    "rediscovered:legacy_pack",
+    "scholar:chiseled_bookshelf_colored_books",
+    "scholar:chiseled_bookshelf_colored_books_abnww_compat",
+    "scholar:colored_books",
+    "spelunkery:better_vanilla_gems",
+    "supplementaries:darker_ropes",
+    "heartstone:heart_particles"
+    ],
+    "$$unnecessary": 
+    {
+      "hidden": true
+    }
+  }
+}

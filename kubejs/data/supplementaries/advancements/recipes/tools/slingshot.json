@@ -1,0 +1,45 @@
+{
+  "rewards": {
+    "recipes": [
+      "crafttweaker:slingshot"
+    ]
+  },
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "crafttweaker:slingshot"
+      }
+    },
+    "rope": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "supplementaries:rope"
+            ]
+          }
+        ]
+      }
+    },
+    "forge:rods/wooden": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:rods/wooden"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "rope",
+      "forge:rods/wooden"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

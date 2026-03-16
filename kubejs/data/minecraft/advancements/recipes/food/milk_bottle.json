@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "crafttweaker:vegan_milk_bottle"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "walnut": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ecologics:walnut"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "walnut",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "crafttweaker:vegan_milk_bottle"
+    ]
+  },
+  "sends_telemetry_event": false
+}

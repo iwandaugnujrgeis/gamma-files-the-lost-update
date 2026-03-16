@@ -1,0 +1,38 @@
+{
+  "parent": "rediscovered:skylands/root",
+  "criteria": {
+    "in_structure": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "rediscovered:brick_pyramid"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Find a Brick Pyramid",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:bricks"
+    },
+    "show_toast": true,
+    "title": "The Pyramid Problem"
+  },
+  "requirements": [
+    [
+      "in_structure"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

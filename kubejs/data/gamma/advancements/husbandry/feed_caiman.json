@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "alexsmobs:caiman_egg"
+    },
+    "title": "See You Later",
+    "description": "Breed Caimans with Fish!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:husbandry/fishy_business",
+  "criteria": {
+    "super_charge": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "tag": "minecraft:fishes"
+        },
+        "entity": {
+          "type": "alexsmobs:caiman"
+        }
+      }
+    }
+  }
+}

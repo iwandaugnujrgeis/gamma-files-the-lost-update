@@ -1,0 +1,7 @@
+
+[General]
+	#No arrows, lines will flicker, Zoom will be disabled. (Older achievement UI style)
+	OlderUI = false
+	#Hide the page switching button
+	HidePage = false
+

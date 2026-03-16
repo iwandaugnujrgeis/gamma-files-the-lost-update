@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "crafttweaker:crumbling_stone"
+    ]
+  },
+  "criteria": {
+    "cement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:cement"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "crafttweaker:crumbling_stone"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cement",
+      "has_the_recipe"
+    ]
+  ]
+}

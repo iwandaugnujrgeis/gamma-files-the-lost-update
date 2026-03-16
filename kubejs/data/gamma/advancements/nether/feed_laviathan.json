@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:magma_cream"
+        },
+        "title": "Hot Meal",
+        "description": "Feed a Laviathan with Magma Cream!",
+        "frame": "task"
+    },
+    "parent": "alexsmobs:alexsmobs/straddle_saddle",
+    "criteria": {
+      "feed_laviathan": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:magma_cream"
+            ]
+          },
+          "entity": {
+            "type": "alexsmobs:laviathan"
+          }
+        }
+      }
+    }
+}

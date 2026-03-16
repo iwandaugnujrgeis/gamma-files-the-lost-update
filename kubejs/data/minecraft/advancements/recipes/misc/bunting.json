@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_item": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:string"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "supplementaries:bunting/bunting_red_2",
+      "supplementaries:bunting/bunting_orange_2",
+      "supplementaries:bunting/bunting_yellow_2",
+      "supplementaries:bunting/bunting_lime_2",
+      "supplementaries:bunting/bunting_green_2",
+      "supplementaries:bunting/bunting_cyan_2",
+      "supplementaries:bunting/bunting_light_blue_2",
+      "supplementaries:bunting/bunting_blue_2",
+      "supplementaries:bunting/bunting_purple_2",
+      "supplementaries:bunting/bunting_magenta_2",
+      "supplementaries:bunting/bunting_pink_2",
+      "supplementaries:bunting/bunting_brown_2",
+      "supplementaries:bunting/bunting_black_2",
+      "supplementaries:bunting/bunting_gray_2",
+      "supplementaries:bunting/bunting_light_gray_2",
+      "supplementaries:bunting/bunting_white_2"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:ice",
+    "minecraft:frosted_ice",
+    "minecraft:lily_pad",
+    "ecologics:thin_ice"
+  ]
+}

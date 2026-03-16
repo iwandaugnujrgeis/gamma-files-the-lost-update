@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "spelunkery:item_magnet"
+    },
+    "title": "Lost and Found",
+    "description": "Craft an Item Magnet!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "gamma:redstone/obtain_magnetite",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "spelunkery:item_magnet"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

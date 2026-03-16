@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "minecraft:jungle_tree",
+    "features": [
+      {
+        "chance": 0.1,
+        "feature": "gamma:jungle_bush"
+      },
+      {
+        "chance": 0.85,
+        "feature": "minecraft:mega_jungle_tree_checked"
+      },
+      {
+        "chance": 0.1,
+        "feature": "minecraft:acacia_checked"
+      }
+    ]
+  }
+}

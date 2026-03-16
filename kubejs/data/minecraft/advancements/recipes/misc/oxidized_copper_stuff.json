@@ -1,0 +1,86 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_item": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:soul_dust"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "crafttweaker:exposed_copper",
+      "crafttweaker:exposed_copper_bulb",
+      "crafttweaker:exposed_copper_button",
+      "crafttweaker:exposed_copper_door",
+      "crafttweaker:exposed_copper_grate",
+      "crafttweaker:exposed_copper_trapdoor",
+      "crafttweaker:exposed_cut_copper",
+      "crafttweaker:exposed_cut_copper_slab",
+      "crafttweaker:exposed_cut_copper_slab_timedust",
+      "crafttweaker:exposed_cut_copper_stairs",
+      "crafttweaker:exposed_cut_copper_stairs_timedust",
+      "crafttweaker:exposed_floodlight",
+      "crafttweaker:exposed_lightning_rod",
+      "crafttweaker:oxidized_copper",
+      "crafttweaker:oxidized_copper_bulb",
+      "crafttweaker:oxidized_copper_button",
+      "crafttweaker:oxidized_copper_door",
+      "crafttweaker:oxidized_copper_grate",
+      "crafttweaker:oxidized_copper_trapdoor",
+      "crafttweaker:oxidized_cut_copper",
+      "crafttweaker:oxidized_cut_copper_slab",
+      "crafttweaker:oxidized_cut_copper_slab_timedust",
+      "crafttweaker:oxidized_cut_copper_stairs",
+      "crafttweaker:oxidized_cut_copper_stairs_timedust",
+      "crafttweaker:oxidized_floodlight",
+      "crafttweaker:oxidized_lightning_rod",
+      "crafttweaker:waxed_copper_bulb",
+      "crafttweaker:waxed_copper_door",
+      "crafttweaker:waxed_copper_grate",
+      "crafttweaker:waxed_copper_trapdoor",
+      "crafttweaker:waxed_cut_copper",
+      "crafttweaker:waxed_exposed_copper_bulb",
+      "crafttweaker:waxed_exposed_copper_door",
+      "crafttweaker:waxed_exposed_copper_grate",
+      "crafttweaker:waxed_exposed_copper_trapdoor",
+      "crafttweaker:waxed_exposed_cut_copper",
+      "crafttweaker:waxed_oxidized_copper_bulb",
+      "crafttweaker:waxed_oxidized_copper_door",
+      "crafttweaker:waxed_oxidized_copper_grate",
+      "crafttweaker:waxed_oxidized_copper_trapdoor",
+      "crafttweaker:waxed_oxidized_cut_copper",
+      "crafttweaker:waxed_weathered_copper_bulb",
+      "crafttweaker:waxed_weathered_copper_door",
+      "crafttweaker:waxed_weathered_copper_grate",
+      "crafttweaker:waxed_weathered_copper_trapdoor",
+      "crafttweaker:waxed_weathered_cut_copper",
+      "crafttweaker:weathered_copper",
+      "crafttweaker:weathered_copper_bulb",
+      "crafttweaker:weathered_copper_button",
+      "crafttweaker:weathered_copper_door",
+      "crafttweaker:weathered_copper_grate",
+      "crafttweaker:weathered_copper_trapdoor",
+      "crafttweaker:weathered_cut_copper",
+      "crafttweaker:weathered_cut_copper_slab",
+      "crafttweaker:weathered_cut_copper_slab_timedust",
+      "crafttweaker:weathered_cut_copper_stairs",
+      "crafttweaker:weathered_cut_copper_stairs_timedust",
+      "crafttweaker:weathered_floodlight",
+      "crafttweaker:weathered_lightning_rod"
+    ]
+  },
+  "sends_telemetry_event": false
+}

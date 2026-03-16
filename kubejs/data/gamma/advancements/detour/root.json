@@ -1,0 +1,31 @@
+{
+  "criteria": {
+    "killed_by": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {}
+    },
+    "interact": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {}
+    }
+  },
+  "display": {
+    "background": "clayworks:textures/block/concrete_powder.png",
+    "description": "A Little Something for Everyone!",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "alexsmobs:music_disc_thime"
+    },
+    "show_toast": false,
+    "announce_to_chat": false,
+    "title": "Elsewhere"
+  },
+  "requirements": [
+    [
+      "interact",
+      "killed_by"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

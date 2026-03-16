@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "item": "alexsmobs:banana"
+    },
+    "title": "Bananacraft",
+    "description": "Tame a Capuchin Monkey with a Banana!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:husbandry/tame_an_animal",
+  "criteria": {
+    "tame_capuchin_monkey": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "type": "alexsmobs:capuchin_monkey"
+        }
+      }
+    }
+  }
+}

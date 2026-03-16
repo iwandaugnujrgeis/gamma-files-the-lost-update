@@ -1,0 +1,14 @@
+{
+  "enabled": true,
+  "selectedApplicaionMode": "Collide",
+  "intRadius": 5,
+  "enabledImpact": true,
+  "enabledKnock": true,
+  "excludePlayer": false,
+  "excludePet": false,
+  "excludePassenger": false,
+  "excludeNamedEntity": false,
+  "excludeItemEntity": false,
+  "enabledExclusionList": false,
+  "exclusionList": []
+}

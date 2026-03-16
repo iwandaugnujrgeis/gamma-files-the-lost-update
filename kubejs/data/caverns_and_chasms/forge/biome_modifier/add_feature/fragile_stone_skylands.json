@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#rediscovered:is_skylands",
+  "features": "caverns_and_chasms:ore_fragile_stone",
+  "step": "underground_ores"
+}

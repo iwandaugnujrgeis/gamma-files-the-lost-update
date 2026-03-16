@@ -1,0 +1,20 @@
+{
+  "structures": [
+    {
+      "structure": "gamma:tu19_castle",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 64413242,
+    "spacing": 34,
+    "separation": 8,
+    "type": "minecraft:random_spread",
+    "frequency": 0.5,
+    "spread_type": "triangular",
+    "exclusion_zone": {
+      "other_set": "rediscovered:brick_pyramid",
+      "chunk_count": 12
+    }
+  }
+}

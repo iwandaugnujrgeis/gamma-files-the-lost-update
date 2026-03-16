@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "spawn:wax_coral",
+    "spawn:thorn_coral",
+    "spawn:spike_coral",
+    "spawn:heart_coral",
+    "spawn:reed_coral",
+    "spawn:wax_coral_fan",
+    "spawn:thorn_coral_fan",
+    "spawn:spike_coral_fan",
+    "spawn:heart_coral_fan",
+    "spawn:reed_coral_fan"
+  ]
+}

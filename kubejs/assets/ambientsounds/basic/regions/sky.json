@@ -1,0 +1,17 @@
+{
+  "name": "sky",
+  "relative-height": {
+    "min": 15,
+    "fade": 20
+  },
+  "absolute-height": {
+    "max": 4000,
+    "fade": 20
+  },
+  "bad-regions": [
+    "end"
+  ],
+  "sound-collections": [
+    "wind"
+  ]
+}

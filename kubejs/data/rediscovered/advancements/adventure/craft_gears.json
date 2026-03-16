@@ -1,0 +1,54 @@
+{
+  "parent": "gamma:redstone/obtain_quartz",
+  "criteria": {
+    "converter": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rediscovered:rotational_converter"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "gear": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rediscovered:gear"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "rediscovered:advancements.adventure.craft_gears.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "citadel:fancy_item",
+      "nbt": "{DisplayItem:\"rediscovered:gear\", DisplayBob:0, DisplayZoom:1, DisplayScale:1, DisplaySpin:0, DisplayShake:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "rediscovered:advancements.adventure.craft_gears.title"
+    }
+  },
+  "requirements": [
+    [
+      "gear"
+    ],
+    [
+      "converter"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

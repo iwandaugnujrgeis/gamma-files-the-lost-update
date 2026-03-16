@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:wheat_seeds"
+    },
+    "title": "Hopportunity",
+    "description": "Feed Seeds to a Jerboa!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:husbandry/root",
+  "criteria": {
+    "super_charge": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "tag": "forge:seeds"
+        },
+        "entity": {
+          "type": "alexsmobs:jerboa"
+        }
+      }
+    }
+  }
+}

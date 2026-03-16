@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "entered_nether": {
+      "conditions": {
+        "to": "minecraft:the_nether"
+      },
+      "trigger": "minecraft:changed_dimension"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/block/obsidian.png",
+    "description": "The Air thick with Ash...",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:torchflower"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.nether.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "entered_nether"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:nether/root",
+  "criteria": {
+    "cure": {
+      "conditions": {
+        "pigman": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "#rediscovered:pigman"
+            }
+          }
+        ]
+      },
+      "trigger": "rediscovered:cure_pigman"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Weaken and Cure a Turned Piglin using a Golden Carrot!",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:golden_carrot"
+    },
+    "show_toast": true,
+    "title": "Pork-a-lujah!"
+  },
+  "requirements": [
+    [
+      "cure"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

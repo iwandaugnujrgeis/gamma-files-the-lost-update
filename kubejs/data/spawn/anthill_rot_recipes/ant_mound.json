@@ -1,0 +1,7 @@
+{
+  "input": "#minecraft:dirt",
+  "output": {
+    "name": "spawn:ant_mound"
+  },
+  "loot_table": "spawn:archaeology/anthill"
+}

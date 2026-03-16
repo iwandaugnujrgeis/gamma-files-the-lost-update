@@ -1,0 +1,46 @@
+{
+  "parent": "gamma:detour/obtain_music_disc",
+  "criteria": {
+    "play_acid_in_nether": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "biome": "minecraft:nether_wastes",
+              "block": {
+                "blocks": [
+                  "minecraft:jukebox"
+                ]
+              }
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "kubejs:music_disc_acid"
+          ]
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Blast Acid in the Nether Wastes!",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "citadel:fancy_item",
+      "nbt": "{DisplayItem:\"kubejs:music_disc_acid\", DisplayBob:0, DisplayZoom:0, DisplayScale:1, DisplaySpin:0, DisplayShake:1}"
+    },
+    "show_toast": true,
+    "title": "Climax"
+  },
+  "requirements": [
+    [
+      "play_acid_in_nether"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

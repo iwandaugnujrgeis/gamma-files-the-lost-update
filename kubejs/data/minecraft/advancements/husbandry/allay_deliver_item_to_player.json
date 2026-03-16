@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:husbandry/root",
+  "criteria": {
+    "allay_deliver_item_to_player": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:allay"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:thrown_item_picked_up_by_player"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Recieve an Allay-delivery!",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:cookie"
+    },
+    "show_toast": true,
+    "title": "You Drop, I Drop",
+  "requirements": [
+    [
+      "allay_deliver_item_to_player"
+    ]
+  ],
+  "sends_telemetry_event": true
+  }
+}

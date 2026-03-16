@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "gamma:null",
+  "features": [
+    "spawn:ore_reefstone"
+  ],
+  "step": "underground_ores"
+}

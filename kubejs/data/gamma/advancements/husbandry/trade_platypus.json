@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "item": "kubejs:music_disc_death"
+    },
+    "title": "Death, Delegated",
+    "description": "Super-charge a Platypus with a Redstone Block for it to dig up a Music Disc from Clay!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:husbandry/root",
+  "criteria": {
+    "super_charge": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:redstone_block"
+          ]
+        },
+        "entity": {
+          "type": "alexsmobs:platypus"
+        }
+      }
+    },
+    "obtain_death": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:music_disc_death"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "super_charge"
+    ],
+    [
+      "obtain_death"
+    ]
+  ]
+}
