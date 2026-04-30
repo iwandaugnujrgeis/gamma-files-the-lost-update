@@ -1,0 +1,141 @@
+{
+  "name": "gamma:laboratory/corridors",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gamma:laboratory/corridor_1",
+        "processors": "gamma:laboratory_processor",
+        "projection": "rigid"
+      },
+      "weight": 5
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gamma:laboratory/corridor_4_ways_1",
+        "processors": "gamma:laboratory_processor",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gamma:laboratory/corridor_4_ways_2",
+        "processors": "gamma:laboratory_processor",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gamma:laboratory/corridor_dead_end_1",
+        "processors": "gamma:laboratory_processor",
+        "projection": "rigid"
+      },
+      "weight": 7
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gamma:laboratory/corridor_staircase_1",
+        "processors": "gamma:laboratory_processor",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gamma:laboratory/corridor_staircase_2",
+        "processors": "gamma:laboratory_processor",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gamma:laboratory/corridor_staircase_3",
+        "processors": "gamma:laboratory_processor",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gamma:laboratory/corridor_corner_left_1",
+        "processors": "gamma:laboratory_processor",
+        "projection": "rigid"
+      },
+      "weight": 5
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gamma:laboratory/corridor_doors_1",
+        "processors": "gamma:laboratory_processor",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gamma:laboratory/corridor_doors_2",
+        "processors": "gamma:laboratory_processor",
+        "projection": "rigid"
+      },
+      "weight": 5
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gamma:laboratory/corridor_doors_3",
+        "processors": "gamma:laboratory_processor",
+        "projection": "rigid"
+      },
+      "weight": 5
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gamma:laboratory/corridor_left_right_1",
+        "processors": "gamma:laboratory_processor",
+        "projection": "rigid"
+      },
+      "weight": 5
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gamma:laboratory/corridor_simple_10",
+        "processors": "gamma:laboratory_processor",
+        "projection": "rigid"
+      },
+      "weight": 5
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gamma:laboratory/corridor_simple_11",
+        "processors": "gamma:laboratory_processor",
+        "projection": "rigid"
+      },
+      "weight": 5
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gamma:laboratory/corridor_simple_narrow_1",
+        "processors": "gamma:laboratory_processor",
+        "projection": "rigid"
+      },
+      "weight": 5
+    }
+  ]
+}

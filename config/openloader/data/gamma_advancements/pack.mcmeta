@@ -1,0 +1,44 @@
+{
+  "pack": {
+    "pack_format": 15,
+    "supported_formats": {"min_inclusive": 15, "max_inclusive": 22},
+    "description": "Gamma Advancements Overrides"
+  },
+  "filter": {
+    "block": [
+      {
+        "namespace": "alexsmobs",
+        "path": "advancements/.*"
+      },
+      {
+        "namespace": "autumnity",
+        "path": "advancements/.*"
+      },
+      {
+        "namespace": "atmospheric",
+        "path": "advancements/.*"
+      },
+      {
+        "namespace": "caverns_and_chasms",
+        "path": "advancements/.*"
+      },
+      {
+        "namespace": "ecologics",
+        "path": "advancements/.*"
+      },
+      {
+        "namespace": "upgrade_aquatic",
+        "path": "advancements/.*"
+      },
+      {
+        "namespace": "woodworks",
+        "path": "advancements/.*"
+      },
+      {
+        "namespace": "clayworks",
+        "path": "advancements/.*"
+      }
+    ]
+  }
+}
+

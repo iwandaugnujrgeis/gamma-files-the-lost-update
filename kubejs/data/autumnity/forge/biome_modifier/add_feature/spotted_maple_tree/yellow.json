@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "gamma:null",
+  "features": "autumnity:trees_maple_yellow",
+  "step": "vegetal_decoration"
+}

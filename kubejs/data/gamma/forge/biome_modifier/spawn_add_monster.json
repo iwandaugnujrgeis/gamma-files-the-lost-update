@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "gamma:underground",
+  "spawners": [
+    {
+      "type": "coraline_systems:monster",
+      "maxCount": 1,
+      "minCount": 1,
+      "weight": 10
+    }
+  ]
+}

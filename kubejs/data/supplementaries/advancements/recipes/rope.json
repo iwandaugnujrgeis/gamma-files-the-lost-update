@@ -1,0 +1,34 @@
+{
+  "rewards": {
+    "recipes": [
+      "crafttweaker:supplementaries_rope"
+    ]
+  },
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "crafttweaker:supplementaries_rope"
+      }
+    },
+    "has_roots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "spelunkery:tangle_roots"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_roots",
+      "has_the_recipe"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

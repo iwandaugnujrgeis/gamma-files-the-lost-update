@@ -1,0 +1,156 @@
+{
+  "suspense.jungle": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "ambientsounds:suspense/jungle1",
+        "stream": true,
+        "pitch": 1.0
+      },
+      {
+        "name": "ambientsounds:suspense/jungle1",
+        "stream": true,
+        "pitch": 0.9
+      },
+      {
+        "name": "ambientsounds:suspense/jungle1",
+        "stream": true,
+        "pitch": 0.8
+      }
+    ],
+  "category": "ambient"
+  },
+  "suspense.radiant_forest": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "ambientsounds:suspense/drain1",
+        "stream": true,
+        "pitch": 1.0
+      },
+      {
+        "name": "ambientsounds:suspense/drain1",
+        "stream": true,
+        "pitch": 0.9
+      },
+      {
+        "name": "ambientsounds:suspense/drain1",
+        "stream": true,
+        "pitch": 0.8
+      }
+    ],
+  "category": "ambient"
+  },
+  "chimes.chimes": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "ambientsounds:chimes/chimes1",
+        "stream": true
+      }
+    ],
+  "category": "ambient"
+  },
+  "chimes.corals": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "ambientsounds:chimes/corals1",
+        "stream": true,
+        "pitch": 1.0
+      },
+      {
+        "name": "ambientsounds:chimes/corals1",
+        "stream": true,
+        "pitch": 0.9
+      },
+      {
+        "name": "ambientsounds:chimes/corals1",
+        "stream": true,
+        "pitch": 0.8
+      }
+    ],
+  "category": "ambient"
+  },
+  "chimes.moonstone": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "ambientsounds:chimes/moonstone1",
+        "stream": true,
+        "pitch": 1.0
+      },
+      {
+        "name": "ambientsounds:chimes/moonstone1",
+        "stream": true,
+        "pitch": 0.9
+      },
+      {
+        "name": "ambientsounds:chimes/moonstone1",
+        "stream": true,
+        "pitch": 0.8
+      }
+    ],
+  "category": "ambient"
+  },
+  "cave.cave-lush": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "ambientsounds:cave/cave-large1",
+        "stream": true
+      }
+    ],
+  "category": "ambient"
+  },
+  "cave.cave-water1": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "gamma:null",
+        "stream": true
+      }
+    ],
+  "category": "ambient"
+  },
+  "cave.cave-water2": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "gamma:null",
+        "stream": true
+      }
+    ],
+  "category": "ambient"
+  },
+  "cave.cave-water3": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "gamma:null",
+        "stream": true
+      }
+    ],
+  "category": "ambient"
+  },
+  "cave.cave-water4": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "gamma:null",
+        "stream": true
+      }
+    ],
+  "category": "ambient"
+  },
+  "cave.cave-water5": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "gamma:null",
+        "stream": true
+      }
+    ],
+  "category": "ambient"
+  }
+}

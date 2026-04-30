@@ -1,0 +1,39 @@
+{
+  "parent": "minecraft:story/iron_tools",
+  "criteria": {
+    "ruby": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rediscovered:ruby"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "rediscovered:advancements.story.find_ruby.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "citadel:fancy_item",
+      "nbt": "{DisplayItem:\"rediscovered:ruby\", DisplayBob:0, DisplayZoom:0, DisplayScale:1, DisplaySpin:0, DisplayShake:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "rediscovered:advancements.story.find_ruby.title"
+    }
+  },
+  "requirements": [
+    [
+      "ruby"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

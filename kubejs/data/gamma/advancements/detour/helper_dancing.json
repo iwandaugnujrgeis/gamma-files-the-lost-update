@@ -1,0 +1,19 @@
+{
+  "parent": "gamma:detour/obtain_music_disc",
+  "criteria": {
+      "dance": {
+        "trigger": "coraline_systems:helper_dancing"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Throw a party with the Helpers!",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "kubejs:music_disc_droopy2"
+    },
+    "show_toast": true,
+    "title": "Take On Me"
+  }
+}

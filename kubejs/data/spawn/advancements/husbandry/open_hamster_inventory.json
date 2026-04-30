@@ -1,0 +1,25 @@
+{
+  "parent": "gamma:husbandry/tame_rodents",
+  "criteria": {
+    "open_hamster_inventory": {
+      "trigger": "spawn:open_hamster_inventory"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Access the Hamster's... Inventory",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "spelunkery:parachute"
+    },
+    "show_toast": true,
+    "title": "Pocket Dimension"
+  },
+  "requirements": [
+    [
+      "open_hamster_inventory"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

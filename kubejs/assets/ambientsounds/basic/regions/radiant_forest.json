@@ -1,0 +1,30 @@
+{
+  "name": "radiant_forest",
+  "biomes": [
+      "gamma:radiant_forest"
+    ],
+  "sound-collections": [
+      "wind"
+    ],
+  "features": [
+      "tree"
+    ],
+  "temperature": {
+      "min": 0.5
+  },
+  "sounds": [
+    {
+      "name": "radiant_forest",
+      "files": [
+        "ambientsounds:suspense.radiant_forest"
+      ],
+      "volume": 0.9,
+      "pause": {
+        "min": 2000,
+        "max": 6000
+      },
+      "day": 0.7,
+      "night": 1.0
+    }
+  ]
+}

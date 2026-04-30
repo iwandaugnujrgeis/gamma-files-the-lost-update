@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "gamma:underground",
+  "spawners": {
+    "type": "caverns_and_chasms:rat",
+    "maxCount": 2,
+    "minCount": 1,
+    "weight": 6
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "forge:remove_features",
+  "biomes": "#forge:is_mushroom",
+  "features": 
+    [
+      "farmersdelight:patch_brown_mushroom_colony", 
+      "farmersdelight:patch_red_mushroom_colony"
+    ],
+  "step": "vegetal_decoration"
+}

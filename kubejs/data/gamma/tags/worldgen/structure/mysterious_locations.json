@@ -1,0 +1,10 @@
+{
+  "values": [
+    "minecraft:ancient_city",
+    "minecraft:mineshaft",
+    "minecraft:desert_pyramid",
+    "minecraft:jungle_pyramid",
+    "minecraft:igloo",
+    "nova_structures:bunker"
+  ]
+}

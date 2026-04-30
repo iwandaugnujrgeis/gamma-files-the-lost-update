@@ -1,0 +1,30 @@
+{
+  "parent": "gamma:redstone/root",
+  "criteria": {
+    "open_large_storage_duct": {
+      "conditions": {
+        "length": {
+          "min": 100
+        }
+      },
+      "trigger": "caverns_and_chasms:open_storage_duct"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Open a Network of a 100 Storage Ducts...",
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "caverns_and_chasms:storage_duct"
+    },
+    "show_toast": true,
+    "title": "Neverending Storage"
+  },
+  "requirements": [
+    [
+      "open_large_storage_duct"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,25 @@
+{
+  "name": "gamma:laboratory/rail_corridors",
+  "fallback": "minecraft:empty",
+  "elements": [
+
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gamma:laboratory/rail_corridor_1",
+        "processors": "gamma:laboratory_processor",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gamma:laboratory/rail_corridor_stair_1",
+        "processors": "gamma:laboratory_processor",
+        "projection": "rigid"
+      },
+      "weight": 5
+    }
+  ]
+}

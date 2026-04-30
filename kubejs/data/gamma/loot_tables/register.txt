@@ -1,0 +1,12 @@
+skylands_loot — Self-explainatory: loot that is found in the Skylands' dungeons.
+
+dungeon_loot — Basic dungeon loot. To unify all of the dungeon's stuff, I've set them all to this loot_table — to lay the foundation. It is to be diversified, when I have the time. 
+
+lore_loot — This is something still WIP. I have to assign some items here that will reflect on the "Lore" of the pack more than just the regular loot. I need to sort this out better, as I'm not sure if I've set any of these loot_tables for TU-19 Castle. 
+
+Some of the ideas are: 
+Sheets of paper, books, silver nuggets, etc.
+
+monster_room_loot — Dungeon loot + a specific roll of music discs only. This is to secure a better chance for the player to find a music disc in these types of dungeons.
+
+mysterious_loot — A "rare", better-tier loot. For now it is only assigned to the Skylands' dungeons (a rare Brick Pyramid find & some rare chests in TU-19 Castle). It is not sorted out yet, but I want there to be 100% chance of finding a set of music discs (like 13 & calm4).

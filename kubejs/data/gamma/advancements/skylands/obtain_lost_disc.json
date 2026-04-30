@@ -1,0 +1,33 @@
+{
+  "parent": "rediscovered:skylands/root",
+  "criteria": {
+    "get_disc": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rediscovered:music_disc_calm4"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Obtain Notch's Magnetic Circuit!",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "rediscovered:music_disc_calm4"
+    },
+    "show_toast": true,
+    "title": "Magnetic Fields"
+  },
+  "requirements": [
+    [
+      "get_disc"
+    ]
+  ]
+}

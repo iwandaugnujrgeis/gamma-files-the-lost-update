@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "soul_dust": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:soul_dust"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "bear_fur": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "alexsmobs:bear_fur"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "crafttweaker:bear_dust"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "soul_dust",
+      "bear_fur",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "crafttweaker:bear_dust"
+    ]
+  },
+  "sends_telemetry_event": false
+}

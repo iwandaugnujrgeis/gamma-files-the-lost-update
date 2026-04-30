@@ -1,0 +1,21 @@
+{
+  "placement": {
+    "type": "structure_gel:grid_placement",
+    "allowed_near_spawn": true,
+    "exclusion_zone": {
+      "radius": 10,
+      "structures": "#gamma:ruins_avoid"
+    },
+    "frequency": 0.2,
+    "offset": 8,
+    "salt": 34211272,
+    "spacing": 12,
+    "structure": "gamma:ruins"
+  },
+  "structures": [
+    {
+      "structure": "gamma:ruins",
+      "weight": 1
+    }
+  ]
+}

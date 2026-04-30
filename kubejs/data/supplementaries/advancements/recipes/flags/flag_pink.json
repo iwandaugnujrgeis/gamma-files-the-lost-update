@@ -1,0 +1,34 @@
+{
+  "rewards": {
+    "recipes": [
+      "supplementaries:flags/flag_pink"
+    ]
+  },
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "supplementaries:flags/flag_pink"
+      }
+    },
+    "has_pink_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pink_wool"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_pink_wool"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

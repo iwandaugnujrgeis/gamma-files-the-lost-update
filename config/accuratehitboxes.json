@@ -1,0 +1,7 @@
+{
+  "mode": "blacklist",
+  "entities": [
+    "accuratehitboxes:exampleentity",
+    "accuratehitboxes:anotherexampleentity"
+  ]
+}

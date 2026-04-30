@@ -1,0 +1,18 @@
+{
+  "disabled_tabs": [
+    "etcetera.item_group",
+    "item_group.friendsandfoes.main_tab",
+    "item_group.sweety_garden.sweety_garden",
+    "item_group.variantsandventures.main_tab",
+    "itemGroup.alexsmobs",
+    "itemGroup.ecologics.tab",
+    "itemGroup.farmersdelight",
+    "itemGroup.galosphere.galosphere",
+    "itemGroup.hauntedharvest",
+    "itemGroup.species.species",
+    "itemGroup.spelunkery",
+    "KubeJS",
+    "More Minecarts and Rails",
+    "spawn.item_group"
+  ]
+}

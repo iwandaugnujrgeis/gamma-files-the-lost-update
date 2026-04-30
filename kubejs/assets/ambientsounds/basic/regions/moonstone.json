@@ -1,0 +1,21 @@
+{
+  "name": "moonstone",
+  "features":[
+    "moonstone"
+  ],
+  "sounds": [
+    {
+      "name": "moonstone",
+      "files": [
+        "ambientsounds:chimes.moonstone"
+      ],
+      "volume": 0.9,
+      "pause": {
+        "min": 100,
+        "max": 1000
+      },
+      "day": 0.2,
+      "night": 1.0
+    }
+  ]
+}

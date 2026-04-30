@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "gamma:null",
+  "features": "ecologics:thin_ice_patch",
+  "step": "top_layer_modification"
+}

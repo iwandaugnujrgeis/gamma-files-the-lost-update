@@ -1,0 +1,52 @@
+{
+  "parent": "gamma:redstone/obtain_quartz",
+  "criteria": {
+    "converter": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "supplementaries:cog_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "gear": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:gear"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Craft a Gear & a Cog Block!",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "citadel:fancy_item",
+      "nbt": "{DisplayItem:\"kubejs:gear\", DisplayBob:0, DisplayZoom:1, DisplayScale:1, DisplaySpin:0, DisplayShake:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "rediscovered:advancements.adventure.craft_gears.title"
+    }
+  },
+  "requirements": [
+    [
+      "gear"
+    ],
+    [
+      "converter"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
