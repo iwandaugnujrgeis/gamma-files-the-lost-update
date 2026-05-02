@@ -106,7 +106,7 @@ element {
 
 element {
   interactable = true
-  source = Minecraft 1.20.1%n%Gamma FIles 4.20.5
+  source = Minecraft 1.20.1%n%Gamma Files 4.20.7
   source_mode = direct
   shadow = true
   scale = 1.0

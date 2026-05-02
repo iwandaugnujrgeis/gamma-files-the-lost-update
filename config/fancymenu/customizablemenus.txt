@@ -48,9 +48,6 @@ net.minecraft.client.gui.screens.inventory.BookEditScreen {
 com.zetal.easynametags.NameTagScreen {
 }
 
-net.minecraft.client.gui.screens.DeathScreen {
-}
-
 net.minecraft.client.gui.screens.OptionsScreen {
 }
 
@@ -82,5 +79,8 @@ mod.bluestaggo.modernerbeta.client.gui.screen.ModernBetaWorldScreen {
 }
 
 net.minecraft.client.gui.screens.worldselection.CreateWorldScreen {
+}
+
+net.minecraft.client.gui.screens.DeathScreen {
 }
 

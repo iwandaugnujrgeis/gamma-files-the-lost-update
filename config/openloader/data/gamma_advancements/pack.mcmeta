@@ -31,10 +31,6 @@
         "path": "advancements/.*"
       },
       {
-        "namespace": "woodworks",
-        "path": "advancements/.*"
-      },
-      {
         "namespace": "clayworks",
         "path": "advancements/.*"
       }
