@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "gamma:null",
+  "spawners": {
+    "type": "ecologics:penguin",
+    "weight": 2,
+    "minCount": 4,
+    "maxCount": 5
+  }
+}

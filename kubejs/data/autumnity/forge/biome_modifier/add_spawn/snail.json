@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "gamma:null",
+  "spawners": {
+    "type": "autumnity:snail",
+    "maxCount": 2,
+    "minCount": 2,
+    "weight": 10
+  }
+}

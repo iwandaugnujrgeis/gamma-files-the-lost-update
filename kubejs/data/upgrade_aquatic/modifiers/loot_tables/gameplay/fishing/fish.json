@@ -1,0 +1,11 @@
+{
+  "modifiers": [],
+  "priority": "normal",
+  "selector": {
+    "type": "names",
+    "config": [
+      "minecraft:chests/buried_treasure",
+      "minecraft:chests/underwater_ruin_big"
+    ]
+  }
+}

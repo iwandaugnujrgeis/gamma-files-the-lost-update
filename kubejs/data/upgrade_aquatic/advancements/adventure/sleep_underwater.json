@@ -1,0 +1,19 @@
+{
+  "parent": "gamma:detour/craft_pillow_block",
+  "display": {
+    "icon": {
+      "item": "upgrade_aquatic:blue_bedroll"
+    },
+    "title": "Wet Dreams",
+    "description": "Sleep underwater in a Bedroll!?",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "sleep_underwater": {
+      "trigger": "upgrade_aquatic:sleep_underwater"
+    }
+  }
+}

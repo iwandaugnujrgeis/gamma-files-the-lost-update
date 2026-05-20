@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "quark:magnet"
+    },
+    "title": "Switching Sides",
+    "description": "Craft a Big (!) Magnet. It can be used to Push and Pull Metal Blocks",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "gamma:redstone/obtain_magnetite",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "quark:magnet"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

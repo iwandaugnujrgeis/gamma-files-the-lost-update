@@ -1,0 +1,74 @@
+{
+  "parent": "galosphere:adventure/silver_ingot",
+  "criteria": {
+    "plate_boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rediscovered:plate_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "plate_chestplate": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rediscovered:plate_chestplate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "plate_helmet": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rediscovered:plate_helmet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "plate_leggings": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rediscovered:plate_leggings"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Obtain a Piece of Plate Armor!",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "rediscovered:plate_chestplate",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": "No Surprises"
+  },
+  "requirements": [
+    [
+      "plate_helmet",
+      "plate_chestplate",
+      "plate_leggings",
+      "plate_boots"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

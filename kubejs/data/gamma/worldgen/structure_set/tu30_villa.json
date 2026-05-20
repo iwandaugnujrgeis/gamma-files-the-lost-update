@@ -1,0 +1,17 @@
+{
+  "placement": {
+    "type": "structure_gel:grid_placement",
+    "allowed_near_spawn": true,
+    "exclusion_zone": {
+      "radius": 10,
+      "structures": "#gamma:tu30_villa_avoids"
+    },
+    "frequency": 0.6,
+    "offset": 24,
+    "salt": 72935108,
+    "spacing": 32,
+    "structure": "gamma:tu30_villa"
+  },
+  "structures": []
+}
+

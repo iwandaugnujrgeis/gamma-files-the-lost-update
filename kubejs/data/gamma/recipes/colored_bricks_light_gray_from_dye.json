@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "colored_bricks",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:bricks"
+    },
+    "B": {
+      "item": "minecraft:light_gray_dye"
+    }
+  },
+  "result": {
+    "item": "kubejs:light_gray_bricks",
+    "count": 8
+  }
+}

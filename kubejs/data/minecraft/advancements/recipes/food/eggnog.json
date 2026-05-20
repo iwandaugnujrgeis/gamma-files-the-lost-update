@@ -1,0 +1,59 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_egg": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:eggs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_sugar": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sugar"
+            ]
+          }
+        ]
+      }
+    },
+    "has_milk_bottle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmersdelight:milk_bottle"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "crafttweaker:eggnog"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_egg",
+      "has_the_recipe",
+      "has_milk_bottle",
+      "has_sugar"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "crafttweaker:eggnog"
+    ]
+  },
+  "sends_telemetry_event": false
+}

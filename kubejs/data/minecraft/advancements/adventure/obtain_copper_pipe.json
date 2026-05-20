@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "quark:pipe"
+    },
+    "title": "Agent Copper",
+    "description": "Craft a Pipe!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "gamma:redstone/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "quark:pipe"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

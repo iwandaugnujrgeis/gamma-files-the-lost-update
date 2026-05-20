@@ -1,0 +1,58 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "quark:framed_glass_black_from_dye",
+      "quark:framed_glass_black",
+      "quark:framed_glass_blue_from_dye",
+      "quark:framed_glass_blue",
+      "quark:framed_glass_brown_from_dye",
+      "quark:framed_glass_brown",
+      "quark:framed_glass_cyan_from_dye",
+      "quark:framed_glass_cyan",
+      "quark:framed_glass_gray_from_dye",
+      "quark:framed_glass_gray",
+      "quark:framed_glass_green_from_dye",
+      "quark:framed_glass_green",
+      "quark:framed_glass_light_blue_from_dye",
+      "quark:framed_glass_light_blue",
+      "quark:framed_glass_light_gray_from_dye",
+      "quark:framed_glass_light_gray",
+      "quark:framed_glass_lime_from_dye",
+      "quark:framed_glass_lime",
+      "quark:framed_glass_magenta_from_dye",
+      "quark:framed_glass_magenta",
+      "quark:framed_glass_orange_from_dye",
+      "quark:framed_glass_orange",
+      "quark:framed_glass_pink_from_dye",
+      "quark:framed_glass_pink",
+      "quark:framed_glass_purple_from_dye",
+      "quark:framed_glass_purple",
+      "quark:framed_glass_red_from_dye",
+      "quark:framed_glass_red",
+      "quark:framed_glass_white_from_dye",
+      "quark:framed_glass_white",
+      "quark:framed_glass_yellow_from_dye",
+      "quark:framed_glass_yellow"
+    ]
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "quark:framed_glass"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ]
+}

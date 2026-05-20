@@ -1,0 +1,40 @@
+{
+  "parent": "rediscovered:skylands/slay_red_dragon",
+  "criteria": {
+    "hatch_dragon": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "rediscovered:red_dragon_offspring"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:summoned_entity"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "rediscovered:advancements.skylands.hatch_red_dragon.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:dragon_breath"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "rediscovered:advancements.skylands.hatch_red_dragon.title"
+    }
+  },
+  "requirements": [
+    [
+      "hatch_dragon"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

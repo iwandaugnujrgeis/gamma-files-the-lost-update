@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "soul_heart": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "alexsmobs:soul_heart"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "gold_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gold_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "crafttweaker:totem_of_undying"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "soul_heart",
+      "gold_block",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "crafttweaker:totem_of_undying"
+    ]
+  },
+  "sends_telemetry_event": false
+}

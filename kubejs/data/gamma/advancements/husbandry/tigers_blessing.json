@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:porkchop"
+    },
+    "title": "Pawsitive Omen!",
+    "description": "Drop a few Porkchops or Poultry to a Tiger to get its Blessing!",
+    "frame": "task"
+  },
+  "parent": "minecraft:husbandry/root",
+  "criteria": {
+    "all_effects": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "alexsmobs:tigers_blessing": {}
+        }
+      }
+    }
+  }
+}

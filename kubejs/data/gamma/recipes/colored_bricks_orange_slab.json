@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "colored_bricks_slab",
+  "pattern": [
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "kubejs:orange_bricks"
+    }
+  },
+  "result": {
+    "item": "kubejs:orange_bricks_slab",
+    "count": 6
+  }
+}

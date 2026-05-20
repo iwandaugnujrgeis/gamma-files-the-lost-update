@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "upgrade_aquatic:river_tree",
+    "features": [
+      {
+        "chance": 0.1,
+        "feature": "minecraft:fancy_oak_bees_0002"
+      },
+      {
+        "chance": 0.05,
+        "feature": "minecraft:acacia_checked"
+      },
+      {
+        "chance": 0.3,
+        "feature": "minecraft:dark_oak_checked"
+      },
+      {
+        "chance": 0.3,
+        "feature": "minecraft:jungle_bush"
+      },
+      {
+        "chance": 0.4,
+        "feature": "minecraft:jungle_tree"
+      },
+      {
+        "chance": 0.6,
+        "feature": "upgrade_aquatic:river_tree"
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+	"ping": {
+		"replace": true,
+		"subtitle": "ping-wheel.subtitles.ping",
+		"sounds": [
+			{
+			  "name": "random/pop",
+			  "pitch": 0.7,
+			  "volume": 0.8
+			}
+		]
+	}
+}

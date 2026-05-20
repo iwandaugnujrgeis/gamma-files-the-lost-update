@@ -1,0 +1,8 @@
+{
+    "name": "chimes",
+    "groups": [
+        "chimes"
+    ],
+    "low-count": 3,
+    "high-count": 5
+}

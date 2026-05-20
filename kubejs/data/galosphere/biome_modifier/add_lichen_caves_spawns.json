@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "gamma:null",
+  "features": [
+    "galosphere:bowl_lichen"
+  ],
+  "step": "vegetal_decoration"
+}

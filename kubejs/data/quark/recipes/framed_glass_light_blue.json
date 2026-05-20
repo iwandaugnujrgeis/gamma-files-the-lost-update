@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "framed_glass",
+  "pattern": [
+    "ABA",
+    "BAB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:iron_nugget"
+    },
+    "B": {
+      "item": "minecraft:light_blue_stained_glass"
+    }
+  },
+  "result": {
+    "item": "quark:light_blue_framed_glass",
+    "count": 4
+  }
+}

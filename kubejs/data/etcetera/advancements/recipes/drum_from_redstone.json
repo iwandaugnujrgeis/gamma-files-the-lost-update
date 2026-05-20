@@ -1,0 +1,60 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "crafttweaker:drum"
+    ]
+  },
+  "criteria": {
+    "note_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:note_block"
+            ]
+          }
+        ]
+      }
+    },
+    "string": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:string"
+            ]
+          }
+        ]
+      }
+    },
+    "paper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:paper"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "crafttweaker:drum"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "note_block",
+      "paper",
+      "string",
+      "has_the_recipe"
+    ]
+  ]
+}

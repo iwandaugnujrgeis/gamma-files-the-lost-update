@@ -1,0 +1,6 @@
+{
+  "input": "#minecraft:wooden_stairs",
+  "output": {
+    "name": "spawn:rotten_stairs"
+  }
+}

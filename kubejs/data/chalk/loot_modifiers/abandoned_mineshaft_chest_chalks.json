@@ -1,0 +1,10 @@
+{
+  "type": "chalk:loot_table_addition",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:empty_loot_table_that_doesnt_exist"
+    }
+  ],
+  "lootTable": "chalk:chests/abandoned_mineshaft_chalk_loot"
+}

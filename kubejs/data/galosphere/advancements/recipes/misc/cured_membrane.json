@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "phantom_membrane": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:phantom_membrane"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "halite_crystal": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:halite_crystal"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "crafttweaker:cured_membrane"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "halite_crystal",
+      "phantom_membrane",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "crafttweaker:cured_membrane"
+    ]
+  },
+  "sends_telemetry_event": false
+}

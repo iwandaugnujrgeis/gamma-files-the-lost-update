@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cyan_bed"
+    },
+    "title": "Don't Touch the...",
+    "description": "Try to Sleep in the Skylands!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "rediscovered:skylands/root",
+    "criteria": {
+      "oops_no_i_blew_up": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

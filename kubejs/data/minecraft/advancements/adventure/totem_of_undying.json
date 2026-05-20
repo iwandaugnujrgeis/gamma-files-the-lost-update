@@ -1,0 +1,48 @@
+{
+  "parent": "gamma:detour/obtain_soul_heart",
+  "criteria": {
+    "used_totem": {
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:totem_of_undying"
+          ]
+        }
+      },
+      "trigger": "minecraft:used_totem"
+    },
+    "craft_totem": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:totem_of_undying"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Obtain and Use the Totem of Undying!",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "citadel:fancy_item",
+      "nbt": "{DisplayItem:\"minecraft:totem_of_undying\", DisplayBob:1, DisplayZoom:0, DisplayScale:1, DisplaySpin:0, DisplayShake:0}"
+    },
+    "show_toast": true,
+    "title": "Insurance Fraud"
+  },
+  "requirements": [
+    [
+      "used_totem"
+    ],
+    [
+      "craft_totem"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

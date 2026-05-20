@@ -1,0 +1,6 @@
+{
+  "input": "#minecraft:planks",
+  "output": {
+    "name": "spawn:rotten_planks"
+  }
+}

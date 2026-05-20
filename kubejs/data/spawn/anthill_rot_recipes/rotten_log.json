@@ -1,0 +1,6 @@
+{
+  "input": "#minecraft:logs",
+  "output": {
+    "name": "spawn:rotten_log"
+  }
+}

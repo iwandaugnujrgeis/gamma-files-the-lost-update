@@ -1,0 +1,53 @@
+{
+  "parent": "gamma:detour/kill_a_mob",
+  "criteria": {
+    "spike_death": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:guardian"
+            }
+          }
+        ]
+      },
+      "trigger": "rediscovered:kill_with_spikes"
+    },
+    "craft_spikes": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rediscovered:spikes"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Slay a Guardian with Spikes!",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "rediscovered:spikes"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "rediscovered:advancements.adventure.spiky_spikes.title"
+    }
+  },
+  "requirements": [
+    [
+      "spike_death"
+    ],
+    [
+      "craft_spikes"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

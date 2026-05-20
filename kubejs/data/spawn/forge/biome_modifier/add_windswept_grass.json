@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "gamma:null",
+  "features": [
+    "spawn:patch_windswept_grass"
+  ],
+  "step": "vegetal_decoration"
+}

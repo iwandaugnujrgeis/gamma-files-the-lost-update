@@ -1,0 +1,21 @@
+{
+  "blacklist": [
+    "moremobvariants:golden_retriever",
+    "moremobvariants:ashen",
+    "moremobvariants:basenji",
+    "moremobvariants:black",
+    "moremobvariants:chestnut",
+    "moremobvariants:default",
+    "moremobvariants:french_bulldog",
+    "moremobvariants:german_shepherd",
+    "moremobvariants:golden_retriever",
+    "moremobvariants:husky",
+    "moremobvariants:jupiter",
+    "moremobvariants:rusty",
+    "moremobvariants:skeleton",
+    "moremobvariants:snowy",
+    "moremobvariants:spotted",
+    "moremobvariants:striped",
+    "moremobvariants:woods"
+  ]
+}

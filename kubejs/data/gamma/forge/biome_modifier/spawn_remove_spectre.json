@@ -1,0 +1,7 @@
+{
+  "type": "forge:remove_spawns",
+  "biomes": "galosphere:lichen_caves",
+  "entity_types": [
+    "galosphere:spectre"
+  ]
+}

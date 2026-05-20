@@ -1,0 +1,379 @@
+{
+  "parent": "gamma:detour/root",
+  "criteria": {
+    "music_disc_13": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_13"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "music_disc_cat": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_cat"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "music_disc_dog": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:music_disc_dog"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "music_disc_blocks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_blocks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "music_disc_chirp": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_chirp"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "music_disc_far": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_far"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "music_disc_mall": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_mall"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "music_disc_mellohi": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_mellohi"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "music_disc_stal": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_stal"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "music_disc_strad": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_strad"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "music_disc_ward": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_ward"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "music_disc_11": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_11"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "music_disc_eleven": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:music_disc_eleven"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "music_disc_wait": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_wait"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "music_disc_calm4": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rediscovered:music_disc_calm4"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "music_disc_otherside": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_otherside"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "music_disc_5": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_5"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "music_disc_atlantis": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "upgrade_aquatic:music_disc_atlantis"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "music_disc_pigstep": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_pigstep"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "music_disc_droopy2": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:music_disc_droopy2"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "music_disc_thime": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "alexsmobs:music_disc_thime"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "music_disc_relic": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_relic"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "music_disc_death": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:music_disc_death"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "music_disc_acid": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:music_disc_acid"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Collect All Music Discs!",
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "kubejs:music_disc_dog"
+    },
+    "show_toast": true,
+    "title": "Tutorial Soundscape"
+  },
+  "requirements": [
+    [
+      "music_disc_13"
+    ],
+    [
+      "music_disc_cat"
+    ],
+    [
+      "music_disc_dog"
+    ],
+    [
+      "music_disc_blocks"
+    ],
+    [
+      "music_disc_chirp"
+    ],
+    [
+      "music_disc_far"
+    ],
+    [
+      "music_disc_mall"
+    ],
+    [
+      "music_disc_mellohi"
+    ],
+    [
+      "music_disc_stal"
+    ],
+    [
+      "music_disc_strad"
+    ],
+    [
+      "music_disc_ward"
+    ],
+    [
+      "music_disc_11"
+    ],
+    [
+      "music_disc_eleven"
+    ],
+    [
+      "music_disc_wait"
+    ],
+    [
+      "music_disc_calm4"
+    ],
+    [
+      "music_disc_otherside"
+    ],
+    [
+      "music_disc_5"
+    ],
+    [
+      "music_disc_atlantis"
+    ],
+    [
+      "music_disc_pigstep"
+    ],
+    [
+      "music_disc_droopy2"
+    ],
+    [
+      "music_disc_thime"
+    ],
+    [
+      "music_disc_relic"
+    ],
+    [
+      "music_disc_acid"
+    ],
+    [
+      "music_disc_death"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

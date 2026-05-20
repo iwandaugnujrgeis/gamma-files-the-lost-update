@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:story/benchmarking",
+  "criteria": {
+    "get_copper": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:raw_copper"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Obtain Raw Copper!",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:raw_copper"
+    },
+    "show_toast": true,
+    "title": "Conducting Business!"
+  },
+  "requirements": [
+    [
+      "get_copper"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

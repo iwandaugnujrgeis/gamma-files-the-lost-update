@@ -1,0 +1,48 @@
+{
+  "parent": "gamma:detour/obtain_music_disc",
+  "criteria": {
+    "play_jukebox_in_meadows": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "biome": "minecraft:plains",
+              "block": {
+                "blocks": [
+                  "minecraft:jukebox"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "tag": "minecraft:music_discs"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:item_used_on_block"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Make the Plains come Alive with the Sound of Music!",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:jukebox"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.adventure.play_jukebox_in_meadows.title"
+    }
+  },
+  "requirements": [
+    [
+      "play_jukebox_in_meadows"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

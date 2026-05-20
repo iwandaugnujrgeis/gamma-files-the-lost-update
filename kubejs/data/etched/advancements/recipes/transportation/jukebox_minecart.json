@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "etched:jukebox_minecart"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_jukebox": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:jukebox"
+            ]
+          }
+        ]
+      }
+    },
+    "has_minecart": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:minecart"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_minecart",
+      "has_the_recipe",
+      "has_jukebox"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "etched:jukebox_minecart"
+    ]
+  },
+  "sends_telemetry_event": false
+}

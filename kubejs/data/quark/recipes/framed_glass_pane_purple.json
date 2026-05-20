@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "framed_glass_pane",
+  "pattern": [
+    "ABA",
+    "BAB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:iron_nugget"
+    },
+    "B": {
+      "item": "minecraft:purple_stained_glass_pane"
+    }
+  },
+  "result": {
+    "item": "quark:purple_framed_glass_pane",
+    "count": 4
+  }
+}

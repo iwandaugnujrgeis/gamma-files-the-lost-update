@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "gamma:null",
+  "features": "habitat:patch_tall_anthurium",
+  "step": "vegetal_decoration"
+}

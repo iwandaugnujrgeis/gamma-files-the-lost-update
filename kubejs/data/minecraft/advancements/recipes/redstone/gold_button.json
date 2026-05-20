@@ -1,0 +1,46 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "quark:automation/crafting/gold_button"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "gold_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gold_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "wooden_buttons": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:wooden_buttons"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "gold_ingot",
+      "wooden_buttons",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "quark:automation/crafting/gold_button"
+    ]
+  },
+  "sends_telemetry_event": false
+}

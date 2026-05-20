@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_pickaxe"
+    },
+    "title": "Don’t Mine at Night?",
+    "description": "Obtain a Diamond Pickaxe!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:story/mine_diamond",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_pickaxe"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

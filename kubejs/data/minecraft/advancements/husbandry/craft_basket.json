@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "farmersdelight:basket"
+    },
+    "title": "Wicker Park",
+    "description": "Craft a Basket!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:husbandry/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmersdelight:basket"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

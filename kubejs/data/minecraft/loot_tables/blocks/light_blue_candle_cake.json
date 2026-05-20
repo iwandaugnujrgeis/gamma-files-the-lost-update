@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "farmersdelight:cake_slice",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 7
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ]
+    },    
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:light_blue_candle"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:blocks/light_blue_candle_cake"
+}

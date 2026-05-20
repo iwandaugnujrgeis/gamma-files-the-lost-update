@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:husbandry/root",
+  "criteria": {
+    "place_compost": {
+      "conditions": {
+        "location": [
+          {
+            "block": "farmersdelight:organic_compost",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      },
+      "trigger": "minecraft:placed_block"
+    },
+    "craft_compost": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmersdelight:organic_compost"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Craft and Place Organic Compost near Water for it to turn into Rich Soil!",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "farmersdelight:organic_compost"
+    },
+    "show_toast": true,
+    "title": "Organic Post.com"
+  },
+  "requirements": [
+    [
+      "place_compost"
+    ],
+    [
+      "craft_compost"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,74 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "pumpkin_slice": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmersdelight:pumpkin_slice"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "dough": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:dough"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "syrup_bottle": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "autumnity:syrup_bottle"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "butter": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:butter"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "crafttweaker:pumpkin_bread"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "pumpkin_slice",
+      "butter",
+      "syrup_bottle",
+      "dough",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "crafttweaker:pumpkin_bread"
+    ]
+  },
+  "sends_telemetry_event": false
+}

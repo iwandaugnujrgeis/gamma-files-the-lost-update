@@ -1,0 +1,46 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "crafttweaker:bamboo_raft"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "boats": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:boats"
+          }
+        ]
+      }
+    },
+    "bamboo_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bamboo_planks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "bamboo_planks",
+      "boats",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "crafttweaker:bamboo_raft"
+    ]
+  },
+  "sends_telemetry_event": false
+}

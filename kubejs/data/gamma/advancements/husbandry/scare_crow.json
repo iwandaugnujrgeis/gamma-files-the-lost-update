@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "dummmmmmy:target_dummy"
+    },
+    "title": "Scare... Who?",
+    "description": "Place a Pumpkin on a Target Dummy!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "gamma:husbandry/obtain_craved_pumpkin",
+  "criteria": {
+    "super_charge": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "tag": "forge:pumpkins"
+        },
+        "entity": {
+          "type": "dummmmmmy:target_dummy"
+        }
+      }
+    }
+  }
+}

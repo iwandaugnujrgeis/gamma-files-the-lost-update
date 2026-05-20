@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "coraline_systems:wall_torch",
+          "properties": {
+            "burn": {
+              "min": 0,
+              "max": 10
+            }
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "coraline_systems:torch"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "coraline_systems:blocks/wall_torch"
+}

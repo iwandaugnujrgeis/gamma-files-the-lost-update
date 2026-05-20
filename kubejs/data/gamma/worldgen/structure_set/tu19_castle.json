@@ -1,0 +1,22 @@
+{
+  "placement": {
+    "type": "structure_gel:grid_placement",
+    "allowed_near_spawn": true,
+    "exclusion_zone": {
+      "radius": 10,
+      "structures": "#gamma:tu19_castle_avoids"
+    },
+    "frequency": 0.6,
+    "offset": 24,
+    "salt": 64413242,
+    "spacing": 32,
+    "structure": "gamma:tu19_castle"
+  },
+  "structures": [
+    {
+      "structure": "gamma:tu19_castle",
+      "weight": 1
+    }
+  ]
+}
+

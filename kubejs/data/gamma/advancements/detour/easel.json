@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "easel_does_it:easel"
+    },
+    "title": "Ready, Set, Gogh",
+    "description": "Craft an Easel to Select Paintings!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "gamma:detour/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "easel_does_it:easel"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

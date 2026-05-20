@@ -1,0 +1,7 @@
+{
+  "processors": [
+    {
+      "processor_type": "spawn:octopolis_processor"
+    }
+  ]
+}

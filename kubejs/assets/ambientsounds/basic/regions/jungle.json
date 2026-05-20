@@ -1,0 +1,48 @@
+{
+  "name": "jungle",
+  "biomes": [
+      "#is_jungle",
+      "jungle",
+      "sacred springs",
+      "tropical",
+      "bamboo forest",
+      "bambona beach",
+      "encalyptus forest",
+      "overgrown cliffs",
+      "tropics",
+      "tyros",
+      "rainforest"
+    ],
+  "bad-biomes": [
+      "tropics plains",
+      "tropics beach",
+      "tyros swamp",
+      "subtropical forest",
+      "tropical*extreme hills",
+      "rain"
+    ],
+  "sound-collections": [
+      "wind"
+    ],
+  "features": [
+      "tree"
+    ],
+  "temperature": {
+      "min": 0.5
+  },
+  "sounds": [
+    {
+      "name": "jungle",
+      "files": [
+        "ambientsounds:suspense.jungle"
+      ],
+      "volume": 0.9,
+      "pause": {
+        "min": 2000,
+        "max": 6000
+      },
+      "day": 0.7,
+      "night": 1.0
+    }
+  ]
+}

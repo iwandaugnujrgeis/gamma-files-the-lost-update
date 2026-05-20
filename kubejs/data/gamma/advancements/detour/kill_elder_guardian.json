@@ -1,0 +1,31 @@
+{
+  "parent": "gamma:detour/kill_a_mob",
+  "criteria": {
+    "minecraft:elder_guardian": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:elder_guardian"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Slay an Elder Guardian to obtain the Elder Eye!",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "upgrade_aquatic:elder_eye"
+    },
+    "show_toast": true,
+    "title": "Peek-a-Boo?"
+  },
+  "sends_telemetry_event": true
+}

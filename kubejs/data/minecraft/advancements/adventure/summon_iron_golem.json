@@ -1,0 +1,37 @@
+{
+  "parent": "gamma:husbandry/obtain_craved_pumpkin",
+  "criteria": {
+    "summoned_golem": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:iron_golem"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:summoned_entity"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Summon an Iron Golem!",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "citadel:fancy_item",
+      "nbt": "{DisplayItem:\"minecraft:iron_block\", DisplayBob:1, DisplayZoom:0, DisplayScale:1, DisplaySpin:0, DisplayShake:0}"
+    },
+    "show_toast": true,
+    "title": "Rise, Tin Dad"
+  },
+  "requirements": [
+    [
+      "summoned_golem"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

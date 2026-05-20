@@ -1,0 +1,15 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "structure_gel:gel_single_pool_element",
+        "location": "rediscovered:brick_pyramid/center_room_0",
+        "maintainWater": false,
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

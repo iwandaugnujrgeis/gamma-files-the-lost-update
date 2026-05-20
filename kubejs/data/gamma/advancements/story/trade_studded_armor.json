@@ -1,0 +1,80 @@
+{
+  "parent": "rediscovered:skylands/trade_with_pigman",
+  "criteria": {
+    "studded_helmet": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rediscovered:studded_helmet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "studded_chestplate": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rediscovered:studded_chestplate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "studded_leggings": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rediscovered:studded_leggings"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "studded_boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rediscovered:studded_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Trade a Full Set of Studded Armor!",
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "citadel:fancy_item",
+      "nbt": "{DisplayItem:\"rediscovered:studded_chestplate\", DisplayBob:1, DisplayZoom:0, DisplayScale:1, DisplaySpin:0, DisplayShake:0}"
+    },
+    "show_toast": true,
+    "title": "Haute Hog-ture"
+  },
+  "requirements": [
+    [
+      "studded_helmet"
+    ],
+    [
+      "studded_chestplate"
+    ],
+    [
+      "studded_leggings"
+    ],
+    [
+      "studded_boots"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

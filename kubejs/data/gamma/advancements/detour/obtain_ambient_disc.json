@@ -1,0 +1,32 @@
+{
+  "parent": "gamma:detour/root",
+  "criteria": {
+    "get_disc": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "gamma:ambient_discs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Obtain an Ambient Disc! Spiders Drop them if Shot by Skeletons!",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "quark:music_disc_rain"
+    },
+    "show_toast": true,
+    "title": "Music for Airports!"
+  },
+  "requirements": [
+    [
+      "get_disc"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,34 @@
+{
+  "parent": "rediscovered:skylands/give_rana_gift",
+  "criteria": {
+    "get_rarest_item_ever": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "supplementaries:confetti_popper"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Obtain a Confetti Popper from Rana!",
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "item": "supplementaries:confetti_popper"
+    },
+    "show_toast": true,
+    "title": "Party Trick"
+  },
+  "requirements": [
+    [
+      "get_rarest_item_ever"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

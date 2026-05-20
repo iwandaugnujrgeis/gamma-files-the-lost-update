@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:carved_pumpkin"
+    },
+    "title": "Emotionally Complex Vegetable",
+    "description": "Carve a Pumpkin!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:husbandry/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:carved_pumpkin"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

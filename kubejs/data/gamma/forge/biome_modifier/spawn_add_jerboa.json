@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "gamma:andesite_crags",
+  "spawners": [
+    {
+      "type": "alexsmobs:jerboa",
+      "maxCount": 5,
+      "minCount": 1,
+      "weight": 6
+    }
+  ]
+}

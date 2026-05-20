@@ -1,0 +1,10 @@
+{
+  "type": "forge:remove_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": 
+    [
+      "farmersdelight:patch_wild_onions", 
+      "farmersdelight:patch_wild_carrots"
+    ],
+  "step": "vegetal_decoration"
+}

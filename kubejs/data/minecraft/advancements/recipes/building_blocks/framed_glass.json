@@ -1,0 +1,41 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "crafttweaker:framed_glass",
+      "crafttweaker:framed_glass_pane"
+    ]
+  },
+  "criteria": {
+    "iron_nugget": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_nugget"
+            ]
+          }
+        ]
+      }
+    },
+    "glass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:glass"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "glass",
+      "iron_nugget"
+    ]
+  ]
+}

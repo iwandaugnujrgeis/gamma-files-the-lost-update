@@ -1,0 +1,19 @@
+{
+  "parent": "gamma:detour/root",
+  "criteria": {
+      "wear_the_pants": {
+        "trigger": "coraline_systems:cobalt_pants"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Wear Cobalt Pants to keep your Inventory!",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "coraline_systems:cobalt_pants"
+    },
+    "show_toast": true,
+    "title": "Drippy Looks"
+  }
+}

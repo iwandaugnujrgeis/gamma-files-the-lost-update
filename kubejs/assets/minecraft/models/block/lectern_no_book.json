@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "gamma:block/lectern_base",
+    "east": "gamma:block/lectern_sides",
+    "north": "gamma:block/lectern_front",
+    "particle": "gamma:block/lectern_sides",
+    "south": "gamma:block/lectern_sides",
+    "up": "gamma:block/lectern_top",
+    "west": "gamma:block/lectern_sides"
+  }
+}

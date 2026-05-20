@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "gamma:null",
+  "features": "habitat:huge_ball_cactus",
+  "step": "vegetal_decoration"
+}

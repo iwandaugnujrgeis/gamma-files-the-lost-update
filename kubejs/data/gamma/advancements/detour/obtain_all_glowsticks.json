@@ -1,0 +1,274 @@
+{
+  "parent": "gamma:detour/root",
+  "criteria": {
+    "glowstick": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "spelunkery:glowstick"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "white_glowstick": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "spelunkery:white_glowstick"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "light_gray_glowstick": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "spelunkery:light_gray_glowstick"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "gray_glowstick": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "spelunkery:gray_glowstick"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "black_glowstick": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "spelunkery:black_glowstick"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "brown_glowstick": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "spelunkery:brown_glowstick"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "red_glowstick": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "spelunkery:red_glowstick"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "orange_glowstick": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "spelunkery:orange_glowstick"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "yellow_glowstick": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "spelunkery:yellow_glowstick"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "lime_glowstick": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "spelunkery:lime_glowstick"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "green_glowstick": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "spelunkery:green_glowstick"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "cyan_glowstick": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "spelunkery:cyan_glowstick"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "light_blue_glowstick": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "spelunkery:light_blue_glowstick"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "blue_glowstick": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "spelunkery:blue_glowstick"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "purple_glowstick": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "spelunkery:purple_glowstick"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "magenta_glowstick": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "spelunkery:magenta_glowstick"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "pink_glowstick": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "spelunkery:pink_glowstick"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Obtain All Glosticks!",
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "spelunkery:glowstick"
+    },
+    "show_toast": true,
+    "title": "Queer by Nature"
+  },
+  "requirements": [
+    [
+      "glowstick"
+    ],
+    [
+      "white_glowstick"
+    ],
+    [
+      "light_gray_glowstick"
+    ],
+    [
+      "gray_glowstick"
+    ],
+    [
+      "black_glowstick"
+    ],
+    [
+      "brown_glowstick"
+    ],
+    [
+      "red_glowstick"
+    ],
+    [
+      "orange_glowstick"
+    ],
+    [
+      "yellow_glowstick"
+    ],
+    [
+      "lime_glowstick"
+    ],
+    [
+      "green_glowstick"
+    ],
+    [
+      "cyan_glowstick"
+    ],
+    [
+      "light_blue_glowstick"
+    ],
+    [
+      "blue_glowstick"
+    ],
+    [
+      "purple_glowstick"
+    ],
+    [
+      "magenta_glowstick"
+    ],
+    [
+      "pink_glowstick"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

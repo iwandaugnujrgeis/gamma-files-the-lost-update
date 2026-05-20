@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:redstone"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/block/andesite.png",
+    "description": "Harness the Power of Redstone!",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:observer"
+    },
+    "show_toast": false,
+    "title": "Machinery"
+  },
+  "sends_telemetry_event": true
+}

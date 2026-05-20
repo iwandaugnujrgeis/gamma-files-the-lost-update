@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "colored_bricks_stairs",
+  "pattern": [
+    "A  ",
+    "AA ",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "kubejs:gray_bricks"
+    }
+  },
+  "result": {
+    "item": "kubejs:gray_bricks_stairs",
+    "count": 4
+  }
+}

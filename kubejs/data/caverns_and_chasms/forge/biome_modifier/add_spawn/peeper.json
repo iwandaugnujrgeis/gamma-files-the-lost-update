@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "gamma:null",
+  "spawners": {
+    "type": "caverns_and_chasms:peeper",
+    "maxCount": 4,
+    "minCount": 2,
+    "weight": 20
+  }
+}

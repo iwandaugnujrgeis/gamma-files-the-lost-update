@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "gamma:null",
+  "spawners": {
+    "type": "ecologics:squirrel",
+    "weight": 10,
+    "minCount": 2,
+    "maxCount": 3
+  }
+}

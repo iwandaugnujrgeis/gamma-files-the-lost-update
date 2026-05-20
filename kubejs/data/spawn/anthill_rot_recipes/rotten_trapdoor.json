@@ -1,0 +1,6 @@
+{
+  "input": "#minecraft:wooden_trapdoors",
+  "output": {
+    "name": "spawn:rotten_trapdoor"
+  }
+}
