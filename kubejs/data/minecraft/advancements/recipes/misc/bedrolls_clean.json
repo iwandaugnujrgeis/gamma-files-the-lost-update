@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_colored_bedrolls": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "gamma:colored_bedrolls"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_colored_bedrolls"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "crafttweaker:bedrolls_clean_shapeless"
+    ]
+  },
+  "sends_telemetry_event": false
+}

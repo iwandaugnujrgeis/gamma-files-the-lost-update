@@ -1,64 +1,70 @@
 //priority: 1
-/*
-ServerEvents.tags('block', event => {
-  event.add('gamma:concrete_powders', 'clayworks:concrete_powder')
-  event.add('gamma:concrete_powders', 'minecraft:black_concrete_powder')
-  event.add('gamma:concrete_powders', 'minecraft:blue_concrete_powder')
-  event.add('gamma:concrete_powders', 'minecraft:brown_concrete_powder')
-  event.add('gamma:concrete_powders', 'minecraft:cyan_concrete_powder')
-  event.add('gamma:concrete_powders', 'minecraft:gray_concrete_powder')
-  event.add('gamma:concrete_powders', 'minecraft:green_concrete_powder')
-  event.add('gamma:concrete_powders', 'minecraft:light_blue_concrete_powder')
-  event.add('gamma:concrete_powders', 'minecraft:light_gray_concrete_powder')
-  event.add('gamma:concrete_powders', 'minecraft:lime_concrete_powder')
-  event.add('gamma:concrete_powders', 'minecraft:magenta_concrete_powder')
-  event.add('gamma:concrete_powders', 'minecraft:orange_concrete_powder')
-  event.add('gamma:concrete_powders', 'minecraft:pink_concrete_powder')
-  event.add('gamma:concrete_powders', 'minecraft:purple_concrete_powder')
-  event.add('gamma:concrete_powders', 'minecraft:red_concrete_powder')
-  event.add('gamma:concrete_powders', 'minecraft:white_concrete_powder')
-  event.add('gamma:concrete_powders', 'minecraft:yellow_concrete_powder')
-})
-*/
+
+//Colored Tag Helper:
+const allColors = ['white', 'orange', 'magenta', 'light_blue', 'yellow', 'lime', 'pink', 'gray', 'light_gray', 'cyan', 'purple', 'blue', 'brown', 'green', 'red', 'black']
+
+function addColoredTags(event, tag, namespace, suffix, colors) {
+  if (!colors) colors = allColors
+  colors.forEach(color => event.add(tag, `${namespace}:${color}${suffix}`))
+}
 
 ServerEvents.tags('item', event => {
-  event.add('gamma:colored_framed_glass', 'quark:black_framed_glass')
-  event.add('gamma:colored_framed_glass', 'quark:blue_framed_glass')
-  event.add('gamma:colored_framed_glass', 'quark:brown_framed_glass')
-  event.add('gamma:colored_framed_glass', 'quark:cyan_framed_glass')
-  event.add('gamma:colored_framed_glass', 'quark:gray_framed_glass')
-  event.add('gamma:colored_framed_glass', 'quark:green_framed_glass')
-  event.add('gamma:colored_framed_glass', 'quark:light_blue_framed_glass')
-  event.add('gamma:colored_framed_glass', 'quark:light_gray_framed_glass')
-  event.add('gamma:colored_framed_glass', 'quark:lime_framed_glass')
-  event.add('gamma:colored_framed_glass', 'quark:magenta_framed_glass')
-  event.add('gamma:colored_framed_glass', 'quark:orange_framed_glass')
-  event.add('gamma:colored_framed_glass', 'quark:pink_framed_glass')
-  event.add('gamma:colored_framed_glass', 'quark:purple_framed_glass')
-  event.add('gamma:colored_framed_glass', 'quark:red_framed_glass')
-  event.add('gamma:colored_framed_glass', 'quark:white_framed_glass')
-  event.add('gamma:colored_framed_glass', 'quark:yellow_framed_glass')
+  addColoredTags(event, 'gamma:colored_brick_walls', 'kubejs', '_bricks_wall')
+  addColoredTags(event, 'gamma:colored_brick_slabs', 'kubejs', '_bricks_slab')
+  addColoredTags(event, 'gamma:colored_brick_stairs', 'kubejs', '_bricks_stairs')
+  addColoredTags(event, 'gamma:colored_bricks', 'kubejs', '_bricks')
+  addColoredTags(event, 'gamma:colored_framed_glass', 'quark', '_framed_glass')
+  addColoredTags(event, 'gamma:colored_framed_glass_panes', 'quark', '_framed_glass_pane')
+  addColoredTags(event, 'gamma:colored_terracotta', 'minecraft', '_terracotta')
+  addColoredTags(event, 'gamma:colored_terracotta_walls', 'clayworks', '_terracotta_wall')
+  addColoredTags(event, 'gamma:colored_terracotta_slabs', 'clayworks', '_terracotta_slab')
+  addColoredTags(event, 'gamma:colored_terracotta_stairs', 'clayworks', '_terracotta_stairs')
+  addColoredTags(event, 'gamma:colored_glass', 'minecraft', '_stained_glass')
+  addColoredTags(event, 'gamma:colored_glass_panes', 'minecraft', '_stained_glass_pane')
+  addColoredTags(event, 'gamma:colored_bedrolls', 'upgrade_aquatic', '_bedroll')
+  addColoredTags(event, 'gamma:colored_glowsticks', 'spelunkery', '_glowstick')
+  addColoredTags(event, 'gamma:colored_candles', 'minecraft', '_candle')
+
+  //Items which default state is "white":
+  addColoredTags(event, 'gamma:colored_beds', 'minecraft', '_bed', ['orange', 'magenta', 'light_blue', 'yellow', 'lime', 'pink', 'gray', 'light_gray', 'cyan', 'purple', 'blue', 'brown', 'green', 'red', 'black'])
+  addColoredTags(event, 'gamma:colored_wool', 'minecraft', '_wool', ['orange', 'magenta', 'light_blue', 'yellow', 'lime', 'pink', 'gray', 'light_gray', 'cyan', 'purple', 'blue', 'brown', 'green', 'red', 'black'])
+  addColoredTags(event, 'gamma:colored_wool_carpets', 'minecraft', '_carpet', ['orange', 'magenta', 'light_blue', 'yellow', 'lime', 'pink', 'gray', 'light_gray', 'cyan', 'purple', 'blue', 'brown', 'green', 'red', 'black'])
+  addColoredTags(event, 'gamma:colored_hats', 'etcetera', '_hat', ['orange', 'magenta', 'light_blue', 'yellow', 'lime', 'pink', 'gray', 'light_gray', 'cyan', 'purple', 'blue', 'brown', 'green', 'red', 'black'])
+  addColoredTags(event, 'gamma:colored_sweaters', 'etcetera', '_sweater', ['orange', 'magenta', 'light_blue', 'yellow', 'lime', 'pink', 'gray', 'light_gray', 'cyan', 'purple', 'blue', 'brown', 'green', 'red', 'black'])
+
+  //Flags, because their ID has a prefix, not a suffix...
+  event.add('gamma:colored_flags', 'supplementaries:flag_orange')
+  event.add('gamma:colored_flags', 'supplementaries:flag_yellow')
+  event.add('gamma:colored_flags', 'supplementaries:flag_red')
+  event.add('gamma:colored_flags', 'supplementaries:flag_blue')
+  event.add('gamma:colored_flags', 'supplementaries:flag_cyan')
+  event.add('gamma:colored_flags', 'supplementaries:flag_light_blue')
+  event.add('gamma:colored_flags', 'supplementaries:flag_lime')
+  event.add('gamma:colored_flags', 'supplementaries:flag_green')
+  event.add('gamma:colored_flags', 'supplementaries:flag_magenta')
+  event.add('gamma:colored_flags', 'supplementaries:flag_pink')
+  event.add('gamma:colored_flags', 'supplementaries:flag_purple')
+  event.add('gamma:colored_flags', 'supplementaries:flag_black')
+  event.add('gamma:colored_flags', 'supplementaries:flag_gray')
+  event.add('gamma:colored_flags', 'supplementaries:flag_light_gray')
+  event.add('gamma:colored_flags', 'supplementaries:flag_brown')
+
+  //Custom Rediscovered's Wool & Carpets:
+  event.add('gamma:colored_wool', 'rediscovered:bright_green_wool')
+  event.add('gamma:colored_wool', 'rediscovered:spring_green_wool')
+  event.add('gamma:colored_wool', 'rediscovered:sky_blue_wool')
+  event.add('gamma:colored_wool', 'rediscovered:slate_blue_wool')
+  event.add('gamma:colored_wool', 'rediscovered:lavender_wool')
+  event.add('gamma:colored_wool', 'rediscovered:rose_wool')
+  event.add('gamma:colored_wool_carpets', 'rediscovered:bright_green_carpet')
+  event.add('gamma:colored_wool_carpets', 'rediscovered:spring_green_carpet')
+  event.add('gamma:colored_wool_carpets', 'rediscovered:sky_blue_carpet')
+  event.add('gamma:colored_wool_carpets', 'rediscovered:slate_blue_carpet')
+  event.add('gamma:colored_wool_carpets', 'rediscovered:lavender_carpet')
+  event.add('gamma:colored_wool_carpets', 'rediscovered:rose_carpet')
 })
 
-ServerEvents.tags('item', event => {
-  event.add('gamma:colored_bricks', 'kubejs:black_bricks')
-  event.add('gamma:colored_bricks', 'kubejs:blue_bricks')
-  event.add('gamma:colored_bricks', 'kubejs:brown_bricks')
-  event.add('gamma:colored_bricks', 'kubejs:cyan_bricks')
-  event.add('gamma:colored_bricks', 'kubejs:gray_bricks')
-  event.add('gamma:colored_bricks', 'kubejs:green_bricks')
-  event.add('gamma:colored_bricks', 'kubejs:light_blue_bricks')
-  event.add('gamma:colored_bricks', 'kubejs:light_gray_bricks')
-  event.add('gamma:colored_bricks', 'kubejs:lime_bricks')
-  event.add('gamma:colored_bricks', 'kubejs:magenta_bricks')
-  event.add('gamma:colored_bricks', 'kubejs:orange_bricks')
-  event.add('gamma:colored_bricks', 'kubejs:pink_bricks')
-  event.add('gamma:colored_bricks', 'kubejs:purple_bricks')
-  event.add('gamma:colored_bricks', 'kubejs:red_bricks')
-  event.add('gamma:colored_bricks', 'kubejs:white_bricks')
-  event.add('gamma:colored_bricks', 'kubejs:yellow_bricks')
-})
-
+//Other:
 ServerEvents.tags('item', event => {
   event.add('gamma:ambient_discs', 'quark:music_disc_chatter')
   event.add('gamma:ambient_discs', 'quark:music_disc_crickets')

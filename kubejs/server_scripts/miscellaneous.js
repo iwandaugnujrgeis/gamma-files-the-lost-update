@@ -295,6 +295,13 @@ ServerEvents.recipes(event => {
 
   allcolors.forEach(color => {
     const brick = 'kubejs:' + color + '_bricks'
+    const glowstick = 'spelunkery:' + color + '_glowstick'
+
+    event.shaped(
+      '8x ' + glowstick,
+      ['AAA', 'ABA', 'AAA'],
+      { A: 'spelunkery:glowstick', B: color + '_dye' }
+    ).id('gamma:' + color + '_glowstick')
 
     /*
     // -------------------------------------------------------------------------

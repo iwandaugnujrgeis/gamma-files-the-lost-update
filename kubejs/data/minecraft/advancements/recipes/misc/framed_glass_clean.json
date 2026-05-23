@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_colored_framed_glass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "gamma:colored_framed_glass"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_colored_framed_glass"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "crafttweaker:framed_glass_clean_bulk",
+      "crafttweaker:framed_glass_clean_shapeless"
+    ]
+  },
+  "sends_telemetry_event": false
+}

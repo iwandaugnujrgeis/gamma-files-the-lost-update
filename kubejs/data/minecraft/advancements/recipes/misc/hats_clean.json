@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_colored_hats": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "gamma:colored_hats"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_colored_hats"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "crafttweaker:hats_clean_shapeless"
+    ]
+  },
+  "sends_telemetry_event": false
+}

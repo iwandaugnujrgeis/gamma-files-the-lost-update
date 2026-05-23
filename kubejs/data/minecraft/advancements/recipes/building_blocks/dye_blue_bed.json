@@ -1,7 +1,28 @@
 {
+  "parent": "minecraft:recipes/root",
   "criteria": {
-    "never": {
-      "trigger": "minecraft:impossible"
+    "has_needed_dye": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:blue_dye"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
     }
-  }
+  },
+  "requirements": [
+    [
+      "has_needed_dye"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "crafttweaker:dye_blue_bed"
+    ]
+  },
+  "sends_telemetry_event": false
 }

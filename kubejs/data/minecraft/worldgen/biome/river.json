@@ -8,17 +8,17 @@
   "downfall": 0.7,
   "temperature": 0.65,
   "effects": {
-    "fog_color": 9553663,
+    "fog_color": 8044543,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000
     },
-    "sky_color": 9553663,
+    "sky_color": 8044543,
     "water_color": 4159204,
     "water_fog_color": 329011,
-    "grass_color": 8701040,
+    "grass_color": 8112994,
     "foliage_color": 6398280
   },
   "features": [

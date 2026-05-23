@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_colored_terracotta_stairs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "gamma:colored_terracotta_stairs"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_colored_terracotta_stairs"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "crafttweaker:terracotta_stairs_clean_bulk",
+      "crafttweaker:terracotta_stairs_clean_shapeless"
+    ]
+  },
+  "sends_telemetry_event": false
+}

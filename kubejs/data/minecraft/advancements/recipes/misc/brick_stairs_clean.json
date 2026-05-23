@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_colored_brick_stairs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "gamma:colored_brick_stairs"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_colored_brick_stairs"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "crafttweaker:brick_stairs_clean_bulk",
+      "crafttweaker:brick_stairs_clean_shapeless"
+    ]
+  },
+  "sends_telemetry_event": false
+}

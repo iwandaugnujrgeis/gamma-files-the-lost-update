@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_colored_flags": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "gamma:colored_flags"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_colored_flags"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "crafttweaker:flags_clean_bulk",
+      "crafttweaker:flags_clean_shapeless"
+    ]
+  },
+  "sends_telemetry_event": false
+}

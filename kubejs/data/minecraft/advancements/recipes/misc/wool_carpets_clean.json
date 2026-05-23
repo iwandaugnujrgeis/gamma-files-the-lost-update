@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_colored_wool_carpets": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "gamma:colored_wool_carpets"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_colored_wool_carpets"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "crafttweaker:wool_carpets_clean_bulk",
+      "crafttweaker:wool_carpets_clean_shapeless"
+    ]
+  },
+  "sends_telemetry_event": false
+}

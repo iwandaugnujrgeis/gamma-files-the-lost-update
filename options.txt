@@ -22,7 +22,7 @@ toggleSprint:false
 darkMojangStudiosBackground:false
 hideLightningFlashes:false
 mouseSensitivity:0.5
-fov:0.0
+fov:0.125
 screenEffectScale:1.0
 fovEffectScale:1.0
 darknessEffectScale:1.0
@@ -31,18 +31,18 @@ glintStrength:0.75
 damageTiltStrength:1.0
 highContrast:false
 gamma:0.15
-renderDistance:8
+renderDistance:6
 simulationDistance:8
 entityDistanceScaling:2.0
-guiScale:0
+guiScale:6
 particles:1
 maxFps:260
-graphicsMode:1
+graphicsMode:0
 ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:0
 renderClouds:"true"
-resourcePacks:["vanilla","mod_resources","file/Authentic Shadows_1.20.zip","Moonlight Mods Dynamic Assets","file/Camelos_v1.0.zip","file/Banner Pattern Clarity v1.6.zip","file/ClassicWheat.zip","file/Serified Font v1.1 f1-34.zip","file/Simple Lower Grass Sides v1.0.0.zip","file/Trapezoid Ingots 1.18.x.zip","scholar:colored_books","scholar:chiseled_bookshelf_colored_books","fabric","file/New_Candle_Icons_(1.20).zip","file/better-leather-armor_1.20-1.21.11.zip"]
+resourcePacks:["file/Authentic Shadows_1.20.zip","file/better-leather-armor_1.20-1.21.11.zip","file/Camelos_v1.0.zip","file/ClassicWheat.zip","file/Serified Font v1.1 f1-34.zip","file/Simple Lower Grass Sides v1.0.0.zip","file/Trapezoid Ingots 1.18.x.zip","file/New_Candle_Icons_(1.20).zip"]
 incompatibleResourcePacks:[]
 lastServer:109.173.112.58:25565
 lang:en_us
@@ -53,7 +53,7 @@ chatLineSpacing:0.0
 textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0
@@ -61,7 +61,7 @@ chatHeightFocused:1.0
 chatDelay:0.0
 chatHeightUnfocused:0.4375
 chatScale:1.0
-chatWidth:0.6412879621478875
+chatWidth:0.7513112529342725
 notificationDisplayTime:1.0
 mipmapLevels:4
 useNativeTransport:true
@@ -117,8 +117,8 @@ key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
 key_key.mount_jump:key.keyboard.f7
 key_gnetum.config.keyMapping:key.keyboard.end
-key_key.pingwheel.ping_location:key.keyboard.v
-soundCategory_master:1.0
+key_key.pingwheel.ping_location:key.mouse.5
+soundCategory_master:0.4562976819248827
 soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:0.8047645246478874

@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_colored_brick_walls": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "gamma:colored_brick_walls"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_colored_brick_walls"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "crafttweaker:brick_walls_clean_bulk",
+      "crafttweaker:brick_walls_clean_shapeless"
+    ]
+  },
+  "sends_telemetry_event": false
+}

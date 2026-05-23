@@ -4,21 +4,22 @@
       "item": "supplementaries:bubble_blower"
     },
     "title": "Skyblock",
-    "description": "Obtain a Bubble Blower!",
+    "description": "Charge a Bubble Blower with Soap!",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "parent": "gamma:detour/root",
   "criteria": {
-    "bubble_blower": {
+    "bubble_blower_charged": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
               "supplementaries:bubble_blower"
-            ]
+            ],
+            "nbt": "{Damage:0}"
           }
         ]
       }
@@ -26,7 +27,7 @@
   },
   "requirements": [
     [
-      "bubble_blower"
+      "bubble_blower_charged"
     ]
   ],
   "sends_telemetry_event": true

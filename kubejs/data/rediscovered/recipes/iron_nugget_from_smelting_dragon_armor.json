@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "group": "silver_nuggets",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "rediscovered:dragon_armor"
+  },
+  "result": "galosphere:silver_nugget"
+}

@@ -6,7 +6,7 @@
   },
   "downfall": 0.7,
   "effects": {
-    "fog_color": 9553663,
+    "fog_color": 8044543,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
@@ -19,10 +19,10 @@
       "replace_current_music": true,
       "sound": "gamma:music.skylands"
     },
-    "sky_color": 9553663,
+    "sky_color": 8044543,
     "water_color": 4159204,
     "water_fog_color": 329011,
-    "grass_color": 8701040,
+    "grass_color": 8112994,
     "foliage_color": 6398280
   },
   "features": [

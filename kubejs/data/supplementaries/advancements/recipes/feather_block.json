@@ -5,12 +5,6 @@
     ]
   },
   "criteria": {
-    "has_the_recipe": {
-      "trigger": "minecraft:recipe_unlocked",
-      "conditions": {
-        "recipe": "crafttweaker:pillow_block"
-      }
-    },
     "has_feather": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -38,7 +32,6 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
       "has_feather",
       "has_cotton_flower"
     ]
