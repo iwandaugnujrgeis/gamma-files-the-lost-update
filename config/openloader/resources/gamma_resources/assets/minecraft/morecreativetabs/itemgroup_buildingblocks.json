@@ -479,7 +479,7 @@
       "name": "minecraft:bamboo_block"
     },
     {
-      "name": "farmersdelight:basket"
+      "name": "coraline_systems:basket"
     },
     {
       "name": "minecraft:scaffolding"
@@ -1071,9 +1071,6 @@
     },
     {
       "name": "minecraft:chain"
-    },
-    {
-      "name": "galosphere:silver_lattice"
     },
     {
       "name": "minecraft:gold_block"

@@ -10,7 +10,7 @@ ItemEvents.foodEaten(event => {
     player.heal(4.0)
   }
 
-  if (event.item.id === 'farmersdelight:honey_cookie') {
+  if (event.item.id === 'kubejs:honey_cookie') {
     let player = event.player
     player.heal(1.0)
   }
@@ -21,6 +21,7 @@ ItemEvents.foodEaten(event => {
   }
 })
 
+/*
 //Shear Bears:
 function grantAdvancement(player, advancementId) {
   if (typeof server !== 'undefined') {
@@ -76,38 +77,7 @@ ItemEvents.entityInteracted(event => {
     'gamma:husbandry/bear_hair_snip' // Advancement ID!
   )
 })
-
-//Bismuth Advancement:
-BlockEvents.broken(event => {
-  if (!event.player) return
-  const player = event.player
-
-  const tool = event.item ?? player.mainHandItem ?? player.offHandItem
-  if (!tool) return
-
-  if (event.block.id !== 'minecraft:grass_block') return
-  if (tool.id !== 'kubejs:bismuth_pickaxe') return
-
-  try {
-    grantAdvancement(player, 'gamma:nether/lawn_care_specialist')
-  } catch (e) { }
-})
-
-//Gold Tools Advancement:
-BlockEvents.broken(event => {
-  if (!event.player) return
-  const player = event.player
-
-  const tool = event.item ?? player.mainHandItem ?? player.offHandItem
-  if (!tool) return
-
-  if (event.block.id !== 'minecraft:coal_ore') return
-  if (tool.id !== 'minecraft:golden_pickaxe') return
-
-  try {
-    grantAdvancement(player, 'gamma:story/duping_mechanism')
-  } catch (e) { }
-})
+*/
 
 //Giant Chickens:
 ItemEvents.entityInteracted(event => {
@@ -185,6 +155,7 @@ ItemEvents.entityInteracted(event => {
   event.cancel()
 })
 
+/*
 //Bed Advancement Skylands:
 BlockEvents.rightClicked(event => {
   const { player, block, level } = event
@@ -201,6 +172,7 @@ BlockEvents.rightClicked(event => {
     grantAdvancement(player, 'gamma:skylands/dont_touch_beds')
   } catch (e) { }
 })
+  */
 
 //Spawner Sounds:
 BlockEvents.broken(event => {
@@ -274,13 +246,13 @@ BlockEvents.broken('kubejs:moonstone', event => {
 })
 
 /* You can set an entity on fire, for example!
-ItemEvents.pickedUp("galosphere:silver_nugget", event => {
+ItemEvents.pickedUp("kubejs:silver_nugget", event => {
     event.entity.setSecondsOnFire(20)
 })
 */
 
 //Cool Stuff:
-ItemEvents.pickedUp("galosphere:silver_nugget", event => {
+ItemEvents.pickedUp("kubejs:silver_nugget", event => {
   event.level.playSound(null, event.entity.x, event.entity.y, event.entity.z, 'minecraft:block.note_block.banjo', 'players', 0.7, 1.4 + Math.random() * 0.2)
 })
 

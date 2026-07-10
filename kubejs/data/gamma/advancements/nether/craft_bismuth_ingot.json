@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:nether/root",
+  "parent": "gamma:story/enter_the_nether",
   "criteria": {
     "get_bismuth": {
       "conditions": {

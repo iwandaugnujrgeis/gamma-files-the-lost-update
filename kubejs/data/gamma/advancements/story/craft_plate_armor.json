@@ -1,5 +1,5 @@
 {
-  "parent": "galosphere:adventure/silver_ingot",
+  "parent": "gamma:story/silver_ingot",
   "criteria": {
     "plate_boots": {
       "conditions": {

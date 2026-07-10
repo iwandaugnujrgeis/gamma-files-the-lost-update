@@ -1,5 +1,5 @@
 {
-  "parent": "gamma:detour/obtain_music_disc",
+  "parent": "gamma:waiting_room/root",
   "criteria": {
     "play_acid_in_nether": {
       "trigger": "minecraft:item_used_on_block",

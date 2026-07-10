@@ -56,7 +56,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "farmersdelight:pumpkin_slice"
+              "name": "kubejs:pumpkin_slice"
             }
           ]
         }

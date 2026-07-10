@@ -2,7 +2,7 @@
   "display": {
     "icon": {
       "item": "citadel:fancy_item",
-      "nbt": "{DisplayItem:\"galosphere:silver_nugget\", DisplayBob:0, DisplayZoom:0, DisplayScale:1, DisplaySpin:0, DisplayShake:1}"
+      "nbt": "{DisplayItem:\"kubejs:silver_nugget\", DisplayBob:0, DisplayZoom:0, DisplayScale:1, DisplaySpin:0, DisplayShake:1}"
     },    
     "title": "Zoinks!",
     "description": "Spook a Monster with Plate armor!",

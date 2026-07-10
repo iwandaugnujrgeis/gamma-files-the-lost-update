@@ -138,7 +138,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "farmersdelight:honey_cookie",
+          "name": "kubejs:honey_cookie",
           "weight": 15
         },
         {
@@ -294,21 +294,6 @@
             }
           ],
           "name": "supplementaries:rope",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "galosphere:lichen_cordyceps",
           "weight": 5
         },
         {

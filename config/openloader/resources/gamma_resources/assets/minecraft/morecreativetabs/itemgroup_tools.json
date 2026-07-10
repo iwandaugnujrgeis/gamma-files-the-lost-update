@@ -128,9 +128,6 @@
       "name": "minecraft:clock"
     },
     {
-      "name": "galosphere:barometer"
-    },
-    {
       "name": "minecraft:recovery_compass"
     },
     {
@@ -165,9 +162,6 @@
     },
     {
       "name": "supplementaries:key"
-    },
-    {
-      "name": "galosphere:spectre_flare"
     },
     {
       "name": "minecraft:oak_boat"

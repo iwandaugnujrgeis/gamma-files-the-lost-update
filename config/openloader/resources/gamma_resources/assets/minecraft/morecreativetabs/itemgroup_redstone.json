@@ -140,10 +140,10 @@
       "name": "minecraft:activator_rail"
     },
     {
-      "name": "moreminecarts:maglev_rail"
+      "name": "coraline_systems:maglev_rail"
     },
     {
-      "name": "moreminecarts:maglev_powered_rail"
+      "name": "coraline_systems:powered_maglev_rail"
     },
     {
       "name": "minecraft:minecart"

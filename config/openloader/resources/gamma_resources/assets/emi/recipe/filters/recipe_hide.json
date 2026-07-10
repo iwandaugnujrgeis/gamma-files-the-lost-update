@@ -1,3 +1,5 @@
+// This file is deprecated, as I don't use EMI anymore!
+
 {
   "filters": [
     {
@@ -143,12 +145,6 @@
     },
     {
       "id": "minecraft:iron_ingot_from_blasting_deepslate_iron_ore"
-    },
-    {
-      "id": "galosphere:silver_ingot_from_blasting_deepslate_silver_ore"
-    },
-    {
-      "id": "galosphere:silver_ingot_from_smelting_deepslate_silver_ore"
     },
     {
       "id": "supplementaries:slime_ball"
@@ -397,9 +393,6 @@
       "id": "supplementaries:soap_clean_clayworks_terracotta_brick_stairs"
     },
     {
-      "id": "supplementaries:soap_clean_moreminecarts_color_detector_rail"
-    },
-    {
       "id": "supplementaries:soap_clean_quark_stool"
     },
     {
@@ -457,34 +450,7 @@
       "id": "minecraft:map_extending"
     },
     {
-      "id": "emi:/brewing/minecraft/splash_potion/autumnity/snail_goo/minecraft/awkward/autumnity/extension"
-    },
-    {
-      "id": "emi:/brewing/minecraft/potion/autumnity/snail_goo/minecraft/awkward/autumnity/extension"
-    },
-    {
       "id": "easel_does_it:easel"
-    },
-    {
-      "id": "crafttweaker:pillow_block_mirrored"
-    },
-    {
-      "id": "supplementaries:soap_clean_oreganized_crystal_glass_pane"
-    },
-    {
-      "id": "supplementaries:soap_clean_oreganized_crystal_glass"
-    },
-    {
-      "id": "oreganized:poisonous_potato_from_lead"
-    }
-    {
-      "id": "infinity:/iridescence/bottling"
-    },
-    {
-      "id": "infinity:/iridescence/wool_uncolor"
-    },
-    {
-      "id": "infinity:/iridescence/carpet_uncolor"
     }
   ]
 }

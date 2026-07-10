@@ -1,0 +1,51 @@
+{
+  "parent": "gamma:story/plant_seed",
+  "criteria": {
+    "breed_cow": {
+      "conditions": {
+        "child": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:cow"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:bred_animals"
+    },
+    "breed_sheep": {
+      "conditions": {
+        "child": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:sheep"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:bred_animals"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Breed Cows or Sheep using Wheat!",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:wheat"
+    },
+    "show_toast": true,
+    "title": "Breed Cows Sheep"
+  },
+  "requirements": [
+    [
+      "breed_cow",
+      "breed_sheep"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

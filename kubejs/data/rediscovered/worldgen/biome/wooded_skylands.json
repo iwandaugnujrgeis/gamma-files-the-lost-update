@@ -22,7 +22,7 @@
     "sky_color": 8044543,
     "water_color": 4159204,
     "water_fog_color": 329011,
-    "grass_color": 8112994,
+    "grass_color": 8701040,
     "foliage_color": 6398280
   },
   "features": [
@@ -98,12 +98,6 @@
         "maxCount": 4,
         "minCount": 1,
         "weight": 8
-      },
-      {
-        "type": "galosphere:spectre",
-        "maxCount": 3,
-        "minCount": 1,
-        "weight": 6
       },
       {
         "type": "minecraft:wolf",

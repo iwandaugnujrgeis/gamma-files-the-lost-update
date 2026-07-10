@@ -28,7 +28,8 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:dye_lime_wool"
+      "minecraft:dye_lime_wool",
+      "minecraft:lime_wool"
     ]
   },
   "sends_telemetry_event": false

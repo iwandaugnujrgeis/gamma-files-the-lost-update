@@ -28,7 +28,8 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:dye_magenta_wool"
+      "minecraft:dye_magenta_wool",
+      "minecraft:magenta_wool"
     ]
   },
   "sends_telemetry_event": false

@@ -1,4 +1,11 @@
 {
+  "options.graphics.fancy": "Fancy",
+  "options.graphics.fancy.tooltip": "Transluscent §oLeaves'§r textures and denser §nWeather§r!",
+  "options.graphics.fast": "Fast",
+  "options.graphics.fast.tooltip": "Reduces the amount of visible §oRain§r and §nSnow§r and makes §oLeaves§r opaque!",
+  "selectWorld.mapFeatures.info": "A bit of something inevitable!",
+  "selectWorld.allowCommands.info": "Commands like /gamemode, /tp...",
+
   //4.20.5:
     "block.minecraft.lodestone": "§bLodestone",
     "stat.minecraft.talked_to_villager": "Talked (?) to Piglins",

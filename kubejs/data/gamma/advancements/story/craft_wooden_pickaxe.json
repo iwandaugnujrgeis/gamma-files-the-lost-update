@@ -1,0 +1,25 @@
+{
+  "parent": "gamma:story/benchmarking",
+  "display": {
+    "icon": {
+      "item": "minecraft:wooden_pickaxe"
+    },
+    "title": "Time to Mine!",
+    "description": "Craft a Wooden Pickaxe!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "coraline_systems:player_crafted",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:wooden_pickaxe"]
+        }
+      }
+    }
+  },
+  "sends_telemetry_event": true
+}

@@ -11,10 +11,6 @@
         "path": "advancements/.*"
       },
       {
-        "namespace": "autumnity",
-        "path": "advancements/.*"
-      },
-      {
         "namespace": "atmospheric",
         "path": "advancements/.*"
       },

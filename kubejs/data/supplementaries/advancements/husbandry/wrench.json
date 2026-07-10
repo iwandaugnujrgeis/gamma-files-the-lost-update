@@ -1,42 +1,7 @@
 {
-  "parent": "gamma:redstone/root",
-  "display": {
-    "icon": {
-      "item": "supplementaries:wrench"
-    },
-    "title": "Good Soup",
-    "description": "Use a Magic Spoon to Rotate a block!",
-    "frame": "task",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
   "criteria": {
-    "wrench": {
-      "trigger": "minecraft:item_used_on_block",
-      "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:match_tool",
-            "predicate": {
-              "items": [
-                "supplementaries:wrench"
-              ]
-            }
-          }
-        ]
-      }
+    "never": {
+      "trigger": "minecraft:impossible"
     }
-  },
-  "requirements": [
-    [
-      "wrench"
-    ]
-  ],
-  "conditions": [
-    {
-      "type": "supplementaries:flag",
-      "flag": "wrench"
-    }
-  ]
+  }
 }

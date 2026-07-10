@@ -1,7 +1,0 @@
-{
-  "type": "forge:remove_spawns",
-  "biomes": "galosphere:crystal_canyons",
-  "entity_types": [
-    "galosphere:sparkle"
-  ]
-}

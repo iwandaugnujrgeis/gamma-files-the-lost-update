@@ -9,7 +9,7 @@
     "show_toast": true,
     "announce_to_chat": true
   },
-  "parent": "minecraft:story/mine_diamond",
+  "parent": "gamma:story/mine_diamond",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",

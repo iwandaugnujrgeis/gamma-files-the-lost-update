@@ -58,8 +58,6 @@
 //earthmobsmod:toughness
 //earthmobsmod:long_toughness
 //earthmobsmod:strong_toughness
-//galosphere:astral
-//galosphere:long_astral
 //alexsmobs:knockback_resistance
 //alexsmobs:long_knockback_resistance
 //alexsmobs:strong_knockback_resistance

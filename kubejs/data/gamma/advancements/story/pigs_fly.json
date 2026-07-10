@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "citadel:fancy_item",
+      "nbt": "{DisplayItem:\"minecraft:saddle\", DisplayBob:0, DisplayZoom:1, DisplayScale:1, DisplaySpin:0, DisplayShake:0}"
+    },    
+    "title": "When Pigs Fly!",
+    "description": "Fly a Pig off a Cliff!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "gamma:story/fishy_business",
+    "criteria": {
+      "fly_pig": {
+      "trigger": "coraline_systems:fly_pig"
+    }
+  }
+}

@@ -28,7 +28,8 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:dye_light_blue_wool"
+      "minecraft:dye_light_blue_wool",
+      "minecraft:light_blue_wool"
     ]
   },
   "sends_telemetry_event": false

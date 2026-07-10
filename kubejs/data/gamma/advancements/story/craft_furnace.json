@@ -1,0 +1,25 @@
+{
+  "parent": "gamma:story/craft_wooden_pickaxe",
+  "display": {
+    "icon": {
+      "item": "minecraft:furnace"
+    },
+    "title": "Hot Topic!",
+    "description": "Craft a Furnace!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "coraline_systems:player_crafted",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:furnace"]
+        }
+      }
+    }
+  },
+  "sends_telemetry_event": true
+}

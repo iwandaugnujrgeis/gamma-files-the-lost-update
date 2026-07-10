@@ -11,13 +11,19 @@
               {
                 "weight": 6,
                 "data": {
-                  "Name": "spelunkery:portabella"
+                  "Name": "minecraft:brown_mushroom"
                 }
               },
               {
                 "weight": 2,
                 "data": {
-                  "Name": "spelunkery:button_mushroom"
+                  "Name": "coraline_systems:white_mushroom"
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:red_mushroom"
                 }
               }
             ]
@@ -34,7 +40,7 @@
         }
       ]
     },
-    "tries": 64,
+    "tries": 52,
     "xz_spread": 7,
     "y_spread": 3
   }

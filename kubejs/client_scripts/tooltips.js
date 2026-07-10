@@ -6,7 +6,7 @@ ItemEvents.tooltip(tooltip => {
     //text.remove(1)
   //})
 
-  tooltip.addAdvanced('farmersdelight:milk_bottle', (item, advanced, text) => {
+  tooltip.addAdvanced('supplementaries:rope_arrow', (item, advanced, text) => {
     text.remove(1)
   })
   
@@ -148,10 +148,9 @@ ItemEvents.tooltip(tooltip => {
 
 //Сandy Rush I:
   const candyRushI = [
-    'farmersdelight:honey_cookie',
-    'farmersdelight:sweet_berry_cookie',
+    'kubejs:honey_cookie',
+    'kubejs:sweet_berry_cookie',
     'kubejs:bar_of_chocolate',
-    'kubejs:chocolate_glazed_berries',
     'upgrade_aquatic:mulberry_jam_bottle'
   ]
   tooltip.addAdvanced(candyRushI, (item, advanced, text) => {
@@ -180,7 +179,7 @@ ItemEvents.tooltip(tooltip => {
     const honeyFoods = [
       'kubejs:honeyed_apple',
       'minecraft:honey_bottle',
-      'farmersdelight:honey_cookie',
+      'kubejs:honey_cookie',
       'kubejs:glazed_steak'
     ]
     tooltip.addAdvanced(honeyFoods, (item, advanced, text) => {

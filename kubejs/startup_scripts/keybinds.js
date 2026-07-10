@@ -10,7 +10,6 @@ KeyBindEvents.modify((event) => {
   event.remove("key.structure_gel.open_building_tool_gui");
   event.remove("key.dynamic_fps.toggle_forced");
   event.remove("key.dynamic_fps.toggle_disabled");
-  event.remove("key.togglecleanview");
   event.remove("key.scholar.toggle_book_tools");
   event.remove("key.scholar.import_book");
   event.remove("key.scholar.export_book");
@@ -29,14 +28,11 @@ KeyBindEvents.modify((event) => {
   event.remove("key.shouldersurfing.toggle_x_offset_presets");
   event.remove("key.shouldersurfing.toggle_y_offset_presets");
   event.remove("key.shouldersurfing.toggle_z_offset_presets");
-  event.remove("key.spyglass-improvements.use");
   event.remove("key.nostalgic_tweaks.open_config");
   event.remove("key.nostalgic_tweaks.toggle_fog");
   event.remove("key.nostalgic_tweaks.stop_song");
   event.remove("key.nostalgic_tweaks.next_song");
   event.remove("key.nostalgic_tweaks.toggle_weather");  
-  event.remove("key.extend");
-  event.remove("key.retract");
   event.remove("key.pingwheel.open_settings");
   event.remove("quark.keybind.autorun");
   event.remove("quark.keybind.back");
@@ -70,6 +66,5 @@ KeyBindEvents.modify((event) => {
   event.remove("quark.keybind.narrator_full_readout");
   event.remove("quark.keybind.variant_selector");
   event.remove("supplementaries.keybind.quiver");
-  event.remove("key.raised.options");
   event.remove("key.spectatorOutlines");
 });

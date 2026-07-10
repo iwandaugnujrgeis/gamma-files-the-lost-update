@@ -20,7 +20,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "farmersdelight:cake_slice",
+          "name": "kubejs:cake_slice",
           "functions": [
             {
               "function": "minecraft:set_count",

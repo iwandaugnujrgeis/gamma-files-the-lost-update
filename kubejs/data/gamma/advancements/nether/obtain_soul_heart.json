@@ -1,0 +1,29 @@
+{
+  "parent": "gamma:story/test",
+  "criteria": {
+    "get_heart": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "alexsmobs:soul_heart"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Obtain a Soul Heart from slaying a Wraith in Soulsand Valley!",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "alexsmobs:soul_heart"
+    },
+    "show_toast": true,
+    "title": "Don’t Dead Open Inside!"
+  },
+  "sends_telemetry_event": true
+}

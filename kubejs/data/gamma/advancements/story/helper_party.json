@@ -1,0 +1,19 @@
+{
+  "parent": "gamma:story/mine_diamond",
+  "criteria": {
+      "dance": {
+        "trigger": "coraline_systems:helper_dancing"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Throw a Party with the Helpers!",
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:jukebox"
+    },
+    "show_toast": true,
+    "title": "Diskoteka Avaria"
+  }
+}

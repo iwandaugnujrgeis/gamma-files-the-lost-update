@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "coraline_systems:maglev_rail"
+    },
+    "title": "Rails of the Sky",
+    "description": "Craft Maglev Rails!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "gamma:story/test",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "coraline_systems:maglev_rail"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

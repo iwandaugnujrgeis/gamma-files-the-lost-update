@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "minecraft:nether/charge_respawn_anchor",
+  "parent": "gamma:waiting_room/root",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",

@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "join_world": {
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player"
+          }
+        }
+      },
+      "trigger": "minecraft:tick"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "description": "Join a World!",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:grass_block"
+    },
+    "show_toast": false,
+    "title": "Welcome!"
+  },
+  "requirements": [
+    [
+      "join_world"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

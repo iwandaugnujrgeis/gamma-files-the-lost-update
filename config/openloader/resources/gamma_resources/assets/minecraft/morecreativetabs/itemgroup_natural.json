@@ -29,13 +29,10 @@
       "name": "minecraft:farmland"
     },
     {
-      "name": "farmersdelight:organic_compost"
+      "name": "coraline_systems:organic_compost"
     },
     {
-      "name": "farmersdelight:rich_soil"
-    },
-    {
-      "name": "farmersdelight:rich_soil_farmland"
+      "name": "coraline_systems:organic_compost_farmland"
     },
     {
       "name": "spelunkery:tangle_roots_block"
@@ -152,7 +149,7 @@
       "name": "rediscovered:ruby_ore"
     },
     {
-      "name": "galosphere:silver_ore"
+      "name": "kubejs:silver_ore"
     },
     {
       "name": "minecraft:diamond_ore"
@@ -194,7 +191,7 @@
       "name": "rediscovered:ancient_cherry_sapling"
     },
     {
-      "name": "autumnity:maple_sapling"
+      "name": "coraline_systems:maple_sapling"
     },
     {
       "name": "minecraft:raw_copper_block"
@@ -209,7 +206,7 @@
       "name": "minecraft:raw_gold_block"
     },
     {
-      "name": "galosphere:raw_silver_block"
+      "name": "kubejs:raw_silver_block"
     },
     {
       "name": "minecraft:glowstone"
@@ -260,7 +257,7 @@
       "name": "rediscovered:ancient_cherry_leaves"
     },
     {
-      "name": "autumnity:maple_leaves"
+      "name": "coraline_systems:maple_leaves"
     },
     {
       "name": "spawn:fallen_leaves"
@@ -464,9 +461,6 @@
       "name": "minecraft:turtle_egg"
     },
     {
-      "name": "autumnity:turkey_egg"
-    },
-    {
       "name": "alexsmobs:platypus_egg"
     },
     {
@@ -592,9 +586,11 @@
     {
       "name": "minecraft:honeycomb_block"
     },
+    /*
     {
       "name": "autumnity:snail_goo_block"
     },
+    */
     {
       "name": "minecraft:slime_block"
     },

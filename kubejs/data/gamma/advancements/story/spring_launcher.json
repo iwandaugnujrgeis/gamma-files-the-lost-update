@@ -1,0 +1,28 @@
+{
+  "parent": "gamma:story/piston",
+  "criteria": {
+    "spring_launcher": {
+      "conditions": {
+        "location": [
+          {
+            "block": "supplementaries:spring_launcher",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Launch a Pig up with a Spring Launcher!",
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "supplementaries:spring_launcher"
+    },
+    "show_toast": true,
+    "title": "When Pigs Fly 2.0"
+  },
+  "sends_telemetry_event": true
+}

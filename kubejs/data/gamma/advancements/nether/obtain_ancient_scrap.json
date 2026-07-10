@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:nether/root",
+  "parent": "gamma:waiting_room/root",
   "criteria": {
     "get_scrap": {
       "conditions": {

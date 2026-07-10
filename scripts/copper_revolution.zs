@@ -48,189 +48,189 @@ craftingTable.addShaped("copper_button", <item:friendsandfoes:copper_button> * 2
     <item:kubejs:soul_dust>]);
 
 //Copper Trapdoors:
-craftingTable.remove(<item:copperandtuffbackport:copper_trapdoor>);
-craftingTable.addShaped("copper_trapdoor", <item:copperandtuffbackport:copper_trapdoor>, [
+craftingTable.remove(<item:caverns_and_chasms:copper_trapdoor>);
+craftingTable.addShaped("copper_trapdoor", <item:caverns_and_chasms:copper_trapdoor>, [
   [<item:minecraft:copper_ingot>, <item:minecraft:copper_ingot>], 
   [<item:minecraft:copper_ingot>, <item:minecraft:copper_ingot>]]);
 
   //Oxidized Trapdoors:
-  craftingTable.remove(<item:copperandtuffbackport:exposed_copper_trapdoor>);
-  craftingTable.addShapeless("exposed_copper_trapdoor", <item:copperandtuffbackport:exposed_copper_trapdoor>, 
-    [<item:copperandtuffbackport:copper_trapdoor>, 
+  craftingTable.remove(<item:caverns_and_chasms:exposed_copper_trapdoor>);
+  craftingTable.addShapeless("exposed_copper_trapdoor", <item:caverns_and_chasms:exposed_copper_trapdoor>, 
+    [<item:caverns_and_chasms:copper_trapdoor>, 
     <item:kubejs:soul_dust>]);
 
-  craftingTable.remove(<item:copperandtuffbackport:weathered_copper_trapdoor>);
-  craftingTable.addShapeless("weathered_copper_trapdoor", <item:copperandtuffbackport:weathered_copper_trapdoor>, 
-    [<item:copperandtuffbackport:exposed_copper_trapdoor>, 
+  craftingTable.remove(<item:caverns_and_chasms:weathered_copper_trapdoor>);
+  craftingTable.addShapeless("weathered_copper_trapdoor", <item:caverns_and_chasms:weathered_copper_trapdoor>, 
+    [<item:caverns_and_chasms:exposed_copper_trapdoor>, 
     <item:kubejs:soul_dust>]);
 
-  craftingTable.remove(<item:copperandtuffbackport:oxidized_copper_trapdoor>);
-  craftingTable.addShapeless("oxidized_copper_trapdoor", <item:copperandtuffbackport:oxidized_copper_trapdoor>, 
-    [<item:copperandtuffbackport:weathered_copper_trapdoor>, 
+  craftingTable.remove(<item:caverns_and_chasms:oxidized_copper_trapdoor>);
+  craftingTable.addShapeless("oxidized_copper_trapdoor", <item:caverns_and_chasms:oxidized_copper_trapdoor>, 
+    [<item:caverns_and_chasms:weathered_copper_trapdoor>, 
     <item:kubejs:soul_dust>]);
 
   //Waxed Trapdoors:
-  craftingTable.remove(<item:copperandtuffbackport:waxed_copper_trapdoor>);
-  craftingTable.addShapeless("waxed_copper_trapdoor", <item:copperandtuffbackport:waxed_copper_trapdoor>, 
-    [<item:copperandtuffbackport:copper_trapdoor>, 
+  craftingTable.remove(<item:caverns_and_chasms:waxed_copper_trapdoor>);
+  craftingTable.addShapeless("waxed_copper_trapdoor", <item:caverns_and_chasms:waxed_copper_trapdoor>, 
+    [<item:caverns_and_chasms:copper_trapdoor>, 
     <item:minecraft:honeycomb>]);
 
-  craftingTable.remove(<item:copperandtuffbackport:waxed_exposed_copper_trapdoor>);
-  craftingTable.addShapeless("waxed_exposed_copper_trapdoor", <item:copperandtuffbackport:waxed_exposed_copper_trapdoor>, 
-    [<item:copperandtuffbackport:exposed_copper_trapdoor>, 
+  craftingTable.remove(<item:caverns_and_chasms:waxed_exposed_copper_trapdoor>);
+  craftingTable.addShapeless("waxed_exposed_copper_trapdoor", <item:caverns_and_chasms:waxed_exposed_copper_trapdoor>, 
+    [<item:caverns_and_chasms:exposed_copper_trapdoor>, 
     <item:minecraft:honeycomb>]);
 
-  craftingTable.remove(<item:copperandtuffbackport:waxed_weathered_copper_trapdoor>);
-  craftingTable.addShapeless("waxed_weathered_copper_trapdoor", <item:copperandtuffbackport:waxed_weathered_copper_trapdoor>, 
-    [<item:copperandtuffbackport:weathered_copper_trapdoor>, 
+  craftingTable.remove(<item:caverns_and_chasms:waxed_weathered_copper_trapdoor>);
+  craftingTable.addShapeless("waxed_weathered_copper_trapdoor", <item:caverns_and_chasms:waxed_weathered_copper_trapdoor>, 
+    [<item:caverns_and_chasms:weathered_copper_trapdoor>, 
     <item:minecraft:honeycomb>]);
 
-  craftingTable.remove(<item:copperandtuffbackport:waxed_oxidized_copper_trapdoor>);
-  craftingTable.addShapeless("waxed_oxidized_copper_trapdoor", <item:copperandtuffbackport:waxed_oxidized_copper_trapdoor>, 
-    [<item:copperandtuffbackport:oxidized_copper_trapdoor>, 
+  craftingTable.remove(<item:caverns_and_chasms:waxed_oxidized_copper_trapdoor>);
+  craftingTable.addShapeless("waxed_oxidized_copper_trapdoor", <item:caverns_and_chasms:waxed_oxidized_copper_trapdoor>, 
+    [<item:caverns_and_chasms:oxidized_copper_trapdoor>, 
     <item:minecraft:honeycomb>]);
 
 //Copper Bulbs:
-craftingTable.remove(<item:copperandtuffbackport:copper_bulb>);
-craftingTable.addShaped("copper_bulb", <item:copperandtuffbackport:copper_bulb>, [
+craftingTable.remove(<item:caverns_and_chasms:copper_bulb>);
+craftingTable.addShaped("copper_bulb", <item:caverns_and_chasms:copper_bulb>, [
   [<item:minecraft:air>, <item:minecraft:copper_ingot>, <item:minecraft:air>],
   [<item:minecraft:copper_ingot>, <item:minecraft:glowstone_dust>, <item:minecraft:copper_ingot>],
   [<item:minecraft:air>, <item:minecraft:redstone>, <item:minecraft:air>]]);
 
   //Oxidized Bulbs:
-  craftingTable.remove(<item:copperandtuffbackport:exposed_copper_bulb>);
-  craftingTable.addShapeless("exposed_copper_bulb", <item:copperandtuffbackport:exposed_copper_bulb>, 
-    [<item:copperandtuffbackport:copper_bulb>, 
+  craftingTable.remove(<item:caverns_and_chasms:exposed_copper_bulb>);
+  craftingTable.addShapeless("exposed_copper_bulb", <item:caverns_and_chasms:exposed_copper_bulb>, 
+    [<item:caverns_and_chasms:copper_bulb>, 
     <item:kubejs:soul_dust>]);
 
-  craftingTable.remove(<item:copperandtuffbackport:weathered_copper_bulb>);
-  craftingTable.addShapeless("weathered_copper_bulb", <item:copperandtuffbackport:weathered_copper_bulb>, 
-    [<item:copperandtuffbackport:exposed_copper_bulb>, 
+  craftingTable.remove(<item:caverns_and_chasms:weathered_copper_bulb>);
+  craftingTable.addShapeless("weathered_copper_bulb", <item:caverns_and_chasms:weathered_copper_bulb>, 
+    [<item:caverns_and_chasms:exposed_copper_bulb>, 
     <item:kubejs:soul_dust>]);
 
-  craftingTable.remove(<item:copperandtuffbackport:oxidized_copper_bulb>);
-  craftingTable.addShapeless("oxidized_copper_bulb", <item:copperandtuffbackport:oxidized_copper_bulb>, 
-    [<item:copperandtuffbackport:weathered_copper_bulb>, 
+  craftingTable.remove(<item:caverns_and_chasms:oxidized_copper_bulb>);
+  craftingTable.addShapeless("oxidized_copper_bulb", <item:caverns_and_chasms:oxidized_copper_bulb>, 
+    [<item:caverns_and_chasms:weathered_copper_bulb>, 
     <item:kubejs:soul_dust>]);
 
   //Waxed Bulbs:
-  craftingTable.remove(<item:copperandtuffbackport:waxed_copper_bulb>);
-  craftingTable.addShapeless("waxed_copper_bulb", <item:copperandtuffbackport:waxed_copper_bulb>, 
-    [<item:copperandtuffbackport:copper_bulb>, 
+  craftingTable.remove(<item:caverns_and_chasms:waxed_copper_bulb>);
+  craftingTable.addShapeless("waxed_copper_bulb", <item:caverns_and_chasms:waxed_copper_bulb>, 
+    [<item:caverns_and_chasms:copper_bulb>, 
     <item:minecraft:honeycomb>]);
 
-  craftingTable.remove(<item:copperandtuffbackport:waxed_exposed_copper_bulb>);
-  craftingTable.addShapeless("waxed_exposed_copper_bulb", <item:copperandtuffbackport:waxed_exposed_copper_bulb>, 
-    [<item:copperandtuffbackport:exposed_copper_bulb>, 
+  craftingTable.remove(<item:caverns_and_chasms:waxed_exposed_copper_bulb>);
+  craftingTable.addShapeless("waxed_exposed_copper_bulb", <item:caverns_and_chasms:waxed_exposed_copper_bulb>, 
+    [<item:caverns_and_chasms:exposed_copper_bulb>, 
     <item:minecraft:honeycomb>]);
 
-  craftingTable.remove(<item:copperandtuffbackport:waxed_weathered_copper_bulb>);
-  craftingTable.addShapeless("waxed_weathered_copper_bulb", <item:copperandtuffbackport:waxed_weathered_copper_bulb>, 
-    [<item:copperandtuffbackport:weathered_copper_bulb>, 
+  craftingTable.remove(<item:caverns_and_chasms:waxed_weathered_copper_bulb>);
+  craftingTable.addShapeless("waxed_weathered_copper_bulb", <item:caverns_and_chasms:waxed_weathered_copper_bulb>, 
+    [<item:caverns_and_chasms:weathered_copper_bulb>, 
     <item:minecraft:honeycomb>]);
 
-  craftingTable.remove(<item:copperandtuffbackport:waxed_oxidized_copper_bulb>);
-  craftingTable.addShapeless("waxed_oxidized_copper_bulb", <item:copperandtuffbackport:waxed_oxidized_copper_bulb>, 
-    [<item:copperandtuffbackport:oxidized_copper_bulb>, 
+  craftingTable.remove(<item:caverns_and_chasms:waxed_oxidized_copper_bulb>);
+  craftingTable.addShapeless("waxed_oxidized_copper_bulb", <item:caverns_and_chasms:waxed_oxidized_copper_bulb>, 
+    [<item:caverns_and_chasms:oxidized_copper_bulb>, 
     <item:minecraft:honeycomb>]);
 
 //Copper Grates:
-craftingTable.remove(<item:copperandtuffbackport:copper_grate>);
-stoneCutter.remove(<item:copperandtuffbackport:copper_grate>);
-craftingTable.addShaped("copper_grate", <item:copperandtuffbackport:copper_grate> * 8, [
+craftingTable.remove(<item:caverns_and_chasms:copper_grate>);
+stoneCutter.remove(<item:caverns_and_chasms:copper_grate>);
+craftingTable.addShaped("copper_grate", <item:caverns_and_chasms:copper_grate> * 8, [
   [<item:minecraft:copper_ingot>, <item:minecraft:copper_ingot>, <item:minecraft:copper_ingot>], 
   [<item:minecraft:copper_ingot>, <item:minecraft:air>, <item:minecraft:copper_ingot>],
   [<item:minecraft:copper_ingot>, <item:minecraft:copper_ingot>, <item:minecraft:copper_ingot>]]);
 
   //Oxidized Grates:
-  craftingTable.remove(<item:copperandtuffbackport:exposed_copper_grate>);
-  stoneCutter.remove(<item:copperandtuffbackport:exposed_copper_grate>);
-  craftingTable.addShaped("exposed_copper_grate", <item:copperandtuffbackport:exposed_copper_grate> * 8, [
-    [<item:copperandtuffbackport:copper_grate>, <item:copperandtuffbackport:copper_grate>, <item:copperandtuffbackport:copper_grate>],
-    [<item:copperandtuffbackport:copper_grate>, <item:kubejs:soul_dust>, <item:copperandtuffbackport:copper_grate>],
-    [<item:copperandtuffbackport:copper_grate>, <item:copperandtuffbackport:copper_grate>, <item:copperandtuffbackport:copper_grate>]]);
+  craftingTable.remove(<item:caverns_and_chasms:exposed_copper_grate>);
+  stoneCutter.remove(<item:caverns_and_chasms:exposed_copper_grate>);
+  craftingTable.addShaped("exposed_copper_grate", <item:caverns_and_chasms:exposed_copper_grate> * 8, [
+    [<item:caverns_and_chasms:copper_grate>, <item:caverns_and_chasms:copper_grate>, <item:caverns_and_chasms:copper_grate>],
+    [<item:caverns_and_chasms:copper_grate>, <item:kubejs:soul_dust>, <item:caverns_and_chasms:copper_grate>],
+    [<item:caverns_and_chasms:copper_grate>, <item:caverns_and_chasms:copper_grate>, <item:caverns_and_chasms:copper_grate>]]);
 
-  craftingTable.remove(<item:copperandtuffbackport:weathered_copper_grate>);
-  stoneCutter.remove(<item:copperandtuffbackport:weathered_copper_grate>);
-  craftingTable.addShaped("weathered_copper_grate", <item:copperandtuffbackport:weathered_copper_grate> * 8, [
-    [<item:copperandtuffbackport:exposed_copper_grate>, <item:copperandtuffbackport:exposed_copper_grate>, <item:copperandtuffbackport:exposed_copper_grate>],
-    [<item:copperandtuffbackport:exposed_copper_grate>, <item:kubejs:soul_dust>, <item:copperandtuffbackport:exposed_copper_grate>],
-    [<item:copperandtuffbackport:exposed_copper_grate>, <item:copperandtuffbackport:exposed_copper_grate>, <item:copperandtuffbackport:exposed_copper_grate>]]);
+  craftingTable.remove(<item:caverns_and_chasms:weathered_copper_grate>);
+  stoneCutter.remove(<item:caverns_and_chasms:weathered_copper_grate>);
+  craftingTable.addShaped("weathered_copper_grate", <item:caverns_and_chasms:weathered_copper_grate> * 8, [
+    [<item:caverns_and_chasms:exposed_copper_grate>, <item:caverns_and_chasms:exposed_copper_grate>, <item:caverns_and_chasms:exposed_copper_grate>],
+    [<item:caverns_and_chasms:exposed_copper_grate>, <item:kubejs:soul_dust>, <item:caverns_and_chasms:exposed_copper_grate>],
+    [<item:caverns_and_chasms:exposed_copper_grate>, <item:caverns_and_chasms:exposed_copper_grate>, <item:caverns_and_chasms:exposed_copper_grate>]]);
 
-  craftingTable.remove(<item:copperandtuffbackport:oxidized_copper_grate>);
-  stoneCutter.remove(<item:copperandtuffbackport:oxidized_copper_grate>);
-  craftingTable.addShaped("oxidized_copper_grate", <item:copperandtuffbackport:oxidized_copper_grate> * 8, [
-    [<item:copperandtuffbackport:weathered_copper_grate>, <item:copperandtuffbackport:weathered_copper_grate>, <item:copperandtuffbackport:weathered_copper_grate>],
-    [<item:copperandtuffbackport:weathered_copper_grate>, <item:kubejs:soul_dust>, <item:copperandtuffbackport:weathered_copper_grate>],
-    [<item:copperandtuffbackport:weathered_copper_grate>, <item:copperandtuffbackport:weathered_copper_grate>, <item:copperandtuffbackport:weathered_copper_grate>]]);
+  craftingTable.remove(<item:caverns_and_chasms:oxidized_copper_grate>);
+  stoneCutter.remove(<item:caverns_and_chasms:oxidized_copper_grate>);
+  craftingTable.addShaped("oxidized_copper_grate", <item:caverns_and_chasms:oxidized_copper_grate> * 8, [
+    [<item:caverns_and_chasms:weathered_copper_grate>, <item:caverns_and_chasms:weathered_copper_grate>, <item:caverns_and_chasms:weathered_copper_grate>],
+    [<item:caverns_and_chasms:weathered_copper_grate>, <item:kubejs:soul_dust>, <item:caverns_and_chasms:weathered_copper_grate>],
+    [<item:caverns_and_chasms:weathered_copper_grate>, <item:caverns_and_chasms:weathered_copper_grate>, <item:caverns_and_chasms:weathered_copper_grate>]]);
 
   //Waxed Grates:
-  craftingTable.remove(<item:copperandtuffbackport:waxed_copper_grate>);
-  stoneCutter.remove(<item:copperandtuffbackport:waxed_copper_grate>);
-  craftingTable.addShapeless("waxed_copper_grate", <item:copperandtuffbackport:waxed_copper_grate>, 
-    [<item:copperandtuffbackport:copper_grate>, 
+  craftingTable.remove(<item:caverns_and_chasms:waxed_copper_grate>);
+  stoneCutter.remove(<item:caverns_and_chasms:waxed_copper_grate>);
+  craftingTable.addShapeless("waxed_copper_grate", <item:caverns_and_chasms:waxed_copper_grate>, 
+    [<item:caverns_and_chasms:copper_grate>, 
     <item:minecraft:honeycomb>]);
 
-  craftingTable.remove(<item:copperandtuffbackport:waxed_exposed_copper_grate>);
-  stoneCutter.remove(<item:copperandtuffbackport:waxed_exposed_copper_grate>);
-  craftingTable.addShapeless("waxed_exposed_copper_grate", <item:copperandtuffbackport:waxed_exposed_copper_grate>, 
-    [<item:copperandtuffbackport:exposed_copper_grate>, 
+  craftingTable.remove(<item:caverns_and_chasms:waxed_exposed_copper_grate>);
+  stoneCutter.remove(<item:caverns_and_chasms:waxed_exposed_copper_grate>);
+  craftingTable.addShapeless("waxed_exposed_copper_grate", <item:caverns_and_chasms:waxed_exposed_copper_grate>, 
+    [<item:caverns_and_chasms:exposed_copper_grate>, 
     <item:minecraft:honeycomb>]);
 
-  craftingTable.remove(<item:copperandtuffbackport:waxed_weathered_copper_grate>);
-  stoneCutter.remove(<item:copperandtuffbackport:waxed_weathered_copper_grate>);
-  craftingTable.addShapeless("waxed_weathered_copper_grate", <item:copperandtuffbackport:waxed_weathered_copper_grate>, 
-    [<item:copperandtuffbackport:weathered_copper_grate>, 
+  craftingTable.remove(<item:caverns_and_chasms:waxed_weathered_copper_grate>);
+  stoneCutter.remove(<item:caverns_and_chasms:waxed_weathered_copper_grate>);
+  craftingTable.addShapeless("waxed_weathered_copper_grate", <item:caverns_and_chasms:waxed_weathered_copper_grate>, 
+    [<item:caverns_and_chasms:weathered_copper_grate>, 
     <item:minecraft:honeycomb>]);
 
-  craftingTable.remove(<item:copperandtuffbackport:waxed_oxidized_copper_grate>);
-  stoneCutter.remove(<item:copperandtuffbackport:waxed_oxidized_copper_grate>);
-  craftingTable.addShapeless("waxed_oxidized_copper_grate", <item:copperandtuffbackport:waxed_oxidized_copper_grate>, 
-    [<item:copperandtuffbackport:oxidized_copper_grate>, 
+  craftingTable.remove(<item:caverns_and_chasms:waxed_oxidized_copper_grate>);
+  stoneCutter.remove(<item:caverns_and_chasms:waxed_oxidized_copper_grate>);
+  craftingTable.addShapeless("waxed_oxidized_copper_grate", <item:caverns_and_chasms:waxed_oxidized_copper_grate>, 
+    [<item:caverns_and_chasms:oxidized_copper_grate>, 
     <item:minecraft:honeycomb>]);
 
 //Copper Doors:
-craftingTable.remove(<item:copperandtuffbackport:copper_door>);
-craftingTable.addShaped("copper_door", <item:copperandtuffbackport:copper_door> * 3, [
+craftingTable.remove(<item:caverns_and_chasms:copper_door>);
+craftingTable.addShaped("copper_door", <item:caverns_and_chasms:copper_door> * 3, [
   [<item:minecraft:copper_ingot>, <item:minecraft:copper_ingot>], 
   [<item:minecraft:copper_ingot>, <item:minecraft:copper_ingot>],
   [<item:minecraft:copper_ingot>, <item:minecraft:copper_ingot>]]);
 
   //Oxidized Doors:
-  craftingTable.remove(<item:copperandtuffbackport:exposed_copper_door>);
-  craftingTable.addShapeless("exposed_copper_door", <item:copperandtuffbackport:exposed_copper_door>, 
-    [<item:copperandtuffbackport:copper_door>, 
+  craftingTable.remove(<item:caverns_and_chasms:exposed_copper_door>);
+  craftingTable.addShapeless("exposed_copper_door", <item:caverns_and_chasms:exposed_copper_door>, 
+    [<item:caverns_and_chasms:copper_door>, 
     <item:kubejs:soul_dust>]);
 
-  craftingTable.remove(<item:copperandtuffbackport:weathered_copper_door>);
-  craftingTable.addShapeless("weathered_copper_door", <item:copperandtuffbackport:weathered_copper_door>, 
-    [<item:copperandtuffbackport:exposed_copper_door>, 
+  craftingTable.remove(<item:caverns_and_chasms:weathered_copper_door>);
+  craftingTable.addShapeless("weathered_copper_door", <item:caverns_and_chasms:weathered_copper_door>, 
+    [<item:caverns_and_chasms:exposed_copper_door>, 
     <item:kubejs:soul_dust>]);
 
-  craftingTable.remove(<item:copperandtuffbackport:oxidized_copper_door>);
-  craftingTable.addShapeless("oxidized_copper_door", <item:copperandtuffbackport:oxidized_copper_door>, 
-    [<item:copperandtuffbackport:weathered_copper_door>, 
+  craftingTable.remove(<item:caverns_and_chasms:oxidized_copper_door>);
+  craftingTable.addShapeless("oxidized_copper_door", <item:caverns_and_chasms:oxidized_copper_door>, 
+    [<item:caverns_and_chasms:weathered_copper_door>, 
     <item:kubejs:soul_dust>]);
 
   //Waxed Doors:
-  craftingTable.remove(<item:copperandtuffbackport:waxed_copper_door>);
-  craftingTable.addShapeless("waxed_copper_door", <item:copperandtuffbackport:waxed_copper_door>, 
-    [<item:copperandtuffbackport:copper_door>, 
+  craftingTable.remove(<item:caverns_and_chasms:waxed_copper_door>);
+  craftingTable.addShapeless("waxed_copper_door", <item:caverns_and_chasms:waxed_copper_door>, 
+    [<item:caverns_and_chasms:copper_door>, 
     <item:minecraft:honeycomb>]);
 
-  craftingTable.remove(<item:copperandtuffbackport:waxed_exposed_copper_door>);
-  craftingTable.addShapeless("waxed_exposed_copper_door", <item:copperandtuffbackport:waxed_exposed_copper_door>, 
-    [<item:copperandtuffbackport:exposed_copper_door>, 
+  craftingTable.remove(<item:caverns_and_chasms:waxed_exposed_copper_door>);
+  craftingTable.addShapeless("waxed_exposed_copper_door", <item:caverns_and_chasms:waxed_exposed_copper_door>, 
+    [<item:caverns_and_chasms:exposed_copper_door>, 
     <item:minecraft:honeycomb>]);
 
-  craftingTable.remove(<item:copperandtuffbackport:waxed_weathered_copper_door>);
-  craftingTable.addShapeless("waxed_weathered_copper_door", <item:copperandtuffbackport:waxed_weathered_copper_door>, 
-    [<item:copperandtuffbackport:weathered_copper_door>, 
+  craftingTable.remove(<item:caverns_and_chasms:waxed_weathered_copper_door>);
+  craftingTable.addShapeless("waxed_weathered_copper_door", <item:caverns_and_chasms:waxed_weathered_copper_door>, 
+    [<item:caverns_and_chasms:weathered_copper_door>, 
     <item:minecraft:honeycomb>]);
 
-  craftingTable.remove(<item:copperandtuffbackport:waxed_oxidized_copper_door>);
-  craftingTable.addShapeless("waxed_oxidized_copper_door", <item:copperandtuffbackport:waxed_oxidized_copper_door>, 
-    [<item:copperandtuffbackport:oxidized_copper_door>, 
+  craftingTable.remove(<item:caverns_and_chasms:waxed_oxidized_copper_door>);
+  craftingTable.addShapeless("waxed_oxidized_copper_door", <item:caverns_and_chasms:waxed_oxidized_copper_door>, 
+    [<item:caverns_and_chasms:oxidized_copper_door>, 
     <item:minecraft:honeycomb>]);
 
 //Copper Blocks:

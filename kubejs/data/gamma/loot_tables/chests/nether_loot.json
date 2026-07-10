@@ -172,7 +172,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "galosphere:silver_bomb",
+          "name": "supplementaries:bomb",
           "weight": 5
         },
         {
@@ -318,7 +318,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "galosphere:silver_nugget",
+          "name": "kubejs:silver_nugget",
           "weight": 10
         },
         {
@@ -393,7 +393,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "galosphere:silver_nugget",
+          "name": "kubejs:silver_nugget",
           "weight": 5
         },
         {

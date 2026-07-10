@@ -28,7 +28,8 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:dye_yellow_wool"
+      "minecraft:dye_yellow_wool",
+      "minecraft:yellow_wool"
     ]
   },
   "sends_telemetry_event": false

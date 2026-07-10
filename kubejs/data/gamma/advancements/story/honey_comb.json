@@ -1,0 +1,29 @@
+{
+  "parent": "gamma:story/shears",
+  "criteria": {
+    "shears": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:honeycomb"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Get Honeycomb",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:honeycomb"
+    },
+    "show_toast": true,
+    "title": "Honeycomb"
+  },
+  "sends_telemetry_event": true
+}

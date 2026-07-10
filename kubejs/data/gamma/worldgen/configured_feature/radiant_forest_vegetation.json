@@ -1,7 +1,7 @@
 {
   "type": "minecraft:random_selector",
   "config": {
-    "default": "autumnity:maple_tree_checked",
+    "default": "gamma:radiant_tree_checked",
     "features": [
       {
         "chance": 0.015,
@@ -39,7 +39,7 @@
       },
       {
         "chance": 0.3,
-        "feature": "autumnity:maple_tree_checked"
+        "feature": "gamma:radiant_tree_checked"
       }
     ]
   }

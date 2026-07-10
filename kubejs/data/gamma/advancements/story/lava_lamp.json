@@ -1,0 +1,29 @@
+{
+  "parent": "gamma:story/test",
+  "criteria": {
+    "shears": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:lava_lamp"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Obtain a Lava Lamp",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "kubejs:lava_lamp"
+    },
+    "show_toast": true,
+    "title": "Lava Lamp"
+  },
+  "sends_telemetry_event": true
+}

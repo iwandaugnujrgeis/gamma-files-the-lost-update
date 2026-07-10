@@ -1,4 +1,8 @@
 {
+//Moderner Beta Preset:
+  "createWorld.customize.modern_beta.preset.desc.gamma.intended": "A blend of Infdev, Alpha and Beta terrain, mixed in together with custom Gamma Files biomes!",
+  "createWorld.customize.modern_beta.preset.name.gamma.intended": "Intended",
+
 //Paintings:
   "painting.gamma.lion.title": "Lion and Sunflowers",
   "painting.gamma.lion.author": "Kristoffer Zetterstrand",

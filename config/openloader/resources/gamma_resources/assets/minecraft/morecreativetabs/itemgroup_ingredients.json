@@ -32,7 +32,7 @@
       "name": "kubejs:cobalt"
     },
     {
-      "name": "galosphere:raw_silver"
+      "name": "kubejs:raw_silver"
     },
     {
       "name": "rediscovered:ruby"
@@ -74,7 +74,7 @@
       "name": "etcetera:bismuth_ingot"
     },
     {
-      "name": "galosphere:silver_ingot"
+      "name": "kubejs:silver_ingot"
     },
     {
       "name": "spelunkery:copper_nugget"
@@ -86,7 +86,7 @@
       "name": "minecraft:gold_nugget"
     },
     {
-      "name": "galosphere:silver_nugget"
+      "name": "kubejs:silver_nugget"
     },
     {
       "name": "minecraft:stick"
@@ -158,7 +158,7 @@
       "name": "minecraft:phantom_membrane"
     },
     {
-      "name": "galosphere:cured_membrane"
+      "name": "kubejs:cured_membrane"
     },
     {
       "name": "alexsmobs:bear_dust"

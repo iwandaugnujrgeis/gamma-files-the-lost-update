@@ -88,7 +88,6 @@ ItemEvents.modification(event => {
 	restore0_5('minecraft:sweet_berries')
 
 	restore1('ecologics:walnut')
-	restore1('farmersdelight:pumpkin_slice')
 	restore1('minecraft:apple')
 	restore1('minecraft:beetroot')
 	restore1('minecraft:carrot')
@@ -199,8 +198,8 @@ ItemEvents.modification(event => {
 	})
 
 	//Bakery
-	candyRush1('farmersdelight:sweet_berry_cookie')
-	restore1('farmersdelight:sweet_berry_cookie')
+	candyRush1('kubejs:sweet_berry_cookie')
+	restore1('kubejs:sweet_berry_cookie')
 	restore1('minecraft:cookie')
 	restore2('minecraft:bread')
 
@@ -233,17 +232,6 @@ ItemEvents.modification(event => {
 		}
 	})
 
-	restore3('autumnity:pumpkin_bread')
-
-	event.modify('farmersdelight:cake_slice', item => {
-		item.foodProperties = food => {
-			food
-			.removeEffect('speed')
-			.hunger(2)
-			.saturation(0.5)
-		}
-	})
-
 	//Honey:
 	event.modify('kubejs:honeyed_apple', item => {
 		item.foodProperties = food => {
@@ -259,7 +247,6 @@ ItemEvents.modification(event => {
 		}
 	})
 
-	restore1_5('farmersdelight:honey_cookie')
 	candyRush1('farmersdelight:honey_cookie')
 
 	//Meat
@@ -292,7 +279,6 @@ ItemEvents.modification(event => {
 	restore1('minecraft:rotten_flesh')
 
 	//Cooked Meat:
-	restore2('farmersdelight:fried_egg')
 	restore2('rediscovered:cooked_fish')
 	restore3('alexsmobs:cooked_catfish')
 	restore3('minecraft:cooked_beef')
@@ -315,14 +301,6 @@ ItemEvents.modification(event => {
 			food
 				.effect('regeneration', 100, 1, 100)
 			.effect('strength', 600, 0, 100)
-			.alwaysEdible(true)
-		}
-	})
-
-	event.modify('galosphere:golden_lichen_cordyceps', item => {
-		item.foodProperties = food => {
-			food
-				.hunger(2).saturation(0.5)
 			.alwaysEdible(true)
 		}
 	})

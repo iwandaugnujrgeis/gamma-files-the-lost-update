@@ -126,16 +126,6 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "farmersdelight:canvas_sign"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "galosphere:lichen_cordyceps"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
           "name": "kubejs:music_disc_dog"
         },
         {
@@ -387,12 +377,12 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "galosphere:raw_silver"
+          "name": "kubejs:raw_silver"
         },
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "galosphere:silver_ingot"
+          "name": "kubejs:silver_ingot"
         },
         {
           "type": "minecraft:item",

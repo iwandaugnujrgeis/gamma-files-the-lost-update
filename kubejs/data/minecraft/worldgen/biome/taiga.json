@@ -19,7 +19,7 @@
     "sky_color": 8044543,
     "water_color": 4159204,
     "water_fog_color": 329011,
-    "grass_color": 8112994,
+    "grass_color": 8701040,
     "foliage_color": 6398280
   },
   "features": [
@@ -105,28 +105,22 @@
     "axolotls": [],
     "creature": [
       {
-        "type": "minecraft:sheep",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 12
+        "type": "alexsmobs:moose",
+        "maxCount": 3,
+        "minCount": 1,
+        "weight": 18
       },
       {
         "type": "alexsmobs:blue_jay",
         "maxCount": 4,
         "minCount": 4,
-        "weight": 12
+        "weight": 15
       },
       {
-        "type": "minecraft:pig",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 10
-      },
-      {
-        "type": "alexsmobs:moose",
+        "type": "minecraft:fox",
         "maxCount": 4,
         "minCount": 2,
-        "weight": 10
+        "weight": 12
       },
       {
         "type": "alexsmobs:raccoon",
@@ -135,27 +129,9 @@
         "weight": 8
       },
       {
-        "type": "minecraft:chicken",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 10
-      },
-      {
-        "type": "minecraft:cow",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 8
-      },
-      {
         "type": "minecraft:wolf",
         "maxCount": 4,
         "minCount": 4,
-        "weight": 8
-      },
-      {
-        "type": "minecraft:fox",
-        "maxCount": 4,
-        "minCount": 2,
         "weight": 8
       }
     ],

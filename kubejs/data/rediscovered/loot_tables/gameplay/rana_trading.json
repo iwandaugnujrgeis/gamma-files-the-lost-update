@@ -83,7 +83,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "galosphere:silver_ingot",
+          "name": "kubejs:silver_ingot",
           "weight": 10
         },
         {

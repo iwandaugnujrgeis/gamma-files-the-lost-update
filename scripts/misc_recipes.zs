@@ -13,17 +13,17 @@ craftingTable.remove(<item:minecraft:jack_o_lantern>);
 craftingTable.addShapelessMeta("jack_o_lantern", <item:minecraft:jack_o_lantern>, [<item:minecraft:carved_pumpkin>, <item:minecraft:glowstone_dust>], "", <constant:minecraft:recipe/category/crafting:building>);
 
 craftingTable.remove(<item:snowyspirit:eggnog>);
-craftingTable.addShapelessMeta("eggnog", <item:snowyspirit:eggnog>, [<tag:items:forge:eggs>, <item:farmersdelight:milk_bottle>.transformReplace(<item:minecraft:glass_bottle>), <item:minecraft:sugar>], "", <constant:minecraft:recipe/category/crafting:misc>);
+craftingTable.addShapelessMeta("eggnog", <item:snowyspirit:eggnog>, [<tag:items:forge:eggs>, <item:kubejs:milk_bottle_placeholder>.transformReplace(<item:minecraft:glass_bottle>), <item:minecraft:sugar>], "", <constant:minecraft:recipe/category/crafting:misc>);
 
 craftingTable.remove(<item:minecraft:bread>);
 furnace.remove(<item:minecraft:bread>);
-furnace.addRecipeMeta("bread_furnace", <item:minecraft:bread>, <item:kubejs:dough>, 0.35, 0, "", <constant:minecraft:recipe/category/cooking:food>);
+furnace.addRecipeMeta("bread_furnace", <item:minecraft:bread>, <item:kubejs:dough>, 0.35, 200, "", <constant:minecraft:recipe/category/cooking:food>);
 
 craftingTable.remove(<item:supplementaries:bomb>);
 craftingTable.addShapedMeta("silver_bomb", <item:supplementaries:bomb> * 3, [
-  [<item:minecraft:air>, <item:galosphere:silver_nugget>, <item:minecraft:air>], 
-  [<item:galosphere:silver_nugget>, <item:minecraft:gunpowder>, <item:galosphere:silver_nugget>], 
-  [<item:minecraft:air>, <item:galosphere:silver_nugget>, <item:minecraft:air>]], "", <constant:minecraft:recipe/category/crafting:equipment>);
+  [<item:minecraft:air>, <item:kubejs:silver_nugget>, <item:minecraft:air>], 
+  [<item:kubejs:silver_nugget>, <item:minecraft:gunpowder>, <item:kubejs:silver_nugget>], 
+  [<item:minecraft:air>, <item:kubejs:silver_nugget>, <item:minecraft:air>]], "", <constant:minecraft:recipe/category/crafting:equipment>);
 
 craftingTable.remove(<item:supplementaries:pancake>);
 craftingTable.addShapelessMeta("supplementaries_pancake", <item:supplementaries:pancake> * 8, [<item:minecraft:sugar>, <item:minecraft:milk_bucket>, <item:kubejs:dough>, <tag:items:forge:eggs>], "", <constant:minecraft:recipe/category/crafting:misc>);
@@ -38,15 +38,15 @@ craftingTable.addShapedMirroredMeta("pillow_block", MirrorAxis.HORIZONTAL, <item
 
 craftingTable.remove(<item:supplementaries:key>);
 craftingTable.addShapedMirroredMeta("silver_key", MirrorAxis.HORIZONTAL, <item:supplementaries:key>, [
-  [<item:galosphere:silver_ingot>, <item:galosphere:silver_ingot>], 
-  [<item:galosphere:silver_nugget>, <item:minecraft:air>],
-  [<item:galosphere:silver_nugget>, <item:galosphere:silver_nugget>]], "", <constant:minecraft:recipe/category/crafting:equipment>);
+  [<item:kubejs:silver_ingot>, <item:kubejs:silver_ingot>], 
+  [<item:kubejs:silver_nugget>, <item:minecraft:air>],
+  [<item:kubejs:silver_nugget>, <item:kubejs:silver_nugget>]], "", <constant:minecraft:recipe/category/crafting:equipment>);
 
 craftingTable.remove(<item:supplementaries:lock_block>);
 craftingTable.addShapedMeta("lock_block", <item:supplementaries:lock_block>, [
-  [<item:galosphere:silver_ingot>, <tag:items:minecraft:planks>, <item:galosphere:silver_ingot>], 
+  [<item:kubejs:silver_ingot>, <tag:items:minecraft:planks>, <item:kubejs:silver_ingot>], 
   [<tag:items:minecraft:planks>, <item:minecraft:redstone>, <tag:items:minecraft:planks>],
-  [<item:galosphere:silver_ingot>, <tag:items:minecraft:planks>, <item:galosphere:silver_ingot>]], "", <constant:minecraft:recipe/category/crafting:redstone>);
+  [<item:kubejs:silver_ingot>, <tag:items:minecraft:planks>, <item:kubejs:silver_ingot>]], "", <constant:minecraft:recipe/category/crafting:redstone>);
 
 craftingTable.remove(<item:supplementaries:rope>);
 craftingTable.addShapedMeta("supplementaries_rope", <item:supplementaries:rope> * 3, [[<item:spelunkery:tangle_roots>], [<item:spelunkery:tangle_roots>], [<item:spelunkery:tangle_roots>]], "", <constant:minecraft:recipe/category/crafting:equipment>);
@@ -65,13 +65,13 @@ craftingTable.addShapedMeta("slingshot", <item:supplementaries:slingshot>, [
 
 craftingTable.remove(<item:supplementaries:soap_block>);
 craftingTable.remove(<item:supplementaries:soap>);
-furnace.addRecipeMeta("soap", <item:supplementaries:soap>, <item:supplementaries:soap_block>, 0.35, 0, "iron_ingot", <constant:minecraft:recipe/category/cooking:food>);
+furnace.addRecipeMeta("soap", <item:supplementaries:soap>, <item:supplementaries:soap_block>, 0.35, 200, "", <constant:minecraft:recipe/category/cooking:food>);
 
 craftingTable.remove(<item:supplementaries:wrench>);
 craftingTable.addShapedMirroredMeta("magic_spoon", MirrorAxis.HORIZONTAL, <item:supplementaries:wrench>, [
-  [<item:minecraft:air>, <item:galosphere:silver_nugget>, <item:galosphere:silver_nugget>], 
-  [<item:minecraft:air>, <item:galosphere:silver_ingot>, <item:galosphere:silver_nugget>],
-  [<item:galosphere:silver_ingot>, <item:minecraft:air>, <item:minecraft:air>]], "", <constant:minecraft:recipe/category/crafting:equipment>);
+  [<item:minecraft:air>, <item:kubejs:silver_nugget>, <item:kubejs:silver_nugget>], 
+  [<item:minecraft:air>, <item:kubejs:silver_ingot>, <item:kubejs:silver_nugget>],
+  [<item:kubejs:silver_ingot>, <item:minecraft:air>, <item:minecraft:air>]], "", <constant:minecraft:recipe/category/crafting:equipment>);
 
 craftingTable.remove(<item:supplementaries:altimeter>);
 craftingTable.addShapedMeta("altimeter", <item:supplementaries:altimeter>, [
@@ -119,31 +119,25 @@ craftingTable.addShapedMeta("flute", <item:supplementaries:flute>, [
   [<item:minecraft:air>, <item:minecraft:bamboo>, <item:minecraft:air>],
   [<item:minecraft:bamboo>, <item:minecraft:air>, <item:minecraft:air>]], "", <constant:minecraft:recipe/category/crafting:equipment>);
 
-//Farmer's Delight:
-craftingTable.addShapelessMeta("canvas_sign", <item:farmersdelight:canvas_sign>, [<tag:items:minecraft:signs>, <item:minecraft:paper>], "", <constant:minecraft:recipe/category/crafting:misc>);
-craftingTable.addShapelessMeta("canvas_sign_hanging", <item:farmersdelight:hanging_canvas_sign>, [<tag:items:minecraft:hanging_signs>, <item:minecraft:paper>], "", <constant:minecraft:recipe/category/crafting:misc>);
+craftingTable.remove(<item:kubejs:honey_cookie>);
+craftingTable.addShapelessMeta("honey_cookie", <item:kubejs:honey_cookie> * 4, [<item:kubejs:dough>, <item:minecraft:honey_bottle>, <item:minecraft:sugar>, <item:kubejs:dough>], "", <constant:minecraft:recipe/category/crafting:misc>);
 
-craftingTable.remove(<item:farmersdelight:honey_cookie>);
-craftingTable.addShapelessMeta("honey_cookie", <item:farmersdelight:honey_cookie> * 4, [<item:kubejs:dough>, <item:minecraft:honey_bottle>, <item:minecraft:sugar>, <item:kubejs:dough>], "", <constant:minecraft:recipe/category/crafting:misc>);
+craftingTable.remove(<item:kubejs:sweet_berry_cookie>);
+craftingTable.addShapelessMeta("sweet_berry_cookie", <item:kubejs:sweet_berry_cookie> * 4, [<item:kubejs:dough>, <item:minecraft:sweet_berries>, <item:minecraft:sugar>, <item:kubejs:dough>], "", <constant:minecraft:recipe/category/crafting:misc>);
 
-craftingTable.remove(<item:farmersdelight:sweet_berry_cookie>);
-craftingTable.addShapelessMeta("sweet_berry_cookie", <item:farmersdelight:sweet_berry_cookie> * 4, [<item:kubejs:dough>, <item:minecraft:sweet_berries>, <item:minecraft:sugar>, <item:kubejs:dough>], "", <constant:minecraft:recipe/category/crafting:misc>);
+furnace.remove(<item:kubejs:fried_egg>);
+furnace.addRecipeMeta("fried_egg", <item:kubejs:fried_egg>, <tag:items:forge:eggs>, 0.35, 0, "", <constant:minecraft:recipe/category/cooking:food>);
 
-furnace.remove(<item:farmersdelight:fried_egg>);
-furnace.addRecipeMeta("fried_egg", <item:farmersdelight:fried_egg>, <tag:items:forge:eggs>, 0.35, 0, "", <constant:minecraft:recipe/category/cooking:food>);
-
-craftingTable.addShapedMeta("basket", <item:farmersdelight:basket>, [
+craftingTable.addShapedMeta("basket", <item:coraline_systems:basket>, [
   [<item:minecraft:bamboo>, <item:minecraft:air>, <item:minecraft:bamboo>],
   [<item:minecraft:bamboo>, <item:minecraft:air>, <item:minecraft:bamboo>],
   [<item:minecraft:bamboo>, <item:minecraft:bamboo>, <item:minecraft:bamboo>]], "", <constant:minecraft:recipe/category/crafting:redstone>);
 
-craftingTable.addShapelessMeta("organic_compost", <item:farmersdelight:organic_compost>, [<item:minecraft:bone_meal>, <item:minecraft:dirt>, <tag:items:gamma:compost_ingredients>], "", <constant:minecraft:recipe/category/crafting:misc>);
-
 craftingTable.remove(<item:minecraft:pumpkin>);
 craftingTable.addShapedMeta("pumpkin", <item:minecraft:pumpkin>, [
-  [<item:farmersdelight:pumpkin_slice>, <item:farmersdelight:pumpkin_slice>, <item:farmersdelight:pumpkin_slice>], 
-  [<item:farmersdelight:pumpkin_slice>, <item:farmersdelight:pumpkin_slice>, <item:farmersdelight:pumpkin_slice>], 
-  [<item:farmersdelight:pumpkin_slice>, <item:farmersdelight:pumpkin_slice>, <item:farmersdelight:pumpkin_slice>]], "", <constant:minecraft:recipe/category/crafting:building>);
+  [<item:kubejs:pumpkin_slice>, <item:kubejs:pumpkin_slice>, <item:kubejs:pumpkin_slice>], 
+  [<item:kubejs:pumpkin_slice>, <item:kubejs:pumpkin_slice>, <item:kubejs:pumpkin_slice>], 
+  [<item:kubejs:pumpkin_slice>, <item:kubejs:pumpkin_slice>, <item:kubejs:pumpkin_slice>]], "", <constant:minecraft:recipe/category/crafting:building>);
 
 craftingTable.remove(<item:minecraft:mushroom_stew>);
 craftingTable.addShaped("mushroom_stew", <item:minecraft:mushroom_stew>, [
@@ -278,7 +272,7 @@ craftingTable.addShapelessMeta("minecraft_cookie", <item:minecraft:cookie> * 4, 
 
 craftingTable.remove(<item:minecraft:pumpkin_pie>);
 craftingTable.addShaped("pumpkin_pie", <item:minecraft:pumpkin_pie>, [
-  [<item:farmersdelight:pumpkin_slice>, <item:farmersdelight:pumpkin_slice>, <item:farmersdelight:pumpkin_slice>], 
+  [<item:kubejs:pumpkin_slice>, <item:kubejs:pumpkin_slice>, <item:kubejs:pumpkin_slice>], 
   [<item:kubejs:dough>, <item:kubejs:salt>, <item:kubejs:dough>]]);
 
 craftingTable.remove(<item:minecraft:cake>);
@@ -287,8 +281,8 @@ craftingTable.addShaped("cake", <item:minecraft:cake>, [
   [<item:kubejs:dough>, <item:minecraft:sugar>, <item:kubejs:dough>]]);
 
 craftingTable.addShapelessMeta("vegan_milk", <item:minecraft:milk_bucket>, [<item:minecraft:water_bucket>, <item:ecologics:walnut>, <item:ecologics:walnut>, <item:ecologics:walnut>, <item:ecologics:walnut>], "", <constant:minecraft:recipe/category/crafting:misc>);
-craftingTable.addShapelessMeta("vegan_milk_bottle", <item:farmersdelight:milk_bottle>, [<item:minecraft:potion>.withTag({Potion: "minecraft:water"}), <item:ecologics:walnut>], "vegan_milk_bottles", <constant:minecraft:recipe/category/crafting:misc>);
-craftingTable.addShapelessMeta("vegan_milk_splash_bottle", <item:farmersdelight:milk_bottle>, [<item:minecraft:splash_potion>.withTag({Potion: "minecraft:water"}), <item:ecologics:walnut>], "vegan_milk_bottles", <constant:minecraft:recipe/category/crafting:misc>);
+craftingTable.addShapelessMeta("vegan_milk_bottle", <item:kubejs:milk_bottle_placeholder>, [<item:minecraft:potion>.withTag({Potion: "minecraft:water"}), <item:ecologics:walnut>], "vegan_milk_bottles", <constant:minecraft:recipe/category/crafting:misc>);
+craftingTable.addShapelessMeta("vegan_milk_splash_bottle", <item:kubejs:milk_bottle_placeholder>, [<item:minecraft:splash_potion>.withTag({Potion: "minecraft:water"}), <item:ecologics:walnut>], "vegan_milk_bottles", <constant:minecraft:recipe/category/crafting:misc>);
 
 craftingTable.remove(<item:minecraft:golden_carrot>);
 craftingTable.addShaped("golden_carrot", <item:minecraft:golden_carrot>, [
@@ -517,9 +511,9 @@ craftingTable.addShaped("turtle_raft", <item:etcetera:turtle_raft>, [
   [<item:minecraft:scute>, <item:minecraft:wooden_shovel>, <item:minecraft:scute>],
   [<item:minecraft:scute>, <item:minecraft:scute>, <item:minecraft:scute>]]);
 
-craftingTable.addShapelessMeta("chocolate_bar", <item:kubejs:bar_of_chocolate> * 2, [<item:farmersdelight:milk_bottle>, <item:kubejs:butter>, <item:minecraft:cocoa_beans>, <item:minecraft:sugar>], "", <constant:minecraft:recipe/category/crafting:misc>);
+craftingTable.addShapelessMeta("chocolate_bar", <item:kubejs:bar_of_chocolate> * 2, [<item:kubejs:milk_bottle_placeholder>, <item:kubejs:butter>, <item:minecraft:cocoa_beans>, <item:minecraft:sugar>], "", <constant:minecraft:recipe/category/crafting:misc>);
 
-craftingTable.addShapelessMeta("omelette", <item:kubejs:omelette>, [<item:farmersdelight:fried_egg>, <item:farmersdelight:milk_bottle>], "", <constant:minecraft:recipe/category/crafting:misc>);
+craftingTable.addShapelessMeta("omelette", <item:kubejs:omelette>, [<item:kubejs:fried_egg>, <item:kubejs:milk_bottle_placeholder>], "", <constant:minecraft:recipe/category/crafting:misc>);
 
 craftingTable.addShapelessMeta("honeyed_apple", <item:kubejs:honeyed_apple> * 2, [<item:minecraft:apple>, <item:minecraft:apple>, <item:minecraft:honey_bottle>], "", <constant:minecraft:recipe/category/crafting:misc>);
 
@@ -542,7 +536,7 @@ craftingTable.addShaped("bear_dust", <item:alexsmobs:bear_dust> * 4, [
 craftingTable.addShapelessMeta("banana_bread", <item:kubejs:banana_bread> * 2, [<item:kubejs:butter>, <item:alexsmobs:banana>, <item:minecraft:sugar>, <item:kubejs:dough>], "", <constant:minecraft:recipe/category/crafting:misc>);
 
 craftingTable.addShapelessMeta("butter_bucket", <item:kubejs:butter> * 8, [<item:minecraft:milk_bucket>, <item:minecraft:milk_bucket>], "", <constant:minecraft:recipe/category/crafting:misc>);
-craftingTable.addShapelessMeta("butter_bottle", <item:kubejs:butter> * 2, [<item:farmersdelight:milk_bottle>, <item:farmersdelight:milk_bottle>], "", <constant:minecraft:recipe/category/crafting:misc>);
+craftingTable.addShapelessMeta("butter_bottle", <item:kubejs:butter> * 2, [<item:kubejs:milk_bottle_placeholder>, <item:kubejs:milk_bottle_placeholder>], "", <constant:minecraft:recipe/category/crafting:misc>);
 
 craftingTable.addShaped("music_disc_droopy2", <item:kubejs:music_disc_droopy2>, [
   [<item:minecraft:air>, <item:minecraft:amethyst_shard>, <item:minecraft:air>], 
@@ -650,8 +644,8 @@ craftingTable.addShaped("cobalt_pants", <item:coraline_systems:cobalt_pants>, [
   [<item:kubejs:cobalt>, <item:minecraft:air>, <item:kubejs:cobalt>],
   [<item:kubejs:cobalt>, <item:minecraft:air>, <item:kubejs:cobalt>]]);
 
-craftingTable.remove(<item:autumnity:pumpkin_bread>);
-craftingTable.addShapelessMeta("pumpkin_bread", <item:autumnity:pumpkin_bread> * 2, [<item:kubejs:butter>, <item:farmersdelight:pumpkin_slice>, <item:autumnity:syrup_bottle>, <item:kubejs:dough>], "", <constant:minecraft:recipe/category/crafting:misc>);
+craftingTable.remove(<item:kubejs:pumpkin_bread>);
+craftingTable.addShapelessMeta("pumpkin_bread", <item:kubejs:pumpkin_bread> * 2, [<item:kubejs:butter>, <item:kubejs:pumpkin_slice>, <item:kubejs:syrup_bottle>, <item:kubejs:dough>], "", <constant:minecraft:recipe/category/crafting:misc>);
 
 //craftingTable.remove(<item:alexsmobs:dimensional_carver>);
 //craftingTable.addShaped("dimensional_carver", <item:alexsmobs:dimensional_carver>, [
@@ -686,8 +680,6 @@ craftingTable.addShaped("big_magnet", <item:quark:magnet>, [
   [<item:minecraft:redstone>, <item:spelunkery:raw_magnetite_block>, <item:minecraft:amethyst_shard>],
   [<item:minecraft:iron_ingot>, <item:minecraft:cobblestone>, <item:minecraft:iron_ingot>]]);
 
-craftingTable.remove(<item:mace_backport:mace>);
-
 craftingTable.remove(<item:alexsmobs:fish_oil>);
 craftingTable.addShaped("fish_oil", <item:alexsmobs:fish_oil>, [
   [<tag:items:minecraft:fishes>, <tag:items:minecraft:fishes>], 
@@ -697,12 +689,6 @@ craftingTable.remove(<item:upgrade_aquatic:mulberry_pie>);
 craftingTable.addShaped("mulberry_pie", <item:upgrade_aquatic:mulberry_pie>, [
   [<item:upgrade_aquatic:mulberry>, <item:kubejs:butter>, <item:upgrade_aquatic:mulberry>], 
   [<item:kubejs:dough>, <item:minecraft:sugar>, <item:kubejs:dough>]]);
-
-craftingTable.remove(<item:galosphere:golden_lichen_cordyceps>);
-craftingTable.addShaped("golden_cordyceps", <item:galosphere:golden_lichen_cordyceps>, [
-  [<item:minecraft:gold_ingot>, <item:minecraft:gold_ingot>, <item:minecraft:gold_ingot>], 
-  [<item:minecraft:gold_ingot>, <item:galosphere:lichen_cordyceps>, <item:minecraft:gold_ingot>],
-  [<item:minecraft:gold_ingot>, <item:minecraft:gold_ingot>, <item:minecraft:gold_ingot>]]);
 
 //Rediscovered:
 craftingTable.remove(<item:kubejs:gear>);
@@ -752,22 +738,22 @@ craftingTable.addShaped("mini_dragon_pylon", <item:rediscovered:mini_dragon_pylo
 
 //Plate Armor:
 craftingTable.addShaped("plate_helmet", <item:rediscovered:plate_helmet>, [
-  [<item:galosphere:silver_ingot>, <item:galosphere:silver_ingot>, <item:galosphere:silver_ingot>], 
-  [<item:galosphere:silver_ingot>, <item:minecraft:air>, <item:galosphere:silver_ingot>]]);
+  [<item:kubejs:silver_ingot>, <item:kubejs:silver_ingot>, <item:kubejs:silver_ingot>], 
+  [<item:kubejs:silver_ingot>, <item:minecraft:air>, <item:kubejs:silver_ingot>]]);
 
 craftingTable.addShaped("plate_chestplate", <item:rediscovered:plate_chestplate>, [
-  [<item:galosphere:silver_ingot>, <item:minecraft:air>, <item:galosphere:silver_ingot>], 
-  [<item:galosphere:silver_ingot>, <item:galosphere:silver_ingot>, <item:galosphere:silver_ingot>],
-  [<item:galosphere:silver_ingot>, <item:galosphere:silver_ingot>, <item:galosphere:silver_ingot>]]);
+  [<item:kubejs:silver_ingot>, <item:minecraft:air>, <item:kubejs:silver_ingot>], 
+  [<item:kubejs:silver_ingot>, <item:kubejs:silver_ingot>, <item:kubejs:silver_ingot>],
+  [<item:kubejs:silver_ingot>, <item:kubejs:silver_ingot>, <item:kubejs:silver_ingot>]]);
 
 craftingTable.addShaped("plate_leggings", <item:rediscovered:plate_leggings>, [
-  [<item:galosphere:silver_ingot>, <item:galosphere:silver_ingot>, <item:galosphere:silver_ingot>], 
-  [<item:galosphere:silver_ingot>, <item:minecraft:air>, <item:galosphere:silver_ingot>],
-  [<item:galosphere:silver_ingot>, <item:minecraft:air>, <item:galosphere:silver_ingot>]]);
+  [<item:kubejs:silver_ingot>, <item:kubejs:silver_ingot>, <item:kubejs:silver_ingot>], 
+  [<item:kubejs:silver_ingot>, <item:minecraft:air>, <item:kubejs:silver_ingot>],
+  [<item:kubejs:silver_ingot>, <item:minecraft:air>, <item:kubejs:silver_ingot>]]);
 
 craftingTable.addShaped("plate_boots", <item:rediscovered:plate_boots>, [
-  [<item:galosphere:silver_ingot>, <item:minecraft:air>, <item:galosphere:silver_ingot>], 
-  [<item:galosphere:silver_ingot>, <item:minecraft:air>, <item:galosphere:silver_ingot>]]);
+  [<item:kubejs:silver_ingot>, <item:minecraft:air>, <item:kubejs:silver_ingot>], 
+  [<item:kubejs:silver_ingot>, <item:minecraft:air>, <item:kubejs:silver_ingot>]]);
 
 craftingTable.remove(<item:rediscovered:studded_helmet>);
 craftingTable.remove(<item:rediscovered:studded_chestplate>);
@@ -789,16 +775,10 @@ craftingTable.addShaped("straddleboard", <item:alexsmobs:straddleboard>, [
   [<item:minecraft:string>, <item:minecraft:netherite_scrap>, <item:minecraft:string>], 
   [<item:minecraft:netherite_scrap>, <item:minecraft:string>, <item:minecraft:air>]]);
 
-craftingTable.addShaped("cured_membrane", <item:galosphere:cured_membrane>, [
+craftingTable.addShaped("cured_membrane", <item:kubejs:cured_membrane>, [
   [<item:minecraft:air>, <item:kubejs:halite_crystal>, <item:minecraft:air>], 
   [<item:kubejs:halite_crystal>, <item:minecraft:phantom_membrane>, <item:kubejs:halite_crystal>], 
   [<item:minecraft:air>, <item:kubejs:halite_crystal>, <item:minecraft:air>]]);
-
-craftingTable.remove(<item:galosphere:spectre_flare>);
-craftingTable.addShaped("spectre_flare", <item:galosphere:spectre_flare>, [
-  [<item:galosphere:bottle_of_spectre>], 
-  [<item:galosphere:silver_ingot>],
-  [<item:minecraft:string>]]);
 
 //Big Pots:
 craftingTable.remove(<item:clayworks:black_decorated_pot>);
@@ -956,15 +936,15 @@ craftingTable.addShaped("iron_rod", <item:quark:iron_rod>, [
   [<item:minecraft:iron_ingot>],
   [<item:minecraft:iron_ingot>]]);
 
-craftingTable.addShaped("maglev_rail", <item:moreminecarts:maglev_rail> * 16, [
-  [<item:galosphere:silver_ingot>, <item:minecraft:air>, <item:galosphere:silver_ingot>],
-  [<item:galosphere:silver_ingot>, <item:galosphere:silver_ingot>, <item:galosphere:silver_ingot>],
-  [<item:galosphere:silver_ingot>, <item:minecraft:air>, <item:galosphere:silver_ingot>]]);
+craftingTable.addShaped("maglev_rail", <item:coraline_systems:maglev_rail> * 16, [
+  [<item:kubejs:silver_ingot>, <item:minecraft:air>, <item:kubejs:silver_ingot>],
+  [<item:kubejs:silver_ingot>, <item:kubejs:silver_ingot>, <item:kubejs:silver_ingot>],
+  [<item:kubejs:silver_ingot>, <item:minecraft:air>, <item:kubejs:silver_ingot>]]);
 
-craftingTable.addShaped("maglev_powered_rail", <item:moreminecarts:maglev_powered_rail> * 6, [
-  [<item:galosphere:silver_ingot>, <item:minecraft:air>, <item:galosphere:silver_ingot>],
-  [<item:minecraft:gold_ingot>, <item:galosphere:silver_ingot>, <item:minecraft:gold_ingot>],
-  [<item:galosphere:silver_ingot>, <item:minecraft:redstone>, <item:galosphere:silver_ingot>]]);
+craftingTable.addShaped("powered_maglev_rail", <item:coraline_systems:powered_maglev_rail> * 6, [
+  [<item:kubejs:silver_ingot>, <item:minecraft:air>, <item:kubejs:silver_ingot>],
+  [<item:minecraft:gold_ingot>, <item:kubejs:silver_ingot>, <item:minecraft:gold_ingot>],
+  [<item:kubejs:silver_ingot>, <item:minecraft:redstone>, <item:kubejs:silver_ingot>]]);
 
 //Potions:
   //Lava Vision:
@@ -1130,11 +1110,13 @@ craftingTable.addShaped("pipe", <item:quark:pipe> * 6, [
     [<item:quark:shale>, <item:quark:shale>, <item:quark:shale>],
     [<item:quark:shale>, <item:quark:shale>, <item:quark:shale>]]);
 
+  /*
   craftingTable.remove(<item:autumnity:snail_goo_block>);
   craftingTable.addShaped("snail_goo_block", <item:autumnity:snail_goo_block>, [
     [<item:spawn:mucus>, <item:spawn:mucus>, <item:spawn:mucus>],
     [<item:spawn:mucus>, <item:spawn:mucus>, <item:spawn:mucus>],
     [<item:spawn:mucus>, <item:spawn:mucus>, <item:spawn:mucus>]]);
+  */
 
 craftingTable.addShapelessMeta("tiny_potato", <item:quark:tiny_potato>, [<item:minecraft:potato>, <item:alexsmobs:soul_heart>], "", <constant:minecraft:recipe/category/crafting:misc>);
 
@@ -1194,32 +1176,32 @@ craftingTable.addShapelessMeta("moyai", <item:moyai:moyai>, [<item:minecraft:sto
 //4.20.4:
 craftingTable.remove(<item:supplementaries:cog_block>);
 craftingTable.addShaped("cog_block", <item:supplementaries:cog_block> * 3, [
-  [<item:galosphere:silver_ingot>, <item:minecraft:redstone>, <item:galosphere:silver_ingot>], 
+  [<item:kubejs:silver_ingot>, <item:minecraft:redstone>, <item:kubejs:silver_ingot>], 
   [<item:minecraft:redstone>, <item:kubejs:gear>, <item:minecraft:redstone>],
-  [<item:galosphere:silver_ingot>, <item:minecraft:redstone>, <item:galosphere:silver_ingot>]]);
+  [<item:kubejs:silver_ingot>, <item:minecraft:redstone>, <item:kubejs:silver_ingot>]]);
 
   //4.20.5:
   craftingTable.addShapelessMeta("grimwood_from_maple", <item:atmospheric:grimwood_planks> * 4, [<item:autumnity:maple_log>], "", <constant:minecraft:recipe/category/crafting:misc>);
 
   craftingTable.remove(<item:caverns_and_chasms:storage_duct>);
   craftingTable.addShaped("storage_duct", <item:caverns_and_chasms:storage_duct>, [
-    [<item:galosphere:silver_ingot>, <item:galosphere:silver_ingot>, <item:galosphere:silver_ingot>], 
+    [<item:kubejs:silver_ingot>, <item:kubejs:silver_ingot>, <item:kubejs:silver_ingot>], 
     [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
-    [<item:galosphere:silver_ingot>, <item:galosphere:silver_ingot>, <item:galosphere:silver_ingot>]]);
+    [<item:kubejs:silver_ingot>, <item:kubejs:silver_ingot>, <item:kubejs:silver_ingot>]]);
 
   craftingTable.remove(<item:caverns_and_chasms:storage_duct_hatch>);
   craftingTable.addShaped("storage_duct_hatch", <item:caverns_and_chasms:storage_duct_hatch>, [
-    [<item:galosphere:silver_ingot>, <item:galosphere:silver_ingot>], 
-    [<item:galosphere:silver_ingot>, <item:galosphere:silver_ingot>]]);
+    [<item:kubejs:silver_ingot>, <item:kubejs:silver_ingot>], 
+    [<item:kubejs:silver_ingot>, <item:kubejs:silver_ingot>]]);
 
   craftingTable.remove(<item:caverns_and_chasms:roller_door>);
   craftingTable.addShaped("roller_door", <item:caverns_and_chasms:roller_door> * 3, [
-    [<item:galosphere:silver_ingot>, <item:galosphere:silver_ingot>], 
-    [<item:galosphere:silver_ingot>, <item:galosphere:silver_ingot>],
-    [<item:galosphere:silver_ingot>, <item:galosphere:silver_ingot>]]);
+    [<item:kubejs:silver_ingot>, <item:kubejs:silver_ingot>], 
+    [<item:kubejs:silver_ingot>, <item:kubejs:silver_ingot>],
+    [<item:kubejs:silver_ingot>, <item:kubejs:silver_ingot>]]);
 
-  craftingTable.addShapelessMeta("cake_from_slices", <item:minecraft:cake>, [<item:farmersdelight:cake_slice>, <item:farmersdelight:cake_slice>, <item:farmersdelight:cake_slice>, <item:farmersdelight:cake_slice>, <item:farmersdelight:cake_slice>, <item:farmersdelight:cake_slice>, <item:farmersdelight:cake_slice>], "", <constant:minecraft:recipe/category/crafting:misc>);
-    craftingTable.addShapelessMeta("slice_from_cake", <item:farmersdelight:cake_slice> * 7, [<item:minecraft:cake>], "", <constant:minecraft:recipe/category/crafting:misc>);
+  craftingTable.addShapelessMeta("cake_from_slices", <item:minecraft:cake>, [<item:kubejs:cake_slice>, <item:kubejs:cake_slice>, <item:kubejs:cake_slice>, <item:kubejs:cake_slice>, <item:kubejs:cake_slice>, <item:kubejs:cake_slice>, <item:kubejs:cake_slice>], "", <constant:minecraft:recipe/category/crafting:misc>);
+    craftingTable.addShapelessMeta("slice_from_cake", <item:kubejs:cake_slice> * 7, [<item:minecraft:cake>], "", <constant:minecraft:recipe/category/crafting:misc>);
 
 //4.20.7:
 craftingTable.remove(<item:spelunkery:echo_fork>);
@@ -1229,9 +1211,9 @@ craftingTable.addShaped("dimensional_fork", <item:spelunkery:echo_fork>, [
   [<item:minecraft:air>, <item:coraline_systems:dimensional_shard>, <item:minecraft:air>]]);
 
 craftingTable.addShaped("subwoofer", <item:coraline_systems:subwoofer>, [
-  [<item:galosphere:silver_ingot>, <item:galosphere:silver_ingot>, <item:galosphere:silver_ingot>], 
-  [<item:galosphere:silver_ingot>, <item:minecraft:note_block>, <item:galosphere:silver_ingot>],
-  [<item:galosphere:silver_ingot>, <item:galosphere:silver_ingot>, <item:galosphere:silver_ingot>]]);
+  [<item:kubejs:silver_ingot>, <item:kubejs:silver_ingot>, <item:kubejs:silver_ingot>], 
+  [<item:kubejs:silver_ingot>, <item:minecraft:note_block>, <item:kubejs:silver_ingot>],
+  [<item:kubejs:silver_ingot>, <item:kubejs:silver_ingot>, <item:kubejs:silver_ingot>]]);
 
 //4.20.8:
 craftingTable.remove(<item:quark:framed_glass>);

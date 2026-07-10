@@ -17,7 +17,7 @@
         "items": [
           {
             "items": [
-              "galosphere:silver_ingot"
+              "kubejs:silver_ingot"
             ]
           }
         ]
@@ -29,7 +29,7 @@
         "items": [
           {
             "items": [
-              "galosphere:silver_nugget"
+              "kubejs:silver_nugget"
             ]
           }
         ]

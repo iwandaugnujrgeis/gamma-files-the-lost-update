@@ -28,7 +28,8 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:dye_pink_wool"
+      "minecraft:dye_pink_wool",
+      "minecraft:pink_wool"
     ]
   },
   "sends_telemetry_event": false

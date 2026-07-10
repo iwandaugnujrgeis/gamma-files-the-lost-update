@@ -41,11 +41,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "galosphere:golden_lichen_cordyceps",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
           "weight": 1,
           "name": "minecraft:golden_carrot"
         },

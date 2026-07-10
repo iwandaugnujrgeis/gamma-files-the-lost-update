@@ -56,7 +56,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "galosphere:silver_nugget"
+              "name": "kubejs:silver_nugget"
             }
           ]
         }

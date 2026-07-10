@@ -14,10 +14,7 @@ ItemEvents.modification(event => {
 	}
 
 //Bottles:
-	stackTo1('autumnity:syrup_bottle')
-	stackTo1('autumnity:sap_bottle')
 	stackTo1('alexsmobs:fish_oil')
-	stackTo1('farmersdelight:milk_bottle')
 	stackTo1('minecraft:dragon_breath')
 	stackTo1('minecraft:honey_bottle')
 	stackTo1('quark:bottled_cloud')
@@ -35,12 +32,10 @@ ItemEvents.modification(event => {
 	stackTo1('minecraft:compass')
 	stackTo1('minecraft:recovery_compass')
 	stackTo1('supplementaries:altimeter')
-	stackTo1('galosphere:barometer')
 	stackTo1('minecraft:clock')
 
 //Golden Food:
 	stackTo1('etcetera:golden_eggple')
-	stackTo1('galosphere:golden_lichen_cordyceps')
 	stackTo1('kubejs:golden_potato')
 	stackTo1('minecraft:enchanted_golden_apple')
 	stackTo1('minecraft:glistering_melon_slice')
@@ -64,11 +59,8 @@ ItemEvents.modification(event => {
 	stackTo8('ecologics:prickly_pear')
 	stackTo8('ecologics:walnut')
 	stackTo8('etcetera:eggple')
-	stackTo8('farmersdelight:fried_egg')
-	stackTo8('farmersdelight:honey_cookie')
-	stackTo8('farmersdelight:pumpkin_slice')
-	stackTo8('galosphere:lichen_cordyceps')
-	stackTo8('autumnity:pumpkin_bread')
+	stackTo8('kubejs:fried_egg')
+	stackTo8('kubejs:pumpkin_slice')
 
 	stackTo8('kubejs:omelette')
 	stackTo8('kubejs:waffle')
@@ -104,8 +96,6 @@ ItemEvents.modification(event => {
 	stackTo8('rediscovered:raw_fish')
 	stackTo8('upgrade_aquatic:mulberry')
 
-	stackTo16('farmersdelight:honey_cookie')
-	stackTo16('farmersdelight:sweet_berry_cookie')
 	stackTo16('kubejs:butter')
 	stackTo16('kubejs:marshmallow')
 	stackTo16('minecraft:cocoa_beans')

@@ -1,4 +1,11 @@
 {
+  "description": {
+    "translate": "createWorld.customize.gamma.preset.desc.gamma.intended"
+  },
+  "name": {
+    "color": "green",
+    "translate": "createWorld.customize.gamma.preset.name.gamma.intended"
+  },
   "chunkSettings": {
     "moderner_beta:cave_generation": {
       "forceBetaCaves": false,
@@ -68,13 +75,13 @@
       "mainNoiseZ": 80.0,
       "baseSize": 8.3,
       "stretchY": 39.0,
-      "densityUnderdamp": 2.0,
-      "depthNoiseX": 100.0,
-      "depthNoiseZ": 100.0,
+      "densityUnderdamp": 6.0,
+      "depthNoiseX": 70.0,
+      "depthNoiseZ": 70.0,
       "mainNoiseX": 80.0,
       "mainNoiseY": 135.0,
-      "coordinate": 1456.321,
-      "height": 684.412,
+      "coordinate": 1234.123,
+      "height": 579.983,
       "upperLimit": 512.0,
       "lowerLimit": 512.0
     },
@@ -91,12 +98,12 @@
     },
     "moderner_beta:use_surface_rules": true,
     "moderner_beta:noise_slide": {
-      "bottomTarget": 0,
-      "bottomSize": 0,
       "bottomOffset": 0,
-      "topTarget": 0,
-      "topSize": 0,
-      "topOffset": 0
+      "bottomSize": 3,
+      "bottomTarget": 15,
+      "topOffset": 0,
+      "topSize": 3,
+      "topTarget": -10
     },
     "moderner_beta:noise_generator_settings": "moderner_beta:overworld_128",
     "moderner_beta:perlin_noise_settings": {
@@ -121,54 +128,6 @@
           "seed": 2000,
           "parent": "land",
           "type": "moderner_beta:fuzzy_zoom"
-        },
-        {
-          "biomeSpecificOceans": {
-            "minecraft:snowy_plains*climate": "minecraft:snowy_plains*climate"
-          },
-          "landChance": 3,
-          "oceanChance": 5,
-          "ocean": "minecraft:ocean",
-          "land": "minecraft:plains",
-          "id": "land",
-          "seed": 1,
-          "parent": "land",
-          "betaShape": false,
-          "type": "moderner_beta:add_land"
-        },
-        {
-          "id": "land",
-          "seed": 2001,
-          "parent": "land",
-          "type": "moderner_beta:modal_zoom"
-        },
-        {
-          "biomeSpecificOceans": {
-            "minecraft:snowy_plains*climate": "minecraft:snowy_plains*climate"
-          },
-          "landChance": 3,
-          "oceanChance": 5,
-          "ocean": "minecraft:ocean",
-          "land": "minecraft:plains",
-          "id": "land",
-          "seed": 2,
-          "parent": "land",
-          "betaShape": false,
-          "type": "moderner_beta:add_land"
-        },
-        {
-          "biomeSpecificOceans": {
-            "minecraft:snowy_plains*climate": "minecraft:snowy_plains*climate"
-          },
-          "landChance": 3,
-          "oceanChance": 5,
-          "ocean": "minecraft:ocean",
-          "land": "minecraft:plains",
-          "id": "land",
-          "seed": 50,
-          "parent": "land",
-          "betaShape": false,
-          "type": "moderner_beta:add_land"
         },
         {
           "biomeSpecificOceans": {

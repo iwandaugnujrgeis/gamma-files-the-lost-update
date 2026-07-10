@@ -1,0 +1,25 @@
+{
+  "parent": "gamma:story/craft_furnace",
+  "criteria": {
+    "requirement": {
+      "trigger": "coraline_systems:player_smelted",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:copper_ingot"]
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Smelt a Copper Ingot!",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:copper_ingot"
+    },
+    "show_toast": true,
+    "title": "Conducting Business!"
+  },
+  "sends_telemetry_event": true
+}

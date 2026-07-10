@@ -1,34 +1,7 @@
 {
-  "parent": "minecraft:nether/find_fortress",
   "criteria": {
-    "blaze_rod": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:blaze_rod"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
+    "never": {
+      "trigger": "minecraft:impossible"
     }
-  },
-  "display": {
-    "announce_to_chat": true,
-    "description": "Obtain a Blaze Rod!",
-    "frame": "task",
-    "hidden": false,
-    "icon": {
-      "item": "minecraft:blaze_rod"
-    },
-    "show_toast": true,
-    "title": "Blazecore 2000™"
-  },
-  "requirements": [
-    [
-      "blaze_rod"
-    ]
-  ],
-  "sends_telemetry_event": true
+  }
 }

@@ -41,12 +41,6 @@
       "name": "upgrade_aquatic:mulberry"
     },
     {
-      "name": "galosphere:lichen_cordyceps"
-    },
-    {
-      "name": "galosphere:golden_lichen_cordyceps"
-    },
-    {
       "name": "minecraft:chorus_fruit"
     },
     {
@@ -86,7 +80,7 @@
       "name": "spelunkery:eggplant"
     },
     {
-      "name": "farmersdelight:pumpkin_slice"
+      "name": "kubejs:pumpkin_slice"
     },
     {
       "name": "ecologics:walnut"
@@ -110,7 +104,7 @@
       "name": "etcetera:golden_eggple"
     },
     {
-      "name": "farmersdelight:fried_egg"
+      "name": "kubejs:fried_egg"
     },
     {
       "name": "kubejs:omelette"
@@ -182,7 +176,7 @@
       "name": "minecraft:mushroom_stew"
     },
     {
-      "name": "farmersdelight:milk_bottle"
+      "name": "coraline_systems:milk_bottle"
     },
     {
       "name": "snowyspirit:eggnog"
@@ -224,7 +218,7 @@
       "name": "minecraft:cake"
     },
     {
-      "name": "farmersdelight:cake_slice"
+      "name": "kubejs:cake_slice"
     },
     {
       "name": "minecraft:pumpkin_pie"
@@ -251,10 +245,10 @@
       "name": "minecraft:cookie"
     },
     {
-      "name": "farmersdelight:sweet_berry_cookie"
+      "name": "kubejs:sweet_berry_cookie"
     },
     {
-      "name": "farmersdelight:honey_cookie"
+      "name": "kubejs:honey_cookie"
     },
     {
       "name": "kubejs:waffle"
@@ -282,9 +276,6 @@
     },
     {
       "name": "quark:bottled_cloud"
-    },
-    {
-      "name": "galosphere:bottle_of_spectre"
     },
     {
       "name": "spelunkery:portal_fluid_bottle"
@@ -452,6 +443,7 @@
       "name": "minecraft:potion",
       "nbt": "{Potion:\"minecraft:long_slow_falling\"}"
     },
+    /*
     {
       "name": "minecraft:potion",
       "nbt": "{Potion:\"galosphere:astral\"}"
@@ -460,6 +452,7 @@
       "name": "minecraft:potion",
       "nbt": "{Potion:\"galosphere:long_astral\"}"
     },
+    */
     {
       "name": "minecraft:potion",
       "nbt": "{Potion:\"alexsmobs:knockback_resistance\"}"
@@ -664,6 +657,7 @@
       "name": "minecraft:splash_potion",
       "nbt": "{Potion:\"minecraft:long_slow_falling\"}"
     },
+    /*
     {
       "name": "minecraft:splash_potion",
       "nbt": "{Potion:\"galosphere:astral\"}"
@@ -672,6 +666,7 @@
       "name": "minecraft:splash_potion",
       "nbt": "{Potion:\"galosphere:long_astral\"}"
     },
+    */
     {
       "name": "minecraft:splash_potion",
       "nbt": "{Potion:\"alexsmobs:knockback_resistance\"}"

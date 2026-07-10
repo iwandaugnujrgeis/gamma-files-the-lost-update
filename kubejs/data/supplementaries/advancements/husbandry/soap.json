@@ -1,12 +1,12 @@
 {
-  "parent": "minecraft:husbandry/root",
+  "parent": "gamma:story/smelt_soap",
   "display": {
     "icon": {
       "item": "supplementaries:soap"
     },
     "title": "A Bite of Sudden Clarity",
     "description": "Eat a Bar of Soap!",
-    "frame": "task",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": true

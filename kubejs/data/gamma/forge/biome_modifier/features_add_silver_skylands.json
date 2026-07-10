@@ -7,7 +7,7 @@
     "rediscovered:skylands",
     "rediscovered:wooded_skylands"
   ],
-  "features": ["galosphere:ore_silver_large", "galosphere:ore_silver_small"],
+  "features": ["gamma:ore_silver_large", "gamma:ore_silver_small"],
   "step": "underground_ores"
 }
 

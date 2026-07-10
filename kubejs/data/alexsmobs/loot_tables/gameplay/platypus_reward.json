@@ -30,7 +30,7 @@
           "weight": 2,
           "functions": [
           ],
-          "name": "galosphere:silver_nugget"
+          "name": "kubejs:silver_nugget"
         },
         {
           "type": "minecraft:item",

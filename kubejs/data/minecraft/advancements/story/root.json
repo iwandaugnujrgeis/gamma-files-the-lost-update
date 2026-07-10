@@ -1,32 +1,7 @@
 {
   "criteria": {
-    "join_world": {
-      "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "player"
-          }
-        }
-      },
-      "trigger": "minecraft:tick"
+    "never": {
+      "trigger": "minecraft:impossible"
     }
-  },
-  "display": {
-    "announce_to_chat": false,
-    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
-    "description": "This Adventure begins here...",
-    "frame": "task",
-    "hidden": false,
-    "icon": {
-      "item": "minecraft:bookshelf"
-    },
-    "show_toast": false,
-    "title": "Basics"
-  },
-  "requirements": [
-    [
-      "join_world"
-    ]
-  ],
-  "sends_telemetry_event": true
+  }
 }

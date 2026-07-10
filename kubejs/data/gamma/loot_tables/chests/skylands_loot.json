@@ -124,11 +124,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "autumnity:sap_bottle",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
           "functions": [
             {
               "function": "set_damage",
@@ -236,7 +231,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "galosphere:cured_membrane",
+          "name": "kubejs:cured_membrane",
           "weight": 10
         },
         {
@@ -257,26 +252,6 @@
         {
           "type": "minecraft:item",
           "name": "supplementaries:key",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "galosphere:spectre_flare",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "name": "galosphere:bottle_of_spectre",
           "weight": 5
         },
         {
@@ -347,17 +322,6 @@
           ],
           "name": "minecraft:potion",
           "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:set_potion",
-              "id": "galosphere:long_astral"
-            }
-          ],
-          "name": "minecraft:potion",
-          "weight": 2
         }
       ],
       "rolls": {
@@ -381,7 +345,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "galosphere:silver_nugget",
+          "name": "kubejs:silver_nugget",
           "weight": 10
         },
         {
@@ -396,7 +360,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "galosphere:silver_ingot",
+          "name": "kubejs:silver_ingot",
           "weight": 10
         },
         {
@@ -426,7 +390,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "autumnity:pumpkin_bread",
+          "name": "kubejs:pumpkin_bread",
           "weight": 10
         },
         {

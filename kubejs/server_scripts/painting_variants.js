@@ -9,8 +9,6 @@ ServerEvents.tags('painting_variant', event => {
     .remove('atmospheric:monsoon')
     .remove('atmospheric:not_so_still_life')
     .remove('atmospheric:wayward')
-    .remove('autumnity:pumpkin')
-    .remove('autumnity:snail')
     .remove('clayworks:baked')
     .remove('easel_does_it:layers')
     .remove('easel_does_it:monochrome')
