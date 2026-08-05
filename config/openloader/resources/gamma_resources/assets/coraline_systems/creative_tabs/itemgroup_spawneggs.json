@@ -1,0 +1,387 @@
+{
+  "replace": true,
+  "tab_icon": "alexsmobs:spawn_egg_farseer",
+  "tab_items": [
+    {
+      "item": "minecraft:spawner" 
+    },
+    {
+      "item": "minecraft:allay_spawn_egg" 
+    },
+    {
+      "item": "minecraft:axolotl_spawn_egg" 
+    },
+    {
+      "item": "minecraft:bat_spawn_egg" 
+    },
+    {
+      "item": "minecraft:bee_spawn_egg" 
+    },
+    {
+      "item": "minecraft:blaze_spawn_egg" 
+    },
+    {
+      "item": "alexsmobs:spawn_egg_bald_eagle" 
+    },
+    {
+      "item": "alexsmobs:spawn_egg_bison" 
+    },
+    {
+      "item": "alexsmobs:spawn_egg_blue_jay" 
+    },
+    {
+      "item": "minecraft:camel_spawn_egg" 
+    },
+    {
+      "item": "alexsmobs:spawn_egg_capuchin_monkey"
+    },
+    {
+      "item": "minecraft:cat_spawn_egg" 
+    },
+    {
+      "item": "pet_cemetery:zombie_cat_spawn_egg" 
+    },
+    {
+      "item": "pet_cemetery:skeleton_cat_spawn_egg" 
+    },
+    {
+      "item": "minecraft:cave_spider_spawn_egg" 
+    },
+    {
+      "item": "alexsmobs:spawn_egg_catfish" 
+    },
+    {
+      "item": "etcetera:chapple_spawn_egg" 
+    },
+    {
+      "item": "minecraft:chicken_spawn_egg" 
+    },
+    {
+      "item": "minecraft:cod_spawn_egg" 
+    },
+    {
+      "item": "minecraft:cow_spawn_egg" 
+    },
+    {
+      "item": "friendsandfoes:copper_golem_spawn_egg" 
+    },
+    {
+      "item": "minecraft:creeper_spawn_egg" 
+    },
+    {
+      "item": "alexsmobs:spawn_egg_caiman" 
+    },
+    {
+      "item": "alexsmobs:spawn_egg_crow" 
+    },
+    {
+      "item": "species:deepfish_spawn_egg" 
+    },
+    {
+      "item": "caverns_and_chasms:cavefish_spawn_egg"
+    },
+    {
+      "item": "minecraft:dolphin_spawn_egg" 
+    },
+    {
+      "item": "minecraft:donkey_spawn_egg" 
+    },
+    {
+      "item": "minecraft:drowned_spawn_egg" 
+    },
+    {
+      "item": "alexsmobs:spawn_egg_devils_hole_pupfish" 
+    },
+    {
+      "item": "alexsmobs:spawn_egg_dropbear" 
+    },
+    {
+      "item": "minecraft:elder_guardian_spawn_egg" 
+    },
+    {
+      "item": "alexsmobs:spawn_egg_emu" 
+    },
+    {
+      "item": "minecraft:enderman_spawn_egg" 
+    },
+    {
+      "item": "minecraft:endermite_spawn_egg" 
+    },
+    {
+      "item": "alexsmobs:spawn_egg_farseer" 
+    },
+    {
+      "item": "rediscovered:fish_spawn_egg" 
+    },
+    {
+      "item": "alexsmobs:spawn_egg_flutter"
+    },
+    {
+      "item": "alexsmobs:spawn_egg_flying_fish" 
+    },
+    {
+      "item": "alexsmobs:spawn_egg_froststalker" 
+    },
+    {
+      "item": "minecraft:fox_spawn_egg" 
+    },
+    {
+      "item": "minecraft:frog_spawn_egg" 
+    },
+    {
+      "item": "alexsmobs:spawn_egg_gelada_monkey" 
+    },
+    {
+      "item": "coraline_systems:brume_spawn_egg" 
+    },
+    {
+      "item": "minecraft:ghast_spawn_egg" 
+    },
+    {
+      "item": "minecraft:glow_squid_spawn_egg" 
+    },
+    {
+      "item": "minecraft:goat_spawn_egg" 
+    },
+    {
+      "item": "minecraft:guardian_spawn_egg" 
+    },
+    {
+      "item": "upgrade_aquatic:goose_spawn_egg" 
+    },
+    {
+      "item": "alexsmobs:spawn_egg_gorilla" 
+    },
+    {
+      "item": "alexsmobs:spawn_egg_grizzly_bear" 
+    },
+    {
+      "item": "spawn:hamster_spawn_egg"
+    },
+    {
+      "item": "coraline_systems:helper_spawn_egg"
+    },
+    {
+      "item": "alexsmobs:spawn_egg_hummingbird" 
+    },
+    {
+      "item": "minecraft:horse_spawn_egg" 
+    },
+    {
+      "item": "minecraft:zombie_horse_spawn_egg" 
+    },
+    {
+      "item": "minecraft:skeleton_horse_spawn_egg" 
+    },
+    {
+      "item": "minecraft:husk_spawn_egg" 
+    },
+    {
+      "item": "minecraft:iron_golem_spawn_egg" 
+    },
+    {
+      "item": "alexsmobs:spawn_egg_jerboa" 
+    },
+    {
+      "item": "alexsmobs:spawn_egg_komodo_dragon" 
+    },
+    {
+      "item": "alexsmobs:spawn_egg_laviathan" 
+    },
+    {
+      "item": "minecraft:llama_spawn_egg" 
+    },
+    {
+      "item": "species:limpet_spawn_egg" 
+    },
+    {
+      "item": "minecraft:magma_cube_spawn_egg" 
+    },
+    {
+      "item": "coraline_systems:monster_spawn_egg" 
+    },
+    {
+      "item": "alexsmobs:spawn_egg_moose" 
+    },
+    {
+      "item": "friendsandfoes:moobloom_spawn_egg" 
+    },
+    {
+      "item": "minecraft:mooshroom_spawn_egg" 
+    },
+    {
+      "item": "minecraft:mule_spawn_egg" 
+    },
+    {
+      "item": "alexsmobs:spawn_egg_mudskipper" 
+    },
+    {
+      "item": "alexsmobs:spawn_egg_mungus" 
+    },
+    {
+      "item": "upgrade_aquatic:nautilus_spawn_egg" 
+    },
+    {
+      "item": "minecraft:ocelot_spawn_egg" 
+    },
+    {
+      "item": "alexsmobs:spawn_egg_orca" 
+    },
+    {
+      "item": "minecraft:panda_spawn_egg" 
+    },
+    {
+      "item": "minecraft:parrot_spawn_egg" 
+    },
+    {
+      "item": "pet_cemetery:zombie_parrot_spawn_egg" 
+    },
+    {
+      "item": "pet_cemetery:skeleton_parrot_spawn_egg" 
+    },
+    {
+      "item": "minecraft:phantom_spawn_egg" 
+    },
+    {
+      "item": "minecraft:pig_spawn_egg" 
+    },
+    {
+      "item": "rediscovered:pigman_spawn_egg" 
+    },
+    {
+      "item": "rediscovered:zombie_pigman_spawn_egg" 
+    },
+    {
+      "item": "alexsmobs:spawn_egg_platypus" 
+    },
+    {
+      "item": "minecraft:polar_bear_spawn_egg" 
+    },
+    {
+      "item": "alexsmobs:spawn_egg_potoo" 
+    },
+    {
+      "item": "alexsmobs:spawn_egg_raccoon" 
+    },
+    {
+      "item": "alexsmobs:spawn_egg_rain_frog" 
+    },
+    {
+      "item": "minecraft:ravager_spawn_egg" 
+    },
+    {
+      "item": "alexsmobs:spawn_egg_roadrunner" 
+    },
+    {
+      "item": "minecraft:salmon_spawn_egg" 
+    },
+    {
+      "item": "alexsmobs:spawn_egg_seagull" 
+    },
+    {
+      "item": "alexsmobs:spawn_egg_seal" 
+    },
+    {
+      "item": "minecraft:sheep_spawn_egg" 
+    },
+    {
+      "item": "alexsmobs:spawn_egg_shoebill" 
+    },
+    {
+      "item": "minecraft:silverfish_spawn_egg" 
+    },
+    {
+      "item": "minecraft:skeleton_spawn_egg" 
+    },
+    {
+      "item": "minecraft:slime_spawn_egg" 
+    },
+    {
+      "item": "spawn:snail_spawn_egg"
+    },
+    {
+      "item": "minecraft:snow_golem_spawn_egg" 
+    },
+    {
+      "item": "alexsmobs:spawn_egg_snow_leopard" 
+    },
+    {
+      "item": "minecraft:spider_spawn_egg" 
+    },
+    {
+      "item": "minecraft:squid_spawn_egg" 
+    },
+    {
+      "item": "minecraft:stray_spawn_egg" 
+    },
+    {
+      "item": "minecraft:strider_spawn_egg" 
+    },
+    {
+      "item": "alexsmobs:spawn_egg_straddler" 
+    },
+    {
+      "item": "alexsmobs:spawn_egg_stradpole" 
+    },
+    {
+      "item": "alexsmobs:spawn_egg_sugar_glider" 
+    },
+    {
+      "item": "minecraft:tadpole_spawn_egg" 
+    },
+    {
+      "item": "alexsmobs:spawn_egg_tasmanian_devil" 
+    },
+    {
+      "item": "upgrade_aquatic:thrasher_spawn_egg" 
+    },
+    {
+      "item": "alexsmobs:spawn_egg_tiger" 
+    },
+    {
+      "item": "minecraft:tropical_fish_spawn_egg" 
+    },
+    {
+      "item": "friendsandfoes:tuff_golem_spawn_egg" 
+    },
+    {
+      "item": "alexsmobs:spawn_egg_toucan" 
+    },
+    {
+      "item": "minecraft:turtle_spawn_egg" 
+    },
+    {
+      "item": "alexsmobs:spawn_egg_triops" 
+    },
+    {
+      "item": "alexsmobs:spawn_egg_tusklin" 
+    },
+    {
+      "item": "minecraft:vex_spawn_egg" 
+    },
+    {
+      "item": "quark:wraith_spawn_egg" 
+    },
+    {
+      "item": "minecraft:wither_skeleton_spawn_egg" 
+    },
+    {
+      "item": "minecraft:wolf_spawn_egg" 
+    },
+    {
+      "item": "pet_cemetery:zombie_wolf_spawn_egg"
+    },
+    {
+      "item": "pet_cemetery:skeleton_wolf_spawn_egg" 
+    },
+    {
+      "item": "minecraft:zombie_spawn_egg" 
+    },
+    {
+      "item": "rediscovered:rana_spawn_egg" 
+    },
+    {
+      "item": "rediscovered:steve_spawn_egg" 
+    }
+  ]
+}

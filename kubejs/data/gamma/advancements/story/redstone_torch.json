@@ -1,0 +1,28 @@
+{
+  "parent": "gamma:story/redstone",
+  "criteria": {
+    "redstone_torch": {
+      "conditions": {
+        "location": [
+          {
+            "block": "minecraft:redstone_torch",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Place a Redstone Torch!",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:redstone_torch"
+    },
+    "show_toast": true,
+    "title": "Redstone Torch"
+  },
+  "sends_telemetry_event": true
+}

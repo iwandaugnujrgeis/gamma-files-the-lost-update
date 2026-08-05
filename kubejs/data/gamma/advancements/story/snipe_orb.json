@@ -1,0 +1,42 @@
+{
+  "parent": "gamma:story/shoot_arrow",
+  "criteria": {
+    "orb": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "coraline_systems:orb"
+            }
+          }
+        ],
+        "killing_blow": {
+          "tags": [
+            {
+              "expected": true,
+              "id": "minecraft:is_projectile"
+            }
+          ]
+        }
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Snipe an Orb with an Arrow!",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "coraline_systems:orb"
+    },
+    "show_toast": true,
+    "title": "Kill Orb"
+  },
+  "rewards": {
+    "experience": 50
+  },
+  "sends_telemetry_event": true
+}

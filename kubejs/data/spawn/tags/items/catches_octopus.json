@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:bell",
+    "minecraft:bowl",
+    "minecraft:glass_bottle",
+    "minecraft:bucket",
+    "minecraft:cauldron",
+    "minecraft:flower_pot",
+    "minecraft:goat_horn",
+    "minecraft:hopper",
+    "minecraft:hopper_minecart",
+    "minecraft:minecart",
+    "minecraft:nautilus_shell",
+    "spawn:snail_shell",
+    "minecraft:water_bucket"
+  ]
+}

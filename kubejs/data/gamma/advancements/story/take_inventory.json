@@ -1,0 +1,20 @@
+{
+  "parent": "gamma:story/root",
+  "criteria": {
+      "open_inventory": {
+      "trigger": "coraline_systems:open_inventory"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Open your Inventory!",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:book"
+    },
+    "show_toast": true,
+    "title": "Taking Inventory"
+  },
+  "sends_telemetry_event": true
+}

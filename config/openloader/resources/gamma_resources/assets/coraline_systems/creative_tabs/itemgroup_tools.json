@@ -1,0 +1,384 @@
+{
+  "replace": true,
+  "tab_icon": "kubejs:copper_pickaxe",
+  "tab_items": [
+    {
+      "item": "minecraft:wooden_shovel"
+    },
+    {
+      "item": "minecraft:wooden_pickaxe"
+    },
+    {
+      "item": "minecraft:wooden_axe"
+    },
+    {
+      "item": "minecraft:wooden_hoe"
+    },
+    {
+      "item": "minecraft:stone_pickaxe"
+    },
+    {
+      "item": "kubejs:copper_shovel"
+    },
+    {
+      "item": "kubejs:copper_pickaxe"
+    },
+    {
+      "item": "kubejs:copper_axe"
+    },
+    {
+      "item": "kubejs:copper_hoe"
+    },
+    {
+      "item": "minecraft:iron_shovel"
+    },
+    {
+      "item": "minecraft:iron_pickaxe"
+    },
+    {
+      "item": "minecraft:iron_axe"
+    },
+    {
+      "item": "minecraft:iron_hoe"
+    },
+    {
+      "item": "minecraft:golden_shovel"
+    },
+    {
+      "item": "minecraft:golden_pickaxe"
+    },
+    {
+      "item": "minecraft:golden_axe"
+    },
+    {
+      "item": "minecraft:golden_hoe"
+    },
+    {
+      "item": "minecraft:diamond_shovel"
+    },
+    {
+      "item": "minecraft:diamond_pickaxe"
+    },
+    {
+      "item": "minecraft:diamond_axe"
+    },
+    {
+      "item": "minecraft:diamond_hoe"
+    },
+    {
+      "item": "kubejs:bismuth_pickaxe"
+    },
+    {
+      "item": "minecraft:bucket"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "minecraft:lava_bucket"
+    },
+    {
+      "item": "minecraft:powder_snow_bucket"
+    },
+    {
+      "item": "minecraft:milk_bucket"
+    },
+    {
+      "item": "minecraft:fishing_rod"
+    },
+    {
+      "item": "minecraft:carrot_on_a_stick"
+    },
+    {
+      "item": "minecraft:warped_fungus_on_a_stick"
+    },
+    {
+      "item": "alexsmobs:chorus_on_a_stick"
+    },
+    {
+      "item": "minecraft:saddle"
+    },
+    {
+      "item": "minecraft:lead"
+    },
+    {
+      "item": "minecraft:brush"
+    },
+    {
+      "item": "minecraft:spyglass"
+    },
+    {
+      "item": "minecraft:shears"
+    },
+    {
+      "item": "minecraft:flint_and_steel"
+    },
+    {
+      "item": "minecraft:compass"
+    },
+    {
+      "item": "supplementaries:altimeter"
+    },
+    {
+      "item": "minecraft:clock"
+    },
+    {
+      "item": "minecraft:recovery_compass"
+    },
+    {
+      "item": "supplementaries:slingshot"
+    },
+    {
+      "item": "etcetera:handbell"
+    },
+    {
+      "item": "spelunkery:tuning_fork"
+    },
+    {
+      "item": "spelunkery:echo_fork"
+    },
+    {
+      "item": "spelunkery:item_magnet"
+    },
+    {
+      "item": "minecraft:name_tag"
+    },
+    {
+      "item": "pet_cemetery:pet_collar"
+    },
+    {
+      "item": "supplementaries:confetti_popper"
+    },
+    {
+      "item": "supplementaries:bubble_blower"
+    },
+    {
+      "item": "supplementaries:wrench"
+    },
+    {
+      "item": "supplementaries:key"
+    },
+    {
+      "item": "minecraft:oak_boat"
+    },
+    {
+      "item": "minecraft:oak_chest_boat"
+    },
+    {
+      "item": "minecraft:bamboo_raft"
+    },
+    {
+      "item": "etcetera:turtle_raft"
+    },
+    {
+      "item": "alexsmobs:straddleboard"
+    },
+    {
+      "item": "alexsmobs:straddle_helmet"
+    },
+    {
+      "item": "alexsmobs:straddle_saddle"
+    },
+    {
+      "item": "quark:backpack"
+    },
+    {
+      "item": "caverns_and_chasms:toolbelt"
+    },
+    {
+      "item": "caverns_and_chasms:cowl"
+    },
+    {
+      "item": "minecraft:firework_rocket"
+    },
+    {
+      "item": "minecraft:elytra"
+    },
+    {
+      "item": "minecraft:map"
+    },
+    {
+      "item": "supplementaries:slice_map"
+    },
+    {
+      "item": "supplementaries:cartographers_quill"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "item": "rediscovered:ruby_eye"
+    },
+    {
+      "item": "supplementaries:bomb"
+    },
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "minecraft:writable_book"
+    },
+    {
+      "item": "quark:abacus"
+    },
+    {
+      "item": "minecraft:goat_horn"
+    },
+    {
+      "item": "alexsmobs:maraca"
+    },
+    {
+      "item": "supplementaries:flute"
+    },
+    {
+      "item": "rediscovered:ruby_flute"
+    },
+    {
+      "item": "chalk:white_chalk"
+    },
+    {
+      "item": "chalk:light_gray_chalk"
+    },
+    {
+      "item": "chalk:gray_chalk"
+    },
+    {
+      "item": "chalk:black_chalk"
+    },
+    {
+      "item": "chalk:brown_chalk"
+    },
+    {
+      "item": "chalk:red_chalk"
+    },
+    {
+      "item": "chalk:orange_chalk"
+    },
+    {
+      "item": "chalk:yellow_chalk"
+    },
+    {
+      "item": "chalk:lime_chalk"
+    },
+    {
+      "item": "chalk:green_chalk"
+    },
+    {
+      "item": "chalk:cyan_chalk"
+    },
+    {
+      "item": "chalk:light_blue_chalk"
+    },
+    {
+      "item": "chalk:blue_chalk"
+    },
+    {
+      "item": "chalk:purple_chalk"
+    },
+    {
+      "item": "chalk:magenta_chalk"
+    },
+    {
+      "item": "chalk:pink_chalk"
+    },
+    {
+      "item": "minecraft:music_disc_13"
+    },
+    {
+      "item": "minecraft:music_disc_cat"
+    },
+    {
+      "item": "kubejs:music_disc_dog"
+    },
+    {
+      "item": "minecraft:music_disc_blocks"
+    },
+    {
+      "item": "minecraft:music_disc_chirp"
+    },
+    {
+      "item": "minecraft:music_disc_far"
+    },
+    {
+      "item": "minecraft:music_disc_mall"
+    },
+    {
+      "item": "minecraft:music_disc_mellohi"
+    },
+    {
+      "item": "minecraft:music_disc_stal"
+    },
+    {
+      "item": "minecraft:music_disc_strad"
+    },
+    {
+      "item": "minecraft:music_disc_ward"
+    },
+    {
+      "item": "minecraft:music_disc_11"
+    },
+    {
+      "item": "kubejs:music_disc_eleven"
+    },
+    {
+      "item": "minecraft:music_disc_wait"
+    },
+    {
+      "item": "rediscovered:music_disc_calm4"
+    },
+    {
+      "item": "kubejs:music_disc_reveal"
+    },
+    {
+      "item": "minecraft:music_disc_otherside"
+    },
+    {
+      "item": "minecraft:music_disc_5"
+    },
+    {
+      "item": "upgrade_aquatic:music_disc_atlantis"
+    },
+    {
+      "item": "minecraft:music_disc_pigstep"
+    },
+    {
+      "item": "kubejs:music_disc_droopy2"
+    },
+    {
+      "item": "kubejs:music_disc_acid"
+    },
+    {
+      "item": "kubejs:music_disc_death"
+    },
+    {
+      "item": "alexsmobs:music_disc_thime"
+    },
+    {
+      "item": "minecraft:music_disc_relic"
+    },
+    {
+      "item": "quark:music_disc_chatter"
+    },
+    {
+      "item": "quark:music_disc_crickets"
+    },
+    {
+      "item": "quark:music_disc_clock"
+    },
+    {
+      "item": "quark:music_disc_fire"
+    },
+    {
+      "item": "quark:music_disc_wind"
+    },
+    {
+      "item": "quark:music_disc_rain"
+    },
+    {
+      "item": "quark:music_disc_ocean"
+    },
+    {
+      "item": "quark:music_disc_drips"
+    }
+  ]
+}

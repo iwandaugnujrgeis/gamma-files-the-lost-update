@@ -1,0 +1,45 @@
+{
+  "rewards": {
+    "recipes": [
+      "crafttweaker:speaker_block"
+    ]
+  },
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "crafttweaker:speaker_block"
+      }
+    },
+    "has_ruby": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rediscovered:ruby"
+            ]
+          }
+        ]
+      }
+    },
+    "minecraft:planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_ruby",
+      "minecraft:planks"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

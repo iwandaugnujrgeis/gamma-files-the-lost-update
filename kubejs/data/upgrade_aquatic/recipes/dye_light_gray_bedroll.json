@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "group": "bedroll",
+  "ingredients": [
+    {
+      "item": "minecraft:light_gray_dye"
+    },
+    {
+      "item": "upgrade_aquatic:bedroll"
+    }
+  ],
+  "result": {
+    "item": "upgrade_aquatic:light_gray_bedroll"
+  }
+}

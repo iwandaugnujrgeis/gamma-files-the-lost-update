@@ -1,0 +1,25 @@
+{
+  "parent": "gamma:story/craft_furnace",
+  "criteria": {
+    "requirement": {
+      "trigger": "coraline_systems:player_smelted",
+      "conditions": {
+        "item": {
+          "items": ["supplementaries:soap"]
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Smelt Soapstone into Soap!",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "supplementaries:soap_block"
+    },
+    "show_toast": true,
+    "title": "Soapy Business!"
+  },
+  "sends_telemetry_event": true
+}

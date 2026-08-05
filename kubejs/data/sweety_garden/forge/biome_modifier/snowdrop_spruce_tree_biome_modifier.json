@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "gamma:null",
+  "features": "sweety_garden:snowdrop_spruce_tree",
+  "step": "vegetal_decoration"
+}

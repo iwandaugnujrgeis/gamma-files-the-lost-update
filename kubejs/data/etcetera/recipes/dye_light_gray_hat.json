@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:light_gray_dye"
+    },
+    {
+      "item": "etcetera:white_hat"
+    }
+  ],
+  "group": "colored_hats",
+  "category": "equipment",
+  "result": {
+    "item": "etcetera:light_gray_hat"
+  }
+}

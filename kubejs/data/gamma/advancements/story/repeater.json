@@ -1,0 +1,19 @@
+{
+  "parent": "gamma:story/redstone_torch",
+  "criteria": {
+    "requirement": {
+      "trigger": "coraline_systems:repeater_max_delay"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Maximize Repeater's delay!",
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:repeater"
+    },
+    "show_toast": true,
+    "title": "Slow it Down"
+  }
+}

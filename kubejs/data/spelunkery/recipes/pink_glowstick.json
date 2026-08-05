@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "glowsticks",
+  "category": "equipment",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "spelunkery:glowsticks"
+    },
+    "X": {
+      "item": "minecraft:pink_dye"
+    }
+  },
+  "result": {
+    "item": "spelunkery:pink_glowstick",
+    "count": 8
+  }
+}

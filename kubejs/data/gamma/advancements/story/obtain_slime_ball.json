@@ -1,0 +1,29 @@
+{
+  "parent": "gamma:story/test",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:slime_ball"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Obtain a Slime Ball!",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:slime_ball"
+    },
+    "show_toast": true,
+    "title": "Slime Ball?!"
+  },
+  "sends_telemetry_event": true
+}

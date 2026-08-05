@@ -1,0 +1,11 @@
+{
+  "disabled_tabs": [
+    "etcetera.item_group",
+    "item_group.friendsandfoes.main_tab",
+    "item_group.sweety_garden.sweety_garden",
+    "itemGroup.alexsmobs",
+    "itemGroup.spelunkery",
+    "KubeJS",
+    "spawn.item_group"
+  ]
+}

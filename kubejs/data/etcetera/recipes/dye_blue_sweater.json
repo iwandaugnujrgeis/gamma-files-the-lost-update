@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:blue_dye"
+    },
+    {
+      "item": "etcetera:white_sweater"
+    }
+  ],
+  "group": "colored_sweaters",
+  "category": "equipment",
+  "result": {
+    "item": "etcetera:blue_sweater"
+  }
+}

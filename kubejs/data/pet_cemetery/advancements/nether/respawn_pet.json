@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:nether/charge_respawn_anchor",
+  "criteria": {
+    "respawn_pet": {
+      "conditions": {},
+      "trigger": "pet_cemetery:respawn_pet"
+      },
+      "cured_zombie_pet": {
+        "conditions": {},
+        "trigger": "pet_cemetery:cured_zombie_pet"
+      }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Resurrect and Cure a Pet!",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "pet_cemetery:pet_collar"
+    },
+    "show_toast": true,
+    "title": "Pawst-Mortem"
+  },
+  "requirements": [
+    [
+      "respawn_pet"
+    ],
+    [
+      "cured_zombie_pet"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,25 @@
+{
+  "parent": "gamma:story/smelt_iron",
+  "criteria": {
+    "requirement": {
+      "trigger": "coraline_systems:player_crafted",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:shears"]
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Obtain Shears",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:shears"
+    },
+    "show_toast": true,
+    "title": "Shears"
+  },
+  "sends_telemetry_event": true
+}

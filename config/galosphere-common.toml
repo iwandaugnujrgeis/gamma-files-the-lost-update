@@ -1,0 +1,7 @@
+#Decreases the Mining Speed of Budding Amethyst
+slowedBuddingAmethystMiningSpeed = true
+#Adds Spectre Flares to Ancient City Loot
+spectreFlareAncientCityLoot = true
+#Adds Palladium Nuggets drops to Pillager Drops
+pillagerDropPalladiumNugget = true
+

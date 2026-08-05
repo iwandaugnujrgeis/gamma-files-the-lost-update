@@ -1,0 +1,25 @@
+{
+  "parent": "gamma:redstone/obtain_quartz",
+  "criteria": {
+    "requirement": {
+      "trigger": "coraline_systems:player_crafted",
+      "conditions": {
+        "item": {
+          "item": "supplementaries:cog_block"
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Craft a Cog Block!",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "supplementaries:cog_block"
+    },
+    "show_toast": true,
+    "title": "Spinning Power!"
+  },
+  "sends_telemetry_event": true
+}

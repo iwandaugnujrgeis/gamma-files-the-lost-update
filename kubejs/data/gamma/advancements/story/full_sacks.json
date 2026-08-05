@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "supplementaries:sack"
+    },    
+    "title": "Sacks!",
+    "description": "Fill your Inventory with Sacks!",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "gamma:story/obtain_string",
+    "criteria": {
+      "full_sacks": {
+      "trigger": "coraline_systems:full_sacks"
+    }
+  }
+}

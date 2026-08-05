@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "spawn:wax_coral_block",
+    "spawn:thorn_coral_block",
+    "spawn:spike_coral_block",
+    "spawn:heart_coral_block",
+    "spawn:reed_coral_block"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "default_packs":
+  [
+    "file/Serified Font v1.1 f1-34.zip"
+  ],
+  "pack_overrides":
+  {
+    "default": 
+    [
+    "file/Serified Font v1.1 f1-34.zip"
+    ],
+    "$$default": 
+    {
+      "required": true,
+      "force_compatible": true
+    },
+    "builtin": 
+    [
+    "vanilla",
+    "mod_resources",
+    "Moonlight Mods Dynamic Assets"
+    ],
+    "$$builtin":
+    {
+      "hidden": true,
+      "required": true,
+      "fixed_position": false
+    },
+    "unnecessary": 
+    [
+    "builtin/add_pack_finders_test",
+    "fabric",
+    "high_contrast",
+    "mod/subtle_effects:resourcepacks/biome_color_water_particles",
+    //"programmer_art",
+    //"rediscovered:legacy_pack",
+    "scholar:chiseled_bookshelf_colored_books",
+    "scholar:chiseled_bookshelf_colored_books_abnww_compat",
+    "scholar:colored_books",
+    "spelunkery:better_vanilla_gems",
+    "supplementaries:darker_ropes"
+    ],
+    "$$unnecessary": 
+    {
+      "hidden": true
+    }
+  }
+}

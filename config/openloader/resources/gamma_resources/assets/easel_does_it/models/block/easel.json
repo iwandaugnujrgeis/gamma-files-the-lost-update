@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "minecraft:block/mangrove_planks",
+    "east": "easel_does_it:block/easel_side",
+    "north": "easel_does_it:block/easel_front",
+    "particle": "easel_does_it:block/easel_front",
+    "south": "easel_does_it:block/easel_front",
+    "up": "easel_does_it:block/easel_top",
+    "west": "easel_does_it:block/easel_side"
+  }
+}

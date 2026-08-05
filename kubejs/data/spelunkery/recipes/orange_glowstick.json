@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "glowsticks",
+  "category": "equipment",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "spelunkery:glowsticks"
+    },
+    "X": {
+      "item": "minecraft:orange_dye"
+    }
+  },
+  "result": {
+    "item": "spelunkery:orange_glowstick",
+    "count": 8
+  }
+}

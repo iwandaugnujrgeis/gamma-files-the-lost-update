@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "wool",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:white_wool"
+    },
+    "B": {
+      "item": "minecraft:orange_dye"
+    }
+  },
+  "result": {
+    "item": "minecraft:orange_wool",
+    "count": 8
+  }
+}

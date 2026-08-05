@@ -1,0 +1,40 @@
+{
+  "parent": "rediscovered:story/find_ruby",
+  "criteria": {
+    "trade": {
+      "conditions": {
+        "villager": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "rediscovered:pigman"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:villager_trade"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "rediscovered:advancements.skylands.trade_with_pigman.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "rediscovered:rose_wool"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "rediscovered:advancements.skylands.trade_with_pigman.title"
+    }
+  },
+  "requirements": [
+    [
+      "trade"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

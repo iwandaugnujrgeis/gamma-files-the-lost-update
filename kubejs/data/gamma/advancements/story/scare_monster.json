@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "citadel:fancy_item",
+      "nbt": "{DisplayItem:\"kubejs:silver_nugget\", DisplayBob:0, DisplayZoom:0, DisplayScale:1, DisplaySpin:0, DisplayShake:1}"
+    },    
+    "title": "Zoinks!",
+    "description": "Spook a Monster with Plate armor!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "gamma:story/craft_plate_armor",
+    "criteria": {
+      "scare_monster": {
+      "trigger": "coraline_systems:scare_monster"
+    }
+  }
+}

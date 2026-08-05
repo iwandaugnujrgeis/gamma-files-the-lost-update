@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "gamma:null",
+  "features": "upgrade_aquatic:patch_pickerelweed_extra",
+  "step": "vegetal_decoration"
+}

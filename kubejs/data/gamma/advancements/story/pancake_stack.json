@@ -1,0 +1,20 @@
+{
+  "parent": "gamma:story/craft_dough",
+  "criteria": {
+    "stack_pancakes": {
+      "trigger": "coraline_systems:full_pancake_stack"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Place an 8-tier stack of Pancakes!",
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "supplementaries:pancake"
+    },
+    "show_toast": true,
+    "title": "Pancake"
+  },
+  "sends_telemetry_event": true
+}

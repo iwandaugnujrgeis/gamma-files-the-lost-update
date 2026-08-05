@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "item": "etcetera:cotton_flower"
+    }
+  },
+  "pattern": [
+    "X X",
+    "XXX",
+    "XXX"
+  ],
+  "category": "equipment",
+  "result": {
+    "item": "etcetera:white_sweater"
+  },
+  "show_notification": true
+}

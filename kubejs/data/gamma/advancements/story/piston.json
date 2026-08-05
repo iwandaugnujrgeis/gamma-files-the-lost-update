@@ -1,0 +1,19 @@
+{
+  "parent": "gamma:story/redstone_torch",
+  "criteria": {
+    "requirement": {
+      "trigger": "coraline_systems:piston_extend"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Activate a Piston nearby!",
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:piston"
+    },
+    "show_toast": true,
+    "title": "Applied Pushonomics"
+  }
+}

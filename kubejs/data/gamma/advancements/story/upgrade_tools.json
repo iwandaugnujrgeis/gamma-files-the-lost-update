@@ -1,0 +1,28 @@
+{
+  "parent": "gamma:story/smelt_copper",
+  "criteria": {
+    "requirement": {
+      "trigger": "coraline_systems:player_crafted",
+      "conditions": {
+        "item": {
+          "items": ["kubejs:copper_pickaxe"]
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Get a... Copper? Pickaxe",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "citadel:fancy_item",
+      "nbt": "{DisplayItem:\"kubejs:copper_pickaxe\", DisplayBob:1, DisplayZoom:0, DisplayScale:1, DisplaySpin:0, DisplayShake:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.story.upgrade_tools.title"
+    }
+  },
+  "sends_telemetry_event": true
+}

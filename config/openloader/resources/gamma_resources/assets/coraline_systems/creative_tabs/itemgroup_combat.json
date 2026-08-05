@@ -1,0 +1,189 @@
+{
+  "replace": true,
+  "tab_icon": "minecraft:diamond_sword",
+  "tab_items": [
+    {
+      "item": "minecraft:wooden_sword"
+    },
+    {
+      "item": "kubejs:copper_sword"
+    },
+    {
+      "item": "minecraft:iron_sword"
+    },
+    {
+      "item": "minecraft:golden_sword"
+    },
+    {
+      "item": "kubejs:cobalt_sword"
+    },
+    {
+      "item": "minecraft:diamond_sword"
+    },
+    {
+      "item": "minecraft:trident"
+    },
+    {
+      "item": "caverns_and_chasms:kunai"
+    },
+    {
+      "item": "minecraft:bow"
+    },
+    {
+      "item": "minecraft:crossbow"
+    },
+    {
+      "item": "rediscovered:quiver"
+    },
+    {
+      "item": "minecraft:arrow"
+    },
+    {
+      "item": "supplementaries:rope_arrow"
+    },
+    {
+      "item": "minecraft:spectral_arrow"
+    },
+    {
+      "item": "rediscovered:purple_arrow"
+    },
+    {
+      "item": "caverns_and_chasms:large_arrow"
+    },
+    {
+      "item": "minecraft:leather_helmet"
+    },
+    {
+      "item": "minecraft:leather_chestplate"
+    },
+    {
+      "item": "minecraft:leather_leggings"
+    },
+    {
+      "item": "minecraft:leather_boots"
+    },
+    {
+      "item": "minecraft:chainmail_helmet"
+    },
+    {
+      "item": "minecraft:chainmail_chestplate"
+    },
+    {
+      "item": "minecraft:chainmail_leggings"
+    },
+    {
+      "item": "minecraft:chainmail_boots"
+    },
+    {
+      "item": "rediscovered:studded_helmet"
+    },
+    {
+      "item": "rediscovered:studded_chestplate"
+    },
+    {
+      "item": "rediscovered:studded_leggings"
+    },
+    {
+      "item": "rediscovered:studded_boots"
+    },
+    {
+      "item": "rediscovered:plate_helmet"
+    },
+    {
+      "item": "rediscovered:plate_chestplate"
+    },
+    {
+      "item": "rediscovered:plate_leggings"
+    },
+    {
+      "item": "rediscovered:plate_boots"
+    },
+    {
+      "item": "minecraft:iron_helmet"
+    },
+    {
+      "item": "minecraft:iron_chestplate"
+    },
+    {
+      "item": "minecraft:iron_leggings"
+    },
+    {
+      "item": "minecraft:iron_boots"
+    },
+    {
+      "item": "minecraft:golden_helmet"
+    },
+    {
+      "item": "minecraft:golden_chestplate"
+    },
+    {
+      "item": "minecraft:golden_leggings"
+    },
+    {
+      "item": "minecraft:golden_boots"
+    },
+    {
+      "item": "coraline_systems:cobalt_pants"
+    },
+    {
+      "item": "minecraft:diamond_helmet"
+    },
+    {
+      "item": "minecraft:diamond_chestplate"
+    },
+    {
+      "item": "minecraft:diamond_leggings"
+    },
+    {
+      "item": "minecraft:diamond_boots"
+    },
+    {
+      "item": "minecraft:leather_horse_armor"
+    },
+    {
+      "item": "minecraft:iron_horse_armor"
+    },
+    {
+      "item": "minecraft:golden_horse_armor"
+    },
+    {
+      "item": "minecraft:diamond_horse_armor"
+    },
+    {
+      "item": "rediscovered:dragon_armor"
+    },
+    {
+      "item": "coraline_systems:mask_of_dishonesty"
+    },
+    {
+      "item": "alexsmobs:sombrero"
+    },
+    {
+      "item": "alexsmobs:fedora"
+    },
+    {
+      "item": "spelunkery:bunny_ears"
+    },
+    {
+      "item": "alexsmobs:novelty_hat"
+    },
+    {
+      "item": "minecraft:turtle_helmet"
+    },
+    {
+      "item": "etcetera:tidal_helmet"
+    },
+    {
+      "item": "alexsmobs:crocodile_chestplate"
+    },
+    {
+      "item": "etcetera:trader_hood"
+    },
+    {
+      "item": "etcetera:trader_robe"
+    },
+    {
+      "item": "alexsmobs:flying_fish_boots"
+    }
+  ]
+}

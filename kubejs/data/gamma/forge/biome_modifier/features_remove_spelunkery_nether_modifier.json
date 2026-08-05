@@ -1,0 +1,9 @@
+{
+  "type": "forge:remove_features",
+  "biomes": "#spelunkery:has_nether_noise",
+  "features": [
+    "spelunkery:quartz_geode",
+    "spelunkery:magnetite_geode"
+  ],
+  "step": "underground_ores"
+}

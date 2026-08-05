@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_colored_beds": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "gamma:colored_beds"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_colored_beds"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "crafttweaker:beds_clean_shapeless"
+    ]
+  },
+  "sends_telemetry_event": false
+}

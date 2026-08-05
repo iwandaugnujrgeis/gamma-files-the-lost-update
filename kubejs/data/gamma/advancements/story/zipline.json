@@ -1,0 +1,19 @@
+{
+  "parent": "gamma:story/craft_wooden_pickaxe",
+  "criteria": {
+      "dance": {
+        "trigger": "coraline_systems:zipline"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Grapple onto a Rope with a Pickaxe or a Hoe!",
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "supplementaries:rope"
+    },
+    "show_toast": true,
+    "title": "Zipline"
+  }
+}

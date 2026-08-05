@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "walnut": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:walnut"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "walnut"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "crafttweaker:vegan_milk_bottle",
+      "crafttweaker:vegan_milk_splash_bottle"
+    ]
+  },
+  "sends_telemetry_event": false
+}

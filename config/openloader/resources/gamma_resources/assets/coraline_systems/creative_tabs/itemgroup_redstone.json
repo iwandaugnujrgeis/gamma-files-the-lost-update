@@ -1,0 +1,162 @@
+{
+  "replace": true,
+  "tab_icon": "minecraft:observer",
+  "tab_items": [
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:lever"
+    },
+    {
+      "item": "supplementaries:crank"
+    },
+    {
+      "item": "minecraft:repeater"
+    },
+    {
+      "item": "minecraft:comparator"
+    },
+    {
+      "item": "quark:redstone_randomizer"
+    },
+    {
+      "item": "minecraft:dropper"
+    },
+    {
+      "item": "minecraft:dispenser"
+    },
+    {
+      "item": "supplementaries:relayer"
+    },
+    {
+      "item": "minecraft:observer"
+    },
+    {
+      "item": "quark:crafter"
+    },
+    {
+      "item": "minecraft:jukebox"
+    },
+    {
+      "item": "minecraft:note_block"
+    },
+    {
+      "item": "supplementaries:speaker_block"
+    },
+    {
+      "item": "etcetera:drum"
+    },
+    {
+      "item": "supplementaries:pulley_block"
+    },
+    {
+      "item": "supplementaries:clock_block"
+    },
+    {
+      "item": "supplementaries:turn_table"
+    },
+    {
+      "item": "minecraft:piston"
+    },
+    {
+      "item": "minecraft:sticky_piston"
+    },
+    {
+      "item": "supplementaries:spring_launcher"
+    },
+    {
+      "item": "supplementaries:cog_block"
+    },
+    {
+      "item": "caverns_and_chasms:storage_duct"
+    },
+    {
+      "item": "caverns_and_chasms:storage_duct_hatch"
+    },
+    {
+      "item": "caverns_and_chasms:roller_door"
+    },
+    {
+      "item": "coraline_systems:subwoofer"
+    },
+    {
+      "item": "quark:magnet"
+    },
+    {
+      "item": "supplementaries:lock_block"
+    },
+    {
+      "item": "quark:ender_watcher"
+    },
+    {
+      "item": "spelunkery:compression_blast_miner"
+    },
+    {
+      "item": "supplementaries:crystal_display"
+    },
+    {
+      "item": "minecraft:daylight_detector"
+    },
+    {
+      "item": "etcetera:dice"
+    },
+    {
+      "item": "minecraft:target"
+    },
+    {
+      "item": "minecraft:tripwire_hook"
+    },
+    {
+      "item": "supplementaries:wind_vane"
+    },
+    {
+      "item": "quark:chute"
+    },
+    {
+      "item": "minecraft:hopper"
+    },
+    {
+      "item": "quark:pipe"
+    },
+    {
+      "item": "spelunkery:wooden_rail"
+    },
+    {
+      "item": "minecraft:rail"
+    },
+    {
+      "item": "minecraft:powered_rail"
+    },
+    {
+      "item": "minecraft:detector_rail"
+    },
+    {
+      "item": "minecraft:activator_rail"
+    },
+    {
+      "item": "coraline_systems:maglev_rail"
+    },
+    {
+      "item": "coraline_systems:powered_maglev_rail"
+    },
+    {
+      "item": "minecraft:minecart"
+    },
+    {
+      "item": "minecraft:chest_minecart"
+    },
+    {
+      "item": "minecraft:furnace_minecart"
+    },
+    {
+      "item": "minecraft:tnt_minecart"
+    },
+    {
+      "item": "supplementaries:dispenser_minecart"
+    },
+    {
+      "item": "minecraft:hopper_minecart"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_armor": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "rediscovered:armors/plate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "rediscovered:iron_nugget_from_blasting_armors_plate"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_armor",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rediscovered:iron_nugget_from_blasting_armors_plate"
+    ]
+  },
+  "sends_telemetry_event": false
+}

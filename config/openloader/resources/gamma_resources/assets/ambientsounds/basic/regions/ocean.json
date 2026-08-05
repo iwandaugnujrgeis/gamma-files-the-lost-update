@@ -1,0 +1,32 @@
+{
+  "name": "ocean",
+  "biomes": [
+    "#is_ocean",
+    "#is_river",
+    "ocean",
+    "river",
+    "coral reef",
+    "kelp forest",
+    "lake",
+    "stream",
+    "sea"
+  ],
+  "features": [
+    "water"
+  ],
+  "temperature": {
+    "min": 0
+  },
+  "sound-collections": [
+    "wind"
+  ],
+  "sounds": [
+    {
+      "name": "ocean",
+      "files": [
+        "ambientsounds:water.ocean"
+      ],
+      "volume": 0.1
+    }
+  ]
+}

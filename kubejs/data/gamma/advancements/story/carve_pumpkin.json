@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:carved_pumpkin"
+    },
+    "title": "Block of Emotion",
+    "description": "Carve a Pumpkin!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "gamma:story/shears",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:carved_pumpkin"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

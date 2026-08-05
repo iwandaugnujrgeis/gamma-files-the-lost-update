@@ -1,0 +1,42 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "gamma:black_bricks_from_dye",
+      "gamma:blue_bricks_from_dye",
+      "gamma:brown_bricks_from_dye",
+      "gamma:cyan_bricks_from_dye",
+      "gamma:gray_bricks_from_dye",
+      "gamma:green_bricks_from_dye",
+      "gamma:light_blue_bricks_from_dye",
+      "gamma:light_gray_bricks_from_dye",
+      "gamma:lime_bricks_from_dye",
+      "gamma:magenta_bricks_from_dye",
+      "gamma:orange_bricks_from_dye",
+      "gamma:pink_bricks_from_dye",
+      "gamma:purple_bricks_from_dye",
+      "gamma:red_bricks_from_dye",
+      "gamma:white_bricks_from_dye",
+      "gamma:yellow_bricks_from_dye"
+    ]
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bricks"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ]
+}

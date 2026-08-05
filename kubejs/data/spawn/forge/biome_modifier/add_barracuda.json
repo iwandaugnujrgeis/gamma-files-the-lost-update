@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "gamma:null",
+  "spawners": [
+    {
+      "type": "spawn:barracuda",
+      "maxCount": 6,
+      "minCount": 3,
+      "weight": 40
+    }
+  ]
+}

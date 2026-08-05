@@ -1,0 +1,53 @@
+{
+  "grizzly_bear_idle": {
+    "replace": true,
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "gamma:entity/bear/bear_idle0"
+      },
+      {
+        "name": "gamma:entity/bear/bear_idle1"
+      },
+      {
+        "name": "gamma:entity/bear/bear_idle2"
+      },
+      {
+        "name": "gamma:entity/bear/bear_idle3"
+      },
+      {
+        "name": "gamma:entity/bear/bear_idle4"
+      }
+    ],
+    "subtitle": "alexsmobs.sound.subtitle.grizzly_bear_idle"
+  },
+  "grizzly_bear_hurt": {
+    "replace": false,
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "alexsmobs:grizzly_bear_hurt_0"
+      },
+      {
+        "name": "alexsmobs:grizzly_bear_hurt_1"
+      },
+      {
+        "name": "alexsmobs:grizzly_bear_hurt_2"
+      }
+    ],
+    "subtitle": "alexsmobs.sound.subtitle.grizzly_bear_hurt"
+  },
+  "grizzly_bear_die": {
+    "replace": false,
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "alexsmobs:grizzly_bear_die_0"
+      },
+      {
+        "name": "alexsmobs:grizzly_bear_die_1"
+      }
+    ],
+    "subtitle": "alexsmobs.sound.subtitle.grizzly_bear_die"
+  }
+}

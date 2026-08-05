@@ -1,0 +1,31 @@
+{
+  "parent": "gamma:waiting_room/root",
+  "criteria": {
+    "requirement": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:slime"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Kill a Slime to get a Slimeball!",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:slime_ball"
+    },
+    "show_toast": true,
+    "title": "Spider Man"
+  },
+  "sends_telemetry_event": true
+}

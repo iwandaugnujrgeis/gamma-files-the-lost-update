@@ -1,0 +1,29 @@
+{
+  "parent": "gamma:story/test",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bone"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Obtain a Bone!",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:bone"
+    },
+    "show_toast": true,
+    "title": "Bone?!"
+  },
+  "sends_telemetry_event": true
+}

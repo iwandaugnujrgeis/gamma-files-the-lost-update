@@ -1,0 +1,41 @@
+{
+  "parent": "gamma:story/obtain_string",
+  "criteria": {
+    "shot_arrow": {
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "type": "#minecraft:arrows"
+            },
+            "tags": [
+              {
+                "expected": true,
+                "id": "minecraft:is_projectile"
+              }
+            ]
+          }
+        }
+      },
+      "trigger": "minecraft:player_hurt_entity"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Shoot something with an Arrow!",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:bow",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": "Take Aim!"
+  },
+  "requirements": [
+    [
+      "shot_arrow"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

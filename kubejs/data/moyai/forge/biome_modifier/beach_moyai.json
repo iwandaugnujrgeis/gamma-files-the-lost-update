@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "gamma:andesite_crags",
+  "features": "moyai:moyai_beach",
+  "step": "vegetal_decoration"
+}

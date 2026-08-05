@@ -1,0 +1,47 @@
+{
+    "display": {
+        "icon": {
+            "item": "alexsmobs:straddle_saddle"
+        },
+        "title": "Family Sedan",
+        "description": "Equip a Laviathan with a Straddle Saddle & Straddlite Tack!",
+        "frame": "task"
+    },
+    "parent": "gamma:nether/obtain_ancient_scrap",
+    "criteria": {
+      "equip_tack": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "item": {
+            "items": [
+              "alexsmobs:straddle_helmet"
+            ]
+          },
+          "entity": {
+            "type": "alexsmobs:laviathan"
+          }
+        }
+      },
+      "equip_saddle": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "item": {
+            "items": [
+              "alexsmobs:straddle_saddle"
+            ]
+          },
+          "entity": {
+            "type": "alexsmobs:laviathan"
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "equip_saddle"
+      ],
+      [
+        "equip_tack"
+      ]
+    ]
+}

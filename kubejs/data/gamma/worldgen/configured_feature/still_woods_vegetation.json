@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "minecraft:birch_bees_0002",
+    "features": [
+      {
+        "feature": "gamma:trees/pine_tall",
+        "chance": 0.1
+      },
+      {
+        "feature": "gamma:trees/birch",
+        "chance": 0.25
+      }
+    ]
+  }
+}

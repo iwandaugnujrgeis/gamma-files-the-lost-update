@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_colored_glowsticks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "gamma:colored_glowsticks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_colored_glowsticks"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "crafttweaker:glowsticks_clean_bulk",
+      "crafttweaker:glowsticks_clean_shapeless"
+    ]
+  },
+  "sends_telemetry_event": false
+}

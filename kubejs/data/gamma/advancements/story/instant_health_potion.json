@@ -1,0 +1,24 @@
+{
+  "parent": "gamma:story/honey_comb",
+  "criteria": {
+    "potion": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:healing"
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Brew a Potion of Instant Health!",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:healing\"}"
+    },
+    "show_toast": true,
+    "title": "Sweet Relief"
+  },
+  "sends_telemetry_event": true
+}

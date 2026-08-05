@@ -1,0 +1,20 @@
+{
+  "parent": "gamma:story/snipe_orb",
+  "criteria": {
+    "corrupt_portal": {
+      "trigger": "coraline_systems:orb_insert"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Speed up time by placing an Orb into a Centrifuge!",
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "coraline_systems:centrifuge"
+    },
+    "show_toast": true,
+    "title": "Speed Up Time"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,12 @@
+{
+  "type": "spawn:dragon_reeds",
+  "config": {
+    "state_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        { "weight": 2, "data": { "Name": "spawn:fall_dragon_reeds" } },
+        { "weight": 1, "data": { "Name": "spawn:winter_dragon_reeds" } }
+      ]
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "alexsmobs:straddleboard"
+        },
+        "title": {
+            "translate": "advancements.alexsmobs.straddleboard.title"
+        },
+        "description": "Craft a Straddleboard!",
+        "frame": "task"
+    },
+    "parent": "gamma:nether/obtain_ancient_scrap",
+    "criteria": {
+        "straddleboard": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["alexsmobs:straddleboard"]
+                    }
+                ]
+            }
+        }
+    }
+}

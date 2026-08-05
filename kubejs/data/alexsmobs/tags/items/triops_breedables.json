@@ -1,0 +1,7 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:carrot",
+    "#forge:crops/carrot"
+  ]
+}

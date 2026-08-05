@@ -1,0 +1,330 @@
+{
+  "replace": true,
+  "tab_icon": "kubejs:cobalt",
+  "tab_items": [
+    {
+      "item": "minecraft:coal"
+    },
+    {
+      "item": "minecraft:charcoal"
+    },
+    {
+      "item": "minecraft:raw_copper"
+    },
+    {
+      "item": "minecraft:raw_iron"
+    },
+    {
+      "item": "spelunkery:raw_magnetite"
+    },
+    {
+      "item": "minecraft:raw_gold"
+    },
+    {
+      "item": "etcetera:raw_bismuth"
+    },
+    {
+      "item": "kubejs:cobalt"
+    },
+    {
+      "item": "kubejs:raw_silver"
+    },
+    {
+      "item": "rediscovered:ruby"
+    },
+    {
+      "item": "minecraft:amethyst_shard"
+    },
+    {
+      "item": "minecraft:emerald"
+    },
+    {
+      "item": "minecraft:lapis_lazuli"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "coraline_systems:dimensional_shard"
+    },
+    {
+      "item": "minecraft:quartz"
+    },
+    {
+      "item": "minecraft:netherite_scrap"
+    },
+    {
+      "item": "kubejs:halite_crystal"
+    },
+    {
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "etcetera:bismuth_ingot"
+    },
+    {
+      "item": "kubejs:silver_ingot"
+    },
+    {
+      "item": "spelunkery:copper_nugget"
+    },
+    {
+      "item": "minecraft:iron_nugget"
+    },
+    {
+      "item": "minecraft:gold_nugget"
+    },
+    {
+      "item": "kubejs:silver_nugget"
+    },
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "minecraft:flint"
+    },
+    {
+      "item": "minecraft:fire_charge"
+    },
+    {
+      "item": "minecraft:firework_star"
+    },
+    {
+      "item": "minecraft:leather"
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:honeycomb"
+    },
+    {
+      "item": "alexsmobs:banana_peel"
+    },
+    {
+      "item": "etcetera:cotton_flower"
+    },
+    {
+      "item": "minecraft:bone"
+    },
+    {
+      "item": "minecraft:string"
+    },
+    {
+      "item": "minecraft:feather"
+    },
+    {
+      "item": "spawn:mucus"
+    },
+    {
+      "item": "minecraft:slime_ball"
+    },
+    {
+      "item": "minecraft:scute"
+    },
+    {
+      "item": "kubejs:sharp_tooth"
+    },
+    {
+      "item": "alexsmobs:bear_fur"
+    },
+    {
+      "item": "alexsmobs:bison_fur"
+    },
+    {
+      "item": "spawn:snail_shell"
+    },
+    {
+      "item": "alexsmobs:moose_antler"
+    },
+    {
+      "item": "alexsmobs:mungal_spores"
+    },
+    {
+      "item": "caverns_and_chasms:unicorn_horn"
+    },
+    {
+      "item": "minecraft:phantom_membrane"
+    },
+    {
+      "item": "kubejs:cured_membrane"
+    },
+    {
+      "item": "alexsmobs:bear_dust"
+    },
+    {
+      "item": "spawn:suspicious_stick"
+    },
+    {
+      "item": "minecraft:fermented_spider_eye"
+    },
+    {
+      "item": "minecraft:clay_ball"
+    },
+    {
+      "item": "supplementaries:ash"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "item": "supplementaries:soap"
+    },
+    {
+      "item": "spelunkery:dust_bun"
+    },
+    {
+      "item": "kubejs:gear"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:brick"
+    },
+    {
+      "item": "supplementaries:ash_brick"
+    },
+    {
+      "item": "minecraft:nether_brick"
+    },
+    {
+      "item": "minecraft:ink_sac"
+    },
+    {
+      "item": "minecraft:glow_ink_sac"
+    },
+    {
+      "item": "kubejs:glow_paste"
+    },
+    {
+      "item": "minecraft:nautilus_shell"
+    },
+    {
+      "item": "minecraft:prismarine_crystals"
+    },
+    {
+      "item": "minecraft:prismarine_shard"
+    },
+    {
+      "item": "upgrade_aquatic:prismarine_rod"
+    },
+    {
+      "item": "minecraft:heart_of_the_sea"
+    },
+    {
+      "item": "alexsmobs:soul_heart"
+    },
+    {
+      "item": "kubejs:soul_dust"
+    },
+    {
+      "item": "minecraft:glowstone_dust"
+    },
+    {
+      "item": "minecraft:ghast_tear"
+    },
+    {
+      "item": "minecraft:blaze_rod"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "item": "minecraft:magma_cream"
+    },
+    {
+      "item": "alexsmobs:dropbear_claw"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "alexsmobs:farseer_arm"
+    },
+    {
+      "item": "minecraft:disc_fragment_5"
+    },
+    {
+      "item": "upgrade_aquatic:disc_fragment_atlantis"
+    },
+    {
+      "item": "minecraft:white_dye"
+    },
+    {
+      "item": "minecraft:light_gray_dye"
+    },
+    {
+      "item": "minecraft:gray_dye"
+    },
+    {
+      "item": "minecraft:black_dye"
+    },
+    {
+      "item": "minecraft:brown_dye"
+    },
+    {
+      "item": "minecraft:red_dye"
+    },
+    {
+      "item": "minecraft:orange_dye"
+    },
+    {
+      "item": "minecraft:yellow_dye"
+    },
+    {
+      "item": "minecraft:lime_dye"
+    },
+    {
+      "item": "minecraft:green_dye"
+    },
+    {
+      "item": "minecraft:cyan_dye"
+    },
+    {
+      "item": "minecraft:light_blue_dye"
+    },
+    {
+      "item": "minecraft:blue_dye"
+    },
+    {
+      "item": "minecraft:purple_dye"
+    },
+    {
+      "item": "minecraft:magenta_dye"
+    },
+    {
+      "item": "minecraft:pink_dye"
+    },
+    {
+      "item": "minecraft:flower_banner_pattern"
+    },
+    {
+      "item": "minecraft:creeper_banner_pattern"
+    },
+    {
+      "item": "minecraft:globe_banner_pattern"
+    },
+    {
+      "item": "minecraft:mojang_banner_pattern"
+    },
+    {
+      "item": "minecraft:skull_banner_pattern"
+    },
+    {
+      "item": "alexsmobs:banner_pattern_bear"
+    }
+  ]
+}

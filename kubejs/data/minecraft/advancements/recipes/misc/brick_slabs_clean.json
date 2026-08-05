@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_colored_brick_slabs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "gamma:colored_brick_slabs"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_colored_brick_slabs"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "crafttweaker:brick_slabs_clean_bulk",
+      "crafttweaker:brick_slabs_clean_shapeless"
+    ]
+  },
+  "sends_telemetry_event": false
+}

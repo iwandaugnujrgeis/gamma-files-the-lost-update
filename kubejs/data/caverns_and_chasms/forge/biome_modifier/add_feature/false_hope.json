@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "gamma:null",
+  "features": "caverns_and_chasms:false_hope",
+  "step": "vegetal_decoration"
+}

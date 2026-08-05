@@ -1,0 +1,59 @@
+type = customizablemenus
+
+org.embeddedt.embeddium.gui.EmbeddiumVideoOptionsScreen {
+}
+
+net.minecraft.client.gui.screens.PauseScreen {
+}
+
+net.minecraft.client.gui.screens.SkinCustomizationScreen {
+}
+
+net.minecraft.client.gui.screens.WinScreen {
+}
+
+net.minecraft.client.gui.screens.worldselection.SelectWorldScreen {
+}
+
+io.github.mortuusars.scholar.client.gui.screen.edit.SpreadBookEditScreen {
+}
+
+net.minecraft.client.gui.screens.inventory.BookEditScreen {
+}
+
+net.minecraftforge.client.gui.ModListScreen {
+}
+
+mod.bluestaggo.modernerbeta.client.gui.screen.ModernBetaWorldScreen {
+}
+
+net.minecraft.client.gui.screens.DeathScreen {
+}
+
+net.minecraft.client.gui.screens.OptionsScreen {
+}
+
+net.minecraft.client.gui.screens.worldselection.CreateWorldScreen {
+}
+
+net.minecraft.client.gui.screens.AccessibilityOptionsScreen {
+}
+
+net.minecraft.client.gui.screens.VideoSettingsScreen {
+}
+
+net.minecraft.client.gui.screens.SoundOptionsScreen {
+}
+
+net.minecraft.client.gui.screens.TitleScreen {
+}
+
+net.minecraft.client.gui.screens.controls.ControlsScreen {
+}
+
+net.minecraft.client.gui.screens.MouseSettingsScreen {
+}
+
+net.minecraft.client.gui.screens.packs.PackSelectionScreen {
+}
+

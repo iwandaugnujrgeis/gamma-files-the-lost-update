@@ -1,0 +1,9 @@
+{
+  "type": "spawn:replace_sunflower",
+  "old_features": [
+    "minecraft:patch_sunflower"
+  ],
+  "new_features": [
+    "spawn:patch_sunflower"
+  ]
+}
