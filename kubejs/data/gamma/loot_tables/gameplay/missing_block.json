@@ -86,11 +86,6 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "coraline_systems:cooked_prickly_pear"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
           "name": "etcetera:drum"
         },
         {

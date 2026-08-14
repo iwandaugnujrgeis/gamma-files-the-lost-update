@@ -3,6 +3,9 @@
   "createWorld.customize.modern_beta.preset.desc.gamma.intended": "A blend of Infdev, Alpha and Beta terrain, mixed in together with custom Gamma Files biomes!",
   "createWorld.customize.modern_beta.preset.name.gamma.intended": "Intended",
 
+  "createWorld.customize.modern_beta.preset.desc.gamma.alternative": "Mostly Infdev 415 generator, with the intended selection of biomes!",
+  "createWorld.customize.modern_beta.preset.name.gamma.alternative": "Alternative",
+
 //Paintings:
   "painting.gamma.apples.author": "Kristoffer Zetterstrand",
   "painting.gamma.apples.title": "Apples and Dried Flowers",

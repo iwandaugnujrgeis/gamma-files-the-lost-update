@@ -348,6 +348,7 @@ ItemEvents.modification(event => {
   })
 })
 
+/*
 // Heart-Steal Effect (Cobalt Sword)
 // Script Author: @KonSola5
 // Modified by zharok_01 for 50% Chance & Sound
@@ -373,7 +374,6 @@ ForgeEvents.onEvent($LivingAttackEvent, event => {
   if (player == null) return
   if (!event.entity.isLiving()) return
 
-  /** @type {Internal.LivingEntity} */
   const entity = event.entity
   if (entity.isUndead()) return
   if (entity.type == 'minecraft:armor_stand') return
@@ -398,3 +398,4 @@ ForgeEvents.onEvent($LivingAttackEvent, event => {
     } catch (e) { }
   }
 })
+*/

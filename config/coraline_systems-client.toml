@@ -1,0 +1,5 @@
+#Coraline Systems — Skin Selector Settings
+#The last skin variant chosen by this player.
+#Valid values: DEFAULT, STEVE, FBI, AUTUMN
+selectedSkin = "DEFAULT"
+

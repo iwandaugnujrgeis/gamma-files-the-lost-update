@@ -13,36 +13,12 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "mushgloom_block": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "spelunkery:mushgloom_block"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "glow_lichen": {
       "conditions": {
         "items": [
           {
             "items": [
               "minecraft:glow_lichen"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-    "mushgloom": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "spelunkery:mushgloom"
             ]
           }
         ]
@@ -71,9 +47,7 @@
   "requirements": [
     [
       "phosphor_shroomlight",
-      "mushgloom_block",
       "torch",
-      "mushgloom",
       "glow_lichen",
       "has_the_recipe"
     ]

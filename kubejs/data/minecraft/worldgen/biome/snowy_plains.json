@@ -62,7 +62,6 @@
       "minecraft:ore_copper",
       "gamma:ore_chimes",
       "spelunkery:tangle_roots_ceiling",
-      "spelunkery:mushgloom",
       "minecraft:underwater_magma",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
@@ -101,34 +100,22 @@
     "axolotls": [],
     "creature": [
       {
-        "type": "alexsmobs:snow_leopard",
-        "maxCount": 3,
-        "minCount": 3,
-        "weight": 3
-      },
-      {
         "type": "minecraft:polar_bear",
         "maxCount": 4,
-        "minCount": 4,
+        "minCount": 1,
         "weight": 4
+      },
+      {
+        "type": "alexsmobs:froststalker",
+        "maxCount": 3,
+        "minCount": 1,
+        "weight": 3
       },
       {
         "type": "minecraft:wolf",
         "maxCount": 4,
         "minCount": 4,
         "weight": 2
-      },
-      {
-        "type": "alexsmobs:bison",
-        "maxCount": 3,
-        "minCount": 3,
-        "weight": 2
-      },
-      {
-        "type": "alexsmobs:seal",
-        "maxCount": 6,
-        "minCount": 3,
-        "weight": 3
       }
     ],
     "misc": [],

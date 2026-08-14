@@ -22,63 +22,6 @@ ItemEvents.foodEaten(event => {
 })
 
 /*
-//Shear Bears:
-function grantAdvancement(player, advancementId) {
-  if (typeof server !== 'undefined') {
-    server.runCommandSilent(`advancement grant ${player.name} only ${advancementId}`)
-  } else if (player.getServer) {
-    const srv = player.getServer()
-    if (srv) {
-      const ign = player.getName().getString()
-      srv.runCommandSilent(`advancement grant ${ign} only ${advancementId}`)
-    }
-  }
-}
-
-function entitySnipSnip(event, entityType, toolId, outputId, dropMin, dropMax, maxSnips, advancementId) {
-  const player = event.player
-  const bear = event.target
-  const item = event.item
-
-  if (bear.type !== entityType || item.id !== toolId) return
-
-  if (bear.persistentData?.sheared == null) bear.persistentData.sheared = 1
-  else bear.persistentData.sheared++
-
-  if (bear.persistentData.sheared >= maxSnips) return
-
-  // Drop Fur:
-  const count = Math.floor(Math.random() * (dropMax - dropMin + 1)) + dropMin
-  const { x, y, z } = bear
-  const ent = event.level.createEntity('item')
-  ent.x = x; ent.y = y + 0.5; ent.z = z
-  ent.item = outputId; ent.item.count = count
-  ent.motionY = 0.32; ent.spawn()
-
-  // Play Snip Sound:
-  event.player.level.playSound(null, x, y, z,
-    'entity.sheep.shear', 'neutral', 1.0, 1.0)
-
-  // Grant the Advancement:
-  grantAdvancement(player, advancementId)
-
-  // Damage the Shears:
-  player.damageHeldItem()
-}
-
-ItemEvents.entityInteracted(event => {
-  entitySnipSnip(
-    event,
-    'alexsmobs:grizzly_bear',      // Entity
-    'minecraft:shears',            // Tool
-    'alexsmobs:bear_fur',          // Drop
-    1, 3,                          // Min/max
-    2,                             // Only First Snip Works
-    'gamma:husbandry/bear_hair_snip' // Advancement ID!
-  )
-})
-*/
-
 //Giant Chickens:
 ItemEvents.entityInteracted(event => {
   const player = event.player
@@ -154,25 +97,7 @@ ItemEvents.entityInteracted(event => {
 
   event.cancel()
 })
-
-/*
-//Bed Advancement Skylands:
-BlockEvents.rightClicked(event => {
-  const { player, block, level } = event
-
-  if (level.isClientSide()) return
-  if (level.dimension != 'rediscovered:skylands') return
-
-  if (
-    !block.hasTag('minecraft:beds') &&
-    !block.hasTag('upgrade_aquatic:bedrolls')
-  ) return
-
-  try {
-    grantAdvancement(player, 'gamma:skylands/dont_touch_beds')
-  } catch (e) { }
-})
-  */
+*/
 
 //Spawner Sounds:
 BlockEvents.broken(event => {
@@ -192,23 +117,7 @@ BlockEvents.broken(event => {
   )
 })
 
-//Thank you for @fearthera1n for suggesting this script! 
-//Inspired by DB3K!
-EntityEvents.checkSpawn(event => {
-  if (event.type == 'SPAWNER') {
-    event.level.playSound(
-      null,
-      event.entity.x,
-      event.entity.y,
-      event.entity.z,
-      'gamma:suspicious.soul_steal',
-      'players',
-      0.9 + Math.random() * 0.1,
-      0.7 + Math.random() * 0.4
-    )
-  }
-})
-
+/*
 //Moonstone:
 BlockEvents.broken('kubejs:moonstone', event => {
   const { level, block, server, player } = event
@@ -244,6 +153,7 @@ BlockEvents.broken('kubejs:moonstone', event => {
     block.popItem('kubejs:moonstone')
   }
 })
+*/
 
 /* You can set an entity on fire, for example!
 ItemEvents.pickedUp("kubejs:silver_nugget", event => {
@@ -274,188 +184,6 @@ ServerEvents.recipes(event => {
       ['AAA', 'ABA', 'AAA'],
       { A: 'spelunkery:glowstick', B: color + '_dye' }
     ).id('gamma:' + color + '_glowstick')
-
-    /*
-    // -------------------------------------------------------------------------
-    // COLORED BRICK — dye 8 plain bricks in a ring
-    // AAA
-    // ABA  →  8x colored bricks
-    // AAA
-    // A = any brick (tag), B = matching dye
-    // -------------------------------------------------------------------------
-    event.shaped(
-      '8x ' + brick,
-      ['AAA', 'ABA', 'AAA'],
-      { A: 'minecraft:bricks', B: color + '_dye' }
-    ).id('kubejs:' + color + '_bricks_from_dye')
-
-    // -------------------------------------------------------------------------
-    // SLAB — standard vanilla pattern (3 in a row → 6 slabs)
-    // AAA
-    // -------------------------------------------------------------------------
-    event.shaped(
-      '6x kubejs:' + color + '_bricks_slab',
-      ['AAA'],
-      { A: brick }
-    ).id('kubejs:' + color + '_bricks_slab')
-
-    // -------------------------------------------------------------------------
-    // STAIRS — standard vanilla staircase pattern (6 → 4 stairs)
-    // A
-    // AA
-    // AAA
-    // -------------------------------------------------------------------------
-    event.shaped(
-      '4x kubejs:' + color + '_bricks_stairs',
-      ['A  ', 'AA ', 'AAA'],
-      { A: brick }
-    ).id('kubejs:' + color + '_bricks_stairs')
-
-    // -------------------------------------------------------------------------
-    // WALL — standard vanilla pattern (6 in two rows → 6 walls)
-    // AAA
-    // AAA
-    // -------------------------------------------------------------------------
-    event.shaped(
-      '6x kubejs:' + color + '_bricks_wall',
-      ['AAA', 'AAA'],
-      { A: brick }
-    ).id('kubejs:' + color + '_bricks_wall')
-    */
-
-    // -------------------------------------------------------------------------
-    // STONECUTTER — 1 brick → 2 slabs / 1 stair / 1 wall
-    // -------------------------------------------------------------------------
-    event.stonecutting('2x kubejs:' + color + '_bricks_slab', brick).id('kubejs:stonecutting_' + color + '_bricks_slab')
-    event.stonecutting('1x kubejs:' + color + '_bricks_stairs', brick).id('kubejs:stonecutting_' + color + '_bricks_stairs')
-    event.stonecutting('1x kubejs:' + color + '_bricks_wall', brick).id('kubejs:stonecutting_' + color + '_bricks_wall')
-
-    /*
-
-    // =========================================================================
-    // COLORED MUD BRICKS
-    // =========================================================================
-
-    // AAA
-    // ABA  →  8x colored mud bricks
-    // AAA
-    // A = vanilla mud bricks, B = matching dye
-    event.shaped(
-      '8x ' + mudBrick,
-      ['AAA', 'ABA', 'AAA'],
-      { A: 'minecraft:mud_bricks', B: color + '_dye' }
-    ).id('kubejs:' + color + '_mud_bricks_from_dye')
-
-    // Slab — 3 in a row → 6
-    event.shaped(
-      '6x kubejs:' + color + '_mud_bricks_slab',
-      ['AAA'],
-      { A: mudBrick }
-    ).id('kubejs:' + color + '_mud_bricks_slab')
-
-    // Stairs — staircase pattern → 4
-    event.shaped(
-      '4x kubejs:' + color + '_mud_bricks_stairs',
-      ['A  ', 'AA ', 'AAA'],
-      { A: mudBrick }
-    ).id('kubejs:' + color + '_mud_bricks_stairs')
-
-    // Wall — two rows of 3 → 6
-    event.shaped(
-      '6x kubejs:' + color + '_mud_bricks_wall',
-      ['AAA', 'AAA'],
-      { A: mudBrick }
-    ).id('kubejs:' + color + '_mud_bricks_wall')
-
-    // Stonecutting
-    event.stonecutting('2x kubejs:' + color + '_mud_bricks_slab', mudBrick).id('kubejs:stonecutting_' + color + '_mud_bricks_slab')
-    event.stonecutting('1x kubejs:' + color + '_mud_bricks_stairs', mudBrick).id('kubejs:stonecutting_' + color + '_mud_bricks_stairs')
-    event.stonecutting('1x kubejs:' + color + '_mud_bricks_wall', mudBrick).id('kubejs:stonecutting_' + color + '_mud_bricks_wall')
-
-    // =========================================================================
-    // COLORED LARGE BRICKS
-    // =========================================================================
-
-    // AAA
-    // ABA  →  8x colored large bricks
-    // AAA
-    // A = any stone bricks (tag), B = matching dye
-    event.shaped(
-      '8x ' + largeBrick,
-      ['AAA', 'ABA', 'AAA'],
-      { A: '#minecraft:stone_bricks', B: color + '_dye' }
-    ).id('kubejs:' + color + '_large_bricks_from_dye')
-
-    // Slab
-    event.shaped(
-      '6x kubejs:' + color + '_large_bricks_slab',
-      ['AAA'],
-      { A: largeBrick }
-    ).id('kubejs:' + color + '_large_bricks_slab')
-
-    // Stairs
-    event.shaped(
-      '4x kubejs:' + color + '_large_bricks_stairs',
-      ['A  ', 'AA ', 'AAA'],
-      { A: largeBrick }
-    ).id('kubejs:' + color + '_large_bricks_stairs')
-
-    // Wall
-    event.shaped(
-      '6x kubejs:' + color + '_large_bricks_wall',
-      ['AAA', 'AAA'],
-      { A: largeBrick }
-    ).id('kubejs:' + color + '_large_bricks_wall')
-
-    // Stonecutting
-    event.stonecutting('2x kubejs:' + color + '_large_bricks_slab', largeBrick).id('kubejs:stonecutting_' + color + '_large_bricks_slab')
-    event.stonecutting('1x kubejs:' + color + '_large_bricks_stairs', largeBrick).id('kubejs:stonecutting_' + color + '_large_bricks_stairs')
-    event.stonecutting('1x kubejs:' + color + '_large_bricks_wall', largeBrick).id('kubejs:stonecutting_' + color + '_large_bricks_wall')
-    */
-
-      // ABA
-  // BAB  →  1x framed glass / framed glass pane
-  // ABA
-  // A = iron_ingot, B = the colored glass or glass pane variant
-    /*
-    // Framed Glass
-    event.shaped(
-      '4x quark:' + color + '_framed_glass',
-      ['ABA', 'BAB', 'ABA'],
-      {
-        A: 'minecraft:iron_nugget',
-        B: 'minecraft:' + color + '_stained_glass'
-      }
-    ).id('kubejs:' + color + '_framed_glass')
- 
-    // Framed Glass Pane
-    event.shaped(
-      '4x quark:' + color + '_framed_glass_pane',
-      ['ABA', 'BAB', 'ABA'],
-      {
-        A: 'minecraft:iron_nugget',
-        B: 'minecraft:' + color + '_stained_glass_pane'
-      }
-    ).id('kubejs:' + color + '_framed_glass_pane')
-
-    event.shaped(
-      '8x quark:' + color + '_framed_glass',
-      ['AAA', 'ABA', 'AAA'],
-      {
-        A: 'quark:framed_glass',
-        B: color + '_dye'
-      }
-    ).id('kubejs:' + color + '_framed_glass_from_dye')
- 
-    event.shaped(
-      '8x quark:' + color + '_framed_glass_pane',
-      ['AAA', 'ABA', 'AAA'],
-      {
-        A: 'quark:framed_glass_pane',
-        B: color + '_dye'
-      }
-    ).id('kubejs:' + color + '_framed_glass_pane_from_dye')
-    */
   })
 })
 

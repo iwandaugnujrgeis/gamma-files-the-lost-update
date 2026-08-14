@@ -62,7 +62,6 @@
       "minecraft:ore_copper",
       "gamma:ore_chimes",
       "spelunkery:tangle_roots_ceiling",
-      "spelunkery:mushgloom",
       "minecraft:underwater_magma",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
@@ -73,8 +72,7 @@
     [
       "minecraft:spring_water",
       "minecraft:spring_lava",
-      "gamma:tree_stumps/tree_stump_birch",
-      "gamma:fallen_trees/fallen_tree_birch"
+      "gamma:tree_stumps/tree_stump_birch"
     ],
     [
       "minecraft:glow_lichen",

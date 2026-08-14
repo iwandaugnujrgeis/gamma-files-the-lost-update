@@ -84,12 +84,6 @@
         "weight": 40
       },
       {
-        "type": "alexsmobs:straddler",
-        "maxCount": 5,
-        "minCount": 2,
-        "weight": 100
-      },
-      {
         "type": "minecraft:magma_cube",
         "maxCount": 5,
         "minCount": 2,

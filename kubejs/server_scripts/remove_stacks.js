@@ -4,9 +4,13 @@
 const removedInOutputs = 
     [
     //4.20.11:
+      'coraline_systems:mask_of_dishonesty',
+      'coraline_systems:prickly_pear',
+      'coraline_systems:cooked_prickly_pear',
+      'coraline_systems:tea_leaves',
       'alexsmobs:spawn_egg_bison',
       'alexsmobs:spawn_egg_capuchin_monkey',
-      'alexsmobs:spawn_egg_dropbear',
+      //'alexsmobs:spawn_egg_dropbear',
       'alexsmobs:spawn_egg_emu',
       'alexsmobs:spawn_egg_flutter',
       'alexsmobs:spawn_egg_komodo_dragon',

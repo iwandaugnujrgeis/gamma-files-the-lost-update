@@ -19,7 +19,8 @@
 		"air": [
 			"minecraft:cave",
 			"minecraft:cave_extra_underground",
-			"minecraft:canyon"
+			"minecraft:canyon",
+			"coraline_systems:underground_river"
 		]
 	},
 	"features": [
@@ -62,7 +63,7 @@
 			"minecraft:ore_copper",
 			"gamma:ore_chimes",
 			"spelunkery:tangle_roots_ceiling",
-			"spelunkery:mushgloom",
+			
 			"minecraft:underwater_magma",
 			"minecraft:disk_sand",
 			"minecraft:disk_clay",
@@ -77,7 +78,6 @@
 		[
 			"minecraft:glow_lichen",
 			"caverns_and_chasms:patch_cave_growths",
-			"caverns_and_chasms:false_hope",
 			"gamma:patch_other_mushrooms"
 		],
 		[

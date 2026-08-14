@@ -267,9 +267,6 @@
       "item": "minecraft:red_mushroom_block"
     },
     {
-      "item": "spelunkery:mushgloom_block"
-    },
-    {
       "item": "spelunkery:portabella_block"
     },
     {
@@ -283,9 +280,6 @@
     },
     {
       "item": "minecraft:red_mushroom"
-    },
-    {
-      "item": "spelunkery:mushgloom"
     },
     {
       "item": "minecraft:crimson_roots"

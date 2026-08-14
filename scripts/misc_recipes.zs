@@ -48,6 +48,11 @@ craftingTable.addShapedMeta("lock_block", <item:supplementaries:lock_block>, [
   [<tag:items:minecraft:planks>, <item:minecraft:redstone>, <tag:items:minecraft:planks>],
   [<item:kubejs:silver_ingot>, <tag:items:minecraft:planks>, <item:kubejs:silver_ingot>]], "", <constant:minecraft:recipe/category/crafting:redstone>);
 
+craftingTable.addShapedMeta("centrifuge", <item:coraline_systems:centrifuge>, [
+  [<item:rediscovered:ruby>, <item:kubejs:silver_ingot>, <item:rediscovered:ruby>], 
+  [<item:kubejs:silver_ingot>, <item:minecraft:nether_star>, <item:kubejs:silver_ingot>],
+  [<item:rediscovered:ruby>, <item:kubejs:silver_ingot>, <item:rediscovered:ruby>]], "", <constant:minecraft:recipe/category/crafting:redstone>);
+
 craftingTable.remove(<item:supplementaries:rope>);
 craftingTable.addShapedMeta("supplementaries_rope", <item:supplementaries:rope> * 3, [[<item:spelunkery:tangle_roots>], [<item:spelunkery:tangle_roots>], [<item:spelunkery:tangle_roots>]], "", <constant:minecraft:recipe/category/crafting:equipment>);
 
@@ -597,7 +602,7 @@ craftingTable.remove(<item:spelunkery:glowstick>);
 craftingTable.addShapelessMeta("glowstick", <item:spelunkery:glowstick> * 4, [<item:minecraft:slime_ball>, <item:kubejs:glow_paste>, <item:minecraft:stick>], "", <constant:minecraft:recipe/category/crafting:misc>);
 
 craftingTable.addShaped("torch", <item:coraline_systems:torch> * 4, [
-  [<tag:items:c:coal>], 
+  [<tag:items:minecraft:coals>], 
   [<item:minecraft:stick>]]);
 
 //Gloomy Tiles:
@@ -628,7 +633,7 @@ stoneCutter.addRecipe("gloomy_tiles_slab_stonecutter", <item:kubejs:gloomy_tiles
 stoneCutter.addRecipe("gloomy_tiles_wall_stonecutter", <item:kubejs:gloomy_tiles_wall>, <item:kubejs:gloomy_tiles>);
 
 craftingTable.addShapelessMeta("glow_paste_glow_ink_sac", <item:kubejs:glow_paste> * 3, [<item:minecraft:glow_ink_sac>], "", <constant:minecraft:recipe/category/crafting:misc>);
-furnace.addRecipe("glow_paste_smelt", <item:kubejs:glow_paste>, <item:spelunkery:phosphor_shroomlight> | <item:spelunkery:mushgloom_block> | <item:minecraft:glow_lichen> | <item:spelunkery:mushgloom>, 0.35, 200);
+furnace.addRecipe("glow_paste_smelt", <item:kubejs:glow_paste>, <item:spelunkery:phosphor_shroomlight> | <item:minecraft:glow_lichen>, 0.35, 200);
 
 furnace.addRecipe("cobalt_smelt", <item:kubejs:cobalt>, <item:alexsmobs:soul_heart>, 0.35, 200);
 
@@ -642,16 +647,10 @@ craftingTable.addShaped("cobalt_pants", <item:coraline_systems:cobalt_pants>, [
   [<item:kubejs:cobalt>, <item:minecraft:air>, <item:kubejs:cobalt>],
   [<item:kubejs:cobalt>, <item:minecraft:air>, <item:kubejs:cobalt>]]);
 
+/*
 craftingTable.remove(<item:kubejs:pumpkin_bread>);
 craftingTable.addShapelessMeta("pumpkin_bread", <item:kubejs:pumpkin_bread> * 2, [<item:kubejs:butter>, <item:kubejs:pumpkin_slice>, <item:kubejs:syrup_bottle>, <item:kubejs:dough>], "", <constant:minecraft:recipe/category/crafting:misc>);
-
-//craftingTable.remove(<item:alexsmobs:dimensional_carver>);
-//craftingTable.addShaped("dimensional_carver", <item:alexsmobs:dimensional_carver>, [
-  //[<item:kubejs:dimensional_shard>, <item:kubejs:dimensional_shard>, <item:kubejs:dimensional_shard>],
-  //[<item:minecraft:air>, <item:minecraft:stick>, <item:minecraft:air>],
-  //[<item:minecraft:air>, <item:minecraft:stick>, <item:minecraft:air>]]);
-
-//furnace.addRecipe("shattered_dimensional_carver", <item:alexsmobs:shattered_dimensional_carver>, <item:alexsmobs:dimensional_carver>, 0.35, 200);
+*/
 
 craftingTable.addShaped("cobalt_sword", <item:kubejs:cobalt_sword>, [
   [<item:kubejs:cobalt>],
@@ -1155,10 +1154,6 @@ craftingTable.addShaped("bedroll", <item:upgrade_aquatic:bedroll>, [
   [<item:minecraft:leather>, <item:minecraft:leather>, <item:supplementaries:feather_block>],
   [<item:minecraft:leather>, <item:minecraft:leather>, <item:minecraft:leather>]]);
 
-craftingTable.addShapelessMeta("mucus_from_block", <item:spawn:mucus> * 9, [<item:autumnity:snail_goo_block>], "", <constant:minecraft:recipe/category/crafting:misc>);
-
-craftingTable.addShapelessMeta("maple_to_oak", <item:minecraft:oak_planks> * 4, [<tag:items:autumnity:maple_logs>], "", <constant:minecraft:recipe/category/crafting:misc>);
-
 craftingTable.remove(<item:supplementaries:confetti_popper>);
 
 craftingTable.remove(<item:supplementaries:speaker_block>);
@@ -1177,9 +1172,6 @@ craftingTable.addShaped("cog_block", <item:supplementaries:cog_block> * 3, [
   [<item:kubejs:silver_ingot>, <item:minecraft:redstone>, <item:kubejs:silver_ingot>], 
   [<item:minecraft:redstone>, <item:kubejs:gear>, <item:minecraft:redstone>],
   [<item:kubejs:silver_ingot>, <item:minecraft:redstone>, <item:kubejs:silver_ingot>]]);
-
-  //4.20.5:
-  craftingTable.addShapelessMeta("grimwood_from_maple", <item:atmospheric:grimwood_planks> * 4, [<item:autumnity:maple_log>], "", <constant:minecraft:recipe/category/crafting:misc>);
 
   craftingTable.remove(<item:caverns_and_chasms:storage_duct>);
   craftingTable.addShaped("storage_duct", <item:caverns_and_chasms:storage_duct>, [
@@ -1238,7 +1230,7 @@ craftingTable.addShaped("lectern", <item:minecraft:lectern>, [
 
 craftingTable.remove(<item:easel_does_it:easel>);
 craftingTable.addShapedMirrored("easel", MirrorAxis.HORIZONTAL, <item:easel_does_it:easel>, [
-  [<tag:items:c:dyes>, <item:minecraft:brush>], 
+  [<tag:items:forge:dyes>, <item:minecraft:brush>], 
   [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>],
   [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>]]);
 

@@ -158,7 +158,7 @@
 		sack_increment = 2
 		#How many slots should a sack have
 		#Range: 1 ~ 27
-		slots = 9
+		slots = 27
 
 	[functional.bamboo_spikes]
 		enabled = false

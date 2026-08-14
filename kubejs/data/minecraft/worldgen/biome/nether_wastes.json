@@ -64,7 +64,15 @@
       "charge": 0.5,
       "energy_budget": 0.12
     },
+    "minecraft:zombie_pigman": {
+      "charge": 0.5,
+      "energy_budget": 0.12
+    },
     "minecraft:ghast": {
+      "charge": 0.5,
+      "energy_budget": 0.12
+    },
+    "alexsmobs:dropbear": {
       "charge": 0.5,
       "energy_budget": 0.12
     },
@@ -73,14 +81,6 @@
       "energy_budget": 0.12
     },
     "minecraft:strider": {
-      "charge": 0.5,
-      "energy_budget": 0.12
-    },
-    "alexsmobs:laviathan": {
-      "charge": 0.5,
-      "energy_budget": 0.12
-    },
-    "alexsmobs:dropbear": {
       "charge": 0.5,
       "energy_budget": 0.12
     },
@@ -98,12 +98,6 @@
         "maxCount": 2,
         "minCount": 1,
         "weight": 30
-      },
-      {
-        "type": "alexsmobs:laviathan",
-        "maxCount": 3,
-        "minCount": 1,
-        "weight": 15
       }
     ],
     "misc": [],
@@ -112,7 +106,7 @@
         "type": "rediscovered:zombie_pigman",
         "maxCount": 3,
         "minCount": 1,
-        "weight": 90
+        "weight": 60
       },
       {
         "type": "alexsmobs:farseer",
@@ -124,25 +118,25 @@
         "type": "minecraft:magma_cube",
         "maxCount": 3,
         "minCount": 1,
-        "weight": 2
+        "weight": 20
       },
       {
         "type": "minecraft:ghast",
         "maxCount": 2,
         "minCount": 1,
-        "weight": 8
+        "weight": 15
+      },
+      {
+        "type": "alexsmobs:dropbear",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 2
       },
       {
         "type": "minecraft:enderman",
         "maxCount": 2,
         "minCount": 1,
         "weight": 2
-      },
-      {
-        "type": "alexsmobs:dropbear",
-        "maxCount": 1,
-        "minCount": 1,
-        "weight": 4
       }
     ],
     "underground_water_creature": [],

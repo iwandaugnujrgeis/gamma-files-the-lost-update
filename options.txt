@@ -42,7 +42,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:4
 renderClouds:"true"
-resourcePacks:["vanilla","mod_resources","file/Serified Font v1.1 f1-34.zip","resources/gamma_resources","Moonlight Mods Dynamic Assets"]
+resourcePacks:["vanilla","mod_resources","resources/gamma_resources","file/Serified Font v1.1 f1-34.zip","Moonlight Mods Dynamic Assets"]
 incompatibleResourcePacks:[]
 lastServer:109.173.112.58:25565
 lang:en_us
@@ -115,14 +115,8 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
-key_key.pingwheel.ping_location:key.mouse.5
-key_key.shouldersurfing.enter_first_person:key.keyboard.unknown
-key_key.shouldersurfing.enter_third_person_front:key.keyboard.unknown
-key_key.shouldersurfing.enter_third_person_back:key.keyboard.unknown
-key_key.shouldersurfing.enter_shoulder_surfing:key.keyboard.unknown
-key_key.mount_jump:key.keyboard.f7
 soundCategory_master:1.0
-soundCategory_music:1.0
+soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:0.8047645246478874
 soundCategory_block:0.707394366197183
@@ -131,7 +125,7 @@ soundCategory_neutral:0.706756161971831
 soundCategory_player:0.7047095070422534
 soundCategory_ambient:1.0
 soundCategory_voice:1.0
-modelPart_cape:true
+modelPart_cape:false
 modelPart_jacket:true
 modelPart_left_sleeve:true
 modelPart_right_sleeve:true

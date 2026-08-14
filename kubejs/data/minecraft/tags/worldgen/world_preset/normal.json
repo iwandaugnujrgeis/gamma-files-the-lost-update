@@ -2,6 +2,7 @@
   "replace": true,
   "values": [
     "minecraft:normal",
+    "minecraft:alternative",
     "minecraft:flat"
   ]
 }

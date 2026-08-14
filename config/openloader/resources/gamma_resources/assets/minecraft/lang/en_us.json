@@ -1,6 +1,8 @@
 {
   "selectWorld.mapFeatures.info": "A bit of something inevitable!",
   "selectWorld.allowCommands.info": "Commands like /gamemode, /tp...",
+  "generator.minecraft.normal": "Intended",
+  "generator.minecraft.alternative": "Alternative",
 
   //4.20.5:
     "block.minecraft.lodestone": "§bLodestone",

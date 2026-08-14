@@ -77,12 +77,12 @@
     {
       "item": "atmospheric:passion_fruit"
     },
-    {
-      "item": "coraline_systems:prickly_pear"
-    },
-    {
-      "item": "coraline_systems:cooked_prickly_pear"
-    },
+    //{
+      //"item": "coraline_systems:prickly_pear"
+    //},
+    //{
+      //"item": "coraline_systems:cooked_prickly_pear"
+    //},
     {
       "item": "minecraft:egg"
     },

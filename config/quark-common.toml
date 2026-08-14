@@ -1349,11 +1349,11 @@
 [mobs]
 	Crabs = false
 	Forgotten = false
-	Foxhound = true
+	Foxhound = false
 	Shiba = false
-	Stonelings = true
+	Stonelings = false
 	Toretoise = false
-	Wraith = true
+	Wraith = false
 
 	[mobs.crabs]
 		"Enable Brewing" = true

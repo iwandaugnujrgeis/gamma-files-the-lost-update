@@ -162,15 +162,6 @@ ItemEvents.modification(event => {
 		}
 	})
 
-	event.modify('spelunkery:mushgloom', item => {
-		item.foodProperties = food => {
-			food
-				.hunger(1).saturation(0.5)
-			.effect('glowing', 200, 0, 100)
-			.effect('hunger', 100, 0, 0.2)
-		}
-	})
-
 	//Sweets:
 	event.modify('kubejs:marshmallow', item => {
 		item.foodProperties = food => {

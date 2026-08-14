@@ -1,6 +1,4 @@
 KeyBindEvents.modify((event) => {
-  event.modifyCategory("key.pingwheel.ping_location", "key.categories.multiplayer");
-
   event.remove("info.structure_gel.building_tool.redo");
   event.remove("info.structure_gel.building_tool.undo");
   event.remove("key.dynamic_fps.toggle_disabled");
@@ -13,26 +11,29 @@ KeyBindEvents.modify((event) => {
   event.remove("key.nostalgic_tweaks.stop_song");
   event.remove("key.nostalgic_tweaks.toggle_fog");
   event.remove("key.nostalgic_tweaks.toggle_weather");  
-  event.remove("key.pingwheel.open_settings");
   event.remove("key.saveToolbarActivator");
   event.remove("key.scholar.export_book");
   event.remove("key.scholar.import_book");
   event.remove("key.scholar.toggle_book_tools");
-  event.remove("key.shouldersurfing.adjust_camera_down");
-  event.remove("key.shouldersurfing.adjust_camera_in");
   event.remove("key.shouldersurfing.adjust_camera_left");
-  event.remove("key.shouldersurfing.adjust_camera_out");
   event.remove("key.shouldersurfing.adjust_camera_right");
+  event.remove("key.shouldersurfing.adjust_camera_in");
+  event.remove("key.shouldersurfing.adjust_camera_out");
   event.remove("key.shouldersurfing.adjust_camera_up");
-  event.remove("key.shouldersurfing.free_look");
+  event.remove("key.shouldersurfing.adjust_camera_down");
   event.remove("key.shouldersurfing.swap_shoulder");
-  event.remove("key.shouldersurfing.toggle_camera_coupling");
   event.remove("key.shouldersurfing.toggle_first_person");
-  event.remove("key.shouldersurfing.toggle_third_person_back");
   event.remove("key.shouldersurfing.toggle_third_person_front");
+  event.remove("key.shouldersurfing.toggle_third_person_back");
+  event.remove("key.shouldersurfing.free_look");
+  event.remove("key.shouldersurfing.toggle_camera_coupling");
   event.remove("key.shouldersurfing.toggle_x_offset_presets");
   event.remove("key.shouldersurfing.toggle_y_offset_presets");
   event.remove("key.shouldersurfing.toggle_z_offset_presets");
+  event.remove("key.shouldersurfing.enter_first_person");
+  event.remove("key.shouldersurfing.enter_third_person_front");
+  event.remove("key.shouldersurfing.enter_third_person_back");
+  event.remove("key.shouldersurfing.enter_shoulder_surfing");
   event.remove("key.spectatorOutlines");
   event.remove("key.structure_gel.open_building_tool_gui");
   event.remove("quark.emote.cheer");

@@ -78,10 +78,6 @@
       "charge": 0.7,
       "energy_budget": 0.15
     },
-    "quark:wraith": {
-      "charge": 0.7,
-      "energy_budget": 0.15
-    },
     "minecraft:strider": {
       "charge": 0.7,
       "energy_budget": 0.15
@@ -108,12 +104,6 @@
       },
       {
         "type": "minecraft:skeleton",
-        "maxCount": 5,
-        "minCount": 5,
-        "weight": 20
-      },
-      {
-        "type": "quark:wraith",
         "maxCount": 5,
         "minCount": 5,
         "weight": 20

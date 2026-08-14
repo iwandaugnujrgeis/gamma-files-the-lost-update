@@ -1,4 +1,5 @@
 {
+	"creature_spawn_probability": 0.03,
 	"downfall": 0.7,
 	"temperature": 0.65,
 	"effects": {
@@ -63,7 +64,6 @@
 			"minecraft:ore_copper",
 			"gamma:ore_chimes",
 			"spelunkery:tangle_roots_ceiling",
-			"spelunkery:mushgloom",
 			"minecraft:underwater_magma",
 			"minecraft:disk_sand",
 			"minecraft:disk_clay",
@@ -85,8 +85,7 @@
 			"minecraft:patch_grass_savanna",
 			"caverns_and_chasms:patch_cave_growths",
 			"minecraft:patch_melon_sparse",
-			"minecraft:patch_cactus_desert",
-			"coraline_systems:prickly_pear"
+			"minecraft:patch_cactus_desert"
 		],
 		[
 			"minecraft:freeze_top_layer"
@@ -145,22 +144,16 @@
 		],
 		"creature": [
 			{
-				"type": "minecraft:camel",
-				"maxCount": 1,
-				"minCount": 1,
-				"weight": 100
-			},
-			{
 				"type": "minecraft:goat",
 				"maxCount": 3,
 				"minCount": 1,
-				"weight": 60
+				"weight": 10
 			},
 			{
-				"type": "alexsmobs:bald_eagle",
+				"type": "minecraft:camel",
 				"maxCount": 1,
 				"minCount": 1,
-				"weight": 10
+				"weight": 6
 			}
 		],
 		"ambient": [
@@ -191,19 +184,6 @@
 		],
 		"misc": []
 	},
-	"spawn_costs": {
-		"alexsmobs:bald_eagle": {
-			"energy_budget": 1.0,
-			"charge": 0.3
-		},
-		"minecraft:goat": {
-			"energy_budget": 1.0,
-			"charge": 0.1
-		},
-		"minecraft:camel": {
-			"energy_budget": 1.0,
-			"charge": 0.1
-		}
-	},
+	"spawn_costs": {},
 	"has_precipitation": true
 }

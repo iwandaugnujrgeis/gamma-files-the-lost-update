@@ -136,10 +136,10 @@
     "oldBlockOverlaySpeed": 0.2,
     "minimumBlockPulsationTransparency": 0.1,
     "maximumBlockPulsationTransparency": 0.4,
-    "oldChest": true,
-    "oldEnderChest": true,
-    "oldTrappedChest": true,
-    "applyChestVoxel": true,
+    "oldChest": false,
+    "oldEnderChest": false,
+    "oldTrappedChest": false,
+    "applyChestVoxel": false,
     "oldModChests": {
       "items": [],
       "disabled": true
@@ -253,7 +253,7 @@
     "oldGuiBackground": "SOLID_BLACK",
     "customGuiBackground": true,
     "customGuiTopGradient": "#00000000",
-    "customGuiBottomGradient": "#0000003F",
+    "customGuiBottomGradient": "#00000034",
     "oldLoadingOverlay": "MODERN",
     "removeLoadingBar": false,
     "customLoadingOverlayBackground": false,

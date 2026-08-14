@@ -135,7 +135,7 @@
         "processors": "gamma:laboratory_processor",
         "projection": "rigid"
       },
-      "weight": 5
+      "weight": 15
     }
   ]
 }

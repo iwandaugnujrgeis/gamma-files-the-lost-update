@@ -1,9 +1,13 @@
 //priority: 1
 ServerEvents.tags('item', event => {
 //4.20.11:
+  event.removeAllTagsFrom('coraline_systems:mask_of_dishonesty')
+  event.removeAllTagsFrom('coraline_systems:prickly_pear')
+  event.removeAllTagsFrom('coraline_systems:cooked_prickly_pear')
+  event.removeAllTagsFrom('coraline_systems:tea_leaves')
   event.removeAllTagsFrom('alexsmobs:spawn_egg_bison')
   event.removeAllTagsFrom('alexsmobs:spawn_egg_capuchin_monkey')
-  event.removeAllTagsFrom('alexsmobs:spawn_egg_dropbear')
+  //event.removeAllTagsFrom('alexsmobs:spawn_egg_dropbear')
   event.removeAllTagsFrom('alexsmobs:spawn_egg_emu')
   event.removeAllTagsFrom('alexsmobs:spawn_egg_flutter')
   event.removeAllTagsFrom('alexsmobs:spawn_egg_komodo_dragon')

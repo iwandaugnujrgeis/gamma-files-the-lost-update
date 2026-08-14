@@ -1,7 +1,7 @@
 {
   "biomeSettings": {
     "moderner_beta:provider": "moderner_beta:single",
-    "moderner_beta:single_biome": "moderner_beta:alpha"
+    "moderner_beta:single_biome": "moderner_beta:infdev_415"
   },
   "caveBiomeSettings": {
     "moderner_beta:provider": "moderner_beta:none"
@@ -11,104 +11,104 @@
       "fixCaveBorders": false,
       "forceBetaCanyons": true,
       "forceBetaCaves": true,
-      "seedMethod": "beta",
+      "seedMethod": "modern",
       "useCarvers": true,
       "useNoiseCaves": false
     },
     "moderner_beta:deepslate_generation": {
       "block": "minecraft:deepslate",
-      "enabled": false,
+      "enabled": true,
       "maxY": 8,
       "minY": 0
     },
     "moderner_beta:noise_3d_settings": {
-      "arraySurfaceNoise": true,
+      "arraySurfaceNoise": false,
       "climateHeightScaling": false,
-      "monoliths": true,
-      "oldInfdevTerrainNoise": false,
-      "pocketEditionRng": true,
+      "monoliths": false,
+      "oldInfdevTerrainNoise": true,
+      "pocketEditionRng": false,
       "simplexSurfaceNoise": false
     },
-    "moderner_beta:noise_generator_settings": "moderner_beta:overworld_128",
+    "moderner_beta:noise_generator_settings": "moderner_beta:infdev_415",
     "moderner_beta:noise_landmass": {
-      "alphaSampling": true,
+      "alphaSampling": false,
       "depth": {
-        "enabled": true,
+        "enabled": false,
         "influence": 1.0,
         "maxValue": 0.16666667,
-        "minValue": -0.35714287,
-        "negativeDampening": 5.6,
+        "minValue": -0.71428573,
+        "negativeDampening": 2.8,
         "negativeFlattening": true,
         "negativeInfluence": 1.0,
         "offset": -3.0,
         "positiveDampening": 6.0,
-        "sample": true,
+        "sample": false,
         "stretch": 3.0
       },
       "scale": {
-        "enabled": true,
+        "enabled": false,
         "influence": 1.0,
         "offset": 0.5,
-        "sample": true,
+        "sample": false,
         "variation": 1.0
       }
     },
     "moderner_beta:noise_scale": {
-      "baseSize": 8.5,
+      "baseSize": 16.0,
       "coordinate": 684.412,
-      "densityUnderdamp": 4.0,
+      "densityUnderdamp": 3.0,
       "depthNoiseX": 100.0,
       "depthNoiseZ": 100.0,
       "fixedOffset": 1.0,
-      "forestNoiseOctaves": 8,
-      "height": 684.412,
-      "limitBlending": 10.0,
+      "forestNoiseOctaves": 5,
+      "height": 984.412,
+      "limitBlending": 1.0,
       "lowerLimit": 512.0,
       "mainNoiseX": 80.0,
-      "mainNoiseY": 160.0,
+      "mainNoiseY": 575.333,
       "mainNoiseZ": 80.0,
-      "stretchY": 12.0,
+      "stretchY": 4.0,
       "upperLimit": 512.0,
       "useFixedOffset": false
     },
     "moderner_beta:forced_biome_height": {
-      "depthOffset": 0.1,
-      "scaleWeight": 0.7,
+      "depthOffset": 0.2,
+      "scaleWeight": 2.6,
       "scaleOffset": 0.2,
-      "modifyOnlyPositiveDepth": true,
+      "modifyOnlyPositiveDepth": false,
       "enabled": true,
       "heightOverrides": {
-        "minecraft:river": "-0.4;-0.75",
-        "minecraft:ocean": "-0.4;-0.75",
-        "minecraft:deep_ocean": "-0.4;-0.75"
+        "minecraft:ocean": "-1.2;-0.9",
+        "minecraft:deep_ocean": "-1.2;-0.9",
+        "minecraft:river": "-0.9;-0.75"
       },
-      "depthWeight": 0.9
+      "depthWeight": 1.0
     },
     "moderner_beta:noise_slide": {
       "bottomOffset": 0,
-      "bottomSize": 3,
-      "bottomTarget": 15,
+      "bottomSize": 0,
+      "bottomTarget": 0,
       "topOffset": 0,
-      "topSize": 3,
-      "topTarget": -10
+      "topSize": 0,
+      "topTarget": 0
     },
     "moderner_beta:perlin_noise_settings": {
       "alpha2DSampling": true,
       "failurePoint": 2147483647,
-      "infdevNoiseScaling": false,
+      "infdevNoiseScaling": true,
       "randomNoiseOffsets": true,
       "wrapped": false
     },
     "moderner_beta:provider": "moderner_beta:noise_3d",
     "moderner_beta:surface_properties": {
       "bedrockHoles": true,
-      "enableBeaches": false,
+      "enableBeaches": true,
       "erosion": true,
       "flipNoiseCoordinates": true,
-      "generateBeaches": false,
+      "generateBeaches": true,
       "generateBedrock": true,
       "generateLiquids": true,
-      "generateSandstone": true,
+      "generateSandstone": false,
       "gravelBeachScale": 0.03125,
       "gravelOceanBed": false,
       "sandBeachScale": 0.03125,
@@ -117,10 +117,10 @@
     "moderner_beta:use_surface_rules": true
   },
   "description": {
-    "translate": "createWorld.customize.modern_beta.preset.desc.moderner_beta.alpha"
+    "translate": "createWorld.customize.gamma.preset.desc.gamma.alternative"
   },
   "name": {
     "color": "yellow",
-    "translate": "createWorld.customize.modern_beta.preset.name.moderner_beta.alpha"
+    "translate": "createWorld.customize.gamma.preset.name.gamma.alternative"
   }
 }

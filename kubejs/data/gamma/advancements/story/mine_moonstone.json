@@ -1,19 +1,20 @@
 {
+  "parent": "gamma:story/craft_diamond_pickaxe",
+  "criteria": {
+    "corrupt_portal": {
+      "trigger": "coraline_systems:mine_moonstone"
+    }
+  },
   "display": {
+    "announce_to_chat": true,
+    "description": "Mine Moonstone during Full Moon to...",
+    "frame": "challenge",
+    "hidden": false,
     "icon": {
       "item": "kubejs:moonstone"
     },
-    "title": "Moon Shaped Pool",
-    "description": "Mine Moonstone during Full Moon to...",
-    "frame": "challenge",
     "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
+    "title": "Moon Shaped Pool"
   },
-  "parent": "gamma:story/craft_diamond_pickaxe",
-    "criteria": {
-      "lawn_insane": {
-      "trigger": "minecraft:impossible"
-    }
-  }
+  "sends_telemetry_event": true
 }
