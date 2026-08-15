@@ -19,6 +19,12 @@
     "water": false
   },
   "moderner_beta:config/biome_preview_colors": {
+    "gamma:andesite_crags": 8359572,
+    "gamma:cornflower_grove": 8360402,
+    "gamma:deep_forest": 5145683,
+    "gamma:radiant_forest": 12747859,
+    "gamma:snow_world": 12900804,
+    "gamma:still_woods": 10334618,
     "minecraft:river*region_a": 8323327,
     "minecraft:stony_peaks": 8097652,
     "moderner_beta:beta_forest": 353825,

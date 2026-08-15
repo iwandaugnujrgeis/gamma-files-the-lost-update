@@ -6,6 +6,17 @@
   "createWorld.customize.modern_beta.preset.desc.gamma.alternative": "Mostly Infdev 415 generator, with the intended selection of biomes!",
   "createWorld.customize.modern_beta.preset.name.gamma.alternative": "Alternative",
 
+  "createWorld.customize.gamma.preset.desc.gamma.classic": "A preset based on Infdev 227 generator",
+  "createWorld.customize.gamma.preset.name.gamma.classic": "Classic",
+
+  "biome.gamma.andesite_crags": "Andesite Crags",
+  "biome.gamma.underground": "Underground",
+  "biome.gamma.cornflower_grove": "Cornflower Grove",
+  "biome.gamma.deep_forest": "Deep Forest",
+  "biome.gamma.radiant_forest": "Radiant Forest",
+  "biome.gamma.snow_world": "Snow World",
+  "biome.gamma.still_woods": "Still Woods",
+
 //Paintings:
   "painting.gamma.apples.author": "Kristoffer Zetterstrand",
   "painting.gamma.apples.title": "Apples and Dried Flowers",
