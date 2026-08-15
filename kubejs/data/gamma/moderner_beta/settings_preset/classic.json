@@ -1,0 +1,46 @@
+{
+  "description": {
+    "translate": "createWorld.customize.gamma.preset.desc.gamma.classic"
+  },
+  "name": {
+    "color": "green",
+    "translate": "createWorld.customize.gamma.preset.name.gamma.classic"
+  },
+  "biomeSettings": {
+    "moderner_beta:provider": "moderner_beta:single",
+    "moderner_beta:single_biome": "moderner_beta:infdev_227"
+  },
+  "caveBiomeSettings": {
+    "moderner_beta:provider": "moderner_beta:none"
+  },
+  "chunkSettings": {
+    "moderner_beta:cave_generation": {
+      "fixCaveBorders": false,
+      "forceBetaCanyons": true,
+      "forceBetaCaves": true,
+      "seedMethod": "modern",
+      "useCarvers": true,
+      "useNoiseCaves": false
+    },
+    "moderner_beta:deepslate_generation": {
+      "block": "minecraft:deepslate",
+      "enabled": true,
+      "maxY": -38,
+      "minY": -30
+    },
+    "moderner_beta:infdev_227_structures": {
+      "brickPyramids": false,
+      "obsidianWalls": true
+    },
+    "moderner_beta:noise_generator_settings": "moderner_beta:overworld_128",
+    "moderner_beta:perlin_noise_settings": {
+      "alpha2DSampling": true,
+      "failurePoint": 2147483647,
+      "infdevNoiseScaling": true,
+      "randomNoiseOffsets": true,
+      "wrapped": false
+    },
+    "moderner_beta:provider": "moderner_beta:infdev_227",
+    "moderner_beta:use_surface_rules": true
+  }
+}
