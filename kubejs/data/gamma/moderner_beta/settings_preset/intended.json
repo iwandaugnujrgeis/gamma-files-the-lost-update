@@ -13,7 +13,7 @@
       "seedMethod": "modern",
       "useCarvers": true,
       "useNoiseCaves": false,
-      "fixCaveBorders": false
+      "fixCaveBorders": true
     },
     "moderner_beta:provider": "moderner_beta:noise_3d",
     "moderner_beta:surface_properties": {
@@ -123,13 +123,11 @@
         "moderner_beta:biome": "land"
       },
       "pipeline": [
-
-        // ── 1. LAND SKELETON ─────────────────────────────────────────
         {
           "type": "moderner_beta:init_land",
           "id": "land",
           "seed": 1,
-          "landChance": 10
+          "landChance": 5
         },
         {
           "type": "moderner_beta:fuzzy_zoom",
@@ -145,8 +143,8 @@
           "betaShape": false,
           "land": "minecraft:plains",
           "ocean": "minecraft:ocean",
-          "landChance": 3,
-          "oceanChance": 16
+          "landChance": 2,
+          "oceanChance": 5
         },
         {
           "type": "moderner_beta:modal_zoom",
@@ -162,8 +160,8 @@
           "betaShape": false,
           "land": "minecraft:plains",
           "ocean": "minecraft:ocean",
-          "landChance": 3,
-          "oceanChance": 16
+          "landChance": 2,
+          "oceanChance": 5
         },
         {
           "type": "moderner_beta:modal_zoom",
@@ -179,11 +177,35 @@
           "betaShape": false,
           "land": "minecraft:plains",
           "ocean": "minecraft:ocean",
-          "landChance": 3,
-          "oceanChance": 16
+          "landChance": 2,
+          "oceanChance": 5
         },
-
-        // ── 2. MUSHROOM ISLAND ────────────────────────────────────────
+        {
+          "type": "moderner_beta:modal_zoom",
+          "parent": "land",
+          "id": "land",
+          "seed": 2003
+        },
+        {
+          "type": "moderner_beta:add_land",
+          "parent": "land",
+          "id": "land",
+          "seed": 4,
+          "betaShape": false,
+          "land": "minecraft:plains",
+          "ocean": "minecraft:ocean",
+          "landChance": 3,
+          "oceanChance": 6
+        },
+        {
+          "type": "moderner_beta:biome_replacement",
+          "parent": "land",
+          "id": "land",
+          "seed": 10,
+          "targets": {
+            "minecraft:ocean": { "type": "biome", "value": "minecraft:plains" }
+          }
+        },
         {
           "type": "moderner_beta:conditional_overlay",
           "parent": "land",
@@ -192,19 +214,31 @@
           "predicate": {
             "condition": "moderner_beta:all_of",
             "terms": [
-              { "condition": "moderner_beta:single_match", "biome": "minecraft:ocean" },
-              { "condition": "moderner_beta:identical_neighbor", "diagonal": true, "requiredCount": 4 },
-              { "condition": "moderner_beta:random_chance", "numerator": 1, "denominator": 100 }
+              {
+                "condition": "moderner_beta:single_match",
+                "biome": "minecraft:ocean"
+              },
+              {
+                "condition": "moderner_beta:identical_neighbor",
+                "diagonal": true,
+                "requiredCount": 4
+              },
+              {
+                "condition": "moderner_beta:random_chance",
+                "numerator": 1,
+                "denominator": 100
+              }
             ]
           },
-          "onMatch":   { "type": "biome", "value": "minecraft:mushroom_fields" },
-          "otherwise": { "type": "biome", "value": "minecraft:the_void*null" }
+          "onMatch": {
+            "type": "biome",
+            "value": "minecraft:mushroom_fields"
+          },
+          "otherwise": {
+            "type": "biome",
+            "value": "minecraft:the_void*null"
+          }
         },
-
-        // ── 3. BIOME POOLS ────────────────────────────────────────────
-
-        // CHANGED: removed cornflower_grove, still_woods, flower_forest —
-        // they are now handled as rare mutations in step 5 instead
         {
           "type": "moderner_beta:random_biome",
           "id": "biome_pool_common",
@@ -237,11 +271,22 @@
           "id": "biome_pool_taiga_rare",
           "seed": 202,
           "targets": [
-            { "weight": 1, "data": { "type": "biome", "value": "minecraft:old_growth_pine_taiga" } },
-            { "weight": 1, "data": { "type": "biome", "value": "minecraft:old_growth_spruce_taiga" } }
+            {
+              "weight": 1,
+              "data": {
+                "type": "biome",
+                "value": "minecraft:old_growth_pine_taiga"
+              }
+            },
+            {
+              "weight": 1,
+              "data": {
+                "type": "biome",
+                "value": "minecraft:old_growth_spruce_taiga"
+              }
+            }
           ]
         },
-        // ADDED: rare mutation pools for the three common mutated biomes
         {
           "type": "moderner_beta:constant_biome",
           "id": "biome_pool_forest_rare",
@@ -263,27 +308,36 @@
         {
           "type": "moderner_beta:weighted_pool",
           "id": "biome_pool_main",
-          "seed": 206,
+          "seed": 203,
           "targets": [
-            { "weight": 3, "data": { "type": "layer", "value": "biome_pool_common" } },
-            { "weight": 1, "data": { "type": "layer", "value": "biome_pool_cold" } }
+            {
+              "weight": 3,
+              "data": {
+                "type": "layer",
+                "value": "biome_pool_common"
+              }
+            },
+            {
+              "weight": 1,
+              "data": {
+                "type": "layer",
+                "value": "biome_pool_cold"
+              }
+            }
           ]
         },
-
-        // ── 4. ASSIGN BIOMES TO LAND ──────────────────────────────────
         {
           "type": "moderner_beta:biome_replacement",
           "parent": "land",
           "id": "land",
           "seed": 0,
           "targets": {
-            "minecraft:plains": { "type": "layer", "value": "biome_pool_main" }
+            "minecraft:plains": {
+              "type": "layer",
+              "value": "biome_pool_main"
+            }
           }
         },
-
-        // ── 5. MUTATED VARIANTS ───────────────────────────────────────
-        // CHANGED: now handles all four mutation cases consistently.
-        // Each base biome has a 1-in-8 chance to promote to its mutated variant.
         {
           "type": "moderner_beta:predicate_overlay",
           "parent": "land",
@@ -294,8 +348,15 @@
               "predicate": {
                 "condition": "moderner_beta:all_of",
                 "terms": [
-                  { "condition": "moderner_beta:single_match", "biome": "minecraft:taiga" },
-                  { "condition": "moderner_beta:random_chance", "numerator": 1, "denominator": 8 }
+                  {
+                    "condition": "moderner_beta:single_match",
+                    "biome": "minecraft:taiga"
+                  },
+                  {
+                    "condition": "moderner_beta:random_chance",
+                    "numerator": 1,
+                    "denominator": 8
+                  }
                 ]
               },
               "result": "biome_pool_taiga_rare",
@@ -305,8 +366,15 @@
               "predicate": {
                 "condition": "moderner_beta:all_of",
                 "terms": [
-                  { "condition": "moderner_beta:single_match", "biome": "minecraft:forest" },
-                  { "condition": "moderner_beta:random_chance", "numerator": 1, "denominator": 3 }
+                  {
+                    "condition": "moderner_beta:single_match",
+                    "biome": "minecraft:forest"
+                  },
+                  {
+                    "condition": "moderner_beta:random_chance",
+                    "numerator": 1,
+                    "denominator": 8
+                  }
                 ]
               },
               "result": "biome_pool_forest_rare",
@@ -316,8 +384,15 @@
               "predicate": {
                 "condition": "moderner_beta:all_of",
                 "terms": [
-                  { "condition": "moderner_beta:single_match", "biome": "minecraft:dark_forest" },
-                  { "condition": "moderner_beta:random_chance", "numerator": 1, "denominator": 4 }
+                  {
+                    "condition": "moderner_beta:single_match",
+                    "biome": "minecraft:dark_forest"
+                  },
+                  {
+                    "condition": "moderner_beta:random_chance",
+                    "numerator": 1,
+                    "denominator": 8
+                  }
                 ]
               },
               "result": "biome_pool_dark_forest_rare",
@@ -327,8 +402,15 @@
               "predicate": {
                 "condition": "moderner_beta:all_of",
                 "terms": [
-                  { "condition": "moderner_beta:single_match", "biome": "minecraft:birch_forest" },
-                  { "condition": "moderner_beta:random_chance", "numerator": 1, "denominator": 4 }
+                  {
+                    "condition": "moderner_beta:single_match",
+                    "biome": "minecraft:birch_forest"
+                  },
+                  {
+                    "condition": "moderner_beta:random_chance",
+                    "numerator": 1,
+                    "denominator": 8
+                  }
                 ]
               },
               "result": "biome_pool_birch_rare",
@@ -336,9 +418,6 @@
             }
           ]
         },
-
-        // ── 6. SCALE UP ───────────────────────────────────────────────
-        // CHANGED: level bumped from 2 → 3 to make biomes larger
         {
           "type": "moderner_beta:stacked_zoom",
           "parent": "land",
@@ -348,8 +427,6 @@
           "seedModifier": 1,
           "zoomType": "modal"
         },
-
-        // ── 7. DEEP OCEAN ─────────────────────────────────────────────
         /*
         {
           "type": "moderner_beta:conditional_overlay",
@@ -367,8 +444,6 @@
           "otherwise": { "type": "biome", "value": "minecraft:the_void*null" }
         },
         */
-
-        // ── 8. FINAL ZOOM + SMOOTH ────────────────────────────────────
         {
           "type": "moderner_beta:stacked_zoom",
           "parent": "land",
@@ -384,8 +459,6 @@
           "id": "land",
           "seed": 1000
         },
-
-        // ── 9. RIVER ──────────────────────────────────────────────────
         {
           "type": "moderner_beta:init_river",
           "parent": "land",
@@ -414,8 +487,6 @@
           "id": "river",
           "seed": 1000
         },
-
-        // ── 10. MIX RIVERS ────────────────────────────────────────────
         {
           "type": "moderner_beta:mix_river",
           "parent": "land",
@@ -427,12 +498,10 @@
             "minecraft:ocean"
           ],
           "biomeSpecificRivers": {
-            "minecraft:mushroom_fields":       "minecraft:mushroom_fields*shore",
+            "minecraft:mushroom_fields": "minecraft:mushroom_fields*shore",
             "minecraft:mushroom_fields*shore": "minecraft:mushroom_fields*shore"
           }
         },
-
-        // ── 11. FROZEN RIVER ──────────────────────────────────────────
         {
           "type": "moderner_beta:predicate_overlay",
           "parent": "land",
@@ -443,7 +512,10 @@
               "predicate": {
                 "condition": "moderner_beta:all_of",
                 "terms": [
-                  { "condition": "moderner_beta:single_match", "biome": "minecraft:river" },
+                  {
+                    "condition": "moderner_beta:single_match",
+                    "biome": "minecraft:river"
+                  },
                   {
                     "condition": "moderner_beta:neighbor_match",
                     "requiredCount": 1,
@@ -464,7 +536,6 @@
             }
           ]
         }
-
       ]
     }
   },
