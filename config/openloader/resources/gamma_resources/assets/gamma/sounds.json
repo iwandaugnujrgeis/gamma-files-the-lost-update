@@ -102,6 +102,14 @@
         "name": "gamma:music/creative/depado",
         "stream": true,
         "volume": 1.0
+      },
+      {
+        "name": "gamma:music/aeiouw",
+        "stream": true
+      },
+      {
+        "name": "gamma:music/beton",
+        "stream": true
       }
     ]
   },
@@ -152,6 +160,14 @@
       },
       {
         "name": "gamma:music/nether/lack",
+        "stream": true
+      },
+      {
+        "name": "gamma:music/aeiouw",
+        "stream": true
+      },
+      {
+        "name": "gamma:music/beton",
         "stream": true
       }
     ]

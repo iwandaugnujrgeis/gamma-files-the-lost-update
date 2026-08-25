@@ -81,8 +81,9 @@
       "minecraft:trees_birch_and_oak",
       "minecraft:flower_default",
       "minecraft:patch_grass_normal",
-      "minecraft:brown_mushroom_normal",
-      "minecraft:red_mushroom_normal",
+      "gamma:patch_grass_ferns",
+      "minecraft:patch_dead_bush",
+      "gamma:patch_other_mushrooms",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin"
     ],

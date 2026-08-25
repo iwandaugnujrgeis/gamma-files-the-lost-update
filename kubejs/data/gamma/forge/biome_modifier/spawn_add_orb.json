@@ -6,7 +6,7 @@
       "type": "coraline_systems:orb",
       "maxCount": 3,
       "minCount": 1,
-      "weight": 100
+      "weight": 40
     }
   ]
 }

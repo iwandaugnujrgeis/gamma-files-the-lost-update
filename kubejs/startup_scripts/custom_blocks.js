@@ -46,6 +46,40 @@ StartupEvents.registry('block', event => {
   })
   */
 
+  event.create('test_wool1')
+    .displayName('Test1')
+    .textureAll('gamma:block/test_wool1')
+    .soundType('wool')
+    .hardness(2)
+    .resistance(2)
+    .tagBlock('minecraft:wool')
+
+  event.create('test_wool2')
+    .displayName('Test2')
+    .textureAll('gamma:block/test_wool2')
+    .soundType('wool')
+    .hardness(2)
+    .resistance(2)
+    .tagBlock('minecraft:wool')
+
+  event.create('test_wool3')
+    .displayName('Test3')
+    .textureAll('gamma:block/test_wool3')
+    .soundType('wool')
+    .hardness(2)
+    .resistance(2)
+    .tagBlock('minecraft:wool')
+
+  event.create('test_wool4')
+    .displayName('Test4')
+    .textureAll('gamma:block/test_wool4')
+    .soundType('wool')
+    .hardness(2)
+    .resistance(2)
+    .tagBlock('minecraft:wool')
+
+// ---
+
   event.create('smooth_stone_bricks')
     .displayName('Smooth Stone Bricks')
     .textureAll('gamma:block/smooth_stone_bricks')
@@ -66,7 +100,7 @@ StartupEvents.registry('block', event => {
     .requiresTool(true)
 
   event.create('moonstone')
-    .displayName('§bMoonstone')
+    .displayName('Moonstone')
     .textureAll('gamma:block/moonstone')
     .soundType('lodestone')
     .hardness(4)
@@ -84,14 +118,16 @@ StartupEvents.registry('block', event => {
     .tagBlock('minecraft:mineable/pickaxe')
     .requiresTool(true)
 
+/*
   event.create('suspicious_block')
-    .displayName('§bSuspicious Block')
+    .displayName('Suspicious Block')
     .textureAll('gamma:block/debug2')
     .soundType('amethyst')
     .hardness(3)
     .resistance(2)
     .tagBlock('minecraft:mineable/pickaxe')
     .requiresTool(true)
+    */
 
   event.create('lava_lamp')
     .displayName('Lava Lamp')
@@ -102,7 +138,7 @@ StartupEvents.registry('block', event => {
     .lightLevel(1.0)
 
   event.create('mysterious_cobblestone')
-    .displayName('§dMysterious Mossy Cobblestone')
+    .displayName('Mysterious Mossy Cobblestone')
     .textureAll('gamma:block/mysterious_cobblestone')
     .soundType('stone')
     .hardness(2)
@@ -111,7 +147,7 @@ StartupEvents.registry('block', event => {
     .requiresTool(true)
 
   event.create('gloomy_tiles')
-    .displayName('§eGloomy Tiles')
+    .displayName('Gloomy Tiles')
     .textureAll('gamma:block/gloomy_tiles')
     .soundType('nether_bricks')
     .hardness(2)
@@ -120,7 +156,7 @@ StartupEvents.registry('block', event => {
     .requiresTool(true)
 
   event.create('gloomy_tiles_slab', 'slab')
-    .displayName('§eGloomy Tiles Slab')
+    .displayName('Gloomy Tiles Slab')
     .textureAll('gamma:block/gloomy_tiles')
     .soundType('nether_bricks')
     .hardness(2)
@@ -129,7 +165,7 @@ StartupEvents.registry('block', event => {
     .requiresTool(true)
 
   event.create('gloomy_tiles_stairs', 'stairs')
-    .displayName('§eGloomy Tiles Stairs')
+    .displayName('Gloomy Tiles Stairs')
     .textureAll('gamma:block/gloomy_tiles')
     .soundType('nether_bricks')
     .hardness(2)
@@ -138,7 +174,7 @@ StartupEvents.registry('block', event => {
     .requiresTool(true)
 
   event.create('gloomy_tiles_wall', 'wall')
-    .displayName('§eGloomy Tiles Wall')
+    .displayName('Gloomy Tiles Wall')
     .textureAll('gamma:block/gloomy_tiles')
     .soundType('nether_bricks')
     .hardness(2)
@@ -156,7 +192,7 @@ StartupEvents.registry('block', event => {
     .requiresTool(true)
 
   event.create('mysterious_stone')
-    .displayName('§dPlaceholderite')
+    .displayName('Placeholderite')
     .model('gamma:block/mysterious_stone')
     .soundType('amethyst')
     .hardness(2)

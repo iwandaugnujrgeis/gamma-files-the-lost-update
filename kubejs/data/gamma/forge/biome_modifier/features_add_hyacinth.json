@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
-  "biomes": "minecraft:swamp",
+  "biomes": "gamma:null",
   "features": "atmospheric:patch_water_hyacinth",
   "step": "vegetal_decoration"
 }

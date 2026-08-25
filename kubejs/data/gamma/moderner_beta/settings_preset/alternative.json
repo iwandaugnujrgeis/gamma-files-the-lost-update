@@ -16,10 +16,10 @@
       "useNoiseCaves": false
     },
     "moderner_beta:deepslate_generation": {
-      "block": "minecraft:deepslate",
-      "enabled": true,
-      "maxY": 8,
-      "minY": 0
+      "enabled": false,
+      "minY": -14,
+      "maxY": -22,
+      "block": "minecraft:deepslate"
     },
     "moderner_beta:noise_3d_settings": {
       "arraySurfaceNoise": false,
@@ -101,7 +101,7 @@
     },
     "moderner_beta:provider": "moderner_beta:noise_3d",
     "moderner_beta:surface_properties": {
-      "bedrockHoles": true,
+      "bedrockHoles": false,
       "enableBeaches": true,
       "erosion": true,
       "flipNoiseCoordinates": true,

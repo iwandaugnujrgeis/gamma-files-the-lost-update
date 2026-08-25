@@ -273,7 +273,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "kubejs:soul_dust",
+          "name": "coraline_systems:timedust",
           "weight": 10
         },
         {

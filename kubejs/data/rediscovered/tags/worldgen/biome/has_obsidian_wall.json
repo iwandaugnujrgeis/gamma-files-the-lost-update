@@ -1,5 +1,7 @@
 {
   "values": [
-    "#rediscovered:is_skylands"
+    "#rediscovered:is_skylands",
+    "#minecraft:is_nether",
+    "#minecraft:is_overworld"
   ]
 }

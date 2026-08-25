@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "minecraft:mega_pine_checked",
+    "features": []
+  }
+}

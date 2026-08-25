@@ -18,34 +18,34 @@ craftingTable.addShaped("copper_button", <item:friendsandfoes:copper_button> * 2
   craftingTable.remove(<item:friendsandfoes:exposed_copper_button>);
   craftingTable.addShapeless("exposed_copper_button", <item:friendsandfoes:exposed_copper_button>, 
     [<item:friendsandfoes:copper_button>, 
-    <item:kubejs:soul_dust>]);
+    <item:coraline_systems:timedust>]);
 
   craftingTable.remove(<item:friendsandfoes:weathered_copper_button>);
   craftingTable.addShapeless("weathered_copper_button", <item:friendsandfoes:weathered_copper_button>, 
     [<item:friendsandfoes:exposed_copper_button>, 
-    <item:kubejs:soul_dust>]);
+    <item:coraline_systems:timedust>]);
 
   craftingTable.remove(<item:friendsandfoes:oxidized_copper_button>);
   craftingTable.addShapeless("oxidized_copper_button", <item:friendsandfoes:oxidized_copper_button>, 
     [<item:friendsandfoes:weathered_copper_button>, 
-    <item:kubejs:soul_dust>]);
+    <item:coraline_systems:timedust>]);
 
 //Lightning Rods:
 //Oxidized Lightning Rods:
   craftingTable.remove(<item:friendsandfoes:exposed_lightning_rod>);
   craftingTable.addShapeless("exposed_lightning_rod", <item:friendsandfoes:exposed_lightning_rod>, 
     [<item:minecraft:lightning_rod>, 
-    <item:kubejs:soul_dust>]);
+    <item:coraline_systems:timedust>]);
 
   craftingTable.remove(<item:friendsandfoes:weathered_lightning_rod>);
   craftingTable.addShapeless("weathered_lightning_rod", <item:friendsandfoes:weathered_lightning_rod>, 
     [<item:friendsandfoes:exposed_lightning_rod>, 
-    <item:kubejs:soul_dust>]);
+    <item:coraline_systems:timedust>]);
 
   craftingTable.remove(<item:friendsandfoes:oxidized_lightning_rod>);
   craftingTable.addShapeless("oxidized_lightning_rod", <item:friendsandfoes:oxidized_lightning_rod>, 
     [<item:friendsandfoes:weathered_lightning_rod>, 
-    <item:kubejs:soul_dust>]);
+    <item:coraline_systems:timedust>]);
 
 //Copper Trapdoors:
 craftingTable.remove(<item:caverns_and_chasms:copper_trapdoor>);
@@ -57,17 +57,17 @@ craftingTable.addShaped("copper_trapdoor", <item:caverns_and_chasms:copper_trapd
   craftingTable.remove(<item:caverns_and_chasms:exposed_copper_trapdoor>);
   craftingTable.addShapeless("exposed_copper_trapdoor", <item:caverns_and_chasms:exposed_copper_trapdoor>, 
     [<item:caverns_and_chasms:copper_trapdoor>, 
-    <item:kubejs:soul_dust>]);
+    <item:coraline_systems:timedust>]);
 
   craftingTable.remove(<item:caverns_and_chasms:weathered_copper_trapdoor>);
   craftingTable.addShapeless("weathered_copper_trapdoor", <item:caverns_and_chasms:weathered_copper_trapdoor>, 
     [<item:caverns_and_chasms:exposed_copper_trapdoor>, 
-    <item:kubejs:soul_dust>]);
+    <item:coraline_systems:timedust>]);
 
   craftingTable.remove(<item:caverns_and_chasms:oxidized_copper_trapdoor>);
   craftingTable.addShapeless("oxidized_copper_trapdoor", <item:caverns_and_chasms:oxidized_copper_trapdoor>, 
     [<item:caverns_and_chasms:weathered_copper_trapdoor>, 
-    <item:kubejs:soul_dust>]);
+    <item:coraline_systems:timedust>]);
 
   //Waxed Trapdoors:
   craftingTable.remove(<item:caverns_and_chasms:waxed_copper_trapdoor>);
@@ -101,17 +101,17 @@ craftingTable.addShaped("copper_bulb", <item:caverns_and_chasms:copper_bulb>, [
   craftingTable.remove(<item:caverns_and_chasms:exposed_copper_bulb>);
   craftingTable.addShapeless("exposed_copper_bulb", <item:caverns_and_chasms:exposed_copper_bulb>, 
     [<item:caverns_and_chasms:copper_bulb>, 
-    <item:kubejs:soul_dust>]);
+    <item:coraline_systems:timedust>]);
 
   craftingTable.remove(<item:caverns_and_chasms:weathered_copper_bulb>);
   craftingTable.addShapeless("weathered_copper_bulb", <item:caverns_and_chasms:weathered_copper_bulb>, 
     [<item:caverns_and_chasms:exposed_copper_bulb>, 
-    <item:kubejs:soul_dust>]);
+    <item:coraline_systems:timedust>]);
 
   craftingTable.remove(<item:caverns_and_chasms:oxidized_copper_bulb>);
   craftingTable.addShapeless("oxidized_copper_bulb", <item:caverns_and_chasms:oxidized_copper_bulb>, 
     [<item:caverns_and_chasms:weathered_copper_bulb>, 
-    <item:kubejs:soul_dust>]);
+    <item:coraline_systems:timedust>]);
 
   //Waxed Bulbs:
   craftingTable.remove(<item:caverns_and_chasms:waxed_copper_bulb>);
@@ -147,21 +147,21 @@ craftingTable.addShaped("copper_grate", <item:caverns_and_chasms:copper_grate> *
   stoneCutter.remove(<item:caverns_and_chasms:exposed_copper_grate>);
   craftingTable.addShaped("exposed_copper_grate", <item:caverns_and_chasms:exposed_copper_grate> * 8, [
     [<item:caverns_and_chasms:copper_grate>, <item:caverns_and_chasms:copper_grate>, <item:caverns_and_chasms:copper_grate>],
-    [<item:caverns_and_chasms:copper_grate>, <item:kubejs:soul_dust>, <item:caverns_and_chasms:copper_grate>],
+    [<item:caverns_and_chasms:copper_grate>, <item:coraline_systems:timedust>, <item:caverns_and_chasms:copper_grate>],
     [<item:caverns_and_chasms:copper_grate>, <item:caverns_and_chasms:copper_grate>, <item:caverns_and_chasms:copper_grate>]]);
 
   craftingTable.remove(<item:caverns_and_chasms:weathered_copper_grate>);
   stoneCutter.remove(<item:caverns_and_chasms:weathered_copper_grate>);
   craftingTable.addShaped("weathered_copper_grate", <item:caverns_and_chasms:weathered_copper_grate> * 8, [
     [<item:caverns_and_chasms:exposed_copper_grate>, <item:caverns_and_chasms:exposed_copper_grate>, <item:caverns_and_chasms:exposed_copper_grate>],
-    [<item:caverns_and_chasms:exposed_copper_grate>, <item:kubejs:soul_dust>, <item:caverns_and_chasms:exposed_copper_grate>],
+    [<item:caverns_and_chasms:exposed_copper_grate>, <item:coraline_systems:timedust>, <item:caverns_and_chasms:exposed_copper_grate>],
     [<item:caverns_and_chasms:exposed_copper_grate>, <item:caverns_and_chasms:exposed_copper_grate>, <item:caverns_and_chasms:exposed_copper_grate>]]);
 
   craftingTable.remove(<item:caverns_and_chasms:oxidized_copper_grate>);
   stoneCutter.remove(<item:caverns_and_chasms:oxidized_copper_grate>);
   craftingTable.addShaped("oxidized_copper_grate", <item:caverns_and_chasms:oxidized_copper_grate> * 8, [
     [<item:caverns_and_chasms:weathered_copper_grate>, <item:caverns_and_chasms:weathered_copper_grate>, <item:caverns_and_chasms:weathered_copper_grate>],
-    [<item:caverns_and_chasms:weathered_copper_grate>, <item:kubejs:soul_dust>, <item:caverns_and_chasms:weathered_copper_grate>],
+    [<item:caverns_and_chasms:weathered_copper_grate>, <item:coraline_systems:timedust>, <item:caverns_and_chasms:weathered_copper_grate>],
     [<item:caverns_and_chasms:weathered_copper_grate>, <item:caverns_and_chasms:weathered_copper_grate>, <item:caverns_and_chasms:weathered_copper_grate>]]);
 
   //Waxed Grates:
@@ -200,17 +200,17 @@ craftingTable.addShaped("copper_door", <item:caverns_and_chasms:copper_door> * 3
   craftingTable.remove(<item:caverns_and_chasms:exposed_copper_door>);
   craftingTable.addShapeless("exposed_copper_door", <item:caverns_and_chasms:exposed_copper_door>, 
     [<item:caverns_and_chasms:copper_door>, 
-    <item:kubejs:soul_dust>]);
+    <item:coraline_systems:timedust>]);
 
   craftingTable.remove(<item:caverns_and_chasms:weathered_copper_door>);
   craftingTable.addShapeless("weathered_copper_door", <item:caverns_and_chasms:weathered_copper_door>, 
     [<item:caverns_and_chasms:exposed_copper_door>, 
-    <item:kubejs:soul_dust>]);
+    <item:coraline_systems:timedust>]);
 
   craftingTable.remove(<item:caverns_and_chasms:oxidized_copper_door>);
   craftingTable.addShapeless("oxidized_copper_door", <item:caverns_and_chasms:oxidized_copper_door>, 
     [<item:caverns_and_chasms:weathered_copper_door>, 
-    <item:kubejs:soul_dust>]);
+    <item:coraline_systems:timedust>]);
 
   //Waxed Doors:
   craftingTable.remove(<item:caverns_and_chasms:waxed_copper_door>);
@@ -239,21 +239,21 @@ craftingTable.addShaped("copper_door", <item:caverns_and_chasms:copper_door> * 3
   stoneCutter.remove(<item:minecraft:exposed_copper>);
   craftingTable.addShaped("exposed_copper", <item:minecraft:exposed_copper> * 8, [
     [<item:minecraft:copper_block>, <item:minecraft:copper_block>, <item:minecraft:copper_block>],
-    [<item:minecraft:copper_block>, <item:kubejs:soul_dust>, <item:minecraft:copper_block>],
+    [<item:minecraft:copper_block>, <item:coraline_systems:timedust>, <item:minecraft:copper_block>],
     [<item:minecraft:copper_block>, <item:minecraft:copper_block>, <item:minecraft:copper_block>]]);
 
   craftingTable.remove(<item:minecraft:weathered_copper>);
   stoneCutter.remove(<item:minecraft:weathered_copper>);
   craftingTable.addShaped("weathered_copper", <item:minecraft:weathered_copper> * 8, [
     [<item:minecraft:exposed_copper>, <item:minecraft:exposed_copper>, <item:minecraft:exposed_copper>],
-    [<item:minecraft:exposed_copper>, <item:kubejs:soul_dust>, <item:minecraft:exposed_copper>],
+    [<item:minecraft:exposed_copper>, <item:coraline_systems:timedust>, <item:minecraft:exposed_copper>],
     [<item:minecraft:exposed_copper>, <item:minecraft:exposed_copper>, <item:minecraft:exposed_copper>]]);
 
   craftingTable.remove(<item:minecraft:oxidized_copper>);
   stoneCutter.remove(<item:minecraft:oxidized_copper>);
   craftingTable.addShaped("oxidized_copper", <item:minecraft:oxidized_copper> * 8, [
     [<item:minecraft:weathered_copper>, <item:minecraft:weathered_copper>, <item:minecraft:weathered_copper>],
-    [<item:minecraft:weathered_copper>, <item:kubejs:soul_dust>, <item:minecraft:weathered_copper>],
+    [<item:minecraft:weathered_copper>, <item:coraline_systems:timedust>, <item:minecraft:weathered_copper>],
     [<item:minecraft:weathered_copper>, <item:minecraft:weathered_copper>, <item:minecraft:weathered_copper>]]);
 
 //Copper Tiles:
@@ -286,7 +286,7 @@ stoneCutter.addRecipe("cut_copper_slab_stonecutter", <item:minecraft:cut_copper_
   stoneCutter.remove(<item:minecraft:exposed_cut_copper>);
   craftingTable.addShaped("exposed_cut_copper", <item:minecraft:exposed_cut_copper> * 8, [
     [<item:minecraft:cut_copper>, <item:minecraft:cut_copper>, <item:minecraft:cut_copper>],
-    [<item:minecraft:cut_copper>, <item:kubejs:soul_dust>, <item:minecraft:cut_copper>],
+    [<item:minecraft:cut_copper>, <item:coraline_systems:timedust>, <item:minecraft:cut_copper>],
     [<item:minecraft:cut_copper>, <item:minecraft:cut_copper>, <item:minecraft:cut_copper>]]);
 
     stoneCutter.addRecipe("exposed_cut_copper_stonecutter", <item:minecraft:exposed_cut_copper>, <item:minecraft:exposed_copper>);
@@ -299,7 +299,7 @@ stoneCutter.addRecipe("cut_copper_slab_stonecutter", <item:minecraft:cut_copper_
 
     craftingTable.addShaped("exposed_cut_copper_stairs_timedust", <item:minecraft:exposed_cut_copper_stairs> * 8, [
       [<item:minecraft:cut_copper_stairs>, <item:minecraft:cut_copper_stairs>, <item:minecraft:cut_copper_stairs>],
-      [<item:minecraft:cut_copper_stairs>, <item:kubejs:soul_dust>, <item:minecraft:cut_copper_stairs>],
+      [<item:minecraft:cut_copper_stairs>, <item:coraline_systems:timedust>, <item:minecraft:cut_copper_stairs>],
       [<item:minecraft:cut_copper_stairs>, <item:minecraft:cut_copper_stairs>, <item:minecraft:cut_copper_stairs>]]);
 
     stoneCutter.remove(<item:minecraft:exposed_cut_copper_stairs>);
@@ -316,7 +316,7 @@ stoneCutter.addRecipe("cut_copper_slab_stonecutter", <item:minecraft:cut_copper_
   stoneCutter.remove(<item:minecraft:weathered_cut_copper>);
   craftingTable.addShaped("weathered_cut_copper", <item:minecraft:weathered_cut_copper> * 8, [
     [<item:minecraft:exposed_cut_copper>, <item:minecraft:exposed_cut_copper>, <item:minecraft:exposed_cut_copper>],
-    [<item:minecraft:exposed_cut_copper>, <item:kubejs:soul_dust>, <item:minecraft:exposed_cut_copper>],
+    [<item:minecraft:exposed_cut_copper>, <item:coraline_systems:timedust>, <item:minecraft:exposed_cut_copper>],
     [<item:minecraft:exposed_cut_copper>, <item:minecraft:exposed_cut_copper>, <item:minecraft:exposed_cut_copper>]]);
 
     stoneCutter.addRecipe("weathered_cut_copper_stonecutter", <item:minecraft:weathered_cut_copper>, <item:minecraft:weathered_copper>);
@@ -329,7 +329,7 @@ stoneCutter.addRecipe("cut_copper_slab_stonecutter", <item:minecraft:cut_copper_
 
     craftingTable.addShaped("weathered_cut_copper_stairs_timedust", <item:minecraft:weathered_cut_copper_stairs> * 8, [
       [<item:minecraft:exposed_cut_copper_stairs>, <item:minecraft:exposed_cut_copper_stairs>, <item:minecraft:exposed_cut_copper_stairs>],
-      [<item:minecraft:exposed_cut_copper_stairs>, <item:kubejs:soul_dust>, <item:minecraft:exposed_cut_copper_stairs>],
+      [<item:minecraft:exposed_cut_copper_stairs>, <item:coraline_systems:timedust>, <item:minecraft:exposed_cut_copper_stairs>],
       [<item:minecraft:exposed_cut_copper_stairs>, <item:minecraft:exposed_cut_copper_stairs>, <item:minecraft:exposed_cut_copper_stairs>]]);
 
     stoneCutter.remove(<item:minecraft:weathered_cut_copper_stairs>);
@@ -346,7 +346,7 @@ stoneCutter.addRecipe("cut_copper_slab_stonecutter", <item:minecraft:cut_copper_
   stoneCutter.remove(<item:minecraft:oxidized_cut_copper>);
   craftingTable.addShaped("oxidized_cut_copper", <item:minecraft:oxidized_cut_copper> * 8, [ 
     [<item:minecraft:weathered_cut_copper>, <item:minecraft:weathered_cut_copper>, <item:minecraft:weathered_cut_copper>],
-    [<item:minecraft:weathered_cut_copper>, <item:kubejs:soul_dust>, <item:minecraft:weathered_cut_copper>],
+    [<item:minecraft:weathered_cut_copper>, <item:coraline_systems:timedust>, <item:minecraft:weathered_cut_copper>],
     [<item:minecraft:weathered_cut_copper>, <item:minecraft:weathered_cut_copper>, <item:minecraft:weathered_cut_copper>]]);
 
     stoneCutter.addRecipe("oxidized_cut_copper_stonecutter", <item:minecraft:oxidized_cut_copper>, <item:minecraft:oxidized_copper>);
@@ -359,7 +359,7 @@ stoneCutter.addRecipe("cut_copper_slab_stonecutter", <item:minecraft:cut_copper_
 
     craftingTable.addShaped("oxidized_cut_copper_stairs_timedust", <item:minecraft:oxidized_cut_copper_stairs> * 8, [
       [<item:minecraft:weathered_cut_copper_stairs>, <item:minecraft:weathered_cut_copper_stairs>, <item:minecraft:weathered_cut_copper_stairs>],
-      [<item:minecraft:weathered_cut_copper_stairs>, <item:kubejs:soul_dust>, <item:minecraft:weathered_cut_copper_stairs>],
+      [<item:minecraft:weathered_cut_copper_stairs>, <item:coraline_systems:timedust>, <item:minecraft:weathered_cut_copper_stairs>],
       [<item:minecraft:weathered_cut_copper_stairs>, <item:minecraft:weathered_cut_copper_stairs>, <item:minecraft:weathered_cut_copper_stairs>]]);
 
     stoneCutter.remove(<item:minecraft:oxidized_cut_copper_stairs>);
@@ -374,17 +374,17 @@ stoneCutter.addRecipe("cut_copper_slab_stonecutter", <item:minecraft:cut_copper_
 
     craftingTable.addShaped("exposed_cut_copper_slab_timedust", <item:minecraft:exposed_cut_copper_slab> * 8, [
           [<item:minecraft:cut_copper_slab>, <item:minecraft:cut_copper_slab>, <item:minecraft:cut_copper_slab>],
-          [<item:minecraft:cut_copper_slab>, <item:kubejs:soul_dust>, <item:minecraft:cut_copper_slab>],
+          [<item:minecraft:cut_copper_slab>, <item:coraline_systems:timedust>, <item:minecraft:cut_copper_slab>],
           [<item:minecraft:cut_copper_slab>, <item:minecraft:cut_copper_slab>, <item:minecraft:cut_copper_slab>]]);
 
     craftingTable.addShaped("weathered_cut_copper_slab_timedust", <item:minecraft:weathered_cut_copper_slab> * 8, [
           [<item:minecraft:exposed_cut_copper_slab>, <item:minecraft:exposed_cut_copper_slab>, <item:minecraft:exposed_cut_copper_slab>],
-          [<item:minecraft:exposed_cut_copper_slab>, <item:kubejs:soul_dust>, <item:minecraft:exposed_cut_copper_slab>],
+          [<item:minecraft:exposed_cut_copper_slab>, <item:coraline_systems:timedust>, <item:minecraft:exposed_cut_copper_slab>],
           [<item:minecraft:exposed_cut_copper_slab>, <item:minecraft:exposed_cut_copper_slab>, <item:minecraft:exposed_cut_copper_slab>]]);
     
     craftingTable.addShaped("oxidized_cut_copper_slab_timedust", <item:minecraft:oxidized_cut_copper_slab> * 8, [
           [<item:minecraft:weathered_cut_copper_slab>, <item:minecraft:weathered_cut_copper_slab>, <item:minecraft:weathered_cut_copper_slab>],
-          [<item:minecraft:weathered_cut_copper_slab>, <item:kubejs:soul_dust>, <item:minecraft:weathered_cut_copper_slab>],
+          [<item:minecraft:weathered_cut_copper_slab>, <item:coraline_systems:timedust>, <item:minecraft:weathered_cut_copper_slab>],
           [<item:minecraft:weathered_cut_copper_slab>, <item:minecraft:weathered_cut_copper_slab>, <item:minecraft:weathered_cut_copper_slab>]]);
 
   //Waxed Copper Tiles:
@@ -442,15 +442,15 @@ stoneCutter.addRecipe("cut_copper_slab_stonecutter", <item:minecraft:cut_copper_
     craftingTable.remove(<item:caverns_and_chasms:exposed_floodlight>);
     craftingTable.addShapeless("exposed_floodlight", <item:caverns_and_chasms:exposed_floodlight>, 
       [<item:caverns_and_chasms:floodlight>, 
-      <item:kubejs:soul_dust>]);
+      <item:coraline_systems:timedust>]);
 
     craftingTable.remove(<item:caverns_and_chasms:weathered_floodlight>);
     craftingTable.addShapeless("weathered_floodlight", <item:caverns_and_chasms:weathered_floodlight>, 
       [<item:caverns_and_chasms:exposed_floodlight>, 
-      <item:kubejs:soul_dust>]);
+      <item:coraline_systems:timedust>]);
 
     craftingTable.remove(<item:caverns_and_chasms:oxidized_floodlight>);
     craftingTable.addShapeless("oxidized_floodlight", <item:caverns_and_chasms:oxidized_floodlight>, 
       [<item:caverns_and_chasms:weathered_floodlight>, 
-      <item:kubejs:soul_dust>]);
+      <item:coraline_systems:timedust>]);
 */

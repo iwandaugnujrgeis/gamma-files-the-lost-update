@@ -78,9 +78,6 @@
       "item": "minecraft:lava_bucket"
     },
     {
-      "item": "minecraft:powder_snow_bucket"
-    },
-    {
       "item": "minecraft:milk_bucket"
     },
     {
@@ -88,12 +85,6 @@
     },
     {
       "item": "minecraft:carrot_on_a_stick"
-    },
-    {
-      "item": "minecraft:warped_fungus_on_a_stick"
-    },
-    {
-      "item": "alexsmobs:chorus_on_a_stick"
     },
     {
       "item": "minecraft:saddle"
@@ -123,31 +114,19 @@
       "item": "minecraft:clock"
     },
     {
-      "item": "minecraft:recovery_compass"
-    },
-    {
       "item": "supplementaries:slingshot"
     },
     {
       "item": "etcetera:handbell"
     },
     {
-      "item": "spelunkery:tuning_fork"
-    },
-    {
-      "item": "spelunkery:echo_fork"
+      "name": "caverns_and_chasms:tuning_fork"
     },
     {
       "item": "spelunkery:item_magnet"
     },
     {
       "item": "minecraft:name_tag"
-    },
-    {
-      "item": "pet_cemetery:pet_collar"
-    },
-    {
-      "item": "supplementaries:confetti_popper"
     },
     {
       "item": "supplementaries:bubble_blower"
@@ -162,46 +141,19 @@
       "item": "minecraft:oak_boat"
     },
     {
-      "item": "minecraft:oak_chest_boat"
-    },
-    {
       "item": "minecraft:bamboo_raft"
-    },
-    {
-      "item": "etcetera:turtle_raft"
-    },
-    {
-      "item": "alexsmobs:straddleboard"
-    },
-    {
-      "item": "alexsmobs:straddle_helmet"
-    },
-    {
-      "item": "alexsmobs:straddle_saddle"
     },
     {
       "item": "quark:backpack"
     },
     {
-      "item": "caverns_and_chasms:toolbelt"
-    },
-    {
-      "item": "caverns_and_chasms:cowl"
-    },
-    {
       "item": "minecraft:firework_rocket"
-    },
-    {
-      "item": "minecraft:elytra"
     },
     {
       "item": "minecraft:map"
     },
     {
       "item": "supplementaries:slice_map"
-    },
-    {
-      "item": "supplementaries:cartographers_quill"
     },
     {
       "item": "minecraft:ender_pearl"

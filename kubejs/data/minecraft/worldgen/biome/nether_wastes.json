@@ -4,24 +4,7 @@
   },
   "downfall": 0.0,
   "effects": {
-    "additions_sound": {
-      "sound": "minecraft:ambient.nether_wastes.additions",
-      "tick_chance": 0.0111
-    },
-    "ambient_sound": "minecraft:ambient.nether_wastes.loop",
     "fog_color": 0,
-    "mood_sound": {
-      "block_search_extent": 8,
-      "offset": 2.0,
-      "sound": "minecraft:ambient.nether_wastes.mood",
-      "tick_delay": 6000
-    },
-    "music": {
-      "max_delay": 24000,
-      "min_delay": 12000,
-      "replace_current_music": false,
-      "sound": "minecraft:music.nether.nether_wastes"
-    },
     "sky_color": 0,
     "water_color": 4159204,
     "water_fog_color": 329011,
@@ -46,25 +29,26 @@
       "minecraft:red_mushroom_nether",
       "minecraft:ore_magma",
       "minecraft:spring_closed",
-      "minecraft:ore_gravel_nether",
-      "minecraft:ore_blackstone",
+      "gamma:ore_deepslate_nether",
       "minecraft:ore_gold_nether",
       "minecraft:ore_quartz_nether"
     ],
     [],
     [
       "minecraft:spring_lava",
+      "gamma:nether_wart_patch",
       "minecraft:brown_mushroom_normal",
-      "minecraft:red_mushroom_normal"
+      "minecraft:red_mushroom_normal",
+      "gamma:patch_other_mushrooms"
     ]
   ],
   "has_precipitation": false,
   "spawn_costs": {
-    "minecraft:enderman": {
+    "minecraft:zombie_pigman": {
       "charge": 0.5,
       "energy_budget": 0.12
     },
-    "minecraft:zombie_pigman": {
+    "minecraft:blaze": {
       "charge": 0.5,
       "energy_budget": 0.12
     },
@@ -72,19 +56,11 @@
       "charge": 0.5,
       "energy_budget": 0.12
     },
-    "alexsmobs:dropbear": {
+    "minecraft:slime": {
       "charge": 0.5,
       "energy_budget": 0.12
     },
-    "minecraft:magma_cube": {
-      "charge": 0.5,
-      "energy_budget": 0.12
-    },
-    "minecraft:strider": {
-      "charge": 0.5,
-      "energy_budget": 0.12
-    },
-    "alexsmobs:farseer": {
+    "minecraft:wither_skeleton": {
       "charge": 0.5,
       "energy_budget": 0.12
     }
@@ -92,16 +68,15 @@
   "spawners": {
     "ambient": [],
     "axolotls": [],
-    "creature": [
-      {
-        "type": "minecraft:strider",
-        "maxCount": 2,
-        "minCount": 1,
-        "weight": 30
-      }
-    ],
+    "creature": [],
     "misc": [],
     "monster": [
+      {
+        "type": "minecraft:ghast",
+        "maxCount": 3,
+        "minCount": 1,
+        "weight": 120
+      },
       {
         "type": "rediscovered:zombie_pigman",
         "maxCount": 3,
@@ -109,34 +84,22 @@
         "weight": 60
       },
       {
-        "type": "alexsmobs:farseer",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 80
+        "type": "minecraft:blaze",
+        "maxCount": 3,
+        "minCount": 1,
+        "weight": 12
       },
       {
-        "type": "minecraft:magma_cube",
+        "type": "minecraft:slime",
         "maxCount": 3,
         "minCount": 1,
         "weight": 20
       },
       {
-        "type": "minecraft:ghast",
-        "maxCount": 2,
+        "type": "minecraft:wither_skeleton",
+        "maxCount": 3,
         "minCount": 1,
-        "weight": 15
-      },
-      {
-        "type": "alexsmobs:dropbear",
-        "maxCount": 1,
-        "minCount": 1,
-        "weight": 2
-      },
-      {
-        "type": "minecraft:enderman",
-        "maxCount": 2,
-        "minCount": 1,
-        "weight": 2
+        "weight": 10
       }
     ],
     "underground_water_creature": [],

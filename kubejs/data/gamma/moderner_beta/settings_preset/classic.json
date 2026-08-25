@@ -90,15 +90,6 @@
           "oceanChance": 6
         },
         {
-          "type": "moderner_beta:biome_replacement",
-          "parent": "land",
-          "id": "land",
-          "seed": 10,
-          "targets": {
-            "minecraft:ocean": { "type": "biome", "value": "minecraft:plains" }
-          }
-        },
-        {
           "type": "moderner_beta:random_biome",
           "id": "biome_pool_common",
           "seed": 200,
@@ -114,6 +105,18 @@
             "gamma:andesite_crags",
             "gamma:radiant_forest"
           ]
+        },
+        {
+          "type": "moderner_beta:biome_replacement",
+          "parent": "land",
+          "id": "land",
+          "seed": 10,
+          "targets": {
+            "minecraft:ocean": { 
+              "value": "biome_pool_common", // Test!
+              "type": "layer"
+            }
+          }
         },
         {
           "type": "moderner_beta:random_biome",
@@ -310,21 +313,21 @@
   "chunkSettings": {
     "moderner_beta:cave_generation": {
       "fixCaveBorders": false,
-      "forceBetaCanyons": false,
-      "forceBetaCaves": false,
+      "forceBetaCanyons": true,
+      "forceBetaCaves": true,
       "seedMethod": "modern",
       "useCarvers": true,
       "useNoiseCaves": false
     },
     "moderner_beta:deepslate_generation": {
-      "block": "minecraft:deepslate",
-      "enabled": true,
-      "maxY": -38,
-      "minY": -30
+      "enabled": false,
+      "minY": -14,
+      "maxY": -22,
+      "block": "minecraft:deepslate"
     },
     "moderner_beta:infdev_227_structures": {
       "brickPyramids": false,
-      "obsidianWalls": true
+      "obsidianWalls": false
     },
     "moderner_beta:noise_generator_settings": "moderner_beta:overworld_128",
     "moderner_beta:perlin_noise_settings": {

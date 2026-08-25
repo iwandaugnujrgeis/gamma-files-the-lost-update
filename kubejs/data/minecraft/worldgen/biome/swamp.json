@@ -32,8 +32,8 @@
       "minecraft:amethyst_geode"
     ],
     [
-      "minecraft:fossil_upper",
-      "minecraft:fossil_lower",
+      "minecraft:fossil_upper", // Remove?
+      "minecraft:fossil_lower", // Remove?
       "minecraft:monster_room",
       "minecraft:monster_room_deep"
     ],

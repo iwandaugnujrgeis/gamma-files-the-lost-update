@@ -49,7 +49,7 @@ StartupEvents.registry('item', event => {
   event.create('green_apple')
     .texture('gamma:item/green_apple')
     .maxStackSize(8)
-    .displayName('§eGreen Apple')
+    .displayName('Green Apple')
     .food(food => food
       .hunger(3).saturation(0.5)
       .effect('alexsmobs:fear', 100, 0, 100)
@@ -59,7 +59,7 @@ StartupEvents.registry('item', event => {
   event.create('muffin')
     .texture('gamma:item/muffin')
     .maxStackSize(8)
-    .displayName('§dMuffin')
+    .displayName('Muffin')
     .food(food => food
       .hunger(4).saturation(0.5)
       .effect('levitation', 100, 0, 100)
@@ -111,7 +111,7 @@ StartupEvents.registry('item', event => {
   event.create('golden_potato')
     .texture('gamma:item/golden_potato')
     .maxStackSize(8)
-    .displayName('§bGolden Potato')
+    .displayName('Golden Potato')
     .food(food => food.hunger(2).saturation(0.5))
 
   event.create('honeyed_apple')
@@ -189,11 +189,6 @@ StartupEvents.registry('item', event => {
     .maxStackSize(64)
     .displayName('Gear')
 
-  event.create('soul_dust')
-    .texture('gamma:item/timepowder')
-    .maxStackSize(64)
-    .displayName('Timepowder')
-
   event.create('sharp_tooth')
     .texture('gamma:item/sharp_tooth')
     .maxStackSize(64)
@@ -255,7 +250,7 @@ StartupEvents.registry('item', event => {
     .tag('forge:tools').tag('forge:tools/swords')
     .texture('gamma:item/cobalt_sword')
     .maxStackSize(1)
-    .displayName('§bCobalt Sword')
+    .displayName('Cobalt Sword')
 
   event.create('copper_sword', 'sword')
     .tier('copper')

@@ -55,16 +55,6 @@
           0.9019608
         ]
       }
-    },
-    {
-      "block": [
-        "minecraft:soul_sand",
-        "minecraft:soul_soil"
-      ],
-      "direction": "up",
-      "particle": {
-        "type": "visuality:soul"
-      }
     }
   ]
 }

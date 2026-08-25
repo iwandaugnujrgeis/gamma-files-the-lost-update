@@ -28,7 +28,7 @@ improvedPandaSneezes = true
 villagerWorkAtWorkstationParticles = true
 improvedBrownMooshroomFeedingEffects = true
 improvedMooshroomShearingEffects = true
-replaceBlazeSmoke = true
+replaceBlazeSmoke = false
 animalFeedingParticles = true
 animalFeedingSoundVolume = 1.0
 underwaterEntityPoofBubbles = true
@@ -90,13 +90,14 @@ mobRunning = true
 playerRunningRequiresSpeed = false
 
 [burning]
-smokeType = "UPDATED"
+smokeType = "DEFAULT"
 smokeDensity = 1.0
-flamesDensity = 1.0
+flamesDensity = 0.0
 sparksDensity = 0.0
 soundVolume = 0.0
 entityBlocklist = [
-    "minecraft:lightning_bolt"
+    "minecraft:lightning_bolt",
+    "minecraft:blaze"
 ]
 extinguishSteam = true
 

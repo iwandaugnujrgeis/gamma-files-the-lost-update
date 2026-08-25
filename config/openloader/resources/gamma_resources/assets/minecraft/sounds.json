@@ -1,4 +1,19 @@
 {
+  "entity.blaze.shoot": {
+    "replace": true,
+    "sounds": [
+      "mob/ghast/fireball4"
+    ],
+    "subtitle": "subtitles.entity.blaze.shoot"
+  },
+  "entity.blaze.burn": {
+    "replace": true,
+    "sounds": [
+      "coraline_systems:entity/blaze/blaze_song1",
+      "coraline_systems:entity/blaze/blaze_song2"
+    ],
+    "subtitle": "subtitles.coraline_systems.blaze_song"
+  },
   "block.netherrack.break": {
     "replace": true,
     "sounds": [

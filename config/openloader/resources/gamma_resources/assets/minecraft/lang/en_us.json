@@ -3,6 +3,7 @@
   "selectWorld.allowCommands.info": "Commands like /gamemode, /tp...",
   "generator.minecraft.normal": "Intended",
   "generator.minecraft.alternative": "Alternative",
+  "generator.minecraft.classic": "Classic",
 
   //4.20.5:
     "block.minecraft.lodestone": "§bLodestone",
@@ -114,7 +115,7 @@
     "menu.savingChunks": "Saving Chunks...",
     "menu.savingLevel": "",
     "selectWorld.data_read": "",
-    "selectWorld.seedInfo": "How are you §oFeeling §rToday?",
+    "selectWorld.seedInfo": "Seed...",
     "selectWorld.select": "Play Selected World...",
     "item.minecraft.chicken": "Raw Poultry",
     "item.minecraft.cooked_chicken": "Cooked Poultry",
