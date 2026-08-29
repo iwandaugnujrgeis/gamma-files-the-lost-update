@@ -1,6 +1,6 @@
 {
   "type": "forge:add_spawns",
-  "biomes": "gamma:underground",
+  "biomes": "gamma:null",
   "spawners": {
     "type": "caverns_and_chasms:cavefish",
     "maxCount": 4,

@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
-  "biomes": "#minecraft:is_overworld",
+  "biomes": "gamma:null",
   "features": "caverns_and_chasms:ore_fragile_stone",
   "step": "underground_ores"
 }

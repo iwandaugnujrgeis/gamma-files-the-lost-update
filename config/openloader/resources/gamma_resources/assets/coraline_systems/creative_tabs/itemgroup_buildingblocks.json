@@ -474,9 +474,6 @@
       "item": "minecraft:bamboo_block"
     },
     {
-      "item": "coraline_systems:basket"
-    },
-    {
       "item": "minecraft:scaffolding"
     },
     {
@@ -562,9 +559,6 @@
     },
     {
       "item": "minecraft:smooth_stone_slab"
-    },
-    {
-      "item": "quark:sturdy_stone"
     },
     {
       "item": "minecraft:stone_bricks"
@@ -740,20 +734,6 @@
     {
       "item": "caverns_and_chasms:tuff_wall"
     },
-    /*
-    {
-      "name": "caverns_and_chasms:tuff_bricks"
-    },
-    {
-      "name": "caverns_and_chasms:tuff_brick_stairs"
-    },
-    {
-      "name": "caverns_and_chasms:tuff_brick_slab"
-    },
-    {
-      "name": "caverns_and_chasms:tuff_brick_wall"
-    },
-    */
     {
       "item": "supplementaries:ash_bricks"
     },
@@ -794,21 +774,6 @@
       "item": "clayworks:chiseled_bricks"
     },
     {
-      "item": "minecraft:packed_mud"
-    },
-    {
-      "item": "minecraft:mud_bricks"
-    },
-    {
-      "item": "minecraft:mud_brick_stairs"
-    },
-    {
-      "item": "minecraft:mud_brick_slab"
-    },
-    {
-      "item": "minecraft:mud_brick_wall"
-    },
-    {
       "item": "quark:stick_block"
     },
     {
@@ -843,36 +808,6 @@
     },
     {
       "item": "minecraft:cut_sandstone_slab"
-    },
-    {
-      "item": "minecraft:red_sandstone"
-    },
-    {
-      "item": "minecraft:red_sandstone_stairs"
-    },
-    {
-      "item": "minecraft:red_sandstone_slab"
-    },
-    {
-      "item": "minecraft:red_sandstone_wall"
-    },
-    {
-      "item": "minecraft:chiseled_red_sandstone"
-    },
-    {
-      "item": "minecraft:smooth_red_sandstone"
-    },
-    {
-      "item": "minecraft:smooth_red_sandstone_stairs"
-    },
-    {
-      "item": "minecraft:smooth_red_sandstone_slab"
-    },
-    {
-      "item": "minecraft:cut_red_sandstone"
-    },
-    {
-      "item": "minecraft:cut_red_sandstone_slab"
     },
     {
       "item": "supplementaries:soap_block"
@@ -930,9 +865,6 @@
     },
     {
       "item": "minecraft:nether_brick_fence"
-    },
-    {
-      "item": "minecraft:chiseled_nether_bricks"
     },
     {
       "item": "kubejs:gloomy_tiles"
@@ -1028,9 +960,6 @@
       "item": "minecraft:iron_bars"
     },
     {
-      "item": "supplementaries:iron_gate"
-    },
-    {
       "item": "minecraft:iron_door"
     },
     {
@@ -1062,9 +991,6 @@
     },
     {
       "item": "minecraft:lapis_block"
-    },
-    {
-      "item": "minecraft:emerald_block"
     },
     {
       "item": "minecraft:diamond_block"

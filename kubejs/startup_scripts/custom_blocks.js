@@ -2,6 +2,8 @@
 
 StartupEvents.registry('block', event => {
 
+
+
   /*
   const allcolors = ['white', 'orange', 'magenta', 'light_blue', 'yellow', 'lime', 'pink', 'gray', 'light_gray', 'cyan', 'purple', 'blue', 'brown', 'green', 'red', 'black']
 
@@ -79,6 +81,14 @@ StartupEvents.registry('block', event => {
     .tagBlock('minecraft:wool')
 
 // ---
+
+  event.create('huge_brick') // TEST!
+    .displayName('Huge Brick')
+    .soundType('stone')
+    .hardness(2)
+    .resistance(6)
+    .tagBlock('minecraft:mineable/pickaxe')
+    .requiresTool(true)
 
   event.create('smooth_stone_bricks')
     .displayName('Smooth Stone Bricks')

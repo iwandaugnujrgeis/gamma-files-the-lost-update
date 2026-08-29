@@ -2,8 +2,8 @@
   "feature": "gamma:nether_wart_patch",
   "placement": [
     {
-      "type": "minecraft:rarity_filter",
-      "chance": 3
+      "type": "minecraft:count",
+      "count": 16
     },
     {
       "type": "minecraft:in_square"

@@ -5,10 +5,5 @@
     "separation": 8,
     "spacing": 24
   },
-  "structures": [
-    {
-      "structure": "gamma:laboratory",
-      "weight": 1
-    }
-  ]
+  "structures": []
 }

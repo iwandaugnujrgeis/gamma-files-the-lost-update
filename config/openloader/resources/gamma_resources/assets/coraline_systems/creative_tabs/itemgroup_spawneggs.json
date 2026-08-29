@@ -1,6 +1,6 @@
 {
   "replace": true,
-  "tab_icon": "alexsmobs:spawn_egg_farseer",
+  "tab_icon": "coraline_systems:helper_spawn_egg",
   "tab_items": [
     {
       "item": "minecraft:spawner" 
@@ -21,37 +21,19 @@
       "item": "minecraft:blaze_spawn_egg" 
     },
     {
-      "item": "alexsmobs:spawn_egg_bald_eagle" 
-    },
-    {
-      "item": "alexsmobs:spawn_egg_bison" 
-    },
-    {
       "item": "alexsmobs:spawn_egg_blue_jay" 
     },
     {
       "item": "minecraft:camel_spawn_egg" 
     },
     {
-      "item": "alexsmobs:spawn_egg_capuchin_monkey"
-    },
-    {
       "item": "minecraft:cat_spawn_egg" 
-    },
-    {
-      "item": "pet_cemetery:zombie_cat_spawn_egg" 
-    },
-    {
-      "item": "pet_cemetery:skeleton_cat_spawn_egg" 
     },
     {
       "item": "minecraft:cave_spider_spawn_egg" 
     },
     {
       "item": "alexsmobs:spawn_egg_catfish" 
-    },
-    {
-      "item": "etcetera:chapple_spawn_egg" 
     },
     {
       "item": "minecraft:chicken_spawn_egg" 
@@ -93,28 +75,13 @@
       "item": "alexsmobs:spawn_egg_devils_hole_pupfish" 
     },
     {
-      "item": "alexsmobs:spawn_egg_dropbear" 
-    },
-    {
-      "item": "minecraft:elder_guardian_spawn_egg" 
-    },
-    {
-      "item": "alexsmobs:spawn_egg_emu" 
-    },
-    {
       "item": "minecraft:enderman_spawn_egg" 
     },
     {
       "item": "minecraft:endermite_spawn_egg" 
     },
     {
-      "item": "alexsmobs:spawn_egg_farseer" 
-    },
-    {
       "item": "rediscovered:fish_spawn_egg" 
-    },
-    {
-      "item": "alexsmobs:spawn_egg_flutter"
     },
     {
       "item": "alexsmobs:spawn_egg_flying_fish" 
@@ -129,9 +96,6 @@
       "item": "minecraft:frog_spawn_egg" 
     },
     {
-      "item": "alexsmobs:spawn_egg_gelada_monkey" 
-    },
-    {
       "item": "coraline_systems:brume_spawn_egg" 
     },
     {
@@ -142,9 +106,6 @@
     },
     {
       "item": "minecraft:goat_spawn_egg" 
-    },
-    {
-      "item": "minecraft:guardian_spawn_egg" 
     },
     {
       "item": "upgrade_aquatic:goose_spawn_egg" 
@@ -183,16 +144,7 @@
       "item": "alexsmobs:spawn_egg_jerboa" 
     },
     {
-      "item": "alexsmobs:spawn_egg_komodo_dragon" 
-    },
-    {
-      "item": "alexsmobs:spawn_egg_laviathan" 
-    },
-    {
       "item": "minecraft:llama_spawn_egg" 
-    },
-    {
-      "item": "species:limpet_spawn_egg" 
     },
     {
       "item": "minecraft:magma_cube_spawn_egg" 
@@ -234,15 +186,6 @@
       "item": "minecraft:parrot_spawn_egg" 
     },
     {
-      "item": "pet_cemetery:zombie_parrot_spawn_egg" 
-    },
-    {
-      "item": "pet_cemetery:skeleton_parrot_spawn_egg" 
-    },
-    {
-      "item": "minecraft:phantom_spawn_egg" 
-    },
-    {
       "item": "minecraft:pig_spawn_egg" 
     },
     {
@@ -264,19 +207,7 @@
       "item": "alexsmobs:spawn_egg_raccoon" 
     },
     {
-      "item": "alexsmobs:spawn_egg_rain_frog" 
-    },
-    {
-      "item": "minecraft:ravager_spawn_egg" 
-    },
-    {
-      "item": "alexsmobs:spawn_egg_roadrunner" 
-    },
-    {
       "item": "minecraft:salmon_spawn_egg" 
-    },
-    {
-      "item": "alexsmobs:spawn_egg_seagull" 
     },
     {
       "item": "alexsmobs:spawn_egg_seal" 
@@ -303,9 +234,6 @@
       "item": "minecraft:snow_golem_spawn_egg" 
     },
     {
-      "item": "alexsmobs:spawn_egg_snow_leopard" 
-    },
-    {
       "item": "minecraft:spider_spawn_egg" 
     },
     {
@@ -313,15 +241,6 @@
     },
     {
       "item": "minecraft:stray_spawn_egg" 
-    },
-    {
-      "item": "minecraft:strider_spawn_egg" 
-    },
-    {
-      "item": "alexsmobs:spawn_egg_straddler" 
-    },
-    {
-      "item": "alexsmobs:spawn_egg_stradpole" 
     },
     {
       "item": "alexsmobs:spawn_egg_sugar_glider" 
@@ -336,25 +255,16 @@
       "item": "upgrade_aquatic:thrasher_spawn_egg" 
     },
     {
-      "item": "alexsmobs:spawn_egg_tiger" 
-    },
-    {
       "item": "minecraft:tropical_fish_spawn_egg" 
     },
     {
       "item": "friendsandfoes:tuff_golem_spawn_egg" 
     },
     {
-      "item": "alexsmobs:spawn_egg_toucan" 
-    },
-    {
       "item": "minecraft:turtle_spawn_egg" 
     },
     {
       "item": "alexsmobs:spawn_egg_triops" 
-    },
-    {
-      "item": "alexsmobs:spawn_egg_tusklin" 
     },
     {
       "item": "minecraft:vex_spawn_egg" 
@@ -366,19 +276,7 @@
       "item": "minecraft:wolf_spawn_egg" 
     },
     {
-      "item": "pet_cemetery:zombie_wolf_spawn_egg"
-    },
-    {
-      "item": "pet_cemetery:skeleton_wolf_spawn_egg" 
-    },
-    {
       "item": "minecraft:zombie_spawn_egg" 
-    },
-    {
-      "item": "rediscovered:rana_spawn_egg" 
-    },
-    {
-      "item": "rediscovered:steve_spawn_egg" 
     }
   ]
 }

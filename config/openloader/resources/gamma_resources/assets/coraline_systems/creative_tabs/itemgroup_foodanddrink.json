@@ -18,9 +18,6 @@
       "item": "kubejs:green_apple"
     },
     {
-      "item": "quark:ancient_fruit"
-    },
-    {
       "item": "minecraft:melon_slice"
     },
     {
@@ -34,12 +31,6 @@
     },
     {
       "item": "upgrade_aquatic:mulberry"
-    },
-    {
-      "item": "minecraft:chorus_fruit"
-    },
-    {
-      "item": "minecraft:popped_chorus_fruit"
     },
     {
       "item": "minecraft:carrot"
@@ -88,9 +79,6 @@
     },
     {
       "item": "etcetera:eggple"
-    },
-    {
-      "item": "etcetera:golden_eggple"
     },
     {
       "item": "kubejs:fried_egg"
@@ -258,19 +246,10 @@
       "item": "minecraft:glass_bottle"
     },
     {
-      "item": "amendments:dye_bottle"
-    },
-    {
       "item": "alexsmobs:lava_bottle"
     },
     {
       "item": "quark:bottled_cloud"
-    },
-    {
-      "item": "spelunkery:portal_fluid_bottle"
-    },
-    {
-      "item": "minecraft:dragon_breath"
     },
     {
       "item": "minecraft:potion",
@@ -646,16 +625,6 @@
       "item": "minecraft:splash_potion",
       "nbt": "{Potion:\"minecraft:long_slow_falling\"}"
     },
-    /*
-    {
-      "item": "minecraft:splash_potion",
-      "nbt": "{Potion:\"galosphere:astral\"}"
-    },
-    {
-      "item": "minecraft:splash_potion",
-      "nbt": "{Potion:\"galosphere:long_astral\"}"
-    },
-    */
     {
       "item": "minecraft:splash_potion",
       "nbt": "{Potion:\"alexsmobs:knockback_resistance\"}"

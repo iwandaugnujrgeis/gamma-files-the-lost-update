@@ -9,9 +9,6 @@
       "item": "minecraft:furnace"
     },
     {
-      "item": "supplementaries:feather_block"
-    },
-    {
       "item": "minecraft:stonecutter"
     },
     {
@@ -69,12 +66,6 @@
       "item": "minecraft:flower_pot"
     },
     {
-      "item": "spawn:potted_sweet_berries"
-    },
-    {
-      "item": "alexsmobs:potted_flutter"
-    },
-    {
       "item": "etcetera:terracotta_vase"
     },
     {
@@ -82,9 +73,6 @@
     },
     {
       "item": "supplementaries:hat_stand"
-    },
-    {
-      "item": "quark:iron_rod"
     },
     {
       "item": "rediscovered:spikes"
@@ -124,9 +112,6 @@
     },
     {
       "item": "minecraft:cauldron"
-    },
-    {
-      "item": "minecraft:respawn_anchor"
     },
     {
       "item": "minecraft:composter"
@@ -306,16 +291,10 @@
       "item": "minecraft:skeleton_skull"
     },
     {
-      "item": "minecraft:wither_skeleton_skull"
-    },
-    {
       "item": "supplementaries:enderman_head"
     },
     {
       "item": "rediscovered:red_dragon_egg"
-    },
-    {
-      "item": "moyai:moyai"
     },
     {
       "item": "minecraft:infested_stone"
@@ -339,9 +318,6 @@
       "item": "minecraft:infested_deepslate"
     },
     {
-      "item": "minecraft:beacon"
-    },
-    {
       "item": "rediscovered:nether_reactor_core"
     },
     {
@@ -349,15 +325,6 @@
     },
     {
       "item": "rediscovered:dragon_altar"
-    },
-    {
-      "item": "minecraft:conduit"
-    },
-    {
-      "item": "upgrade_aquatic:elder_eye"
-    },
-    {
-      "item": "quark:tiny_potato"
     }
   ]
 }

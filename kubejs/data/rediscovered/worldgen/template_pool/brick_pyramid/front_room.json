@@ -3,27 +3,7 @@
     {
       "element": {
         "element_type": "structure_gel:gel_single_pool_element",
-        "location": "rediscovered:brick_pyramid/front_room_0",
-        "maintainWater": false,
-        "processors": "minecraft:empty",
-        "projection": "rigid"
-      },
-      "weight": 1
-    },
-    {
-      "element": {
-        "element_type": "structure_gel:gel_single_pool_element",
-        "location": "rediscovered:brick_pyramid/front_room_3",
-        "maintainWater": false,
-        "processors": "minecraft:empty",
-        "projection": "rigid"
-      },
-      "weight": 1
-    },
-    {
-      "element": {
-        "element_type": "structure_gel:gel_single_pool_element",
-        "location": "rediscovered:brick_pyramid/front_room_2",
+        "location": "rediscovered:brick_pyramid/front_room_10",
         "maintainWater": false,
         "processors": "minecraft:empty",
         "projection": "rigid"

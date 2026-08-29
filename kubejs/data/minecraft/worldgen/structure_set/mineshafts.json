@@ -11,10 +11,6 @@
     {
       "structure": "minecraft:mineshaft",
       "weight": 1
-    },
-    {
-      "structure": "minecraft:mineshaft_mesa",
-      "weight": 1
     }
   ]
 }

@@ -1,5 +1,7 @@
 {
   "values": [
-    "minecraft:basalt"
+    "minecraft:basalt",
+    "minecraft:powder_snow",
+    "minecraft:snow"
   ]
 }

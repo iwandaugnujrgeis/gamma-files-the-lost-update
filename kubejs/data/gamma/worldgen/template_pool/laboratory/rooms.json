@@ -5,11 +5,20 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
+        "location": "gamma:laboratory/room_12",
+        "processors": "gamma:laboratory_processor",
+        "projection": "rigid"
+        },
+      "weight": 5
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
         "location": "gamma:laboratory/room_10",
         "processors": "gamma:laboratory_processor",
         "projection": "rigid"
-      },
-      "weight": 2
+        },
+      "weight": 5
     },
     {
       "element": {
@@ -17,53 +26,26 @@
         "location": "gamma:laboratory/room_11",
         "processors": "gamma:laboratory_processor",
         "projection": "rigid"
-      },
+        },
       "weight": 5
     },
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "gamma:laboratory/room_12",
+        "location": "gamma:laboratory/large_room_10",
         "processors": "gamma:laboratory_processor",
         "projection": "rigid"
-      },
+        },
       "weight": 5
     },
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "gamma:laboratory/room_small_dead_end_1",
+        "location": "gamma:laboratory/large_room_11",
         "processors": "gamma:laboratory_processor",
         "projection": "rigid"
-      },
+        },
       "weight": 5
-    },
-    {
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "location": "gamma:laboratory/room_small_open_end_1",
-        "processors": "gamma:laboratory_processor",
-        "projection": "rigid"
-      },
-      "weight": 5
-    },
-    {
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "location": "gamma:laboratory/room_small_right_turn",
-        "processors": "gamma:laboratory_processor",
-        "projection": "rigid"
-      },
-      "weight": 5
-    },
-    {
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "location": "gamma:laboratory/corridor_simple_narrow_1",
-        "processors": "gamma:laboratory_processor",
-        "projection": "rigid"
-      },
-      "weight": 3
     }
   ]
 }

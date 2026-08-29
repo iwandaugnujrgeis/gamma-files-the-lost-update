@@ -138,21 +138,6 @@
       "item": "minecraft:diamond_boots"
     },
     {
-      "item": "minecraft:leather_horse_armor"
-    },
-    {
-      "item": "minecraft:iron_horse_armor"
-    },
-    {
-      "item": "minecraft:golden_horse_armor"
-    },
-    {
-      "item": "minecraft:diamond_horse_armor"
-    },
-    {
-      "item": "rediscovered:dragon_armor"
-    },
-    {
       "item": "alexsmobs:fedora"
     },
     {
@@ -160,12 +145,6 @@
     },
     {
       "item": "etcetera:tidal_helmet"
-    },
-    {
-      "item": "etcetera:trader_hood"
-    },
-    {
-      "item": "etcetera:trader_robe"
     },
     {
       "item": "alexsmobs:flying_fish_boots"

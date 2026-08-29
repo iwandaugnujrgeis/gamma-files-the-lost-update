@@ -31,7 +31,7 @@ glintStrength:0.75
 damageTiltStrength:1.0
 highContrast:false
 gamma:0.15
-renderDistance:6
+renderDistance:10
 simulationDistance:8
 entityDistanceScaling:2.0
 guiScale:6
@@ -102,9 +102,9 @@ key_key.command:key.keyboard.slash
 key_key.socialInteractions:key.keyboard.p
 key_key.screenshot:key.keyboard.f2
 key_key.togglePerspective:key.keyboard.f5
-key_key.smoothCamera:key.keyboard.keypad.divide
+key_key.smoothCamera:key.keyboard.unknown
 key_key.fullscreen:key.keyboard.f11
-key_key.swapOffhand:key.keyboard.right.bracket
+key_key.swapOffhand:key.keyboard.f
 key_key.advancements:key.keyboard.l
 key_key.hotbar.1:key.keyboard.1
 key_key.hotbar.2:key.keyboard.2
@@ -132,3 +132,4 @@ modelPart_right_sleeve:true
 modelPart_left_pants_leg:true
 modelPart_right_pants_leg:true
 modelPart_hat:true
+coralineMusicFrequency:1

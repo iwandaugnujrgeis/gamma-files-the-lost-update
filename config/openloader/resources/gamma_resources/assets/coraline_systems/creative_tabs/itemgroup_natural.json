@@ -33,22 +33,13 @@
       "item": "spelunkery:tangle_roots_block"
     },
     {
-      "item": "minecraft:mud"
-    },
-    {
       "item": "minecraft:clay"
     },
     {
       "item": "minecraft:gravel"
     },
     {
-      "item": "supplementaries:raked_gravel"
-    },
-    {
       "item": "minecraft:sand"
-    },
-    {
-      "item": "minecraft:red_sand"
     },
     {
       "item": "quark:gravisand"
@@ -93,9 +84,6 @@
       "item": "quark:obsidian_pressure_plate"
     },
     {
-      "item": "minecraft:crying_obsidian"
-    },
-    {
       "item": "rediscovered:ancient_crying_obsidian"
     },
     {
@@ -108,19 +96,10 @@
       "item": "minecraft:soul_soil"
     },
     {
-      "item": "caverns_and_chasms:soul_silver_ore"
-    },
-    {
       "item": "minecraft:bone_block"
     },
     {
-      "item": "spawn:big_snail_shell"
-    },
-    {
       "item": "upgrade_aquatic:embedded_ammonite"
-    },
-    {
-      "item": "caverns_and_chasms:fragile_stone"
     },
     {
       "item": "minecraft:coal_ore"
@@ -255,9 +234,6 @@
       "item": "coraline_systems:maple_leaves"
     },
     {
-      "item": "spawn:fallen_leaves"
-    },
-    {
       "item": "minecraft:mushroom_stem"
     },
     {
@@ -265,9 +241,6 @@
     },
     {
       "item": "minecraft:red_mushroom_block"
-    },
-    {
-      "item": "spelunkery:portabella_block"
     },
     {
       "item": "minecraft:shroomlight"
@@ -280,18 +253,6 @@
     },
     {
       "item": "minecraft:red_mushroom"
-    },
-    {
-      "item": "minecraft:crimson_roots"
-    },
-    {
-      "item": "spelunkery:portabella"
-    },
-    {
-      "item": "spelunkery:grilled_portabella"
-    },
-    {
-      "item": "spelunkery:button_mushroom"
     },
     {
       "item": "minecraft:grass"
@@ -441,18 +402,6 @@
       "item": "spawn:snail_eggs"
     },
     {
-      "item": "minecraft:turtle_egg"
-    },
-    {
-      "item": "alexsmobs:platypus_egg"
-    },
-    {
-      "item": "alexsmobs:caiman_egg"
-    },
-    {
-      "item": "alexsmobs:emu_egg"
-    },
-    {
       "item": "minecraft:wheat_seeds"
     },
     {
@@ -569,11 +518,6 @@
     {
       "item": "minecraft:honeycomb_block"
     },
-    /*
-    {
-      "item": "autumnity:snail_goo_block"
-    },
-    */
     {
       "item": "minecraft:slime_block"
     },

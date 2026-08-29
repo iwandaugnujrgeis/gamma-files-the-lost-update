@@ -42,9 +42,6 @@
       "item": "minecraft:note_block"
     },
     {
-      "item": "supplementaries:speaker_block"
-    },
-    {
       "item": "etcetera:drum"
     },
     {
@@ -72,12 +69,6 @@
       "item": "caverns_and_chasms:storage_duct"
     },
     {
-      "item": "caverns_and_chasms:storage_duct_hatch"
-    },
-    {
-      "item": "caverns_and_chasms:roller_door"
-    },
-    {
       "item": "coraline_systems:subwoofer"
     },
     {
@@ -88,9 +79,6 @@
     },
     {
       "item": "quark:ender_watcher"
-    },
-    {
-      "item": "spelunkery:compression_blast_miner"
     },
     {
       "item": "supplementaries:crystal_display"
@@ -115,9 +103,6 @@
     },
     {
       "item": "minecraft:hopper"
-    },
-    {
-      "item": "quark:pipe"
     },
     {
       "item": "spelunkery:wooden_rail"

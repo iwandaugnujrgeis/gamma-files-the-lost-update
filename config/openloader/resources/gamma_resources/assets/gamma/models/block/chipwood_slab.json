@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "gamma:block/chipwood",
-    "side": "gamma:block/chipwood_slab_side",
-    "top": "gamma:block/chipwood"
-  }
-}

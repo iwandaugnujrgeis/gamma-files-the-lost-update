@@ -28,7 +28,7 @@
       "sandBeachScale": 0.03125,
       "generateLiquids": true,
       "generateBedrock": false,
-      "bedrockHoles": true
+      "bedrockHoles": false
     },
     "moderner_beta:noise_3d_settings": {
       "arraySurfaceNoise": false,

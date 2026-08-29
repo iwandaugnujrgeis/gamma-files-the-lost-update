@@ -5,10 +5,5 @@
     "separation": 4,
     "spacing": 27
   },
-  "structures": [
-    {
-      "structure": "minecraft:fortress",
-      "weight": 1
-    }
-  ]
+  "structures": []
 }

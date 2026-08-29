@@ -12,11 +12,6 @@
     "spacing": 32,
     "structure": "gamma:tu19_castle"
   },
-  "structures": [
-    {
-      "structure": "gamma:tu19_castle",
-      "weight": 1
-    }
-  ]
+  "structures": []
 }
 

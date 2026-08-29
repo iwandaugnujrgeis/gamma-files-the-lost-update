@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "kubejs:block/huge_brick_1" 
+      },
+      {
+        "model": "kubejs:block/huge_brick_2"
+      }
+    ]
+  }
+}

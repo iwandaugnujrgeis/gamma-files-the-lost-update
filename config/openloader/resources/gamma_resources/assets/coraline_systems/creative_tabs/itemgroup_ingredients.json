@@ -36,9 +36,6 @@
       "item": "minecraft:amethyst_shard"
     },
     {
-      "item": "minecraft:emerald"
-    },
-    {
       "item": "minecraft:lapis_lazuli"
     },
     {
@@ -49,9 +46,6 @@
     },
     {
       "item": "minecraft:quartz"
-    },
-    {
-      "item": "minecraft:netherite_scrap"
     },
     {
       "item": "kubejs:halite_crystal"
@@ -105,12 +99,6 @@
       "item": "minecraft:honeycomb"
     },
     {
-      "item": "alexsmobs:banana_peel"
-    },
-    {
-      "item": "etcetera:cotton_flower"
-    },
-    {
       "item": "minecraft:bone"
     },
     {
@@ -135,31 +123,7 @@
       "item": "alexsmobs:bear_fur"
     },
     {
-      "item": "alexsmobs:bison_fur"
-    },
-    {
-      "item": "spawn:snail_shell"
-    },
-    {
-      "item": "alexsmobs:moose_antler"
-    },
-    {
-      "item": "alexsmobs:mungal_spores"
-    },
-    {
-      "item": "caverns_and_chasms:unicorn_horn"
-    },
-    {
-      "item": "minecraft:phantom_membrane"
-    },
-    {
-      "item": "kubejs:cured_membrane"
-    },
-    {
       "item": "alexsmobs:bear_dust"
-    },
-    {
-      "item": "spawn:suspicious_stick"
     },
     {
       "item": "minecraft:fermented_spider_eye"
@@ -237,22 +201,7 @@
       "item": "minecraft:ghast_tear"
     },
     {
-      "item": "minecraft:blaze_rod"
-    },
-    {
-      "item": "minecraft:blaze_powder"
-    },
-    {
       "item": "minecraft:magma_cream"
-    },
-    {
-      "item": "alexsmobs:dropbear_claw"
-    },
-    {
-      "item": "minecraft:nether_star"
-    },
-    {
-      "item": "alexsmobs:farseer_arm"
     },
     {
       "item": "minecraft:disc_fragment_5"

@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "gamma:block/chipwood",
-    "side": "gamma:block/chipwood_slab_side"
-  }
-}
