@@ -227,9 +227,9 @@
     {
       "item": "minecraft:slime_spawn_egg" 
     },
-    {
-      "item": "spawn:snail_spawn_egg"
-    },
+    // {
+      // "item": "spawn:snail_spawn_egg"
+    // },
     {
       "item": "minecraft:snow_golem_spawn_egg" 
     },

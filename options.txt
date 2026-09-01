@@ -42,7 +42,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:4
 renderClouds:"true"
-resourcePacks:["vanilla","mod_resources","file/Serified Font v1.1 f1-34.zip","Moonlight Mods Dynamic Assets","resources/gamma_resources"]
+resourcePacks:["vanilla","mod_resources","resources/programmer_art","Moonlight Mods Dynamic Assets","resources/gamma_resources","coraline_systems:core_pack","file/Serified Font v1.2.zip"]
 incompatibleResourcePacks:[]
 lastServer:109.173.112.58:25565
 lang:en_us
@@ -97,7 +97,7 @@ key_key.drop:key.keyboard.q
 key_key.inventory:key.keyboard.e
 key_key.chat:key.keyboard.t
 key_key.playerlist:key.keyboard.tab
-key_key.pickItem:key.keyboard.backslash
+key_key.pickItem:key.mouse.middle
 key_key.command:key.keyboard.slash
 key_key.socialInteractions:key.keyboard.p
 key_key.screenshot:key.keyboard.f2
@@ -115,7 +115,7 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
-soundCategory_master:1.0
+soundCategory_master:0.0
 soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:0.8047645246478874

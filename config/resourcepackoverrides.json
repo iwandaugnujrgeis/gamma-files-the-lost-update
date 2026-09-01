@@ -33,11 +33,8 @@
     "fabric",
     "high_contrast",
     "mod/subtle_effects:resourcepacks/biome_color_water_particles",
-    //"programmer_art",
-    //"rediscovered:legacy_pack",
-    "scholar:chiseled_bookshelf_colored_books",
-    "scholar:chiseled_bookshelf_colored_books_abnww_compat",
-    "scholar:colored_books",
+    "programmer_art",
+    "rediscovered:legacy_pack",
     "spelunkery:better_vanilla_gems",
     "supplementaries:darker_ropes"
     ],

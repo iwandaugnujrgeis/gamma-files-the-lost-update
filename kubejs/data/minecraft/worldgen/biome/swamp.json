@@ -106,6 +106,12 @@
     "axolotls": [],
     "creature": [
       {
+        "type": "alexsmobs:shoebill",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 6
+      },
+      {
         "type": "alexsmobs:caiman",
         "maxCount": 2,
         "minCount": 1,
@@ -122,12 +128,6 @@
         "maxCount": 4,
         "minCount": 4,
         "weight": 10
-      },
-      {
-        "type": "alexsmobs:potoo",
-        "maxCount": 1,
-        "minCount": 1,
-        "weight": 1
       },
       {
         "type": "alexsmobs:mudskipper",

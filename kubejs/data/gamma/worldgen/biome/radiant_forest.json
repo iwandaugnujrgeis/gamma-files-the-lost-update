@@ -130,6 +130,12 @@
 				"maxCount": 4
 			},
 			{
+				"type": "coraline_systems:helper",
+				"weight": 40,
+				"minCount": 1,
+				"maxCount": 3
+			},
+			{
 				"type": "minecraft:vex",
 				"maxCount": 3,
 				"minCount": 1,
@@ -140,24 +146,12 @@
 				"weight": 10,
 				"minCount": 1,
 				"maxCount": 4
-			},
-			{
-				"type": "coraline_systems:helper",
-				"weight": 5,
-				"minCount": 1,
-				"maxCount": 1
 			}
 		],
 		"creature": [
 			{
 				"type": "alexsmobs:platypus",
 				"weight": 30,
-				"minCount": 1,
-				"maxCount": 3
-			},
-			{
-				"type": "spawn:snail",
-				"weight": 15,
 				"minCount": 1,
 				"maxCount": 3
 			},

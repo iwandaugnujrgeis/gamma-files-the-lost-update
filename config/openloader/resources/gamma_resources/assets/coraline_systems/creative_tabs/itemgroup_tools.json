@@ -69,6 +69,18 @@
       "item": "kubejs:bismuth_pickaxe"
     },
     {
+      "item": "coraline_systems:torch"
+    },
+    {
+      "item": "minecraft:redstone_torch"
+    },
+    {
+      "item": "minecraft:soul_torch"
+    },
+    {
+      "item": "spelunkery:glowstick"
+    },
+    {
       "item": "minecraft:bucket"
     },
     {
@@ -79,6 +91,9 @@
     },
     {
       "item": "minecraft:milk_bucket"
+    },
+    {
+      "item": "minecraft:powder_snow_bucket"
     },
     {
       "item": "minecraft:fishing_rod"
@@ -119,12 +134,9 @@
     {
       "item": "etcetera:handbell"
     },
-    {
-      "name": "caverns_and_chasms:tuning_fork"
-    },
-    {
-      "item": "spelunkery:item_magnet"
-    },
+    // {
+      // "item": "caverns_and_chasms:tuning_fork"
+    // },
     {
       "item": "minecraft:name_tag"
     },
@@ -140,14 +152,29 @@
     {
       "item": "minecraft:oak_boat"
     },
+    // {
+      // "item": "minecraft:bamboo_raft"
+    // },
     {
-      "item": "minecraft:bamboo_raft"
+      "item": "coraline_systems:obsidian_boat"
     },
     {
       "item": "quark:backpack"
     },
     {
       "item": "minecraft:firework_rocket"
+    },
+    {
+      "item": "alexsmobs:fedora"
+    },
+    {
+      "item": "minecraft:turtle_helmet"
+    },
+    {
+      "item": "etcetera:tidal_helmet"
+    },
+    {
+      "item": "alexsmobs:flying_fish_boots"
     },
     {
       "item": "minecraft:map"
@@ -185,6 +212,7 @@
     {
       "item": "rediscovered:ruby_flute"
     },
+    /*
     {
       "item": "chalk:white_chalk"
     },
@@ -233,6 +261,7 @@
     {
       "item": "chalk:pink_chalk"
     },
+    */
     {
       "item": "minecraft:music_disc_13"
     },

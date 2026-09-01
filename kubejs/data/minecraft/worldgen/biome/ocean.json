@@ -187,6 +187,12 @@
         "maxCount": 4,
         "minCount": 1,
         "weight": 10
+      },
+      {
+        "type": "upgrade_aquatic:thrasher",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 5
       }
     ],
     "underground_water_creature": [

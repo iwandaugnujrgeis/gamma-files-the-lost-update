@@ -18,7 +18,6 @@ ItemEvents.modification(event => {
 	stackTo1('minecraft:dragon_breath')
 	stackTo1('minecraft:honey_bottle')
 	stackTo1('quark:bottled_cloud')
-	stackTo1('snowyspirit:eggnog')
 	stackTo1('upgrade_aquatic:mulberry_jam_bottle')
 	stackTo1('spelunkery:portal_fluid_bottle')
 

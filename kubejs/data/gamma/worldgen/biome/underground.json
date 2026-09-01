@@ -76,6 +76,7 @@
 		[
 			"minecraft:glow_lichen",
 			"caverns_and_chasms:false_hope",
+			"coraline_systems:mixed_cave_mushroom",
 			// "caverns_and_chasms:patch_cave_growths",
 			"gamma:patch_other_mushrooms"
 		],

@@ -2,8 +2,6 @@
 
 StartupEvents.registry('block', event => {
 
-
-
   /*
   const allcolors = ['white', 'orange', 'magenta', 'light_blue', 'yellow', 'lime', 'pink', 'gray', 'light_gray', 'cyan', 'purple', 'blue', 'brown', 'green', 'red', 'black']
 
@@ -48,40 +46,6 @@ StartupEvents.registry('block', event => {
   })
   */
 
-  event.create('test_wool1')
-    .displayName('Test1')
-    .textureAll('gamma:block/test_wool1')
-    .soundType('wool')
-    .hardness(2)
-    .resistance(2)
-    .tagBlock('minecraft:wool')
-
-  event.create('test_wool2')
-    .displayName('Test2')
-    .textureAll('gamma:block/test_wool2')
-    .soundType('wool')
-    .hardness(2)
-    .resistance(2)
-    .tagBlock('minecraft:wool')
-
-  event.create('test_wool3')
-    .displayName('Test3')
-    .textureAll('gamma:block/test_wool3')
-    .soundType('wool')
-    .hardness(2)
-    .resistance(2)
-    .tagBlock('minecraft:wool')
-
-  event.create('test_wool4')
-    .displayName('Test4')
-    .textureAll('gamma:block/test_wool4')
-    .soundType('wool')
-    .hardness(2)
-    .resistance(2)
-    .tagBlock('minecraft:wool')
-
-// ---
-
   event.create('huge_brick') // TEST!
     .displayName('Huge Brick')
     .soundType('stone')
@@ -103,41 +67,11 @@ StartupEvents.registry('block', event => {
     .displayName('Cement')
     .textureAll('gamma:block/cement')
     .soundType('sand')
-    .hardness(4)
-    .resistance(3)
+    .hardness(2)
+    .resistance(2)
     .tagBlock('minecraft:mineable/shovel')
     .tagBlock('minecraft:sand')
     .requiresTool(true)
-
-  event.create('moonstone')
-    .displayName('Moonstone')
-    .textureAll('gamma:block/moonstone')
-    .soundType('lodestone')
-    .hardness(4)
-    .resistance(3)
-    .tagBlock('minecraft:mineable/pickaxe')
-    .tagBlock('minecraft:needs_diamond_tool')
-    .requiresTool(true)
-
-  event.create('bismuth_block')
-    .displayName('Block of Bismuth')
-    .textureAll('gamma:block/bismuth_block')
-    .soundType('metal')
-    .hardness(3)
-    .resistance(2)
-    .tagBlock('minecraft:mineable/pickaxe')
-    .requiresTool(true)
-
-/*
-  event.create('suspicious_block')
-    .displayName('Suspicious Block')
-    .textureAll('gamma:block/debug2')
-    .soundType('amethyst')
-    .hardness(3)
-    .resistance(2)
-    .tagBlock('minecraft:mineable/pickaxe')
-    .requiresTool(true)
-    */
 
   event.create('lava_lamp')
     .displayName('Lava Lamp')
@@ -146,15 +80,6 @@ StartupEvents.registry('block', event => {
     .hardness(2)
     .resistance(2)
     .lightLevel(1.0)
-
-  event.create('mysterious_cobblestone')
-    .displayName('Mysterious Mossy Cobblestone')
-    .textureAll('gamma:block/mysterious_cobblestone')
-    .soundType('stone')
-    .hardness(2)
-    .resistance(2)
-    .tagBlock('minecraft:mineable/pickaxe')
-    .requiresTool(true)
 
   event.create('gloomy_tiles')
     .displayName('Gloomy Tiles')
@@ -201,6 +126,7 @@ StartupEvents.registry('block', event => {
     .tagBlock('minecraft:mineable/pickaxe')
     .requiresTool(true)
 
+  /*
   event.create('mysterious_stone')
     .displayName('Placeholderite')
     .model('gamma:block/mysterious_stone')
@@ -209,6 +135,7 @@ StartupEvents.registry('block', event => {
     .resistance(2)
     .tagBlock('minecraft:mineable/pickaxe')
     .requiresTool(true)
+    */
 
   event.create('silver_ore')
     .displayName('Silver Ore')

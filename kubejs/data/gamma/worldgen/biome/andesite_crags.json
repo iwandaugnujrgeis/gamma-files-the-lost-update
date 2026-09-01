@@ -143,11 +143,17 @@
 		],
 		"creature": [
 			{
+				"type": "minecraft:llama",
+				"maxCount": 3,
+				"minCount": 1,
+				"weight": 15
+			},
+			{
 				"type": "minecraft:goat",
 				"maxCount": 3,
 				"minCount": 1,
 				"weight": 10
-			},
+			},			
 			{
 				"type": "minecraft:camel",
 				"maxCount": 1,

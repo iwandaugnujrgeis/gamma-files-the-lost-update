@@ -78,6 +78,15 @@
       "item": "minecraft:egg"
     },
     {
+      "item": "coraline_systems:platypus_egg"
+    },
+    {
+      "item": "coraline_systems:caiman_egg"
+    },
+    {
+      "item": "coraline_systems:turtle_egg"
+    },
+    {
       "item": "etcetera:eggple"
     },
     {
@@ -156,19 +165,25 @@
       "item": "coraline_systems:milk_bottle"
     },
     {
-      "item": "snowyspirit:eggnog"
-    },
-    {
       "item": "minecraft:honey_bottle"
     },
     {
-      "item": "autumnity:sap_bottle"
-    },
-    {
-      "item": "autumnity:syrup_bottle"
-    },
-    {
       "item": "upgrade_aquatic:mulberry_jam_bottle"
+    },
+    {
+      "item": "coraline_systems:mulberry_juice_bottle"
+    },
+    {
+      "item": "coraline_systems:wine_bottle"
+    },
+    {
+      "item": "coraline_systems:kombucha_bottle"
+    },
+    {
+      "item": "coraline_systems:tea_bottle"
+    },
+    {
+      "item": "coraline_systems:dregs_bottle"
     },
     {
       "item": "alexsmobs:fish_oil"
@@ -411,16 +426,6 @@
       "item": "minecraft:potion",
       "nbt": "{Potion:\"minecraft:long_slow_falling\"}"
     },
-    /*
-    {
-      "item": "minecraft:potion",
-      "nbt": "{Potion:\"galosphere:astral\"}"
-    },
-    {
-      "item": "minecraft:potion",
-      "nbt": "{Potion:\"galosphere:long_astral\"}"
-    },
-    */
     {
       "item": "minecraft:potion",
       "nbt": "{Potion:\"alexsmobs:knockback_resistance\"}"
@@ -452,18 +457,6 @@
     {
       "item": "minecraft:potion",
       "nbt": "{Potion:\"alexsmobs:strong_soulsteal\"}"
-    },
-    {
-      "item": "minecraft:potion",
-      "nbt": "{Potion:\"alexsmobs:clinging\"}"
-    },
-    {
-      "item": "minecraft:potion",
-      "nbt": "{Potion:\"alexsmobs:long_clinging\"}"
-    },
-    {
-      "item": "minecraft:potion",
-      "nbt": "{Potion:\"rediscovered:crimson_veil\"}"
     },
     {
       "item": "minecraft:splash_potion",
@@ -656,18 +649,6 @@
     {
       "item": "minecraft:splash_potion",
       "nbt": "{Potion:\"alexsmobs:strong_soulsteal\"}"
-    },
-    {
-      "item": "minecraft:splash_potion",
-      "nbt": "{Potion:\"alexsmobs:clinging\"}"
-    },
-    {
-      "item": "minecraft:splash_potion",
-      "nbt": "{Potion:\"alexsmobs:long_clinging\"}"
-    },
-    {
-      "item": "minecraft:splash_potion",
-      "nbt": "{Potion:\"rediscovered:crimson_veil\"}"
     }
   ]
 }

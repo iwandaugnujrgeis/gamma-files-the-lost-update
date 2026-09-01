@@ -15,6 +15,9 @@
       "item": "minecraft:lodestone"
     },
     {
+      "item": "coraline_systems:centrifuge"
+    },
+    {
       "item": "minecraft:bookshelf"
     },
     {
@@ -60,9 +63,6 @@
       "item": "minecraft:glow_item_frame"
     },
     {
-      "item": "snowyspirit:snow_globe"
-    },
-    {
       "item": "minecraft:flower_pot"
     },
     {
@@ -85,12 +85,6 @@
     },
     {
       "item": "supplementaries:statue"
-    },
-    {
-      "item": "snowyspirit:glow_lights_prismatic"
-    },
-    {
-      "item": "snowyspirit:wreath"
     },
     {
       "item": "minecraft:bell"
@@ -121,9 +115,6 @@
     },
     {
       "item": "minecraft:lectern"
-    },
-    {
-      "item": "minecraft:loom"
     },
     {
       "item": "minecraft:cartography_table"
@@ -218,18 +209,7 @@
     {
       "item": "minecraft:bamboo_hanging_sign"
     },
-    {
-      "item": "coraline_systems:torch"
-    },
-    {
-      "item": "minecraft:redstone_torch"
-    },
-    {
-      "item": "minecraft:soul_torch"
-    },
-    {
-      "item": "spelunkery:glowstick"
-    },
+    /*
     {
       "item": "spelunkery:white_glowstick"
     },
@@ -278,6 +258,7 @@
     {
       "item": "spelunkery:pink_glowstick"
     },
+    */
     {
       "item": "minecraft:player_head"
     },

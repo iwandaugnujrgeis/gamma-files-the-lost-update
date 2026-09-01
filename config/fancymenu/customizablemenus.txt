@@ -15,9 +15,6 @@ net.minecraft.client.gui.screens.WinScreen {
 net.minecraft.client.gui.screens.worldselection.SelectWorldScreen {
 }
 
-io.github.mortuusars.scholar.client.gui.screen.edit.SpreadBookEditScreen {
-}
-
 net.minecraft.client.gui.screens.inventory.BookEditScreen {
 }
 

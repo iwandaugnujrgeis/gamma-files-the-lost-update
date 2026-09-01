@@ -113,10 +113,6 @@ ServerEvents.tags('item', event => {
 })
 
 ServerEvents.tags('item', event => {
-  event.removeAllTagsFrom('spawn:suspicious_stick')
-})
-
-ServerEvents.tags('item', event => {
   event.add('gamma:coral_blocks', 'upgrade_aquatic:acan_coral_block')
   event.add('gamma:coral_blocks', 'minecraft:brain_coral_block')
   event.add('gamma:coral_blocks', 'upgrade_aquatic:branch_coral_block')

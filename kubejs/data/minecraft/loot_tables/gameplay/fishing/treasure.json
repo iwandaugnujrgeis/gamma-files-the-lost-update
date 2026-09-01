@@ -157,11 +157,6 @@
           ],
           "name": "minecraft:prismarine_shard",
           "weight": 8
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:emerald",
-          "weight": 7
         }
       ],
       "rolls": 1.0

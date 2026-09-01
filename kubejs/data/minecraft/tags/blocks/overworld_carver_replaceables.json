@@ -2,6 +2,7 @@
   "values": [
     "minecraft:basalt",
     "minecraft:powder_snow",
-    "minecraft:snow"
+    "minecraft:snow",
+    "minecraft:snow_block"
   ]
 }

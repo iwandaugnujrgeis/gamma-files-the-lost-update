@@ -18,7 +18,7 @@
   },
   "display": {
     "announce_to_chat": true,
-    "description": "Weaken and Cure a Turned Piglin using a Golden Carrot!",
+    "description": "Weaken and Cure a Zombie Piglin using a Golden Carrot!",
     "frame": "challenge",
     "hidden": false,
     "icon": {

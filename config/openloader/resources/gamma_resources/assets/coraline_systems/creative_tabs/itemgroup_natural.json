@@ -78,6 +78,9 @@
       "item": "kubejs:moonstone"
     },
     {
+      "item": "coraline_systems:fallen_star"
+    },
+    {
       "item": "minecraft:obsidian"
     },
     {
@@ -91,9 +94,6 @@
     },
     {
       "item": "minecraft:soul_sand"
-    },
-    {
-      "item": "minecraft:soul_soil"
     },
     {
       "item": "minecraft:bone_block"
@@ -160,7 +160,7 @@
     },
     {
       "item": "atmospheric:rosewood_sapling"
-    },    
+    },
     {
       "item": "rediscovered:ancient_cherry_sapling"
     },
@@ -168,13 +168,13 @@
       "item": "coraline_systems:maple_sapling"
     },
     {
+      "item": "coraline_systems:radiant_sapling"
+    },
+    {
       "item": "minecraft:raw_copper_block"
     },
     {
       "item": "minecraft:raw_iron_block"
-    },
-    {
-      "item": "spelunkery:raw_magnetite_block"
     },
     {
       "item": "minecraft:raw_gold_block"
@@ -234,6 +234,9 @@
       "item": "coraline_systems:maple_leaves"
     },
     {
+      "item": "coraline_systems:radiant_leaves"
+    },
+    {
       "item": "minecraft:mushroom_stem"
     },
     {
@@ -241,6 +244,9 @@
     },
     {
       "item": "minecraft:red_mushroom_block"
+    },
+    {
+      "item": "coraline_systems:white_mushroom_block"
     },
     {
       "item": "minecraft:shroomlight"
@@ -253,6 +259,9 @@
     },
     {
       "item": "minecraft:red_mushroom"
+    },
+    {
+      "item": "coraline_systems:white_mushroom"
     },
     {
       "item": "minecraft:grass"
@@ -398,9 +407,9 @@
     {
       "item": "alexsmobs:triops_eggs"
     },
-    {
-      "item": "spawn:snail_eggs"
-    },
+    // {
+      // "item": "spawn:snail_eggs"
+    // },
     {
       "item": "minecraft:wheat_seeds"
     },

@@ -313,7 +313,7 @@
     },
     {
       "item": "atmospheric:rosewood_button"
-    },    
+    },
     {
       "item": "minecraft:cherry_log"
     },
@@ -561,6 +561,9 @@
       "item": "minecraft:smooth_stone_slab"
     },
     {
+      "item": "kubejs:smooth_stone_bricks"
+    },
+    {
       "item": "minecraft:stone_bricks"
     },
     {
@@ -660,6 +663,9 @@
       "item": "kubejs:cement"
     },
     {
+      "item": "coraline_systems:concrete"
+    },
+    {
       "item": "minecraft:calcite"
     },
     {
@@ -723,6 +729,15 @@
       "item": "minecraft:deepslate_tile_wall"
     },
     {
+      "item": "minecraft:basalt"
+    },
+    {
+      "item": "minecraft:smooth_basalt"
+    },
+    {
+      "item": "minecraft:polished_basalt"
+    },
+    {
       "item": "minecraft:tuff"
     },
     {
@@ -769,6 +784,9 @@
     },
     {
       "item": "rediscovered:large_brick_wall"
+    },
+    {
+      "item": "kubejs:huge_brick"
     },
     {
       "item": "clayworks:chiseled_bricks"
@@ -867,18 +885,6 @@
       "item": "minecraft:nether_brick_fence"
     },
     {
-      "item": "kubejs:gloomy_tiles"
-    },
-    {
-      "item": "kubejs:gloomy_tiles_stairs"
-    },
-    {
-      "item": "kubejs:gloomy_tiles_slab"
-    },
-    {
-      "item": "kubejs:gloomy_tiles_wall"
-    },
-    {
       "item": "minecraft:quartz_block"
     },
     {
@@ -906,13 +912,10 @@
       "item": "minecraft:smooth_quartz_slab"
     },
     {
+      "item": "coraline_systems:suspicious_block"
+    },
+    {
       "item": "minecraft:bedrock"
-    },
-    {
-      "item": "kubejs:mysterious_stone"
-    },
-    {
-      "item": "kubejs:suspicious_block"
     },
     {
       "item": "supplementaries:flint_block"

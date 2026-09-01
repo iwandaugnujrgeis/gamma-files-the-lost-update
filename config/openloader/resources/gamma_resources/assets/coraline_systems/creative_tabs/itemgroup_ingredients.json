@@ -15,9 +15,6 @@
       "item": "minecraft:raw_iron"
     },
     {
-      "item": "spelunkery:raw_magnetite"
-    },
-    {
       "item": "minecraft:raw_gold"
     },
     {
@@ -42,7 +39,13 @@
       "item": "minecraft:diamond"
     },
     {
+      "item": "coraline_systems:orb"
+    },
+    {
       "item": "coraline_systems:dimensional_shard"
+    },
+    {
+      "item": "coraline_systems:fallen_star_item"
     },
     {
       "item": "minecraft:quartz"
@@ -228,52 +231,70 @@
       "item": "minecraft:red_dye"
     },
     {
+      "item": "coraline_systems:wine_dye"
+    },
+    {
       "item": "minecraft:orange_dye"
+    },
+    {
+      "item": "coraline_systems:coral_dye"
     },
     {
       "item": "minecraft:yellow_dye"
     },
     {
+      "item": "coraline_systems:toxic_yellow_dye"
+    },
+    {
       "item": "minecraft:lime_dye"
+    },
+    {
+      "item": "coraline_systems:bright_green_dye"
+    },
+    {
+      "item": "coraline_systems:spring_green_dye"
     },
     {
       "item": "minecraft:green_dye"
     },
     {
+      "item": "coraline_systems:phtalo_dye"
+    },
+    {
       "item": "minecraft:cyan_dye"
+    },
+    {
+      "item": "coraline_systems:sky_blue_dye"
     },
     {
       "item": "minecraft:light_blue_dye"
     },
     {
+      "item": "coraline_systems:slate_blue_dye"
+    },
+    {
       "item": "minecraft:blue_dye"
+    },
+    {
+      "item": "coraline_systems:navy_blue_dye"
     },
     {
       "item": "minecraft:purple_dye"
     },
     {
+      "item": "coraline_systems:plum_dye"
+    },
+    {
       "item": "minecraft:magenta_dye"
+    },
+    {
+      "item": "coraline_systems:lavender_dye"
     },
     {
       "item": "minecraft:pink_dye"
     },
     {
-      "item": "minecraft:flower_banner_pattern"
-    },
-    {
-      "item": "minecraft:creeper_banner_pattern"
-    },
-    {
-      "item": "minecraft:globe_banner_pattern"
-    },
-    {
-      "item": "minecraft:mojang_banner_pattern"
-    },
-    {
-      "item": "minecraft:skull_banner_pattern"
-    },
-    {
-      "item": "alexsmobs:banner_pattern_bear"
+      "item": "coraline_systems:rose_dye"
     }
   ]
 }
