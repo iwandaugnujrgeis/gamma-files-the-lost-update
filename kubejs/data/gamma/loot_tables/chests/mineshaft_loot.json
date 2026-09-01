@@ -218,21 +218,6 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "spelunkery:raw_magnetite",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
           "name": "minecraft:copper_ingot",
           "weight": 10
         },
@@ -249,21 +234,6 @@
             }
           ],
           "name": "spelunkery:dust_bun",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "spelunkery:grilled_portabella",
           "weight": 10
         },
         {
@@ -368,11 +338,6 @@
           ],
           "name": "minecraft:raw_gold",
           "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "name": "spelunkery:item_magnet",
-          "weight": 1
         }
       ], 
       "rolls": {

@@ -163,11 +163,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "spelunkery:item_magnet",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
           "name": "etcetera:handbell",
           "weight": 1
         },
@@ -442,21 +437,6 @@
             }
           ],
           "name": "kubejs:banana_bread",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "spelunkery:grilled_portabella",
           "weight": 5
         },
         {

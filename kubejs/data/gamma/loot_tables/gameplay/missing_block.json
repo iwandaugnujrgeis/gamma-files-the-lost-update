@@ -293,11 +293,6 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "spelunkery:item_magnet"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
           "name": "supplementaries:bubble_blower"
         },
         {
@@ -333,11 +328,6 @@
           "type": "minecraft:item",
           "weight": 1,
           "name": "supplementaries:soap"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "supplementaries:speaker_block"
         },
         {
           "type": "minecraft:item",
