@@ -16,7 +16,7 @@ craftingTable.remove(<item:minecraft:bread>);
 furnace.remove(<item:minecraft:bread>);
 furnace.addRecipeMeta("bread_furnace", <item:minecraft:bread>, <item:kubejs:dough>, 0.35, 200, "", <constant:minecraft:recipe/category/cooking:food>);
 
-furnace.addRecipeMeta("tea_furnace", <item:coraline_systems:tea_leaves>, <item:minecraft:fern>, 0.35, 200, "", <constant:minecraft:recipe/category/cooking:food>);
+furnace.addRecipeMeta("tea", <item:coraline_systems:tea_leaves>, <item:minecraft:fern>, 0.35, 200, "", <constant:minecraft:recipe/category/cooking:food>);
 
 craftingTable.remove(<item:minecraft:brewing_stand>);
 craftingTable.addShapedMeta("brewing_stand", <item:minecraft:brewing_stand>, [
@@ -287,17 +287,20 @@ craftingTable.addShaped("sponge", <item:minecraft:sponge> * 3, [
   [<tag:items:gamma:coral_blocks>, <tag:items:gamma:coral_blocks>, <tag:items:gamma:coral_blocks>]]);
 
 craftingTable.remove(<item:minecraft:fire_charge>);
+/*
 craftingTable.addShaped("fire_charge", <item:minecraft:fire_charge> * 3, [
   [<item:minecraft:air>, <tag:items:minecraft:coals>, <item:minecraft:air>],
   [<tag:items:minecraft:coals>, <item:alexsmobs:lava_bottle>, <tag:items:minecraft:coals>],
   [<item:minecraft:air>, <tag:items:minecraft:coals>, <item:minecraft:air>]]);
-
+  */
+  
 craftingTable.remove(<item:minecraft:tinted_glass>);
 furnace.addRecipe("tinted_glass", <item:minecraft:tinted_glass>, <item:minecraft:gravel>, 0.35, 200);
 
 craftingTable.remove(<item:minecraft:granite>);
 craftingTable.remove(<item:minecraft:andesite>);
 craftingTable.remove(<item:minecraft:diorite>);
+craftingTable.remove(<item:minecraft:tuff>);
 
 craftingTable.addShaped("deepslate_slab", <item:minecraft:cobbled_deepslate_slab> * 6, [
   [<item:minecraft:deepslate>, <item:minecraft:deepslate>, <item:minecraft:deepslate>]]);
@@ -588,6 +591,7 @@ craftingTable.addShaped("maraca", <item:alexsmobs:maraca> * 3, [
   [<tag:items:minecraft:planks>, <item:minecraft:sand>, <tag:items:minecraft:planks>],
   [<item:minecraft:air>, <item:minecraft:stick>, <item:minecraft:air>]]);
 
+/*
 craftingTable.addShaped("maglev_rail", <item:coraline_systems:maglev_rail> * 16, [
   [<item:kubejs:silver_ingot>, <item:minecraft:air>, <item:kubejs:silver_ingot>],
   [<item:kubejs:silver_ingot>, <item:kubejs:silver_ingot>, <item:kubejs:silver_ingot>],
@@ -597,6 +601,7 @@ craftingTable.addShaped("powered_maglev_rail", <item:coraline_systems:powered_ma
   [<item:kubejs:silver_ingot>, <item:minecraft:air>, <item:kubejs:silver_ingot>],
   [<item:minecraft:gold_ingot>, <item:kubejs:silver_ingot>, <item:minecraft:gold_ingot>],
   [<item:kubejs:silver_ingot>, <item:minecraft:redstone>, <item:kubejs:silver_ingot>]]);
+  */
 
 // Potions:
   // Lava Vision:

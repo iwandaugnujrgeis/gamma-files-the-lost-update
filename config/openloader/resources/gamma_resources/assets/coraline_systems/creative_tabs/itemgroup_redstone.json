@@ -111,12 +111,6 @@
       "item": "minecraft:activator_rail"
     },
     {
-      "item": "coraline_systems:maglev_rail"
-    },
-    {
-      "item": "coraline_systems:powered_maglev_rail"
-    },
-    {
       "item": "minecraft:minecart"
     },
     {

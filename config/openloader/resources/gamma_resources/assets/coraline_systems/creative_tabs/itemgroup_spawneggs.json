@@ -3,9 +3,6 @@
   "tab_icon": "coraline_systems:helper_spawn_egg",
   "tab_items": [
     {
-      "item": "minecraft:spawner"
-    },
-    {
       "item": "minecraft:allay_spawn_egg"
     },
     {

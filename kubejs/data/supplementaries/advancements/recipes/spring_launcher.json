@@ -46,29 +46,14 @@
           }
         ]
       }
-    },
-    "has_iron_ingot": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:iron_ingot"
-            ]
-          }
-        ]
-      }
     }
   },
   "requirements": [
     [
       "has_slime_block",
-      "has_sticky_piston",
       "has_the_recipe",
-      "has_slime_block",
       "has_gunpowder",
-      "has_sticky_piston",
-      "has_iron_ingot"
+      "has_sticky_piston"
     ]
   ],
   "sends_telemetry_event": false

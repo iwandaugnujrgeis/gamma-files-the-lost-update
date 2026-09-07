@@ -1,12 +1,24 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "silver_ingot": {
+    "has_iron_ingot": {
       "conditions": {
         "items": [
           {
             "items": [
-              "kubejs:silver_ingot"
+              "minecraft:iron_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_redstone": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:redstone"
             ]
           }
         ]
@@ -15,20 +27,21 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "crafttweaker:lock_block"
+        "recipe": "supplementaries:relayer"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "silver_ingot",
+      "has_redstone",
+      "has_iron_ingot",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "crafttweaker:lock_block"
+      "supplementaries:relayer"
     ]
   },
   "sends_telemetry_event": false

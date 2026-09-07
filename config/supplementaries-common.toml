@@ -499,11 +499,11 @@
 		#Allow enderman to intercept any slingshot projectile
 		unrestricted_enderman_intercept = true
 		#Allows splash potions to be thrown by slingshots
-		allow_splash_potions = false
+		allow_splash_potions = true
 		#Allows bombs to be thrown by slingshots
 		allow_bombs = false
 		#Allows fire charges to be thrown by slingshots
-		allow_fire_charges = false
+		allow_fire_charges = true
 		#Allows snowballs to be thrown by slingshots
 		allow_snowballs = false
 		#Allows enderpearls to be thrown by slingshots

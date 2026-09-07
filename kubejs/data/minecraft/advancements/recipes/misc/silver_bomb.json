@@ -1,7 +1,19 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "silver_nugget": {
+    "has_silver_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:silver_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_silver_nugget": {
       "conditions": {
         "items": [
           {
@@ -13,7 +25,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "gunpowder": {
+    "has_gunpowder": {
       "conditions": {
         "items": [
           {
@@ -34,8 +46,9 @@
   },
   "requirements": [
     [
-      "silver_nugget",
-      "gunpowder",
+      "has_silver_nugget",
+      "has_silver_ingot",
+      "has_gunpowder",
       "has_the_recipe"
     ]
   ],

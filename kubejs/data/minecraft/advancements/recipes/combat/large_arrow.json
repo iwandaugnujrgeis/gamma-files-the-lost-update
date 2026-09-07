@@ -1,13 +1,23 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "silver_ingot": {
+    "has_feather": {
       "conditions": {
         "items": [
           {
             "items": [
-              "kubejs:silver_ingot"
+              "minecraft:feather"
             ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_silver": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:ingots/silver"
           }
         ]
       },
@@ -15,20 +25,21 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "crafttweaker:lock_block"
+        "recipe": "caverns_and_chasms:large_arrow"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "silver_ingot",
+      "has_feather",
+      "has_silver",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "crafttweaker:lock_block"
+      "caverns_and_chasms:large_arrow"
     ]
   },
   "sends_telemetry_event": false

@@ -15,6 +15,15 @@
       "item": "minecraft:lodestone"
     },
     {
+      "item": "minecraft:spawner"
+    },
+    {
+      "item": "coraline_systems:altar"
+    },
+    {
+      "item": "coraline_systems:tesseract"
+    },
+    {
       "item": "coraline_systems:centrifuge"
     },
     {

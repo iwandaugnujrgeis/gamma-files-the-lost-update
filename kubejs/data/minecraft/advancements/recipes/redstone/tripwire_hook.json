@@ -1,6 +1,18 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
+    "has_iron_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "has_string": {
       "conditions": {
         "items": [
@@ -22,6 +34,7 @@
   },
   "requirements": [
     [
+      "has_iron_ingot",
       "has_string",
       "has_the_recipe"
     ]

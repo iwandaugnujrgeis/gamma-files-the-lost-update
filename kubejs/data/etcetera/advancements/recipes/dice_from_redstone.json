@@ -6,18 +6,6 @@
     ]
   },
   "criteria": {
-    "redstone": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:redstone"
-            ]
-          }
-        ]
-      }
-    },
     "quartz": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -39,7 +27,6 @@
   },
   "requirements": [
     [
-      "redstone",
       "quartz",
       "has_the_recipe"
     ]

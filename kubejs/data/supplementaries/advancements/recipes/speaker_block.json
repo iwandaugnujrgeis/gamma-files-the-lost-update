@@ -22,23 +22,12 @@
           }
         ]
       }
-    },
-    "minecraft:planks": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "tag": "minecraft:planks"
-          }
-        ]
-      }
     }
   },
   "requirements": [
     [
       "has_the_recipe",
-      "has_ruby",
-      "minecraft:planks"
+      "has_ruby"
     ]
   ],
   "sends_telemetry_event": false

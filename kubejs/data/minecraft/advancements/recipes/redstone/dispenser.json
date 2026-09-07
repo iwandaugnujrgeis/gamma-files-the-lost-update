@@ -1,6 +1,18 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
+    "has_redstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:redstone"
+            ]
+          }
+        ]
+      }
+    },
     "has_bow": {
       "conditions": {
         "items": [
@@ -23,6 +35,7 @@
   "requirements": [
     [
       "has_bow",
+      "has_redstone",
       "has_the_recipe"
     ]
   ],

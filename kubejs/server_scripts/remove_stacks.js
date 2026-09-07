@@ -3,6 +3,9 @@
 const removedCompletely = [
 
   // 4.20.11:
+  'coraline_systems:maglev_rail',
+  'coraline_systems:powered_maglev_rail',
+
   'minecraft:turtle_helmet',
   'upgrade_aquatic:thrasher_spawn_egg',
   'upgrade_aquatic:nautilus_spawn_egg',

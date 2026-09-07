@@ -510,9 +510,7 @@
         "minecraft:tropical_fish",
         "minecraft:turtle",
         "minecraft:wolf",
-        "spawn:hamster",
-        "spawn:snail",
-        "upgrade_aquatic:nautilus"
+        "spawn:hamster"
       ],
       "disabled": false
     },

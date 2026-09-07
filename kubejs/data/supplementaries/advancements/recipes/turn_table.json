@@ -23,18 +23,6 @@
         ]
       }
     },
-    "has_cobblestone": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:cobblestone"
-            ]
-          }
-        ]
-      }
-    },
     "has_redstone": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -46,27 +34,13 @@
           }
         ]
       }
-    },
-    "minecraft:planks": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "tag": "minecraft:planks"
-          }
-        ]
-      }
     }
   },
   "requirements": [
     [
-      "has_copper_ingot",
-      "has_redstone",
       "has_the_recipe",
       "has_copper_ingot",
-      "has_cobblestone",
-      "has_redstone",
-      "minecraft:planks"
+      "has_redstone"
     ]
   ],
   "sends_telemetry_event": false

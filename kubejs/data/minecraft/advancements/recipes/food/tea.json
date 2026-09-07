@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "silver_ingot": {
+    "has_fern": {
       "conditions": {
         "items": [
           {
             "items": [
-              "kubejs:silver_ingot"
+              "minecraft:fern"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "crafttweaker:lock_block"
+        "recipe": "crafttweaker:tea"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "silver_ingot",
+      "has_fern",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "crafttweaker:lock_block"
+      "crafttweaker:tea"
     ]
   },
   "sends_telemetry_event": false
