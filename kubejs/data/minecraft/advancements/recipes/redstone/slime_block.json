@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_slime_ball": {
+    "slime_block": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:slime_ball"
+              "minecraft:slime_block"
             ]
           }
         ]
@@ -22,7 +22,7 @@
   },
   "requirements": [
     [
-      "has_slime_ball",
+      "slime_block",
       "has_the_recipe"
     ]
   ],

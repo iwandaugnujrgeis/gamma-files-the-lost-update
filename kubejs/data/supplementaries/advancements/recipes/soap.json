@@ -1,34 +1,7 @@
 {
-  "rewards": {
-    "recipes": [
-      "crafttweaker:soap"
-    ]
-  },
   "criteria": {
-    "has_the_recipe": {
-      "trigger": "minecraft:recipe_unlocked",
-      "conditions": {
-        "recipe": "crafttweaker:soap"
-      }
-    },
-    "has_soapstone": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "supplementaries:soap_block"
-            ]
-          }
-        ]
-      }
+    "never": {
+      "trigger": "minecraft:impossible"
     }
-  },
-  "requirements": [
-    [
-      "has_the_recipe",
-      "has_soapstone"
-    ]
-  ],
-  "sends_telemetry_event": false
+  }
 }

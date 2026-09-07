@@ -1,35 +1,23 @@
 {
   "rewards": {
     "recipes": [
-      "crafttweaker:supplementaries_sack"
+      "crafttweaker:soap"
     ]
   },
   "criteria": {
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "crafttweaker:supplementaries_sack"
+        "recipe": "crafttweaker:soap"
       }
     },
-    "has_string": {
+    "has_soapstone": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:string"
-            ]
-          }
-        ]
-      }
-    },
-    "has_wheat": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:wheat"
+              "supplementaries:soap_block"
             ]
           }
         ]
@@ -39,8 +27,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_string",
-      "has_wheat"
+      "has_soapstone"
     ]
   ],
   "sends_telemetry_event": false

@@ -1,12 +1,24 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_magnetite": {
+    "iron_ingot": {
       "conditions": {
         "items": [
           {
             "items": [
-              "spelunkery:raw_magnetite"
+              "minecraft:iron_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "redstone": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:redstone"
             ]
           }
         ]
@@ -22,7 +34,8 @@
   },
   "requirements": [
     [
-      "has_magnetite",
+      "iron_ingot",
+      "redstone",
       "has_the_recipe"
     ]
   ],

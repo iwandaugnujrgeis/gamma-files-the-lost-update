@@ -1,36 +1,36 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_ender_pearl": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:ender_pearl"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-    "has_raw_magnetite": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "spelunkery:raw_magnetite"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-    "has_chiseled_stone": {
+    "chiseled_stone_bricks": {
       "conditions": {
         "items": [
           {
             "items": [
               "minecraft:chiseled_stone_bricks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "redstone": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:redstone"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "ender_pearl": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:ender_pearl"
             ]
           }
         ]
@@ -46,9 +46,9 @@
   },
   "requirements": [
     [
-      "has_ender_pearl",
-      "has_raw_magnetite",
-      "has_chiseled_stone",
+      "chiseled_stone_bricks",
+      "redstone",
+      "ender_pearl",
       "has_the_recipe"
     ]
   ],

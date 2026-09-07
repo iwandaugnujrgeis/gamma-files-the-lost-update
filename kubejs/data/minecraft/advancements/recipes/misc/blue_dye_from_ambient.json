@@ -1,15 +1,15 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "music_discs": {
-      "trigger": "minecraft:inventory_changed",
+    "ambient_discs": {
       "conditions": {
         "items": [
           {
             "tag": "gamma:ambient_discs"
           }
         ]
-      }
+      },
+      "trigger": "minecraft:inventory_changed"
     },
     "has_the_recipe": {
       "conditions": {
@@ -20,7 +20,7 @@
   },
   "requirements": [
     [
-      "music_discs",
+      "ambient_discs",
       "has_the_recipe"
     ]
   ],

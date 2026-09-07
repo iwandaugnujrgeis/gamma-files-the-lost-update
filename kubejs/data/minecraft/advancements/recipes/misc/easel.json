@@ -1,15 +1,27 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_item": {
-      "trigger": "minecraft:inventory_changed",
+    "dyes": {
       "conditions": {
         "items": [
           {
             "tag": "forge:dyes"
           }
         ]
-      }
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "brush": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:brush"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
     },
     "has_the_recipe": {
       "conditions": {
@@ -20,7 +32,8 @@
   },
   "requirements": [
     [
-      "has_item",
+      "dyes",
+      "brush",
       "has_the_recipe"
     ]
   ],

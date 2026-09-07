@@ -1,12 +1,36 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_item": {
+    "silver_ingot": {
       "conditions": {
         "items": [
           {
             "items": [
               "kubejs:silver_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "gold_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gold_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "redstone": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:redstone"
             ]
           }
         ]
@@ -22,7 +46,9 @@
   },
   "requirements": [
     [
-      "has_item",
+      "silver_ingot",
+      "gold_ingot",
+      "redstone",
       "has_the_recipe"
     ]
   ],

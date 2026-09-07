@@ -1,12 +1,36 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_blaze_rod": {
+    "iron_nugget": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:blaze_rod"
+              "minecraft:iron_nugget"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "iron_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "smooth_stone_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:smooth_stone_slab"
             ]
           }
         ]
@@ -15,20 +39,22 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:brewing_stand"
+        "recipe": "crafttweaker:brewing_stand"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_blaze_rod",
+      "iron_nugget",
+      "iron_ingot",
+      "smooth_stone_slab",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:brewing_stand"
+      "crafttweaker:brewing_stand"
     ]
   },
   "sends_telemetry_event": false

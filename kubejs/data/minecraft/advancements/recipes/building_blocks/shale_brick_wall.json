@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "shale": {
+    "shale_bricks": {
       "conditions": {
         "items": [
           {
@@ -22,7 +22,7 @@
   },
   "requirements": [
     [
-      "shale",
+      "shale_bricks",
       "has_the_recipe"
     ]
   ],

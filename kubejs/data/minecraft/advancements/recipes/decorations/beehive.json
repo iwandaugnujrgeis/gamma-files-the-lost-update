@@ -1,7 +1,29 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_honeycomb": {
+    "planks": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:planks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "blue_dye": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:blue_dye"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "honeycomb": {
       "conditions": {
         "items": [
           {
@@ -22,7 +44,9 @@
   },
   "requirements": [
     [
-      "has_honeycomb",
+      "planks",
+      "blue_dye",
+      "honeycomb",
       "has_the_recipe"
     ]
   ],

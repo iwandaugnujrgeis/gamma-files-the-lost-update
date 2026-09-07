@@ -13,6 +13,18 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
+    "butter": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:butter"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "dough": {
       "conditions": {
         "items": [
@@ -47,6 +59,7 @@
   "requirements": [
     [
       "mulberry",
+      "butter",
       "dough",
       "sugar",
       "has_the_recipe"

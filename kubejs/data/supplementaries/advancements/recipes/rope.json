@@ -1,23 +1,23 @@
 {
   "rewards": {
     "recipes": [
-      "crafttweaker:supplementaries_rope"
+      "crafttweaker:soap"
     ]
   },
   "criteria": {
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "crafttweaker:supplementaries_rope"
+        "recipe": "crafttweaker:soap"
       }
     },
-    "has_roots": {
+    "has_soapstone": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "spelunkery:tangle_roots"
+              "supplementaries:soap_block"
             ]
           }
         ]
@@ -26,8 +26,8 @@
   },
   "requirements": [
     [
-      "has_roots",
-      "has_the_recipe"
+      "has_the_recipe",
+      "has_soapstone"
     ]
   ],
   "sends_telemetry_event": false

@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "limestone": {
+    "limestone_bricks": {
       "conditions": {
         "items": [
           {
@@ -22,7 +22,7 @@
   },
   "requirements": [
     [
-      "limestone",
+      "limestone_bricks",
       "has_the_recipe"
     ]
   ],
