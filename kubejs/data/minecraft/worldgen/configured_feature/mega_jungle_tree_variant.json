@@ -2,12 +2,13 @@
   "type": "minecraft:tree",
   "config": {
     "decorators": [
+      { "type": "minecraft:trunk_vine" },
+      { "type": "minecraft:leave_vine", "probability": 0.25 },
       {
-        "type": "minecraft:trunk_vine"
-      },
-      {
-        "type": "minecraft:leave_vine",
-        "probability": 0.25
+        "type": "coraline_systems:hanging_fruit",
+        "probability": 0.01,
+        "fruit_state": { "Name": "coraline_systems:banana_fruit", "Properties": { "age": "0" } },
+        "max_spawn_age": 2
       }
     ],
     "dirt_provider": {

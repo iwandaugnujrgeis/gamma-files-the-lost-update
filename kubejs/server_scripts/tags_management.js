@@ -1,7 +1,8 @@
 //priority: 1
 
-//Colored Tag Helper:
 const allColors = ['white', 'orange', 'magenta', 'light_blue', 'yellow', 'lime', 'pink', 'gray', 'light_gray', 'cyan', 'purple', 'blue', 'brown', 'green', 'red', 'black']
+const coralineColors = ['bright_green', 'spring_green', 'sky_blue', 'slate_blue', 'lavender', 'rose', 'wine', 'coral', 'phtalo', 'plum', 'toxic_yellow', 'navy_blue']
+const nonWhiteColors = ['orange', 'magenta', 'light_blue', 'yellow', 'lime', 'pink', 'gray', 'light_gray', 'cyan', 'purple', 'blue', 'brown', 'green', 'red', 'black']
 
 function addColoredTags(event, tag, namespace, suffix, colors) {
   if (!colors) colors = allColors
@@ -9,62 +10,40 @@ function addColoredTags(event, tag, namespace, suffix, colors) {
 }
 
 ServerEvents.tags('item', event => {
-  addColoredTags(event, 'gamma:colored_brick_walls', 'kubejs', '_bricks_wall')
-  addColoredTags(event, 'gamma:colored_brick_slabs', 'kubejs', '_bricks_slab')
-  addColoredTags(event, 'gamma:colored_brick_stairs', 'kubejs', '_bricks_stairs')
-  addColoredTags(event, 'gamma:colored_bricks', 'kubejs', '_bricks')
-  addColoredTags(event, 'gamma:colored_framed_glass', 'quark', '_framed_glass')
-  addColoredTags(event, 'gamma:colored_framed_glass_panes', 'quark', '_framed_glass_pane')
-  addColoredTags(event, 'gamma:colored_terracotta', 'minecraft', '_terracotta')
-  addColoredTags(event, 'gamma:colored_terracotta_walls', 'clayworks', '_terracotta_wall')
-  addColoredTags(event, 'gamma:colored_terracotta_slabs', 'clayworks', '_terracotta_slab')
-  addColoredTags(event, 'gamma:colored_terracotta_stairs', 'clayworks', '_terracotta_stairs')
-  addColoredTags(event, 'gamma:colored_glass', 'minecraft', '_stained_glass')
-  addColoredTags(event, 'gamma:colored_glass_panes', 'minecraft', '_stained_glass_pane')
-  addColoredTags(event, 'gamma:colored_bedrolls', 'upgrade_aquatic', '_bedroll')
-  addColoredTags(event, 'gamma:colored_glowsticks', 'spelunkery', '_glowstick')
-  addColoredTags(event, 'gamma:colored_candles', 'minecraft', '_candle')
+  // Wool
+  addColoredTags(event, 'gamma:colored_wool', 'minecraft', '_wool', nonWhiteColors)
+  addColoredTags(event, 'gamma:colored_wool', 'coraline_systems', '_wool', coralineColors)
 
-  //Items which default state is "white":
-  addColoredTags(event, 'gamma:colored_beds', 'minecraft', '_bed', ['orange', 'magenta', 'light_blue', 'yellow', 'lime', 'pink', 'gray', 'light_gray', 'cyan', 'purple', 'blue', 'brown', 'green', 'red', 'black'])
-  addColoredTags(event, 'gamma:colored_wool', 'minecraft', '_wool', ['orange', 'magenta', 'light_blue', 'yellow', 'lime', 'pink', 'gray', 'light_gray', 'cyan', 'purple', 'blue', 'brown', 'green', 'red', 'black'])
-  addColoredTags(event, 'gamma:colored_wool_carpets', 'minecraft', '_carpet', ['orange', 'magenta', 'light_blue', 'yellow', 'lime', 'pink', 'gray', 'light_gray', 'cyan', 'purple', 'blue', 'brown', 'green', 'red', 'black'])
-  addColoredTags(event, 'gamma:colored_hats', 'etcetera', '_hat', ['orange', 'magenta', 'light_blue', 'yellow', 'lime', 'pink', 'gray', 'light_gray', 'cyan', 'purple', 'blue', 'brown', 'green', 'red', 'black'])
-  addColoredTags(event, 'gamma:colored_sweaters', 'etcetera', '_sweater', ['orange', 'magenta', 'light_blue', 'yellow', 'lime', 'pink', 'gray', 'light_gray', 'cyan', 'purple', 'blue', 'brown', 'green', 'red', 'black'])
+  // Carpets
+  addColoredTags(event, 'gamma:colored_wool_carpets', 'minecraft', '_carpet', nonWhiteColors)
+  addColoredTags(event, 'gamma:colored_wool_carpets', 'coraline_systems', '_carpet', coralineColors)
 
-  //Flags, because their ID has a prefix, not a suffix...
-  event.add('gamma:colored_flags', 'supplementaries:flag_orange')
-  event.add('gamma:colored_flags', 'supplementaries:flag_yellow')
-  event.add('gamma:colored_flags', 'supplementaries:flag_red')
-  event.add('gamma:colored_flags', 'supplementaries:flag_blue')
-  event.add('gamma:colored_flags', 'supplementaries:flag_cyan')
-  event.add('gamma:colored_flags', 'supplementaries:flag_light_blue')
-  event.add('gamma:colored_flags', 'supplementaries:flag_lime')
-  event.add('gamma:colored_flags', 'supplementaries:flag_green')
-  event.add('gamma:colored_flags', 'supplementaries:flag_magenta')
-  event.add('gamma:colored_flags', 'supplementaries:flag_pink')
-  event.add('gamma:colored_flags', 'supplementaries:flag_purple')
-  event.add('gamma:colored_flags', 'supplementaries:flag_black')
-  event.add('gamma:colored_flags', 'supplementaries:flag_gray')
-  event.add('gamma:colored_flags', 'supplementaries:flag_light_gray')
-  event.add('gamma:colored_flags', 'supplementaries:flag_brown')
+  // Terracotta
+  addColoredTags(event, 'gamma:colored_terracotta', 'minecraft', '_terracotta', nonWhiteColors)
+  addColoredTags(event, 'gamma:colored_terracotta', 'coraline_systems', '_terracotta', coralineColors)
 
-  //Custom Rediscovered's Wool & Carpets:
-  event.add('gamma:colored_wool', 'rediscovered:bright_green_wool')
-  event.add('gamma:colored_wool', 'rediscovered:spring_green_wool')
-  event.add('gamma:colored_wool', 'rediscovered:sky_blue_wool')
-  event.add('gamma:colored_wool', 'rediscovered:slate_blue_wool')
-  event.add('gamma:colored_wool', 'rediscovered:lavender_wool')
-  event.add('gamma:colored_wool', 'rediscovered:rose_wool')
-  event.add('gamma:colored_wool_carpets', 'rediscovered:bright_green_carpet')
-  event.add('gamma:colored_wool_carpets', 'rediscovered:spring_green_carpet')
-  event.add('gamma:colored_wool_carpets', 'rediscovered:sky_blue_carpet')
-  event.add('gamma:colored_wool_carpets', 'rediscovered:slate_blue_carpet')
-  event.add('gamma:colored_wool_carpets', 'rediscovered:lavender_carpet')
-  event.add('gamma:colored_wool_carpets', 'rediscovered:rose_carpet')
+  // Terracotta Slabs
+  addColoredTags(event, 'gamma:colored_terracotta_slabs', 'clayworks', '_terracotta_slab', nonWhiteColors)
+  addColoredTags(event, 'gamma:colored_terracotta_slabs', 'coraline_systems', '_terracotta_slab', coralineColors)
+
+  // Terracotta Stairs
+  addColoredTags(event, 'gamma:colored_terracotta_stairs', 'clayworks', '_terracotta_stairs', nonWhiteColors)
+  addColoredTags(event, 'gamma:colored_terracotta_stairs', 'coraline_systems', '_terracotta_stairs', coralineColors)
+
+  // Terracotta Walls
+  addColoredTags(event, 'gamma:colored_terracotta_walls', 'clayworks', '_terracotta_wall', nonWhiteColors)
+  addColoredTags(event, 'gamma:colored_terracotta_walls', 'coraline_systems', '_terracotta_wall', coralineColors)
+
+  // Glass
+  addColoredTags(event, 'gamma:colored_glass', 'minecraft', '_stained_glass', allColors)
+  addColoredTags(event, 'gamma:colored_glass', 'coraline_systems', '_stained_glass', coralineColors)
+
+  // Glass Panes
+  addColoredTags(event, 'gamma:colored_glass_panes', 'minecraft', '_stained_glass_pane', allColors)
+  addColoredTags(event, 'gamma:colored_glass_panes', 'coraline_systems', '_stained_glass_pane', coralineColors)
 })
 
-//Other:
+// Other:
 ServerEvents.tags('item', event => {
   event.add('gamma:ambient_discs', 'quark:music_disc_chatter')
   event.add('gamma:ambient_discs', 'quark:music_disc_crickets')
@@ -91,8 +70,6 @@ ServerEvents.tags('item', event => {
   event.add('gamma:music_discs', 'minecraft:music_disc_wait')
   event.add('gamma:music_discs', 'rediscovered:music_disc_calm4')
   event.add('gamma:music_discs', 'minecraft:music_disc_otherside')
-  event.add('gamma:music_discs', 'minecraft:music_disc_5')
-  event.add('gamma:music_discs', 'upgrade_aquatic:music_disc_atlantis')
   event.add('gamma:music_discs', 'minecraft:music_disc_pigstep')
   event.add('gamma:music_discs', 'minecraft:music_disc_relic')
   event.add('gamma:music_discs', 'alexsmobs:music_disc_thime')
@@ -136,8 +113,7 @@ ServerEvents.tags('item', event => {
 })
 
 ServerEvents.tags('item', event => {
-  event.add('gamma:compost_ingredients', 'minecraft:glow_berries')
-  event.add('gamma:compost_ingredients', 'minecraft:apple')
+  event.add('gamma:compost_ingredients', 'coraline_systems:apple')
   event.add('gamma:compost_ingredients', 'minecraft:carrot')
   event.add('gamma:compost_ingredients', 'minecraft:potato')
   event.add('gamma:compost_ingredients', 'minecraft:beetroot')

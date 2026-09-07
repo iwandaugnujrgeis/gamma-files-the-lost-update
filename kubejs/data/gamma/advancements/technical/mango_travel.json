@@ -2,7 +2,7 @@
   "display": {
     "icon": {
       "item": "citadel:fancy_item",
-      "nbt": "{DisplayItem:\"kubejs:mango\", DisplayBob:1, DisplayZoom:0, DisplayScale:1, DisplaySpin:0, DisplayShake:0}"
+      "nbt": "{DisplayItem:\"coraline_systems:mango\", DisplayBob:1, DisplayZoom:0, DisplayScale:1, DisplaySpin:0, DisplayShake:0}"
     },
     "title": "Mango's Invitation",
     "description": "Taste the Sky!",
@@ -29,7 +29,7 @@
         ],
         "item": {
           "items": [
-            "kubejs:mango"
+            "coraline_systems:mango"
           ]
         }
       }

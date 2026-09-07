@@ -4,16 +4,20 @@
     "default": "minecraft:jungle_tree",
     "features": [
       {
-        "chance": 0.1,
-        "feature": "gamma:jungle_bush"
-      },
-      {
         "chance": 0.85,
         "feature": "minecraft:mega_jungle_tree_checked"
       },
       {
         "chance": 0.1,
-        "feature": "minecraft:acacia_checked"
+        "feature": "gamma:jungle_bush"
+      },
+      {
+        "chance": 0.1,
+        "feature": "coraline_systems:jungle_tree_with_bananas_checked"
+      },
+      {
+        "chance": 0.1,
+        "feature": "coraline_systems:acacia_tree_with_mangos_checked"
       }
     ]
   }

@@ -22,11 +22,6 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "alexsmobs:bear_dust"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
           "name": "minecraft:totem_of_undying"
         },
         {
@@ -66,7 +61,7 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "alexsmobs:banana"
+          "name": "coraline_systems:banana"
         },
         {
           "type": "minecraft:item",
@@ -127,11 +122,6 @@
           "type": "minecraft:item",
           "weight": 1,
           "name": "minecraft:azure_bluet"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:bell"
         },
         {
           "type": "minecraft:item",
@@ -268,11 +258,6 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "quark:tiny_potato"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
           "name": "kubejs:gear"
         },
         {
@@ -352,12 +337,7 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "kubejs:walnut"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "etcetera:cotton_flower"
+          "name": "coraline_systems:walnut"
         },
         {
           "type": "minecraft:item",
@@ -377,7 +357,7 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "minecraft:apple"
+          "name": "coraline_systems:apple"
         },
         {
           "type": "minecraft:item",
@@ -423,11 +403,6 @@
           "type": "minecraft:item",
           "weight": 1,
           "name": "minecraft:cactus"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:candle"
         },
         {
           "type": "minecraft:item",

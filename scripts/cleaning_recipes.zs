@@ -24,38 +24,6 @@ craftingTable.addShapedMeta("wool_carpets_clean_bulk", <item:minecraft:white_car
 
 craftingTable.addShapelessMeta("wool_carpets_clean_shapeless", <item:minecraft:white_carpet>, [<tag:items:gamma:colored_wool_carpets>, <item:supplementaries:soap>], "wool_carpets_clean", <constant:minecraft:recipe/category/crafting:misc>);
 
-//Colored Bricks to Bricks
-craftingTable.addShapedMeta("bricks_clean_bulk", <item:minecraft:bricks> * 8, [
-  [<tag:items:gamma:colored_bricks>, <tag:items:gamma:colored_bricks>, <tag:items:gamma:colored_bricks>],
-  [<tag:items:gamma:colored_bricks>, <item:supplementaries:soap>, <tag:items:gamma:colored_bricks>],
-  [<tag:items:gamma:colored_bricks>, <tag:items:gamma:colored_bricks>, <tag:items:gamma:colored_bricks>]], "bricks_clean", <constant:minecraft:recipe/category/crafting:misc>);
-
-craftingTable.addShapelessMeta("bricks_clean_shapeless", <item:minecraft:bricks>, [<tag:items:gamma:colored_bricks>, <item:supplementaries:soap>], "bricks_clean", <constant:minecraft:recipe/category/crafting:misc>);
-
-//Colored Brick Slabs to Brick Slab
-craftingTable.addShapedMeta("brick_slabs_clean_bulk", <item:minecraft:brick_slab> * 8, [
-  [<tag:items:gamma:colored_brick_slabs>, <tag:items:gamma:colored_brick_slabs>, <tag:items:gamma:colored_brick_slabs>],
-  [<tag:items:gamma:colored_brick_slabs>, <item:supplementaries:soap>, <tag:items:gamma:colored_brick_slabs>],
-  [<tag:items:gamma:colored_brick_slabs>, <tag:items:gamma:colored_brick_slabs>, <tag:items:gamma:colored_brick_slabs>]], "brick_slabs_clean", <constant:minecraft:recipe/category/crafting:misc>);
-
-craftingTable.addShapelessMeta("brick_slabs_clean_shapeless", <item:minecraft:brick_slab>, [<tag:items:gamma:colored_brick_slabs>, <item:supplementaries:soap>], "brick_slabs_clean", <constant:minecraft:recipe/category/crafting:misc>);
-
-//Colored Brick Stairs to Brick Stairs
-craftingTable.addShapedMeta("brick_stairs_clean_bulk", <item:minecraft:brick_stairs> * 8, [
-  [<tag:items:gamma:colored_brick_stairs>, <tag:items:gamma:colored_brick_stairs>, <tag:items:gamma:colored_brick_stairs>],
-  [<tag:items:gamma:colored_brick_stairs>, <item:supplementaries:soap>, <tag:items:gamma:colored_brick_stairs>],
-  [<tag:items:gamma:colored_brick_stairs>, <tag:items:gamma:colored_brick_stairs>, <tag:items:gamma:colored_brick_stairs>]], "brick_stairs_clean", <constant:minecraft:recipe/category/crafting:misc>);
-
-craftingTable.addShapelessMeta("brick_stairs_clean_shapeless", <item:minecraft:brick_stairs>, [<tag:items:gamma:colored_brick_stairs>, <item:supplementaries:soap>], "brick_stairs_clean", <constant:minecraft:recipe/category/crafting:misc>);
-
-//Colored Brick Walls to Brick Wall
-craftingTable.addShapedMeta("brick_walls_clean_bulk", <item:minecraft:brick_wall> * 8, [
-  [<tag:items:gamma:colored_brick_walls>, <tag:items:gamma:colored_brick_walls>, <tag:items:gamma:colored_brick_walls>],
-  [<tag:items:gamma:colored_brick_walls>, <item:supplementaries:soap>, <tag:items:gamma:colored_brick_walls>],
-  [<tag:items:gamma:colored_brick_walls>, <tag:items:gamma:colored_brick_walls>, <tag:items:gamma:colored_brick_walls>]], "brick_walls_clean", <constant:minecraft:recipe/category/crafting:misc>);
-
-craftingTable.addShapelessMeta("brick_walls_clean_shapeless", <item:minecraft:brick_wall>, [<tag:items:gamma:colored_brick_walls>, <item:supplementaries:soap>], "brick_walls_clean", <constant:minecraft:recipe/category/crafting:misc>);
-
 //Colored Terracotta to Terracotta
 craftingTable.addShapedMeta("terracotta_clean_bulk", <item:minecraft:terracotta> * 8, [
   [<tag:items:gamma:colored_terracotta>, <tag:items:gamma:colored_terracotta>, <tag:items:gamma:colored_terracotta>],
@@ -103,6 +71,39 @@ craftingTable.addShapedMeta("glass_panes_clean_bulk", <item:minecraft:glass_pane
   [<tag:items:gamma:colored_glass_panes>, <tag:items:gamma:colored_glass_panes>, <tag:items:gamma:colored_glass_panes>]], "glass_panes_clean", <constant:minecraft:recipe/category/crafting:misc>);
 
 craftingTable.addShapelessMeta("glass_panes_clean_shapeless", <item:minecraft:glass_pane>, [<tag:items:gamma:colored_glass_panes>, <item:supplementaries:soap>], "glass_panes_clean", <constant:minecraft:recipe/category/crafting:misc>);
+
+/*
+//Colored Bricks to Bricks
+craftingTable.addShapedMeta("bricks_clean_bulk", <item:minecraft:bricks> * 8, [
+  [<tag:items:gamma:colored_bricks>, <tag:items:gamma:colored_bricks>, <tag:items:gamma:colored_bricks>],
+  [<tag:items:gamma:colored_bricks>, <item:supplementaries:soap>, <tag:items:gamma:colored_bricks>],
+  [<tag:items:gamma:colored_bricks>, <tag:items:gamma:colored_bricks>, <tag:items:gamma:colored_bricks>]], "bricks_clean", <constant:minecraft:recipe/category/crafting:misc>);
+
+craftingTable.addShapelessMeta("bricks_clean_shapeless", <item:minecraft:bricks>, [<tag:items:gamma:colored_bricks>, <item:supplementaries:soap>], "bricks_clean", <constant:minecraft:recipe/category/crafting:misc>);
+
+//Colored Brick Slabs to Brick Slab
+craftingTable.addShapedMeta("brick_slabs_clean_bulk", <item:minecraft:brick_slab> * 8, [
+  [<tag:items:gamma:colored_brick_slabs>, <tag:items:gamma:colored_brick_slabs>, <tag:items:gamma:colored_brick_slabs>],
+  [<tag:items:gamma:colored_brick_slabs>, <item:supplementaries:soap>, <tag:items:gamma:colored_brick_slabs>],
+  [<tag:items:gamma:colored_brick_slabs>, <tag:items:gamma:colored_brick_slabs>, <tag:items:gamma:colored_brick_slabs>]], "brick_slabs_clean", <constant:minecraft:recipe/category/crafting:misc>);
+
+craftingTable.addShapelessMeta("brick_slabs_clean_shapeless", <item:minecraft:brick_slab>, [<tag:items:gamma:colored_brick_slabs>, <item:supplementaries:soap>], "brick_slabs_clean", <constant:minecraft:recipe/category/crafting:misc>);
+
+//Colored Brick Stairs to Brick Stairs
+craftingTable.addShapedMeta("brick_stairs_clean_bulk", <item:minecraft:brick_stairs> * 8, [
+  [<tag:items:gamma:colored_brick_stairs>, <tag:items:gamma:colored_brick_stairs>, <tag:items:gamma:colored_brick_stairs>],
+  [<tag:items:gamma:colored_brick_stairs>, <item:supplementaries:soap>, <tag:items:gamma:colored_brick_stairs>],
+  [<tag:items:gamma:colored_brick_stairs>, <tag:items:gamma:colored_brick_stairs>, <tag:items:gamma:colored_brick_stairs>]], "brick_stairs_clean", <constant:minecraft:recipe/category/crafting:misc>);
+
+craftingTable.addShapelessMeta("brick_stairs_clean_shapeless", <item:minecraft:brick_stairs>, [<tag:items:gamma:colored_brick_stairs>, <item:supplementaries:soap>], "brick_stairs_clean", <constant:minecraft:recipe/category/crafting:misc>);
+
+//Colored Brick Walls to Brick Wall
+craftingTable.addShapedMeta("brick_walls_clean_bulk", <item:minecraft:brick_wall> * 8, [
+  [<tag:items:gamma:colored_brick_walls>, <tag:items:gamma:colored_brick_walls>, <tag:items:gamma:colored_brick_walls>],
+  [<tag:items:gamma:colored_brick_walls>, <item:supplementaries:soap>, <tag:items:gamma:colored_brick_walls>],
+  [<tag:items:gamma:colored_brick_walls>, <tag:items:gamma:colored_brick_walls>, <tag:items:gamma:colored_brick_walls>]], "brick_walls_clean", <constant:minecraft:recipe/category/crafting:misc>);
+
+craftingTable.addShapelessMeta("brick_walls_clean_shapeless", <item:minecraft:brick_wall>, [<tag:items:gamma:colored_brick_walls>, <item:supplementaries:soap>], "brick_walls_clean", <constant:minecraft:recipe/category/crafting:misc>);
 
 //Colored Framed Glass to Framed Glass
 craftingTable.addShapedMeta("framed_glass_clean_bulk", <item:quark:framed_glass> * 8, [
@@ -155,3 +156,4 @@ craftingTable.addShapelessMeta("hats_clean_shapeless", <item:etcetera:white_hat>
 
 //Colored Sweaters to White Sweater
 craftingTable.addShapelessMeta("sweaters_clean_shapeless", <item:etcetera:white_sweater>, [<tag:items:gamma:colored_sweaters>, <item:supplementaries:soap>], "sweaters_clean", <constant:minecraft:recipe/category/crafting:misc>);
+*/

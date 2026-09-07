@@ -1,7 +1,0 @@
-{
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "coraline_systems:item/drink_overlay",
-        "layer1": "item/potion"
-    }
-}

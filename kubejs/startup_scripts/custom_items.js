@@ -2,13 +2,15 @@
 
 StartupEvents.registry('item', event => {
 
-  // Food items
+  // Food
 
+  /*
   event.create('walnut')
     .texture('gamma:item/walnut')
     .maxStackSize(8)
     .displayName('Walnut')
     .food(food => food.hunger(2).saturation(0.5))
+    */
 
   event.create('pumpkin_slice')
     .texture('gamma:item/pumpkin_slice')
@@ -16,12 +18,14 @@ StartupEvents.registry('item', event => {
     .displayName('Pumpkin Slice')
     .food(food => food.hunger(2).saturation(0.5))
 
+  /*
   event.create('milk_bottle_placeholder')
     .texture('gamma:item/milk_bottle_placeholder')
     .maxStackSize(8)
     .displayName('PLACEHOLDER')
     .food(food => food.hunger(2).saturation(0.5))
-
+    */
+    
   event.create('fried_egg')
     .texture('gamma:item/fried_egg')
     .maxStackSize(8)
@@ -72,11 +76,13 @@ StartupEvents.registry('item', event => {
     .displayName('Glazed Steak')
     .food(food => food.hunger(8).saturation(0.5))
 
+  /*
   event.create('mango')
     .texture('gamma:item/mango')
     .maxStackSize(8)
     .displayName('Mango')
     .food(food => food.hunger(3).saturation(0.5))
+    */
 
   event.create('omelette')
     .texture('gamma:item/omelette')

@@ -75,9 +75,6 @@
       "item": "minecraft:redstone_torch"
     },
     {
-      "item": "minecraft:soul_torch"
-    },
-    {
       "item": "spelunkery:glowstick"
     },
     {
@@ -134,9 +131,6 @@
     {
       "item": "etcetera:handbell"
     },
-    // {
-      // "item": "caverns_and_chasms:tuning_fork"
-    // },
     {
       "item": "minecraft:name_tag"
     },
@@ -152,9 +146,6 @@
     {
       "item": "minecraft:oak_boat"
     },
-    // {
-      // "item": "minecraft:bamboo_raft"
-    // },
     {
       "item": "coraline_systems:obsidian_boat"
     },
@@ -166,12 +157,6 @@
     },
     {
       "item": "alexsmobs:fedora"
-    },
-    {
-      "item": "minecraft:turtle_helmet"
-    },
-    {
-      "item": "etcetera:tidal_helmet"
     },
     {
       "item": "alexsmobs:flying_fish_boots"
@@ -201,9 +186,6 @@
       "item": "quark:abacus"
     },
     {
-      "item": "minecraft:goat_horn"
-    },
-    {
       "item": "alexsmobs:maraca"
     },
     {
@@ -212,56 +194,6 @@
     {
       "item": "rediscovered:ruby_flute"
     },
-    /*
-    {
-      "item": "chalk:white_chalk"
-    },
-    {
-      "item": "chalk:light_gray_chalk"
-    },
-    {
-      "item": "chalk:gray_chalk"
-    },
-    {
-      "item": "chalk:black_chalk"
-    },
-    {
-      "item": "chalk:brown_chalk"
-    },
-    {
-      "item": "chalk:red_chalk"
-    },
-    {
-      "item": "chalk:orange_chalk"
-    },
-    {
-      "item": "chalk:yellow_chalk"
-    },
-    {
-      "item": "chalk:lime_chalk"
-    },
-    {
-      "item": "chalk:green_chalk"
-    },
-    {
-      "item": "chalk:cyan_chalk"
-    },
-    {
-      "item": "chalk:light_blue_chalk"
-    },
-    {
-      "item": "chalk:blue_chalk"
-    },
-    {
-      "item": "chalk:purple_chalk"
-    },
-    {
-      "item": "chalk:magenta_chalk"
-    },
-    {
-      "item": "chalk:pink_chalk"
-    },
-    */
     {
       "item": "minecraft:music_disc_13"
     },
@@ -312,12 +244,6 @@
     },
     {
       "item": "minecraft:music_disc_otherside"
-    },
-    {
-      "item": "minecraft:music_disc_5"
-    },
-    {
-      "item": "upgrade_aquatic:music_disc_atlantis"
     },
     {
       "item": "minecraft:music_disc_pigstep"

@@ -19,10 +19,6 @@
         "path": "advancements/.*"
       },
       {
-        "namespace": "ecologics",
-        "path": "advancements/.*"
-      },
-      {
         "namespace": "upgrade_aquatic",
         "path": "advancements/.*"
       },

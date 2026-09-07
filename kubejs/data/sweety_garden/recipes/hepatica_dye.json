@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "light_blue_dye",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "sweety_garden:hepatica"
+    }
+  ],
+  "result": {
+    "item": "coraline_systems:slate_blue_dye",
+    "count": 1
+  }
+}

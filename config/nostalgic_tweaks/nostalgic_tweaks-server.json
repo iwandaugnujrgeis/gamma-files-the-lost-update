@@ -92,10 +92,7 @@
         "minecraft:tropical_fish",
         "minecraft:turtle",
         "minecraft:wolf",
-        "spawn:hamster",
-        "spawn:snail",
-        "species:limpet",
-        "upgrade_aquatic:nautilus"
+        "spawn:hamster"
       ],
       "disabled": false
     },
@@ -220,7 +217,7 @@
         "minecraft:poisonous_potato": 8,
         "minecraft:sweet_berries": 8,
         "minecraft:glow_berries": 8,
-        "minecraft:apple": 1,
+        "coraline_systems:apple": 1,
         "minecraft:baked_potato": 1,
         "minecraft:beef": 1,
         "minecraft:beetroot_soup": 1,

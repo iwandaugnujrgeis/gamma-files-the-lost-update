@@ -3,25 +3,13 @@
   "config": {
     "default": "minecraft:oak_checked",
     "features": [
-      /*
       {
-        "chance": 0.025,
-        "feature": {
-          "feature": "minecraft:huge_brown_mushroom",
-          "placement": []
-        }
-      },
-      {
-        "chance": 0.05,
-        "feature": {
-          "feature": "minecraft:huge_red_mushroom",
-          "placement": []
-        }
-      },
-      */
-      {
-        "chance": 0.6666667,
+        "chance": 0.6,
         "feature": "minecraft:dark_oak_checked"
+      },
+      {
+        "chance": 0.3,
+        "feature": "coraline_systems:dark_oak_tree_with_walnuts_checked"
       },
       {
         "chance": 0.2,

@@ -1,4 +1,7 @@
 {
+  "entity.minecraft.chest_minecart": "Cart",
+  "item.minecraft.chest_minecart": "Cart",
+
   "selectWorld.mapFeatures.info": "A bit of something inevitable!",
   "selectWorld.allowCommands.info": "Commands like /gamemode, /tp...",
   "generator.minecraft.normal": "Intended",
@@ -107,7 +110,6 @@
     "block.minecraft.chest": "Chest",
     "block.minecraft.trapped_chest": "Trapped Chest",
     "item.minecraft.bamboo_raft": "Raft",
-    "item.minecraft.chest_minecart": "Chest Minecart",
     "block.minecraft.bamboo_block": "Bamboo Stack",
     "mco.upload.preparing": "",
     "menu.generatingLevel": "Generating World...",

@@ -99,9 +99,6 @@
       "item": "minecraft:bone_block"
     },
     {
-      "item": "upgrade_aquatic:embedded_ammonite"
-    },
-    {
       "item": "minecraft:coal_ore"
     },
     {
@@ -171,18 +168,6 @@
       "item": "coraline_systems:radiant_sapling"
     },
     {
-      "item": "minecraft:raw_copper_block"
-    },
-    {
-      "item": "minecraft:raw_iron_block"
-    },
-    {
-      "item": "minecraft:raw_gold_block"
-    },
-    {
-      "item": "kubejs:raw_silver_block"
-    },
-    {
       "item": "minecraft:glowstone"
     },
     {
@@ -249,12 +234,6 @@
       "item": "coraline_systems:white_mushroom_block"
     },
     {
-      "item": "minecraft:shroomlight"
-    },
-    {
-      "item": "spelunkery:phosphor_shroomlight"
-    },
-    {
       "item": "minecraft:brown_mushroom"
     },
     {
@@ -289,15 +268,6 @@
     },
     {
       "item": "caverns_and_chasms:moschatel"
-    },
-    {
-      "item": "caverns_and_chasms:cave_growths"
-    },
-    {
-      "item": "minecraft:small_dripleaf"
-    },
-    {
-      "item": "minecraft:big_dripleaf"
     },
     {
       "item": "minecraft:bamboo"
@@ -351,12 +321,6 @@
       "item": "minecraft:lily_of_the_valley"
     },
     {
-      "item": "upgrade_aquatic:white_searocket"
-    },
-    {
-      "item": "upgrade_aquatic:pink_searocket"
-    },
-    {
       "item": "sweety_garden:hepatica"
     },
     {
@@ -367,9 +331,6 @@
     },
     {
       "item": "sweety_garden:wood_sorrel"
-    },
-    {
-      "item": "atmospheric:water_hyacinth"
     },
     {
       "item": "minecraft:pink_petals"
@@ -407,9 +368,6 @@
     {
       "item": "alexsmobs:triops_eggs"
     },
-    // {
-      // "item": "spawn:snail_eggs"
-    // },
     {
       "item": "minecraft:wheat_seeds"
     },

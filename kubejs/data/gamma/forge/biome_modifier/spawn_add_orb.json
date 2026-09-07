@@ -4,9 +4,9 @@
   "spawners": [
     {
       "type": "coraline_systems:orb",
-      "maxCount": 3,
+      "maxCount": 1,
       "minCount": 1,
-      "weight": 40
+      "weight": 10
     }
   ]
 }

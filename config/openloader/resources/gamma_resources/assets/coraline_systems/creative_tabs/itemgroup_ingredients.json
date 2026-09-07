@@ -111,22 +111,13 @@
       "item": "minecraft:feather"
     },
     {
-      "item": "spawn:mucus"
-    },
-    {
       "item": "minecraft:slime_ball"
-    },
-    {
-      "item": "minecraft:scute"
     },
     {
       "item": "kubejs:sharp_tooth"
     },
     {
       "item": "alexsmobs:bear_fur"
-    },
-    {
-      "item": "alexsmobs:bear_dust"
     },
     {
       "item": "minecraft:fermented_spider_eye"
@@ -145,9 +136,6 @@
     },
     {
       "item": "supplementaries:soap"
-    },
-    {
-      "item": "spelunkery:dust_bun"
     },
     {
       "item": "kubejs:gear"
@@ -177,19 +165,7 @@
       "item": "kubejs:glow_paste"
     },
     {
-      "item": "minecraft:nautilus_shell"
-    },
-    {
       "item": "minecraft:prismarine_crystals"
-    },
-    {
-      "item": "minecraft:prismarine_shard"
-    },
-    {
-      "item": "upgrade_aquatic:prismarine_rod"
-    },
-    {
-      "item": "minecraft:heart_of_the_sea"
     },
     {
       "item": "alexsmobs:soul_heart"
@@ -207,12 +183,6 @@
       "item": "minecraft:magma_cream"
     },
     {
-      "item": "minecraft:disc_fragment_5"
-    },
-    {
-      "item": "upgrade_aquatic:disc_fragment_atlantis"
-    },
-    {
       "item": "minecraft:white_dye"
     },
     {
@@ -228,16 +198,19 @@
       "item": "minecraft:brown_dye"
     },
     {
-      "item": "minecraft:red_dye"
+      "item": "coraline_systems:plum_dye"
     },
     {
       "item": "coraline_systems:wine_dye"
     },
     {
-      "item": "minecraft:orange_dye"
+      "item": "minecraft:red_dye"
     },
     {
       "item": "coraline_systems:coral_dye"
+    },
+    {
+      "item": "minecraft:orange_dye"
     },
     {
       "item": "minecraft:yellow_dye"
@@ -249,25 +222,25 @@
       "item": "minecraft:lime_dye"
     },
     {
-      "item": "coraline_systems:bright_green_dye"
-    },
-    {
-      "item": "coraline_systems:spring_green_dye"
-    },
-    {
       "item": "minecraft:green_dye"
     },
     {
       "item": "coraline_systems:phtalo_dye"
     },
     {
+      "item": "coraline_systems:bright_green_dye"
+    },
+    {
+      "item": "coraline_systems:spring_green_dye"
+    },
+    {
       "item": "minecraft:cyan_dye"
     },
     {
-      "item": "coraline_systems:sky_blue_dye"
+      "item": "minecraft:light_blue_dye"
     },
     {
-      "item": "minecraft:light_blue_dye"
+      "item": "coraline_systems:sky_blue_dye"
     },
     {
       "item": "coraline_systems:slate_blue_dye"
@@ -282,19 +255,16 @@
       "item": "minecraft:purple_dye"
     },
     {
-      "item": "coraline_systems:plum_dye"
+      "item": "coraline_systems:lavender_dye"
     },
     {
       "item": "minecraft:magenta_dye"
     },
     {
-      "item": "coraline_systems:lavender_dye"
+      "item": "coraline_systems:rose_dye"
     },
     {
       "item": "minecraft:pink_dye"
-    },
-    {
-      "item": "coraline_systems:rose_dye"
     }
   ]
 }

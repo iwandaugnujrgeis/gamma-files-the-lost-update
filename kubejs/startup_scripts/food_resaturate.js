@@ -78,8 +78,8 @@ ItemEvents.modification(event => {
 		item.foodProperties = food => {
 			food
 				.fastToEat()
-			.hunger(1).saturation(0.5)
-			.effect('water_breathing', 100, 0, 100)
+				.hunger(1).saturation(0.5)
+				.effect('water_breathing', 100, 0, 100)
 		}
 	})
 
@@ -87,8 +87,8 @@ ItemEvents.modification(event => {
 	restore0_5('minecraft:melon_slice')
 	restore0_5('minecraft:sweet_berries')
 
-	restore1('kubejs:walnut')
-	restore1('minecraft:apple')
+	restore1('coraline_systems:walnut')
+	restore1('coraline_systems:apple')
 	restore1('minecraft:beetroot')
 	restore1('minecraft:carrot')
 	restore1('minecraft:chorus_fruit')
@@ -99,11 +99,11 @@ ItemEvents.modification(event => {
 
 	restore1_5('minecraft:suspicious_stew')
 
-	event.modify('alexsmobs:banana', item => {
+	event.modify('coraline_systems:banana', item => {
 		item.foodProperties = food => {
 			food
 				.hunger(3).saturation(0.5)
-			.effect('alexsmobs:poison_resistance', 200, 0, 100)
+				.effect('alexsmobs:poison_resistance', 200, 0, 100)
 		}
 	})
 
@@ -120,10 +120,10 @@ ItemEvents.modification(event => {
 	event.modify('spelunkery:grilled_portabella', item => {
 		item.foodProperties = food => {
 			food
-			.removeEffect('haste')
-			.hunger(3)
-			.saturation(0.5)
-			.effect('haste', 100, 0, 0.2)
+				.removeEffect('haste')
+				.hunger(3)
+				.saturation(0.5)
+				.effect('haste', 100, 0, 0.2)
 		}
 	})
 
@@ -137,7 +137,7 @@ ItemEvents.modification(event => {
 			item.foodProperties = food => {
 				food
 					.hunger(1).saturation(0.5)
-				.effect('hunger', 100, 0, 0.2)
+					.effect('hunger', 100, 0, 0.2)
 			}
 		}
 		)
@@ -149,7 +149,7 @@ ItemEvents.modification(event => {
 		item.foodProperties = food => {
 			food
 				.hunger(1).saturation(0.5)
-			.effect('poison', 100, 0, 0.2)
+				.effect('poison', 100, 0, 0.2)
 		}
 	})
 
@@ -157,8 +157,8 @@ ItemEvents.modification(event => {
 		item.foodProperties = food => {
 			food
 				.hunger(1).saturation(0.5)
-			.effect('night_vision', 200, 0, 100)
-			.effect('hunger', 100, 0, 0.2)
+				.effect('night_vision', 200, 0, 100)
+				.effect('hunger', 100, 0, 0.2)
 		}
 	})
 
@@ -167,7 +167,7 @@ ItemEvents.modification(event => {
 		item.foodProperties = food => {
 			food
 				.effect('jump_boost', 200, 0, 100)
-			.fastToEat()
+				.fastToEat()
 		}
 	})
 
@@ -182,9 +182,9 @@ ItemEvents.modification(event => {
 		item.foodProperties = food => {
 			food
 				.fastToEat()
-			.hunger(2).saturation(0.5)
-			.effect('water_breathing', 100, 0, 100) //100 or 200?
-			.effect('speed', 200, 0, 100)
+				.hunger(2).saturation(0.5)
+				.effect('water_breathing', 100, 0, 100) //100 or 200?
+				.effect('speed', 200, 0, 100)
 		}
 	})
 
@@ -198,7 +198,7 @@ ItemEvents.modification(event => {
 		item.foodProperties = food => {
 			food
 				.effect('slowness', 200, 0, 100)
-			.effect('mining_fatigue', 100, 0, 100)
+				.effect('mining_fatigue', 100, 0, 100)
 		}
 	})
 
@@ -217,9 +217,9 @@ ItemEvents.modification(event => {
 		item.foodProperties = food => {
 			food
 				.fastToEat()
-			.hunger(12).saturation(0.5)
-			.effect('water_breathing', 200, 0, 100)
-			.effect('speed', 400, 0, 100)
+				.hunger(12).saturation(0.5)
+				.effect('water_breathing', 200, 0, 100)
+				.effect('speed', 400, 0, 100)
 		}
 	})
 
@@ -247,7 +247,7 @@ ItemEvents.modification(event => {
 			item.foodProperties = food => {
 				food
 					.hunger(2).saturation(0.5)
-				.effect('hunger', 100, 0, 0.4)
+					.effect('hunger', 100, 0, 0.4)
 			}
 		})
 	}
@@ -281,9 +281,9 @@ ItemEvents.modification(event => {
 		item.foodProperties = food => {
 			food
 				.hunger(2).saturation(0.5)
-			.effect('regeneration', 100, 1, 100)
-			.effect('night_vision', 600, 0, 100)
-			.alwaysEdible(true)
+				.effect('regeneration', 100, 1, 100)
+				.effect('night_vision', 600, 0, 100)
+				.alwaysEdible(true)
 		}
 	})
 
@@ -291,8 +291,8 @@ ItemEvents.modification(event => {
 		item.foodProperties = food => {
 			food
 				.effect('regeneration', 100, 1, 100)
-			.effect('strength', 600, 0, 100)
-			.alwaysEdible(true)
+				.effect('strength', 600, 0, 100)
+				.alwaysEdible(true)
 		}
 	})
 
@@ -301,9 +301,9 @@ ItemEvents.modification(event => {
 		item.foodProperties = food => {
 			food
 				.hunger(1).saturation(0.5)
-			.effect('levitation', 200, 0, 100)
-			.effect('hunger', 200, 0, 100)
-			.alwaysEdible(true)
+				.effect('levitation', 200, 0, 100)
+				.effect('hunger', 200, 0, 100)
+				.alwaysEdible(true)
 		}
 	})
 
@@ -311,9 +311,9 @@ ItemEvents.modification(event => {
 		item.foodProperties = food => {
 			food
 				.hunger(1).saturation(0.5)
-			.effect('alexsmobs:earthquake', 80, 0, 100)
-			.effect('alexsmobs:power_down', 100, 0, 100)
-			.alwaysEdible(true)
+				.effect('alexsmobs:earthquake', 80, 0, 100)
+				.effect('alexsmobs:power_down', 100, 0, 100)
+				.alwaysEdible(true)
 		}
 	})
 })

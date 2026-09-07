@@ -23,16 +23,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
-          "functions": [
-          ],
-          "name": "minecraft:scute"
-        },
-        {
-          "type": "minecraft:item",
           "weight": 19,
-          "functions": [
-          ],
+          "functions": [],
           "name": "minecraft:ink_sac"
         },
         {
@@ -67,21 +59,6 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 8,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 2.0,
-                "max": 5.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ],
-          "name": "minecraft:prismarine_shard"
-        },
-        {
-          "type": "minecraft:item",
           "weight": 20,
           "functions": [
             {
@@ -99,11 +76,6 @@
           "type": "minecraft:item",
           "weight": 10,
           "name": "minecraft:prismarine_crystals"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:nautilus_shell"
         },
         {
           "type": "minecraft:item",
@@ -200,7 +172,6 @@
           ],
           "name": "minecraft:gravel"
         }
-
       ]
     }
   ]

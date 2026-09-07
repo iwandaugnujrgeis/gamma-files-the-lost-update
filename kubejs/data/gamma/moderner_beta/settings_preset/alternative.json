@@ -17,9 +17,9 @@
     },
     "moderner_beta:deepslate_generation": {
       "enabled": false,
-      "minY": -14,
-      "maxY": -22,
-      "block": "minecraft:deepslate"
+      "minY": -44,
+      "maxY": -42,
+      "block": "minecraft:basalt"
     },
     "moderner_beta:noise_3d_settings": {
       "arraySurfaceNoise": false,

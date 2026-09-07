@@ -193,30 +193,6 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "music_disc_5": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:music_disc_5"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-    "music_disc_atlantis": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "upgrade_aquatic:music_disc_atlantis"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "music_disc_pigstep": {
       "conditions": {
         "items": [

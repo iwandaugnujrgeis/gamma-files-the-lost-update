@@ -66,16 +66,10 @@
       "item": "supplementaries:cog_block"
     },
     {
-      "item": "caverns_and_chasms:storage_duct"
-    },
-    {
       "item": "coraline_systems:subwoofer"
     },
     {
       "item": "supplementaries:lock_block"
-    },
-    {
-      "item": "quark:ender_watcher"
     },
     {
       "item": "supplementaries:crystal_display"
@@ -127,18 +121,6 @@
     },
     {
       "item": "minecraft:chest_minecart"
-    },
-    {
-      "item": "minecraft:furnace_minecart"
-    },
-    {
-      "item": "minecraft:tnt_minecart"
-    },
-    {
-      "item": "supplementaries:dispenser_minecart"
-    },
-    {
-      "item": "minecraft:hopper_minecart"
     }
   ]
 }

@@ -112,7 +112,7 @@
           "id": "land",
           "seed": 10,
           "targets": {
-            "minecraft:ocean": { 
+            "minecraft:ocean": {
               "value": "biome_pool_common", // Test!
               "type": "layer"
             }
@@ -320,10 +320,10 @@
       "useNoiseCaves": false
     },
     "moderner_beta:deepslate_generation": {
-      "enabled": false,
-      "minY": -14,
-      "maxY": -22,
-      "block": "minecraft:deepslate"
+      "enabled": true,
+      "minY": -44,
+      "maxY": -42,
+      "block": "minecraft:basalt"
     },
     "moderner_beta:infdev_227_structures": {
       "brickPyramids": false,

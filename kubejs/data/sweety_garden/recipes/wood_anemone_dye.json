@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "white_dye",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "sweety_garden:wood_anemone"
+    }
+  ],
+  "result": {
+    "item": "minecraft:pink_dye",
+    "count": 1
+  }
+}

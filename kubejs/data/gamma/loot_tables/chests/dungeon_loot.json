@@ -2,7 +2,7 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "bonus_rolls": 1.0, 
+      "bonus_rolls": 1.0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -77,16 +77,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:golden_horse_armor",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_horse_armor",
-          "weight": 15
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:spyglass",
           "weight": 10
         },
@@ -123,16 +113,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "caverns_and_chasms:cowl",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "name": "caverns_and_chasms:toolbelt",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
           "functions": [
             {
               "count": {
@@ -145,11 +125,6 @@
           ],
           "name": "kubejs:muffin",
           "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:diamond_horse_armor",
-          "weight": 5
         },
         {
           "type": "minecraft:item",
@@ -179,11 +154,6 @@
         {
           "type": "minecraft:item",
           "name": "supplementaries:wrench",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:dragon_breath",
           "weight": 1
         },
         {
@@ -273,20 +243,6 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "set_damage",
-              "damage": {
-                "min": 0.6,
-                "max": 1.0
-              }
-            }
-          ],
-          "name": "alexsmobs:dimensional_carver",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
           "weight": 1,
           "functions": [
             {
@@ -298,13 +254,8 @@
             }
           ],
           "name": "supplementaries:flute"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "alexsmobs:novelty_hat",
-          "weight": 1
-        }        
-      ], 
+        }
+      ],
       "rolls": {
         "type": "minecraft:uniform",
         "max": 2.0,
@@ -312,7 +263,7 @@
       }
     },
     {
-      "bonus_rolls": 1.0, 
+      "bonus_rolls": 1.0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -526,21 +477,6 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:prismarine_shard",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 2.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
           "name": "minecraft:prismarine_crystals",
           "weight": 5
         },
@@ -586,25 +522,10 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:echo_shard",
-          "weight": 4
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
           "name": "minecraft:gold_ingot",
           "weight": 5
         }
-      ], 
+      ],
       "rolls": {
         "type": "minecraft:uniform",
         "max": 3.0,
@@ -612,7 +533,7 @@
       }
     },
     {
-      "bonus_rolls": 1.0, 
+      "bonus_rolls": 1.0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -628,22 +549,6 @@
             }
           ],
           "name": "supplementaries:ash",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "etcetera:cotton_flower",
           "weight": 10
         },
         {

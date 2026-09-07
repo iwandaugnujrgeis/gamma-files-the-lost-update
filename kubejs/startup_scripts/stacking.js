@@ -1,19 +1,19 @@
 //priority: 0
 ItemEvents.modification(event => {
 	function stackTo64(x) {
-		event.modify(x, item => {item.maxStackSize = 64})
+		event.modify(x, item => { item.maxStackSize = 64 })
 	}
 	function stackTo16(x) {
-		event.modify(x, item => {item.maxStackSize = 16})
+		event.modify(x, item => { item.maxStackSize = 16 })
 	}
 	function stackTo8(x) {
-		event.modify(x, item => {item.maxStackSize = 8})
+		event.modify(x, item => { item.maxStackSize = 8 })
 	}
 	function stackTo1(x) {
-		event.modify(x, item => {item.maxStackSize = 1})
+		event.modify(x, item => { item.maxStackSize = 1 })
 	}
 
-//Bottles:
+	//Bottles:
 	stackTo1('alexsmobs:fish_oil')
 	stackTo1('minecraft:dragon_breath')
 	stackTo1('minecraft:honey_bottle')
@@ -21,7 +21,7 @@ ItemEvents.modification(event => {
 	stackTo1('upgrade_aquatic:mulberry_jam_bottle')
 	stackTo1('spelunkery:portal_fluid_bottle')
 
-//Other Ones:
+	//Other Ones:
 	stackTo1('minecraft:cake')
 	stackTo1('minecraft:mushroom_stew')
 	stackTo1('minecraft:pumpkin_pie')
@@ -33,7 +33,7 @@ ItemEvents.modification(event => {
 	stackTo1('supplementaries:altimeter')
 	stackTo1('minecraft:clock')
 
-//Golden Food:
+	//Golden Food:
 	stackTo1('etcetera:golden_eggple')
 	stackTo1('kubejs:golden_potato')
 	stackTo1('minecraft:enchanted_golden_apple')
@@ -41,28 +41,24 @@ ItemEvents.modification(event => {
 	stackTo1('minecraft:golden_apple')
 	stackTo1('minecraft:golden_carrot')
 
-//Boss Stuff:
+	//Boss Stuff:
 	stackTo1('minecraft:dragon_egg')
 	stackTo1('minecraft:heart_of_the_sea')
 	stackTo1('minecraft:nether_star')
 	stackTo1('rediscovered:red_dragon_egg')
 	stackTo1('upgrade_aquatic:elder_eye')
 
-//Other:
-	stackTo8('alexsmobs:banana')
+	//Other:
+	stackTo8('coraline_systems:banana')
 	stackTo8('alexsmobs:cooked_catfish')
 	stackTo8('alexsmobs:flying_fish')
 	stackTo8('alexsmobs:raw_catfish')
-	stackTo8('coraline_systems:cooked_prickly_pear')
-	stackTo8('coraline_systems:prickly_pear')
-	stackTo8('kubejs:walnut')
-	stackTo8('etcetera:eggple')
 	stackTo8('kubejs:fried_egg')
 	stackTo8('kubejs:pumpkin_slice')
 
 	stackTo8('kubejs:omelette')
 	stackTo8('kubejs:waffle')
-	stackTo8('minecraft:apple')
+	stackTo8('coraline_systems:apple')
 	stackTo8('minecraft:baked_potato')
 	stackTo8('minecraft:beef')
 	stackTo8('minecraft:beetroot')
@@ -110,7 +106,7 @@ ItemEvents.modification(event => {
 	stackTo16('supplementaries:pancake')
 	stackTo16('supplementaries:soap')
 
-//Eggs:
+	//Eggs:
 	stackTo16('alexsmobs:caiman_egg')
 	stackTo16('alexsmobs:crocodile_egg')
 	stackTo16('alexsmobs:platypus_egg')
@@ -119,7 +115,7 @@ ItemEvents.modification(event => {
 	stackTo16('minecraft:sniffer_egg')
 	stackTo16('minecraft:turtle_egg')
 
-//Seeds:
+	//Seeds:
 	stackTo16('minecraft:beetroot_seeds')
 	stackTo16('minecraft:melon_seeds')
 	stackTo16('minecraft:pumpkin_seeds')
@@ -127,7 +123,7 @@ ItemEvents.modification(event => {
 	stackTo16('minecraft:wheat_seeds')
 	stackTo16('minecraft:pitcher_pod')
 
-//Mushrooms:
+	//Mushrooms:
 	stackTo16('minecraft:brown_mushroom')
 	stackTo16('minecraft:red_mushroom')
 	stackTo16('spelunkery:button_mushroom')
@@ -135,7 +131,7 @@ ItemEvents.modification(event => {
 	stackTo16('spelunkery:mushgloom')
 	stackTo16('spelunkery:portabella')
 
-//Other:
+	//Other:
 	stackTo64('minecraft:ender_pearl')
 	stackTo64('minecraft:snowball')
 	stackTo64('spelunkery:dust_bun')

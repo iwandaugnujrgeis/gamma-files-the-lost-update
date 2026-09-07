@@ -9,7 +9,7 @@
       },
       {
         "chance": 0.05,
-        "feature": "minecraft:acacia_checked"
+        "feature": "coraline_systems:acacia_tree_with_mangos_checked"
       },
       {
         "chance": 0.3,

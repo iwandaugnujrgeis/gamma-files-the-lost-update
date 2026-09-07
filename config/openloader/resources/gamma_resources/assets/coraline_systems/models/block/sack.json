@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/cube_bottom_top",
-  "textures": {
-    "bottom": "coraline_systems:block/sack_bottom",
-    "side": "coraline_systems:block/sack",
-    "top": "coraline_systems:block/sack_top"
-  }
-}

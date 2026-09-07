@@ -88,7 +88,7 @@
         "weight": 10
       },
       {
-        "type": "minecraft:chicken",
+        "type": "upgrade_aquatic:goose",
         "maxCount": 4,
         "minCount": 1,
         "weight": 10

@@ -3,7 +3,7 @@
   "tab_icon":"kubejs:banana_bread",
   "tab_items": [
     {
-      "item": "minecraft:apple"
+      "item": "coraline_systems:apple"
     },
     {
       "item": "kubejs:honeyed_apple"
@@ -21,13 +21,10 @@
       "item": "minecraft:melon_slice"
     },
     {
-      "item": "kubejs:mango"
+      "item": "coraline_systems:mango"
     },
     {
       "item": "minecraft:sweet_berries"
-    },
-    {
-      "item": "minecraft:glow_berries"
     },
     {
       "item": "upgrade_aquatic:mulberry"
@@ -39,7 +36,7 @@
       "item": "minecraft:golden_carrot"
     },
     {
-      "item": "alexsmobs:banana"
+      "item": "coraline_systems:banana"
     },
     {
       "item": "minecraft:potato"
@@ -63,17 +60,8 @@
       "item": "kubejs:pumpkin_slice"
     },
     {
-      "item": "kubejs:walnut"
+      "item": "coraline_systems:walnut"
     },
-    {
-      "item": "atmospheric:passion_fruit"
-    },
-    //{
-      //"item": "coraline_systems:prickly_pear"
-    //},
-    //{
-      //"item": "coraline_systems:cooked_prickly_pear"
-    //},
     {
       "item": "minecraft:egg"
     },
@@ -85,9 +73,6 @@
     },
     {
       "item": "coraline_systems:turtle_egg"
-    },
-    {
-      "item": "etcetera:eggple"
     },
     {
       "item": "kubejs:fried_egg"
@@ -184,9 +169,6 @@
     },
     {
       "item": "coraline_systems:dregs_bottle"
-    },
-    {
-      "item": "alexsmobs:fish_oil"
     },
     {
       "item": "kubejs:wheat_flour"

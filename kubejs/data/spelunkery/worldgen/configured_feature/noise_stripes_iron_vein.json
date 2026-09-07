@@ -36,18 +36,6 @@
               "data": {
                 "Name": "minecraft:iron_ore"
               }
-            },
-            {
-              "weight": 10,
-              "data": {
-                "Name": "minecraft:raw_iron_block"
-              }
-            },
-            {
-              "weight": 1,
-              "data": {
-                "Name": "spelunkery:raw_magnetite_block"
-              }
             }
           ]
         },

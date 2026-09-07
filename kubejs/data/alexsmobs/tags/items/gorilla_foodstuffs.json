@@ -3,7 +3,7 @@
   "values": [
     "#minecraft:leaves",
     "minecraft:sugar_cane",
-    "minecraft:apple",
+    "coraline_systems:apple",
     "minecraft:bamboo"
   ]
 }

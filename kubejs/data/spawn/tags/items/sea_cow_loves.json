@@ -2,7 +2,7 @@
   "replace": false,
   "values": [
     "minecraft:melon_slice",
-    "minecraft:apple",
+    "coraline_systems:apple",
     "minecraft:carrot",
     "minecraft:potato"
   ]

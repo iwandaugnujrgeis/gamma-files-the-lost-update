@@ -2,7 +2,7 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "bonus_rolls": 0.0, 
+      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -71,7 +71,7 @@
           "type": "minecraft:empty",
           "weight": 5
         }
-      ], 
+      ],
       "rolls": {
         "type": "minecraft:uniform",
         "max": 3.0,
@@ -79,7 +79,7 @@
       }
     },
     {
-      "bonus_rolls": 0.0, 
+      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -227,21 +227,6 @@
             {
               "count": {
                 "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "spelunkery:dust_bun",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "count": {
-                "type": "minecraft:uniform",
                 "max": 6.0,
                 "min": 2.0
               },
@@ -339,7 +324,7 @@
           "name": "minecraft:raw_gold",
           "weight": 5
         }
-      ], 
+      ],
       "rolls": {
         "type": "minecraft:uniform",
         "max": 4.0,
@@ -347,7 +332,7 @@
       }
     },
     {
-      "bonus_rolls": 0.0, 
+      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -363,22 +348,6 @@
             }
           ],
           "name": "supplementaries:ash",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "etcetera:cotton_flower",
           "weight": 10
         },
         {

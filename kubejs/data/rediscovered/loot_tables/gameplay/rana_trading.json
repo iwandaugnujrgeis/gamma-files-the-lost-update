@@ -95,7 +95,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:apple",
+          "name": "coraline_systems:apple",
           "weight": 16
         }
       ],

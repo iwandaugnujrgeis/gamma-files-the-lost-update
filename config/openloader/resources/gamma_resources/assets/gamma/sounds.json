@@ -104,12 +104,25 @@
         "volume": 1.0
       },
       {
+        "name": "gamma:music/boygames",
+        "stream": true,
+        "volume": 1.0
+      },
+      {
         "name": "gamma:music/aeiouw",
-        "stream": true
+        "stream": true,
+        "volume": 1.0
+      },
+      {
+        "name": "gamma:music/creative/peanuts",
+        "stream": true,
+        "volume": 1.0,
+        "weight": 10
       },
       {
         "name": "gamma:music/beton",
-        "stream": true
+        "stream": true,
+        "volume": 1.0
       }
     ]
   },

@@ -87,9 +87,6 @@
       "item": "supplementaries:statue"
     },
     {
-      "item": "minecraft:bell"
-    },
-    {
       "item": "kubejs:lava_lamp"
     },
     {
@@ -209,56 +206,6 @@
     {
       "item": "minecraft:bamboo_hanging_sign"
     },
-    /*
-    {
-      "item": "spelunkery:white_glowstick"
-    },
-    {
-      "item": "spelunkery:light_gray_glowstick"
-    },
-    {
-      "item": "spelunkery:gray_glowstick"
-    },
-    {
-      "item": "spelunkery:black_glowstick"
-    },
-    {
-      "item": "spelunkery:brown_glowstick"
-    },
-    {
-      "item": "spelunkery:red_glowstick"
-    },
-    {
-      "item": "spelunkery:orange_glowstick"
-    },
-    {
-      "item": "spelunkery:yellow_glowstick"
-    },
-    {
-      "item": "spelunkery:lime_glowstick"
-    },
-    {
-      "item": "spelunkery:green_glowstick"
-    },
-    {
-      "item": "spelunkery:cyan_glowstick"
-    },
-    {
-      "item": "spelunkery:light_blue_glowstick"
-    },
-    {
-      "item": "spelunkery:blue_glowstick"
-    },
-    {
-      "item": "spelunkery:purple_glowstick"
-    },
-    {
-      "item": "spelunkery:magenta_glowstick"
-    },
-    {
-      "item": "spelunkery:pink_glowstick"
-    },
-    */
     {
       "item": "minecraft:player_head"
     },
@@ -300,12 +247,6 @@
     },
     {
       "item": "rediscovered:nether_reactor_core"
-    },
-    {
-      "item": "rediscovered:mini_dragon_pylon"
-    },
-    {
-      "item": "rediscovered:dragon_altar"
     }
   ]
 }

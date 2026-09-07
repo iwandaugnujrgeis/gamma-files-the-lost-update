@@ -1,18 +1,6 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "phosphor_shroomlight": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "spelunkery:phosphor_shroomlight"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "glow_lichen": {
       "conditions": {
         "items": [
@@ -46,7 +34,6 @@
   },
   "requirements": [
     [
-      "phosphor_shroomlight",
       "torch",
       "glow_lichen",
       "has_the_recipe"

@@ -499,12 +499,6 @@
         "weight": 10
       },
       {
-        "name": "gamma:music/creative/peanuts",
-        "stream": true,
-        "volume": 1.0,
-        "weight": 10
-      },
-      {
         "name": "gamma:music/creative/sod",
         "stream": true,
         "volume": 1.0,
@@ -702,18 +696,6 @@
         "weight": 10
       },
       {
-        "name": "music/game/wending",
-        "stream": true,
-        "volume": 0.4,
-        "weight": 10
-      },
-      {
-        "name": "gamma:music/labyrinthine",
-        "stream": true,
-        "volume": 1.0,
-        "weight": 10
-      },
-      {
         "name": "gamma:music/moog1",
         "stream": true,
         "volume": 1.0,
@@ -756,24 +738,6 @@
         "weight": 10
       },
       {
-        "name": "gamma:music/boygames",
-        "stream": true,
-        "volume": 1.1,
-        "weight": 10
-      },
-      {
-        "name": "gamma:music/bummer",
-        "stream": true,
-        "volume": 1.0,
-        "weight": 10
-      },
-      {
-        "name": "gamma:music/chant",
-        "stream": true,
-        "volume": 1.0,
-        "weight": 10
-      },
-      {
         "name": "gamma:music/kaffee",
         "stream": true,
         "volume": 0.9,
@@ -810,12 +774,6 @@
         "weight": 10
       },
       {
-        "name": "gamma:music/kitchens",
-        "stream": true,
-        "volume": 1.0,
-        "weight": 10
-      },
-      {
         "name": "gamma:music/moments",
         "stream": true,
         "volume": 1.0,
@@ -835,18 +793,6 @@
       },
       {
         "name": "gamma:music/stroll",
-        "stream": true,
-        "volume": 1.0,
-        "weight": 10
-      },
-      {
-        "name": "gamma:music/hear",
-        "stream": true,
-        "volume": 1.0,
-        "weight": 10
-      },
-      {
-        "name": "gamma:music/what",
         "stream": true,
         "volume": 1.0,
         "weight": 10
@@ -877,6 +823,12 @@
       },
       {
         "name": "gamma:music/creative/love3",
+        "stream": true,
+        "volume": 1.0,
+        "weight": 10
+      },
+      {
+        "name": "gamma:music/creative/cupcake_rhythms",
         "stream": true,
         "volume": 1.0,
         "weight": 10

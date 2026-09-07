@@ -18,16 +18,19 @@
       "item": "minecraft:brown_wool"
     },
     {
-      "item": "minecraft:red_wool"
+      "item": "coraline_systems:plum_wool"
     },
     {
       "item": "coraline_systems:wine_wool"
     },
     {
-      "item": "minecraft:orange_wool"
+      "item": "minecraft:red_wool"
     },
     {
       "item": "coraline_systems:coral_wool"
+    },
+    {
+      "item": "minecraft:orange_wool"
     },
     {
       "item": "minecraft:yellow_wool"
@@ -39,25 +42,25 @@
       "item": "minecraft:lime_wool"
     },
     {
-      "item": "coraline_systems:bright_green_wool"
-    },
-    {
-      "item": "coraline_systems:spring_green_wool"
-    },
-    {
       "item": "minecraft:green_wool"
     },
     {
       "item": "coraline_systems:phtalo_wool"
     },
     {
+      "item": "coraline_systems:bright_green_wool"
+    },
+    {
+      "item": "coraline_systems:spring_green_wool"
+    },
+    {
       "item": "minecraft:cyan_wool"
     },
     {
-      "item": "coraline_systems:sky_blue_wool"
+      "item": "minecraft:light_blue_wool"
     },
     {
-      "item": "minecraft:light_blue_wool"
+      "item": "coraline_systems:sky_blue_wool"
     },
     {
       "item": "coraline_systems:slate_blue_wool"
@@ -72,19 +75,16 @@
       "item": "minecraft:purple_wool"
     },
     {
-      "item": "coraline_systems:plum_wool"
+      "item": "coraline_systems:lavender_wool"
     },
     {
       "item": "minecraft:magenta_wool"
     },
     {
-      "item": "coraline_systems:lavender_wool"
+      "item": "coraline_systems:rose_wool"
     },
     {
       "item": "minecraft:pink_wool"
-    },
-    {
-      "item": "coraline_systems:rose_wool"
     },
     {
       "item": "minecraft:white_carpet"
@@ -102,16 +102,19 @@
       "item": "minecraft:brown_carpet"
     },
     {
-      "item": "minecraft:red_carpet"
+      "item": "coraline_systems:plum_carpet"
     },
     {
       "item": "coraline_systems:wine_carpet"
     },
     {
-      "item": "minecraft:orange_carpet"
+      "item": "minecraft:red_carpet"
     },
     {
       "item": "coraline_systems:coral_carpet"
+    },
+    {
+      "item": "minecraft:orange_carpet"
     },
     {
       "item": "minecraft:yellow_carpet"
@@ -123,25 +126,25 @@
       "item": "minecraft:lime_carpet"
     },
     {
-      "item": "coraline_systems:bright_green_carpet"
-    },
-    {
-      "item": "coraline_systems:spring_green_carpet"
-    },
-    {
       "item": "minecraft:green_carpet"
     },
     {
       "item": "coraline_systems:phtalo_carpet"
     },
     {
+      "item": "coraline_systems:bright_green_carpet"
+    },
+    {
+      "item": "coraline_systems:spring_green_carpet"
+    },
+    {
       "item": "minecraft:cyan_carpet"
     },
     {
-      "item": "coraline_systems:sky_blue_carpet"
+      "item": "minecraft:light_blue_carpet"
     },
     {
-      "item": "minecraft:light_blue_carpet"
+      "item": "coraline_systems:sky_blue_carpet"
     },
     {
       "item": "coraline_systems:slate_blue_carpet"
@@ -156,19 +159,16 @@
       "item": "minecraft:purple_carpet"
     },
     {
-      "item": "coraline_systems:plum_carpet"
+      "item": "coraline_systems:lavender_carpet"
     },
     {
       "item": "minecraft:magenta_carpet"
     },
     {
-      "item": "coraline_systems:lavender_carpet"
+      "item": "coraline_systems:rose_carpet"
     },
     {
       "item": "minecraft:pink_carpet"
-    },
-    {
-      "item": "coraline_systems:rose_carpet"
     },
     {
       "item": "minecraft:terracotta"
@@ -189,16 +189,19 @@
       "item": "minecraft:brown_terracotta"
     },
     {
-      "item": "minecraft:red_terracotta"
+      "item": "coraline_systems:plum_terracotta"
     },
     {
       "item": "coraline_systems:wine_terracotta"
     },
     {
-      "item": "minecraft:orange_terracotta"
+      "item": "minecraft:red_terracotta"
     },
     {
       "item": "coraline_systems:coral_terracotta"
+    },
+    {
+      "item": "minecraft:orange_terracotta"
     },
     {
       "item": "minecraft:yellow_terracotta"
@@ -210,25 +213,25 @@
       "item": "minecraft:lime_terracotta"
     },
     {
-      "item": "coraline_systems:bright_green_terracotta"
-    },
-    {
-      "item": "coraline_systems:spring_green_terracotta"
-    },
-    {
       "item": "minecraft:green_terracotta"
     },
     {
       "item": "coraline_systems:phtalo_terracotta"
     },
     {
+      "item": "coraline_systems:bright_green_terracotta"
+    },
+    {
+      "item": "coraline_systems:spring_green_terracotta"
+    },
+    {
       "item": "minecraft:cyan_terracotta"
     },
     {
-      "item": "coraline_systems:sky_blue_terracotta"
+      "item": "minecraft:light_blue_terracotta"
     },
     {
-      "item": "minecraft:light_blue_terracotta"
+      "item": "coraline_systems:sky_blue_terracotta"
     },
     {
       "item": "coraline_systems:slate_blue_terracotta"
@@ -243,19 +246,16 @@
       "item": "minecraft:purple_terracotta"
     },
     {
-      "item": "coraline_systems:plum_terracotta"
+      "item": "coraline_systems:lavender_terracotta"
     },
     {
       "item": "minecraft:magenta_terracotta"
     },
     {
-      "item": "coraline_systems:lavender_terracotta"
+      "item": "coraline_systems:rose_terracotta"
     },
     {
       "item": "minecraft:pink_terracotta"
-    },
-    {
-      "item": "coraline_systems:rose_terracotta"
     },
     {
       "item": "clayworks:terracotta_stairs"
@@ -276,7 +276,16 @@
       "item": "clayworks:brown_terracotta_stairs"
     },
     {
+      "item": "coraline_systems:plum_terracotta_stairs"
+    },
+    {
+      "item": "coraline_systems:wine_terracotta_stairs"
+    },
+    {
       "item": "clayworks:red_terracotta_stairs"
+    },
+    {
+      "item": "coraline_systems:coral_terracotta_stairs"
     },
     {
       "item": "clayworks:orange_terracotta_stairs"
@@ -285,10 +294,22 @@
       "item": "clayworks:yellow_terracotta_stairs"
     },
     {
+      "item": "coraline_systems:toxic_yellow_terracotta_stairs"
+    },
+    {
       "item": "clayworks:lime_terracotta_stairs"
     },
     {
       "item": "clayworks:green_terracotta_stairs"
+    },
+    {
+      "item": "coraline_systems:phtalo_terracotta_stairs"
+    },
+    {
+      "item": "coraline_systems:bright_green_terracotta_stairs"
+    },
+    {
+      "item": "coraline_systems:spring_green_terracotta_stairs"
     },
     {
       "item": "clayworks:cyan_terracotta_stairs"
@@ -297,13 +318,28 @@
       "item": "clayworks:light_blue_terracotta_stairs"
     },
     {
+      "item": "coraline_systems:sky_blue_terracotta_stairs"
+    },
+    {
+      "item": "coraline_systems:slate_blue_terracotta_stairs"
+    },
+    {
       "item": "clayworks:blue_terracotta_stairs"
+    },
+    {
+      "item": "coraline_systems:navy_blue_terracotta_stairs"
     },
     {
       "item": "clayworks:purple_terracotta_stairs"
     },
     {
+      "item": "coraline_systems:lavender_terracotta_stairs"
+    },
+    {
       "item": "clayworks:magenta_terracotta_stairs"
+    },
+    {
+      "item": "coraline_systems:rose_terracotta_stairs"
     },
     {
       "item": "clayworks:pink_terracotta_stairs"
@@ -327,7 +363,16 @@
       "item": "clayworks:brown_terracotta_slab"
     },
     {
+      "item": "coraline_systems:plum_terracotta_slab"
+    },
+    {
+      "item": "coraline_systems:wine_terracotta_slab"
+    },
+    {
       "item": "clayworks:red_terracotta_slab"
+    },
+    {
+      "item": "coraline_systems:coral_terracotta_slab"
     },
     {
       "item": "clayworks:orange_terracotta_slab"
@@ -336,10 +381,22 @@
       "item": "clayworks:yellow_terracotta_slab"
     },
     {
+      "item": "coraline_systems:toxic_yellow_terracotta_slab"
+    },
+    {
       "item": "clayworks:lime_terracotta_slab"
     },
     {
       "item": "clayworks:green_terracotta_slab"
+    },
+    {
+      "item": "coraline_systems:phtalo_terracotta_slab"
+    },
+    {
+      "item": "coraline_systems:bright_green_terracotta_slab"
+    },
+    {
+      "item": "coraline_systems:spring_green_terracotta_slab"
     },
     {
       "item": "clayworks:cyan_terracotta_slab"
@@ -348,13 +405,28 @@
       "item": "clayworks:light_blue_terracotta_slab"
     },
     {
+      "item": "coraline_systems:sky_blue_terracotta_slab"
+    },
+    {
+      "item": "coraline_systems:slate_blue_terracotta_slab"
+    },
+    {
       "item": "clayworks:blue_terracotta_slab"
+    },
+    {
+      "item": "coraline_systems:navy_blue_terracotta_slab"
     },
     {
       "item": "clayworks:purple_terracotta_slab"
     },
     {
+      "item": "coraline_systems:lavender_terracotta_slab"
+    },
+    {
       "item": "clayworks:magenta_terracotta_slab"
+    },
+    {
+      "item": "coraline_systems:rose_terracotta_slab"
     },
     {
       "item": "clayworks:pink_terracotta_slab"
@@ -378,7 +450,16 @@
       "item": "clayworks:brown_terracotta_wall"
     },
     {
+      "item": "coraline_systems:plum_terracotta_wall"
+    },
+    {
+      "item": "coraline_systems:wine_terracotta_wall"
+    },
+    {
       "item": "clayworks:red_terracotta_wall"
+    },
+    {
+      "item": "coraline_systems:coral_terracotta_wall"
     },
     {
       "item": "clayworks:orange_terracotta_wall"
@@ -387,10 +468,22 @@
       "item": "clayworks:yellow_terracotta_wall"
     },
     {
+      "item": "coraline_systems:toxic_yellow_terracotta_wall"
+    },
+    {
       "item": "clayworks:lime_terracotta_wall"
     },
     {
       "item": "clayworks:green_terracotta_wall"
+    },
+    {
+      "item": "coraline_systems:phtalo_terracotta_wall"
+    },
+    {
+      "item": "coraline_systems:bright_green_terracotta_wall"
+    },
+    {
+      "item": "coraline_systems:spring_green_terracotta_wall"
     },
     {
       "item": "clayworks:cyan_terracotta_wall"
@@ -399,13 +492,28 @@
       "item": "clayworks:light_blue_terracotta_wall"
     },
     {
+      "item": "coraline_systems:sky_blue_terracotta_wall"
+    },
+    {
+      "item": "coraline_systems:slate_blue_terracotta_wall"
+    },
+    {
       "item": "clayworks:blue_terracotta_wall"
+    },
+    {
+      "item": "coraline_systems:navy_blue_terracotta_wall"
     },
     {
       "item": "clayworks:purple_terracotta_wall"
     },
     {
+      "item": "coraline_systems:lavender_terracotta_wall"
+    },
+    {
       "item": "clayworks:magenta_terracotta_wall"
+    },
+    {
+      "item": "coraline_systems:rose_terracotta_wall"
     },
     {
       "item": "clayworks:pink_terracotta_wall"
@@ -432,16 +540,19 @@
       "item": "minecraft:brown_stained_glass"
     },
     {
-      "item": "minecraft:red_stained_glass"
+      "item": "coraline_systems:plum_stained_glass"
     },
     {
       "item": "coraline_systems:wine_stained_glass"
     },
     {
-      "item": "minecraft:orange_stained_glass"
+      "item": "minecraft:red_stained_glass"
     },
     {
       "item": "coraline_systems:coral_stained_glass"
+    },
+    {
+      "item": "minecraft:orange_stained_glass"
     },
     {
       "item": "minecraft:yellow_stained_glass"
@@ -453,25 +564,25 @@
       "item": "minecraft:lime_stained_glass"
     },
     {
-      "item": "coraline_systems:bright_green_stained_glass"
-    },
-    {
-      "item": "coraline_systems:spring_green_stained_glass"
-    },
-    {
       "item": "minecraft:green_stained_glass"
     },
     {
       "item": "coraline_systems:phtalo_stained_glass"
     },
     {
+      "item": "coraline_systems:bright_green_stained_glass"
+    },
+    {
+      "item": "coraline_systems:spring_green_stained_glass"
+    },
+    {
       "item": "minecraft:cyan_stained_glass"
     },
     {
-      "item": "coraline_systems:sky_blue_stained_glass"
+      "item": "minecraft:light_blue_stained_glass"
     },
     {
-      "item": "minecraft:light_blue_stained_glass"
+      "item": "coraline_systems:sky_blue_stained_glass"
     },
     {
       "item": "coraline_systems:slate_blue_stained_glass"
@@ -486,19 +597,16 @@
       "item": "minecraft:purple_stained_glass"
     },
     {
-      "item": "coraline_systems:plum_stained_glass"
+      "item": "coraline_systems:lavender_stained_glass"
     },
     {
       "item": "minecraft:magenta_stained_glass"
     },
     {
-      "item": "coraline_systems:lavender_stained_glass"
+      "item": "coraline_systems:rose_stained_glass"
     },
     {
       "item": "minecraft:pink_stained_glass"
-    },
-    {
-      "item": "coraline_systems:rose_stained_glass"
     },
     {
       "item": "minecraft:glass_pane"
@@ -510,7 +618,7 @@
       "item": "minecraft:light_gray_stained_glass_pane"
     },
     {
-      "item": "minecraft:gray_stained_glass"
+      "item": "minecraft:gray_stained_glass_pane"
     },
     {
       "item": "minecraft:black_stained_glass_pane"
@@ -519,16 +627,19 @@
       "item": "minecraft:brown_stained_glass_pane"
     },
     {
-      "item": "minecraft:red_stained_glass_pane"
+      "item": "coraline_systems:plum_stained_glass_pane"
     },
     {
       "item": "coraline_systems:wine_stained_glass_pane"
     },
     {
-      "item": "minecraft:orange_stained_glass_pane"
+      "item": "minecraft:red_stained_glass_pane"
     },
     {
       "item": "coraline_systems:coral_stained_glass_pane"
+    },
+    {
+      "item": "minecraft:orange_stained_glass_pane"
     },
     {
       "item": "minecraft:yellow_stained_glass_pane"
@@ -540,25 +651,25 @@
       "item": "minecraft:lime_stained_glass_pane"
     },
     {
-      "item": "coraline_systems:bright_green_stained_glass_pane"
-    },
-    {
-      "item": "coraline_systems:spring_green_stained_glass_pane"
-    },
-    {
       "item": "minecraft:green_stained_glass_pane"
     },
     {
       "item": "coraline_systems:phtalo_stained_glass_pane"
     },
     {
+      "item": "coraline_systems:bright_green_stained_glass_pane"
+    },
+    {
+      "item": "coraline_systems:spring_green_stained_glass_pane"
+    },
+    {
       "item": "minecraft:cyan_stained_glass_pane"
     },
     {
-      "item": "coraline_systems:sky_blue_stained_glass_pane"
+      "item": "minecraft:light_blue_stained_glass_pane"
     },
     {
-      "item": "minecraft:light_blue_stained_glass_pane"
+      "item": "coraline_systems:sky_blue_stained_glass_pane"
     },
     {
       "item": "coraline_systems:slate_blue_stained_glass_pane"
@@ -573,19 +684,16 @@
       "item": "minecraft:purple_stained_glass_pane"
     },
     {
-      "item": "coraline_systems:plum_stained_glass_pane"
+      "item": "coraline_systems:lavender_stained_glass_pane"
     },
     {
       "item": "minecraft:magenta_stained_glass_pane"
     },
     {
-      "item": "coraline_systems:lavender_stained_glass_pane"
+      "item": "coraline_systems:rose_stained_glass_pane"
     },
     {
       "item": "minecraft:pink_stained_glass_pane"
-    },
-    {
-      "item": "coraline_systems:rose_stained_glass_pane"
     }
   ]
 }

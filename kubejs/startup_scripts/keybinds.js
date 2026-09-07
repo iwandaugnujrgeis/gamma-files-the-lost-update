@@ -12,9 +12,6 @@ KeyBindEvents.modify((event) => {
   event.remove("key.nostalgic_tweaks.toggle_fog");
   event.remove("key.nostalgic_tweaks.toggle_weather");  
   event.remove("key.saveToolbarActivator");
-  event.remove("key.scholar.export_book");
-  event.remove("key.scholar.import_book");
-  event.remove("key.scholar.toggle_book_tools");
   event.remove("key.shouldersurfing.adjust_camera_left");
   event.remove("key.shouldersurfing.adjust_camera_right");
   event.remove("key.shouldersurfing.adjust_camera_in");

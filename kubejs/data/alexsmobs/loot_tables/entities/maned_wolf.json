@@ -79,7 +79,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:apple"
+          "name": "coraline_systems:apple"
         }
       ],
       "rolls": 1.0

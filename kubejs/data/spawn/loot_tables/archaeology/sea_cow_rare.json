@@ -43,11 +43,6 @@
         {
           "type": "minecraft:item",
           "name": "spawn:shell_pottery_sherd"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 3,
-          "name": "minecraft:nautilus_shell"
         }
       ]
     }

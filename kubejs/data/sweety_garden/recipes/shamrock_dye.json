@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "pink_dye",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "sweety_garden:purple_shamrock"
+    }
+  ],
+  "result": {
+    "item": "coraline_systems:wine_dye",
+    "count": 1
+  }
+}
