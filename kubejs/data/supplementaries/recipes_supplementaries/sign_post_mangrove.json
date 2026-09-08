@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:mangrove_sign"
+    }
+  ],
+  "result": {
+    "item": "supplementaries:sign_post_mangrove",
+    "count": 2
+  },
+  "conditions": [
+    {
+      "type": "supplementaries:flag",
+      "flag": "sign_post"
+    }
+  ]
+}

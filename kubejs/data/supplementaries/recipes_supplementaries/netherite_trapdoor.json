@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "supplementaries:gold_trapdoor"
+    },
+    {
+      "item": "minecraft:netherite_scrap"
+    }
+  ],
+  "result": {
+    "item": "supplementaries:netherite_trapdoor"
+  },
+  "conditions": [
+    {
+      "type": "supplementaries:flag",
+      "flag": "netherite_trapdoor"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "conditions": [
+    {
+      "type": "supplementaries:flag",
+      "flag": "planter"
+    },
+    {
+      "type": "forge:or",
+      "values": [
+        {
+          "type": "forge:not",
+          "value": {
+            "modid": "farmersdelight",
+            "type": "forge:mod_loaded"
+          }
+        },
+        {
+          "type": "forge:not",
+          "value": {
+            "flag": "rich_soil_planter",
+            "type": "supplementaries:flag"
+          }
+        }
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "020",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:brick"
+    },
+    "1": {
+      "item": "minecraft:bone_meal"
+    },
+    "2": {
+      "item": "minecraft:dirt"
+    }
+  },
+  "result": {
+    "item": "supplementaries:planter",
+    "count": 1
+  }
+}

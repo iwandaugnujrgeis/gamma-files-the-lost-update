@@ -1,0 +1,9 @@
+{
+  "type": "supplementaries:trapped_present",
+  "conditions": [
+    {
+      "type": "supplementaries:flag",
+      "flag": "trapped_present"
+    }
+  ]
+}

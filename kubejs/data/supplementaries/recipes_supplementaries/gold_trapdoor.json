@@ -1,0 +1,24 @@
+{
+  "conditions": [
+    {
+      "flag": "gold_trapdoor",
+      "type": "supplementaries:flag"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "group": "iron_trapdoor",
+  "pattern": [
+    "   ",
+    "11 ",
+    "11 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "supplementaries:gold_trapdoor",
+    "count": 1
+  }
+}

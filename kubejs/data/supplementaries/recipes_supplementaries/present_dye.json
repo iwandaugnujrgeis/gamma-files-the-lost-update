@@ -1,0 +1,9 @@
+{
+  "type": "supplementaries:present_dye",
+  "conditions": [
+    {
+      "type": "supplementaries:flag",
+      "flag": "present"
+    }
+  ]
+}

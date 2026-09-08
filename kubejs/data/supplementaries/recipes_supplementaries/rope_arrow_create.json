@@ -1,0 +1,9 @@
+{
+  "type": "supplementaries:rope_arrow_create",
+  "conditions": [
+    {
+      "type": "supplementaries:flag",
+      "flag": "rope_arrow"
+    }
+  ]
+}

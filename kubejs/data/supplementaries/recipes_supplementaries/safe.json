@@ -1,0 +1,9 @@
+{
+  "type": "supplementaries:safe",
+  "conditions": [
+    {
+      "type": "supplementaries:flag",
+      "flag": "safe"
+    }
+  ]
+}

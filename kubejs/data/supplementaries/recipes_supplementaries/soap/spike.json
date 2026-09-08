@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "supplementaries:bamboo_spikes_tipped"
+    },
+    {
+      "item": "supplementaries:soap"
+    }
+
+  ],
+  "result": {
+    "item": "supplementaries:bamboo_spikes",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "supplementaries:flag",
+      "flag": "soap"
+    },
+    {
+      "type": "supplementaries:flag",
+      "flag": "bamboo_spikes_tipped"
+    }
+  ]
+}

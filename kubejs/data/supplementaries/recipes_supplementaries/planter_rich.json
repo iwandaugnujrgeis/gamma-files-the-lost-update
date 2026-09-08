@@ -1,0 +1,37 @@
+{
+  "conditions": [
+    {
+      "type": "supplementaries:flag",
+      "flag": "planter"
+    },
+    {
+      "type": "supplementaries:flag",
+      "flag": "rich_soil_planter"
+    },
+    {
+      "modid": "farmersdelight",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "101",
+    "121",
+    "111"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:brick"
+    },
+    "0": {
+      "item": "minecraft:bone_meal"
+    },
+    "2": {
+      "item": "farmersdelight:rich_soil"
+    }
+  },
+  "result": {
+    "item": "supplementaries:planter",
+    "count": 1
+  }
+}

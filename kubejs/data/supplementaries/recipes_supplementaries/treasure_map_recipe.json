@@ -1,0 +1,9 @@
+{
+  "type": "supplementaries:weathered_map",
+  "conditions": [
+    {
+      "type": "supplementaries:flag",
+      "flag": "antique_ink"
+    }
+  ]
+}

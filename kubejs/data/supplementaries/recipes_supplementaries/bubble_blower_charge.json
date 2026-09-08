@@ -1,0 +1,13 @@
+{
+  "type": "supplementaries:bubble_blower_charge",
+  "conditions": [
+    {
+      "type": "supplementaries:flag",
+      "flag": "bubble_blower"
+    },
+    {
+      "type": "supplementaries:flag",
+      "flag": "soap"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "supplementaries:flint_block"
+    }
+  },
+  "result": {
+    "item": "minecraft:flint",
+    "count": 9
+  },
+  "conditions": [
+    {
+      "type": "supplementaries:flag",
+      "flag": "flint_block"
+    }
+  ]
+}
