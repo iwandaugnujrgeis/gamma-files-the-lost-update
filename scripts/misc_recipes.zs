@@ -265,9 +265,6 @@ craftingTable.addShapedMeta("hopper", <item:minecraft:hopper> * 3, [
   [<item:minecraft:iron_ingot>, <tag:items:forge:chests/wooden>, <item:minecraft:iron_ingot>],
   [<item:minecraft:air>, <item:minecraft:iron_ingot>, <item:minecraft:air>]], "", <constant:minecraft:recipe/category/crafting:redstone>);
 
-craftingTable.remove(<item:minecraft:blaze_powder>);
-craftingTable.addShapelessMeta("blaze_powder", <item:minecraft:blaze_powder> * 3, [<item:minecraft:blaze_rod>], "", <constant:minecraft:recipe/category/crafting:misc>);
-
 craftingTable.remove(<item:minecraft:ender_chest>);
 craftingTable.addShapedMeta("ender_chest", <item:minecraft:ender_chest>, [
   [<item:minecraft:obsidian>, <item:minecraft:obsidian>, <item:minecraft:obsidian>],
@@ -315,7 +312,7 @@ craftingTable.remove(<item:minecraft:chest>);
 craftingTable.addShapedMeta("chest", <item:minecraft:chest>, [
   [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>], 
   [<tag:items:minecraft:planks>, <item:minecraft:air>, <tag:items:minecraft:planks>], 
-  [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]], "", <constant:minecraft:recipe/category/crafting:building>);
+  [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]], "", <constant:minecraft:recipe/category/crafting:redstone>);
 
 stoneCutter.addRecipe("stonecutter_granite_tiles", <item:minecraft:polished_granite>, <item:minecraft:granite>);
 
@@ -596,14 +593,17 @@ craftingTable.addShapedMeta("maraca", <item:alexsmobs:maraca> * 3, [
 
   stoneCutter.addRecipe("stonecutter_limestone_bricks_wall", <item:quark:limestone_bricks_wall>, <item:quark:limestone_bricks>);
 
+  craftingTable.remove(<item:quark:limestone_stairs>);
   craftingTable.addShapedMeta("limestone_stairs", <item:quark:limestone_stairs> * 4, [
     [<item:quark:limestone>, <item:minecraft:air>, <item:minecraft:air>],
     [<item:quark:limestone>, <item:quark:limestone>, <item:minecraft:air>],
     [<item:quark:limestone>, <item:quark:limestone>, <item:quark:limestone>]], "", <constant:minecraft:recipe/category/crafting:building>);
 
+  craftingTable.remove(<item:quark:limestone_slab>);
   craftingTable.addShapedMeta("limestone_slab", <item:quark:limestone_slab> * 6, [
     [<item:quark:limestone>, <item:quark:limestone>, <item:quark:limestone>]], "", <constant:minecraft:recipe/category/crafting:building>);
 
+  craftingTable.remove(<item:quark:limestone_wall>);
   craftingTable.addShapedMeta("limestone_wall", <item:quark:limestone_wall> * 6, [
     [<item:quark:limestone>, <item:quark:limestone>, <item:quark:limestone>],
     [<item:quark:limestone>, <item:quark:limestone>, <item:quark:limestone>]], "", <constant:minecraft:recipe/category/crafting:building>);
@@ -647,14 +647,17 @@ craftingTable.addShapedMeta("maraca", <item:alexsmobs:maraca> * 3, [
     [<item:quark:shale_bricks>, <item:quark:shale_bricks>, <item:quark:shale_bricks>],
     [<item:quark:shale_bricks>, <item:quark:shale_bricks>, <item:quark:shale_bricks>]], "", <constant:minecraft:recipe/category/crafting:building>);
 
+  craftingTable.remove(<item:quark:shale_stairs>);
   craftingTable.addShapedMeta("shale_stairs", <item:quark:shale_stairs> * 4, [
     [<item:quark:shale>, <item:minecraft:air>, <item:minecraft:air>],
     [<item:quark:shale>, <item:quark:shale>, <item:minecraft:air>],
     [<item:quark:shale>, <item:quark:shale>, <item:quark:shale>]], "", <constant:minecraft:recipe/category/crafting:building>);
 
+  craftingTable.remove(<item:quark:shale_slab>);
   craftingTable.addShapedMeta("shale_slab", <item:quark:shale_slab> * 6, [
     [<item:quark:shale>, <item:quark:shale>, <item:quark:shale>]], "", <constant:minecraft:recipe/category/crafting:building>);
 
+  craftingTable.remove(<item:quark:shale_wall>);
   craftingTable.addShapedMeta("shale_wall", <item:quark:shale_wall> * 6, [
     [<item:quark:shale>, <item:quark:shale>, <item:quark:shale>],
     [<item:quark:shale>, <item:quark:shale>, <item:quark:shale>]], "", <constant:minecraft:recipe/category/crafting:building>);

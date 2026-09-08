@@ -11,6 +11,10 @@
         "path": "advancements/.*"
       },
       {
+        "namespace": "etcetera",
+        "path": "advancements/.*"
+      },
+      {
         "namespace": "atmospheric",
         "path": "advancements/.*"
       },
