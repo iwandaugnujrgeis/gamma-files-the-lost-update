@@ -710,3 +710,10 @@ craftingTable.addShapedMeta("redstone_illuminator", <item:supplementaries:redsto
   [<item:minecraft:redstone>, <item:minecraft:ender_pearl>, <item:minecraft:redstone>], 
   [<item:minecraft:air>, <item:minecraft:redstone>, <item:minecraft:air>]], "", <constant:minecraft:recipe/category/crafting:misc>);
   */
+
+craftingTable.remove(<item:minecraft:dispenser>);
+craftingTable.addShapedMeta("dispenser", <item:minecraft:dispenser>, [
+  [<item:minecraft:cobblestone>, <item:minecraft:cobblestone>, <item:minecraft:cobblestone>],
+  [<item:minecraft:cobblestone>, <item:minecraft:bow>, <item:minecraft:cobblestone>],
+  [<item:minecraft:cobblestone>, <item:minecraft:redstone>, <item:minecraft:cobblestone>]], "", <constant:minecraft:recipe/category/crafting:redstone>);
+

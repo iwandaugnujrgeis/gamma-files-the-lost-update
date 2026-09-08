@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "category": "building",
   "ingredients": [
     {
       "item": "minecraft:sticky_piston"
@@ -7,7 +8,6 @@
     {
       "item": "supplementaries:soap"
     }
-
   ],
   "result": {
     "item": "minecraft:piston",

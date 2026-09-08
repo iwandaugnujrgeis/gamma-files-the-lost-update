@@ -1,5 +1,6 @@
 {
   "type": "supplementaries:soap_clearing",
+  "category": "building",
   "conditions": [
     {
       "type": "supplementaries:flag",

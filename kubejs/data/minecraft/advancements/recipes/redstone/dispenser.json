@@ -27,7 +27,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:dispenser"
+        "recipe": "crafttweaker:dispenser"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -41,7 +41,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:dispenser"
+      "crafttweaker:dispenser"
     ]
   },
   "sends_telemetry_event": false
