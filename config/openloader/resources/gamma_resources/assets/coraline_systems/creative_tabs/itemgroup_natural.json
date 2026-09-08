@@ -135,39 +135,6 @@
       "item": "etcetera:nether_bismuth_ore"
     },
     {
-      "item": "minecraft:oak_sapling"
-    },
-    {
-      "item": "upgrade_aquatic:river_sapling"
-    },
-    {
-      "item": "minecraft:spruce_sapling"
-    },
-    {
-      "item": "minecraft:birch_sapling"
-    },
-    {
-      "item": "minecraft:jungle_sapling"
-    },
-    {
-      "item": "minecraft:acacia_sapling"
-    },
-    {
-      "item": "minecraft:dark_oak_sapling"
-    },
-    {
-      "item": "atmospheric:rosewood_sapling"
-    },
-    {
-      "item": "rediscovered:ancient_cherry_sapling"
-    },
-    {
-      "item": "coraline_systems:maple_sapling"
-    },
-    {
-      "item": "coraline_systems:radiant_sapling"
-    },
-    {
       "item": "minecraft:glowstone"
     },
     {
@@ -241,6 +208,39 @@
     },
     {
       "item": "coraline_systems:white_mushroom"
+    },
+    {
+      "item": "minecraft:oak_sapling"
+    },
+    {
+      "item": "upgrade_aquatic:river_sapling"
+    },
+    {
+      "item": "minecraft:spruce_sapling"
+    },
+    {
+      "item": "minecraft:birch_sapling"
+    },
+    {
+      "item": "minecraft:jungle_sapling"
+    },
+    {
+      "item": "minecraft:acacia_sapling"
+    },
+    {
+      "item": "minecraft:dark_oak_sapling"
+    },
+    {
+      "item": "atmospheric:rosewood_sapling"
+    },
+    {
+      "item": "rediscovered:ancient_cherry_sapling"
+    },
+    {
+      "item": "coraline_systems:maple_sapling"
+    },
+    {
+      "item": "coraline_systems:radiant_sapling"
     },
     {
       "item": "minecraft:grass"
