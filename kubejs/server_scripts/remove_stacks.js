@@ -3,6 +3,10 @@
 const removedCompletely = [
 
   // 4.20.11:
+  'minecraft:name_tag',
+  'minecraft:cracked_deepslate_tiles',
+
+  'minecraft:music_disc_pigstep',
   'coraline_systems:maglev_rail',
   'coraline_systems:powered_maglev_rail',
 

@@ -39,7 +39,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "quark:automation/crafting/crafter"
+        "recipe": "quark:crafter"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -54,7 +54,7 @@
   ],
   "rewards": {
     "recipes": [
-      "quark:automation/crafting/crafter"
+      "quark:crafter"
     ]
   },
   "sends_telemetry_event": false

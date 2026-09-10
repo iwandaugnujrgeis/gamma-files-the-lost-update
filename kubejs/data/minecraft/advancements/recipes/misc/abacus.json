@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "quark:tools/crafting/abacus"
+        "recipe": "quark:abacus"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "quark:tools/crafting/abacus"
+      "quark:abacus"
     ]
   },
   "sends_telemetry_event": false

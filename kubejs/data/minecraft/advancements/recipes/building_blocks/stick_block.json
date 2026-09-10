@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "quark:building/crafting/compressed/stick_block"
+      "quark:stick_block"
     ]
   },
   "criteria": {

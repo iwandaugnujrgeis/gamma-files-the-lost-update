@@ -27,7 +27,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "quark:automation/crafting/redstone_randomizer"
+        "recipe": "quark:redstone_randomizer"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -41,7 +41,7 @@
   ],
   "rewards": {
     "recipes": [
-      "quark:automation/crafting/redstone_randomizer"
+      "quark:redstone_randomizer"
     ]
   },
   "sends_telemetry_event": false

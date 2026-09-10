@@ -136,7 +136,7 @@
         {
           "type": "minecraft:item",
           "weight": 100,
-          "name": "minecraft:name_tag"
+          "name": "coraline_systems:name_tag"
         }
       ]
     }

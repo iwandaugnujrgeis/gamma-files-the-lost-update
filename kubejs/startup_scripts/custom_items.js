@@ -217,6 +217,14 @@ StartupEvents.registry('item', event => {
     .displayName('Music Disc')
     .tag('music_discs')
 
+  event.create('music_disc_droopy1', 'music_disc')
+    .song('gamma:music_disc.droopy1', 116)
+    .texture('gamma:item/record/droopy1')
+    .maxStackSize(1)
+    .displayName('Music Disc')
+    .tag('music_discs')
+    .tag('creeper_drop_music_discs')
+
   event.create('music_disc_droopy2', 'music_disc')
     .song('gamma:music_disc.droopy2', 97)
     .texture('gamma:item/record/droopy2')

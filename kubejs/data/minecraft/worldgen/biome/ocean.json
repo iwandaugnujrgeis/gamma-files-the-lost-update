@@ -31,8 +31,7 @@
     ],
     [
       "minecraft:amethyst_geode",
-      "gamma:forest_stone",
-      "gamma:moonstone_boulder"
+      "gamma:forest_stone"
     ],
     [
       "minecraft:monster_room",
@@ -69,8 +68,7 @@
       "minecraft:disk_sand",
       "minecraft:disk_clay",
       "minecraft:disk_gravel",
-      "gamma:lake_water_surface",
-      "gamma:ore_moonstone"
+      "gamma:lake_water_surface"
     ],
     [],
     [

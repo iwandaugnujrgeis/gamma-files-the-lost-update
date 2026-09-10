@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "quark:automation/crafting/gravisand"
+        "recipe": "quark:gravisand"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "quark:automation/crafting/gravisand"
+      "quark:gravisand"
     ]
   },
   "sends_telemetry_event": false

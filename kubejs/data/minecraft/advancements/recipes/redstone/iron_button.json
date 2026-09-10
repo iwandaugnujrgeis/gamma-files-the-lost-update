@@ -3,7 +3,7 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "quark:automation/crafting/iron_button"
+        "recipe": "quark:iron_button"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
@@ -39,7 +39,7 @@
   ],
   "rewards": {
     "recipes": [
-      "quark:automation/crafting/iron_button"
+      "quark:iron_button"
     ]
   },
   "sends_telemetry_event": false

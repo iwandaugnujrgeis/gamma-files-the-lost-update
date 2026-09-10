@@ -1,9 +1,0 @@
-{
-  "input": "#minecraft:leaves",
-  "output": {
-    "name": "spawn:fallen_leaves",
-    "properties": {
-      "leaves": "4"
-    }
-  }
-}

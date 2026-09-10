@@ -132,7 +132,7 @@
       "item": "etcetera:handbell"
     },
     {
-      "item": "minecraft:name_tag"
+      "item": "coraline_systems:name_tag"
     },
     {
       "item": "supplementaries:bubble_blower"
@@ -246,7 +246,7 @@
       "item": "minecraft:music_disc_otherside"
     },
     {
-      "item": "minecraft:music_disc_pigstep"
+      "item": "kubejs:music_disc_droopy1"
     },
     {
       "item": "kubejs:music_disc_droopy2"

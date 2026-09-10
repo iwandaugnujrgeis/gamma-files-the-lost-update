@@ -1,0 +1,34 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"friendsandfoes:waxed_copper_button_from_honeycomb"
+		]
+	},
+	"criteria": {
+		"has_honeycomb": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"friendsandfoes:copper_button"
+						]
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "friendsandfoes:waxed_copper_button_from_honeycomb"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_honeycomb",
+			"has_the_recipe"
+		]
+	]
+}

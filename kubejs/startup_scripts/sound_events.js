@@ -7,6 +7,7 @@ StartupEvents.registry('sound_event', (event) => {
 //Records:
 	event.create('gamma:music_disc.dog')
 	event.create('gamma:music_disc.eleven')
+	event.create('gamma:music_disc.droopy1')
 	event.create('gamma:music_disc.droopy2')
 	event.create('gamma:music_disc.death')
 	event.create('gamma:music_disc.acid')

@@ -19,6 +19,10 @@
         "path": "advancements/.*"
       },
       {
+        "namespace": "rediscovered",
+        "path": "advancements/.*"
+      },
+      {
         "namespace": "caverns_and_chasms",
         "path": "advancements/.*"
       },
@@ -28,6 +32,30 @@
       },
       {
         "namespace": "clayworks",
+        "path": "advancements/.*"
+      },
+      {
+        "namespace": "quark",
+        "path": "advancements/.*"
+      },
+      {
+        "namespace": "quark",
+        "path": "recipes/.*"
+      },
+      {
+        "namespace": "spawn",
+        "path": "advancements/.*"
+      },
+      {
+        "namespace": "spelunkery",
+        "path": "advancements/.*"
+      },
+      {
+        "namespace": "supplementaries",
+        "path": "advancements/.*"
+      },
+      {
+        "namespace": "friendsandfoes",
         "path": "advancements/.*"
       }
     ]

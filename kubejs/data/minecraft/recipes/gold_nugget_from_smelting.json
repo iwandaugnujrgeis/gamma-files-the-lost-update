@@ -31,9 +31,6 @@
     },
     {
       "item": "minecraft:golden_boots"
-    },
-    {
-      "item": "minecraft:golden_horse_armor"
     }
   ],
   "result": "minecraft:gold_nugget"

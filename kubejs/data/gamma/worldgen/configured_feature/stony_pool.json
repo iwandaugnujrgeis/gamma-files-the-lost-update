@@ -2,7 +2,7 @@
   "type": "rediscovered:pool",
   "config": {
     "bottom": {
-      "Name": "kubejs:moonstone"
+      "Name": "minecraft:stone"
     },
     "cutout_chance": 0.2,
     "dripleaf_chance": 0.3,

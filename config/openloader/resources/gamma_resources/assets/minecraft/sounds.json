@@ -1137,7 +1137,7 @@
     "replace": true,
     "sounds": [
       {
-        "name": "records/droopy1",
+        "name": "records/pigstep",
         "stream": true
       }
     ]

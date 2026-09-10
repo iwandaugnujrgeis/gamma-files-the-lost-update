@@ -10,9 +10,9 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "gamma:story/mine_moonstone",
-    "criteria": {
-      "corrupt_portal": {
+  "parent": "gamma:story/benchmarking",
+  "criteria": {
+    "corrupt_portal": {
       "trigger": "coraline_systems:corrupt_portal"
     }
   }

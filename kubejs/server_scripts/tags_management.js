@@ -70,7 +70,7 @@ ServerEvents.tags('item', event => {
   event.add('gamma:music_discs', 'minecraft:music_disc_wait')
   event.add('gamma:music_discs', 'rediscovered:music_disc_calm4')
   event.add('gamma:music_discs', 'minecraft:music_disc_otherside')
-  event.add('gamma:music_discs', 'minecraft:music_disc_pigstep')
+  event.add('gamma:music_discs', 'kubejs:music_disc_droopy1')
   event.add('gamma:music_discs', 'minecraft:music_disc_relic')
   event.add('gamma:music_discs', 'alexsmobs:music_disc_thime')
   event.add('gamma:music_discs', 'kubejs:music_disc_dog')
@@ -128,5 +128,5 @@ ServerEvents.tags('item', event => {
 })
 
 ServerEvents.tags('item', event => {
-  event.add('minecraft:creeper_drop_music_discs', 'minecraft:music_disc_pigstep')
+  event.add('minecraft:creeper_drop_music_discs', 'kubejs:music_disc_droopy1')
 })

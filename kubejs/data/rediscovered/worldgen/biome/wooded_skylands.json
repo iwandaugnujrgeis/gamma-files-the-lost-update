@@ -4,6 +4,7 @@
       "minecraft:cave"
     ]
   },
+  "creature_spawn_probability": 0.07,
   "downfall": 0.4,
   "effects": {
     "fog_color": 8044543,
@@ -109,29 +110,11 @@
     "misc": [],
     "monster": [
       {
-        "type": "alexsmobs:farseer",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 80
-      },
-      {
         "type": "minecraft:giant",
         "maxCount": 1,
         "minCount": 1,
         "weight": 1
       }
-      //{
-        //"type": "aether:zephyr",
-        //"maxCount": 1,
-        //"minCount": 1,
-        //"weight": 1
-      //},
-      //{
-        //"type": "aether:whirlwind",
-        //"maxCount": 1,
-        //"minCount": 1,
-        //"weight": 1
-      //}
     ],
     "underground_water_creature": [],
     "water_ambient": [],

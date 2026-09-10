@@ -220,6 +220,12 @@ craftingTable.addShapedMeta("magma_block", <item:minecraft:magma_block> * 8, [
   [<item:minecraft:cobblestone>, <item:minecraft:lava_bucket>, <item:minecraft:cobblestone>],
   [<item:minecraft:cobblestone>, <item:minecraft:cobblestone>, <item:minecraft:cobblestone>]], "", <constant:minecraft:recipe/category/crafting:building>);
 
+craftingTable.remove(<item:supplementaries:blackboard>);
+craftingTable.addShapedMeta("blackboard", <item:supplementaries:blackboard>, [
+  [<tag:items:minecraft:wooden_slabs>, <item:minecraft:polished_basalt>],
+  [<tag:items:minecraft:wooden_slabs>, <item:minecraft:polished_basalt>],
+  [<tag:items:minecraft:wooden_slabs>, <item:minecraft:polished_basalt>]], "", <constant:minecraft:recipe/category/crafting:building>);
+
 craftingTable.addShapelessMeta("slime_ball_block", <item:minecraft:slime_ball> * 9, [<item:minecraft:slime_block>], "", <constant:minecraft:recipe/category/crafting:misc>);
 
 furnace.remove(<item:minecraft:smooth_stone>);
@@ -363,12 +369,12 @@ craftingTable.addShapelessMeta("butter_bottle", <item:kubejs:butter> * 2, [<item
 
 craftingTable.addShapedMeta("music_disc_droopy2", <item:kubejs:music_disc_droopy2>, [
   [<item:minecraft:air>, <item:minecraft:amethyst_shard>, <item:minecraft:air>], 
-  [<item:minecraft:amethyst_shard>, <item:minecraft:music_disc_pigstep>, <item:minecraft:amethyst_shard>],
+  [<item:minecraft:amethyst_shard>, <item:kubejs:music_disc_droopy1>, <item:minecraft:amethyst_shard>],
   [<item:minecraft:air>, <item:minecraft:amethyst_shard>, <item:minecraft:air>]], "", <constant:minecraft:recipe/category/crafting:equipment>);
 
 craftingTable.addShapedMeta("rock_salt", <item:kubejs:rock_salt>, [
   [<item:kubejs:salt>, <item:kubejs:salt>],
-  [<item:kubejs:salt>, <item:kubejs:salt>]], "", <constant:minecraft:recipe/category/crafting:misc>);
+  [<item:kubejs:salt>, <item:kubejs:salt>]], "", <constant:minecraft:recipe/category/crafting:building>);
 
 // Copper Tools:
 craftingTable.addShapedMirroredMeta("copper_axe", MirrorAxis.HORIZONTAL, <item:kubejs:copper_axe>, [
@@ -455,7 +461,7 @@ craftingTable.addShapedMeta("gear", <item:kubejs:gear> * 8, [
 
 // Large Bricks:
 craftingTable.remove(<item:rediscovered:large_bricks>);
-craftingTable.addShapedMeta("", <item:rediscovered:large_bricks> * 4, [
+craftingTable.addShapedMeta("large_bricks", <item:rediscovered:large_bricks> * 4, [
   [<item:minecraft:bricks>, <item:minecraft:bricks>],
   [<item:minecraft:bricks>, <item:minecraft:bricks>]], "", <constant:minecraft:recipe/category/crafting:building>);
 

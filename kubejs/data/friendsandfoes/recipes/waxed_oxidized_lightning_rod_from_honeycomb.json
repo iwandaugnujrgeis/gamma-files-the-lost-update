@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "lightning_rods_waxed",
+	"category": "building",
+	"ingredients": [
+		{
+			"item": "friendsandfoes:oxidized_lightning_rod"
+		},
+		{
+			"item": "minecraft:honeycomb"
+		}
+	],
+	"result": {
+		"item": "friendsandfoes:waxed_oxidized_lightning_rod"
+	}
+}

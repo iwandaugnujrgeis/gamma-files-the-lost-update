@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "WWW",
+    "SWS",
+    " S "
+  ],
+  "key": {
+    "W": {
+      "tag": "minecraft:planks"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "quark:chute"
+  },
+  "conditions": [
+    {
+      "type": "quark:flag",
+      "flag": "chute"
+    }
+  ]
+}

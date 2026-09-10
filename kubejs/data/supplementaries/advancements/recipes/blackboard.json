@@ -1,34 +1,36 @@
 {
   "rewards": {
     "recipes": [
-      "supplementaries:blackboard"
+      "crafttweaker:blackboard"
     ]
   },
   "criteria": {
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "supplementaries:blackboard"
+        "recipe": "crafttweaker:blackboard"
       }
     },
-    "has_blackstone": {
+    "has_basalt": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:blackstone"
+              "minecraft:basalt"
             ]
           }
         ]
       }
     },
-    "supplementaries:blackboard_white": {
+    "has_polished_basalt": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "tag": "supplementaries:blackboard_white"
+            "items": [
+              "minecraft:polished_basalt"
+            ]
           }
         ]
       }
@@ -46,11 +48,9 @@
   },
   "requirements": [
     [
-      "has_blackstone",
-      "minecraft:wooden_slabs",
+      "has_basalt",
+      "has_polished_basalt",
       "has_the_recipe",
-      "has_blackstone",
-      "supplementaries:blackboard_white",
       "minecraft:wooden_slabs"
     ]
   ],

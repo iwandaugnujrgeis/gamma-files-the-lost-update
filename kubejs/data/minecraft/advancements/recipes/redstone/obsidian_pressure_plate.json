@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "quark:automation/crafting/obsidian_pressure_plate"
+      "quark:obsidian_pressure_plate"
     ]
   },
   "criteria": {

@@ -31,7 +31,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:name_tag",
+          "name": "coraline_systems:name_tag",
           "weight": 1
         },
         {
@@ -54,7 +54,7 @@
           "name": "quark:abacus",
           "weight": 1
         },
-                {
+        {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_11",
           "weight": 1
