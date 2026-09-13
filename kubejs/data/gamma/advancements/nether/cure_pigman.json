@@ -19,7 +19,7 @@
   "display": {
     "announce_to_chat": true,
     "description": "Weaken and Cure a Zombie Piglin using a Golden Carrot!",
-    "frame": "challenge",
+    "frame": "task",
     "hidden": false,
     "icon": {
       "item": "minecraft:golden_carrot"

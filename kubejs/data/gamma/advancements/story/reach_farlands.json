@@ -15,7 +15,7 @@
   "display": {
     "announce_to_chat": true,
     "description": "Reach the Far Lands",
-    "frame": "challenge",
+    "frame": "task",
     "hidden": false,
     "icon": {
       "item": "citadel:fancy_item",

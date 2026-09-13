@@ -18,7 +18,6 @@
           "minecraft:poison": {},
           "minecraft:luck": {},
           "minecraft:slow_falling": {},
-          //"galosphere:astral": {},
           "alexsmobs:knockback_resistance": {},
           "alexsmobs:lava_vision": {},
           "alexsmobs:soulsteal": {},
@@ -31,7 +30,7 @@
   "display": {
     "announce_to_chat": true,
     "description": "Drink All the Potions...\nAt Once!",
-    "frame": "challenge",
+    "frame": "task",
     "hidden": false,
     "icon": {
       "item": "citadel:fancy_item",

@@ -20,7 +20,7 @@
   "display": {
     "announce_to_chat": true,
     "description": "Craft and Activate a Nether Reactor!",
-    "frame": "challenge",
+    "frame": "task",
     "hidden": false,
     "icon": {
       "item": "rediscovered:nether_reactor_core"

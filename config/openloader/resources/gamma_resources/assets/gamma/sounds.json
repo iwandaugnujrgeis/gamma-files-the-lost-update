@@ -104,6 +104,12 @@
         "volume": 1.0
       },
       {
+        "name": "gamma:music/stroll",
+        "stream": true,
+        "volume": 1.0,
+        "weight": 10
+      },
+      {
         "name": "gamma:music/boygames",
         "stream": true,
         "volume": 1.0
@@ -123,6 +129,12 @@
         "name": "gamma:music/beton",
         "stream": true,
         "volume": 1.0
+      },
+      {
+        "name": "gamma:music/sound",
+        "stream": true,
+        "volume": 1.0,
+        "weight": 10
       }
     ]
   },

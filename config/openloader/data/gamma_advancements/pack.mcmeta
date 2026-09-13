@@ -36,11 +36,7 @@
       },
       {
         "namespace": "quark",
-        "path": "advancements/.*"
-      },
-      {
-        "namespace": "quark",
-        "path": "recipes/.*"
+        "path": "^(advancements|recipes)/.*"
       },
       {
         "namespace": "spawn",

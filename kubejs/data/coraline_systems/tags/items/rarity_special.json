@@ -1,0 +1,16 @@
+{
+  "replace": true,
+  "values": [
+    "coraline_systems:dimensional_shard",
+    "coraline_systems:suspicious_block",
+    "coraline_systems:centrifuge",
+    "coraline_systems:tesseract",
+    "coraline_systems:altar",
+    "kubejs:green_apple",
+    "coraline_systems:wine_bottle",
+    "coraline_systems:kombucha_bottle",
+    "coraline_systems:tea_bottle",
+    "kubejs:muffin",
+    "coraline_systems:fallen_star_item"
+  ]
+}

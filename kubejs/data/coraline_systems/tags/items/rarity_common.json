@@ -1,0 +1,16 @@
+{
+  "replace": true,
+  "values": [
+    "quark:backpack",
+    "minecraft:golden_apple",
+    "minecraft:enchanted_golden_apple",
+    "spelunkery:eggplant",
+    "rediscovered:red_dragon_egg",
+    "minecraft:player_head",
+    "minecraft:zombie_head",
+    "minecraft:creeper_head",
+    "supplementaries:enderman_head",
+    "minecraft:skeleton_skull",
+    "supplementaries:bomb"
+  ]
+}

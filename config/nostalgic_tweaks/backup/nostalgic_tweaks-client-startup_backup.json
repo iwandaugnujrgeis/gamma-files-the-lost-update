@@ -705,7 +705,7 @@
   "swing": {
     "overrideSpeeds": false,
     "attackGlobalSpeed": 7,
-    "useGlobalSpeed": 7,
+    "useGlobalSpeed": 6,
     "attackItemSpeed": 8,
     "useItemSpeed": 8,
     "attackToolSpeed": 8,

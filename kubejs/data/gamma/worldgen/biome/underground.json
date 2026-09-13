@@ -77,7 +77,6 @@
 			"minecraft:glow_lichen",
 			"caverns_and_chasms:false_hope",
 			"coraline_systems:mixed_cave_mushroom",
-			// "caverns_and_chasms:patch_cave_growths",
 			"gamma:patch_other_mushrooms"
 		],
 		[
@@ -123,10 +122,10 @@
 				"maxCount": 4
 			},
 			{
-			  "type": "coraline_systems:monster",
-			  "maxCount": 1,
-			  "minCount": 1,
-			  "weight": 40
+				"type": "coraline_systems:monster",
+				"maxCount": 1,
+				"minCount": 1,
+				"weight": 40
 			},
 			{
 				"type": "minecraft:enderman",
@@ -137,10 +136,10 @@
 		],
 		"creature": [
 			{
-			  "type": "caverns_and_chasms:rat",
-			  "maxCount": 2,
-			  "minCount": 1,
-			  "weight": 6
+				"type": "caverns_and_chasms:rat",
+				"maxCount": 2,
+				"minCount": 1,
+				"weight": 6
 			}
 		],
 		"ambient": [
@@ -162,10 +161,10 @@
 		],
 		"water_ambient": [
 			{
-			  "type": "caverns_and_chasms:cavefish",
-			  "maxCount": 4,
-			  "minCount": 1,
-			  "weight": 5
+				"type": "caverns_and_chasms:cavefish",
+				"maxCount": 4,
+				"minCount": 1,
+				"weight": 5
 			}
 		],
 		"water_creature": [],

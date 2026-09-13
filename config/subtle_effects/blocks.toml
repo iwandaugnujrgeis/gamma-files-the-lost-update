@@ -88,9 +88,9 @@ lavaSparksDensity = 1.0
 brewingStandSparks = false
 
 [updatedSmoke]
-candleSmoke = true
+candleSmoke = false
 furnaceSmoke = true
-fireSmoke = true
+fireSmoke = false
 torchSmoke = false
 campfireDowseSmoke = true
 

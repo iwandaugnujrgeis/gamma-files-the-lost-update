@@ -82,7 +82,6 @@
 			"gamma:andesite_crags_vegetation",
 			"gamma:patch_flowers_windswept",
 			"minecraft:patch_grass_savanna",
-			"caverns_and_chasms:patch_cave_growths",
 			"minecraft:patch_melon_sparse",
 			"minecraft:patch_cactus_desert"
 		],
@@ -153,7 +152,7 @@
 				"maxCount": 3,
 				"minCount": 1,
 				"weight": 10
-			},			
+			},
 			{
 				"type": "minecraft:camel",
 				"maxCount": 1,

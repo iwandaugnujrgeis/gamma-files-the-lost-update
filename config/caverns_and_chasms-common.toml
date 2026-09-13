@@ -41,7 +41,7 @@
 
 	[tweaks.rails]
 		#Rails can be placed in the direction you're looking at by clicking on another rail, similar to scaffolding
-		"Better rail placement" = true
+		"Better rail placement" = false
 		#The range in blocks that better rail placement can reach
 		#Range: > 0
 		"Placement range" = 7

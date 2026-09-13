@@ -1,6 +1,5 @@
 {
   "itemGroup.spelunkery": "Spelunkery",
-
   "advancements.spelunkery.carved_nephrite.title": "Mean Green XP Machine",
   "advancements.spelunkery.carved_nephrite.description": "Craft some Carved Nephrite",
   "advancements.spelunkery.coal_lump.title": "Someone's been Naughty",
@@ -55,7 +54,6 @@
   "advancements.spelunkery.true_north.description": "Follow the North arrow of a Magnetic Compass until you reach the North Pole",
   "advancements.spelunkery.wooden_rail.title": "Rickety Railway",
   "advancements.spelunkery.wooden_rail.description": "Create Wooden Rails (careful, they're rickety)",
-
   "tooltip.spelunkery.hold_crouch": "Hold %1$s for more details",
   "tooltip.spelunkery.throwable": "Throwable",
   "tooltip.spelunkery.slime_food": "Favorite food of Slimes",
@@ -143,7 +141,6 @@
   "tooltip.spelunkery.channel_1": "  Is used to direct the flow of fluids",
   "tooltip.spelunkery.channel_2": "  Channels will automatically connect to each other",
   "tooltip.spelunkery.channel_3": "  Walls can be created or removed by clicking sides with axe or pickaxe",
-
   "tooltip.spelunkery.sluice.wastes_deltas": "Only within Basalt Deltas or Nether Wastes",
   "tooltip.spelunkery.sluice.nether_forests": "Only within Nether Forests",
   "tooltip.spelunkery.sluice.soul_sand_valleys": "Only within Soul Sand Valleys",
@@ -161,8 +158,6 @@
   "tooltip.spelunkery.sluice.jagged_peaks": "Only within Jagged Peaks",
   "tooltip.spelunkery.sluice.deserts": "Only within Deserts",
   "tooltip.spelunkery.sluice.badlands": "Only within Badlands",
-
-
   "tag.spelunkery.glowsticks": "Glowsticks",
   "tag.spelunkery.grindable": "Grindables",
   "tag.spelunkery.nuggets": "Nuggets",
@@ -189,14 +184,11 @@
   "tag.spelunkery.grindstone_repair_item": "Grindstone Repairers",
   "tag.spelunkery.parachute_repair": "Parachute Repairers",
   "tag.spelunkery.wip_items": "WIP items",
-
   "tag.spelunkery.spring_water": "Spring Water",
   "tag.spelunkery.portal_fluid": "Dimensional Tears",
-
   "material.spelunkery.nephrite": "Nephrite Material",
   "material.spelunkery.magnetite": "Magnetite Material",
   "material.spelunkery.salt": "Rock Salt Material",
-
   "subtitles.block.portal_fluid.ambient": "Dimensional Tears ripple",
   "subtitles.block.portal_fluid.enter": "Dimensional Tears warp",
   "subtitles.block.portal_fluid.teleport": "Dimensional Tears pulsate",
@@ -204,43 +196,35 @@
   "subtitles.item.pebble.knob": "skonb elbbeP",
   "subtitles.block.spring_water.ambient": "Spring Water Roils",
   "subtitles.block.spring_water.pop": "Spring Water bubbles",
-
   "block.spelunkery.rock_salt": "Rock Salt",
   "block.spelunkery.salt_lamp": "Salt Lamp",
   "block.spelunkery.salt": "Salt",
   "block.spelunkery.salt_block": "Block of Salt",
   "item.spelunkery.salt_bucket": "Salt Bucket",
-
   "block.spelunkery.rock_salt_block": "Rock Salt Block",
   "block.spelunkery.rock_salt_slab": "Rock Salt Slab",
   "block.spelunkery.rock_salt_stairs": "Rock Salt Stairs",
   "block.spelunkery.rock_salt_wall": "Rock Salt Wall",
-
   "block.spelunkery.polished_rock_salt": "Polished Rock Salt",
   "block.spelunkery.polished_rock_salt_slab": "Polished Rock Salt Slab",
   "block.spelunkery.polished_rock_salt_stairs": "Polished Rock Salt Stairs",
   "block.spelunkery.polished_rock_salt_wall": "Polished Rock Salt Wall",
-
   "block.spelunkery.rock_salt_bricks": "Rock Salt Bricks",
   "block.spelunkery.rock_salt_brick_slab": "Rock Salt Brick Slab",
   "block.spelunkery.rock_salt_brick_stairs": "Rock Salt Brick Stairs",
   "block.spelunkery.rock_salt_brick_wall": "Rock Salt Brick Wall",
-
   "block.spelunkery.polished_quartz": "Polished Quartz Block",
   "block.spelunkery.polished_quartz_slab": "Polished Rock Salt Slab",
   "block.spelunkery.polished_quartz_stairs": "Polished Rock Salt Stairs",
   "block.spelunkery.polished_quartz_wall": "Polished Rock Salt Wall",
-
   "block.spelunkery.polished_quartz_brick": "Polished Rock Salt",
   "block.spelunkery.polished_quartz_brick_slab": "Polished Rock Salt Slab",
   "block.spelunkery.polished_quartz_brick_stairs": "Polished Rock Salt Stairs",
   "block.spelunkery.polished_quartz_brick_wall": "Polished Rock Salt Wall",
-
   "block.spelunkery.sandstone_lapis_ore": "Placeholderite",
   "block.spelunkery.calcite_redstone_ore": "Placeholderite",
   "block.spelunkery.smooth_basalt_diamond_ore": "Placeholderite",
   "block.spelunkery.andesite_emerald_ore": "Placeholderite",
-
   "block.spelunkery.tuff_coal_ore": "Placeholderite",
   "block.spelunkery.tuff_iron_ore": "Placeholderite",
   "block.spelunkery.tuff_copper_ore": "Placeholderite",
@@ -253,7 +237,6 @@
   "block.spelunkery.tuff_lead_ore": "Placeholderite",
   "block.spelunkery.tuff_silver_ore": "Placeholderite",
   "block.spelunkery.tuff_jade_ore": "Placeholderite",
-
   "block.spelunkery.granite_coal_ore": "Placeholderite",
   "block.spelunkery.granite_iron_ore": "Placeholderite",
   "block.spelunkery.granite_copper_ore": "Placeholderite",
@@ -266,7 +249,6 @@
   "block.spelunkery.granite_lead_ore": "Placeholderite",
   "block.spelunkery.granite_silver_ore": "Placeholderite",
   "block.spelunkery.granite_jade_ore": "Placeholderite",
-
   "block.spelunkery.andesite_coal_ore": "Placeholderite",
   "block.spelunkery.andesite_iron_ore": "Placeholderite",
   "block.spelunkery.andesite_copper_ore": "Placeholderite",
@@ -278,7 +260,6 @@
   "block.spelunkery.andesite_lead_ore": "Placeholderite",
   "block.spelunkery.andesite_silver_ore": "Placeholderite",
   "block.spelunkery.andesite_jade_ore": "Placeholderite",
-
   "block.spelunkery.diorite_coal_ore": "Placeholderite",
   "block.spelunkery.diorite_iron_ore": "Placeholderite",
   "block.spelunkery.diorite_copper_ore": "Placeholderite",
@@ -291,7 +272,6 @@
   "block.spelunkery.diorite_lead_ore": "Placeholderite",
   "block.spelunkery.diorite_silver_ore": "Placeholderite",
   "block.spelunkery.diorite_jade_ore": "Placeholderite",
-
   "item.spelunkery.raw_iron_nugget": "Raw Iron Nugget",
   "item.spelunkery.raw_copper_nugget": "Raw Copper Nugget",
   "item.spelunkery.raw_gold_nugget": "Raw Gold Nugget",
@@ -301,10 +281,8 @@
   "item.spelunkery.raw_silver_nugget": "Raw Silver Nugget",
   "item.spelunkery.raw_bismuth_nugget": "Raw Bismuth Nugget",
   "item.spelunkery.raw_tin_nugget": "Raw Tin Nugget",
-
   "item.spelunkery.bismuth_nugget": "Bismuth Nugget",
   "item.spelunkery.copper_nugget": "Copper Nugget",
-
   "item.spelunkery.coal_lump": "Lump of Coal",
   "item.spelunkery.charcoal_lump": "Charcoal Briquette",
   "item.spelunkery.rough_lazurite_shard": "Rough Lazurite Shard",
@@ -313,27 +291,22 @@
   "item.spelunkery.rough_emerald_shard": "Rough Emerald Shard",
   "item.spelunkery.rough_quartz_shard": "Rough Quartz Shard",
   "item.spelunkery.rough_jade_shard": "Rough Jade Shard",
-
   "item.spelunkery.rough_lazurite": "Rough Lazurite",
   "item.spelunkery.rough_cinnabar": "Rough Cinnabar",
   "item.spelunkery.rough_diamond": "Rough Diamond",
   "item.spelunkery.rough_emerald": "Rough Emerald",
-
   "block.spelunkery.rough_lazurite_block": "Block of Rough Lazurite",
   "block.spelunkery.rough_cinnabar_block": "Block of Rough Cinnabar",
   "block.spelunkery.rough_diamond_block": "Block of Rough Diamond",
   "block.spelunkery.rough_emerald_block": "Block of Rough Emerald",
   "block.spelunkery.rough_quartz_block": "Block of Rough Quartz",
-
   "item.spelunkery.lapis_lazuli_shard": "Lapis Lazuli Shard",
   "item.spelunkery.cinnabar_shard": "Cinnabar Shard",
   "item.spelunkery.diamond_shard": "Diamond Shard",
   "item.spelunkery.emerald_shard": "Emerald Shard",
   "item.spelunkery.jade_shard": "Polished Jade Shard",
-
   "item.spelunkery.cinnabar": "Cinnabar",
   "block.spelunkery.cinnabar_block": "Block of Cinnabar",
-
   "item.spelunkery.stone_pebble": "Stone Pebble",
   "item.spelunkery.deepslate_pebble": "Deepslate Pebble",
   "item.spelunkery.netherrack_pebble": "Netherrack Pebble",
@@ -341,43 +314,36 @@
   "item.spelunkery.blackstone_pebble": "Blackstone Pebble",
   "item.spelunkery.basalt_pebble": "Basalt Pebble",
   "item.spelunkery.end_stone_pebble": "End Stone Pebble",
-
   "item.spelunkery.raw_magnetite": "Raw Magnetite",
   "block.spelunkery.raw_magnetite_block": "Block of Raw Magnetite",
   "item.spelunkery.item_magnet": "Item Magnet",
   "item.spelunkery.magnetic_compass": "Magnetic Compass",
   "item.spelunkery.handheld_compactor": "Handheld Compactor",
-
   "item.spelunkery.nephrite_chunk": "Nephrite Chunk",
   "block.spelunkery.raw_nephrite": "Raw Nephrite",
   "block.spelunkery.nephrite": "Nephrite",
   "block.spelunkery.nephrite_slab": "Nephrite Slab",
   "block.spelunkery.nephrite_stairs": "Nephrite Stairs",
   "block.spelunkery.nephrite_wall": "Nephrite Wall",
-
   "block.spelunkery.polished_nephrite": "Polished Nephrite",
   "block.spelunkery.polished_nephrite_slab": "Polished Nephrite Slab",
   "block.spelunkery.polished_nephrite_stairs": "Polished Nephrite Stairs",
   "block.spelunkery.polished_nephrite_wall": "Polished Nephrite Wall",
-
   "block.spelunkery.polished_nephrite_bricks": "Polished Nephrite Bricks",
   "block.spelunkery.polished_nephrite_brick_slab": "Polished Nephrite Brick Slab",
   "block.spelunkery.polished_nephrite_brick_stairs": "Polished Nephrite Brick Stairs",
   "block.spelunkery.polished_nephrite_brick_wall": "Polished Nephrite Brick Wall",
-
   "block.spelunkery.carved_nephrite": "Carved Nephrite",
   "block.spelunkery.nephrite_siphon": "Nephrite Siphon",
   "block.spelunkery.nephrite_fountain": "Nephrite Fountain",
   "block.spelunkery.nephrite_diode": "Nephrite Diode",
   "item.spelunkery.nephrite_charm": "Nephrite Charm",
   "item.spelunkery.tuning_fork": "Tuning Fork",
-  "item.spelunkery.echo_fork": "§dDimensional Fork",
-
+  "item.spelunkery.echo_fork": "Dimensional Fork",
   "block.spelunkery.tangle_roots": "Tangle Roots",
   "block.spelunkery.tangle_roots_block": "Bramble of Tangle Roots",
   "block.spelunkery.sporophyte": "Sporophyte",
   "block.spelunkery.tall_sporophyte": "Tall Sporophyte",
-
   "block.spelunkery.conk_fungus": "Conk Fungus",
   "block.spelunkery.inkcap_mushroom": "Inkcap Mushroom",
   "block.spelunkery.white_inkcap_mushroom": "Pale Inkcap Mushroom",
@@ -388,7 +354,6 @@
   "block.spelunkery.phosphor_fungus": "Phosphor Fungus",
   "block.spelunkery.mushgloom": "Mushgloom",
   "block.spelunkery.milly_bubcap": "Milly Bubcap",
-
   "block.spelunkery.potted_inkcap_mushroom": "Potted Inkcap Mushroom",
   "block.spelunkery.potted_white_inkcap_mushroom": "Potted Pale Inkcap Mushroom",
   "block.spelunkery.potted_button_mushroom": "Potted Button Mushroom",
@@ -398,7 +363,6 @@
   "block.spelunkery.potted_mushgloom": "Potted Mushgloom",
   "block.spelunkery.potted_milly_bubcap": "Potted Milly Bubcap",
   "block.spelunkery.potted_sporophyte": "Potted Sporophyte",
-
   "block.spelunkery.conk_fungus_block": "Conk Fungus Block",
   "block.spelunkery.portabella_block": "Portabella Block",
   "block.spelunkery.inkcap_mushroom_block": "Inkcap Mushroom Block",
@@ -408,18 +372,15 @@
   "block.spelunkery.phosphor_shroomlight": "Phosphor Shroomlight",
   "block.spelunkery.mushgloom_block": "Mushgloom Block",
   "block.spelunkery.cave_mushroom_stem": "Cave Mushroom Stem",
-
   "item.spelunkery.dust_bun": "Dust Bun",
   "block.spelunkery.bunny_ears": "Bunny Ears",
   "item.spelunkery.dust_bunny_spawn_egg": "Dust Bunny Spawn Egg",
   "block.spelunkery.dust_block": "Block of Dust",
   "block.spelunkery.dust": "Dust",
-
   "block.spelunkery.sulfur": "Sulfur",
   "block.spelunkery.saltpeter": "Saltpeter",
   "block.spelunkery.sulfur_block": "Block of Sulfur",
   "block.spelunkery.saltpeter_block": "Block of Saltpeter",
-
   "block.spelunkery.glowstick": "Glowstick",
   "block.spelunkery.wooden_rail": "Wooden Rail",
   "block.spelunkery.rope_ladder": "Root Ladder",
@@ -427,7 +388,6 @@
   "block.spelunkery.wooden_sluice": "Wooden Sluice",
   "block.spelunkery.stone_channel": "Stone Channel",
   "block.spelunkery.stone_sluice": "Stone Sluice",
-
   "item.spelunkery.portal_fluid_bottle": "Bottle o' Dimensional Tears",
   "item.spelunkery.portal_fluid_bucket": "Bucket of Dimensional Tears",
   "block.spelunkery.portal_fluid": "Dimensional Tears",
@@ -437,21 +397,17 @@
   "block.spelunkery.spring_water": "Spring Water",
   "fluid.spelunkery.spring_water": "Spring Water",
   "fluid_type.spelunkery.spring_water": "Spring Water",
-
   "item.spelunkery.depth_gauge": "Depth Gauge",
   "item.spelunkery.flint_hammer_and_chisel": "Flint Hammer and Chisel",
   "item.spelunkery.obsidian_hammer_and_chisel": "Obsidian Hammer and Chisel",
   "item.spelunkery.parachute": "Parachute",
-
   "block.spelunkery.diamond_grindstone": "Diamond Grindstone",
   "item.spelunkery.diamond_grindstone.unused": "Diamond Grindstone",
   "item.spelunkery.diamond_grindstone.used": "Used Diamond Grindstone",
   "item.spelunkery.diamond_grindstone.worn": "Worn Diamond Grindstone",
   "item.spelunkery.diamond_grindstone.dull": "Dull Diamond Grindstone",
-
   "block.spelunkery.mineomite": "Mine-o-mite",
-  "block.spelunkery.compression_blast_miner": "§dCompression Blast Miner",
-
+  "block.spelunkery.compression_blast_miner": "Compression Blast Miner",
   "block.spelunkery.red_glowstick": "Red Glowstick",
   "block.spelunkery.orange_glowstick": "Orange Glowstick",
   "block.spelunkery.yellow_glowstick": "Yellow Glowstick",
@@ -468,13 +424,9 @@
   "block.spelunkery.white_glowstick": "White Glowstick",
   "block.spelunkery.gray_glowstick": "Gray Glowstick",
   "block.spelunkery.light_gray_glowstick": "Light Gray Glowstick",
-
   "entity.spelunkery.dust_bunny": "Dust Bunny",
-
   "container.spelunkery.sluice": "Sluice",
-
   "death.attack.stonecutter": "%1$s was sawed in half",
   "death.attack.stonecutter.player": "%1$s was sawed in half whilst fighting %2$s",
-
   "item.spelunkery.eggplant": "Eggplant"
 }

@@ -10,7 +10,7 @@
     "description": {
       "translate": "rediscovered:advancements.skylands.red_dragon_catch.description"
     },
-    "frame": "challenge",
+    "frame": "task",
     "hidden": false,
     "icon": {
       "item": "citadel:fancy_item",

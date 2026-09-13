@@ -51,7 +51,7 @@ craftingTable.addShapedMeta("lock_block", <item:supplementaries:lock_block>, [
 
 craftingTable.addShapedMeta("centrifuge", <item:coraline_systems:centrifuge>, [
   [<item:rediscovered:ruby>, <item:kubejs:silver_ingot>, <item:rediscovered:ruby>], 
-  [<item:kubejs:silver_ingot>, <item:minecraft:nether_star>, <item:kubejs:silver_ingot>],
+  [<item:kubejs:silver_ingot>, <item:coraline_systems:fallen_star_item>, <item:kubejs:silver_ingot>],
   [<item:rediscovered:ruby>, <item:kubejs:silver_ingot>, <item:rediscovered:ruby>]], "", <constant:minecraft:recipe/category/crafting:redstone>);
 
 craftingTable.remove(<item:supplementaries:rope>);

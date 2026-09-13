@@ -1,7 +1,6 @@
 {
   //4.3:
   "alexsmobs.potion.sunbird_blessing": "Mango's Blessing",
-
   //Other:
   "itemGroup.alexsmobs": "Alex's Mobs",
   "item.alexsmobs.spawn_egg_grizzly_bear": "Grizzly Bear Spawn Egg",
@@ -75,7 +74,7 @@
   "item.alexsmobs.spawn_egg_bunfungus": "Bunfungus Spawn Egg",
   "item.alexsmobs.spawn_egg_bison": "Bison Spawn Egg",
   "item.alexsmobs.spawn_egg_giant_squid": "Giant Squid Spawn Egg",
-  "item.alexsmobs.spawn_egg_devils_hole_pupfish":"Devil's Hole Pupfish Spawn Egg",
+  "item.alexsmobs.spawn_egg_devils_hole_pupfish": "Devil's Hole Pupfish Spawn Egg",
   "item.alexsmobs.spawn_egg_catfish": "Catfish Spawn Egg",
   "item.alexsmobs.spawn_egg_flying_fish": "Flying Fish Spawn Egg",
   "item.alexsmobs.spawn_egg_skelewag": "Skelewag Spawn Egg",
@@ -171,7 +170,6 @@
   "item.alexsmobs.cooked_kangaroo_meat": "Cooked Kangaroo Meat",
   "item.alexsmobs.kangaroo_burger": "Kangaroo Burger",
   "item.alexsmobs.kangaroo_hide": "Kangaroo Hide",
-  "item.alexsmobs.ambergris": "§dMysterious Item",
   "item.alexsmobs.cachalot_whale_tooth": "Sharp Tooth",
   "item.alexsmobs.echolocator": "Echolocator",
   "item.alexsmobs.endolocator": "Endolocator",

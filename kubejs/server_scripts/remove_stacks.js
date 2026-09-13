@@ -3,6 +3,8 @@
 const removedCompletely = [
 
   // 4.20.11:
+  'minecraft:nether_gold_ore',
+  'coraline_systems:turtle_egg',
   'minecraft:name_tag',
   'minecraft:cracked_deepslate_tiles',
 

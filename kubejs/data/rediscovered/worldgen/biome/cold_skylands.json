@@ -4,7 +4,7 @@
       "minecraft:cave"
     ]
   },
-  "creature_spawn_probability": 0.07,
+  "creature_spawn_probability": 0.02,
   "downfall": 0.4,
   "effects": {
     "fog_color": 8044543,
@@ -75,6 +75,12 @@
     "axolotls": [],
     "creature": [
       {
+        "type": "upgrade_aquatic:goose",
+        "maxCount": 4,
+        "minCount": 1,
+        "weight": 14
+      },
+      {
         "type": "minecraft:sheep",
         "maxCount": 4,
         "minCount": 1,
@@ -82,12 +88,6 @@
       },
       {
         "type": "minecraft:pig",
-        "maxCount": 4,
-        "minCount": 1,
-        "weight": 10
-      },
-      {
-        "type": "upgrade_aquatic:goose",
         "maxCount": 4,
         "minCount": 1,
         "weight": 10

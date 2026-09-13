@@ -34,7 +34,7 @@
   "display": {
     "announce_to_chat": true,
     "description": "Deliever a Final Blow\nfrom 100 Blocks' Distance!",
-    "frame": "challenge",
+    "frame": "task",
     "hidden": false,
     "icon": {
       "item": "rediscovered:purple_arrow"

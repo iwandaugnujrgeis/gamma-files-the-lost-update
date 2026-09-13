@@ -2,7 +2,6 @@
 	"____comment": "Colors are in #RRGGBB format",
 	"quark.gui.color.crate_count": "#404040",
 	"quark.gui.color.matrix_enchanting": "#404040",
-
 	"quark.gui.button.sort": "Sort",
 	"quark.gui.button.sort_inventory": "Sort Inventory",
 	"quark.gui.button.sort_container": "Sort Container",
@@ -14,7 +13,6 @@
 	"quark.gui.button.emotes": "Emotes",
 	"quark.gui.button.back": "Back",
 	"quark.gui.button.shift_lock": "Shift Lock",
-
 	"quark.gui.enchanting.min": "%d+",
 	"quark.gui.enchanting.influence": "Candle Influence: +%d%%",
 	"quark.gui.enchanting.dampen": "Candle Influence: %d%%",
@@ -23,11 +21,9 @@
 	"quark.gui.enchanting.right_click": "Right Click to Rotate",
 	"quark.gui.enchanting.merge": "Click to Upgrade",
 	"quark.gui.enchanting.pending": "Has Pending Enchantments",
-
 	"quark.gui.keygroup.misc": "Quark Misc",
 	"quark.gui.keygroup.inv": "Quark Inventory",
 	"quark.gui.keygroup.emote": "Quark Emotes",
-
 	"quark.gui.config.save": "Save Changes",
 	"quark.gui.config.social.website": "Quark Website",
 	"quark.gui.config.social.discord": "Quark/Violet Moon Discord",
@@ -44,11 +40,9 @@
 	"quark.gui.config.nchildren": "%d children",
 	"quark.gui.config.defaultvalue": "Default: %s",
 	"quark.gui.config.missingaddon": "You're missing the necessary addon mod for this category",
-
 	"quark.gui.celebration.quark": "Happy Birthday to Quark!",
 	"quark.gui.celebration.vm": "Happy Birthday to Violet Moon!",
 	"quark.gui.celebration.minecraft": "Happy Birthday to Minecraft!",
-
 	"quark.gui.celebration.vns": "Happy Birthday to MCVinnyq and Sully!",
 	"quark.gui.celebration.vazkii": "Happy Birthday to Vazkii!",
 	"quark.gui.celebration.wire": "Happy Birthday to Wire Segal!",
@@ -58,7 +52,6 @@
 	"quark.gui.celebration.train": "Happy Birthday to Train!",
 	"quark.gui.celebration.zemmy": "Happy Birthday to Zemmy!",
 	"quark.gui.celebration.mat": "Happy Birthday to MehVahdJukaar!",
-
 	"quark.gui.celebration.iad": "Happy International Asexuality Day!",
 	"quark.gui.celebration.iad2": "Happy Intersex Awareness Day!",
 	"quark.gui.celebration.idr": "Happy Intersex Day of Remembrance!",
@@ -70,11 +63,9 @@
 	"quark.gui.celebration.tdr": "Happy Transgender Day of Remembrance!",
 	"quark.gui.celebration.tdv": "Happy Trans Day of Visibility!",
 	"quark.gui.celebration.zdd": "Happy Zero Discrimination Day!",
-
 	"quark.gui.celebration.pm": "Happy Pride Month!",
 	"quark.gui.celebration.baw": "Happy Bisexual Awareness Week!",
 	"quark.gui.celebration.taw": "Happy Trans Awareness Week!",
-
 	"quark.gui.celebration.afd": "Made you look LOL! Happy April Fools!",
 	"quark.gui.celebration.hw": "Happy Halloween!",
 	"quark.gui.celebration.xmas": "Merry Christmas!",
@@ -84,10 +75,8 @@
 	"quark.gui.celebration.wwd": "Happy World Wildlife Day!",
 	"quark.gui.celebration.hrd": "Happy Human Rights Day!",
 	"quark.gui.celebration.ny": "Happy New Year!",
-
 	"quark.gui.celebration.edballs": "Ed Balls",
 	"quark.gui.celebration.doyouremember": "Do you remember?",
-
 	"quark.category.general": "General Settings",
 	"quark.category.friends": "Friend Configs",
 	"quark.category.automation": "Automation",
@@ -100,7 +89,6 @@
 	"quark.category.client": "Client",
 	"quark.category.oddities": "Oddities",
 	"quark.category.experimental": "Experimental",
-
 	"_quark.config.tl_note1": "Additional translation keys for config elements can be added here",
 	"_quark.config.tl_note2": "The format is quark.config.[(category).]+.(name).<name|desc>",
 	"_quark.config.tl_note3": "where (name) is lower case, with spaces replaced with underscores, and all non alphanumerical characters stripped",
@@ -108,14 +96,12 @@
 	"_quark.config.tl_note5": "This localization is only for the ingame viewer, and will not affect the config file. Additional .descs can be added at will",
 	"_quark.config.tl_note6": "Descriptions can be removed by translating them to an empty key, if desired. Use \n to split lines",
 	"_quark.config.tl_note7": "See below for examples (with the key prefixed by _) so it doesnt load ingame: ",
-
 	"_quark.config.automation.feeding_trough.name": "Test 100",
 	"_quark.config.automation.feeding_trough.desc": "Yeah I'm testing\nWith multiple lines too!",
 	"_quark.config.automation.feeding_trough.max_animals.name": "Testeroni",
 	"_quark.config.automation.feeding_trough.max_animals.desc": "Testerino with one line",
 	"_quark.config.automation.feeding_trough.love_chance.name": "This do be a test doe",
 	"_quark.config.automation.feeding_trough.love_chance.desc": "",
-
 	"quark.camera.filter": "Filter: ",
 	"quark.camera.filter.none": "None",
 	"quark.camera.filter.grayscale": "Grayscale",
@@ -143,13 +129,11 @@
 	"quark.camera.filter.protanopia": "Simulated Protanopia",
 	"quark.camera.filter.tritanopia": "Simulated Tritanopia",
 	"quark.camera.filter.achromatopsia": "Simulated Achromatopsia",
-
 	"quark.camera.rulers": "Rulers: ",
 	"quark.camera.rulers0": "None",
 	"quark.camera.rulers1": "Rule of Thirds",
 	"quark.camera.rulers2": "Golden Ratio",
 	"quark.camera.rulers3": "Crosshair",
-
 	"quark.camera.borders": "Borders: ",
 	"quark.camera.borders0": "None",
 	"quark.camera.borders1": "Square",
@@ -157,29 +141,24 @@
 	"quark.camera.borders3": "16:9",
 	"quark.camera.borders4": "21:9",
 	"quark.camera.borders5": "Polaroid",
-
 	"quark.camera.overlay": "Overlay: ",
 	"quark.camera.overlay0": "None",
 	"quark.camera.overlay1": "Date",
 	"quark.camera.overlay2": "Postcard",
 	"quark.camera.overlay3": "Watermark",
 	"quark.camera.overlay4": "Held Item",
-
 	"quark.camera.header": "Camera Mode",
 	"quark.camera.info": "[%s to exit, ENTER to shoot]",
 	"quark.camera.reset": "Reset Settings (Must Sneak)",
 	"quark.camera.greetings": "Greetings from %s!",
-
 	"death.attack.quark.pickarang": "%1$s was surprised by %2$s's pickarang coming back around",
 	"death.attack.quark.pickarang.item": "%1$s was surprised by %2$s's %3$s coming back around",
-
 	"quark.jei.makes_copy": "Makes Copy",
 	"quark.jei.any_enchanted": "Any Enchanted Item",
 	"quark.jei.influence": "Matrix Influencing",
 	"quark.jei.boost_influence": "Boosts odds of: ",
 	"quark.jei.dampen_influence": "Dampens odds of: ",
 	"quark.jei.hint_preamble": "[Quark]\n",
-
 	"quark.jei.hint.pickarang": "It's a Pickaxe Boomerang! Can be thrown and will mine anything it hits and bring you the drops back. It can also be enchanted for better performance.",
 	"quark.jei.hint.flamerang": "Works like a Pickarang, but any items it picks up become immune to fire and lava damage while they travel.",
 	"quark.jei.hint.abacus": "Use this on a block and it'll count the distance between the block you're looking at and the one you clicked, up to 48 blocks.",
@@ -258,7 +237,6 @@
 	"quark.jei.hint.pipe": "Will move items put in with a Hopper/Dropper or equivalent, or via dropped item form on an edge. Items will prefer to fall down, then forwards, then randomly sideways, and only then upwards. Items going into a full container will turn back. Any pipe can be disabled with a Redstone signal, and the amount of items in a Pipe can be read with a Comparator. Pipes with over 16 items will break.",
 	"quark.jei.hint.magnet": "Can push and pull any blocks made of Copper or Iron when powered, depending on the side. If multiple magnets are moving the same block, the biggest force will win. A magnet's force on a block is the redstone signal it's given minus the distance to the block. Hoppers moved with a Magnet will drop one item in front for each block moved. If the item is a seed, it'll try to plant it instead. Stonecutters moved with a Magnet will try to break the block above them.",
 	"quark.jei.hint.dusky_myalite": "Can be found embedded in Spiral Spires around the outer end.",
-
 	"quark.jei.hint.banner_layer_buff": "Banners have been upgraded to have up to %d layers now.",
 	"quark.jei.hint.crate": "Can hold up to %d items, regardless of their stack size. Not that great for bulk storage, but fantastic for unstackables or a large variety of random items.",
 	"quark.jei.hint.piston_te": "Can now push complex blocks (aka Tile Entities), except Monster Spawners.",
@@ -286,7 +264,6 @@
 	"quark.jei.hint.repair_item_changed": "This item's repair material in an Anvil has been changed to %s.",
 	"quark.jei.hint.repair_item_changed_multiple": "This item's repair material in an Anvil has been changed to one of %s.",
 	"quark.jei.hint.shiba_find_low_light": "If you're holding a torch, Shibas will point out dark spots for you to light up.",
-
 	"quark.jei.hint.minecraft.clock": "Must be crafted before it does anything to prevent funny recipe book cheese.",
 	"quark.jei.hint.minecraft.amethyst_block": "Can be placed under a Note Block to make it emit the iconic Amethyst sound.",
 	"quark.jei.hint.minecraft.shulker_shell": "Chests can be converted to Shulker Boxes without breaking them by using two Shulker Shells on one at once - one in each hand.",
@@ -304,7 +281,6 @@
 	"quark.jei.hint.minecraft.tinted_glass": "Can be used to make Beacon beams dimmer by placing the block in the way. Multiple will stack.",
 	"quark.jei.hint.minecraft.lava_bucket": "Right click an item in your inventory onto the Lava Bucket to destroy it forever! Shulker Boxes and items that are immune to fire such as Netherite can not be destroyed this way.",
 	"quark.jei.hint.minecraft.armor_stand": "Now has arms, allowing for an item plus a shield to be held.",
-
 	"quark.keybind.change_hotbar": "Hotbar Swapper",
 	"quark.keybind.lock_rotation": "Rotation Lock",
 	"quark.keybind.sort_container": "Sort Target Inventory",
@@ -324,7 +300,6 @@
 	"quark.keybind.shift_lock": "Shift Lock",
 	"quark.keybind.autorun": "Walk Automatically",
 	"quark.keybind.variant_selector": "Variant Selector",
-
 	"quark.readout.not_ingame": "Not ingame",
 	"quark.readout.looking": "Looking at %s",
 	"quark.readout.holding": "Holding %dx %s",
@@ -333,7 +308,6 @@
 	"quark.readout.food": "Food %d",
 	"quark.readout.sign_says": ". Sign Says ",
 	"quark.readout.no_item": "No item",
-
 	"quark.subtitles.shiba_eat_arrow": "Shiba... eats arrow?",
 	"quark.subtitles.shiba_ambient": "Shiba pants",
 	"quark.subtitles.shiba_hurt": "Shiba hurts",
@@ -395,7 +369,6 @@
 	"quark.subtitles.ambient.clock": "Ticking clock",
 	"quark.subtitles.ambient.crickets": "Crickets chirping",
 	"quark.subtitles.ambient.chatter": "Bustling chatter",
-
 	"quark.emote.wave": "Wave",
 	"quark.emote.yes": "Yes",
 	"quark.emote.no": "No",
@@ -414,7 +387,6 @@
 	"quark.emote.zombie": "Zombie",
 	"quark.emote.exorcist": "Exorcist",
 	"quark.emote.jet": "Jet",
-
 	"quark.misc.shulker_box_shift": "Hold Shift to see contents",
 	"quark.misc.map_shift": "Hold Shift to see the map",
 	"quark.misc.rotation_lock": "You have enabled Rotation Lock. Any blocks you place will be oriented in the direction you were looking. Press [%s] to change or reset it. This message won't appear again.",
@@ -461,7 +433,6 @@
 	"quark.misc.variant_tooltip_hold_shift": "(SHIFT for Variants)",
 	"quark.misc.variant_tooltip_header": "Variants:",
 	"quark.misc.disable_slot": "Click to Disable Slot",
-
 	"quark.misc.you_came_to_the_wrong_neighborhood.0": "Six letter word just to get me along",
 	"quark.misc.you_came_to_the_wrong_neighborhood.1": "It's a intricacy and I'm coding on my mod and I,",
 	"quark.misc.you_came_to_the_wrong_neighborhood.2": "I keep fixin', and keepin' it together",
@@ -479,13 +450,10 @@
 	"quark.misc.you_came_to_the_wrong_neighborhood.14": "That's not my name",
 	"quark.misc.you_came_to_the_wrong_neighborhood.15": "That's not my name",
 	"quark.misc.you_came_to_the_wrong_neighborhood.16": "That's not my name",
-
 	"quark.misc.reloaded0": "Your quark config has been reloaded.",
 	"quark.misc.reloaded1": "- If you changed anything that would change recipes, please run /reload.",
 	"quark.misc.reloaded2": "- If your changes aren't applied, try restarting the game.",
-
 	"quark.container.feeding_trough": "Feeding Trough",
-
 	"item.quark.trowel": "Trowel",
 	"item.quark.slime_in_a_bucket": "Bucket of Slime",
 	"item.quark.slime_in_a_bucket.named": "Bucket of %s",
@@ -559,13 +527,11 @@
 	"item.quark.ancient_fruit": "Suspicious Fruit",
 	"item.quark.pathfinders_quill": "Pathfinder's Quill",
 	"item.quark.hammer": "Hammer",
-
 	"upgrade.quark.rune_upgrade": "Runic Etching",
 	"item.quark.smithing_template.rune.applies_to": "Enchanted Items",
 	"item.quark.smithing_template.rune.base_slot_description": "Add an enchanted item",
 	"item.quark.smithing_template.rune.ingredients": "Blaze Powder, Dye, or Nothing",
 	"item.quark.smithing_template.rune.additions_slot_description": "Add blaze powder, dye, or leave empty",
-
 	"rune.quark.black": "Black Runic Etching",
 	"rune.quark.blue": "Blue Runic Etching",
 	"rune.quark.brown": "Brown Runic Etching",
@@ -584,15 +550,12 @@
 	"rune.quark.yellow": "Yellow Runic Etching",
 	"rune.quark.rainbow": "Rainbow Runic Etching",
 	"rune.quark.blank": "Blank Runic Etching",
-
 	"item.minecraft.potion.effect.quark.resilience": "Potion of Stability",
 	"item.minecraft.splash_potion.effect.quark.resilience": "Splash Potion of Stability",
 	"item.minecraft.lingering_potion.effect.quark.resilience": "Lingering Potion of Stability",
 	"item.minecraft.tipped_arrow.effect.quark.resilience": "Arrow of Stability",
-
 	"item.quark.biome_map": "%s Pathfinder Map",
 	"item.quark.biome_map.unknown": "Unknown Biome",
-
 	"_biome_map_comment": "The following translation keys are only relevant to maps generated before Quark 354.",
 	"item.quark.biome_map.snowy_plains": "Snowy Plains Pathfinder Map",
 	"item.quark.biome_map.windswept_hills": "Windswept Hills Pathfinder Map",
@@ -607,7 +570,6 @@
 	"item.quark.biome_map.badlands": "Badlands Pathfinder Map",
 	"item.quark.biome_map.mushroom_fields": "Mushroom Fields Pathfinder Map",
 	"item.quark.biome_map.ice_spikes": "Ice Spikes Pathfinder Map",
-
 	"block.quark.charcoal_block": "Block of Charcoal",
 	"block.quark.thatch": "Thatch",
 	"block.quark.thatch_slab": "Thatch Slab",
@@ -818,7 +780,6 @@
 	"block.quark.stick_block": "Stick Stack",
 	"block.quark.dirty_glass": "Dirty Glass",
 	"block.quark.dirty_glass_pane": "Dirty Glass Pane",
-	"block.quark.ender_watcher": "§eEnder Watcher",
 	"block.quark.jasper": "Jasper",
 	"block.quark.polished_jasper": "Polished Jasper",
 	"block.quark.limestone": "Limestone",
@@ -1386,7 +1347,6 @@
 	"block.quark.raw_iron_bricks_wall": "Raw Iron Brick Wall",
 	"block.quark.raw_gold_bricks_wall": "Raw Gold Brick Wall",
 	"block.quark.raw_copper_bricks_wall": "Raw Copper Brick Wall",
-
 	"item.quark.stoneling_spawn_egg": "Stoneling Spawn Egg",
 	"item.quark.crab_spawn_egg": "Crab Spawn Egg",
 	"item.quark.foxhound_spawn_egg": "Foxhound Spawn Egg",
@@ -1394,9 +1354,7 @@
 	"item.quark.forgotten_spawn_egg": "Forgotten Spawn Egg",
 	"item.quark.wraith_spawn_egg": "Wraith Spawn Egg",
 	"item.quark.shiba_spawn_egg": "Shiba Spawn Egg",
-
 	"effect.quark.resilience": "Resilience",
-
 	"entity.quark.pickarang": "Pickarang",
 	"entity.quark.glass_frame": "Glass Item Frame",
 	"entity.quark.dyed_item_frame": "Dyed Item Frame",
@@ -1412,7 +1370,6 @@
 	"entity.quark.shiba": "Shiba",
 	"entity.quark.quark_boat": "Boat",
 	"entity.quark.quark_chest_boat": "Boat with Chest",
-
 	"block.quark.magnetized_block": "Magnetized Block",
 	"block.quark.potted_beetroot": "Potted Beetroots",
 	"block.quark.potted_berries": "Potted Sweet Berry Bush",
@@ -1448,12 +1405,9 @@
 	"block.quark.potted_chorus_twist": "Potted Chorus Twist",
 	"block.quark.potted_ancient_sapling": "Potted Ashen Sapling",
 	"block.quark.potted_cave_vines": "Potted Cave Vines",
-
 	"block.quark.tiny_potato": "Tiny Potato",
 	"block.quark.tiny_potato.angry": "Angry Potato",
-
 	"biome.quark.glimmering_weald": "Glimmering Weald",
-
 	"tag.item.c.storage_blocks.apple": "Apple Storage Blocks",
 	"tag.item.c.storage_blocks.bamboo": "Bamboo Storage Blocks",
 	"tag.item.c.storage_blocks.beetroot": "Beetroot Storage Blocks",
@@ -1474,7 +1428,6 @@
 	"tag.item.c.storage_blocks.stick": "Stick Storage Blocks",
 	"tag.item.c.storage_blocks.sugar_cane": "Sugar Cane Storage Blocks",
 	"tag.item.c.storage_blocks.sweet_berries": "Sweet Berry Storage Blocks",
-
 	"tag.item.quark.ancient_logs": "Ashen Logs",
 	"tag.item.quark.azalea_logs": "Limewood Logs",
 	"tag.item.quark.bamboo_logs": "Bamboo Logs",
@@ -1504,7 +1457,6 @@
 	"tag.item.quark.stools": "Stools",
 	"tag.item.quark.vertical_slabs": "Vertical Slabs",
 	"tag.item.quark.wooden_vertical_slabs": "Wooden Vertical Slabs",
-
 	"advancements.quark.influence.title": "Influencer",
 	"advancements.quark.influence.description": "Use Candles in Matrix Enchanting to influence a specific enchantment",
 	"advancements.quark.pat_potato.title": "Potato, Potato",

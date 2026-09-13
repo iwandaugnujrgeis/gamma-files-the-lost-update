@@ -1,12 +1,10 @@
 {
-//4.2:
+  //4.2:
   "item.supplementaries.wrench": "Magic Spoon",
-
-//3.1:
-//Edited:
+  //3.1:
+  //Edited:
   "block.supplementaries.soap_block": "Soapstone",
-
-//Other:
+  //Other:
   "advancements.adventure.globe.description": "Spin a globe at ludicrous speed",
   "advancements.adventure.globe.title": "You Spin Me Right Round Baby",
   "advancements.adventure.way_sign.description": "Follow me to find a village",
@@ -23,7 +21,6 @@
   "advancements.nether.goblet.title": "Consume the Concoction Chalice",
   "advancements.story.unenchanter.description": "Grind an Enchanted Golden Apple",
   "advancements.story.unenchanter.title": "Why Would You do That!?",
-
   "block.supplementaries.ash": "Ash",
   "block.supplementaries.ash_bricks": "Ash Bricks",
   "block.supplementaries.ash_bricks_slab": "Ash Brick Slab",
@@ -44,7 +41,7 @@
   "block.supplementaries.book_pile": "Book Pile",
   "block.supplementaries.book_pile_horizontal": "Book Pile",
   "block.supplementaries.brass_lantern": "Brass Lantern",
-  "block.supplementaries.bubble_block": "§dBubble Block",
+  "block.supplementaries.bubble_block": "Bubble Block",
   "block.supplementaries.cage": "Cage",
   "block.supplementaries.candelabra": "Gold Candelabra",
   "block.supplementaries.candelabra_silver": "Silver Candelabra",
@@ -85,7 +82,6 @@
   "block.supplementaries.end_stone_lamp": "End Stone Lamp",
   "block.supplementaries.enderman_head": "Enderman Head",
   "block.supplementaries.faucet": "Faucet",
-  "block.supplementaries.feather_block": "§bPillow Block",
   "block.supplementaries.flag": "Flag",
   "block.supplementaries.flag_black": "Black Flag",
   "block.supplementaries.flag_blue": "Blue Flag",
@@ -166,7 +162,6 @@
   "block.supplementaries.relayer": "Relayer",
   "block.supplementaries.rope": "Rope",
   "block.supplementaries.rope_knot": "Roped Post",
-  "block.supplementaries.sack": "§bSack",
   "block.supplementaries.safe": "Safe",
   "block.supplementaries.sconce": "Sconce",
   "block.supplementaries.sconce_ender": "Ender Sconce",
@@ -247,9 +242,6 @@
   "block.supplementaries.fine_wood": "Fine Wood",
   "block.supplementaries.fine_wood_stairs": "Fine Wood Stairs",
   "block.supplementaries.fine_wood_slab": "Fine Wood Slab",
-
-
-
   "death.attack.supplementaries.bamboo_spikes": "%1$s was impaled on a spike",
   "death.attack.supplementaries.bamboo_spikes.player": "%1$s impaled on a spike whilst fighting %2$s",
   "death.attack.supplementaries.xp_extracting": "%1$s wasn't so experienced after all",
@@ -258,20 +250,16 @@
   "death.attack.supplementaries.cannonball.player": "%1$s was blasted to bits by %2$s",
   "death.attack.supplementaries.slingshot": "%1$s was stoned to death by %2$s",
   "death.attack.supplementaries.slingshot.item": "%1$s was stoned to death by %2$s using %3$s",
-
   "effect.supplementaries.overencumbered": "Overencumbered",
   "effect.supplementaries.overencumbered.description": "Too Many... Sacks!",
   "effect.supplementaries.flammable": "Flammable",
   "effect.supplementaries.flammable.description": "Fire Walk With Me...",
-
   "enchantment.supplementaries.lumisene_fire_aspect": "Lumisene Fire Aspect",
   "enchantment.supplementaries.lumisene_flame": "Lumisene Flame",
   "enchantment.supplementaries.lumisene_fire_aspect.desc": "Causes additional lumisene fire damage when used to attack a mob.",
   "enchantment.supplementaries.lumisene_flame.desc": "Arrows fired from the bow will deal additional lumisene fire damage.",
-
   "enchantment.supplementaries.stasis": "Stasis",
   "enchantment.supplementaries.stasis.desc": "Allows Slingshots projectiles to ignore gravity",
-
   "entity.supplementaries.brick_projectile": "Brick Projectile",
   "entity.supplementaries.slimeball_projectile": "Slimeball Projectile",
   "entity.supplementaries.dispenser_minecart": "Minecart with Dispenser",
@@ -284,7 +272,6 @@
   "entity.supplementaries.slingshot_projectile": "Slingshot Projectile",
   "entity.supplementaries.cannonball": "Cannonball",
   "entity.supplementaries.throwable_brick": "Brick Projectile",
-
   "filled_map.adventure": "Adventurer Map",
   "filled_map.antique": "Weathered Map",
   "filled_map.antique.tooltip": "Weathered",
@@ -304,27 +291,21 @@
   "filled_map.structure": "%s Explorer Map",
   "filled_map.swamp_hut": "Swamp Explorer Map",
   "filled_map.village": "Village Pathfinder Map",
-
   "fluid.supplementaries.experience": "Experience",
   "fluid.supplementaries.honey": "Honey",
   "fluid.supplementaries.jar_fluid": "Jar Fluid",
   "fluid.supplementaries.milk": "Milk",
   "fluid.supplementaries.sap": "Sap",
   "fluid.supplementaries.slime": "Slime",
-
   "globe.supplementaries.earth": "Earth",
   "globe.supplementaries.flat": "Flat",
   "globe.supplementaries.moon": "Moon",
   "globe.supplementaries.sun": "Sun",
-
   "gui.supplementaries.amendments.message": "As of update 2.8.0 some of Supplementaries features in the Tweaks section were moved to a dedicated mod, Amendments.\n\n The mods are meant to function separately, but if you wish to keep all the already-existing old blocks you must install Amendments.\n\n The features moved are the following: WALL LANTERNS, SKULL CANDLES, CEILING POTS, CEILING BANNERS and SKULL PILES. \n\nNote that if you proceed without it, all those existing blocks will be lost.",
   "gui.supplementaries.amendments.suggestions": "You can get the mod HERE",
   "gui.supplementaries.amendments.title": "Warning: Amendments is not installed",
   "gui.supplementaries.incompatible_mods.title": "Warning: Incompatible mods found",
   "gui.supplementaries.incompatible_mods.message": "Supplementaries has detected the following mods that are known to cause crashes:\n\n %s\n\nThese issues are not fixable by supplementaries as they are from these mods instead.\nPlease remove them or be advised of random crashes. If you think this issue has been solve please contact us instead.",
-
-
-
   "gui.supplementaries.blackboard.clear": "Clear",
   "gui.supplementaries.blackboard.undo": "Undo",
   "gui.supplementaries.blackboard.edit": "Edit Blackboard",
@@ -357,10 +338,9 @@
   "gui.supplementaries.speaker_block.edit": "Edit Speaker Block Message",
   "gui.supplementaries.speaker_block.narrator_message": "Narrator Message",
   "gui.supplementaries.speaker_block.title_message": "Title Message",
-  "gui.supplementaries.speaker_block.volume" : "Volume: ",
+  "gui.supplementaries.speaker_block.volume": "Volume: ",
   "gui.supplementaries.trapped_present": "Trapped Present",
   "gui.supplementaries.welcome_screen.turn_off": "Don't show this again",
-
   "item.supplementaries.altimeter": "Altimeter",
   "item.supplementaries.antique_ink": "Antique Ink",
   "item.supplementaries.ash": "Ash",
@@ -413,15 +393,12 @@
   "item.supplementaries.lumisene": "Lumisene",
   "item.supplementaries.lumisene_bucket": "Lumisene Bucket",
   "item.supplementaries.lumisene_bottle": "Lumisene Bottle",
-  "item.supplementaries.confetti_popper": "§dConfetti Popper",
+  "item.supplementaries.confetti_popper": "Confetti Popper",
   "fluid.supplementaries.lumisene": "Lumisene",
   "item.supplementaries.music_disc_heave_ho": "Music Disc",
   "item.supplementaries.music_disc_heave_ho.desc": "Hlzfss - Heave Ho!",
-
   "itemGroup.jars": "Jars",
   "itemGroup.supplementaries": "Supplementaries",
-
-
   "message.supplementaries.altimeter": "Y: %d",
   "message.supplementaries.argument.instrument.invalid": "Instrument must be one of %1$s, found %2$s",
   "message.supplementaries.argument.source.invalid": "Source must be one of %1$s, found %2$s",
@@ -484,13 +461,9 @@
   "message.supplementaries.lunch_box.tooltip.open": "Opened",
   "message.supplementaries.lunch_box.tooltip.closed": "Closed",
   "message.supplementaries.lunch_box.tooltip": "[%s] to switch mode",
-
-
   "painting.supplementaries.bombs.author": "Plantkillable",
   "painting.supplementaries.bombs.title": "Bombs",
-
   "structure.supplementaries.way_sign": "Way Sign",
-
   "subtitles.supplementaries.generic.block.move": "Block moves",
   "subtitles.supplementaries.generic.block.rotate": "Block rotates",
   "subtitles.supplementaries.soap.wash": "Soap washing",
@@ -530,7 +503,6 @@
   "subtitles.supplementaries.slingshot.charge": "Slingshot charged",
   "subtitles.supplementaries.slingshot.release": "Slingshot released",
   "subtitles.supplementaries.turntable.cat": "Ching Cheng Hanji",
-
   "create.display_source.fill_level.fluid_amount": "Fluid Amount",
   "create.item_attributes.present_recipient": "Present addressed to: \"%1$s\"",
   "create.item_attributes.present_recipient.inverted": "Present not addressed to: \"%1$s\"",
@@ -543,27 +515,20 @@
   "supplementaries.keybind.quiver": "Quiver",
   "supplementaries.virtual_resourcepack.description": "dynamic runtime resources",
   "supplementaries.virtual_resourcepack.title": "Virtual Resourcepack",
-
   "config.jade.plugin_supplementaries.hat_stand": "Hat Stand",
-
   "trinkets.slot.chest.quiver": "Quiver",
   "trinkets.slot.legs.key": "Key",
   "trinkets.slot.legs.quiver": "Quiver",
-
   "leaves_type.twilightforest.dark": "Darkwood",
   "leaves_type.ulterlands.souldrained": "Petrified",
-
   "block_type.supplementaries.hanging_sign": "Hanging Sign",
   "block_type.supplementaries.sign_post": "Sign Post",
-
   "wood_type.domum_ornamentum.cactus": "Green Cactus",
   "wood_type.domum_ornamentum.cactus_extra": "Cactus",
   "wood_type.twilightforest.dark": "Darkwood",
   "wood_type.twilightforest.sorting": "Sortingwood",
   "wood_type.twilightforest.time": "Timewood",
   "wood_type.twilightforest.trans": "Transwood",
-
-
   "commands.supplementaries.registry.error.unknown_registry": "Unknown registry '%s'",
   "commands.supplementaries.registry.registry_key": "%s",
   "commands.supplementaries.registry.elements_count": "Entries: %s",

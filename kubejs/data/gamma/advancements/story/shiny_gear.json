@@ -53,7 +53,7 @@
   "display": {
     "announce_to_chat": true,
     "description": "Obtain a Full Set of\nDiamond Armor!",
-    "frame": "challenge",
+    "frame": "task",
     "hidden": false,
     "icon": {
       "item": "minecraft:diamond_chestplate",

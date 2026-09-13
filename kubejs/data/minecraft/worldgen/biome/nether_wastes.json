@@ -29,9 +29,8 @@
       "minecraft:red_mushroom_nether",
       "minecraft:ore_magma",
       "minecraft:spring_closed",
-      "gamma:ore_deepslate_nether",
-      "minecraft:ore_gold_nether",
-      "minecraft:ore_quartz_nether"
+      "gamma:ore_quartz_nether",
+      "gamma:ore_deepslate_nether"
     ],
     [],
     [
@@ -48,19 +47,7 @@
       "charge": 0.5,
       "energy_budget": 0.12
     },
-    "minecraft:blaze": {
-      "charge": 0.5,
-      "energy_budget": 0.12
-    },
     "minecraft:ghast": {
-      "charge": 0.5,
-      "energy_budget": 0.12
-    },
-    "minecraft:magma_cube": {
-      "charge": 0.5,
-      "energy_budget": 0.12
-    },
-    "minecraft:wither_skeleton": {
       "charge": 0.5,
       "energy_budget": 0.12
     }
@@ -82,24 +69,6 @@
         "maxCount": 3,
         "minCount": 1,
         "weight": 60
-      },
-      {
-        "type": "minecraft:magma_cube",
-        "maxCount": 3,
-        "minCount": 1,
-        "weight": 20
-      },
-      {
-        "type": "minecraft:blaze",
-        "maxCount": 3,
-        "minCount": 1,
-        "weight": 5
-      },
-      {
-        "type": "minecraft:wither_skeleton",
-        "maxCount": 3,
-        "minCount": 1,
-        "weight": 4
       }
     ],
     "underground_water_creature": [],

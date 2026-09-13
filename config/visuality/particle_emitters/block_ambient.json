@@ -55,6 +55,17 @@
           0.9019608
         ]
       }
+    },
+    {
+      "block": "coraline_systems:fallen_star",
+      "particle": {
+        "type": "visuality:sparkle",
+        "value": [
+          0.835,
+          0.91,
+          0.96
+        ]
+      }
     }
   ]
 }
