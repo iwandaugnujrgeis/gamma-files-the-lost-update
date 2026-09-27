@@ -1,13 +1,10 @@
 {
   "type": "forge:add_features",
   "biomes": [
-    "rediscovered:cold_skylands",
-    "rediscovered:rainforest",
-    "rediscovered:skylands",
-    "rediscovered:wooded_skylands"
+    "gamma:null"
   ],
   "features": [
     "coraline_systems:fallen_star"
   ],
-  "step": "surface_structures"
+  "step": "raw_generation"
 }

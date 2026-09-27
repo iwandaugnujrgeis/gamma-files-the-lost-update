@@ -92,12 +92,6 @@
   "spawners": {
     "monster": [
       {
-        "type": "alexsmobs:farseer",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 80
-      },
-      {
         "type": "minecraft:spider",
         "weight": 100,
         "minCount": 4,

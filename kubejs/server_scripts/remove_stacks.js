@@ -3,6 +3,9 @@
 const removedCompletely = [
 
   // 4.20.11:
+  'quark:chute',
+  'spelunkery:wooden_rail',
+
   'minecraft:nether_gold_ore',
   'coraline_systems:turtle_egg',
   'minecraft:name_tag',
@@ -32,11 +35,9 @@ const removedCompletely = [
   'minecraft:bell',
   'minecraft:big_dripleaf',
   'minecraft:disc_fragment_5',
-  'minecraft:furnace_minecart',
   'minecraft:glow_berries',
   'minecraft:goat_horn',
   'minecraft:heart_of_the_sea',
-  'minecraft:hopper_minecart',
   'minecraft:music_disc_5',
   'minecraft:nautilus_shell',
   'minecraft:prismarine_shard',
@@ -47,7 +48,6 @@ const removedCompletely = [
   'minecraft:shroomlight',
   'minecraft:small_dripleaf',
   'minecraft:soul_torch',
-  'minecraft:tnt_minecart',
   'minecraft:trident',
   'quark:ender_watcher',
   'rediscovered:dragon_altar',
@@ -55,7 +55,6 @@ const removedCompletely = [
   'spawn:mucus',
   'spelunkery:dust_bun',
   'spelunkery:phosphor_shroomlight',
-  'supplementaries:dispenser_minecart',
   'upgrade_aquatic:disc_fragment_atlantis',
   'upgrade_aquatic:embedded_ammonite',
   'upgrade_aquatic:music_disc_atlantis',

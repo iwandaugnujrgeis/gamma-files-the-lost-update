@@ -1,0 +1,18 @@
+{
+  "placement": {
+    "type": "structure_gel:grid_placement",
+    "allowed_near_spawn": true,
+    "offset": 16,
+    "salt": 20682342,
+    "spacing": 4,
+    "separation": 6,
+    "frequency": 0.2,
+    "structure": "coraline_systems:ruins"
+  },
+  "structures": [
+    {
+      "structure": "coraline_systems:ruins",
+      "weight": 1
+    }
+  ]
+}

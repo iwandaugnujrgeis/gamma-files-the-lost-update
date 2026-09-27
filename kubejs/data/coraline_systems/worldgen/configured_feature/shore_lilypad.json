@@ -1,0 +1,9 @@
+{
+  "type": "coraline_systems:shore_lilypad",
+  "config": {
+    "count": {
+      "min_inclusive": 2,
+      "max_inclusive": 5
+    }
+  }
+}

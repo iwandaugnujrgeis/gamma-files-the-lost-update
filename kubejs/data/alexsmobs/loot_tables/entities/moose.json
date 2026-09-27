@@ -12,36 +12,7 @@
               "count": {
                 "type": "minecraft:uniform",
                 "max": 3.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            },
-            {
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 0.0
-              },
-              "function": "minecraft:looting_enchant"
-            }
-          ],
-          "name": "minecraft:leather"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
+                "min": 2.0
               },
               "function": "minecraft:set_count"
             },
@@ -68,7 +39,7 @@
               "function": "minecraft:looting_enchant"
             }
           ],
-          "name": "minecraft:beef"
+          "name": "coraline_systems:raw_venison"
         }
       ],
       "rolls": 1.0

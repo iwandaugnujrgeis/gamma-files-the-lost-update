@@ -62,7 +62,6 @@
 			"minecraft:ore_copper",
 			"gamma:ore_chimes",
 			"spelunkery:tangle_roots_ceiling",
-			
 			"minecraft:underwater_magma",
 			"minecraft:disk_clay",
 			"gamma:lake_water_surface"
@@ -70,9 +69,7 @@
 		[],
 		[
 			"minecraft:spring_water",
-			"minecraft:spring_lava",
-			"gamma:tree_stumps/tree_stump_spruce",
-			"gamma:tree_stumps/tree_stump_birch"
+			"minecraft:spring_lava"
 		],
 		[
 			"minecraft:glow_lichen",
@@ -91,12 +88,6 @@
 	],
 	"spawners": {
 		"monster": [
-			{
-				"type": "alexsmobs:farseer",
-				"maxCount": 4,
-				"minCount": 4,
-				"weight": 80
-			},
 			{
 				"type": "minecraft:spider",
 				"weight": 100,
@@ -126,26 +117,14 @@
 				"weight": 100,
 				"minCount": 4,
 				"maxCount": 4
-			},
-			{
-				"type": "coraline_systems:helper",
-				"weight": 5,
-				"minCount": 1,
-				"maxCount": 1
 			}
 		],
 		"creature": [
 			{
 				"type": "spawn:hamster",
-				"weight": 18,
+				"weight": 20,
 				"minCount": 3,
 				"maxCount": 3
-			},
-			{
-				"type": "alexsmobs:sugar_glider",
-				"maxCount": 4,
-				"minCount": 2,
-				"weight": 4
 			},
 			{
 				"type": "minecraft:sheep",
@@ -170,6 +149,12 @@
 				"weight": 5,
 				"minCount": 4,
 				"maxCount": 4
+			},
+			{
+				"type": "alexsmobs:sugar_glider",
+				"weight": 2,
+				"maxCount": 4,
+				"minCount": 2
 			}
 		],
 		"ambient": [

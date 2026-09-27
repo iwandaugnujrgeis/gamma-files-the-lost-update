@@ -90,13 +90,7 @@
       "item": "supplementaries:wind_vane"
     },
     {
-      "item": "quark:chute"
-    },
-    {
       "item": "minecraft:hopper"
-    },
-    {
-      "item": "spelunkery:wooden_rail"
     },
     {
       "item": "minecraft:rail"
@@ -115,6 +109,18 @@
     },
     {
       "item": "minecraft:chest_minecart"
+    },
+    {
+      "item": "minecraft:furnace_minecart"
+    },
+    {
+      "item": "minecraft:tnt_minecart"
+    },
+    {
+      "item": "supplementaries:dispenser_minecart"
+    },
+    {
+      "item": "minecraft:hopper_minecart"
     }
   ]
 }

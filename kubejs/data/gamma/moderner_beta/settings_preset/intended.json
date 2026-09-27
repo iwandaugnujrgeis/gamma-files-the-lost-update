@@ -7,6 +7,7 @@
     "translate": "createWorld.customize.gamma.preset.name.gamma.intended"
   },
   "chunkSettings": {
+    "moderner_beta:provider": "moderner_beta:noise_3d",
     "moderner_beta:cave_generation": {
       "forceBetaCaves": false,
       "forceBetaCanyons": false,
@@ -15,7 +16,6 @@
       "useNoiseCaves": false,
       "fixCaveBorders": true
     },
-    "moderner_beta:provider": "moderner_beta:noise_3d",
     "moderner_beta:surface_properties": {
       "generateSandstone": true,
       "erosion": true,
@@ -33,7 +33,7 @@
     "moderner_beta:noise_3d_settings": {
       "arraySurfaceNoise": false,
       "simplexSurfaceNoise": false,
-      "pocketEditionRng": false,
+      "pocketEditionRng": true, // I guess?
       "monoliths": false,
       "oldInfdevTerrainNoise": false,
       "climateHeightScaling": false
@@ -43,23 +43,23 @@
         "minValue": -0.71428573,
         "maxValue": 0.16666667,
         "negativeFlattening": true,
-        "offset": -3.0,
-        "positiveDampening": 6.0,
-        "negativeDampening": 2.8,
-        "influence": 1.0,
-        "negativeInfluence": 1.0,
+        "offset": -2.1, // -2.5 was too much, shifted to -1.5, but it seemed like too "Release"-ish!
+        "positiveDampening": 7.0,
+        "negativeDampening": 3.5,
+        "influence": 0.35,
+        "negativeInfluence": 0.2,
         "stretch": 3.0,
-        "enabled": false,
-        "sample": false
+        "enabled": true,
+        "sample": true
       },
       "scale": {
         "variation": 1.0,
         "influence": 1.0,
         "offset": 0.5,
-        "enabled": false,
-        "sample": false
+        "enabled": true,
+        "sample": false // ?
       },
-      "alphaSampling": false
+      "alphaSampling": true // Test ON!
     },
     "moderner_beta:deepslate_generation": {
       "enabled": true,
@@ -68,27 +68,27 @@
       "block": "minecraft:basalt"
     },
     "moderner_beta:noise_scale": {
-      "limitBlending": 10.0,
+      "limitBlending": 6.0, // 7 was fine, just testing
       "useFixedOffset": false,
       "fixedOffset": 1.0,
       "forestNoiseOctaves": 5,
       "mainNoiseZ": 80.0,
-      "baseSize": 8.3,
-      "stretchY": 39.0,
+      "baseSize": 8.2, // 8.4 was kind of OK, testing
+      "stretchY": 18.0, // Was 20 
       "densityUnderdamp": 6.0,
-      "depthNoiseX": 70.0,
-      "depthNoiseZ": 70.0,
+      "depthNoiseX": 90.0,
+      "depthNoiseZ": 90.0,
       "mainNoiseX": 80.0,
-      "mainNoiseY": 135.0,
+      "mainNoiseY": 180.0,
       "coordinate": 1234.123,
-      "height": 579.983,
+      "height": 1121.735, // 963.242
       "upperLimit": 512.0,
       "lowerLimit": 512.0
     },
     "moderner_beta:forced_biome_height": {
-      "depthOffset": 0.1,
-      "scaleWeight": 1.3,
-      "scaleOffset": 0.1,
+      "depthOffset": 0.14,
+      "scaleWeight": 1.15,
+      "scaleOffset": 0.05,
       "modifyOnlyPositiveDepth": false,
       "enabled": true,
       "heightOverrides": {
@@ -239,11 +239,9 @@
             "minecraft:dark_forest",
             "minecraft:birch_forest",
             "minecraft:old_growth_birch_forest",
-            "minecraft:jungle",
             "minecraft:swamp",
             "minecraft:taiga",
             "minecraft:plains",
-            "gamma:andesite_crags",
             "gamma:radiant_forest"
           ]
         },
@@ -275,11 +273,12 @@
         },
         {
           "type": "moderner_beta:random_biome",
-          "id": "biome_pool_cold",
+          "id": "biome_pool_uncommon",
           "seed": 201,
           "biomes": [
             "minecraft:snowy_plains",
-            "minecraft:grove",
+            "minecraft:jungle",
+            "gamma:andesite_crags",
             "gamma:snow_world"
           ]
         },
@@ -289,17 +288,17 @@
           "seed": 202,
           "targets": [
             {
-              "weight": 1,
+              "weight": 3,
               "data": {
                 "type": "biome",
-                "value": "minecraft:old_growth_pine_taiga"
+                "value": "gamma:old_woods"
               }
             },
             {
               "weight": 1,
               "data": {
                 "type": "biome",
-                "value": "minecraft:old_growth_spruce_taiga"
+                "value": "minecraft:snowy_taiga"
               }
             }
           ]
@@ -338,7 +337,7 @@
               "weight": 1,
               "data": {
                 "type": "layer",
-                "value": "biome_pool_cold"
+                "value": "biome_pool_uncommon"
               }
             }
           ]
@@ -372,7 +371,7 @@
                   {
                     "condition": "moderner_beta:random_chance",
                     "numerator": 1,
-                    "denominator": 8
+                    "denominator": 3
                   }
                 ]
               },
@@ -395,24 +394,6 @@
                 ]
               },
               "result": "biome_pool_forest_rare",
-              "type": "layer"
-            },
-            {
-              "predicate": {
-                "condition": "moderner_beta:all_of",
-                "terms": [
-                  {
-                    "condition": "moderner_beta:single_match",
-                    "biome": "minecraft:dark_forest"
-                  },
-                  {
-                    "condition": "moderner_beta:random_chance",
-                    "numerator": 1,
-                    "denominator": 8
-                  }
-                ]
-              },
-              "result": "biome_pool_dark_forest_rare",
               "type": "layer"
             },
             {
@@ -444,23 +425,6 @@
           "seedModifier": 1,
           "zoomType": "modal"
         },
-        /*
-        {
-          "type": "moderner_beta:conditional_overlay",
-          "parent": "land",
-          "id": "land",
-          "seed": 0,
-          "predicate": {
-            "condition": "moderner_beta:all_of",
-            "terms": [
-              { "condition": "moderner_beta:single_match", "biome": "minecraft:ocean" },
-              { "condition": "moderner_beta:identical_neighbor", "diagonal": false, "requiredCount": 4 }
-            ]
-          },
-          "onMatch":   { "type": "biome", "value": "minecraft:deep_ocean" },
-          "otherwise": { "type": "biome", "value": "minecraft:the_void*null" }
-        },
-        */
         {
           "type": "moderner_beta:stacked_zoom",
           "parent": "land",

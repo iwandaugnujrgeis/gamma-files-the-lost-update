@@ -165,34 +165,7 @@
         "stream": true
       },
       {
-        "name": "music/game/nether/nether_wastes/rubedo",
-        "stream": true,
-        "volume": 0.5
-      },
-      {
-        "name": "music/game/nether/soulsand_valley/so_below",
-        "stream": true,
-        "volume": 0.5
-      },
-      {
-        "name": "music/game/nether/crimson_forest/chrysopoeia",
-        "stream": true,
-        "volume": 0.5
-      },
-      {
         "name": "gamma:music/nether/complicated",
-        "stream": true
-      },
-      {
-        "name": "gamma:music/nether/lack",
-        "stream": true
-      },
-      {
-        "name": "gamma:music/aeiouw",
-        "stream": true
-      },
-      {
-        "name": "gamma:music/beton",
         "stream": true
       }
     ]

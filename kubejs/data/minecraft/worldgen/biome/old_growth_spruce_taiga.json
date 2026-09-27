@@ -72,8 +72,7 @@
     [],
     [
       "minecraft:spring_water",
-      "minecraft:spring_lava",
-      "gamma:tree_stumps/tree_stump_spruce"
+      "minecraft:spring_lava"
     ],
     [
       "minecraft:glow_lichen",
@@ -166,12 +165,6 @@
     "misc": [],
     "monster": [
       {
-        "type": "alexsmobs:farseer",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 80
-      },
-      {
         "type": "minecraft:spider",
         "maxCount": 4,
         "minCount": 4,
@@ -228,7 +221,7 @@
         "minCount": 1,
         "weight": 15
       },
-	    {
+      {
         "type": "alexsmobs:catfish",
         "maxCount": 2,
         "minCount": 1,

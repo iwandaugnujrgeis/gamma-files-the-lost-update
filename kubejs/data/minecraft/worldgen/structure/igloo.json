@@ -1,6 +1,6 @@
 {
   "type": "minecraft:igloo",
-  "biomes": "#minecraft:has_structure/igloo",
+  "biomes": "gamma:null",
   "spawn_overrides": {},
   "step": "underground_structures"
 }

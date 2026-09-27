@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "coraline_systems:block/tesseract_top",
+    "east": "coraline_systems:block/tesseract",
+    "north": "coraline_systems:block/tesseract",
+    "particle": "coraline_systems:block/tesseract",
+    "south": "coraline_systems:block/tesseract",
+    "up": "coraline_systems:block/tesseract_top",
+    "west": "coraline_systems:block/tesseract"
+  }
+}

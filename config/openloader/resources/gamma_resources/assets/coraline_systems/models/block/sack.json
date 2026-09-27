@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "supplementaries:block/sack_top",
+    "side": "supplementaries:block/sack_side",
+    "top": "supplementaries:block/sack_top"
+  }
+}

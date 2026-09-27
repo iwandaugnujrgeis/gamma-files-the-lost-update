@@ -4,12 +4,18 @@
   },
   "downfall": 0.0,
   "effects": {
-    "fog_color": 0,
-    "sky_color": 0,
-    "water_color": 4159204,
-    "water_fog_color": 329011,
-    "grass_color": 8506981,
-    "foliage_color": 6398280
+      "fog_color": 0,
+      "sky_color": 0,
+      "water_color": 4159204,
+      "water_fog_color": 329011,
+      "grass_color": 8506981,
+      "foliage_color": 6398280,
+      "music": {
+          "sound": "minecraft:music.nether.nether_wastes",
+          "min_delay": 12000,
+          "max_delay": 24000,
+          "replace_current_music": false
+      }
   },
   "features": [
     [],
@@ -22,20 +28,22 @@
     [
       "minecraft:spring_open",
       "minecraft:patch_fire",
-      "minecraft:patch_soul_fire",
       "minecraft:glowstone_extra",
       "minecraft:glowstone",
       "minecraft:brown_mushroom_nether",
       "minecraft:red_mushroom_nether",
       "minecraft:ore_magma",
+      "minecraft:ore_quartz_nether",
+      "etcetera:nether_bismuth_ore",
       "minecraft:spring_closed",
-      "gamma:ore_quartz_nether",
       "gamma:ore_deepslate_nether"
     ],
     [],
     [
       "minecraft:spring_lava",
       "gamma:nether_wart_patch",
+      "gamma:nether_torchflower_patch",
+      "coraline_systems:mixed_cave_mushroom",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "gamma:patch_other_mushrooms"

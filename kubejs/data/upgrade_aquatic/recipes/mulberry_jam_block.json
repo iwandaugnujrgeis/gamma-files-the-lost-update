@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "SS",
+    "SS"
+  ],
+  "key": {
+    "S": {
+      "item": "upgrade_aquatic:mulberry_jam_bottle"
+    }
+  },
+  "result": {
+    "item": "upgrade_aquatic:mulberry_jam_block"
+  }
+}

@@ -1,8 +1,12 @@
 {
   "type": "minecraft:random_selector",
   "config": {
-    "default": "atmospheric:rosewood_bees_0002",
+    "default": "coraline_systems:rosewood_tree_with_mangos_checked",
     "features": [
+      {
+        "chance": 0.2,
+        "feature": "atmospheric:rosewood_bees_0002"
+      },
       {
         "chance": 0.1,
         "feature": "gamma:normal_bush"

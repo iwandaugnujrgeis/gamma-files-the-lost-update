@@ -509,7 +509,7 @@
                             "then_run": {
                               "type": "minecraft:block",
                               "result_state": {
-                                "Name": "kubejs:cement"
+                                "Name": "coraline_systems:cement"
                               }
                             }
                           },

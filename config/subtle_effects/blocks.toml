@@ -12,7 +12,7 @@ glowstoneDustEmittingBlocks = [
 ]
 netherOnlyGlowstoneBlockDust = false
 beehivesHaveSleepingZs = true
-torchflowerSmoke = "UPDATED"
+torchflowerSmoke = "DEFAULT"
 torchflowerFlames = true
 dragonEggParticles = true
 replaceEndPortalSmoke = true
@@ -89,10 +89,10 @@ brewingStandSparks = false
 
 [updatedSmoke]
 candleSmoke = false
-furnaceSmoke = true
+furnaceSmoke = false
 fireSmoke = false
 torchSmoke = false
-campfireDowseSmoke = true
+campfireDowseSmoke = false
 
 [steam]
 lavaFizzSteam = true
@@ -131,7 +131,7 @@ dustyBlocks = [
     "minecraft:green_concrete_powder",
     "minecraft:red_concrete_powder",
     "minecraft:black_concrete_powder",
-    "kubejs:cement"
+    "coraline_systems:cement"
 ]
 whileFallingDust = true
 whileFallingDustStartDistance = 3

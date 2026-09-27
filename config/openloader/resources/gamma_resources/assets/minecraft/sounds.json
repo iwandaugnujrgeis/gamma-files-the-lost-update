@@ -1,4 +1,61 @@
 {
+  "block.nether_bricks.break": {
+    "replace": true,
+    "sounds": [
+      "block/basalt/break1",
+      "block/basalt/break2",
+      "block/basalt/break3",
+      "block/basalt/break4",
+      "block/basalt/break5"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.nether_bricks.fall": {
+    "replace": true,
+    "sounds": [
+      "block/basalt/step1",
+      "block/basalt/step2",
+      "block/basalt/step3",
+      "block/basalt/step4",
+      "block/basalt/step5",
+      "block/basalt/step6"
+    ]
+  },
+  "block.nether_bricks.hit": {
+    "replace": true,
+    "sounds": [
+      "block/basalt/step1",
+      "block/basalt/step2",
+      "block/basalt/step3",
+      "block/basalt/step4",
+      "block/basalt/step5",
+      "block/basalt/step6"
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.nether_bricks.place": {
+    "replace": true,
+    "sounds": [
+      "block/basalt/break1",
+      "block/basalt/break2",
+      "block/basalt/break3",
+      "block/basalt/break4",
+      "block/basalt/break5"
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.nether_bricks.step": {
+    "replace": true,
+    "sounds": [
+      "block/basalt/step1",
+      "block/basalt/step2",
+      "block/basalt/step3",
+      "block/basalt/step4",
+      "block/basalt/step5",
+      "block/basalt/step6"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
   "entity.blaze.shoot": {
     "replace": true,
     "sounds": [
@@ -14,192 +71,231 @@
     ],
     "subtitle": "subtitles.coraline_systems.blaze_song"
   },
+  "block.deepslate_bricks.break": {
+    "replace": true,
+    "sounds": [
+      "block/basalt/break1",
+      "block/basalt/break2",
+      "block/basalt/break3",
+      "block/basalt/break4",
+      "block/basalt/break5"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.deepslate_bricks.fall": {
+    "replace": true,
+    "sounds": [
+      "block/basalt/step1",
+      "block/basalt/step2",
+      "block/basalt/step3",
+      "block/basalt/step4",
+      "block/basalt/step5",
+      "block/basalt/step6"
+    ]
+  },
+  "block.deepslate_bricks.hit": {
+    "replace": true,
+    "sounds": [
+      "block/basalt/step1",
+      "block/basalt/step2",
+      "block/basalt/step3",
+      "block/basalt/step4",
+      "block/basalt/step5",
+      "block/basalt/step6"
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.deepslate_bricks.place": {
+    "replace": true,
+    "sounds": [
+      "block/basalt/break1",
+      "block/basalt/break2",
+      "block/basalt/break3",
+      "block/basalt/break4",
+      "block/basalt/break5"
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.deepslate_bricks.step": {
+    "replace": true,
+    "sounds": [
+      "block/basalt/step1",
+      "block/basalt/step2",
+      "block/basalt/step3",
+      "block/basalt/step4",
+      "block/basalt/step5",
+      "block/basalt/step6"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
   "block.netherrack.break": {
     "replace": true,
     "sounds": [
-      {
-        "name": "block/calcite/break1",
-        "volume": 0.9
-      },
-      {
-        "name": "block/calcite/break2",
-        "volume": 0.9
-      },
-      {
-        "name": "block/calcite/break3",
-        "volume": 0.9
-      },
-      {
-        "name": "block/calcite/break4",
-        "volume": 0.9
-      }
+      "block/basalt/break1",
+      "block/basalt/break2",
+      "block/basalt/break3",
+      "block/basalt/break4",
+      "block/basalt/break5"
     ],
     "subtitle": "subtitles.block.generic.break"
   },
   "block.netherrack.fall": {
     "replace": true,
     "sounds": [
-      "block/calcite/step1",
-      "block/calcite/step2",
-      "block/calcite/step3",
-      "block/calcite/step4",
-      "block/calcite/step5",
-      "block/calcite/step6"
+      "block/basalt/step1",
+      "block/basalt/step2",
+      "block/basalt/step3",
+      "block/basalt/step4",
+      "block/basalt/step5",
+      "block/basalt/step6"
     ]
   },
   "block.netherrack.hit": {
     "replace": true,
     "sounds": [
-      "block/calcite/step1",
-      "block/calcite/step2",
-      "block/calcite/step3",
-      "block/calcite/step4",
-      "block/calcite/step5",
-      "block/calcite/step6"
+      "block/basalt/step1",
+      "block/basalt/step2",
+      "block/basalt/step3",
+      "block/basalt/step4",
+      "block/basalt/step5",
+      "block/basalt/step6"
     ],
     "subtitle": "subtitles.block.generic.hit"
   },
   "block.netherrack.place": {
     "replace": true,
     "sounds": [
-      {
-        "name": "block/calcite/place1",
-        "volume": 0.94
-      },
-      {
-        "name": "block/calcite/place2",
-        "volume": 0.94
-      },
-      {
-        "name": "block/calcite/place3",
-        "volume": 0.94
-      },
-      {
-        "name": "block/calcite/place4",
-        "volume": 0.94
-      }
+      "block/basalt/break1",
+      "block/basalt/break2",
+      "block/basalt/break3",
+      "block/basalt/break4",
+      "block/basalt/break5"
     ],
     "subtitle": "subtitles.block.generic.place"
   },
   "block.netherrack.step": {
     "replace": true,
     "sounds": [
-      "block/calcite/step1",
-      "block/calcite/step2",
-      "block/calcite/step3",
-      "block/calcite/step4",
-      "block/calcite/step5",
-      "block/calcite/step6"
+      "block/basalt/step1",
+      "block/basalt/step2",
+      "block/basalt/step3",
+      "block/basalt/step4",
+      "block/basalt/step5",
+      "block/basalt/step6"
     ],
     "subtitle": "subtitles.block.generic.footsteps"
   },
   "block.deepslate.break": {
     "replace": true,
     "sounds": [
-      "dig/stone1",
-      "dig/stone2",
-      "dig/stone3",
-      "dig/stone4"
+      "block/basalt/break1",
+      "block/basalt/break2",
+      "block/basalt/break3",
+      "block/basalt/break4",
+      "block/basalt/break5"
     ],
     "subtitle": "subtitles.block.generic.break"
   },
   "block.deepslate.fall": {
     "replace": true,
     "sounds": [
-      "step/stone1",
-      "step/stone2",
-      "step/stone3",
-      "step/stone4",
-      "step/stone5",
-      "step/stone6"
+      "block/basalt/step1",
+      "block/basalt/step2",
+      "block/basalt/step3",
+      "block/basalt/step4",
+      "block/basalt/step5",
+      "block/basalt/step6"
     ]
   },
   "block.deepslate.hit": {
     "replace": true,
     "sounds": [
-      "step/stone1",
-      "step/stone2",
-      "step/stone3",
-      "step/stone4",
-      "step/stone5",
-      "step/stone6"
+      "block/basalt/step1",
+      "block/basalt/step2",
+      "block/basalt/step3",
+      "block/basalt/step4",
+      "block/basalt/step5",
+      "block/basalt/step6"
     ],
     "subtitle": "subtitles.block.generic.hit"
   },
   "block.deepslate.place": {
     "replace": true,
     "sounds": [
-      "dig/stone1",
-      "dig/stone2",
-      "dig/stone3",
-      "dig/stone4"
+      "block/basalt/break1",
+      "block/basalt/break2",
+      "block/basalt/break3",
+      "block/basalt/break4",
+      "block/basalt/break5"
     ],
     "subtitle": "subtitles.block.generic.place"
   },
   "block.deepslate.step": {
     "replace": true,
     "sounds": [
-      "step/stone1",
-      "step/stone2",
-      "step/stone3",
-      "step/stone4",
-      "step/stone5",
-      "step/stone6"
+      "block/basalt/step1",
+      "block/basalt/step2",
+      "block/basalt/step3",
+      "block/basalt/step4",
+      "block/basalt/step5",
+      "block/basalt/step6"
     ],
     "subtitle": "subtitles.block.generic.footsteps"
   },
   "block.deepslate_tiles.break": {
     "replace": true,
     "sounds": [
-      "dig/stone1",
-      "dig/stone2",
-      "dig/stone3",
-      "dig/stone4"
+      "block/basalt/break1",
+      "block/basalt/break2",
+      "block/basalt/break3",
+      "block/basalt/break4",
+      "block/basalt/break5"
     ],
     "subtitle": "subtitles.block.generic.break"
   },
   "block.deepslate_tiles.fall": {
     "replace": true,
     "sounds": [
-      "step/stone1",
-      "step/stone2",
-      "step/stone3",
-      "step/stone4",
-      "step/stone5",
-      "step/stone6"
+      "block/basalt/step1",
+      "block/basalt/step2",
+      "block/basalt/step3",
+      "block/basalt/step4",
+      "block/basalt/step5",
+      "block/basalt/step6"
     ]
   },
   "block.deepslate_tiles.hit": {
     "replace": true,
     "sounds": [
-      "step/stone1",
-      "step/stone2",
-      "step/stone3",
-      "step/stone4",
-      "step/stone5",
-      "step/stone6"
+      "block/basalt/step1",
+      "block/basalt/step2",
+      "block/basalt/step3",
+      "block/basalt/step4",
+      "block/basalt/step5",
+      "block/basalt/step6"
     ],
     "subtitle": "subtitles.block.generic.hit"
   },
   "block.deepslate_tiles.place": {
     "replace": true,
     "sounds": [
-      "dig/stone1",
-      "dig/stone2",
-      "dig/stone3",
-      "dig/stone4"
+      "block/basalt/break1",
+      "block/basalt/break2",
+      "block/basalt/break3",
+      "block/basalt/break4",
+      "block/basalt/break5"
     ],
     "subtitle": "subtitles.block.generic.place"
   },
   "block.deepslate_tiles.step": {
     "replace": true,
     "sounds": [
-      "step/stone1",
-      "step/stone2",
-      "step/stone3",
-      "step/stone4",
-      "step/stone5",
-      "step/stone6"
+      "block/basalt/step1",
+      "block/basalt/step2",
+      "block/basalt/step3",
+      "block/basalt/step4",
+      "block/basalt/step5",
+      "block/basalt/step6"
     ],
     "subtitle": "subtitles.block.generic.footsteps"
   },
@@ -438,14 +534,14 @@
     "subtitle": "subtitles.entity.sheep.ambient"
   },
   "entity.skeleton.death": {
-   "replace": true,
+    "replace": true,
     "sounds": [
       "mob/skeleton/deathclassic"
     ],
     "subtitle": "subtitles.entity.skeleton.death"
   },
   "entity.skeleton.hurt": {
-   "replace": true,
+    "replace": true,
     "sounds": [
       "mob/skeleton/hurt1classic",
       "mob/skeleton/hurt2classic",
@@ -455,7 +551,7 @@
     "subtitle": "subtitles.entity.skeleton.hurt"
   },
   "entity.stray.death": {
-   "replace": true,
+    "replace": true,
     "sounds": [
       "mob/skeleton/deathclassic"
     ],
@@ -463,12 +559,12 @@
   },
   "entity.stray.hurt": {
     "replace": true,
-     "sounds": [
-       "mob/skeleton/hurt1classic",
-       "mob/skeleton/hurt2classic",
-       "mob/skeleton/hurt3classic",
-       "mob/skeleton/hurt4classic"
-     ],
+    "sounds": [
+      "mob/skeleton/hurt1classic",
+      "mob/skeleton/hurt2classic",
+      "mob/skeleton/hurt3classic",
+      "mob/skeleton/hurt4classic"
+    ],
     "subtitle": "subtitles.entity.stray.hurt"
   },
   "music.creative": {
@@ -825,8 +921,7 @@
   },
   "music.menu": {
     "replace": true,
-    "sounds":
-    [
+    "sounds": [
       {
         "name": "gamma:music.menu",
         "type": "event"

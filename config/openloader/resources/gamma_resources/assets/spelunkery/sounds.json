@@ -1,0 +1,15 @@
+{
+  "bonk": {
+    "subtitle": "subtitles.item.pebble.bonk",
+    "sounds": [
+      "spelunkery:item/pebble/bonk"
+    ]
+  },
+  "knob": {
+  	"replace": true,
+    "subtitle": "subtitles.item.pebble.knob",
+    "sounds": [
+      "spelunkery:item/pebble/bonk"
+    ]
+  }
+}

@@ -12,10 +12,5 @@
     "spacing": 12,
     "structure": "gamma:ruins"
   },
-  "structures": [
-    {
-      "structure": "gamma:ruins",
-      "weight": 1
-    }
-  ]
+  "structures": []
 }

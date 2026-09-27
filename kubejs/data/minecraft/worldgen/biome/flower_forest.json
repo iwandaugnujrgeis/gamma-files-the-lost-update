@@ -42,8 +42,6 @@
       "minecraft:ore_gravel",
       "minecraft:ore_granite_upper",
       "minecraft:ore_granite_lower",
-      
-      
       "minecraft:ore_andesite_upper",
       "minecraft:ore_andesite_lower",
       "minecraft:ore_tuff",
@@ -73,9 +71,7 @@
     [],
     [
       "minecraft:spring_water",
-      "minecraft:spring_lava",
-      "gamma:tree_stumps/tree_stump_oak",
-      "gamma:tree_stumps/tree_stump_birch"
+      "minecraft:spring_lava"
     ],
     [
       "minecraft:glow_lichen",
@@ -151,12 +147,6 @@
     "misc": [],
     "monster": [
       {
-        "type": "alexsmobs:farseer",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 80
-      },
-      {
         "type": "minecraft:spider",
         "maxCount": 4,
         "minCount": 4,
@@ -219,7 +209,7 @@
         "minCount": 1,
         "weight": 8
       },
-	    {
+      {
         "type": "alexsmobs:catfish",
         "maxCount": 2,
         "minCount": 1,

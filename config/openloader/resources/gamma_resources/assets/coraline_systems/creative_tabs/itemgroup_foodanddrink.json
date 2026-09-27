@@ -99,6 +99,12 @@
       "item": "minecraft:cooked_mutton"
     },
     {
+      "item": "coraline_systems:raw_venison"
+    },
+    {
+      "item": "coraline_systems:cooked_venison"
+    },
+    {
       "item": "minecraft:chicken"
     },
     {

@@ -79,11 +79,11 @@
       "sweety_garden:wood_anemone_patchs",
       "gamma:patch_grass_ferns",
       "minecraft:patch_dead_bush",
-      "minecraft:patch_waterlily",
       "minecraft:brown_mushroom_swamp",
       "minecraft:red_mushroom_swamp",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
+      "gamma:patch_other_mushrooms",
       "minecraft:patch_sugar_cane_swamp",
       "minecraft:patch_pumpkin",
       "minecraft:seagrass_swamp"
@@ -144,12 +144,6 @@
     ],
     "misc": [],
     "monster": [
-      {
-        "type": "alexsmobs:farseer",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 80
-      },
       {
         "type": "minecraft:spider",
         "maxCount": 4,

@@ -129,12 +129,6 @@
     "misc": [],
     "monster": [
       {
-        "type": "alexsmobs:farseer",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 80
-      },
-      {
         "type": "minecraft:spider",
         "maxCount": 4,
         "minCount": 4,

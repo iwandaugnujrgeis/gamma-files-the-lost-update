@@ -25,7 +25,7 @@ StartupEvents.registry('item', event => {
     .displayName('PLACEHOLDER')
     .food(food => food.hunger(2).saturation(0.5))
     */
-    
+
   event.create('fried_egg')
     .texture('gamma:item/fried_egg')
     .maxStackSize(8)
@@ -195,11 +195,6 @@ StartupEvents.registry('item', event => {
     .maxStackSize(64)
     .displayName('Gear')
 
-  event.create('sharp_tooth')
-    .texture('gamma:item/sharp_tooth')
-    .maxStackSize(64)
-    .displayName('Sharp Tooth')
-
   // Music Discs
 
   event.create('music_disc_dog', 'music_disc')
@@ -331,7 +326,7 @@ ItemEvents.toolTierRegistry(event => {
 
   event.add('bismuth', tier => {
     tier.uses = 202
-    tier.speed = 4
+    tier.speed = 5
     tier.attackDamageBonus = 1.0
     tier.level = 2
     tier.enchantmentValue = 5

@@ -102,10 +102,10 @@ entityBlocklist = [
 extinguishSteam = true
 
 [explosives]
-tntUpdateSmoke = true
+tntUpdateSmoke = false
 tntFlamesDensity = 1
 tntSparks = true
-creeperSmoke = "UPDATED"
+creeperSmoke = "DEFAULT"
 creeperSparks = true
 
 [splashes]

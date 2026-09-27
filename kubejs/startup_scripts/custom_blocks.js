@@ -2,62 +2,19 @@
 
 StartupEvents.registry('block', event => {
 
-  /*
-  const allcolors = ['white', 'orange', 'magenta', 'light_blue', 'yellow', 'lime', 'pink', 'gray', 'light_gray', 'cyan', 'purple', 'blue', 'brown', 'green', 'red', 'black']
-
-  allcolors.forEach(color => {
-    const prettyName = color.split('_').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')
-
-    event.create(color + '_bricks')
-      .displayName(prettyName + ' Bricks')
-      .textureAll('gamma:block/bricks/' + color + '_bricks')
-      .soundType('stone')
-      .hardness(2)
-      .resistance(6)
-      .tagBlock('minecraft:mineable/pickaxe')
-      .requiresTool(true)
-
-    event.create(color + '_bricks_slab', 'slab')
-      .displayName(prettyName + ' Brick Slab')
-      .textureAll('gamma:block/bricks/' + color + '_bricks')
-      .soundType('stone')
-      .hardness(2)
-      .resistance(6)
-      .tagBlock('minecraft:mineable/pickaxe')
-      .requiresTool(true)
-
-    event.create(color + '_bricks_stairs', 'stairs')
-      .displayName(prettyName + ' Brick Stairs')
-      .textureAll('gamma:block/bricks/' + color + '_bricks')
-      .soundType('stone')
-      .hardness(2)
-      .resistance(6)
-      .tagBlock('minecraft:mineable/pickaxe')
-      .requiresTool(true)
-
-    event.create(color + '_bricks_wall', 'wall')
-      .displayName(prettyName + ' Brick Wall')
-      .textureAll('gamma:block/bricks/' + color + '_bricks')
-      .soundType('stone')
-      .hardness(2)
-      .resistance(6)
-      .tagBlock('minecraft:mineable/pickaxe')
-      .requiresTool(true)
-  })
-  */
-
-  event.create('huge_brick') // TEST!
-    .displayName('Huge Brick')
-    .soundType('stone')
-    .hardness(2)
-    .resistance(6)
-    .tagBlock('minecraft:mineable/pickaxe')
-    .requiresTool(true)
-
   event.create('smooth_stone_bricks')
     .displayName('Smooth Stone Bricks')
     .textureAll('gamma:block/smooth_stone_bricks')
     .soundType('stone')
+    .hardness(2)
+    .resistance(2)
+    .tagBlock('minecraft:mineable/pickaxe')
+    .requiresTool(true)
+
+  event.create('polished_rock_salt')
+    .displayName('Polished Rock Salt')
+    .textureAll('gamma:block/polished_rock_salt')
+    .soundType('basalt')
     .hardness(2)
     .resistance(2)
     .tagBlock('minecraft:mineable/pickaxe')

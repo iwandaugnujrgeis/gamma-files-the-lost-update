@@ -45,12 +45,12 @@ net.minecraft.client.gui.screens.SoundOptionsScreen {
 net.minecraft.client.gui.screens.TitleScreen {
 }
 
-net.minecraft.client.gui.screens.controls.ControlsScreen {
-}
-
 net.minecraft.client.gui.screens.MouseSettingsScreen {
 }
 
 net.minecraft.client.gui.screens.packs.PackSelectionScreen {
+}
+
+net.minecraft.client.gui.screens.controls.ControlsScreen {
 }
 

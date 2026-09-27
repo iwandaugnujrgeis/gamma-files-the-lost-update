@@ -70,7 +70,7 @@ craftingTable.addShapedMeta("slingshot", <item:supplementaries:slingshot>, [
   [<item:minecraft:air>, <item:minecraft:stick>, <item:minecraft:air>]], "", <constant:minecraft:recipe/category/crafting:equipment>);
 
 craftingTable.remove(<item:supplementaries:soap_block>);
-craftingTable.remove(<item:supplementaries:soap>);
+// craftingTable.remove(<item:supplementaries:soap>);
 furnace.addRecipeMeta("soap", <item:supplementaries:soap>, <item:supplementaries:soap_block>, 0.35, 200, "", <constant:minecraft:recipe/category/cooking:food>);
 
 craftingTable.remove(<item:supplementaries:wrench>);
@@ -337,8 +337,6 @@ craftingTable.addShapedMeta("dark_prismarine", <item:minecraft:dark_prismarine> 
 
 craftingTable.remove(<item:minecraft:prismarine>);
 
-craftingTable.addShapelessMeta("tooth_to_bone_beal", <item:minecraft:bone_meal> * 3, [<item:kubejs:sharp_tooth>], "", <constant:minecraft:recipe/category/crafting:misc>);
-
 craftingTable.remove(<item:minecraft:stone_pickaxe>);
 craftingTable.addShapedMeta("stone_pickaxe", <item:minecraft:stone_pickaxe>, [
   [<item:minecraft:cobblestone>, <item:minecraft:cobblestone>, <item:minecraft:cobblestone>],
@@ -415,11 +413,11 @@ craftingTable.addShapedMeta("bismuth_pickaxe", <item:kubejs:bismuth_pickaxe>, [
 craftingTable.addShapelessMeta("glazed_steak", <item:kubejs:glazed_steak> * 2, [<item:minecraft:cooked_beef>, <item:minecraft:cooked_beef>, <item:minecraft:honey_bottle>], "", <constant:minecraft:recipe/category/crafting:misc>);
 
 craftingTable.remove(<item:spelunkery:glowstick>);
-craftingTable.addShapelessMeta("glowstick", <item:spelunkery:glowstick> * 4, [<item:minecraft:slime_ball>, <item:kubejs:glow_paste>, <item:minecraft:stick>], "", <constant:minecraft:recipe/category/crafting:misc>);
+craftingTable.addShapelessMeta("glowstick", <item:spelunkery:glowstick> * 4, [<item:minecraft:slime_ball>, <item:kubejs:glow_paste>, <item:minecraft:stick>], "", <constant:minecraft:recipe/category/crafting:equipment>);
 
 craftingTable.addShapedMeta("torch", <item:coraline_systems:torch> * 4, [
   [<tag:items:minecraft:coals>], 
-  [<item:minecraft:stick>]], "", <constant:minecraft:recipe/category/crafting:building>);
+  [<item:minecraft:stick>]], "", <constant:minecraft:recipe/category/crafting:equipment>);
 
 craftingTable.addShapelessMeta("glow_paste_glow_ink_sac", <item:kubejs:glow_paste> * 3, [<item:minecraft:glow_ink_sac>], "", <constant:minecraft:recipe/category/crafting:misc>);
 furnace.addRecipeMeta("glow_paste_smelt", <item:kubejs:glow_paste>, <item:minecraft:glow_lichen>, 0.35, 200, "", <constant:minecraft:recipe/category/cooking:misc>);
@@ -458,6 +456,13 @@ craftingTable.addShapedMeta("gear", <item:kubejs:gear> * 8, [
   [<item:minecraft:air>, <item:minecraft:iron_ingot>, <item:minecraft:air>], 
   [<item:minecraft:iron_ingot>, <item:minecraft:quartz>, <item:minecraft:iron_ingot>],
   [<item:minecraft:air>, <item:minecraft:iron_ingot>, <item:minecraft:air>]], "", <constant:minecraft:recipe/category/crafting:misc>);
+
+// Huge Brick!
+
+craftingTable.remove(<item:coraline_systems:huge_brick>);
+craftingTable.addShapedMeta("huge_brick", <item:coraline_systems:huge_brick>, [
+  [<item:rediscovered:large_bricks>, <item:rediscovered:large_bricks>],
+  [<item:rediscovered:large_bricks>, <item:rediscovered:large_bricks>]], "", <constant:minecraft:recipe/category/crafting:building>);
 
 // Large Bricks:
 craftingTable.remove(<item:rediscovered:large_bricks>);
@@ -500,12 +505,14 @@ craftingTable.addShapedMeta("plate_boots", <item:rediscovered:plate_boots>, [
   [<item:kubejs:silver_ingot>, <item:minecraft:air>, <item:kubejs:silver_ingot>], 
   [<item:kubejs:silver_ingot>, <item:minecraft:air>, <item:kubejs:silver_ingot>]], "", <constant:minecraft:recipe/category/crafting:equipment>);
 
+/*
 craftingTable.remove(<item:rediscovered:studded_helmet>);
 craftingTable.remove(<item:rediscovered:studded_chestplate>);
 craftingTable.remove(<item:rediscovered:studded_leggings>);
 craftingTable.remove(<item:rediscovered:studded_boots>);
+  */
 
-furnace.addRecipeMeta("concrete", <item:coraline_systems:concrete>, <item:kubejs:cement>, 0.35, 200, "", <constant:minecraft:recipe/category/cooking:blocks>);
+// furnace.addRecipeMeta("concrete", <item:coraline_systems:concrete>, <item:kubejs:cement>, 0.35, 200, "", <constant:minecraft:recipe/category/cooking:blocks>);
 
 craftingTable.addShapedMeta("drum", <item:etcetera:drum>, [
   [<item:minecraft:string>, <item:minecraft:paper>, <item:minecraft:string>],
@@ -514,7 +521,7 @@ craftingTable.addShapedMeta("drum", <item:etcetera:drum>, [
 craftingTable.addShapedMeta("maraca", <item:alexsmobs:maraca> * 3, [
   [<item:minecraft:air>, <tag:items:minecraft:planks>, <item:minecraft:air>],
   [<tag:items:minecraft:planks>, <item:minecraft:sand>, <tag:items:minecraft:planks>],
-  [<item:minecraft:air>, <item:minecraft:stick>, <item:minecraft:air>]], "", <constant:minecraft:recipe/category/crafting:redstone>);
+  [<item:minecraft:air>, <item:minecraft:stick>, <item:minecraft:air>]], "", <constant:minecraft:recipe/category/crafting:equipment>);
 
 // Potions:
   // Lava Vision:

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "minecraft:mega_spruce_checked",
+    "features": [
+      {
+        "chance": 0.08,
+        "feature": "minecraft:jungle_bush"
+      }
+    ]
+  }
+}

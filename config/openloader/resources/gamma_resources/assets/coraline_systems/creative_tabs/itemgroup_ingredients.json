@@ -45,6 +45,9 @@
       "item": "coraline_systems:dimensional_shard"
     },
     {
+      "item": "coraline_systems:onyx"
+    },
+    {
       "item": "coraline_systems:fallen_star_item"
     },
     {
@@ -112,9 +115,6 @@
     },
     {
       "item": "minecraft:slime_ball"
-    },
-    {
-      "item": "kubejs:sharp_tooth"
     },
     {
       "item": "alexsmobs:bear_fur"

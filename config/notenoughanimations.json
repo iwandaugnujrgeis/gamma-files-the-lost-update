@@ -13,7 +13,7 @@
   "enableRotateToLadder": true,
   "enableEatDrinkAnimation": true,
   "enableRowBoatAnimation": false,
-  "enableHorseAnimation": true,
+  "enableHorseAnimation": false,
   "enableHorseLegAnimation": true,
   "dontHoldItemsInBed": false,
   "freezeArmsInBed": false,

@@ -31,7 +31,7 @@ glintStrength:0.75
 damageTiltStrength:1.0
 highContrast:false
 gamma:0.15
-renderDistance:9
+renderDistance:8
 simulationDistance:8
 entityDistanceScaling:2.0
 guiScale:6
@@ -42,7 +42,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:4
 renderClouds:"true"
-resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","file/Serified Font v1.2.zip","resources/gamma_resources","coraline_systems:core_pack"]
+resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","coraline_systems:core_pack","resources/gamma_resources","file/Serified Font v1.2.zip","coraline_systems:legacy_pack"]
 incompatibleResourcePacks:[]
 lastServer:109.173.112.58:25565
 lang:en_us
@@ -53,7 +53,7 @@ chatLineSpacing:0.0
 textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0
@@ -97,12 +97,12 @@ key_key.drop:key.keyboard.q
 key_key.inventory:key.keyboard.e
 key_key.chat:key.keyboard.t
 key_key.playerlist:key.keyboard.tab
-key_key.pickItem:key.keyboard.backslash
+key_key.pickItem:key.mouse.middle
 key_key.command:key.keyboard.slash
 key_key.socialInteractions:key.keyboard.p
 key_key.screenshot:key.keyboard.f2
 key_key.togglePerspective:key.keyboard.f5
-key_key.smoothCamera:key.keyboard.unknown
+key_key.smoothCamera:key.keyboard.right.alt
 key_key.fullscreen:key.keyboard.f11
 key_key.swapOffhand:key.keyboard.f
 key_key.advancements:key.keyboard.l
@@ -115,7 +115,11 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
-soundCategory_master:1.0
+key_key.freecam.toggle:key.keyboard.apostrophe
+key_key.freecam.playerControl:key.keyboard.backslash
+key_key.freecam.tripodReset:key.keyboard.unknown
+key_key.freecam.configGui:key.keyboard.equal
+soundCategory_master:0.2009059565727699
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:0.8047645246478874
@@ -125,7 +129,7 @@ soundCategory_neutral:0.706756161971831
 soundCategory_player:0.7047095070422534
 soundCategory_ambient:1.0
 soundCategory_voice:1.0
-modelPart_cape:false
+modelPart_cape:true
 modelPart_jacket:true
 modelPart_left_sleeve:true
 modelPart_right_sleeve:true

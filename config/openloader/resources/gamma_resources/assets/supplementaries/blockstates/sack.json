@@ -1,10 +1,10 @@
 {
   "variants": {
     "open=false": {
-      "model": "coraline_systems:block/sack"
+      "model": "supplementaries:block/sack"
     },
     "open=true": {
-      "model": "coraline_systems:block/sack_open"
+      "model": "supplementaries:block/sack"
     }
   }
 }

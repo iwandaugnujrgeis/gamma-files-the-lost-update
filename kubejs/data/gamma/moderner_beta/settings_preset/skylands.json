@@ -62,8 +62,8 @@
   "chunkSettings": {
     "moderner_beta:cave_generation": {
       "fixCaveBorders": true,
-      "forceBetaCanyons": true,
-      "forceBetaCaves": true,
+      "forceBetaCanyons": false,
+      "forceBetaCaves": false,
       "seedMethod": "beta",
       "useCarvers": true,
       "useNoiseCaves": false

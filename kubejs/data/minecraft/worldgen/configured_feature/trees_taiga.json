@@ -18,10 +18,6 @@
       {
         "chance": 0.05,
         "feature": "minecraft:oak_bees_0002"
-      },
-      {
-        "chance": 0.02,
-        "feature": "minecraft:dark_oak_checked"
       }
     ]
   }
