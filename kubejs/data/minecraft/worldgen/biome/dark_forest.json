@@ -80,8 +80,7 @@
       "sweety_garden:purple_shamrock_patchs",
       "minecraft:flower_default",
       "minecraft:patch_grass_normal",
-      "minecraft:brown_mushroom_normal",
-      "minecraft:red_mushroom_normal",
+      "coraline_systems:mixed_cave_mushroom",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin"
     ],
@@ -120,12 +119,6 @@
         "weight": 10
       },
       {
-        "type": "alexsmobs:potoo",
-        "maxCount": 3,
-        "minCount": 1,
-        "weight": 10
-      },
-      {
         "type": "minecraft:pig",
         "maxCount": 4,
         "minCount": 4,
@@ -136,6 +129,12 @@
         "maxCount": 4,
         "minCount": 4,
         "weight": 5
+      },
+      {
+        "type": "alexsmobs:potoo",
+        "maxCount": 3,
+        "minCount": 1,
+        "weight": 4
       },
       {
         "type": "alexsmobs:crow",
@@ -195,16 +194,16 @@
         "weight": 90
       },
       {
-        "type": "minecraft:vex",
-        "maxCount": 3,
-        "minCount": 1,
-        "weight": 12
-      },
-      {
         "type": "minecraft:enderman",
         "maxCount": 4,
         "minCount": 1,
         "weight": 10
+      },
+      {
+        "type": "minecraft:vex",
+        "maxCount": 3,
+        "minCount": 1,
+        "weight": 4
       }
     ],
     "underground_water_creature": [],

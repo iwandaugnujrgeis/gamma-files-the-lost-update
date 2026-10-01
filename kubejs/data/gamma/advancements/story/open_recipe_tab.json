@@ -1,0 +1,19 @@
+{
+  "parent": "gamma:story/take_inventory",
+  "display": {
+    "icon": { 
+      "item": "minecraft:knowledge_book" 
+    },
+    "title": "Cookbook",
+    "description": "Open the Recipe Tab!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "open_recipe_book": { 
+    "trigger": "coraline_systems:open_recipe_book" 
+    }
+  }
+}

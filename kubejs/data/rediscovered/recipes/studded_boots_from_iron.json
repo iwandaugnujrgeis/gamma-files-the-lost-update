@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "studded_boots",
+  "key": {
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "L": {
+      "item": "minecraft:leather_boots"
+    },
+    "N": {
+      "tag": "forge:nuggets/iron"
+    }
+  },
+  "pattern": [
+    "NNN",
+    "ILI",
+    "NNN"
+  ],
+  "result": {
+    "item": "rediscovered:studded_boots"
+  },
+  "show_notification": true
+}

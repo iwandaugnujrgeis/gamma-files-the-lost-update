@@ -18,9 +18,6 @@
       "item": "minecraft:comparator"
     },
     {
-      "item": "quark:redstone_randomizer"
-    },
-    {
       "item": "minecraft:dropper"
     },
     {
@@ -42,16 +39,7 @@
       "item": "minecraft:note_block"
     },
     {
-      "item": "etcetera:drum"
-    },
-    {
-      "item": "supplementaries:pulley_block"
-    },
-    {
       "item": "supplementaries:clock_block"
-    },
-    {
-      "item": "supplementaries:turn_table"
     },
     {
       "item": "minecraft:piston"
@@ -67,9 +55,6 @@
     },
     {
       "item": "coraline_systems:subwoofer"
-    },
-    {
-      "item": "supplementaries:lock_block"
     },
     {
       "item": "supplementaries:crystal_display"

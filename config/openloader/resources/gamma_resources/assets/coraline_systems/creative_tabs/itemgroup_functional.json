@@ -117,16 +117,7 @@
       "item": "minecraft:composter"
     },
     {
-      "item": "minecraft:beehive"
-    },
-    {
       "item": "minecraft:lectern"
-    },
-    {
-      "item": "minecraft:cartography_table"
-    },
-    {
-      "item": "minecraft:fletching_table"
     },
     {
       "item": "easel_does_it:easel"
@@ -253,9 +244,6 @@
     },
     {
       "item": "minecraft:infested_deepslate"
-    },
-    {
-      "item": "rediscovered:nether_reactor_core"
     }
   ]
 }

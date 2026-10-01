@@ -45,9 +45,6 @@
       "item": "quark:gravisand"
     },
     {
-      "item": "kubejs:rock_salt"
-    },
-    {
       "item": "minecraft:ice"
     },
     {
@@ -90,11 +87,9 @@
       "item": "rediscovered:glowing_obsidian"
     },
     {
-      "item": "minecraft:soul_sand"
-    },
-    {
       "item": "minecraft:bone_block"
     },
+    /*
     {
       "item": "minecraft:coal_ore"
     },
@@ -128,12 +123,14 @@
     {
       "item": "etcetera:nether_bismuth_ore"
     },
+    */
     {
       "item": "minecraft:glowstone"
     },
     {
       "item": "minecraft:amethyst_block"
     },
+    /*
     {
       "item": "minecraft:budding_amethyst"
     },
@@ -149,6 +146,7 @@
     {
       "item": "minecraft:amethyst_cluster"
     },
+    */
     {
       "item": "minecraft:oak_leaves"
     },
@@ -259,9 +257,6 @@
     },
     {
       "item": "caverns_and_chasms:false_hope"
-    },
-    {
-      "item": "caverns_and_chasms:moschatel"
     },
     {
       "item": "minecraft:bamboo"

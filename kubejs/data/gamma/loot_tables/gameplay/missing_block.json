@@ -81,11 +81,6 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "etcetera:drum"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
           "name": "etcetera:golden_eggple"
         },
         {
@@ -284,11 +279,6 @@
           "type": "minecraft:item",
           "weight": 1,
           "name": "supplementaries:hat_stand"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "supplementaries:key"
         },
         {
           "type": "minecraft:item",

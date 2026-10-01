@@ -20,16 +20,6 @@ StartupEvents.registry('block', event => {
     .tagBlock('minecraft:mineable/pickaxe')
     .requiresTool(true)
 
-  event.create('cement', 'falling')
-    .displayName('Cement')
-    .textureAll('gamma:block/cement')
-    .soundType('sand')
-    .hardness(2)
-    .resistance(2)
-    .tagBlock('minecraft:mineable/shovel')
-    .tagBlock('minecraft:sand')
-    .requiresTool(true)
-
   event.create('lava_lamp')
     .displayName('Lava Lamp')
     .textureAll('gamma:block/lava_lamp')

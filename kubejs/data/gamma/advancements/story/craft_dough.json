@@ -9,7 +9,7 @@
     "show_toast": true,
     "announce_to_chat": true
   },
-  "parent": "gamma:story/craft_flour",
+  "parent": "gamma:story/plant_seed",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",

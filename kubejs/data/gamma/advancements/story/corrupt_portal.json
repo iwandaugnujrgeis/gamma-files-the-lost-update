@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "gamma:story/benchmarking",
+  "parent": "gamma:story/mine_suspicious_block",
   "criteria": {
     "corrupt_portal": {
       "trigger": "coraline_systems:corrupt_portal"

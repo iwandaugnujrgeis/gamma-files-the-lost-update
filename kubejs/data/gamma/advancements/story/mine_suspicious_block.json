@@ -1,0 +1,34 @@
+{
+  "parent": "gamma:story/mine_diamond",
+  "criteria": {
+    "dimensional_shard": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "coraline_systems:dimensional_shard"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Destroy a Suspicious Block!",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "coraline_systems:suspicious_block"
+    },
+    "show_toast": true,
+    "title": "Suspicious Block"
+  },
+  "requirements": [
+    [
+      "dimensional_shard"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

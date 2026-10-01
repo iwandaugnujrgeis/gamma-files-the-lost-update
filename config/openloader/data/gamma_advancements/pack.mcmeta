@@ -8,23 +8,23 @@
     "block": [
       {
         "namespace": "alexsmobs",
-        "path": "advancements/.*"
+        "path": "^(advancements|recipes)/.*"
       },
       {
         "namespace": "etcetera",
-        "path": "advancements/.*"
+        "path": "^(advancements|recipes)/.*"
       },
       {
         "namespace": "atmospheric",
-        "path": "advancements/.*"
+        "path": "^(advancements|recipes)/.*"
       },
       {
         "namespace": "rediscovered",
-        "path": "advancements/.*"
+        "path": "^(advancements|recipes)/.*"
       },
       {
         "namespace": "caverns_and_chasms",
-        "path": "advancements/.*"
+        "path": "^(advancements|recipes)/.*"
       },
       {
         "namespace": "upgrade_aquatic",
@@ -32,7 +32,7 @@
       },
       {
         "namespace": "clayworks",
-        "path": "advancements/.*"
+        "path": "^(advancements|recipes)/.*"
       },
       {
         "namespace": "quark",
@@ -40,11 +40,11 @@
       },
       {
         "namespace": "spawn",
-        "path": "advancements/.*"
+        "path": "^(advancements|recipes)/.*"
       },
       {
         "namespace": "spelunkery",
-        "path": "advancements/.*"
+        "path": "^(advancements|recipes)/.*"
       },
       {
         "namespace": "supplementaries",
@@ -52,7 +52,7 @@
       },
       {
         "namespace": "friendsandfoes",
-        "path": "advancements/.*"
+        "path": "^(advancements|recipes)/.*"
       }
     ]
   }

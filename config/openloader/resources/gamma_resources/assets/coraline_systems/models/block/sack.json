@@ -1,8 +1,12 @@
 {
-  "parent": "minecraft:block/cube_bottom_top",
+  "parent": "minecraft:block/cube",
   "textures": {
-    "bottom": "supplementaries:block/sack_top",
-    "side": "supplementaries:block/sack_side",
-    "top": "supplementaries:block/sack_top"
+    "down": "coraline_systems:block/basket_bottom",
+    "east": "coraline_systems:block/basket_side_handles",
+    "north": "coraline_systems:block/basket_side",
+    "particle": "coraline_systems:block/basket_side",
+    "south": "coraline_systems:block/basket_side",
+    "up": "coraline_systems:block/basket_inner",
+    "west": "coraline_systems:block/basket_side_handles"
   }
 }

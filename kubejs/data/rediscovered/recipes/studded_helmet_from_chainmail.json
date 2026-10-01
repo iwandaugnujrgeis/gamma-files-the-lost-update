@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "group": "studded_helmet",
+  "ingredients": [
+    {
+      "item": "minecraft:leather_helmet"
+    },
+    {
+      "item": "minecraft:chainmail_helmet"
+    }
+  ],
+  "result": {
+    "item": "rediscovered:studded_helmet"
+  }
+}

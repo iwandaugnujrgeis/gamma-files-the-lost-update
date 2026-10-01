@@ -37,18 +37,21 @@ craftingTable.addShapelessMeta("supplementaries_pancake", <item:supplementaries:
 craftingTable.remove(<item:supplementaries:candy>);
 craftingTable.addShapelessMeta("candy", <item:supplementaries:candy> * 4, [<item:minecraft:sugar>, <item:minecraft:paper>, <item:kubejs:bar_of_chocolate>, <item:minecraft:pink_dye>], "", <constant:minecraft:recipe/category/crafting:misc>);
 
+/*
 craftingTable.remove(<item:supplementaries:key>);
 craftingTable.addShapedMirroredMeta("silver_key", MirrorAxis.HORIZONTAL, <item:supplementaries:key>, [
   [<item:kubejs:silver_ingot>, <item:kubejs:silver_ingot>], 
   [<item:kubejs:silver_nugget>, <item:minecraft:air>],
   [<item:kubejs:silver_nugget>, <item:kubejs:silver_nugget>]], "", <constant:minecraft:recipe/category/crafting:equipment>);
+  */
 
+/*
 craftingTable.remove(<item:supplementaries:lock_block>);
 craftingTable.addShapedMeta("lock_block", <item:supplementaries:lock_block>, [
   [<item:kubejs:silver_ingot>, <tag:items:minecraft:planks>, <item:kubejs:silver_ingot>], 
   [<tag:items:minecraft:planks>, <item:minecraft:redstone>, <tag:items:minecraft:planks>],
   [<item:kubejs:silver_ingot>, <tag:items:minecraft:planks>, <item:kubejs:silver_ingot>]], "", <constant:minecraft:recipe/category/crafting:redstone>);
-
+  */
 craftingTable.addShapedMeta("centrifuge", <item:coraline_systems:centrifuge>, [
   [<item:rediscovered:ruby>, <item:kubejs:silver_ingot>, <item:rediscovered:ruby>], 
   [<item:kubejs:silver_ingot>, <item:coraline_systems:fallen_star_item>, <item:kubejs:silver_ingot>],
@@ -153,7 +156,6 @@ craftingTable.addShapedMeta("deepslate_tiles", <item:minecraft:deepslate_tiles> 
 stoneCutter.remove(<item:minecraft:deepslate_tiles>);
 stoneCutter.addRecipe("stonecutter_deepslate_tiles", <item:minecraft:deepslate_tiles>, <item:minecraft:deepslate>);
 
-stoneCutter.remove(<item:clayworks:chiseled_bricks>);
 stoneCutter.remove(<item:minecraft:chiseled_stone_bricks>);
 stoneCutter.remove(<item:minecraft:chiseled_deepslate>);
 stoneCutter.remove(<item:minecraft:chiseled_sandstone>);
@@ -193,6 +195,10 @@ craftingTable.addShapedMeta("boat", <item:minecraft:oak_boat>, [
   [<tag:items:minecraft:planks>, <item:minecraft:air>, <tag:items:minecraft:planks>], 
   [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]], "", <constant:minecraft:recipe/category/crafting:equipment>);
 
+craftingTable.addShapedMeta("obsidian_boat", <item:coraline_systems:obsidian_boat>, [ 
+  [<item:minecraft:obsidian>, <item:minecraft:air>, <item:minecraft:obsidian>], 
+  [<item:minecraft:obsidian>, <item:minecraft:obsidian>, <item:minecraft:obsidian>]], "", <constant:minecraft:recipe/category/crafting:equipment>);
+
 craftingTable.addShapedMeta("totem_of_undying", <item:minecraft:totem_of_undying>, [
   [<item:minecraft:air>, <item:minecraft:gold_block>, <item:minecraft:air>], 
   [<item:minecraft:gold_block>, <item:alexsmobs:soul_heart>, <item:minecraft:gold_block>], 
@@ -221,7 +227,7 @@ craftingTable.addShapedMeta("magma_block", <item:minecraft:magma_block> * 8, [
   [<item:minecraft:cobblestone>, <item:minecraft:cobblestone>, <item:minecraft:cobblestone>]], "", <constant:minecraft:recipe/category/crafting:building>);
 
 craftingTable.remove(<item:supplementaries:blackboard>);
-craftingTable.addShapedMeta("blackboard", <item:supplementaries:blackboard>, [
+craftingTable.addShapedMeta("blackboard", <item:supplementaries:blackboard> * 2, [
   [<tag:items:minecraft:wooden_slabs>, <item:minecraft:polished_basalt>],
   [<tag:items:minecraft:wooden_slabs>, <item:minecraft:polished_basalt>],
   [<tag:items:minecraft:wooden_slabs>, <item:minecraft:polished_basalt>]], "", <constant:minecraft:recipe/category/crafting:building>);
@@ -308,11 +314,12 @@ stoneCutter.addRecipe("deepslate_wall_stonecutter", <item:minecraft:cobbled_deep
 stoneCutter.addRecipe("deepslate_slab_stonecutter", <item:minecraft:cobbled_deepslate_slab> * 2, <item:minecraft:deepslate>);
 stoneCutter.addRecipe("deepslate_stairs_stonecutter", <item:minecraft:cobbled_deepslate_stairs>, <item:minecraft:deepslate>);
 
-craftingTable.remove(<item:minecraft:beehive>);
-craftingTable.addShapedMeta("beehive", <item:minecraft:beehive>, [
-  [<tag:items:minecraft:planks>, <item:minecraft:blue_dye>, <tag:items:minecraft:planks>],
-  [<item:minecraft:blue_dye>, <item:minecraft:honeycomb>, <item:minecraft:blue_dye>],
-  [<tag:items:minecraft:planks>, <item:minecraft:blue_dye>, <tag:items:minecraft:planks>]], "", <constant:minecraft:recipe/category/crafting:building>);
+
+craftingTable.remove(<item:minecraft:bee_nest>);
+craftingTable.addShapedMeta("beehive", <item:minecraft:bee_nest>, [
+  [<item:minecraft:stick>, <item:minecraft:wheat>, <item:minecraft:stick>],
+  [<item:minecraft:wheat>, <item:minecraft:honeycomb>, <item:minecraft:wheat>],
+  [<item:minecraft:stick>, <item:minecraft:wheat>, <item:minecraft:stick>]], "", <constant:minecraft:recipe/category/crafting:building>);
 
 craftingTable.remove(<item:minecraft:chest>);
 craftingTable.addShapedMeta("chest", <item:minecraft:chest>, [
@@ -373,6 +380,18 @@ craftingTable.addShapedMeta("music_disc_droopy2", <item:kubejs:music_disc_droopy
 craftingTable.addShapedMeta("rock_salt", <item:kubejs:rock_salt>, [
   [<item:kubejs:salt>, <item:kubejs:salt>],
   [<item:kubejs:salt>, <item:kubejs:salt>]], "", <constant:minecraft:recipe/category/crafting:building>);
+
+craftingTable.addShapedMeta("polished_rock_salt", <item:kubejs:polished_rock_salt> * 4, [
+  [<item:kubejs:rock_salt>, <item:kubejs:rock_salt>],
+  [<item:kubejs:rock_salt>, <item:kubejs:rock_salt>]], "", <constant:minecraft:recipe/category/crafting:building>);
+
+stoneCutter.addRecipe("stonecutter_polished_rock_salt", <item:kubejs:polished_rock_salt>, <item:kubejs:rock_salt>);
+
+craftingTable.addShapedMeta("smooth_stone_bricks", <item:kubejs:smooth_stone_bricks> * 4, [
+  [<item:minecraft:smooth_stone>, <item:minecraft:smooth_stone>],
+  [<item:minecraft:smooth_stone>, <item:minecraft:smooth_stone>]], "", <constant:minecraft:recipe/category/crafting:building>);
+
+stoneCutter.addRecipe("stonecutter_smooth_stone_bricks", <item:kubejs:smooth_stone_bricks>, <item:minecraft:smooth_stone>);
 
 // Copper Tools:
 craftingTable.addShapedMirroredMeta("copper_axe", MirrorAxis.HORIZONTAL, <item:kubejs:copper_axe>, [
@@ -511,12 +530,6 @@ craftingTable.remove(<item:rediscovered:studded_chestplate>);
 craftingTable.remove(<item:rediscovered:studded_leggings>);
 craftingTable.remove(<item:rediscovered:studded_boots>);
   */
-
-// furnace.addRecipeMeta("concrete", <item:coraline_systems:concrete>, <item:kubejs:cement>, 0.35, 200, "", <constant:minecraft:recipe/category/cooking:blocks>);
-
-craftingTable.addShapedMeta("drum", <item:etcetera:drum>, [
-  [<item:minecraft:string>, <item:minecraft:paper>, <item:minecraft:string>],
-  [<item:minecraft:air>, <item:minecraft:note_block>, <item:minecraft:air>]], "", <constant:minecraft:recipe/category/crafting:redstone>);
 
 craftingTable.addShapedMeta("maraca", <item:alexsmobs:maraca> * 3, [
   [<item:minecraft:air>, <tag:items:minecraft:planks>, <item:minecraft:air>],
@@ -733,3 +746,7 @@ craftingTable.addShapedMeta("dispenser", <item:minecraft:dispenser>, [
   [<item:minecraft:cobblestone>, <item:minecraft:bow>, <item:minecraft:cobblestone>],
   [<item:minecraft:cobblestone>, <item:minecraft:redstone>, <item:minecraft:cobblestone>]], "", <constant:minecraft:recipe/category/crafting:redstone>);
 
+craftingTable.addShapedMeta("tuning_fork", <item:coraline_systems:tuning_fork>, [
+  [<item:minecraft:copper_ingot>, <item:minecraft:air>, <item:minecraft:copper_ingot>], 
+  [<item:minecraft:copper_ingot>, <item:minecraft:copper_ingot>, <item:minecraft:copper_ingot>], 
+  [<item:minecraft:air>, <item:minecraft:copper_ingot>, <item:minecraft:air>]], "", <constant:minecraft:recipe/category/crafting:equipment>);

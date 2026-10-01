@@ -12,6 +12,10 @@
         "feature": "minecraft:birch_bees_002"
       },
       {
+        "chance": 0.16,
+        "feature": "coraline_systems:fancy_oak_tree_with_apples_checked"
+      },
+      {
         "chance": 0.1,
         "feature": "minecraft:fancy_oak_bees_002"
       }

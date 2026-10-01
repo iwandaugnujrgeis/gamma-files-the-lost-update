@@ -108,6 +108,9 @@
       "item": "minecraft:brush"
     },
     {
+      "item": "coraline_systems:tuning_fork"
+    },
+    {
       "item": "minecraft:spyglass"
     },
     {
@@ -139,9 +142,6 @@
     },
     {
       "item": "supplementaries:wrench"
-    },
-    {
-      "item": "supplementaries:key"
     },
     {
       "item": "minecraft:oak_boat"
@@ -259,9 +259,6 @@
     },
     {
       "item": "alexsmobs:music_disc_thime"
-    },
-    {
-      "item": "minecraft:music_disc_relic"
     },
     {
       "item": "quark:music_disc_chatter"

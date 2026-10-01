@@ -207,11 +207,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "supplementaries:key",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
           "name": "spelunkery:eggplant",
           "weight": 5
         },

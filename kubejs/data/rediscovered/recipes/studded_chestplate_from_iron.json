@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "studded_chestplate",
+  "key": {
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "L": {
+      "item": "minecraft:leather_chestplate"
+    },
+    "N": {
+      "tag": "forge:nuggets/iron"
+    }
+  },
+  "pattern": [
+    "NNN",
+    "ILI",
+    "NNN"
+  ],
+  "result": {
+    "item": "rediscovered:studded_chestplate"
+  },
+  "show_notification": true
+}

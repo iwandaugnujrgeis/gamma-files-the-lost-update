@@ -2,7 +2,36 @@
 
 const removedCompletely = [
 
-  // 4.20.11:
+  // Check remove:
+  'minecraft:beehive',
+  'minecraft:cartography_table',
+
+  'quark:redstone_randomizer',
+  'supplementaries:pulley_block',
+  'supplementaries:turn_table',
+  'rediscovered:nether_reactor_core',
+  'minecraft:prismarine_crystals',
+  'minecraft:soul_sand',
+  'caverns_and_chasms:moschatel',
+  'minecraft:fletching_table',
+  'etcetera:drum',
+  'supplementaries:lock_block',
+  'supplementaries:key',
+  'minecraft:music_disc_relic',
+
+  'rediscovered:bright_green_carpet',
+  'rediscovered:rose_carpet',
+  'rediscovered:lavender_carpet',
+  'rediscovered:sky_blue_carpet',
+  'rediscovered:slate_blue_carpet',
+  'rediscovered:spring_green_carpet',
+  'rediscovered:bright_green_wool',
+  'rediscovered:rose_wool',
+  'rediscovered:lavender_wool',
+  'rediscovered:sky_blue_wool',
+  'rediscovered:slate_blue_wool',
+  'rediscovered:spring_green_wool',
+
   'quark:chute',
   'spelunkery:wooden_rail',
 

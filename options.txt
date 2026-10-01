@@ -115,11 +115,11 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
-key_key.freecam.toggle:key.keyboard.apostrophe
-key_key.freecam.playerControl:key.keyboard.backslash
+key_key.freecam.toggle:key.keyboard.f4
+key_key.freecam.playerControl:key.keyboard.unknown
 key_key.freecam.tripodReset:key.keyboard.unknown
-key_key.freecam.configGui:key.keyboard.equal
-soundCategory_master:0.2009059565727699
+key_key.freecam.configGui:key.keyboard.unknown
+soundCategory_master:1.0
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:0.8047645246478874
