@@ -1,0 +1,30 @@
+{
+  "block.sack.break": {
+    "replace": true,
+    "sounds": [
+      "supplementaries:block/sack_break_0",
+      "supplementaries:block/sack_break_1",
+      "supplementaries:block/sack_break_2",
+      "supplementaries:block/sack_break_3"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.sack.place": {
+    "replace": true,
+    "sounds": [
+      "supplementaries:block/sack_place_0",
+      "supplementaries:block/sack_place_1",
+      "supplementaries:block/sack_place_2",
+      "supplementaries:block/sack_place_3"
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.sack.open": {
+    "replace": true,
+    "sounds": [
+      "gamma:random/box_open1",
+      "gamma:random/box_open2"
+    ],
+    "subtitle": "subtitles.supplementaries.sack.open"
+  }
+}

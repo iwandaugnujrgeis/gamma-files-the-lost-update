@@ -44,18 +44,15 @@
     {
       "item": "coraline_systems:dimensional_shard"
     },
-    {
-      "item": "coraline_systems:onyx"
-    },
-    {
-      "item": "coraline_systems:fallen_star_item"
-    },
+    // { 
+    // "item": "coraline_systems:fallen_star_item" 
+    // }, 
     {
       "item": "minecraft:quartz"
     },
-    {
-      "item": "kubejs:halite_crystal"
-    },
+    // {
+    // "item": "kubejs:halite_crystal"
+    // },
     {
       "item": "minecraft:copper_ingot"
     },

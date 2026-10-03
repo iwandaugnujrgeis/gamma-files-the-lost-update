@@ -1,23 +1,35 @@
 {
   "rewards": {
     "recipes": [
-      "crafttweaker:soap"
+      "crafttweaker:sack"
     ]
   },
   "criteria": {
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "crafttweaker:soap"
+        "recipe": "crafttweaker:sack"
       }
     },
-    "has_soapstone": {
+    "has_leather": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "supplementaries:soap_block"
+              "minecraft:leather"
+            ]
+          }
+        ]
+      }
+    },
+    "has_chest": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chest"
             ]
           }
         ]
@@ -27,7 +39,8 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_soapstone"
+      "has_leather",
+      "has_chest"
     ]
   ],
   "sends_telemetry_event": false

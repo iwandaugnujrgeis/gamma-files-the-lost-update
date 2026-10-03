@@ -73,16 +73,14 @@ StartupEvents.registry('block', event => {
     .tagBlock('minecraft:mineable/pickaxe')
     .requiresTool(true)
 
-  /*
-  event.create('mysterious_stone')
-    .displayName('Placeholderite')
-    .model('gamma:block/mysterious_stone')
+  event.create('ruby_tiles')
+    .displayName('Ruby Tiles')
+    .textureAll('gamma:block/ruby_tiles')
     .soundType('amethyst')
     .hardness(2)
     .resistance(2)
     .tagBlock('minecraft:mineable/pickaxe')
     .requiresTool(true)
-    */
 
   event.create('silver_ore')
     .displayName('Silver Ore')

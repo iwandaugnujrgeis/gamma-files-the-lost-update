@@ -1,7 +1,6 @@
 {
-  "__comment": "Used to make Blue Jay sing and make monsters glow",
   "replace": true,
   "values": [
-    "minecraft:glow_berries"
+    "minecraft:sweet_berries"
   ]
 }

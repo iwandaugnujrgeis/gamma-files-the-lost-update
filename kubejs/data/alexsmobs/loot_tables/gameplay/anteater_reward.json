@@ -10,36 +10,25 @@
         {
           "type": "minecraft:item",
           "weight": 20,
-          "functions": [
-          ],
+          "functions": [],
           "name": "minecraft:dirt"
         },
         {
           "type": "minecraft:item",
           "weight": 10,
-          "functions": [
-          ],
+          "functions": [],
           "name": "minecraft:coarse_dirt"
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
-          "functions": [
-          ],
-          "name": "minecraft:rooted_dirt"
-        },
-        {
-          "type": "minecraft:item",
           "weight": 1,
-          "functions": [
-          ],
+          "functions": [],
           "name": "minecraft:beetroot"
         },
         {
           "type": "minecraft:item",
           "weight": 1,
-          "functions": [
-          ],
+          "functions": [],
           "name": "minecraft:potato"
         }
       ]

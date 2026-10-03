@@ -3,8 +3,11 @@
 const removedCompletely = [
 
   // Check remove:
+  'rediscovered:ruby_flute',
   'minecraft:beehive',
   'minecraft:cartography_table',
+  'minecraft:barrel',
+  'minecraft:rooted_dirt',
 
   'quark:redstone_randomizer',
   'supplementaries:pulley_block',

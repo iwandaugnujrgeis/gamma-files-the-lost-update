@@ -18,16 +18,7 @@
       "item": "minecraft:coarse_dirt"
     },
     {
-      "item": "minecraft:rooted_dirt"
-    },
-    {
       "item": "minecraft:farmland"
-    },
-    {
-      "item": "coraline_systems:compost"
-    },
-    {
-      "item": "coraline_systems:compost_farmland"
     },
     {
       "item": "spelunkery:tangle_roots_block"

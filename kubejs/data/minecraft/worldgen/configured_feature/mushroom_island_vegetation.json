@@ -8,6 +8,13 @@
           "feature": "minecraft:huge_red_mushroom",
           "placement": []
         }
+      },
+      {
+        "chance": 0.1,
+        "feature": {
+          "feature": "coraline_systems:huge_white_mushroom",
+          "placement": []
+        }
       }
     ],
     "default": {

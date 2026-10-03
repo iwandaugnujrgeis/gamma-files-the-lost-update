@@ -237,6 +237,7 @@
           "biomes": [
             "minecraft:forest",
             "minecraft:dark_forest",
+            "gamma:old_woods",
             "minecraft:birch_forest",
             "minecraft:old_growth_birch_forest",
             "minecraft:swamp",
@@ -283,17 +284,22 @@
           ]
         },
         {
+          "type": "moderner_beta:constant_biome",
+          "id": "biome_pool_warm_rare",
+          "seed": 211,
+          "biome": "minecraft:swamp"
+        },
+        {
+          "type": "moderner_beta:constant_biome",
+          "id": "biome_pool_ocean_rare",
+          "seed": 212,
+          "biome": "gamma:calcite_shores"
+        },
+        {
           "type": "moderner_beta:weighted_pool",
           "id": "biome_pool_taiga_rare",
           "seed": 202,
           "targets": [
-            {
-              "weight": 3,
-              "data": {
-                "type": "biome",
-                "value": "gamma:old_woods"
-              }
-            },
             {
               "weight": 1,
               "data": {
@@ -306,20 +312,8 @@
         {
           "type": "moderner_beta:constant_biome",
           "id": "biome_pool_forest_rare",
-          "seed": 203,
+          "seed": 210,
           "biome": "minecraft:flower_forest"
-        },
-        {
-          "type": "moderner_beta:constant_biome",
-          "id": "biome_pool_dark_forest_rare",
-          "seed": 204,
-          "biome": "gamma:cornflower_grove"
-        },
-        {
-          "type": "moderner_beta:constant_biome",
-          "id": "biome_pool_birch_rare",
-          "seed": 205,
-          "biome": "gamma:still_woods"
         },
         {
           "type": "moderner_beta:weighted_pool",
@@ -384,12 +378,30 @@
                 "terms": [
                   {
                     "condition": "moderner_beta:single_match",
+                    "biome": "minecraft:jungle"
+                  },
+                  {
+                    "condition": "moderner_beta:random_chance",
+                    "numerator": 1,
+                    "denominator": 2
+                  }
+                ]
+              },
+              "result": "biome_pool_warm_rare",
+              "type": "layer"
+            },
+            {
+              "predicate": {
+                "condition": "moderner_beta:all_of",
+                "terms": [
+                  {
+                    "condition": "moderner_beta:single_match",
                     "biome": "minecraft:forest"
                   },
                   {
                     "condition": "moderner_beta:random_chance",
                     "numerator": 1,
-                    "denominator": 8
+                    "denominator": 6
                   }
                 ]
               },
@@ -402,16 +414,16 @@
                 "terms": [
                   {
                     "condition": "moderner_beta:single_match",
-                    "biome": "minecraft:birch_forest"
+                    "biome": "minecraft:ocean"
                   },
                   {
                     "condition": "moderner_beta:random_chance",
                     "numerator": 1,
-                    "denominator": 8
+                    "denominator": 3
                   }
                 ]
               },
-              "result": "biome_pool_birch_rare",
+              "result": "biome_pool_ocean_rare",
               "type": "layer"
             }
           ]
@@ -421,7 +433,7 @@
           "parent": "land",
           "id": "land",
           "seed": 1000,
-          "level": 3,
+          "level": 4,
           "seedModifier": 1,
           "zoomType": "modal"
         },

@@ -85,7 +85,8 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:wheat_seeds"
+      "item": "citadel:fancy_item",
+      "nbt": "{DisplayItem:\"minecraft:wheat_seeds\", DisplayBob:1, DisplayZoom:0, DisplayScale:1, DisplaySpin:0, DisplayShake:0}"
     },
     "show_toast": true,
     "title": "Seed Matters"

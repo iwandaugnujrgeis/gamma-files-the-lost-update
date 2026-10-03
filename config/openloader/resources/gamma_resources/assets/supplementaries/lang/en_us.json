@@ -5,5 +5,11 @@
   "message.supplementaries.quill_failed": "",
   "message.supplementaries.quill_finished": "",
   "message.supplementaries.quill_retry": "",
-  "message.supplementaries.sack": ""
+  "message.supplementaries.sack": "",
+  "block.supplementaries.sack": "Box",
+  "gui.supplementaries.sack": "Box",
+  "subtitles.supplementaries.sack.break": "Box broken",
+  "subtitles.supplementaries.sack.open": "Box opened",
+  "subtitles.supplementaries.sack.place": "Box placed",
+  "gui.supplementaries.doormat.edit": "Edit Doormat Message"
 }

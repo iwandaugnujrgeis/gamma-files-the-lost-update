@@ -54,7 +54,7 @@ craftingTable.addShapedMeta("lock_block", <item:supplementaries:lock_block>, [
   */
 craftingTable.addShapedMeta("centrifuge", <item:coraline_systems:centrifuge>, [
   [<item:rediscovered:ruby>, <item:kubejs:silver_ingot>, <item:rediscovered:ruby>], 
-  [<item:kubejs:silver_ingot>, <item:coraline_systems:fallen_star_item>, <item:kubejs:silver_ingot>],
+  [<item:kubejs:silver_ingot>, <item:coraline_systems:orb>, <item:kubejs:silver_ingot>],
   [<item:rediscovered:ruby>, <item:kubejs:silver_ingot>, <item:rediscovered:ruby>]], "", <constant:minecraft:recipe/category/crafting:redstone>);
 
 craftingTable.remove(<item:supplementaries:rope>);
@@ -62,9 +62,9 @@ craftingTable.addShapedMeta("supplementaries_rope", <item:supplementaries:rope> 
 
 craftingTable.remove(<item:supplementaries:sack>);
 craftingTable.addShapedMeta("supplementaries_sack", <item:supplementaries:sack>, [
-  [<item:minecraft:wheat>, <item:minecraft:string>, <item:minecraft:wheat>], 
-  [<item:minecraft:wheat>, <item:minecraft:air>, <item:minecraft:wheat>], 
-  [<item:minecraft:wheat>, <item:minecraft:wheat>, <item:minecraft:wheat>]], "", <constant:minecraft:recipe/category/crafting:redstone>);
+  [<item:minecraft:leather>, <item:minecraft:leather>, <item:minecraft:leather>], 
+  [<item:minecraft:leather>, <item:minecraft:chest>, <item:minecraft:leather>], 
+  [<item:minecraft:leather>, <item:minecraft:leather>, <item:minecraft:leather>]], "", <constant:minecraft:recipe/category/crafting:redstone>);
 
 craftingTable.remove(<item:supplementaries:slingshot>);
 craftingTable.addShapedMeta("slingshot", <item:supplementaries:slingshot>, [
@@ -380,6 +380,10 @@ craftingTable.addShapedMeta("music_disc_droopy2", <item:kubejs:music_disc_droopy
 craftingTable.addShapedMeta("rock_salt", <item:kubejs:rock_salt>, [
   [<item:kubejs:salt>, <item:kubejs:salt>],
   [<item:kubejs:salt>, <item:kubejs:salt>]], "", <constant:minecraft:recipe/category/crafting:building>);
+
+craftingTable.addShapedMeta("ruby_tiles", <item:kubejs:ruby_tiles>, [
+  [<item:rediscovered:ruby>, <item:rediscovered:ruby>],
+  [<item:rediscovered:ruby>, <item:rediscovered:ruby>]], "", <constant:minecraft:recipe/category/crafting:building>);
 
 craftingTable.addShapedMeta("polished_rock_salt", <item:kubejs:polished_rock_salt> * 4, [
   [<item:kubejs:rock_salt>, <item:kubejs:rock_salt>],

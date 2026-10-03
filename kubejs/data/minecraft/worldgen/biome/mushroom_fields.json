@@ -100,20 +100,14 @@
     "creature": [
       {
         "type": "minecraft:mooshroom",
-        "maxCount": 8,
-        "minCount": 4,
-        "weight": 8
+        "maxCount": 6,
+        "minCount": 3,
+        "weight": 3
       },
       {
         "type": "alexsmobs:mungus",
-        "maxCount": 4,
-        "minCount": 2,
-        "weight": 16
-      },
-      {
-        "type": "alexsmobs:bunfungus",
-        "maxCount": 2,
-        "minCount": 1,
+        "maxCount": 3,
+        "minCount": 3,
         "weight": 1
       }
     ],

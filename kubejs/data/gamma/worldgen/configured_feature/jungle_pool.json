@@ -2,10 +2,10 @@
   "type": "rediscovered:pool",
   "config": {
     "bottom": {
-      "Name": "minecraft:mossy_cobblestone"
+      "Name": "minecraft:coarse_dirt"
     },
     "cutout_chance": 0.2,
-    "dripleaf_chance": 0.3,
+    "dripleaf_chance": 0.1,
     "edge": {
       "Name": "minecraft:grass_block",
       "Properties": {

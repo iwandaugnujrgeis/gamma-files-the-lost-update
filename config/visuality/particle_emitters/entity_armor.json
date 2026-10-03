@@ -33,6 +33,22 @@
           0.93333334
         ]
       }
+    },
+    {
+      "armor": [
+        "rediscovered:plate_helmet",
+        "rediscovered:plate_chestplate",
+        "rediscovered:plate_leggings",
+        "rediscovered:plate_boots"
+      ],
+      "particle": {
+        "type": "visuality:sparkle",
+        "value": [
+          0.85098039,
+          0.92156863,
+          0.94117647
+        ]
+      }
     }
   ]
 }

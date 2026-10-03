@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:block/cube",
   "textures": {
-    "down": "coraline_systems:block/basket_bottom",
-    "east": "coraline_systems:block/basket_side_handles",
-    "north": "coraline_systems:block/basket_side",
-    "particle": "coraline_systems:block/basket_side",
-    "south": "coraline_systems:block/basket_side",
-    "up": "coraline_systems:block/basket_inner",
-    "west": "coraline_systems:block/basket_side_handles"
+    "down": "coraline_systems:block/cardboard_box_bottom",
+    "east": "coraline_systems:block/cardboard_box_side",
+    "north": "coraline_systems:block/cardboard_box_side_tape",
+    "particle": "coraline_systems:block/cardboard_box_side",
+    "south": "coraline_systems:block/cardboard_box_side_tape",
+    "up": "coraline_systems:block/cardboard_box_top",
+    "west": "coraline_systems:block/cardboard_box_side"
   }
 }

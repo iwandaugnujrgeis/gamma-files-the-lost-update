@@ -120,7 +120,7 @@ key_key.freecam.playerControl:key.keyboard.unknown
 key_key.freecam.tripodReset:key.keyboard.unknown
 key_key.freecam.configGui:key.keyboard.unknown
 soundCategory_master:1.0
-soundCategory_music:0.0
+soundCategory_music:0.3068882042253521
 soundCategory_record:1.0
 soundCategory_weather:0.8047645246478874
 soundCategory_block:0.707394366197183

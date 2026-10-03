@@ -12,6 +12,18 @@
                 "data": {
                   "Name": "minecraft:cornflower"
                 },
+                "weight": 3
+              },
+              {
+                "data": {
+                  "Name": "minecraft:blue_orchid"
+                },
+                "weight": 2
+              },
+              {
+                "data": {
+                  "Name": "minecraft:lily_of_the_valley"
+                },
                 "weight": 1
               }
             ],
