@@ -1,4 +1,10 @@
 {
+  "stat.minecraft.interact_with_brewingstand": "Brewing Check-Ins",
+  "stat.minecraft.interact_with_crafting_table": "Times at the Workbench",
+  "stat.minecraft.interact_with_furnace": "Times Tending the Hearth",
+  "stat.minecraft.interact_with_lectern": "Consulted a Lectern",
+  "stat.minecraft.interact_with_stonecutter": "Masonry Sessions",
+
   "advancements.toast.challenge": "Challenge Complete!",
   "advancements.toast.goal": "Advancement Get!",
   "advancements.toast.task": "Advancement Get!",

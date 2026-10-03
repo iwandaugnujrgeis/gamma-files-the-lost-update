@@ -328,9 +328,6 @@
       "item": "minecraft:torchflower"
     },
     {
-      "item": "minecraft:pitcher_plant"
-    },
-    {
       "item": "minecraft:wither_rose"
     },
     {
@@ -362,15 +359,6 @@
     },
     {
       "item": "minecraft:beetroot_seeds"
-    },
-    {
-      "item": "minecraft:torchflower_seeds"
-    },
-    {
-      "item": "minecraft:pitcher_pod"
-    },
-    {
-      "item": "minecraft:nether_wart"
     },
     {
       "item": "minecraft:lily_pad"

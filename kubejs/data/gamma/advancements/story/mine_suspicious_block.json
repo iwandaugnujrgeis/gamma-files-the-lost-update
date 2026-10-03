@@ -1,5 +1,5 @@
 {
-  "parent": "gamma:story/mine_diamond",
+  "parent": "gamma:story/craft_diamond_pickaxe",
   "criteria": {
     "dimensional_shard": {
       "conditions": {

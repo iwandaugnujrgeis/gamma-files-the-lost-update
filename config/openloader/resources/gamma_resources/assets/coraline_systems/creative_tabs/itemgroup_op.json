@@ -1,0 +1,70 @@
+{
+  "replace": true,
+  "tab_icon": "minecraft:command_block",
+  "tab_items": [
+    {
+      "item": "minecraft:command_block"
+    },
+    {
+      "item": "minecraft:chain_command_block"
+    },
+    {
+      "item": "minecraft:repeating_command_block"
+    },
+    {
+      "item": "minecraft:command_block_minecart"
+    },
+    {
+      "item": "minecraft:structure_block"
+    },
+    {
+      "item": "minecraft:jigsaw"
+    },
+    {
+      "item": "minecraft:structure_block",
+      "nbt": "{BlockStateTag:{mode:'save'}}"
+    },
+    {
+      "item": "minecraft:structure_block",
+      "nbt": "{BlockStateTag:{mode:'load'}}"
+    },
+    {
+      "item": "minecraft:structure_block",
+      "nbt": "{BlockStateTag:{mode:'corner'}}"
+    },
+    {
+      "item": "minecraft:structure_block",
+      "nbt": "{BlockStateTag:{mode:'data'}}"
+    },
+    {
+      "item": "structure_gel:data_handler"
+    },
+    {
+      "item": "minecraft:structure_void"
+    },
+    {
+      "item": "minecraft:barrier"
+    },
+    {
+      "item": "minecraft:debug_stick"
+    },
+    {
+      "item": "structure_gel:red_gel"
+    },
+    {
+      "item": "structure_gel:blue_gel"
+    },
+    {
+      "item": "structure_gel:green_gel"
+    },
+    {
+      "item": "structure_gel:cyan_gel"
+    },
+    {
+      "item": "structure_gel:orange_gel"
+    },
+    {
+      "item": "structure_gel:yellow_gel"
+    }
+  ]
+}

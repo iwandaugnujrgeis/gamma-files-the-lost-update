@@ -3,6 +3,12 @@
 const removedCompletely = [
 
   // Check remove:
+
+  'minecraft:pitcher_pod',
+  'minecraft:torchflower_seeds',
+  'minecraft:pitcher_plant',
+  'minecraft:nether_wart',
+
   'rediscovered:ruby_flute',
   'minecraft:beehive',
   'minecraft:cartography_table',

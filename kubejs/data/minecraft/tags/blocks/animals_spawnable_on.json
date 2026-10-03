@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "minecraft:podzol",
+    "minecraft:tuff",
     "minecraft:coarse_dirt",
     "minecraft:sand",
     "minecraft:snow_block",

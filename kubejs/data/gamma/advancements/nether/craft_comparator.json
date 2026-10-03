@@ -15,7 +15,9 @@
       "trigger": "coraline_systems:player_crafted",
       "conditions": {
         "item": {
-          "items": ["kubejs:comparator"]
+          "items": [
+            "minecraft:comparator"
+          ]
         }
       }
     }

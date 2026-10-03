@@ -1,5 +1,5 @@
 {
-  "parent": "gamma:story/test",
+  "parent": "gamma:story/slay_red_dragon",
   "criteria": {
     "hatch_dragon": {
       "conditions": {
@@ -18,18 +18,14 @@
   },
   "display": {
     "announce_to_chat": true,
-    "description": {
-      "translate": "rediscovered:advancements.skylands.hatch_red_dragon.description"
-    },
-    "frame": "task",
+    "description": "Hatch a Red Dragon Egg with Timedust!",
+    "frame": "goal",
     "hidden": false,
     "icon": {
-      "item": "minecraft:dragon_breath"
+      "item": "rediscovered:red_dragon_egg"
     },
     "show_toast": true,
-    "title": {
-      "translate": "rediscovered:advancements.skylands.hatch_red_dragon.title"
-    }
+    "title": "Placeholder"
   },
   "requirements": [
     [

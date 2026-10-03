@@ -5,14 +5,16 @@
       "trigger": "coraline_systems:player_crafted",
       "conditions": {
         "item": {
-          "items": ["kubejs:copper_pickaxe"]
+          "items": [
+            "kubejs:copper_pickaxe"
+          ]
         }
       }
     }
   },
   "display": {
     "announce_to_chat": true,
-    "description": "Get a... Copper? Pickaxe",
+    "description": "Get a... Copper Pickaxe",
     "frame": "task",
     "hidden": false,
     "icon": {
