@@ -28,23 +28,38 @@
         ]
       },
       "trigger": "minecraft:bred_animals"
+    },
+    "breed_moose": {
+      "conditions": {
+        "child": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "alexsmobs:moose"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:bred_animals"
     }
   },
   "display": {
     "announce_to_chat": true,
-    "description": "Breed Cows or Sheep using Wheat!",
+    "description": "Breed Sheep, Cows or Moose with Wheat",
     "frame": "task",
     "hidden": false,
     "icon": {
       "item": "minecraft:wheat"
     },
     "show_toast": true,
-    "title": "Breed Cows Sheep"
+    "title": "Fifty Shades of Hay"
   },
   "requirements": [
     [
       "breed_cow",
-      "breed_sheep"
+      "breed_sheep",
+      "breed_moose"
     ]
   ],
   "sends_telemetry_event": true

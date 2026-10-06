@@ -5,21 +5,23 @@
       "trigger": "coraline_systems:player_crafted",
       "conditions": {
         "item": {
-          "items": ["minecraft:shears"]
+          "items": [
+            "minecraft:shears"
+          ]
         }
       }
     }
   },
   "display": {
     "announce_to_chat": true,
-    "description": "Obtain Shears",
+    "description": "Craft Shears!",
     "frame": "task",
     "hidden": false,
     "icon": {
       "item": "minecraft:shears"
     },
     "show_toast": true,
-    "title": "Shears"
+    "title": "Scissor Sisters"
   },
   "sends_telemetry_event": true
 }

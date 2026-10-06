@@ -1,5 +1,5 @@
 {
-  "parent": "gamma:nether/test",
+  "parent": "gamma:story/break_spawner",
   "criteria": {
     "wear_the_pants": {
       "trigger": "coraline_systems:cobalt_pants"
@@ -8,7 +8,7 @@
   "display": {
     "announce_to_chat": true,
     "description": "Wear Cobalt Pants to keep your Inventory!",
-    "frame": "task",
+    "frame": "goal",
     "hidden": false,
     "icon": {
       "item": "coraline_systems:cobalt_pants"

@@ -8,13 +8,13 @@
   "display": {
     "announce_to_chat": true,
     "description": "Speed up time by placing an Orb into a Centrifuge!",
-    "frame": "goal",
+    "frame": "challenge",
     "hidden": false,
     "icon": {
       "item": "coraline_systems:centrifuge"
     },
     "show_toast": true,
-    "title": "Speed Up Time"
+    "title": "Tonight, Tonight!"
   },
   "sends_telemetry_event": true
 }

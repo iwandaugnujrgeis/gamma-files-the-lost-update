@@ -6,7 +6,7 @@
     },
     "title": "Zoinks!",
     "description": "Spook a Monster with Plate armor!",
-    "frame": "task",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": true

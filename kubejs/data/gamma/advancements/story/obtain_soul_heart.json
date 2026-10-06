@@ -1,0 +1,34 @@
+{
+  "parent": "gamma:story/break_spawner",
+  "criteria": {
+    "soul_heart": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "alexsmobs:soul_heart"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "soul_heart"
+    ]
+  ],
+  "display": {
+    "announce_to_chat": true,
+    "description": "Claim a Soul Heart with a Cobalt Sword",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "alexsmobs:soul_heart"
+    },
+    "show_toast": true,
+    "title": "Broken Sword"
+  },
+  "sends_telemetry_event": true
+}

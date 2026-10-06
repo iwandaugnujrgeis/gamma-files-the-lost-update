@@ -1,5 +1,5 @@
 {
-  "parent": "gamma:story/iron_tools",
+  "parent": "gamma:story/upgrade_tools",
   "criteria": {
     "cobalt": {
       "trigger": "minecraft:inventory_changed",
@@ -21,7 +21,7 @@
   ],
   "display": {
     "announce_to_chat": true,
-    "description": "Find... Cobalt!",
+    "description": "Break a Spawner to get Cobalt",
     "frame": "task",
     "hidden": false,
     "icon": {

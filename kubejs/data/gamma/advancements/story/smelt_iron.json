@@ -5,7 +5,9 @@
       "trigger": "coraline_systems:player_smelted",
       "conditions": {
         "item": {
-          "items": ["minecraft:iron_ingot"]
+          "items": [
+            "minecraft:iron_ingot"
+          ]
         }
       }
     }

@@ -2,7 +2,8 @@
   "parent": "gamma:story/benchmarking",
   "display": {
     "icon": {
-      "item": "minecraft:wooden_sword"
+      "item": "citadel:fancy_item",
+      "nbt": "{DisplayItem:\"minecraft:wooden_sword\", DisplayBob:1, DisplayZoom:0, DisplayScale:1, DisplaySpin:0, DisplayShake:0}"
     },
     "title": "Time to Strike!",
     "description": "Craft a Wooden Sword!",

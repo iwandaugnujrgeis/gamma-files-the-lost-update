@@ -3,8 +3,8 @@
     "icon": {
       "item": "coraline_systems:dimensional_shard"
     },
-    "title": "Strangeways, Here We Come!",
-    "description": "Throw a Dimensional Shard into an open Nether Portal",
+    "title": "The Mauve Zone!",
+    "description": "Throw a Dimensional Shard into the Nether Portal",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

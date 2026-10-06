@@ -18,8 +18,8 @@
   },
   "display": {
     "announce_to_chat": true,
-    "description": "Slay the Red Dragon...",
-    "frame": "task",
+    "description": "Slay the Red Dragon",
+    "frame": "challenge",
     "hidden": false,
     "icon": {
       "item": "coraline_systems:tesseract"

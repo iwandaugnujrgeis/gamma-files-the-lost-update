@@ -11,7 +11,8 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:book"
+      "item": "citadel:fancy_item",
+      "nbt": "{DisplayItem:\"minecraft:book\", DisplayBob:1, DisplayZoom:0, DisplayScale:1, DisplaySpin:0, DisplayShake:0}"
     },
     "show_toast": true,
     "title": "Taking Inventory"

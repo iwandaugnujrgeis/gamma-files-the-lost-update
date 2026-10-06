@@ -1,0 +1,36 @@
+{
+  "parent": "gamma:story/test",
+  "criteria": {
+    "tame_dog": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:wolf"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "tame_dog"
+    ]
+  ],
+  "display": {
+    "announce_to_chat": true,
+    "description": "Tame a Wolf with a Bone",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:bone"
+    },
+    "show_toast": true,
+    "title": "Who's a Good Boy?"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "gamma:story/shears",
+  "criteria": {
+    "tea": {
+      "trigger": "coraline_systems:player_smelted",
+      "conditions": {
+        "item": {
+          "items": [
+            "coraline_systems:tea_leaves"
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "tea"
+    ]
+  ],
+  "display": {
+    "announce_to_chat": true,
+    "description": "Smelt a Fern into Tea!",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "coraline_systems:tea_leaves"
+    },
+    "show_toast": true,
+    "title": "Steep Dreams"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,41 @@
+{
+  "parent": "gamma:story/test",
+  "criteria": {
+    "invert_detector": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:daylight_detector"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:daylight_detector",
+            "properties": {
+              "inverted": "true"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Invert a Daylight Detector!",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:daylight_detector"
+    },
+    "show_toast": true,
+    "title": "Night Shift"
+  },
+  "sends_telemetry_event": true
+}

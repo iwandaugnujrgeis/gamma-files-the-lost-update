@@ -1,0 +1,20 @@
+{
+  "parent": "gamma:story/redstone",
+  "criteria": {
+    "tune": {
+      "trigger": "coraline_systems:tune_note_block"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Tune a Note Block with a Tuning Fork!",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "coraline_systems:tuning_fork"
+    },
+    "show_toast": true,
+    "title": "Good Vibrations"
+  },
+  "sends_telemetry_event": true
+}

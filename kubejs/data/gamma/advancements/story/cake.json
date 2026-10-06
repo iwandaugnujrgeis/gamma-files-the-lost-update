@@ -1,22 +1,155 @@
 {
   "parent": "gamma:story/craft_dough",
   "criteria": {
-    "cake": {
+    "cake_bite_1": {
+      "trigger": "minecraft:item_used_on_block",
       "conditions": {
         "location": [
           {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:cake"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:block_state_property",
             "block": "minecraft:cake",
-            "condition": "minecraft:block_state_property"
+            "properties": {
+              "bites": "1"
+            }
           }
         ]
-      },
-      "trigger": "minecraft:placed_block"
+      }
+    },
+    "cake_bite_2": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:cake"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:cake",
+            "properties": {
+              "bites": "2"
+            }
+          }
+        ]
+      }
+    },
+    "cake_bite_3": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:cake"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:cake",
+            "properties": {
+              "bites": "3"
+            }
+          }
+        ]
+      }
+    },
+    "cake_bite_4": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:cake"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:cake",
+            "properties": {
+              "bites": "4"
+            }
+          }
+        ]
+      }
+    },
+    "cake_bite_5": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:cake"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:cake",
+            "properties": {
+              "bites": "5"
+            }
+          }
+        ]
+      }
+    },
+    "cake_bite_6": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:cake"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:cake",
+            "properties": {
+              "bites": "6"
+            }
+          }
+        ]
+      }
     }
   },
   "display": {
     "announce_to_chat": true,
-    "description": "Place a Cake!",
-    "frame": "goal",
+    "description": "Take a Bite of a Cake!",
+    "frame": "task",
     "hidden": false,
     "icon": {
       "item": "minecraft:cake"
@@ -26,7 +159,12 @@
   },
   "requirements": [
     [
-      "cake"
+      "cake_bite_1",
+      "cake_bite_2",
+      "cake_bite_3",
+      "cake_bite_4",
+      "cake_bite_5",
+      "cake_bite_6"
     ]
   ],
   "sends_telemetry_event": true

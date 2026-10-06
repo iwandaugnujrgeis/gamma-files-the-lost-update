@@ -1,7 +1,8 @@
 {
   "display": {
     "icon": {
-      "item": "kubejs:dough"
+      "item": "citadel:fancy_item",
+      "nbt": "{DisplayItem:\"kubejs:dough\", DisplayBob:0, DisplayZoom:1, DisplayScale:1, DisplaySpin:0, DisplayShake:0}"
     },
     "title": "Dough You Even Lift?",
     "description": "Craft Dough!",

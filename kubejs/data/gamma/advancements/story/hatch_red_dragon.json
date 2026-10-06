@@ -18,14 +18,14 @@
   },
   "display": {
     "announce_to_chat": true,
-    "description": "Hatch a Red Dragon Egg with Timedust!",
-    "frame": "goal",
+    "description": "Hatch a Dragon Egg with Timedust!",
+    "frame": "task",
     "hidden": false,
     "icon": {
       "item": "rediscovered:red_dragon_egg"
     },
     "show_toast": true,
-    "title": "Placeholder"
+    "title": "Dragonborn!"
   },
   "requirements": [
     [

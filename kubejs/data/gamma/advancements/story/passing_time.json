@@ -1,0 +1,30 @@
+{
+  "parent": "gamma:story/test",
+  "criteria": {
+    "survive": {
+      "trigger": "coraline_systems:stat_threshold",
+      "conditions": {
+        "stat_type": "minecraft:custom",
+        "stat": "minecraft:time_since_death",
+        "min": 24000
+      }
+    }
+  },
+  "requirements": [
+    [
+      "survive"
+    ]
+  ],
+  "display": {
+    "announce_to_chat": true,
+    "description": "Survive one whole day",
+    "frame": "task",
+    "hidden": true,
+    "icon": {
+      "item": "minecraft:clock"
+    },
+    "show_toast": true,
+    "title": "Passing Time"
+  },
+  "sends_telemetry_event": true
+}

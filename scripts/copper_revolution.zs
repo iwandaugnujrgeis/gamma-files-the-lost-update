@@ -12,23 +12,23 @@ import stdlib.List;
 craftingTable.remove(<item:friendsandfoes:copper_button>);
 craftingTable.addShapedMeta("copper_button", <item:friendsandfoes:copper_button> * 2, [
   [<item:minecraft:copper_ingot>], 
-  [<item:minecraft:copper_ingot>]], "copper_buttons", <constant:minecraft:recipe/category/crafting:building>);
+  [<item:minecraft:copper_ingot>]], "copper_buttons", <constant:minecraft:recipe/category/crafting:redstone>);
 
 //Oxidized Buttons:
   craftingTable.remove(<item:friendsandfoes:exposed_copper_button>);
   craftingTable.addShapelessMeta("exposed_copper_button", <item:friendsandfoes:exposed_copper_button>, 
     [<item:friendsandfoes:copper_button>, 
-    <item:coraline_systems:timedust>], "copper_buttons_oxidize", <constant:minecraft:recipe/category/crafting:building>);
+    <item:coraline_systems:timedust>], "copper_buttons_oxidize", <constant:minecraft:recipe/category/crafting:redstone>);
 
   craftingTable.remove(<item:friendsandfoes:weathered_copper_button>);
   craftingTable.addShapelessMeta("weathered_copper_button", <item:friendsandfoes:weathered_copper_button>, 
     [<item:friendsandfoes:exposed_copper_button>, 
-    <item:coraline_systems:timedust>], "copper_buttons_oxidize", <constant:minecraft:recipe/category/crafting:building>);
+    <item:coraline_systems:timedust>], "copper_buttons_oxidize", <constant:minecraft:recipe/category/crafting:redstone>);
 
   craftingTable.remove(<item:friendsandfoes:oxidized_copper_button>);
   craftingTable.addShapelessMeta("oxidized_copper_button", <item:friendsandfoes:oxidized_copper_button>, 
     [<item:friendsandfoes:weathered_copper_button>, 
-    <item:coraline_systems:timedust>], "copper_buttons_oxidize", <constant:minecraft:recipe/category/crafting:building>);
+    <item:coraline_systems:timedust>], "copper_buttons_oxidize", <constant:minecraft:recipe/category/crafting:redstone>);
 
 //Lightning Rods:
 //Oxidized Lightning Rods:

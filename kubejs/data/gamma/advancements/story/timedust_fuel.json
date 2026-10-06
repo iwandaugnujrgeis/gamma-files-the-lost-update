@@ -1,0 +1,26 @@
+{
+  "parent": "gamma:story/obtain_soul_heart",
+  "criteria": {
+    "timedust_fuel": {
+      "trigger": "coraline_systems:timedust_fuel"
+    }
+  },
+  "requirements": [
+    [
+      "timedust_fuel"
+    ]
+  ],
+  "display": {
+    "announce_to_chat": true,
+    "description": "Fuel the Brewing Stand with Timedust",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "citadel:fancy_item",
+      "nbt": "{DisplayItem:\"coraline_systems:timedust\", DisplayBob:1, DisplayZoom:0, DisplayScale:1, DisplaySpin:0, DisplayShake:0}"
+    },
+    "show_toast": true,
+    "title": "Time After Time"
+  },
+  "sends_telemetry_event": true
+}

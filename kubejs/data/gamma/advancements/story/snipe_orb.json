@@ -30,13 +30,11 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "coraline_systems:orb"
+      "item": "citadel:fancy_item",
+      "nbt": "{DisplayItem:\"coraline_systems:orb\", DisplayBob:1, DisplayZoom:0, DisplayScale:1, DisplaySpin:0, DisplayShake:0}"
     },
     "show_toast": true,
-    "title": "Kill Orb"
-  },
-  "rewards": {
-    "experience": 50
+    "title": "Pink Farewell"
   },
   "sends_telemetry_event": true
 }

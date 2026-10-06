@@ -290,12 +290,6 @@
           "biome": "minecraft:swamp"
         },
         {
-          "type": "moderner_beta:constant_biome",
-          "id": "biome_pool_ocean_rare",
-          "seed": 212,
-          "biome": "gamma:calcite_shores"
-        },
-        {
           "type": "moderner_beta:weighted_pool",
           "id": "biome_pool_taiga_rare",
           "seed": 202,
@@ -406,24 +400,6 @@
                 ]
               },
               "result": "biome_pool_forest_rare",
-              "type": "layer"
-            },
-            {
-              "predicate": {
-                "condition": "moderner_beta:all_of",
-                "terms": [
-                  {
-                    "condition": "moderner_beta:single_match",
-                    "biome": "minecraft:ocean"
-                  },
-                  {
-                    "condition": "moderner_beta:random_chance",
-                    "numerator": 1,
-                    "denominator": 3
-                  }
-                ]
-              },
-              "result": "biome_pool_ocean_rare",
               "type": "layer"
             }
           ]

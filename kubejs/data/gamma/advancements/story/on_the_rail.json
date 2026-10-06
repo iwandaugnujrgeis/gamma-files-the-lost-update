@@ -1,0 +1,30 @@
+{
+  "parent": "gamma:story/smelt_iron",
+  "criteria": {
+    "ride_far": {
+      "trigger": "coraline_systems:stat_threshold",
+      "conditions": {
+        "stat_type": "minecraft:custom",
+        "stat": "minecraft:minecart_one_cm",
+        "min": 1000000
+      }
+    }
+  },
+  "requirements": [
+    [
+      "ride_far"
+    ]
+  ],
+  "display": {
+    "announce_to_chat": true,
+    "description": "Travel 10000 Blocks by Minecart",
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:rail"
+    },
+    "show_toast": true,
+    "title": "On the Rail"
+  },
+  "sends_telemetry_event": true
+}

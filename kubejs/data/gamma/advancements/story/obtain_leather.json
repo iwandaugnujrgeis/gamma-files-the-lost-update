@@ -3,8 +3,8 @@
     "icon": {
       "item": "minecraft:leather"
     },
-    "title": "Cow Tipper?",
-    "description": "Obtain Leather, or Craft it using Salt!",
+    "title": "Cow Tipper",
+    "description": "Obtain Leather",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true

@@ -1,29 +1,49 @@
 {
-  "parent": "gamma:story/shears",
+  "parent": "gamma:story/test",
   "criteria": {
-    "shears": {
+    "shears_on_bee_nest": {
+      "trigger": "minecraft:item_used_on_block",
       "conditions": {
-        "items": [
+        "location": [
           {
-            "items": [
-              "minecraft:honeycomb"
-            ]
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:bee_nest"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:bee_nest",
+            "properties": {
+              "honey_level": "5"
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:shears"
+              ]
+            }
           }
         ]
-      },
-      "trigger": "minecraft:inventory_changed"
+      }
     }
   },
   "display": {
     "announce_to_chat": true,
-    "description": "Get Honeycomb",
+    "description": "Shear a Bee Nest",
     "frame": "task",
     "hidden": false,
     "icon": {
       "item": "minecraft:honeycomb"
     },
     "show_toast": true,
-    "title": "Honeycomb"
+    "title": "The Bee Team"
   },
   "sends_telemetry_event": true
 }

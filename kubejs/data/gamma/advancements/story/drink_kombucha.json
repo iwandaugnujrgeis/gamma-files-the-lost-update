@@ -1,0 +1,33 @@
+{
+  "parent": "gamma:story/ferment_tea",
+  "criteria": {
+    "drink_kombucha": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "coraline_systems:kombucha_bottle"
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "drink_kombucha"
+    ]
+  ],
+  "display": {
+    "announce_to_chat": true,
+    "description": "Drink Kombucha to set your Spawn",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "citadel:fancy_item",
+      "nbt": "{DisplayItem:\"coraline_systems:kombucha_bottle\", DisplayBob:1, DisplayZoom:0, DisplayScale:1, DisplaySpin:0, DisplayShake:0}"
+    },
+    "show_toast": true,
+    "title": "Home Brew!"
+  },
+  "sends_telemetry_event": true
+}

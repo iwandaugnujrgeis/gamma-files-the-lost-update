@@ -1,0 +1,36 @@
+{
+  "parent": "gamma:story/breed_chickens",
+  "criteria": {
+    "tame_raccoon": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "alexsmobs:raccoon"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "tame_raccoon"
+    ]
+  ],
+  "display": {
+    "announce_to_chat": true,
+    "description": "Tame a Raccoon with Fried Eggs",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "kubejs:fried_egg"
+    },
+    "show_toast": true,
+    "title": "Raccacoonie"
+  },
+  "sends_telemetry_event": true
+}

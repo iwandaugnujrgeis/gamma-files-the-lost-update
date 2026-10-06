@@ -32,14 +32,14 @@
   },
   "display": {
     "announce_to_chat": true,
-    "description": "Kill a Spider to get String!",
+    "description": "Slay a Spider to get String!",
     "frame": "task",
     "hidden": false,
     "icon": {
       "item": "minecraft:string"
     },
     "show_toast": true,
-    "title": "Spider Man"
+    "title": "The Web-Slinger"
   },
   "requirements": [
     [

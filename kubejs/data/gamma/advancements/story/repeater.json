@@ -8,7 +8,7 @@
   "display": {
     "announce_to_chat": true,
     "description": "Maximize Repeater's delay!",
-    "frame": "goal",
+    "frame": "task",
     "hidden": false,
     "icon": {
       "item": "minecraft:repeater"

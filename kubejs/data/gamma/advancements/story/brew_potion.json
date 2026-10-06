@@ -1,5 +1,5 @@
 {
-  "parent": "gamma:nether/obtain_blaze_rod",
+  "parent": "gamma:story/timedust_fuel",
   "criteria": {
     "potion": {
       "conditions": {},
@@ -8,17 +8,15 @@
   },
   "display": {
     "announce_to_chat": true,
-    "description": {
-      "translate": "advancements.nether.brew_potion.description"
-    },
+    "description": "Brew a Potion!",
     "frame": "task",
     "hidden": false,
     "icon": {
       "item": "minecraft:potion",
-      "nbt": "{Potion: \"alexsmobs:clinging\"}"
+      "nbt": "{Potion: \"minecraft:strength\"}"
     },
     "show_toast": true,
-    "title": "Breaking Brew"
+    "title": "Local Brewery!"
   },
   "requirements": [
     [

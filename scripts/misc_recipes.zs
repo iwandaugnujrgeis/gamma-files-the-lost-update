@@ -52,6 +52,7 @@ craftingTable.addShapedMeta("lock_block", <item:supplementaries:lock_block>, [
   [<tag:items:minecraft:planks>, <item:minecraft:redstone>, <tag:items:minecraft:planks>],
   [<item:kubejs:silver_ingot>, <tag:items:minecraft:planks>, <item:kubejs:silver_ingot>]], "", <constant:minecraft:recipe/category/crafting:redstone>);
   */
+
 craftingTable.addShapedMeta("centrifuge", <item:coraline_systems:centrifuge>, [
   [<item:rediscovered:ruby>, <item:kubejs:silver_ingot>, <item:rediscovered:ruby>], 
   [<item:kubejs:silver_ingot>, <item:coraline_systems:orb>, <item:kubejs:silver_ingot>],
@@ -127,7 +128,7 @@ craftingTable.remove(<item:kubejs:sweet_berry_cookie>);
 craftingTable.addShapelessMeta("sweet_berry_cookie", <item:kubejs:sweet_berry_cookie> * 4, [<item:kubejs:dough>, <item:minecraft:sweet_berries>, <item:minecraft:sugar>, <item:kubejs:dough>], "", <constant:minecraft:recipe/category/crafting:misc>);
 
 furnace.remove(<item:kubejs:fried_egg>);
-furnace.addRecipeMeta("fried_egg", <item:kubejs:fried_egg>, <tag:items:forge:eggs>, 0.35, 0, "", <constant:minecraft:recipe/category/cooking:food>);
+furnace.addRecipeMeta("fried_egg", <item:kubejs:fried_egg>, <tag:items:forge:eggs>, 0.35, 200, "", <constant:minecraft:recipe/category/cooking:food>);
 
 craftingTable.remove(<item:minecraft:pumpkin>);
 craftingTable.addShapedMeta("pumpkin", <item:minecraft:pumpkin>, [
@@ -365,7 +366,7 @@ craftingTable.addShapedMeta("golden_potato", <item:kubejs:golden_potato>, [
   [<item:minecraft:gold_ingot>, <item:minecraft:potato>, <item:minecraft:gold_ingot>],
   [<item:minecraft:gold_ingot>, <item:minecraft:gold_ingot>, <item:minecraft:gold_ingot>]], "", <constant:minecraft:recipe/category/crafting:misc>);
 
-craftingTable.addShapelessMeta("soul_dust_heart", <item:coraline_systems:timedust> * 8, [<item:alexsmobs:soul_heart>], "", <constant:minecraft:recipe/category/crafting:misc>);
+craftingTable.addShapelessMeta("soul_dust_heart", <item:coraline_systems:timedust> * 3, [<item:alexsmobs:soul_heart>], "", <constant:minecraft:recipe/category/crafting:misc>);
 
 craftingTable.addShapelessMeta("banana_bread", <item:kubejs:banana_bread> * 2, [<item:kubejs:butter>, <item:coraline_systems:banana>, <item:minecraft:sugar>, <item:kubejs:dough>], "", <constant:minecraft:recipe/category/crafting:misc>);
 
@@ -449,7 +450,7 @@ furnace.addRecipeMeta("cobalt_smelt", <item:kubejs:cobalt>, <item:alexsmobs:soul
 
 craftingTable.addShapedMeta("spawner", <item:minecraft:spawner>, [
   [<item:kubejs:cobalt>, <item:kubejs:cobalt>, <item:kubejs:cobalt>],
-  [<item:kubejs:cobalt>, <item:rediscovered:ruby>, <item:kubejs:cobalt>],
+  [<item:kubejs:cobalt>, <item:minecraft:air>, <item:kubejs:cobalt>],
   [<item:kubejs:cobalt>, <item:kubejs:cobalt>, <item:kubejs:cobalt>]], "", <constant:minecraft:recipe/category/crafting:redstone>);
 
 craftingTable.addShapedMeta("cobalt_pants", <item:coraline_systems:cobalt_pants>, [
@@ -461,6 +462,11 @@ craftingTable.addShapedMeta("cobalt_sword", <item:kubejs:cobalt_sword>, [
   [<item:kubejs:cobalt>],
   [<item:kubejs:cobalt>],
   [<item:minecraft:stick>]], "", <constant:minecraft:recipe/category/crafting:equipment>);
+
+craftingTable.addShapedMeta("container", <item:coraline_systems:container>, [
+  [<item:kubejs:cobalt>, <item:kubejs:cobalt>, <item:kubejs:cobalt>],
+  [<item:kubejs:cobalt>, <tag:items:forge:chests/wooden>, <item:kubejs:cobalt>],
+  [<item:kubejs:cobalt>, <item:kubejs:cobalt>, <item:kubejs:cobalt>]], "", <constant:minecraft:recipe/category/crafting:redstone>);
 
 craftingTable.remove(<item:quark:backpack>);
 craftingTable.addShapedMeta("backpack_quark", <item:quark:backpack>, [

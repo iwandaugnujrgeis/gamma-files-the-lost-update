@@ -1,0 +1,36 @@
+{
+  "parent": "gamma:story/plant_seed",
+  "criteria": {
+    "breed_chicken": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:chicken"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "breed_chicken"
+    ]
+  ],
+  "display": {
+    "announce_to_chat": true,
+    "description": "Breed Chickens with Seeds!",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:egg"
+    },
+    "show_toast": true,
+    "title": "Eggmaxxing"
+  },
+  "sends_telemetry_event": true
+}

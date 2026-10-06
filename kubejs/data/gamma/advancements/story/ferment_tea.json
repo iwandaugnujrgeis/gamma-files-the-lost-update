@@ -1,0 +1,25 @@
+{
+  "parent": "gamma:story/smelt_tea",
+  "criteria": {
+    "ferment_tea": {
+      "trigger": "coraline_systems:kombucha_culture"
+    }
+  },
+  "requirements": [
+    [
+      "ferment_tea"
+    ]
+  ],
+  "display": {
+    "announce_to_chat": true,
+    "description": "Add a Fermented Spider Eye into a Tea-filled Cauldron!",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:fermented_spider_eye"
+    },
+    "show_toast": true,
+    "title": "Scoby Wan Kenobi"
+  },
+  "sends_telemetry_event": true
+}

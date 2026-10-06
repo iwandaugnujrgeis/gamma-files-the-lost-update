@@ -1,18 +1,6 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "ruby": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "rediscovered:ruby"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "cobalt": {
       "conditions": {
         "items": [
@@ -34,7 +22,6 @@
   },
   "requirements": [
     [
-      "ruby",
       "cobalt",
       "has_the_recipe"
     ]
