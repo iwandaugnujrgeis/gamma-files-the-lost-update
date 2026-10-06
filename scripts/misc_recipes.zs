@@ -468,6 +468,11 @@ craftingTable.addShapedMeta("container", <item:coraline_systems:container>, [
   [<item:kubejs:cobalt>, <tag:items:forge:chests/wooden>, <item:kubejs:cobalt>],
   [<item:kubejs:cobalt>, <item:kubejs:cobalt>, <item:kubejs:cobalt>]], "", <constant:minecraft:recipe/category/crafting:redstone>);
 
+craftingTable.addShapedMeta("altar", <item:coraline_systems:altar>, [
+  [<item:kubejs:cobalt>, <item:kubejs:cobalt>, <item:kubejs:cobalt>],
+  [<item:kubejs:silver_ingot>, <item:rediscovered:ruby>, <item:kubejs:silver_ingot>],
+  [<item:kubejs:silver_ingot>, <item:kubejs:silver_ingot>, <item:kubejs:silver_ingot>]], "", <constant:minecraft:recipe/category/crafting:redstone>);
+
 craftingTable.remove(<item:quark:backpack>);
 craftingTable.addShapedMeta("backpack_quark", <item:quark:backpack>, [
   [<item:minecraft:leather>, <item:minecraft:leather>, <item:minecraft:leather>],
@@ -706,11 +711,13 @@ craftingTable.addShapedMeta("paper_wall", <item:quark:paper_wall> * 8, [
 
 craftingTable.remove(<item:supplementaries:confetti_popper>);
 
+/*
 craftingTable.remove(<item:supplementaries:speaker_block>);
 craftingTable.addShapedMeta("speaker_block", <item:supplementaries:speaker_block>, [
   [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>],
   [<tag:items:minecraft:planks>, <item:rediscovered:ruby>, <tag:items:minecraft:planks>],
   [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]], "", <constant:minecraft:recipe/category/crafting:redstone>);
+  */
 
 craftingTable.remove(<item:rediscovered:ancient_crying_obsidian>);
 
