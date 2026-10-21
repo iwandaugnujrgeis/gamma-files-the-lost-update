@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "lime_dye",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "sweety_garden:wood_sorrel"
+    }
+  ],
+  "result": {
+    "item": "minecraft:lime_dye",
+    "count": 1
+  }
+}

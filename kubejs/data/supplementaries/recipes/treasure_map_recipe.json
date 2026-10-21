@@ -1,0 +1,10 @@
+{
+  "type": "supplementaries:weathered_map",
+  "category": "equipment",
+  "conditions": [
+    {
+      "type": "supplementaries:flag",
+      "flag": "antique_ink"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "supplementaries:sack"
+    },
+    "title": {
+      "translate": "advancements.gamma.story.full_sacks.title"
+    },
+    "description": {
+      "translate": "advancements.gamma.story.full_sacks.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "gamma:story/obtain_leather",
+  "criteria": {
+    "full_sacks": {
+      "trigger": "coraline_systems:full_sacks"
+    }
+  }
+}

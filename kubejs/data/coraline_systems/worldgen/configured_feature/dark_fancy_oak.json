@@ -1,0 +1,71 @@
+{
+  "type": "minecraft:tree",
+  "config": {
+    "ignore_vines": true,
+    "force_dirt": true,
+    "minimum_size": {
+      "type": "minecraft:two_layers_feature_size",
+      "limit": 1,
+      "lower_size": 0,
+      "upper_size": 1
+    },
+    "dirt_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:dirt"
+      }
+    },
+    "trunk_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:dark_oak_log",
+        "Properties": {
+          "axis": "y"
+        }
+      }
+    },
+    "foliage_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:dark_oak_leaves",
+        "Properties": {
+          "waterlogged": "false",
+          "persistent": "false",
+          "distance": "7"
+        }
+      }
+    },
+    "trunk_placer": {
+      "type": "coraline_systems:twisted_trunk_placer",
+      "base_height": 5,
+      "height_rand_a": 2,
+      "height_rand_b": 0,
+      "bend_spacing": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 2,
+          "max_inclusive": 3
+        }
+      },
+      "bend_length": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 1,
+          "max_inclusive": 2
+        }
+      },
+      "twist_chance": 0.15,
+      "straight_base": 2,
+      "straight_top": 2
+    },
+    "foliage_placer": {
+      "type": "coraline_systems:gloomy_foliage_placer",
+      "radius": 2,
+      "offset": 0,
+      "lean_chance": 0.4,
+      "droop_chance": 0,
+      "oak_blob": true
+    },
+    "decorators": []
+  }
+}

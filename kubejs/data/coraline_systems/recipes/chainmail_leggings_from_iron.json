@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "chainmail_leggings",
+  "key": {
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "N": {
+      "tag": "forge:nuggets/iron"
+    }
+  },
+  "pattern": [
+    "NIN",
+    "I I",
+    "N N"
+  ],
+  "result": {
+    "item": "minecraft:chainmail_leggings"
+  },
+  "show_notification": true
+}

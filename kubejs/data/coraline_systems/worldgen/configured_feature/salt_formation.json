@@ -1,0 +1,10 @@
+{
+  "type": "coraline_systems:salt_formation",
+  "config": {
+    "block": { 
+      "Name": "kubejs:rock_salt" 
+    },
+    "height": 4,
+    "satellite_count": 2
+  }
+}

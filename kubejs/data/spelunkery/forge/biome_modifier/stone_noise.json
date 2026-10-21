@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": "gamma:null",
+  "features": [
+    "spelunkery:noise_stone",
+    "spelunkery:noise_iron"
+  ],
+  "step": "raw_generation"
+}

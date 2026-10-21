@@ -1,0 +1,31 @@
+{
+  "parent": "gamma:story/timedust_fuel",
+  "criteria": {
+    "potion": {
+      "conditions": {},
+      "trigger": "minecraft:brewed_potion"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.gamma.story.brew_potion.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:potion",
+      "nbt": "{Potion: \"minecraft:strength\"}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.gamma.story.brew_potion.title"
+    }
+  },
+  "requirements": [
+    [
+      "potion"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

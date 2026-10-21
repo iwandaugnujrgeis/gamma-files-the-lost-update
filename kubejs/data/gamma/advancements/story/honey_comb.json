@@ -1,0 +1,53 @@
+{
+  "parent": "gamma:story/test",
+  "criteria": {
+    "shears_on_bee_nest": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:bee_nest"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:bee_nest",
+            "properties": {
+              "honey_level": "5"
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:shears"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.gamma.story.honey_comb.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:honeycomb"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.gamma.story.honey_comb.title"
+    }
+  },
+  "sends_telemetry_event": true
+}

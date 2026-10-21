@@ -1,0 +1,5 @@
+{
+  "defaults": {
+    "coraline_systems:toggle_recipe_book": { "axis": "controlify:axis/right_trigger" }
+  }
+}

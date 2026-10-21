@@ -1,0 +1,7 @@
+{
+  "__comment": "If fed and treasure map is in offhand, it will look for the treasure chest",
+  "replace": true,
+  "values": [
+    "supplementaries:flax"
+  ]
+}

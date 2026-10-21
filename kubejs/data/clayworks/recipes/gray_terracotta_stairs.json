@@ -1,0 +1,33 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "clayworks:config",
+          "value": "terracotta_variants"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "building",
+        "group": "terracotta_stairs",
+        "key": {
+          "#": {
+            "item": "minecraft:gray_terracotta"
+          }
+        },
+        "pattern": [
+          "#  ",
+          "## ",
+          "###"
+        ],
+        "result": {
+          "count": 4,
+          "item": "clayworks:gray_terracotta_stairs"
+        },
+        "show_notification": true
+      }
+    }
+  ]
+}

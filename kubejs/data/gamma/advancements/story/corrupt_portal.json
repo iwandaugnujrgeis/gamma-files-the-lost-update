@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "coraline_systems:dimensional_shard"
+    },
+    "title": {
+      "translate": "advancements.gamma.story.corrupt_portal.title"
+    },
+    "description": {
+      "translate": "advancements.gamma.story.corrupt_portal.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "gamma:story/mine_suspicious_block",
+  "criteria": {
+    "corrupt_portal": {
+      "trigger": "coraline_systems:corrupt_portal"
+    }
+  }
+}

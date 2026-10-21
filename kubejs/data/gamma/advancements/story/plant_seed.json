@@ -1,0 +1,74 @@
+{
+  "parent": "gamma:story/obtain_hoe",
+  "criteria": {
+    "beetroots": {
+      "conditions": {
+        "location": [
+          {
+            "block": "minecraft:beetroots",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      },
+      "trigger": "minecraft:placed_block"
+    },
+    "melon_stem": {
+      "conditions": {
+        "location": [
+          {
+            "block": "minecraft:melon_stem",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      },
+      "trigger": "minecraft:placed_block"
+    },
+    "pumpkin_stem": {
+      "conditions": {
+        "location": [
+          {
+            "block": "minecraft:pumpkin_stem",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      },
+      "trigger": "minecraft:placed_block"
+    },
+    "wheat": {
+      "conditions": {
+        "location": [
+          {
+            "block": "minecraft:wheat",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.gamma.story.plant_seed.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "citadel:fancy_item",
+      "nbt": "{DisplayItem:\"minecraft:wheat_seeds\", DisplayBob:1, DisplayZoom:0, DisplayScale:1, DisplaySpin:0, DisplayShake:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.gamma.story.plant_seed.title"
+    }
+  },
+  "requirements": [
+    [
+      "wheat",
+      "pumpkin_stem",
+      "melon_stem",
+      "beetroots"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

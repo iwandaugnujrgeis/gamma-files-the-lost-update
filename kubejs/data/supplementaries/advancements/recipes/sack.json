@@ -1,0 +1,47 @@
+{
+  "rewards": {
+    "recipes": [
+      "crafttweaker:sack"
+    ]
+  },
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "crafttweaker:sack"
+      }
+    },
+    "has_leather": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:leather"
+            ]
+          }
+        ]
+      }
+    },
+    "has_chest": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chest"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_leather",
+      "has_chest"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

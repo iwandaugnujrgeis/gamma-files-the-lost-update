@@ -1,0 +1,61 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "dough": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:dough"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "honey_bottle": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:honey_bottle"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "sugar": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sugar"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "crafttweaker:honey_cookie"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "dough",
+      "honey_bottle",
+      "sugar",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "crafttweaker:honey_cookie"
+    ]
+  },
+  "sends_telemetry_event": false
+}

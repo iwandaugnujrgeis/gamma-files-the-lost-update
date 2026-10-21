@@ -1,0 +1,12 @@
+{
+  "type": "spawn:dragon_reeds",
+  "config": {
+    "state_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        { "weight": 1, "data": { "Name": "spawn:summer_dragon_reeds" } },
+        { "weight": 1, "data": { "Name": "spawn:spring_dragon_reeds" } }
+      ]
+    }
+  }
+}

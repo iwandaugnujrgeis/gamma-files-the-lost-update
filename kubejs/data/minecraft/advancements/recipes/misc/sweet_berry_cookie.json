@@ -1,0 +1,61 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "dough": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:dough"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "sweet_berries": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sweet_berries"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "sugar": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sugar"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "crafttweaker:sweet_berry_cookie"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "dough",
+      "sweet_berries",
+      "sugar",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "crafttweaker:sweet_berry_cookie"
+    ]
+  },
+  "sends_telemetry_event": false
+}

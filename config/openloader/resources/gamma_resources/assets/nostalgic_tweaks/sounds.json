@@ -1,0 +1,24 @@
+{
+  "cave": {
+    "replace": true,
+    "sounds": [
+      "ambient/cave/cave2",
+      "ambient/cave/cave3",
+      "ambient/cave/cave4",
+      "ambient/cave/cave5",
+      "ambient/cave/cave6",
+      "ambient/cave/cave7",
+      "ambient/cave/cave8",
+      "ambient/cave/cave9",
+      "ambient/cave/cave12",
+      "ambient/cave/cave13",
+      "ambient/cave/cave15",
+      "ambient/cave/cave19",
+      "ambient/cave/cave20",
+      "ambient/cave/cave21",
+      "ambient/cave/cave22",
+      "ambient/cave/cave23",
+      "ambient/cave/cave24"
+    ]
+  }
+}

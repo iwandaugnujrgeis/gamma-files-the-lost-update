@@ -1,0 +1,78 @@
+{
+  "name": "spawn:octopolis/octopus_house",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "spawn:octopolis/octopus_home_0",
+        "processors": "spawn:octopolis_processor",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "spawn:octopolis/octopus_home_1",
+        "processors": "spawn:octopolis_processor",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "spawn:octopolis/octopus_home_2",
+        "processors": "spawn:octopolis_processor",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "spawn:octopolis/octopus_home_3",
+        "processors": "spawn:octopolis_processor",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "spawn:octopolis/octopus_home_4",
+        "processors": "spawn:octopolis_processor",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "spawn:octopolis/octopus_home_5",
+        "processors": "spawn:octopolis_processor",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "spawn:octopolis/octopus_home_6",
+        "processors": "spawn:octopolis_processor",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "spawn:octopolis/octopus_home_7",
+        "processors": "spawn:octopolis_processor",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ]
+}

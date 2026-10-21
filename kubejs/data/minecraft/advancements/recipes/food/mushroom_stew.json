@@ -1,0 +1,72 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bowl": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bowl"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "salt": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:salt"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_mushroom_stew": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mushroom_stew"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mushrooms": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:mushrooms"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "crafttweaker:mushroom_stew"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_mushroom_stew",
+      "has_bowl",
+      "salt",
+      "mushrooms",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "crafttweaker:mushroom_stew"
+    ]
+  },
+  "sends_telemetry_event": false
+}

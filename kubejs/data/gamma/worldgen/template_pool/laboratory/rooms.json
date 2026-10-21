@@ -1,0 +1,51 @@
+{
+  "name": "gamma:laboratory/rooms",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gamma:laboratory/room_12",
+        "processors": "gamma:laboratory_processor",
+        "projection": "rigid"
+        },
+      "weight": 5
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gamma:laboratory/room_10",
+        "processors": "gamma:laboratory_processor",
+        "projection": "rigid"
+        },
+      "weight": 5
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gamma:laboratory/room_11",
+        "processors": "gamma:laboratory_processor",
+        "projection": "rigid"
+        },
+      "weight": 5
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gamma:laboratory/large_room_10",
+        "processors": "gamma:laboratory_processor",
+        "projection": "rigid"
+        },
+      "weight": 5
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gamma:laboratory/large_room_11",
+        "processors": "gamma:laboratory_processor",
+        "projection": "rigid"
+        },
+      "weight": 5
+    }
+  ]
+}

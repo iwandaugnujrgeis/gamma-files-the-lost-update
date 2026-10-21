@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "coraline_systems:block/centrifuge",
+    "east": "coraline_systems:block/centrifuge",
+    "north": "coraline_systems:block/centrifuge",
+    "particle": "coraline_systems:block/centrifuge",
+    "south": "coraline_systems:block/centrifuge",
+    "up": "coraline_systems:block/centrifuge_top",
+    "west": "coraline_systems:block/centrifuge"
+  }
+}

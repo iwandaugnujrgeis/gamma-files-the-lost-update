@@ -1,0 +1,46 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "dyes": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:dyes"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "brush": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:brush"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "crafttweaker:easel"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "dyes",
+      "brush",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "crafttweaker:easel"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "bottom=false": { "model": "coraline_systems:block/girder_stable" },
+    "bottom=true": { "model": "coraline_systems:block/girder_unstable" }
+  }
+}

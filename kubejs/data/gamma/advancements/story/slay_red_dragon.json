@@ -1,0 +1,40 @@
+{
+  "parent": "gamma:story/enter_brick_pyramid",
+  "criteria": {
+    "slay_dragon": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "rediscovered:red_dragon"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.gamma.story.slay_red_dragon.description"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "coraline_systems:tesseract"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.gamma.story.slay_red_dragon.title"
+    }
+  },
+  "requirements": [
+    [
+      "slay_dragon"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

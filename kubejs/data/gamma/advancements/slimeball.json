@@ -1,0 +1,35 @@
+{
+  "parent": "gamma:waiting_room/root",
+  "criteria": {
+    "requirement": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:slime"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.gamma.slimeball.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:slime_ball"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.gamma.slimeball.title"
+    }
+  },
+  "sends_telemetry_event": true
+}

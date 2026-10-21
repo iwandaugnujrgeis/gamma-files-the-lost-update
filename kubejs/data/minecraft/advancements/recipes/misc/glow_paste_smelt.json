@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "glow_lichen": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:glow_lichen"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "torch": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "coraline_systems:torch"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "crafttweaker:glow_paste_smelt"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "torch",
+      "glow_lichen",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "crafttweaker:glow_paste_smelt"
+    ]
+  },
+  "sends_telemetry_event": false
+}

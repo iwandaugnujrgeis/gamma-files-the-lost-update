@@ -1,0 +1,89 @@
+{
+  "entity.passerine.ambient": {
+    "replace": true,
+    "subtitle": "habitat.subtitles.entity.passerine.ambient",
+    "sounds": [
+      {
+        "name": "habitat:mob/passerine/sing1",
+        "volume": 1.3,
+        "weight": 5
+      },
+      {
+        "name": "habitat:mob/passerine/sing2",
+        "volume": 1.3,
+        "weight": 5
+      },
+      {
+        "name": "habitat:mob/passerine/sing3",
+        "volume": 1.3,
+        "weight": 3
+      },
+      {
+        "name": "habitat:mob/passerine/call1",
+        "volume": 0.9,
+        "weight": 1
+      }
+    ]
+  },
+  "entity.passerine.death": {
+    "replace": true,
+    "subtitle": "habitat.subtitles.entity.passerine.death",
+    "sounds": [
+      {
+        "name": "habitat:mob/passerine/hurt1"
+      },
+      {
+        "name": "habitat:mob/passerine/hurt1",
+        "pitch": 0.9
+      },
+      {
+        "name": "habitat:mob/passerine/hurt2"
+      },
+      {
+        "name": "habitat:mob/passerine/hurt2",
+        "pitch": 0.9
+      }
+    ]
+  },
+  "entity.passerine.flap": {
+    "subtitle": "habitat.subtitles.entity.passerine.flap",
+    "sounds": [
+      "mob/parrot/fly1",
+      "mob/parrot/fly2",
+      "mob/parrot/fly3",
+      "mob/parrot/fly4",
+      "mob/parrot/fly5",
+      "mob/parrot/fly6",
+      "mob/parrot/fly7",
+      "mob/parrot/fly8"
+    ]
+  },
+  "entity.passerine.hurt": {
+    "replace": true,
+    "subtitle": "habitat.subtitles.entity.passerine.hurt",
+    "sounds": [
+      {
+        "name": "habitat:mob/passerine/hurt1"
+      },
+      {
+        "name": "habitat:mob/passerine/hurt1",
+        "pitch": 0.9
+      },
+      {
+        "name": "habitat:mob/passerine/hurt2"
+      },
+      {
+        "name": "habitat:mob/passerine/hurt2",
+        "pitch": 0.9
+      }
+    ]
+  },
+  "entity.passerine.step": {
+    "sounds": [
+      "habitat:mob/passerine/step1",
+      "habitat:mob/passerine/step2",
+      "habitat:mob/passerine/step3",
+      "habitat:mob/passerine/step4"
+    ]
+  }
+}

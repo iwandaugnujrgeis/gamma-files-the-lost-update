@@ -1,0 +1,80 @@
+{
+  "type": "minecraft:tree",
+  "config": {
+    "ignore_vines": true,
+    "force_dirt": true,
+    "minimum_size": {
+      "type": "minecraft:two_layers_feature_size",
+      "limit": 1,
+      "lower_size": 1,
+      "upper_size": 2
+    },
+    "dirt_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:dirt"
+      }
+    },
+    "trunk_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:oak_log",
+        "Properties": {
+          "axis": "y"
+        }
+      }
+    },
+    "foliage_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:oak_leaves",
+        "Properties": {
+          "waterlogged": "false",
+          "persistent": "false",
+          "distance": "7"
+        }
+      }
+    },
+    "trunk_placer": {
+      "type": "coraline_systems:mega_oak_trunk_placer",
+      "base_height": 22,
+      "height_rand_a": 3,
+      "height_rand_b": 3,
+      "branch_config": {
+        "count": 4,
+        "count_random": 1,
+        "start_down": 10,
+        "length": 5,
+        "length_random": 3,
+        "jag_chance": 0.3,
+        "upturn_chance": 0.3,
+        "upturn_height": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 2,
+            "max_inclusive": 4
+          }
+        }
+      }
+    },
+    "foliage_placer": {
+      "type": "coraline_systems:mega_oak_foliage_placer",
+      "radius": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 3,
+          "max_inclusive": 4
+        }
+      },
+      "offset": 0,
+      "vertical_radius": 2,
+      "rim_skip_chance": 0.25
+    },
+    "decorators": [
+      {
+        "type": "coraline_systems:leaf_lichen",
+        "probability": 0.08
+      }
+    ]
+  }
+}

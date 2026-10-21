@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "carpet",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:white_carpet"
+    },
+    "B": {
+      "item": "minecraft:green_dye"
+    }
+  },
+  "result": {
+    "item": "minecraft:green_carpet",
+    "count": 8
+  }
+}

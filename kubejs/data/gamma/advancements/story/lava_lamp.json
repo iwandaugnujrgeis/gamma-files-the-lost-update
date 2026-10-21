@@ -1,0 +1,33 @@
+{
+  "parent": "gamma:story/test",
+  "criteria": {
+    "shears": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:lava_lamp"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.gamma.story.lava_lamp.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "kubejs:lava_lamp"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.gamma.story.lava_lamp.title"
+    }
+  },
+  "sends_telemetry_event": true
+}

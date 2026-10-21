@@ -1,0 +1,56 @@
+{
+  "parent": "gamma:story/obtain_hoe",
+  "criteria": {
+    "use_bone_meal_on_crop": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:beetroots",
+                  "minecraft:carrots",
+                  "minecraft:melon_stem",
+                  "minecraft:potatoes",
+                  "minecraft:pumpkin_stem",
+                  "minecraft:wheat"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:bone_meal"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "use_bone_meal_on_crop"
+    ]
+  ],
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.gamma.story.speed_up_crop_growth.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:bone_meal"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.gamma.story.speed_up_crop_growth.title"
+    }
+  },
+  "sends_telemetry_event": true
+}

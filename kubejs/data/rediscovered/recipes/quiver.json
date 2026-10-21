@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "quiver",
+  "key": {
+    "F": {
+      "item": "minecraft:feather"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "S": {
+      "item": "minecraft:string"
+    }
+  },
+  "pattern": [
+    "FLL",
+    "SLL",
+    "SLL"
+  ],
+  "result": {
+    "item": "rediscovered:quiver"
+  },
+  "show_notification": true
+}

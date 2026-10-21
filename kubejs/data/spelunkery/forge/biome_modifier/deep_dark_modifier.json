@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": "gamma:null",
+  "features": [
+    "spelunkery:deep_dark_fossil",
+    "spelunkery:noise_sculk"
+  ],
+  "step": "underground_ores"
+}

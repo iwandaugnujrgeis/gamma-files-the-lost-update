@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "WSW",
+    "WIW",
+    "WSW"
+  ],
+  "key": {
+    "S": {
+      "tag": "forge:rods/wooden"
+    },
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "W": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "quark:abacus"
+  },
+  "conditions": [
+    {
+      "type": "quark:flag",
+      "flag": "abacus"
+    }
+  ]
+}

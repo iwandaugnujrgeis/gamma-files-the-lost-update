@@ -1,0 +1,40 @@
+{
+  "parent": "gamma:nether/brew_potion",
+  "criteria": {
+    "cure": {
+      "conditions": {
+        "pigman": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "#rediscovered:pigman"
+            }
+          }
+        ]
+      },
+      "trigger": "rediscovered:cure_pigman"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.gamma.nether.cure_pigman.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:golden_carrot"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.gamma.nether.cure_pigman.title"
+    }
+  },
+  "requirements": [
+    [
+      "cure"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

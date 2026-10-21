@@ -1,0 +1,8 @@
+{
+  "type": "spawn:seagrass_meadow_rock",
+  "config": {
+    "state": {
+      "Name": "minecraft:mossy_cobblestone"
+    }
+  }
+}

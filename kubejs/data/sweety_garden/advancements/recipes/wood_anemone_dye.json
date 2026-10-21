@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_wood_anemone": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sweety_garden:wood_anemone"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "sweety_garden:wood_anemone_dye"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_wood_anemone",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "sweety_garden:wood_anemone_dye"
+    ]
+  },
+  "sends_telemetry_event": false
+}

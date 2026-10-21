@@ -1,0 +1,46 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "leather": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:leather"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_lots_of_items": {
+      "conditions": {
+        "slots": {
+          "occupied": {
+            "min": 27
+          }
+        }
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "crafttweaker:backpack_quark"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_lots_of_items",
+      "leather",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "crafttweaker:backpack_quark"
+    ]
+  },
+  "sends_telemetry_event": false
+}

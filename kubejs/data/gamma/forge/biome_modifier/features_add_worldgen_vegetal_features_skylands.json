@@ -1,0 +1,14 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "rediscovered:skylands",
+    "rediscovered:wooded_skylands",
+    "rediscovered:rainforest"
+  ],
+  "features": [
+    "minecraft:patch_tall_grass_2",
+    "minecraft:patch_grass_plain",
+    "sweety_garden:wood_sorrel_patchs"
+  ],
+  "step": "vegetal_decoration"
+}

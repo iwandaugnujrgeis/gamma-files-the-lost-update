@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.5,
+        "feature": {
+          "feature": "minecraft:huge_red_mushroom",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.1,
+        "feature": {
+          "feature": "coraline_systems:huge_white_mushroom",
+          "placement": []
+        }
+      }
+    ],
+    "default": {
+      "feature": "minecraft:huge_brown_mushroom",
+      "placement": []
+    }
+  }
+}

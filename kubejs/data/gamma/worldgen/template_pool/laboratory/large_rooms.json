@@ -1,0 +1,5 @@
+{
+  "name": "gamma:laboratory/large_rooms",
+  "fallback": "minecraft:empty",
+  "elements": []
+}

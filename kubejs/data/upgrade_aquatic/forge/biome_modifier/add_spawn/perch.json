@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "gamma:null",
+  "spawners": {
+    "type": "upgrade_aquatic:perch",
+    "maxCount": 6,
+    "minCount": 1,
+    "weight": 5
+  }
+}

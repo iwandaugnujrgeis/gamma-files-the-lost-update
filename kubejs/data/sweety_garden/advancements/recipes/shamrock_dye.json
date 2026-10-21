@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_purple_shamrock": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sweety_garden:purple_shamrock"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "sweety_garden:shamrock_dye"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_purple_shamrock",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "sweety_garden:shamrock_dye"
+    ]
+  },
+  "sends_telemetry_event": false
+}

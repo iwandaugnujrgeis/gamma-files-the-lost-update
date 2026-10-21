@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "studded_helmet",
+  "key": {
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "L": {
+      "item": "minecraft:leather_helmet"
+    },
+    "N": {
+      "tag": "forge:nuggets/iron"
+    }
+  },
+  "pattern": [
+    "NNN",
+    "ILI",
+    "NNN"
+  ],
+  "result": {
+    "item": "rediscovered:studded_helmet"
+  },
+  "show_notification": true
+}
