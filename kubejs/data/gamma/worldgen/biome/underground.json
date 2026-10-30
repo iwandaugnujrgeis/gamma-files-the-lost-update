@@ -28,13 +28,15 @@
 			"minecraft:lake_lava_underground",
 			"minecraft:lake_lava_surface"
 		],
-[],
+		[],
 		[
 			"minecraft:monster_room",
 			"minecraft:monster_room_deep"
 		],
 		[],
-		[],
+		[
+			"gamma:ore_chimes"
+		],
 		[
 			"minecraft:ore_dirt",
 			"minecraft:ore_gravel",
@@ -43,6 +45,7 @@
 			"minecraft:ore_andesite_upper",
 			"minecraft:ore_andesite_lower",
 			"minecraft:ore_tuff",
+			"gamma:ore_basalt_blobs",
 			"minecraft:ore_coal_upper",
 			"minecraft:ore_coal_lower",
 			"minecraft:ore_iron_upper",
@@ -58,13 +61,12 @@
 			"minecraft:ore_lapis",
 			"minecraft:ore_lapis_buried",
 			"minecraft:ore_copper",
-			"gamma:ore_chimes",
 			"spelunkery:tangle_roots_ceiling",
 			"minecraft:underwater_magma",
 			"minecraft:disk_sand",
 			"minecraft:disk_clay",
 			"minecraft:disk_gravel",
-			"gamma:lake_water_surface",
+			"gamma:lake_water_surface", // ?
 			"coraline_systems:magma_conversion"
 		],
 		[],

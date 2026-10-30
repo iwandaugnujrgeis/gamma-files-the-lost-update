@@ -184,7 +184,7 @@
 	#Sends your current chat when you die while typing
 	send_chat_on_death = true
 	#Adds an overlay to projectile weapons in gui displaying currently selected ammo
-	projectile_weapon_overlay = true
+	projectile_weapon_overlay = false
 	#Makes enderman heads use vanilla texture. Enable for texture pack support
 	enderman_head_texture_pack_support = true
 	#Show a slime overlay when you hit an entity with a slimeball
@@ -202,7 +202,7 @@
 
 	[items.slingshot]
 		#Adds an overlay to slingshots in gui displaying currently selected ammo
-		overlay = true
+		overlay = false
 		#Render the block outline for distant blocks that are reachable with a slingshot enchanted with Stasis
 		stasis_block_outline = true
 		#An RGBA color for the block outline in hex format, for example 0x00000066 for vanilla outline colors

@@ -1,7 +1,7 @@
 {
   "aquifers_enabled": false,
   "default_block": {
-    "Name": "minecraft:netherrack"
+    "Name": "minecraft:basalt"
   },
   "default_fluid": {
     "Name": "minecraft:lava",
@@ -159,7 +159,7 @@
         "then_run": {
           "type": "minecraft:block",
           "result_state": {
-            "Name": "minecraft:netherrack"
+            "Name": "minecraft:basalt"
           }
         }
       },
@@ -237,7 +237,7 @@
                     {
                       "type": "minecraft:block",
                       "result_state": {
-                        "Name": "minecraft:netherrack"
+                        "Name": "minecraft:basalt"
                       }
                     }
                   ]
@@ -300,7 +300,7 @@
       {
         "type": "minecraft:block",
         "result_state": {
-          "Name": "minecraft:netherrack"
+          "Name": "minecraft:basalt"
         }
       }
     ]

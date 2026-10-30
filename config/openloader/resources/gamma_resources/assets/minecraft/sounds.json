@@ -1,59 +1,27 @@
 {
-  "block.wooden_door.close": {
+  "block.chest.close": {
     "replace": true,
     "sounds": [
-      "gamma:random/door_close"
+      "block/fence_gate/close1",
+      "block/fence_gate/close2"
     ],
-    "subtitle": "subtitles.block.door.toggle"
+    "subtitle": "subtitles.block.chest.close"
   },
-  "block.wooden_door.open": {
+  "block.chest.locked": {
     "replace": true,
     "sounds": [
-      "gamma:random/door_open"
+      "block/wooden_door/close",
+      "block/wooden_door/open"
     ],
-    "subtitle": "subtitles.block.door.toggle"
+    "subtitle": "subtitles.block.chest.locked"
   },
-  "block.wooden_trapdoor.close": {
+  "block.chest.open": {
     "replace": true,
     "sounds": [
-      "gamma:random/door_close"
+      "block/fence_gate/open1",
+      "block/fence_gate/open2"
     ],
-    "subtitle": "subtitles.block.trapdoor.toggle"
-  },
-  "block.wooden_trapdoor.open": {
-    "replace": true,
-    "sounds": [
-      "gamma:random/door_open"
-    ],
-    "subtitle": "subtitles.block.trapdoor.toggle"
-  },
-  "block.iron_door.close": {
-    "replace": true,
-    "sounds": [
-      "gamma:random/door_close"
-    ],
-    "subtitle": "subtitles.block.door.toggle"
-  },
-  "block.iron_door.open": {
-    "replace": true,
-    "sounds": [
-      "gamma:random/door_open"
-    ],
-    "subtitle": "subtitles.block.door.toggle"
-  },
-  "block.iron_trapdoor.close": {
-    "replace": true,
-    "sounds": [
-      "gamma:random/door_close"
-    ],
-    "subtitle": "subtitles.block.iron_trapdoor.close"
-  },
-  "block.iron_trapdoor.open": {
-    "replace": true,
-    "sounds": [
-      "gamma:random/door_open"
-    ],
-    "subtitle": "subtitles.block.iron_trapdoor.open"
+    "subtitle": "subtitles.block.chest.open"
   },
   "block.nether_bricks.break": {
     "replace": true,
@@ -721,6 +689,22 @@
       }
     ]
   },
+  "music.game.piano": {
+    "sounds": [
+      {
+        "name": "music/game/piano2",
+        "stream": true,
+        "volume": 1.0,
+        "weight": 10
+      },
+      {
+        "name": "gamma:music/piano2odd",
+        "stream": true,
+        "volume": 1.0,
+        "weight": 10
+      }
+    ]
+  },
   "music.dragon": {
     "sounds": [
       {
@@ -796,18 +780,6 @@
       },
       {
         "name": "music/game/piano1",
-        "stream": true,
-        "volume": 1.0,
-        "weight": 10
-      },
-      {
-        "name": "music/game/piano2",
-        "stream": true,
-        "volume": 1.0,
-        "weight": 10
-      },
-      {
-        "name": "gamma:music/piano2odd",
         "stream": true,
         "volume": 1.0,
         "weight": 10
@@ -958,6 +930,12 @@
       },
       {
         "name": "gamma:music/creative/cupcake_rhythms",
+        "stream": true,
+        "volume": 1.0,
+        "weight": 10
+      },
+      {
+        "name": "gamma:music/calm5",
         "stream": true,
         "volume": 1.0,
         "weight": 10

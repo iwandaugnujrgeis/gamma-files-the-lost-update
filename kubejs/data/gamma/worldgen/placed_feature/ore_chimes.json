@@ -1,5 +1,5 @@
 {
-  "feature": "minecraft:ore_gold_buried",
+  "feature": "gamma:ore_chimes",
   "placement": [
     {
       "type": "minecraft:count",

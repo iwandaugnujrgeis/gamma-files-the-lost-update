@@ -3,9 +3,7 @@
   "interval": 10,
   "entries": [
     {
-      "block": [
-        "minecraft:gold_ore"
-      ],
+      "block": "minecraft:gold_ore",
       "particle": {
         "type": "visuality:sparkle",
         "value": [
@@ -16,9 +14,7 @@
       }
     },
     {
-      "block": [
-        "minecraft:diamond_ore"
-      ],
+      "block": "minecraft:diamond_ore",
       "particle": {
         "type": "visuality:sparkle",
         "value": [
@@ -29,15 +25,13 @@
       }
     },
     {
-      "block": [
-        "rediscovered:ruby_ore"
-      ],
+      "block": "rediscovered:ruby_ore",
       "particle": {
         "type": "visuality:sparkle",
         "value": [
           0.98039216,
           0.18039216,
-          0.28235294
+          0.28235295
         ]
       }
     },
@@ -49,17 +43,6 @@
           0.99607843,
           0.79607844,
           0.9019608
-        ]
-      }
-    },
-    {
-      "block": "coraline_systems:fallen_star",
-      "particle": {
-        "type": "visuality:sparkle",
-        "value": [
-          0.835,
-          0.91,
-          0.96
         ]
       }
     }

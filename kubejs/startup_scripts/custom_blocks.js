@@ -49,14 +49,6 @@ StartupEvents.registry('block', event => {
     .tagBlock('minecraft:mineable/pickaxe')
     .requiresTool(true)
 
-  event.create('rock_salt')
-    .textureAll('gamma:block/rock_salt')
-    .soundType('basalt')
-    .hardness(2)
-    .resistance(2)
-    .tagBlock('minecraft:mineable/pickaxe')
-    .requiresTool(true)
-
   event.create('ruby_tiles')
     .textureAll('gamma:block/ruby_tiles')
     .soundType('amethyst')
@@ -76,6 +68,26 @@ StartupEvents.registry('block', event => {
     .tagBlock('forge:ores')
     .requiresTool(true)
 
+  event.create('silver_nugget_ore')
+    .textureAll('gamma:block/silver_nugget_ore')
+    .soundType('stone')
+    .hardness(3)
+    .resistance(3)
+    .tagBlock('minecraft:mineable/pickaxe')
+    .tagBlock('minecraft:needs_iron_tool')
+    .tagBlock('forge:ores/silver')
+    .tagBlock('forge:ores')
+    .requiresTool(true)
+
+  event.create('quartz_ore')
+    .textureAll('gamma:block/quartz_ore')
+    .soundType('stone')
+    .hardness(3)
+    .resistance(3)
+    .tagBlock('minecraft:mineable/pickaxe')
+    .tagBlock('minecraft:needs_iron_tool')
+    .requiresTool(true)
+
   event.create('raw_silver_block')
     .textureAll('gamma:block/raw_silver_block')
     .soundType('stone')
@@ -86,5 +98,4 @@ StartupEvents.registry('block', event => {
     .tagBlock('forge:storage_blocks/raw_silver')
     .tagBlock('forge:storage_blocks')
     .requiresTool(true)
-
 })

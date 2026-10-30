@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "lime_dye",
+  "group": "phtalo_dye",
   "category": "misc",
   "ingredients": [
     {
@@ -8,7 +8,7 @@
     }
   ],
   "result": {
-    "item": "minecraft:lime_dye",
+    "item": "coraline_systems:phtalo_dye",
     "count": 1
   }
 }

@@ -1,6 +1,6 @@
 {
+  "replace": true,
   "values": [
-    "minecraft:tuff",
-    "minecraft:basalt"
+    "minecraft:tuff"
   ]
 }

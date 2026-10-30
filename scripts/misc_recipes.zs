@@ -127,6 +127,8 @@ craftingTable.addShapelessMeta("honey_cookie", <item:kubejs:honey_cookie> * 3, [
 craftingTable.remove(<item:kubejs:sweet_berry_cookie>);
 craftingTable.addShapelessMeta("sweet_berry_cookie", <item:kubejs:sweet_berry_cookie> * 3, [<item:kubejs:dough>, <item:minecraft:sweet_berries>, <item:minecraft:sugar>, <item:kubejs:dough>], "", <constant:minecraft:recipe/category/crafting:misc>);
 
+craftingTable.addShapelessMeta("muffin", <item:kubejs:muffin> * 3, [<item:kubejs:dough>, <item:coraline_systems:dimensional_shard>, <item:kubejs:dough>, <item:minecraft:sugar>], "", <constant:minecraft:recipe/category/crafting:misc>);
+
 furnace.remove(<item:kubejs:fried_egg>);
 furnace.addRecipeMeta("fried_egg", <item:kubejs:fried_egg>, <tag:items:forge:eggs>, 0.35, 200, "", <constant:minecraft:recipe/category/cooking:food>);
 
@@ -224,9 +226,9 @@ craftingTable.addShapedMeta("magma_block", <item:minecraft:magma_block> * 8, [
 
 craftingTable.remove(<item:supplementaries:blackboard>);
 craftingTable.addShapedMeta("blackboard", <item:supplementaries:blackboard> * 2, [
-  [<tag:items:minecraft:wooden_slabs>, <item:minecraft:polished_basalt>],
-  [<tag:items:minecraft:wooden_slabs>, <item:minecraft:polished_basalt>],
-  [<tag:items:minecraft:wooden_slabs>, <item:minecraft:polished_basalt>]], "", <constant:minecraft:recipe/category/crafting:building>);
+  [<tag:items:minecraft:wooden_slabs>, <item:minecraft:smooth_basalt>],
+  [<tag:items:minecraft:wooden_slabs>, <item:minecraft:smooth_basalt>],
+  [<tag:items:minecraft:wooden_slabs>, <item:minecraft:smooth_basalt>]], "", <constant:minecraft:recipe/category/crafting:building>);
 
 craftingTable.addShapelessMeta("slime_ball_block", <item:minecraft:slime_ball> * 9, [<item:minecraft:slime_block>], "", <constant:minecraft:recipe/category/crafting:misc>);
 

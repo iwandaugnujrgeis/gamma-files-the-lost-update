@@ -120,12 +120,6 @@
         "weight": 12
       },
       {
-        "type": "minecraft:fox",
-        "maxCount": 4,
-        "minCount": 2,
-        "weight": 12
-      },
-      {
         "type": "alexsmobs:raccoon",
         "maxCount": 2,
         "minCount": 1,

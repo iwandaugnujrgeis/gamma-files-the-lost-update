@@ -3,6 +3,7 @@
 const removedCompletely = [
 
   // Check Remove:
+  'minecraft:fox_spawn_egg',
   'etcetera:raw_bismuth',
   'etcetera:bismuth_ingot',
   'supplementaries:crystal_display',

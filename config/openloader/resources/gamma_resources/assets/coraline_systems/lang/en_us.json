@@ -1,4 +1,6 @@
 {
+  "block.sweety_garden.wood_sorrel": "Clover",
+  "block.minecraft.polished_basalt": "Basalt Bricks",
   "advancement.coraline_systems.honey_harvest_invisible.title": "Un-bee-lievable",
   "advancement.coraline_systems.honey_harvest_invisible.description": "Harvest Honey while Invisible!",
   "block.minecraft.calcite": "Rock Salt",
@@ -561,9 +563,7 @@
   "block.kubejs.gloomy_tiles_stairs": "Gloomy Tiles Stairs",
   "block.kubejs.gloomy_tiles_wall": "Gloomy Tiles Wall",
   "block.kubejs.lava_lamp": "Lava Lamp",
-  "block.kubejs.polished_rock_salt": "Polished Rock Salt",
   "block.kubejs.raw_silver_block": "Block of Raw Silver",
-  "block.kubejs.rock_salt": "Rock Salt",
   "block.kubejs.ruby_tiles": "Ruby Tiles",
   "block.kubejs.silver_ore": "Silver Ore",
   "block.kubejs.smooth_stone_bricks": "Smooth Stone Bricks",

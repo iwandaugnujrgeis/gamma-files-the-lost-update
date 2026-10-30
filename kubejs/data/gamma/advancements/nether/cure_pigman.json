@@ -1,5 +1,5 @@
 {
-  "parent": "gamma:nether/brew_potion",
+  "parent": "gamma:story/enter_the_nether",
   "criteria": {
     "cure": {
       "conditions": {

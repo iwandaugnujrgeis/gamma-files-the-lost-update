@@ -54,6 +54,7 @@ ItemEvents.modification(event => {
 
 	// Other:
 	stackTo16('supplementaries:bomb')
+	stackTo16('cavernsandchasms:kunai')
 	// stackTo64('minecraft:ender_pearl')
 	// stackTo64('minecraft:snowball')
 })

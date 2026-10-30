@@ -56,7 +56,7 @@ StartupEvents.registry('item', event => {
     .texture('gamma:item/muffin')
     .maxStackSize(8)
     .food(food => food
-      .hunger(4).saturation(0.5)
+      .hunger(3).saturation(0.5)
       .effect('levitation', 100, 0, 100)
       .alwaysEdible(true)
     )

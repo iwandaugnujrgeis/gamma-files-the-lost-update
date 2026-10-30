@@ -1609,11 +1609,11 @@
 	[client.improved_tooltips]
 		"Attribute Tooltips" = true
 		"Food Tooltips" = false
-		"Shulker Tooltips" = true
+		"Shulker Tooltips" = false
 		"Map Tooltips" = true
 		"Enchanting Tooltips" = true
 		"Fuel Time Tooltips" = false
-		"Shulker Box Use Colors" = true
+		"Shulker Box Use Colors" = false
 		"Shulker Box Require Shift" = false
 		"Map Require Shift" = false
 		#The value of each shank of food.
