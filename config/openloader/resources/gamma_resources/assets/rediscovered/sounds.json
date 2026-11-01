@@ -1,9 +1,0 @@
-{
-  "block.red_dragon_egg.fertilize": {
-    "replace": true,
-    "sounds": [
-      "coraline_systems:random/timedust1"
-    ],
-    "subtitle": "subtitles.rediscovered.block.red_dragon_egg.fertilize"
-  }
-}
