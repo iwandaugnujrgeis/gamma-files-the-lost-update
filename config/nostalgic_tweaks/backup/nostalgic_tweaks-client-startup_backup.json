@@ -222,7 +222,7 @@
     "enableWindowTitle": false,
     "matchVersionOverlay": false,
     "windowTitleText": "Minecraft %v",
-    "oldDebug": "MODERN",
+    "oldDebug": "ALPHA",
     "debugEntityId": false,
     "fpsChart": "DISABLED",
     "showDebugPieChart": false,

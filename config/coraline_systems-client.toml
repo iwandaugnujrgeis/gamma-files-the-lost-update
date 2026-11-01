@@ -1,5 +1,5 @@
 #Coraline Systems — Skin Selector Settings
 #The last skin variant chosen by this player.
-#Valid values: DEFAULT, STEVE, FBI, GREEN_STEVE, STACEY
-selectedSkin = "DEFAULT"
+#Valid values: DEFAULT, STEVE, GREEN_STEVE, ALYSSA
+selectedSkin = "ALYSSA"
 
