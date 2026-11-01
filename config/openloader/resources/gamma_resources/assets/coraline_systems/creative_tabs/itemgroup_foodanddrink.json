@@ -18,6 +18,9 @@
       "item": "minecraft:melon_slice"
     },
     {
+      "item": "minecraft:glistering_melon_slice"
+    },
+    {
       "item": "coraline_systems:mango"
     },
     {
@@ -55,6 +58,9 @@
     },
     {
       "item": "kubejs:pumpkin_slice"
+    },
+    {
+      "item": "minecraft:pufferfish"
     },
     {
       "item": "coraline_systems:walnut"
@@ -400,23 +406,15 @@
     },
     {
       "item": "minecraft:potion",
-      "nbt": "{Potion:\"alexsmobs:knockback_resistance\"}"
+      "nbt": "{Potion:\"quark:resilience\"}"
     },
     {
       "item": "minecraft:potion",
-      "nbt": "{Potion:\"alexsmobs:long_knockback_resistance\"}"
+      "nbt": "{Potion:\"quark:long_resilience\"}"
     },
     {
       "item": "minecraft:potion",
-      "nbt": "{Potion:\"alexsmobs:strong_knockback_resistance\"}"
-    },
-    {
-      "item": "minecraft:potion",
-      "nbt": "{Potion:\"alexsmobs:lava_vision\"}"
-    },
-    {
-      "item": "minecraft:potion",
-      "nbt": "{Potion:\"alexsmobs:long_lava_vision\"}"
+      "nbt": "{Potion:\"quark:strong_resilience\"}"
     },
     {
       "item": "minecraft:potion",
@@ -588,23 +586,15 @@
     },
     {
       "item": "minecraft:splash_potion",
-      "nbt": "{Potion:\"alexsmobs:knockback_resistance\"}"
+      "nbt": "{Potion:\"quark:resilience\"}"
     },
     {
       "item": "minecraft:splash_potion",
-      "nbt": "{Potion:\"alexsmobs:long_knockback_resistance\"}"
+      "nbt": "{Potion:\"quark:long_resilience\"}"
     },
     {
       "item": "minecraft:splash_potion",
-      "nbt": "{Potion:\"alexsmobs:strong_knockback_resistance\"}"
-    },
-    {
-      "item": "minecraft:splash_potion",
-      "nbt": "{Potion:\"alexsmobs:lava_vision\"}"
-    },
-    {
-      "item": "minecraft:splash_potion",
-      "nbt": "{Potion:\"alexsmobs:long_lava_vision\"}"
+      "nbt": "{Potion:\"quark:strong_resilience\"}"
     },
     {
       "item": "minecraft:splash_potion",

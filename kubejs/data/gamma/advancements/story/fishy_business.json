@@ -11,6 +11,16 @@
       },
       "trigger": "minecraft:fishing_rod_hooked"
     },
+    "pufferfish": {
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:pufferfish"
+          ]
+        }
+      },
+      "trigger": "minecraft:fishing_rod_hooked"
+    },
     "salmon": {
       "conditions": {
         "item": {
@@ -63,7 +73,8 @@
       "cod",
       "tropical_fish",
       "fish",
-      "salmon"
+      "salmon",
+      "pufferfish"
     ]
   ],
   "sends_telemetry_event": true

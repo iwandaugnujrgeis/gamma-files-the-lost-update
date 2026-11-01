@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cross",
-  "textures": {
-    "cross": "caverns_and_chasms:block/cave_growths"
-  }
-}

@@ -2021,7 +2021,6 @@ const removedCompletely = [
   'minecraft:flowering_azalea',
   'minecraft:flowering_azalea_leaves',
   'minecraft:friend_pottery_sherd',
-  'minecraft:glistering_melon_slice',
   'minecraft:gray_banner',
   'minecraft:gray_concrete',
   'minecraft:gray_concrete_powder',

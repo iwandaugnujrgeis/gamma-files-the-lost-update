@@ -28,6 +28,7 @@ ItemEvents.modification(event => {
 
 	// Other:
 	stackTo8('minecraft:melon')
+	stackTo8('minecraft:pufferfish')
 
 	// Ingredients
 	stackTo16('minecraft:cocoa_beans')
@@ -36,16 +37,14 @@ ItemEvents.modification(event => {
 	stackTo16('minecraft:sugar')
 	stackTo16('minecraft:sugar_cane')
 	stackTo16('minecraft:wheat')
-	stackTo16('spelunkery:salt')
+	stackTo16('kubejs:salt')
 	stackTo16('supplementaries:soap')
 
 	// Seeds:
 	stackTo16('minecraft:beetroot_seeds')
 	stackTo16('minecraft:melon_seeds')
 	stackTo16('minecraft:pumpkin_seeds')
-	stackTo16('minecraft:torchflower_seeds') // ?
 	stackTo16('minecraft:wheat_seeds')
-	stackTo16('minecraft:pitcher_pod') // ?
 
 	// Mushrooms:
 	stackTo16('minecraft:brown_mushroom')
@@ -53,7 +52,9 @@ ItemEvents.modification(event => {
 	stackTo16('coraline_systems:white_mushroom')
 
 	// Other:
+	stackTo16('minecraft:glistering_melon_slice')
 	stackTo16('supplementaries:bomb')
+	stackTo16('coraline_systems:dimensional_shard')
 	stackTo16('cavernsandchasms:kunai')
 	// stackTo64('minecraft:ender_pearl')
 	// stackTo64('minecraft:snowball')
