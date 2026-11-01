@@ -1,6 +1,11 @@
 {
   "type": "forge:add_features",
-  "biomes": "gamma:null",
+  "biomes": [
+    "gamma:andesite_crags",
+    "minecraft:ocean",
+    "gamma:radiant_forest",
+    "minecraft:dark_forest"
+  ],
   "features": "sweety_garden:wood_sorrel_patchs",
   "step": "vegetal_decoration"
 }

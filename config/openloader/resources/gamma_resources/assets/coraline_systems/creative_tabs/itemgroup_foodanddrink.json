@@ -248,10 +248,6 @@
     },
     {
       "item": "minecraft:potion",
-      "nbt": "{Potion:\"minecraft:awkward\"}"
-    },
-    {
-      "item": "minecraft:potion",
       "nbt": "{Potion:\"minecraft:night_vision\"}"
     },
     {
@@ -437,10 +433,6 @@
     {
       "item": "minecraft:splash_potion",
       "nbt": "{Potion:\"minecraft:water\"}"
-    },
-    {
-      "item": "minecraft:splash_potion",
-      "nbt": "{Potion:\"minecraft:awkward\"}"
     },
     {
       "item": "minecraft:splash_potion",

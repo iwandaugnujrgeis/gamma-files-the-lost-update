@@ -351,7 +351,7 @@
     "chestLightBlock": true,
     "roundRobinRelight": false,
     "oldNetherLighting": false,
-    "oldSmoothLighting": true,
+    "oldSmoothLighting": false,
     "disableSmoothLighting": false,
     "oldClassicEngine": false,
     "smoothLightTransition": true,

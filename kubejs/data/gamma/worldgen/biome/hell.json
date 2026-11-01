@@ -28,7 +28,7 @@
       "minecraft:ore_gravel",
       "minecraft:ore_andesite_upper",
       "minecraft:ore_tuff",
-      "gamma:quartz_ore_nether", // !
+      "gamma:quartz_ore_nether",
       "minecraft:ore_coal_upper",
       "minecraft:ore_iron_upper",
       "minecraft:ore_iron_middle",
@@ -46,7 +46,9 @@
     ],
     [],
     [
-      "gamma:spring_lava_hell"
+      "gamma:spring_lava_hell",
+      "minecraft:glowstone_extra",
+      "minecraft:glowstone"
     ],
     [
       "minecraft:glow_lichen",

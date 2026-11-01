@@ -31,6 +31,11 @@
         },
         {
           "type": "minecraft:item",
+          "name": "rediscovered:music_disc_calm4",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
           "name": "kubejs:music_disc_dog",
           "weight": 1
         },
@@ -61,6 +66,16 @@
         },
         {
           "type": "minecraft:item",
+          "name": "kubejs:music_disc_eleven",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:music_disc_geklimper",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:music_disc_stal",
           "weight": 1
         },
@@ -87,6 +102,16 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_13",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:music_disc_droopy2",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:music_disc_droopy1",
           "weight": 1
         }
       ], 

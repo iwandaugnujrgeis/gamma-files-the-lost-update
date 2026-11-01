@@ -204,6 +204,13 @@ StartupEvents.registry('item', event => {
     .tag('music_discs')
     .tag('creeper_drop_music_discs')
 
+  event.create('music_disc_geklimper', 'music_disc')
+    .song('gamma:music_disc.geklimper', 283)
+    .texture('gamma:item/record/geklimper')
+    .maxStackSize(1)
+    .tag('music_discs')
+    .tag('creeper_drop_music_discs')
+
   event.create('music_disc_reveal', 'music_disc')
     .song('gamma:music_disc.reveal', 108)
     .texture('gamma:item/record/reveal')

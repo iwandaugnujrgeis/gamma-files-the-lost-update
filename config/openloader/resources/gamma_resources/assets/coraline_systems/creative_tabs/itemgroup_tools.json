@@ -156,9 +156,6 @@
       "item": "minecraft:firework_rocket"
     },
     {
-      "item": "alexsmobs:fedora"
-    },
-    {
       "item": "alexsmobs:flying_fish_boots"
     },
     {
@@ -172,6 +169,9 @@
     },
     {
       "item": "rediscovered:ruby_eye"
+    },
+    {
+      "item": "supplementaries:goblet"
     },
     {
       "item": "supplementaries:bomb"
@@ -240,7 +240,7 @@
       "item": "kubejs:music_disc_reveal"
     },
     {
-      "item": "minecraft:music_disc_otherside"
+      "item": "kubejs:music_disc_geklimper"
     },
     {
       "item": "kubejs:music_disc_droopy1"
@@ -253,9 +253,6 @@
     },
     {
       "item": "kubejs:music_disc_death"
-    },
-    {
-      "item": "alexsmobs:music_disc_thime"
     },
     {
       "item": "quark:music_disc_chatter"

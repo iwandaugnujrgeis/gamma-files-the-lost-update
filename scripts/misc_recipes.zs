@@ -89,6 +89,12 @@ craftingTable.addShapedMeta("altimeter", <item:supplementaries:altimeter>, [
   [<item:minecraft:copper_ingot>, <item:minecraft:ender_pearl>, <item:minecraft:copper_ingot>], 
   [<item:minecraft:air>, <item:minecraft:copper_ingot>, <item:minecraft:air>]], "", <constant:minecraft:recipe/category/crafting:equipment>);
 
+craftingTable.remove(<item:supplementaries:goblet>);
+craftingTable.addShapedMeta("goblet", <item:supplementaries:goblet>, [
+  [<item:minecraft:iron_nugget>, <item:minecraft:air>, <item:minecraft:iron_nugget>],
+  [<item:minecraft:iron_nugget>, <item:minecraft:iron_ingot>, <item:minecraft:iron_nugget>],
+  [<item:minecraft:air>, <item:minecraft:iron_nugget>, <item:minecraft:air>]], "", <constant:minecraft:recipe/category/crafting:equipment>);
+
 craftingTable.remove(<item:kubejs:dough>);
 craftingTable.addShapedMeta("dough", <item:kubejs:dough> * 8, [
   [<item:kubejs:wheat_flour>, <item:kubejs:wheat_flour>, <item:kubejs:wheat_flour>], 
@@ -223,6 +229,12 @@ craftingTable.addShapedMeta("magma_block", <item:minecraft:magma_block> * 8, [
   [<item:minecraft:cobblestone>, <item:minecraft:cobblestone>, <item:minecraft:cobblestone>],
   [<item:minecraft:cobblestone>, <item:minecraft:lava_bucket>, <item:minecraft:cobblestone>],
   [<item:minecraft:cobblestone>, <item:minecraft:cobblestone>, <item:minecraft:cobblestone>]], "", <constant:minecraft:recipe/category/crafting:building>);
+
+craftingTable.addShapedMeta("fiery_bricks", <item:kubejs:fiery_bricks> * 4, [
+  [<item:minecraft:magma_block>, <item:minecraft:magma_block>],
+  [<item:minecraft:magma_block>, <item:minecraft:magma_block>]], "", <constant:minecraft:recipe/category/crafting:building>);
+
+stoneCutter.addRecipe("stonecutter_fiery_bricks", <item:kubejs:fiery_bricks>, <item:minecraft:magma_block>);
 
 craftingTable.remove(<item:supplementaries:blackboard>);
 craftingTable.addShapedMeta("blackboard", <item:supplementaries:blackboard> * 2, [
@@ -437,11 +449,6 @@ furnace.addRecipeMeta("glow_paste_smelt", <item:kubejs:glow_paste>, <item:minecr
 
 furnace.addRecipeMeta("cobalt_smelt", <item:kubejs:cobalt>, <item:alexsmobs:soul_heart>, 0.35, 200, "", <constant:minecraft:recipe/category/cooking:misc>);
 
-craftingTable.addShapedMeta("spawner", <item:minecraft:spawner>, [
-  [<item:kubejs:cobalt>, <item:kubejs:cobalt>, <item:kubejs:cobalt>],
-  [<item:kubejs:cobalt>, <item:minecraft:air>, <item:kubejs:cobalt>],
-  [<item:kubejs:cobalt>, <item:kubejs:cobalt>, <item:kubejs:cobalt>]], "", <constant:minecraft:recipe/category/crafting:redstone>);
-
 craftingTable.addShapedMeta("cobalt_pants", <item:coraline_systems:cobalt_pants>, [
   [<item:kubejs:cobalt>, <item:kubejs:cobalt>, <item:kubejs:cobalt>],
   [<item:kubejs:cobalt>, <item:minecraft:air>, <item:kubejs:cobalt>],
@@ -548,8 +555,8 @@ craftingTable.addShapedMeta("maraca", <item:alexsmobs:maraca> * 3, [
       brewing.addRecipe(<item:minecraft:splash_potion>.withTag({Potion: "alexsmobs:long_lava_vision"}), <item:minecraft:gunpowder>, <item:minecraft:potion>.withTag({Potion: "alexsmobs:long_lava_vision"}));
 
   // Soulsteal:
-    brewing.addRecipe(<item:minecraft:potion>.withTag({Potion: "alexsmobs:soulsteal"}), <item:alexsmobs:soul_heart>, <item:minecraft:potion>.withTag({Potion: "minecraft:awkward"}));
-      brewing.addRecipe(<item:minecraft:splash_potion>.withTag({Potion: "alexsmobs:soulsteal"}), <item:alexsmobs:soul_heart>, <item:minecraft:splash_potion>.withTag({Potion: "minecraft:awkward"}));
+    brewing.addRecipe(<item:minecraft:potion>.withTag({Potion: "alexsmobs:soulsteal"}), <item:alexsmobs:soul_heart>, <item:minecraft:potion>.withTag({Potion: "minecraft:water"}));
+      brewing.addRecipe(<item:minecraft:splash_potion>.withTag({Potion: "alexsmobs:soulsteal"}), <item:alexsmobs:soul_heart>, <item:minecraft:splash_potion>.withTag({Potion: "minecraft:water"}));
       brewing.addRecipe(<item:minecraft:splash_potion>.withTag({Potion: "alexsmobs:soulsteal"}), <item:minecraft:gunpowder>, <item:minecraft:potion>.withTag({Potion: "alexsmobs:soulsteal"}));
       brewing.addRecipe(<item:minecraft:splash_potion>.withTag({Potion: "alexsmobs:long_soulsteal"}), <item:minecraft:redstone>, <item:minecraft:splash_potion>.withTag({Potion: "alexsmobs:soulsteal"}));
       brewing.addRecipe(<item:minecraft:splash_potion>.withTag({Potion: "alexsmobs:long_soulsteal"}), <item:minecraft:gunpowder>, <item:minecraft:potion>.withTag({Potion: "alexsmobs:long_soulsteal"}));
@@ -557,7 +564,7 @@ craftingTable.addShapedMeta("maraca", <item:alexsmobs:maraca> * 3, [
       brewing.addRecipe(<item:minecraft:splash_potion>.withTag({Potion: "alexsmobs:strong_soulsteal"}), <item:minecraft:gunpowder>, <item:minecraft:potion>.withTag({Potion: "alexsmobs:strong_soulsteal"}));
 
   // Knockback Resistance:
-    brewing.addRecipe(<item:minecraft:splash_potion>.withTag({Potion: "alexsmobs:knockback_resistance"}), <item:alexsmobs:bear_fur>, <item:minecraft:splash_potion>.withTag({Potion: "minecraft:awkward"}));
+    brewing.addRecipe(<item:minecraft:splash_potion>.withTag({Potion: "alexsmobs:knockback_resistance"}), <item:alexsmobs:bear_fur>, <item:minecraft:splash_potion>.withTag({Potion: "minecraft:water"}));
     brewing.addRecipe(<item:minecraft:splash_potion>.withTag({Potion: "alexsmobs:knockback_resistance"}), <item:minecraft:gunpowder>, <item:minecraft:potion>.withTag({Potion: "alexsmobs:knockback_resistance"}));
     brewing.addRecipe(<item:minecraft:splash_potion>.withTag({Potion: "alexsmobs:long_knockback_resistance"}), <item:minecraft:redstone>, <item:minecraft:splash_potion>.withTag({Potion: "alexsmobs:knockback_resistance"}));
     brewing.addRecipe(<item:minecraft:splash_potion>.withTag({Potion: "alexsmobs:long_knockback_resistance"}), <item:minecraft:gunpowder>, <item:minecraft:potion>.withTag({Potion: "alexsmobs:long_knockback_resistance"}));
@@ -565,28 +572,28 @@ craftingTable.addShapedMeta("maraca", <item:alexsmobs:maraca> * 3, [
     brewing.addRecipe(<item:minecraft:splash_potion>.withTag({Potion: "alexsmobs:strong_knockback_resistance"}), <item:minecraft:gunpowder>, <item:minecraft:potion>.withTag({Potion: "alexsmobs:strong_knockback_resistance"}));
 
   // Leaping:
-    brewing.addRecipe(<item:minecraft:potion>.withTag({Potion: "minecraft:leaping"}), <item:minecraft:slime_ball>, <item:minecraft:potion>.withTag({Potion: "minecraft:awkward"}));
-      brewing.addRecipe(<item:minecraft:splash_potion>.withTag({Potion: "minecraft:leaping"}), <item:minecraft:slime_ball>, <item:minecraft:splash_potion>.withTag({Potion: "minecraft:awkward"}));
+    brewing.addRecipe(<item:minecraft:potion>.withTag({Potion: "minecraft:leaping"}), <item:minecraft:slime_ball>, <item:minecraft:potion>.withTag({Potion: "minecraft:water"}));
+      brewing.addRecipe(<item:minecraft:splash_potion>.withTag({Potion: "minecraft:leaping"}), <item:minecraft:slime_ball>, <item:minecraft:splash_potion>.withTag({Potion: "minecraft:water"}));
       brewing.addRecipe(<item:minecraft:splash_potion>.withTag({Potion: "minecraft:leaping"}), <item:minecraft:gunpowder>, <item:minecraft:potion>.withTag({Potion: "minecraft:leaping"}));
 
   // Strength:
-    brewing.addRecipe(<item:minecraft:potion>.withTag({Potion: "minecraft:strength"}), <item:kubejs:golden_potato>, <item:minecraft:potion>.withTag({Potion: "minecraft:awkward"}));
-      brewing.addRecipe(<item:minecraft:splash_potion>.withTag({Potion: "minecraft:strength"}), <item:kubejs:golden_potato>, <item:minecraft:splash_potion>.withTag({Potion: "minecraft:awkward"}));
+    brewing.addRecipe(<item:minecraft:potion>.withTag({Potion: "minecraft:strength"}), <item:kubejs:golden_potato>, <item:minecraft:potion>.withTag({Potion: "minecraft:water"}));
+      brewing.addRecipe(<item:minecraft:splash_potion>.withTag({Potion: "minecraft:strength"}), <item:kubejs:golden_potato>, <item:minecraft:splash_potion>.withTag({Potion: "minecraft:water"}));
       brewing.addRecipe(<item:minecraft:splash_potion>.withTag({Potion: "minecraft:strength"}), <item:minecraft:gunpowder>, <item:minecraft:potion>.withTag({Potion: "minecraft:strength"}));
 
   // Night Vision:
-    brewing.addRecipe(<item:minecraft:potion>.withTag({Potion: "minecraft:night_vision"}), <item:minecraft:golden_carrot>, <item:minecraft:potion>.withTag({Potion: "minecraft:awkward"}));
-      brewing.addRecipe(<item:minecraft:splash_potion>.withTag({Potion: "minecraft:night_vision"}), <item:minecraft:golden_carrot>, <item:minecraft:splash_potion>.withTag({Potion: "minecraft:awkward"}));
+    brewing.addRecipe(<item:minecraft:potion>.withTag({Potion: "minecraft:night_vision"}), <item:minecraft:golden_carrot>, <item:minecraft:potion>.withTag({Potion: "minecraft:water"}));
+      brewing.addRecipe(<item:minecraft:splash_potion>.withTag({Potion: "minecraft:night_vision"}), <item:minecraft:golden_carrot>, <item:minecraft:splash_potion>.withTag({Potion: "minecraft:water"}));
       brewing.addRecipe(<item:minecraft:splash_potion>.withTag({Potion: "minecraft:night_vision"}), <item:minecraft:gunpowder>, <item:minecraft:potion>.withTag({Potion: "minecraft:night_vision"}));
 
   // Water Breating:
-    brewing.addRecipe(<item:minecraft:potion>.withTag({Potion: "minecraft:water_breathing"}), <item:upgrade_aquatic:mulberry>, <item:minecraft:potion>.withTag({Potion: "minecraft:awkward"}));
-      brewing.addRecipe(<item:minecraft:splash_potion>.withTag({Potion: "minecraft:water_breathing"}), <item:upgrade_aquatic:mulberry>, <item:minecraft:splash_potion>.withTag({Potion: "minecraft:awkward"}));
+    brewing.addRecipe(<item:minecraft:potion>.withTag({Potion: "minecraft:water_breathing"}), <item:upgrade_aquatic:mulberry>, <item:minecraft:potion>.withTag({Potion: "minecraft:water"}));
+      brewing.addRecipe(<item:minecraft:splash_potion>.withTag({Potion: "minecraft:water_breathing"}), <item:upgrade_aquatic:mulberry>, <item:minecraft:splash_potion>.withTag({Potion: "minecraft:water"}));
       brewing.addRecipe(<item:minecraft:splash_potion>.withTag({Potion: "minecraft:water_breathing"}), <item:minecraft:gunpowder>, <item:minecraft:potion>.withTag({Potion: "minecraft:water_breathing"}));
 
   // Healing:
-    brewing.addRecipe(<item:minecraft:potion>.withTag({Potion: "minecraft:healing"}), <item:minecraft:honeycomb>, <item:minecraft:potion>.withTag({Potion: "minecraft:awkward"}));
-      brewing.addRecipe(<item:minecraft:splash_potion>.withTag({Potion: "minecraft:healing"}), <item:minecraft:honeycomb>, <item:minecraft:splash_potion>.withTag({Potion: "minecraft:awkward"}));
+    brewing.addRecipe(<item:minecraft:potion>.withTag({Potion: "minecraft:healing"}), <item:minecraft:honeycomb>, <item:minecraft:potion>.withTag({Potion: "minecraft:water"}));
+      brewing.addRecipe(<item:minecraft:splash_potion>.withTag({Potion: "minecraft:healing"}), <item:minecraft:honeycomb>, <item:minecraft:splash_potion>.withTag({Potion: "minecraft:water"}));
       brewing.addRecipe(<item:minecraft:splash_potion>.withTag({Potion: "minecraft:healing"}), <item:minecraft:gunpowder>, <item:minecraft:potion>.withTag({Potion: "minecraft:healing"}));
 
 // Limestone:

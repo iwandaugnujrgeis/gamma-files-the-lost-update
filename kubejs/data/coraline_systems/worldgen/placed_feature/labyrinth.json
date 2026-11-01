@@ -1,0 +1,27 @@
+{
+  "feature": "coraline_systems:labyrinth",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 112
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": -40
+        },
+        "max_inclusive": {
+          "absolute": 12
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

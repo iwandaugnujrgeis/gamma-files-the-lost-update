@@ -39,4 +39,5 @@ statusbot_config.yml
 debug.log
 gamma_entities.json
 latest.log
+java_classes/
 rooms_Check.json

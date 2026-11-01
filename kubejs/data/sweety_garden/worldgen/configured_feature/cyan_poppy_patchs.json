@@ -1,5 +1,5 @@
 {
-  "type": "sweety_garden:cyan_poppy_patchs",
+  "type": "minecraft:flower",
   "config": {
     "tries": 1,
     "xz_spread": 0,

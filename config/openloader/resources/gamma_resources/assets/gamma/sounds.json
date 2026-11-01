@@ -344,6 +344,14 @@
       }
     ]
   },
+  "music_disc.geklimper": {
+    "sounds": [
+      {
+        "name": "records/geklimper",
+        "stream": true
+      }
+    ]
+  },
   "music_disc.acid": {
     "sounds": [
       {

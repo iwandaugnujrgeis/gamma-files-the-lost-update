@@ -26,8 +26,98 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:phantom_membrane",
+          "name": "minecraft:bone",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:flint",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:coal",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:slime_ball",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:honeycomb",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:salmon",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "alexsmobs:raw_catfish",
           "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sweet_berries",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:egg",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brown_mushroom",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dandelion",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wheat_seeds",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "alexsmobs:maraca",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "coraline_systems:name_tag",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "supplementaries:flute",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_cat",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:music_disc_dog",
+          "weight": 1
         }
       ],
       "rolls": 1.0

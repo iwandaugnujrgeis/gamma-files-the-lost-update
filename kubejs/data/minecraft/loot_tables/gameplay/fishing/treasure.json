@@ -11,20 +11,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:map",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:exploration_map",
-              "search_radius": 60,
-              "destination": "gamma:mysterious_locations",
-              "skip_existing_chunks": true,
-              "zoom": 4
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "supplementaries:wrench",
           "weight": 10
         },
@@ -48,12 +34,6 @@
                   "condition": "minecraft:location_check",
                   "predicate": {
                     "biome": "minecraft:ocean"
-                  }
-                },
-                {
-                  "condition": "minecraft:location_check",
-                  "predicate": {
-                    "biome": "minecraft:deep_ocean"
                   }
                 }
               ]

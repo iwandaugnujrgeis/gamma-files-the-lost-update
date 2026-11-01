@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "crafttweaker:spawner"
+        "recipe": "coraline_systems:spawner"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "crafttweaker:spawner"
+      "coraline_systems:spawner"
     ]
   },
   "sends_telemetry_event": false

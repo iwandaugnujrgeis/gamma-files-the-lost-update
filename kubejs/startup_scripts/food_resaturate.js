@@ -29,7 +29,7 @@ ItemEvents.modification(event => {
 		'alexsmobs:flying_fish': { hearts: 1, stack: 8 },
 		'rediscovered:raw_fish': { hearts: 1, stack: 8 },
 		'minecraft:rotten_flesh': { hearts: 1, stack: 8 },
-    'coraline_systems:raw_venison': { hearts: 1.5, stack: 8 },
+		'coraline_systems:raw_venison': { hearts: 1.5, stack: 8 },
 
 		// Cooked Meat & Fish
 		'minecraft:cooked_beef': { hearts: 3, stack: 8 },
@@ -40,7 +40,7 @@ ItemEvents.modification(event => {
 		'minecraft:cooked_cod': { hearts: 2.5, stack: 8 },
 		'alexsmobs:cooked_catfish': { hearts: 3, stack: 8 },
 		'rediscovered:cooked_fish': { hearts: 2, stack: 8 },
-    'coraline_systems:cooked_venison': { hearts: 3.5, stack: 8 },
+		'coraline_systems:cooked_venison': { hearts: 3.5, stack: 8 },
 
 		// Bakery & Sweets
 		'minecraft:bread': { hearts: 2, stack: 8 },
@@ -48,7 +48,7 @@ ItemEvents.modification(event => {
 		'kubejs:sweet_berry_cookie': { hearts: 1.5, stack: 16 }, // 3 per craft. Sum 5 (2 dough + berries + sugar)
 		'kubejs:honey_cookie': { hearts: 2, stack: 16 }, // 3 per craft. Sum 6.5 (2 dough + honey bottle + sugar)
 		'kubejs:bar_of_chocolate': { hearts: 1.5, stack: 8 }, // 2 per craft. Sum 3 (milk bottle + butter + cocoa + sugar)
-    'supplementaries:candy': { hearts: 0.5, stack: 16, fast: true }, // 6 per craft. Sum 2 (sugar + chocolate bar), +1 premium for the luxury snack
+		'supplementaries:candy': { hearts: 0.5, stack: 16, fast: true }, // 6 per craft. Sum 2 (sugar + chocolate bar), +1 premium for the luxury snack
 		// 'kubejs:marshmallow': { hearts: 0.5, stack: 16, fast: true }, // 2 per craft
 		'supplementaries:pancake': { hearts: 1, stack: 16 }, // 8 per craft. Sum 8 (sugar + milk bucket + dough + egg)
 		'kubejs:cake_slice': { hearts: 1, stack: 8 }, // 7 per cake. Sum 7 (2 butter + berries + 2 dough + sugar)
@@ -74,6 +74,7 @@ ItemEvents.modification(event => {
 			item.foodProperties = food => {
 				food.hunger(entry.hearts * 2).saturation(0.5)
 				if (entry.fast) food.fastToEat()
+				if (id === 'minecraft:rotten_flesh') food.effect('poison', 200, 0, 100)
 			}
 		})
 	})

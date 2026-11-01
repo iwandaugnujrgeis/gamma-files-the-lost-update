@@ -1,5 +1,5 @@
 {
-  "enableCopperGolem": true,
+  "enableCopperGolem": false,
   "generateCopperGolemAreaStructure": true,
   "copperGolemAreaStructureWeight": 1,
   "generateCopperGolemInAncientCity": false,
@@ -48,8 +48,8 @@
   "enableZombieHorseTrap": true,
   "enableRascal": false,
   "enableRascalSpawn": false,
-  "enableTuffGolem": true,
-  "generateTuffGolemInStronghold": true,
+  "enableTuffGolem": false,
+  "generateTuffGolemInStronghold": false,
   "enableWildfire": false,
   "generateCitadelStructure": false,
   "enableBeekeeperVillagerProfession": false,

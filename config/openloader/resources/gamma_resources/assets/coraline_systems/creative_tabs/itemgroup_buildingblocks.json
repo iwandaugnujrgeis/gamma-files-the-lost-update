@@ -237,45 +237,6 @@
       "item": "minecraft:dark_oak_button"
     },
     {
-      "item": "minecraft:mangrove_log"
-    },
-    {
-      "item": "minecraft:mangrove_wood"
-    },
-    {
-      "item": "minecraft:stripped_mangrove_log"
-    },
-    {
-      "item": "minecraft:stripped_mangrove_wood"
-    },
-    {
-      "item": "minecraft:mangrove_planks"
-    },
-    {
-      "item": "minecraft:mangrove_stairs"
-    },
-    {
-      "item": "minecraft:mangrove_slab"
-    },
-    {
-      "item": "minecraft:mangrove_fence"
-    },
-    {
-      "item": "minecraft:mangrove_fence_gate"
-    },
-    {
-      "item": "minecraft:mangrove_door"
-    },
-    {
-      "item": "minecraft:mangrove_trapdoor"
-    },
-    {
-      "item": "minecraft:mangrove_pressure_plate"
-    },
-    {
-      "item": "minecraft:mangrove_button"
-    },
-    {
       "item": "atmospheric:rosewood_log"
     },
     {
@@ -702,33 +663,6 @@
       "item": "quark:shale_bricks_wall"
     },
     {
-      "item": "minecraft:deepslate"
-    },
-    {
-      "item": "minecraft:cobbled_deepslate_stairs"
-    },
-    {
-      "item": "minecraft:cobbled_deepslate_slab"
-    },
-    {
-      "item": "minecraft:cobbled_deepslate_wall"
-    },
-    {
-      "item": "minecraft:chiseled_deepslate"
-    },
-    {
-      "item": "minecraft:deepslate_tiles"
-    },
-    {
-      "item": "minecraft:deepslate_tile_stairs"
-    },
-    {
-      "item": "minecraft:deepslate_tile_slab"
-    },
-    {
-      "item": "minecraft:deepslate_tile_wall"
-    },
-    {
       "item": "minecraft:basalt"
     },
     {
@@ -862,24 +796,6 @@
     },
     {
       "item": "minecraft:dark_prismarine_slab"
-    },
-    {
-      "item": "minecraft:netherrack"
-    },
-    {
-      "item": "minecraft:nether_bricks"
-    },
-    {
-      "item": "minecraft:nether_brick_stairs"
-    },
-    {
-      "item": "minecraft:nether_brick_slab"
-    },
-    {
-      "item": "minecraft:nether_brick_wall"
-    },
-    {
-      "item": "minecraft:nether_brick_fence"
     },
     {
       "item": "minecraft:quartz_block"

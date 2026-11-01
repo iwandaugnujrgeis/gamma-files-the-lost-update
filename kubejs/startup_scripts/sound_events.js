@@ -11,6 +11,7 @@ StartupEvents.registry('sound_event', (event) => {
 	event.create('gamma:music_disc.droopy2')
 	event.create('gamma:music_disc.death')
 	event.create('gamma:music_disc.acid')
+	event.create('gamma:music_disc.geklimper')
 	event.create('gamma:music_disc.reveal')
 
 //Sounds:

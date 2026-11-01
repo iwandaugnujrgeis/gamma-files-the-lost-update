@@ -8,7 +8,7 @@
   },
   "biomeSettings": {
     "moderner_beta:provider": "moderner_beta:fractal",
-    "moderner_beta:temperature_height_scaling": "none",
+    "moderner_beta:temperature_height_scaling": "major_release",
     "moderner_beta:use_32bit_layer_seed": false,
     "moderner_beta:fractal_layers": {
       "outputs": {
@@ -90,43 +90,96 @@
           "oceanChance": 6
         },
         {
+          "type": "moderner_beta:conditional_overlay",
+          "parent": "land",
+          "id": "land",
+          "seed": 5,
+          "predicate": {
+            "condition": "moderner_beta:all_of",
+            "terms": [
+              {
+                "condition": "moderner_beta:single_match",
+                "biome": "minecraft:ocean"
+              },
+              {
+                "condition": "moderner_beta:identical_neighbor",
+                "diagonal": true,
+                "requiredCount": 4
+              },
+              {
+                "condition": "moderner_beta:random_chance",
+                "numerator": 1,
+                "denominator": 100
+              }
+            ]
+          },
+          "onMatch": {
+            "type": "biome",
+            "value": "minecraft:mushroom_fields"
+          },
+          "otherwise": {
+            "type": "biome",
+            "value": "minecraft:the_void*null"
+          }
+        },
+        {
           "type": "moderner_beta:random_biome",
           "id": "biome_pool_common",
           "seed": 200,
           "biomes": [
             "minecraft:forest",
             "minecraft:dark_forest",
+            "gamma:old_woods",
             "minecraft:birch_forest",
             "minecraft:old_growth_birch_forest",
-            "minecraft:jungle",
             "minecraft:swamp",
             "minecraft:taiga",
             "minecraft:plains",
-            "gamma:andesite_crags",
             "gamma:radiant_forest"
           ]
         },
         {
-          "type": "moderner_beta:biome_replacement",
+          "type": "moderner_beta:predicate_overlay",
           "parent": "land",
           "id": "land",
           "seed": 10,
-          "targets": {
-            "minecraft:ocean": {
-              "value": "biome_pool_common", // Test!
+          "targets": [
+            {
+              "predicate": {
+                "condition": "moderner_beta:all_of",
+                "terms": [
+                  {
+                    "condition": "moderner_beta:single_match",
+                    "biome": "minecraft:ocean"
+                  },
+                  {
+                    "condition": "moderner_beta:random_chance",
+                    "numerator": 6,
+                    "denominator": 10
+                  }
+                ]
+              },
+              "result": "biome_pool_common",
               "type": "layer"
             }
-          }
+          ]
         },
         {
           "type": "moderner_beta:random_biome",
-          "id": "biome_pool_cold",
+          "id": "biome_pool_uncommon",
           "seed": 201,
           "biomes": [
             "minecraft:snowy_plains",
-            "minecraft:grove",
+            "minecraft:jungle",
+            "gamma:andesite_crags",
             "gamma:snow_world"
           ]
+        },
+        {
+          "type": "moderner_beta:constant_biome",
+          "id": "biome_pool_warm_rare",
+          "seed": 211,
+          "biome": "minecraft:swamp"
         },
         {
           "type": "moderner_beta:weighted_pool",
@@ -137,14 +190,7 @@
               "weight": 1,
               "data": {
                 "type": "biome",
-                "value": "minecraft:old_growth_pine_taiga"
-              }
-            },
-            {
-              "weight": 1,
-              "data": {
-                "type": "biome",
-                "value": "minecraft:old_growth_spruce_taiga"
+                "value": "minecraft:snowy_taiga"
               }
             }
           ]
@@ -152,25 +198,13 @@
         {
           "type": "moderner_beta:constant_biome",
           "id": "biome_pool_forest_rare",
-          "seed": 203,
+          "seed": 210,
           "biome": "minecraft:flower_forest"
-        },
-        {
-          "type": "moderner_beta:constant_biome",
-          "id": "biome_pool_dark_forest_rare",
-          "seed": 204,
-          "biome": "gamma:cornflower_grove"
-        },
-        {
-          "type": "moderner_beta:constant_biome",
-          "id": "biome_pool_birch_rare",
-          "seed": 205,
-          "biome": "gamma:still_woods"
         },
         {
           "type": "moderner_beta:weighted_pool",
           "id": "biome_pool_main",
-          "seed": 206,
+          "seed": 203,
           "targets": [
             {
               "weight": 3,
@@ -183,7 +217,7 @@
               "weight": 1,
               "data": {
                 "type": "layer",
-                "value": "biome_pool_cold"
+                "value": "biome_pool_uncommon"
               }
             }
           ]
@@ -217,11 +251,29 @@
                   {
                     "condition": "moderner_beta:random_chance",
                     "numerator": 1,
-                    "denominator": 8
+                    "denominator": 3
                   }
                 ]
               },
               "result": "biome_pool_taiga_rare",
+              "type": "layer"
+            },
+            {
+              "predicate": {
+                "condition": "moderner_beta:all_of",
+                "terms": [
+                  {
+                    "condition": "moderner_beta:single_match",
+                    "biome": "minecraft:jungle"
+                  },
+                  {
+                    "condition": "moderner_beta:random_chance",
+                    "numerator": 1,
+                    "denominator": 2
+                  }
+                ]
+              },
+              "result": "biome_pool_warm_rare",
               "type": "layer"
             },
             {
@@ -235,47 +287,11 @@
                   {
                     "condition": "moderner_beta:random_chance",
                     "numerator": 1,
-                    "denominator": 8
+                    "denominator": 6
                   }
                 ]
               },
               "result": "biome_pool_forest_rare",
-              "type": "layer"
-            },
-            {
-              "predicate": {
-                "condition": "moderner_beta:all_of",
-                "terms": [
-                  {
-                    "condition": "moderner_beta:single_match",
-                    "biome": "minecraft:dark_forest"
-                  },
-                  {
-                    "condition": "moderner_beta:random_chance",
-                    "numerator": 1,
-                    "denominator": 8
-                  }
-                ]
-              },
-              "result": "biome_pool_dark_forest_rare",
-              "type": "layer"
-            },
-            {
-              "predicate": {
-                "condition": "moderner_beta:all_of",
-                "terms": [
-                  {
-                    "condition": "moderner_beta:single_match",
-                    "biome": "minecraft:birch_forest"
-                  },
-                  {
-                    "condition": "moderner_beta:random_chance",
-                    "numerator": 1,
-                    "denominator": 8
-                  }
-                ]
-              },
-              "result": "biome_pool_birch_rare",
               "type": "layer"
             }
           ]
@@ -285,7 +301,7 @@
           "parent": "land",
           "id": "land",
           "seed": 1000,
-          "level": 3,
+          "level": 4,
           "seedModifier": 1,
           "zoomType": "modal"
         },
@@ -303,6 +319,82 @@
           "parent": "land",
           "id": "land",
           "seed": 1000
+        },
+        {
+          "type": "moderner_beta:init_river",
+          "parent": "land",
+          "id": "river",
+          "seed": 100
+        },
+        {
+          "type": "moderner_beta:stacked_zoom",
+          "parent": "river",
+          "id": "river",
+          "seed": 1000,
+          "level": 6,
+          "seedModifier": 1,
+          "zoomType": "modal"
+        },
+        {
+          "type": "moderner_beta:compute_river",
+          "parent": "river",
+          "id": "river",
+          "seed": 0,
+          "convertOceans": false
+        },
+        {
+          "type": "moderner_beta:smooth",
+          "parent": "river",
+          "id": "river",
+          "seed": 1000
+        },
+        {
+          "type": "moderner_beta:mix_river",
+          "parent": "land",
+          "id": "land",
+          "seed": 0,
+          "riverSource": "river",
+          "ignoredBiomes": [
+            "minecraft:deep_ocean",
+            "minecraft:ocean"
+          ],
+          "biomeSpecificRivers": {
+            "minecraft:mushroom_fields": "minecraft:mushroom_fields*shore",
+            "minecraft:mushroom_fields*shore": "minecraft:mushroom_fields*shore"
+          }
+        },
+        {
+          "type": "moderner_beta:predicate_overlay",
+          "parent": "land",
+          "id": "land",
+          "seed": 400,
+          "targets": [
+            {
+              "predicate": {
+                "condition": "moderner_beta:all_of",
+                "terms": [
+                  {
+                    "condition": "moderner_beta:single_match",
+                    "biome": "minecraft:river"
+                  },
+                  {
+                    "condition": "moderner_beta:neighbor_match",
+                    "requiredCount": 1,
+                    "diagonal": false,
+                    "neighborPredicate": {
+                      "condition": "moderner_beta:in_set",
+                      "biomes": [
+                        "minecraft:snowy_plains",
+                        "gamma:snow_world"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "result": "minecraft:frozen_river",
+              "type": "biome"
+            }
+          ]
         }
       ]
     }

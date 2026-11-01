@@ -183,12 +183,6 @@
         "maxCount": 4,
         "minCount": 1,
         "weight": 10
-      },
-      {
-        "type": "minecraft:vex",
-        "maxCount": 3,
-        "minCount": 1,
-        "weight": 4
       }
     ],
     "underground_water_creature": [],

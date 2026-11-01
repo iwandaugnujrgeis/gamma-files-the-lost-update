@@ -1,28 +1,4 @@
 {
-  "block.chest.close": {
-    "replace": true,
-    "sounds": [
-      "block/fence_gate/close1",
-      "block/fence_gate/close2"
-    ],
-    "subtitle": "subtitles.block.chest.close"
-  },
-  "block.chest.locked": {
-    "replace": true,
-    "sounds": [
-      "block/wooden_door/close",
-      "block/wooden_door/open"
-    ],
-    "subtitle": "subtitles.block.chest.locked"
-  },
-  "block.chest.open": {
-    "replace": true,
-    "sounds": [
-      "block/fence_gate/open1",
-      "block/fence_gate/open2"
-    ],
-    "subtitle": "subtitles.block.chest.open"
-  },
   "block.nether_bricks.break": {
     "replace": true,
     "sounds": [
@@ -726,6 +702,12 @@
     "sounds": [
       {
         "name": "music/game/calm1",
+        "stream": true,
+        "volume": 1.0,
+        "weight": 10
+      },
+      {
+        "name": "gamma:music/bs",
         "stream": true,
         "volume": 1.0,
         "weight": 10

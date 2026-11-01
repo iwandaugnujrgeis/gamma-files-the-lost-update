@@ -3,7 +3,6 @@
 //minecraft:water
 //minecraft:mundane
 //minecraft:thick
-//minecraft:awkward
 //minecraft:night_vision
 //minecraft:long_night_vision
 //minecraft:invisibility
@@ -99,6 +98,7 @@ MoreJSEvents.registerPotionBrewing(event => {
         'minecraft:mundane',
         'minecraft:mundane',
         'minecraft:night_vision',
+        'minecraft:awkward',
         'minecraft:strength',
         'minecraft:thick',
         'minecraft:water_breathing',

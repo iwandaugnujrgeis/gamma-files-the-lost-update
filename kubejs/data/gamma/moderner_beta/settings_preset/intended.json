@@ -43,7 +43,7 @@
         "minValue": -0.71428573,
         "maxValue": 0.16666667,
         "negativeFlattening": true,
-        "offset": -2.1, // -2.5 was too much, shifted to -1.5, but it seemed like too "Release"-ish!
+        "offset": -1.6, // -2.5 was too much, shifted to -1.5, but it seemed like too "Release"-ish!
         "positiveDampening": 7.0,
         "negativeDampening": 3.5,
         "influence": 0.35,
@@ -73,8 +73,8 @@
       "fixedOffset": 1.0,
       "forestNoiseOctaves": 5,
       "mainNoiseZ": 80.0,
-      "baseSize": 8.2, // 8.4 was kind of OK, testing
-      "stretchY": 18.0, // Was 20 
+      "baseSize": 8.3, // 8.4 was kind of OK, testing
+      "stretchY": 18.6, // Was 20 
       "densityUnderdamp": 6.0,
       "depthNoiseX": 90.0,
       "depthNoiseZ": 90.0,
@@ -87,12 +87,14 @@
     },
     "moderner_beta:forced_biome_height": {
       "depthOffset": 0.14,
-      "scaleWeight": 1.15,
+      "scaleWeight": 1.25, // Test from 1.15
       "scaleOffset": 0.05,
-      "modifyOnlyPositiveDepth": true,
+      "modifyOnlyPositiveDepth": false,
       "enabled": true,
       "heightOverrides": {
-        "minecraft:river": "-0.9;-0.75"
+        "minecraft:river": "-0.72;0.12",
+        "minecraft:frozen_river": "-0.72;0.12",
+        "minecraft:ocean": "-0.72;0.12"
       },
       "depthWeight": 1.0
     },
@@ -493,7 +495,6 @@
                       "condition": "moderner_beta:in_set",
                       "biomes": [
                         "minecraft:snowy_plains",
-                        "minecraft:grove",
                         "gamma:snow_world"
                       ]
                     }
@@ -511,7 +512,6 @@
   "caveBiomeSettings": {
     "moderner_beta:provider": "moderner_beta:voronoi",
     "moderner_beta:cave_biome_voronoi": {
-      "horizontalScale": 82,
       "verticalScale": 16,
       "depthMinY": -64,
       "depthMaxY": 64,
@@ -523,8 +523,7 @@
           "depth": 0.75
         }
       ],
-      "horizontalScale": 32.0,
-      "verticalScale": 16.0
+      "horizontalScale": 32.0
     }
   }
 }

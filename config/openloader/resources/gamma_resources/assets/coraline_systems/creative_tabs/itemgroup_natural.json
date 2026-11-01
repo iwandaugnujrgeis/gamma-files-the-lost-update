@@ -63,6 +63,9 @@
       "item": "minecraft:magma_block"
     },
     {
+      "item": "kubejs:fiery_bricks"
+    },
+    {
       "item": "minecraft:obsidian"
     },
     {
@@ -77,41 +80,6 @@
     {
       "item": "minecraft:bone_block"
     },
-    /*
-    {
-      "item": "minecraft:coal_ore"
-    },
-    {
-      "item": "minecraft:copper_ore"
-    },
-    {
-      "item": "minecraft:iron_ore"
-    },
-    {
-      "item": "minecraft:gold_ore"
-    },
-    {
-      "item": "minecraft:redstone_ore"
-    },
-    {
-      "item": "minecraft:lapis_ore"
-    },
-    {
-      "item": "rediscovered:ruby_ore"
-    },
-    {
-      "item": "kubejs:silver_ore"
-    },
-    {
-      "item": "minecraft:diamond_ore"
-    },
-    {
-      "item": "minecraft:nether_quartz_ore"
-    },
-    {
-      "item": "etcetera:nether_bismuth_ore"
-    },
-    */
     {
       "item": "minecraft:glowstone"
     },
@@ -248,6 +216,9 @@
       "item": "minecraft:poppy"
     },
     {
+      "item": "sweety_garden:cyan_poppy"
+    },
+    {
       "item": "minecraft:blue_orchid"
     },
     {
@@ -302,16 +273,10 @@
       "item": "minecraft:peony"
     },
     {
-      "item": "minecraft:torchflower"
-    },
-    {
       "item": "minecraft:wither_rose"
     },
     {
       "item": "rediscovered:paeonia"
-    },
-    {
-      "item": "rediscovered:cyan_rose"
     },
     {
       "item": "etcetera:bouquet"

@@ -69,9 +69,7 @@ ServerEvents.tags('item', event => {
   event.add('gamma:music_discs', 'minecraft:music_disc_11')
   event.add('gamma:music_discs', 'minecraft:music_disc_wait')
   event.add('gamma:music_discs', 'rediscovered:music_disc_calm4')
-  event.add('gamma:music_discs', 'minecraft:music_disc_otherside')
   event.add('gamma:music_discs', 'kubejs:music_disc_droopy1')
-  event.add('gamma:music_discs', 'alexsmobs:music_disc_thime')
   event.add('gamma:music_discs', 'kubejs:music_disc_dog')
   event.add('gamma:music_discs', 'kubejs:music_disc_eleven')
   event.add('gamma:music_discs', 'kubejs:music_disc_droopy2')
@@ -81,7 +79,22 @@ ServerEvents.tags('item', event => {
 })
 
 ServerEvents.tags('item', event => {
-  event.add('alexsmobs:stradpole_growables', 'minecraft:gunpowder')
+  event.add('gamma:seal_reward_discs', 'minecraft:music_disc_cat')
+  event.add('gamma:seal_reward_discs', 'minecraft:music_disc_blocks')
+  event.add('gamma:seal_reward_discs', 'minecraft:music_disc_chirp')
+  event.add('gamma:seal_reward_discs', 'minecraft:music_disc_far')
+  event.add('gamma:seal_reward_discs', 'minecraft:music_disc_mall')
+  event.add('gamma:seal_reward_discs', 'minecraft:music_disc_mellohi')
+  event.add('gamma:seal_reward_discs', 'minecraft:music_disc_stal')
+  event.add('gamma:seal_reward_discs', 'minecraft:music_disc_strad')
+  event.add('gamma:seal_reward_discs', 'minecraft:music_disc_ward')
+  event.add('gamma:seal_reward_discs', 'minecraft:music_disc_wait')
+  event.add('gamma:seal_reward_discs', 'kubejs:music_disc_droopy1')
+  event.add('gamma:seal_reward_discs', 'kubejs:music_disc_droopy2')
+  event.add('gamma:seal_reward_discs', 'kubejs:music_disc_dog')
+  event.add('gamma:seal_reward_discs', 'kubejs:music_disc_eleven')
+  event.add('gamma:seal_reward_discs', 'kubejs:music_disc_acid')
+  event.add('gamma:seal_reward_discs', 'kubejs:music_disc_reveal')
 })
 
 ServerEvents.tags('item', event => {

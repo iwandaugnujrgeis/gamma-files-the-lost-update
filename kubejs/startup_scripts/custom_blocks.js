@@ -57,6 +57,15 @@ StartupEvents.registry('block', event => {
     .tagBlock('minecraft:mineable/pickaxe')
     .requiresTool(true)
 
+  event.create('fiery_bricks')
+    .textureAll('gamma:block/fiery_bricks')
+    .soundType('stone')
+    .hardness(2)
+    .resistance(3)
+    .tagBlock('minecraft:mineable/pickaxe')
+    .lightLevel(0.8)
+    .requiresTool(true)
+
   event.create('silver_ore')
     .textureAll('gamma:block/silver_ore')
     .soundType('stone')

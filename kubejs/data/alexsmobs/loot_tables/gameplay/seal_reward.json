@@ -12,17 +12,6 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:water\"}"
-            }
-          ],
-          "name": "minecraft:potion"
-        },
-        {
-          "type": "minecraft:item",
           "weight": 19,
           "functions": [],
           "name": "minecraft:ink_sac"
@@ -73,69 +62,52 @@
           "name": "minecraft:clay_ball"
         },
         {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:turtle_egg"
-        },
-        {
-          "type": "minecraft:item",
+          "type": "minecraft:tag",
           "weight": 2,
-          "name": "minecraft:tube_coral"
+          "expand": true,
+          "name": "gamma:seal_reward_discs"
         },
         {
           "type": "minecraft:item",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:wet_sponge"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 8.0,
+                "max": 16.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:gravel"
+        },
+        {
+          "type": "minecraft:tag",
           "weight": 2,
-          "name": "minecraft:brain_coral"
+          "expand": true,
+          "name": "gamma:seal_reward_discs"
         },
         {
-          "type": "minecraft:item",
-          "weight": 2,
-          "name": "minecraft:bubble_coral"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 2,
-          "name": "minecraft:fire_coral"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 2,
-          "name": "minecraft:horn_coral"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:tube_coral_block"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:brain_coral_block"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:bubble_coral_block"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:fire_coral_block"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:horn_coral_block"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 2,
-          "name": "alexsmobs:lobster_bucket"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 2,
-          "name": "alexsmobs:music_disc_thime"
+          "type": "minecraft:tag",
+          "weight": 4,
+          "expand": true,
+          "name": "gamma:coral_blocks"
         },
         {
           "type": "minecraft:item",

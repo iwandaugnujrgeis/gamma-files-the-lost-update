@@ -47,16 +47,7 @@
     {
       "bonus_rolls": 0.0,
       "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "kubejs:music_disc_droopy2",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "name": "kubejs:music_disc_droopy1",
-          "weight": 1
-        },
+
         {
           "type": "minecraft:empty",
           "weight": 6
@@ -180,16 +171,6 @@
           ],
           "name": "rediscovered:quiver",
           "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "name": "quark:music_disc_fire",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "name": "quark:music_disc_clock",
-          "weight": 1
         }
       ],
       "rolls": {

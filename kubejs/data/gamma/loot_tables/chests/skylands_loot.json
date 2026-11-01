@@ -450,11 +450,6 @@
           "type": "minecraft:item",
           "name": "kubejs:music_disc_eleven",
           "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:music_disc_otherside",
-          "weight": 1
         }
       ],
       "rolls": {
