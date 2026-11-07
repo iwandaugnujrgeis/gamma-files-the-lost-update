@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "phtalo_dye",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "sweety_garden:wood_sorrel"
+    }
+  ],
+  "result": {
+    "item": "coraline_systems:phtalo_dye",
+    "count": 1
+  }
+}

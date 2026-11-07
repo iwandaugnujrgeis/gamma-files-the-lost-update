@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "silver_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:silver_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "note_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:note_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "crafttweaker:subwoofer"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "silver_ingot",
+      "note_block",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "crafttweaker:subwoofer"
+    ]
+  },
+  "sends_telemetry_event": false
+}

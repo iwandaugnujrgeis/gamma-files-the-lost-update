@@ -1,0 +1,38 @@
+{
+  "parent": "gamma:story/break_spawner",
+  "criteria": {
+    "soul_heart": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "alexsmobs:soul_heart"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "soul_heart"
+    ]
+  ],
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.gamma.story.obtain_soul_heart.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "alexsmobs:soul_heart"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.gamma.story.obtain_soul_heart.title"
+    }
+  },
+  "sends_telemetry_event": true
+}

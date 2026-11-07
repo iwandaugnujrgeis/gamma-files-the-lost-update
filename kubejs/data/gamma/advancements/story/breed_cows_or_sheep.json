@@ -1,0 +1,70 @@
+{
+  "parent": "gamma:story/plant_seed",
+  "criteria": {
+    "breed_cow": {
+      "conditions": {
+        "child": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:cow"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:bred_animals"
+    },
+    "breed_sheep": {
+      "conditions": {
+        "child": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:sheep"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:bred_animals"
+    },
+    "breed_moose": {
+      "conditions": {
+        "child": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "alexsmobs:moose"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:bred_animals"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.gamma.story.breed_cows_or_sheep.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:wheat"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.gamma.story.breed_cows_or_sheep.title"
+    }
+  },
+  "requirements": [
+    [
+      "breed_cow",
+      "breed_sheep",
+      "breed_moose"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

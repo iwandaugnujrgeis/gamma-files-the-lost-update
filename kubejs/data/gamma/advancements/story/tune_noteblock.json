@@ -1,0 +1,24 @@
+{
+  "parent": "gamma:story/redstone",
+  "criteria": {
+    "tune": {
+      "trigger": "coraline_systems:tune_note_block"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.gamma.story.tune_noteblock.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "coraline_systems:tuning_fork"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.gamma.story.tune_noteblock.title"
+    }
+  },
+  "sends_telemetry_event": true
+}

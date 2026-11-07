@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_chain": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chainmail_leggings"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_leather": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:leather_leggings"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "rediscovered:studded_leggings_from_chainmail"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_leather",
+      "has_chain",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rediscovered:studded_leggings_from_chainmail"
+    ]
+  },
+  "sends_telemetry_event": false
+}

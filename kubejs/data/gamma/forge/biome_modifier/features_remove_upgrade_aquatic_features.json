@@ -1,0 +1,6 @@
+{
+  "type": "forge:remove_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": ["upgrade_aquatic:beachgrass_dunes"],
+  "step": "vegetal_decoration"
+}

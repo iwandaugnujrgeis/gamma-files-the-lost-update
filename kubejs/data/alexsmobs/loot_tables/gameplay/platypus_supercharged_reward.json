@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:barter",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:clay_ball"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "alexsmobs:fedora"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "kubejs:music_disc_death"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "__comment": "Will dig up nearby #alexsmobs:platypus_digables blocks if fed",
+  "replace": true,
+  "values": [
+    "minecraft:redstone",
+    "minecraft:redstone_block"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "parent": "gamma:story/obtain_soul_heart",
+  "criteria": {
+    "timedust_fuel": {
+      "trigger": "coraline_systems:timedust_fuel"
+    }
+  },
+  "requirements": [
+    [
+      "timedust_fuel"
+    ]
+  ],
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.gamma.story.timedust_fuel.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "citadel:fancy_item",
+      "nbt": "{DisplayItem:\"coraline_systems:timedust\", DisplayBob:1, DisplayZoom:0, DisplayScale:1, DisplaySpin:0, DisplayShake:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.gamma.story.timedust_fuel.title"
+    }
+  },
+  "sends_telemetry_event": true
+}

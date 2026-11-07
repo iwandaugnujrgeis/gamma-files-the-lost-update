@@ -1,0 +1,44 @@
+{
+  "parent": "gamma:story/shoot_arrow",
+  "criteria": {
+    "orb": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "coraline_systems:orb"
+            }
+          }
+        ],
+        "killing_blow": {
+          "tags": [
+            {
+              "expected": true,
+              "id": "minecraft:is_projectile"
+            }
+          ]
+        }
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.gamma.story.snipe_orb.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "citadel:fancy_item",
+      "nbt": "{DisplayItem:\"coraline_systems:orb\", DisplayBob:1, DisplayZoom:0, DisplayScale:1, DisplaySpin:0, DisplayShake:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.gamma.story.snipe_orb.title"
+    }
+  },
+  "sends_telemetry_event": true
+}

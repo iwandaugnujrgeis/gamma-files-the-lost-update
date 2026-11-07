@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_colored_terracotta_slabs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "gamma:colored_terracotta_slabs"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_colored_terracotta_slabs"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "crafttweaker:terracotta_slabs_clean_bulk",
+      "crafttweaker:terracotta_slabs_clean_shapeless"
+    ]
+  },
+  "sends_telemetry_event": false
+}

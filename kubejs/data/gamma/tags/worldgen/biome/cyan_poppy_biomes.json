@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#rediscovered:is_skylands",
+    "#minecraft:is_overworld"
+  ]
+}

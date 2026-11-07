@@ -1,0 +1,16 @@
+{
+  "com.terraformersmc.mod_menu.gui.ModsScreen": false,
+  "furnace_screen": true,
+  "mouse_settings_screen": false,
+  "fuzs.forgeconfigscreens.client.gui.screens.SelectConfigScreen": false,
+  "options_screen": false,
+  "generic_dirt_message_screen": false,
+  "stats_screen": false,
+  "video_settings_screen": true,
+  "sound_options_screen": true,
+  "creative_mode_inventory_screen": false,
+  "inventory_screen": false,
+  "skin_customization_screen": false,
+  "dev.arbor.extrasoundsnext.gui.CustomSoundOptionsScreen": true,
+  "net.minecraftforge.client.gui.ModListScreen": false
+}

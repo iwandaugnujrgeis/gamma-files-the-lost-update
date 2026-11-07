@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:oak_log"
+    },
+    "title": {
+      "translate": "advancements.gamma.story.getting_wood.title"
+    },
+    "description": {
+      "translate": "advancements.gamma.story.getting_wood.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "gamma:story/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:logs"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_silver_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:silver_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_silver_nugget": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:silver_nugget"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_gunpowder": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gunpowder"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "crafttweaker:silver_bomb"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_silver_nugget",
+      "has_silver_ingot",
+      "has_gunpowder",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "crafttweaker:silver_bomb"
+    ]
+  },
+  "sends_telemetry_event": false
+}

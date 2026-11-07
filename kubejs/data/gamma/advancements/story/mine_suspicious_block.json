@@ -1,0 +1,38 @@
+{
+  "parent": "gamma:story/craft_diamond_pickaxe",
+  "criteria": {
+    "dimensional_shard": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "coraline_systems:dimensional_shard"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.gamma.story.mine_suspicious_block.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "coraline_systems:suspicious_block"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.gamma.story.mine_suspicious_block.title"
+    }
+  },
+  "requirements": [
+    [
+      "dimensional_shard"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,9 @@
+{
+  "type": "forge:remove_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "spelunkery:nephrite_geode",
+    "spelunkery:noise_iron"
+  ],
+  "step": "underground_ores"
+}

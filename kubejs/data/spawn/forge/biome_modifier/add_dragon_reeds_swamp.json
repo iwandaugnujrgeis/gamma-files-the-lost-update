@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "gamma:null",
+  "features": "spawn:patch_dragon_reeds_swamp",
+  "step": "vegetal_decoration"
+}

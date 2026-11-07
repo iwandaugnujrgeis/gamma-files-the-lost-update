@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": "gamma:null",
+  "features": [
+    "spelunkery:portal_fluid_pool",
+    "spelunkery:portal_fluid_spring"
+  ],
+  "step": "surface_structures"
+}

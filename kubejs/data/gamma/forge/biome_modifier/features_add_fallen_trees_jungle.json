@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": 
+  [
+    "minecraft:jungle"
+  ],
+  "features": "coraline_systems:fallen_trees_jungle",
+  "step": "surface_structures"
+}

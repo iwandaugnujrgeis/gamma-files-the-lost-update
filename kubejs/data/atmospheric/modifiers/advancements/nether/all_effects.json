@@ -1,0 +1,19 @@
+{
+  "modifiers": [
+    {
+      "type": "effects_changed",
+      "config": {
+        "criteria": "all_effects",
+        "effects": {
+          "atmospheric:persistence": {},
+          "atmospheric:relief": {},
+          "atmospheric:spitting": {},
+          "atmospheric:worsening": {}
+        },
+        "removes": false
+      }
+    }
+  ],
+  "priority": "normal",
+  "selector": "minecraft:empty_loot_table_that_does_not_exist"
+}
