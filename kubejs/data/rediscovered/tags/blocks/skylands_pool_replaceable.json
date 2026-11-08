@@ -1,0 +1,10 @@
+{
+  "replace": true,
+  "values": [
+    "#minecraft:overworld_carver_replaceables",
+    "#forge:ores",
+    "minecraft:andesite",
+    "minecraft:podzol",
+    "minecraft:coarse_dirt"
+  ]
+}

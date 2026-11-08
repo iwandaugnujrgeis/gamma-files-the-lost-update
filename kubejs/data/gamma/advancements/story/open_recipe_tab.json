@@ -1,0 +1,27 @@
+{
+  "parent": "gamma:story/take_inventory",
+  "display": {
+    "icon": { 
+      "item": "minecraft:knowledge_book" 
+    },
+    "title": {
+      "translate": "advancements.gamma.story.open_recipe_tab.title"
+    },
+    "description": {
+      "translate": "advancements.gamma.story.open_recipe_tab.description",
+        "with": [
+          { "keybind": "key.coraline_systems.toggle_recipe_book" 
+        }
+      ]
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "open_recipe_book": { 
+    "trigger": "coraline_systems:open_recipe_book" 
+    }
+  }
+}

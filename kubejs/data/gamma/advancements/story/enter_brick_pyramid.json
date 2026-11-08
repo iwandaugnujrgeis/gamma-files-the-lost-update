@@ -1,0 +1,43 @@
+{
+  "parent": "gamma:story/find_ruby",
+  "criteria": {
+    "in_structure": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "rediscovered:brick_pyramid"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.gamma.story.enter_brick_pyramid.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "rediscovered:ruby_eye",
+      "nbt": "{texture_index:0b}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.gamma.story.enter_brick_pyramid.title"
+    }
+  },
+  "requirements": [
+    [
+      "in_structure"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

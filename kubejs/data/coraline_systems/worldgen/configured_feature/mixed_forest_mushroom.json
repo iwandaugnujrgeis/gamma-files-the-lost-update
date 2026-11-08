@@ -1,0 +1,33 @@
+{
+  "type": "coraline_systems:mixed_mushroom",
+  "config": {
+    "state_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 4,
+          "data": {
+            "Name": "minecraft:brown_mushroom"
+          }
+        },
+        {
+          "weight": 3,
+          "data": {
+            "Name": "minecraft:red_mushroom"
+          }
+        },
+        {
+          "weight": 2,
+          "data": {
+            "Name": "coraline_systems:white_mushroom"
+          }
+        }
+      ]
+    },
+    "tries": 192,
+    "xz_spread": 8,
+    "y_spread": 3,
+    "max_light": 15,
+    "require_canopy": true
+  }
+}

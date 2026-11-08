@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "gamma:null",
+  "spawners": [
+    {
+      "type": "spawn:herring",
+      "maxCount": 50,
+      "minCount": 20,
+      "weight": 15
+    }
+  ]
+}

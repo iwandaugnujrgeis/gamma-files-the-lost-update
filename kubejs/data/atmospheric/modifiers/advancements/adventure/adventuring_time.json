@@ -1,0 +1,282 @@
+{
+  "modifiers": [
+    {
+      "type": "criteria",
+      "config": {
+        "criteria": {
+          "atmospheric:atmospheric:aspen_parkland": {
+            "conditions": {
+              "player": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "location": {
+                      "biome": "atmospheric:aspen_parkland"
+                    }
+                  }
+                }
+              ]
+            },
+            "trigger": "minecraft:location"
+          },
+          "atmospheric:atmospheric:dunes": {
+            "conditions": {
+              "player": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "location": {
+                      "biome": "atmospheric:dunes"
+                    }
+                  }
+                }
+              ]
+            },
+            "trigger": "minecraft:location"
+          },
+          "atmospheric:atmospheric:flourishing_dunes": {
+            "conditions": {
+              "player": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "location": {
+                      "biome": "atmospheric:flourishing_dunes"
+                    }
+                  }
+                }
+              ]
+            },
+            "trigger": "minecraft:location"
+          },
+          "atmospheric:atmospheric:kousa_jungle": {
+            "conditions": {
+              "player": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "location": {
+                      "biome": "atmospheric:kousa_jungle"
+                    }
+                  }
+                }
+              ]
+            },
+            "trigger": "minecraft:location"
+          },
+          "atmospheric:atmospheric:laurel_forest": {
+            "conditions": {
+              "player": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "location": {
+                      "biome": "atmospheric:laurel_forest"
+                    }
+                  }
+                }
+              ]
+            },
+            "trigger": "minecraft:location"
+          },
+          "atmospheric:atmospheric:petrified_dunes": {
+            "conditions": {
+              "player": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "location": {
+                      "biome": "atmospheric:petrified_dunes"
+                    }
+                  }
+                }
+              ]
+            },
+            "trigger": "minecraft:location"
+          },
+          "atmospheric:atmospheric:rainforest": {
+            "conditions": {
+              "player": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "location": {
+                      "biome": "atmospheric:rainforest"
+                    }
+                  }
+                }
+              ]
+            },
+            "trigger": "minecraft:location"
+          },
+          "atmospheric:atmospheric:rainforest_basin": {
+            "conditions": {
+              "player": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "location": {
+                      "biome": "atmospheric:rainforest_basin"
+                    }
+                  }
+                }
+              ]
+            },
+            "trigger": "minecraft:location"
+          },
+          "atmospheric:atmospheric:rocky_dunes": {
+            "conditions": {
+              "player": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "location": {
+                      "biome": "atmospheric:rocky_dunes"
+                    }
+                  }
+                }
+              ]
+            },
+            "trigger": "minecraft:location"
+          },
+          "atmospheric:atmospheric:scrubland": {
+            "conditions": {
+              "player": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "location": {
+                      "biome": "atmospheric:scrubland"
+                    }
+                  }
+                }
+              ]
+            },
+            "trigger": "minecraft:location"
+          },
+          "atmospheric:atmospheric:snowy_scrubland": {
+            "conditions": {
+              "player": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "location": {
+                      "biome": "atmospheric:snowy_scrubland"
+                    }
+                  }
+                }
+              ]
+            },
+            "trigger": "minecraft:location"
+          },
+          "atmospheric:atmospheric:sparse_rainforest": {
+            "conditions": {
+              "player": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "location": {
+                      "biome": "atmospheric:sparse_rainforest"
+                    }
+                  }
+                }
+              ]
+            },
+            "trigger": "minecraft:location"
+          },
+          "atmospheric:atmospheric:sparse_rainforest_basin": {
+            "conditions": {
+              "player": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "location": {
+                      "biome": "atmospheric:sparse_rainforest_basin"
+                    }
+                  }
+                }
+              ]
+            },
+            "trigger": "minecraft:location"
+          },
+          "atmospheric:atmospheric:spiny_thicket": {
+            "conditions": {
+              "player": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "location": {
+                      "biome": "atmospheric:spiny_thicket"
+                    }
+                  }
+                }
+              ]
+            },
+            "trigger": "minecraft:location"
+          }
+        },
+        "requirements": [
+          [
+            "atmospheric:atmospheric:rainforest"
+          ],
+          [
+            "atmospheric:atmospheric:sparse_rainforest"
+          ],
+          [
+            "atmospheric:atmospheric:rainforest_basin"
+          ],
+          [
+            "atmospheric:atmospheric:sparse_rainforest_basin"
+          ],
+          [
+            "atmospheric:atmospheric:dunes"
+          ],
+          [
+            "atmospheric:atmospheric:flourishing_dunes"
+          ],
+          [
+            "atmospheric:atmospheric:rocky_dunes"
+          ],
+          [
+            "atmospheric:atmospheric:petrified_dunes"
+          ],
+          [
+            "atmospheric:atmospheric:spiny_thicket"
+          ],
+          [
+            "atmospheric:atmospheric:scrubland"
+          ],
+          [
+            "atmospheric:atmospheric:snowy_scrubland"
+          ],
+          [
+            "atmospheric:atmospheric:aspen_parkland"
+          ],
+          [
+            "atmospheric:atmospheric:laurel_forest"
+          ],
+          [
+            "atmospheric:atmospheric:kousa_jungle"
+          ]
+        ],
+        "should_replace_requirements": false
+      }
+    }
+  ],
+  "priority": "normal",
+  "selector": "minecraft:empty_loot_table_that_does_not_exist"
+}

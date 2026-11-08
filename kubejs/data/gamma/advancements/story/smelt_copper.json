@@ -1,0 +1,29 @@
+{
+  "parent": "gamma:story/craft_furnace",
+  "criteria": {
+    "requirement": {
+      "trigger": "coraline_systems:player_smelted",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:copper_ingot"]
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.gamma.story.smelt_copper.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:copper_ingot"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.gamma.story.smelt_copper.title"
+    }
+  },
+  "sends_telemetry_event": true
+}

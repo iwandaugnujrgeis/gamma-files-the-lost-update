@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "type": "spawn:deep_coral_anemone",
+          "config": {}
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "spawn:deep_coral_arch",
+          "config": {}
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "spawn:deep_coral_cup",
+          "config": {}
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "spawn:deep_coral_tree",
+          "config": {}
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "spawn:deep_coral_urchin",
+          "config": {}
+        },
+        "placement": []
+      }
+    ]
+  }
+}

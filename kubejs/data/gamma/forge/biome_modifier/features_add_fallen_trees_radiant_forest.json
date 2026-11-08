@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": 
+  [
+    "gamma:radiant_forest"
+  ],
+  "features": "coraline_systems:fallen_trees_radiant_forest",
+  "step": "surface_structures"
+}

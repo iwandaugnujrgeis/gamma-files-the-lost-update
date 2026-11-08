@@ -1,0 +1,9 @@
+{
+  "values": [
+    "minecraft:lukewarm_ocean",
+    "minecraft:deep_lukewarm_ocean",
+    "minecraft:warm_ocean",
+    "spawn:deep_warm_ocean",
+    "spawn:seagrass_meadow"
+  ]
+}

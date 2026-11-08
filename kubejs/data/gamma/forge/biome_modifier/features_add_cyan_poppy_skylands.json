@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#gamma:cyan_poppy_biomes",
+  "features": [
+    "sweety_garden:cyan_poppy_patchs"
+  ],
+  "step": "vegetal_decoration"
+}

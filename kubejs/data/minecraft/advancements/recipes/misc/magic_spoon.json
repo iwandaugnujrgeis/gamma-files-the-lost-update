@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "silver_nugget": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:silver_nugget"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "silver_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:silver_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "crafttweaker:magic_spoon"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "silver_nugget",
+      "silver_ingot",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "crafttweaker:magic_spoon"
+    ]
+  },
+  "sends_telemetry_event": false
+}

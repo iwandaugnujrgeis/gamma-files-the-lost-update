@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "gamma:mega_radiant_tree_checked",
+    "features": []
+  }
+}

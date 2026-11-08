@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "W": {
+      "tag": "minecraft:wooden_slabs"
+    }
+  },
+  "pattern": [
+    "I I",
+    "WWW"
+  ],
+  "result": {
+    "count": 3,
+    "item": "rediscovered:spikes"
+  },
+  "show_notification": true
+}

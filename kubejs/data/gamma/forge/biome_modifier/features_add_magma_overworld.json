@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "gamma:null",
+  "features": "gamma:ore_magma",
+  "step": "underground_ores"
+}

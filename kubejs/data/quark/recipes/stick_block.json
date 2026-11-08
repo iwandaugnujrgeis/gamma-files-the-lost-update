@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "quark:stick_block"
+  },
+  "conditions": [
+    {
+      "type": "quark:flag",
+      "flag": "stick_block"
+    }
+  ]
+}

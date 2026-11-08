@@ -1,0 +1,10 @@
+{
+  "values": [
+    "spelunkery:diamond_grindstone",
+    "minecraft:spawner",
+    "minecraft:budding_amethyst",
+    "minecraft:reinforced_deepslate",
+    "#minecraft:slabs",
+    "#minecraft:doors"
+  ]
+}

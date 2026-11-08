@@ -1,0 +1,34 @@
+{
+  "rewards": {
+    "recipes": [
+      "crafttweaker:flute"
+    ]
+  },
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "crafttweaker:flute"
+      }
+    },
+    "has_bamboo": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bamboo"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_bamboo",
+      "has_the_recipe"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

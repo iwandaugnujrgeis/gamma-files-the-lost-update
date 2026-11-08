@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "gamma:old_woods",
+    "minecraft:dark_forest",
+    "minecraft:swamp",
+    "minecraft:taiga"
+  ],
+  "features": "coraline_systems:mixed_forest_mushroom",
+  "step": "vegetal_decoration"
+}

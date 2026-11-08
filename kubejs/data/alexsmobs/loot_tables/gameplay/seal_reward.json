@@ -1,0 +1,145 @@
+{
+  "type": "minecraft:barter",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 4,
+          "quality": -2,
+          "name": "minecraft:gameplay/fishing/junk"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 19,
+          "functions": [],
+          "name": "minecraft:ink_sac"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 60,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 10.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:sand"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 60,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2.0,
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:kelp"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 5.0,
+                "max": 32.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:clay_ball"
+        },
+        {
+          "type": "minecraft:tag",
+          "weight": 2,
+          "expand": true,
+          "name": "gamma:seal_reward_discs"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:wet_sponge"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 8.0,
+                "max": 16.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:gravel"
+        },
+        {
+          "type": "minecraft:tag",
+          "weight": 2,
+          "expand": true,
+          "name": "gamma:seal_reward_discs"
+        },
+        {
+          "type": "minecraft:tag",
+          "weight": 4,
+          "expand": true,
+          "name": "gamma:coral_blocks"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:wet_sponge"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 8.0,
+                "max": 16.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:gravel"
+        }
+      ]
+    }
+  ]
+}

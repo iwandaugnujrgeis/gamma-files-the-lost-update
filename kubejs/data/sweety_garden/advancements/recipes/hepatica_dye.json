@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_hepatica": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sweety_garden:hepatica"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "sweety_garden:hepatica_dye"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_hepatica",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "sweety_garden:hepatica_dye"
+    ]
+  },
+  "sends_telemetry_event": false
+}
