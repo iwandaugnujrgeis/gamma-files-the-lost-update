@@ -1,0 +1,11 @@
+{
+  "replace": true,
+  "values": [
+    "coraline_systems:banana",
+    "coraline_systems:mango",
+    "kubejs:banana_bread",
+    "minecraft:sugar_cane",
+    "coraline_systems:apple",
+    "minecraft:bamboo"
+  ]
+}

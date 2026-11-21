@@ -1,0 +1,24 @@
+{
+  "parent": "gamma:story/snipe_orb",
+  "criteria": {
+    "corrupt_portal": {
+      "trigger": "coraline_systems:orb_insert"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.gamma.story.centrifuge.description"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "coraline_systems:centrifuge"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.gamma.story.centrifuge.title"
+    }
+  },
+  "sends_telemetry_event": true
+}

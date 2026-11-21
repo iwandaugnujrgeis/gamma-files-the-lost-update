@@ -1,0 +1,14 @@
+{
+  "type": "supplementaries:bubble_blower_charge",
+  "category": "equipment",
+  "conditions": [
+    {
+      "type": "supplementaries:flag",
+      "flag": "bubble_blower"
+    },
+    {
+      "type": "supplementaries:flag",
+      "flag": "soap"
+    }
+  ]
+}

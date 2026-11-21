@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:honeycomb",
+    "minecraft:sweet_berries",
+    "minecraft:sugar",
+    "coraline_systems:walnut"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "group": "studded_leggings",
+  "ingredients": [
+    {
+      "item": "minecraft:leather_leggings"
+    },
+    {
+      "item": "minecraft:chainmail_leggings"
+    }
+  ],
+  "result": {
+    "item": "rediscovered:studded_leggings"
+  }
+}

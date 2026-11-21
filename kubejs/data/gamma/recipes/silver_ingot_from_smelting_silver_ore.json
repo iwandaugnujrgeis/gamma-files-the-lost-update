@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "group": "silver_ingots",
+  "ingredient": {
+    "item": "kubejs:silver_ore"
+  },
+  "result": "kubejs:silver_ingot",
+  "experience": 0.7,
+  "cookingtime": 200
+}

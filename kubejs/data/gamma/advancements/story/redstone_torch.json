@@ -1,0 +1,33 @@
+{
+  "parent": "gamma:story/redstone",
+  "criteria": {
+    "redstone_torch": {
+      "conditions": {
+        "location": [
+          {
+            "block": "minecraft:redstone_torch",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.gamma.story.redstone_torch.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "citadel:fancy_item",
+      "nbt": "{DisplayItem:\"minecraft:redstone_torch\", DisplayBob:1, DisplayZoom:0, DisplayScale:1, DisplaySpin:0, DisplayShake:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.gamma.story.redstone_torch.title"
+    }
+  },
+  "sends_telemetry_event": true
+}

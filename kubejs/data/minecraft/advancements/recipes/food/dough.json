@@ -1,0 +1,41 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_wheat_flour": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:wheat_flour"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_water_bucket": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:water_bucket"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_wheat_flour",
+      "has_water_bucket"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "crafttweaker:dough"
+    ]
+  },
+  "sends_telemetry_event": false
+}

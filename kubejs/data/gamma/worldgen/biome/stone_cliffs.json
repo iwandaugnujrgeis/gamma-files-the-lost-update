@@ -1,0 +1,166 @@
+{
+  "carvers": {},
+  "creature_spawn_probability": 0.07,
+  "downfall": 0.6,
+  "effects": {
+    "fog_color": 0,
+    "foliage_color": 5242667,
+    "grass_color": 11272039,
+    "sky_color": 0,
+    "water_color": 4610815,
+    "water_fog_color": 329011
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:delta"
+    ],
+    [],
+    [],
+    [
+      "minecraft:spring_delta",
+      "minecraft:patch_fire",
+      "minecraft:brown_mushroom_nether",
+      "minecraft:red_mushroom_nether",
+      "minecraft:spring_closed_double"
+    ]
+  ],
+  "has_precipitation": false,
+  "spawn_costs": {
+    "minecraft:blaze": {
+      "charge": 0.5,
+      "energy_budget": 0.12
+    },
+    "rediscovered:zombie_pigman": {
+      "charge": 0.5,
+      "energy_budget": 0.12
+    },
+    "minecraft:ghast": {
+      "charge": 0.5,
+      "energy_budget": 0.12
+    },
+    "minecraft:skeleton": {
+      "charge": 0.5,
+      "energy_budget": 0.12
+    },
+    "minecraft:zombie": {
+      "charge": 0.5,
+      "energy_budget": 0.12
+    },
+    "minecraft:spider": {
+      "charge": 0.5,
+      "energy_budget": 0.12
+    },
+    "minecraft:slime": {
+      "charge": 0.5,
+      "energy_budget": 0.12
+    }
+  },
+  "spawners": {
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "maxCount": 8,
+        "minCount": 8,
+        "weight": 10
+      }
+    ],
+    "axolotls": [],
+    "creature": [
+      {
+        "type": "minecraft:pig",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 10
+      },
+      {
+        "type": "minecraft:chicken",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 10
+      },
+      {
+        "type": "minecraft:sheep",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 8
+      },
+      {
+        "type": "minecraft:cow",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 8
+      },
+      {
+        "type": "minecraft:wolf",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 5
+      }
+    ],
+    "misc": [],
+    "monster": [
+      {
+        "type": "minecraft:ghast",
+        "maxCount": 3,
+        "minCount": 1,
+        "weight": 150
+      },
+      {
+        "type": "rediscovered:zombie_pigman",
+        "maxCount": 6,
+        "minCount": 3,
+        "weight": 100
+      },
+      {
+        "type": "minecraft:wither_skeleton",
+        "maxCount": 3,
+        "minCount": 1,
+        "weight": 10
+      },
+      {
+        "type": "minecraft:spider",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 100
+      },
+      {
+        "type": "minecraft:zombie",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 95
+      },
+      {
+        "type": "minecraft:skeleton",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 100
+      },
+      {
+        "type": "minecraft:creeper",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 100
+      },
+      {
+        "type": "minecraft:slime",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 100
+      },
+      {
+        "type": "minecraft:enderman",
+        "maxCount": 4,
+        "minCount": 1,
+        "weight": 10
+      }
+    ],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "temperature": 0.6
+}

@@ -1,0 +1,23 @@
+{
+  "parent": "gamma:story/redstone_torch",
+  "criteria": {
+    "requirement": {
+      "trigger": "coraline_systems:repeater_max_delay"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.gamma.story.repeater.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:repeater"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.gamma.story.repeater.title"
+    }
+  }
+}

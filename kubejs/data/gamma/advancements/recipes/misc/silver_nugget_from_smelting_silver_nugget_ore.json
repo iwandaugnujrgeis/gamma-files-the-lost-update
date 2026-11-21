@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_silver_nugget_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:silver_nugget_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "gamma:silver_nugget_from_smelting_silver_nugget_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_silver_nugget_ore",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "gamma:silver_nugget_from_smelting_silver_nugget_ore"
+    ]
+  },
+  "sends_telemetry_event": false
+}

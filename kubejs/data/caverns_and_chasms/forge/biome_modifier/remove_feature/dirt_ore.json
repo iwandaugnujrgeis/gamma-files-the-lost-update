@@ -1,0 +1,6 @@
+{
+  "type": "forge:remove_features",
+  "biomes": [],
+  "features": "minecraft:ore_dirt",
+  "steps": "underground_ores"
+}

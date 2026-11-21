@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "silver_ingots",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "kubejs:silver_nugget"
+    }
+  },
+  "result": {
+    "item": "kubejs:silver_ingot"
+  }
+}

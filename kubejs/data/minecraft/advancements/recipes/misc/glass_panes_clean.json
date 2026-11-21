@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_colored_glass_panes": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "gamma:colored_glass_panes"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_colored_glass_panes"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "crafttweaker:glass_panes_clean_bulk",
+      "crafttweaker:glass_panes_clean_shapeless"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,37 @@
+{
+  "parent": "gamma:story/enter_skylands",
+  "display": {
+    "icon": {
+      "item": "kubejs:raw_silver"
+    },
+    "title": {
+      "translate": "advancements.gamma.story.silver_ingot.title"
+    },
+    "description": {
+      "translate": "advancements.gamma.story.silver_ingot.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "mine_silver": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:raw_silver"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "mine_silver"
+    ]
+  ]
+}

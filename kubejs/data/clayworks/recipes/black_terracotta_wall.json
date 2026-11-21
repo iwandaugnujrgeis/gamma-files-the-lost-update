@@ -1,0 +1,32 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "clayworks:config",
+          "value": "terracotta_variants"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "building",
+        "group": "terracotta_wall",
+        "key": {
+          "#": {
+            "item": "minecraft:black_terracotta"
+          }
+        },
+        "pattern": [
+          "###",
+          "###"
+        ],
+        "result": {
+          "count": 6,
+          "item": "clayworks:black_terracotta_wall"
+        },
+        "show_notification": true
+      }
+    }
+  ]
+}

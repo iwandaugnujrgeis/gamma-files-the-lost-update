@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "group": "studded_boots",
+  "ingredients": [
+    {
+      "item": "minecraft:leather_boots"
+    },
+    {
+      "item": "minecraft:chainmail_boots"
+    }
+  ],
+  "result": {
+    "item": "rediscovered:studded_boots"
+  }
+}

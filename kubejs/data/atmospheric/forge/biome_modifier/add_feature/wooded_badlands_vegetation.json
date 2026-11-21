@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": "gamma:null",
+  "features": [
+    "atmospheric:badlands_yucca_trees",
+    "atmospheric:patch_agave_wooded_badlands"
+  ],
+  "step": "vegetal_decoration"
+}

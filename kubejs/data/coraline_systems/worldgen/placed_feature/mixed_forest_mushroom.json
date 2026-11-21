@@ -1,0 +1,22 @@
+{
+  "feature": "coraline_systems:mixed_forest_mushroom",
+  "placement": [
+    { "type": "minecraft:rarity_filter", "chance": 2 },
+    { "type": "minecraft:in_square" },
+    { "type": "minecraft:heightmap", "heightmap": "WORLD_SURFACE_WG" },
+    {
+      "type": "minecraft:environment_scan",
+      "direction_of_search": "down",
+      "max_steps": 32,
+      "target_condition": { "type": "minecraft:solid" },
+      "allowed_search_condition": {
+        "type": "minecraft:any_of",
+        "predicates": [
+          { "type": "minecraft:matching_blocks", "blocks": "minecraft:air" },
+          { "type": "minecraft:matching_block_tag", "tag": "minecraft:leaves" }
+        ]
+      }
+    },
+    { "type": "minecraft:biome" }
+  ]
+}

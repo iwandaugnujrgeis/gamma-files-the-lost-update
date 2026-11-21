@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_features",
+  "biomes": 
+  [
+    "minecraft:ocean",
+    "minecraft:deep_ocean"
+  ],
+  "features": "coraline_systems:fallen_tree_rosewood",
+  "step": "surface_structures"
+}

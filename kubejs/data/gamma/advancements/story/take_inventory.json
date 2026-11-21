@@ -1,0 +1,30 @@
+{
+  "parent": "gamma:story/root",
+  "criteria": {
+      "open_inventory": {
+      "trigger": "coraline_systems:open_inventory"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.gamma.story.take_inventory.description",
+      "with": [
+        { 
+          "keybind": "key.inventory" 
+        }
+      ]
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "citadel:fancy_item",
+      "nbt": "{DisplayItem:\"minecraft:book\", DisplayBob:1, DisplayZoom:0, DisplayScale:1, DisplaySpin:0, DisplayShake:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.gamma.story.take_inventory.title"
+    }
+  },
+  "sends_telemetry_event": true
+}

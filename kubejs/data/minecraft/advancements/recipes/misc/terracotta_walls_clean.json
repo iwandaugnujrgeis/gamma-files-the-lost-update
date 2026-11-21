@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_colored_terracotta_walls": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "gamma:colored_terracotta_walls"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_colored_terracotta_walls"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "crafttweaker:terracotta_walls_clean_bulk",
+      "crafttweaker:terracotta_walls_clean_shapeless"
+    ]
+  },
+  "sends_telemetry_event": false
+}

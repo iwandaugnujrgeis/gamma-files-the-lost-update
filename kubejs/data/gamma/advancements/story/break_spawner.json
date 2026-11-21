@@ -1,0 +1,38 @@
+{
+  "parent": "gamma:story/upgrade_tools",
+  "criteria": {
+    "cobalt": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:cobalt"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cobalt"
+    ]
+  ],
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.gamma.story.break_spawner.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "kubejs:cobalt"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.gamma.story.break_spawner.title"
+    }
+  },
+  "sends_telemetry_event": true
+}

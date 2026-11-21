@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "minecraft:mega_jungle_tree_variant",
+    "features": [
+      {
+        "chance": 0.4,
+        "feature": "gamma:trees/kapok_tree"
+      }
+    ]
+  }
+}

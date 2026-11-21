@@ -1,0 +1,8 @@
+{
+  "type": "forge:remove_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "minecraft:large_dripstone"
+  ],
+  "step": "local_modifications"
+}

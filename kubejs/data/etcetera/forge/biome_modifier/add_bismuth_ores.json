@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "gamma:null",
+  "features": [
+    "etcetera:nether_bismuth_ore"
+  ],
+  "step": "underground_ores"
+}

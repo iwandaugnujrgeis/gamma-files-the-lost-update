@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "group": "copper_nuggets",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "item": "kubejs:copper_pickaxe"
+    },
+    {
+      "item": "kubejs:copper_shovel"
+    },
+    {
+      "item": "kubejs:copper_axe"
+    },
+    {
+      "item": "kubejs:copper_hoe"
+    },
+    {
+      "item": "kubejs:copper_sword"
+    }
+  ],
+  "result": "spelunkery:copper_nugget"
+}

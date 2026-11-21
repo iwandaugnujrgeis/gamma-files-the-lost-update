@@ -1,0 +1,34 @@
+{
+  "parent": "gamma:story/smelt_iron",
+  "criteria": {
+    "ride_far": {
+      "trigger": "coraline_systems:stat_threshold",
+      "conditions": {
+        "stat_type": "minecraft:custom",
+        "stat": "minecraft:minecart_one_cm",
+        "min": 1000000
+      }
+    }
+  },
+  "requirements": [
+    [
+      "ride_far"
+    ]
+  ],
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.gamma.story.on_the_rail.description"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:rail"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.gamma.story.on_the_rail.title"
+    }
+  },
+  "sends_telemetry_event": true
+}

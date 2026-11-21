@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "gamma:null",
+  "features": "atmospheric:patch_water_hyacinth",
+  "step": "vegetal_decoration"
+}

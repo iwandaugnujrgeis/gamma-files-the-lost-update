@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "gamma:null",
+  "features": "atmospheric:desert_yucca_trees",
+  "step": "vegetal_decoration"
+}

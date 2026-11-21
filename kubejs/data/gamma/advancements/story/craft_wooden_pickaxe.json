@@ -1,0 +1,29 @@
+{
+  "parent": "gamma:story/benchmarking",
+  "display": {
+    "icon": {
+      "item": "minecraft:wooden_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.gamma.story.craft_wooden_pickaxe.title"
+    },
+    "description": {
+      "translate": "advancements.gamma.story.craft_wooden_pickaxe.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "coraline_systems:player_crafted",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:wooden_pickaxe"]
+        }
+      }
+    }
+  },
+  "sends_telemetry_event": true
+}

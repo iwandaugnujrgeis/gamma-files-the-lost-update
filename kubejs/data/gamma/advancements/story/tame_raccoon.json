@@ -1,0 +1,40 @@
+{
+  "parent": "gamma:story/breed_chickens",
+  "criteria": {
+    "tame_raccoon": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "alexsmobs:raccoon"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "tame_raccoon"
+    ]
+  ],
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.gamma.story.tame_raccoon.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "kubejs:fried_egg"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.gamma.story.tame_raccoon.title"
+    }
+  },
+  "sends_telemetry_event": true
+}

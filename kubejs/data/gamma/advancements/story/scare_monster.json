@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "item": "citadel:fancy_item",
+      "nbt": "{DisplayItem:\"rediscovered:plate_chestplate\", DisplayBob:0, DisplayZoom:0, DisplayScale:1, DisplaySpin:0, DisplayShake:1}"
+    },
+    "title": {
+      "translate": "advancements.gamma.story.scare_monster.title"
+    },
+    "description": {
+      "translate": "advancements.gamma.story.scare_monster.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "gamma:story/silver_ingot",
+  "criteria": {
+    "scare_monster": {
+      "trigger": "coraline_systems:scare_monster"
+    }
+  }
+}

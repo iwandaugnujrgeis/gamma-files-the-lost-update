@@ -1,0 +1,9 @@
+*
+!.gitignore
+!/config/
+!/config/**
+!/kubejs/
+!/kubejs/**
+!/scripts/
+!/scripts/**
+!/options.txt

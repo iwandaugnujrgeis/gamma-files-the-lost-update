@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "group": "silver_nuggets",
+  "ingredient": {
+    "item": "kubejs:silver_nugget_ore"
+  },
+  "result": "kubejs:silver_nugget",
+  "experience": 0.1,
+  "cookingtime": 200
+}

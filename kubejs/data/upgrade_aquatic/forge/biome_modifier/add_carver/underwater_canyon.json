@@ -1,0 +1,6 @@
+{
+  "type": "upgrade_aquatic:add_carvers",
+  "biomes": "gamma:null",
+  "carvers": "upgrade_aquatic:underwater_canyon",
+  "step": "air"
+}
